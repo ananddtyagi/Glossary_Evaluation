@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import sys
 import json
 
-url = sys.argv[1]
-# url = https://en.wikipedia.org/wiki/Glossary_of_calculus
+topic = sys.argv[1].lower()
+url = "https://en.wikipedia.org/wiki/Glossary_of_" + topic
 page = urllib.request.urlopen(url)
 soup = BeautifulSoup(page, "lxml")
 
@@ -31,7 +31,7 @@ for i in range(len(terms)):
 
     final_list.append(obj)
 
-with open('output.txt', 'w') as outfile:
+with open(topic + '.txt', 'w') as outfile:
     json.dump(final_list, outfile)
 
 for i, e in enumerate(final_list):
