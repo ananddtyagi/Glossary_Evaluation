@@ -31,6 +31,9 @@ for i in range(len(terms)):
 
     final_list.append(obj)
 
-with open(sys.argv[2] + '.txt', 'w') as outfile:
+with open('output.txt', 'w') as outfile:
     json.dump(final_list, outfile)
 
+for i, e in enumerate(final_list):
+    if "(" in e['standard']['definition'] and "\n\n" in e['standard']['definition']:
+        print(i,": ",e)
