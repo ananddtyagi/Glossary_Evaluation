@@ -1,0 +1,22 @@
+﻿Arc suppression
+
+Arc suppression is the reduction of sparks formed when current-carrying contacts are separated. The spark is a luminous discharge of highly energized electrons and ions, and is an electric arc.
+
+There are several possible areas of use of arc suppression methods, among them metal film deposition and sputtering, arc flash protection, electrostatic processes where electrical arcs are not desired (such as powder painting, air purification, PVDF film poling) and contact current arc suppression. In industrial, military and consumer electronic design, the latter method generally applies to devices such as electromechanical power switches, relays and contactors. In this context, arc suppression is contact protection.
+
+Every time an electrical power device (for example: heaters, lamps, motors, transformers or similar power loads) turns on or off, its switch, relay or contactor transitions either from a closed to an open state (break arc) or from an open to a closed state (make arc & bounce arc), under load, an electrical arc occurs between the two contact points (electrodes) of the switch. The break arc is typically more energetic and thus more destructive.
+
+The temperature of the resulting electric arc is very high (tens of thousands of degrees), causing the metal on the contact surfaces to melt, pool and migrate with the current. The high temperature of the arc cracks the surrounding gas molecules creating ozone, carbon monoxide, and other compounds. The arc energy slowly destroys the contact metal, causing some material to escape into the air as fine particulate matter. This very activity causes the material in the contacts to degrade quickly, resulting in device failure.
+
+Arc suppression is an area of interest in engineering because of the destructive effects of the electrical arc to electromechanical power switches, relays and contactors’ points of contact.
+
+The efficacy of an arc suppression solution for contact protection can be assessed, by comparing the arc intensity with the help of the following methods:
+
+
+Common devices used to prevent arcs are capacitors, snubbers, diodes, Zener diodes, varistors, and transient voltage suppressors. Contact arc suppression solutions that are considered more effective:
+
+Arc suppression techniques can produce a number of benefits: 
+
+
+
+

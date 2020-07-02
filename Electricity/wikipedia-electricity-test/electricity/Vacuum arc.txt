@@ -1,0 +1,11 @@
+﻿Vacuum arc
+
+A vacuum arc can arise when the surfaces of metal electrodes in contact with a good vacuum begin to emit electrons either through heating (thermionic emission) or in an electric field that is sufficient to cause field electron emission. Once initiated, a vacuum arc can persist, since the freed particles gain kinetic energy from the electric field, heating the metal surfaces through high-speed particle collisions. This process can create an incandescent cathode spot, which frees more particles, thereby sustaining the arc. At sufficiently high currents an incandescent anode spot may also be formed.
+
+Electrical discharge in vacuum is important for certain types of vacuum tubes and for high-voltage vacuum switches.
+
+The thermionic vacuum arc (TVA) is a new type of plasma source, which generates a plasma containing ions with a directed energy. TVA discharges can be ignited in high-vacuum conditions between a heated cathode (electron gun) and an anode (tungsten crucible) containing the material. The accelerated electron beam, incident on the anode, heats the crucible, together with its contents, to a high temperature. After establishing a steady-state density of the evaporating anode material atoms, and when the voltage applied is high enough, a bright discharge is ignited between the electrodes.
+
+
+
+

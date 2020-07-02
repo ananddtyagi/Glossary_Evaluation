@@ -1,0 +1,90 @@
+﻿Probability amplitude
+
+In quantum mechanics, a probability amplitude is a complex number used in describing the behaviour of systems. The modulus squared of this quantity represents a probability or probability density.
+
+Probability amplitudes provide a relationship between the wave function (or, more generally, of a quantum state vector) of a system and the results of observations of that system, a link first proposed by Max Born. Interpretation of values of a wave function as the probability amplitude is a pillar of the Copenhagen interpretation of quantum mechanics. In fact, the properties of the space of wave functions were being used to make physical predictions (such as emissions from atoms being at certain discrete energies) before any physical interpretation of a particular function was offered. Born was awarded half of the 1954 Nobel Prize in Physics for this understanding (see References), and the probability thus calculated is sometimes called the "Born probability". These probabilistic concepts, namely the probability density and quantum measurements, were vigorously contested at the time by the original physicists working on the theory, such as Schrödinger and Einstein. It is the source of the mysterious consequences and philosophical difficulties in the interpretations of quantum mechanics—topics that continue to be debated even today.
+
+Neglecting some technical complexities, the problem of quantum measurement is the behaviour of a quantum state, for which the value of the observable to be measured is uncertain. Such a state is thought to be a coherent superposition of the observable's "eigenstates", states on which the value of the observable is uniquely defined, for different possible values of the observable.
+
+When a measurement of is made, the system (under the Copenhagen interpretation) "jumps" to one of the eigenstates, returning the eigenvalue to which the state belongs. The superposition of states can give them unequal "weights". Intuitively it is clear that eigenstates with heavier "weights" are more "likely" to be produced. Indeed, which of the above eigenstates the system jumps to is given by a probabilistic law: the probability of the system jumping to the state is proportional to the absolute value of the corresponding numerical factor squared. These numerical factors are called probability amplitudes, and this relationship used to calculate probabilities from given pure quantum states (such as wave functions) is called the Born rule.
+
+Different observables may define incompatible decompositions of states. Observables that do not commute define probability amplitudes on different sets.
+
+In a formal setup, any system in quantum mechanics is described by a state, which is a vector , residing in an abstract complex vector space, called a Hilbert space. It may be either infinite- or finite-dimensional. A usual presentation of that Hilbert space is a special function space, called , on certain set , that is either some configuration space or a discrete set.
+
+For a measurable function formula_1, the condition formula_2 specifies that a finitely bounded integral must apply:
+this integral defines the square of the norm of . If that norm is equal to , then
+It actually means that any element of of the norm 1 defines a probability measure on and a non-negative real expression defines its Radon–Nikodym derivative with respect to the standard measure .
+
+If the standard measure on is non-atomic, such as the Lebesgue measure on the real line, or on three-dimensional space, or similar measures on manifolds, then a real-valued function is called a "probability density"; see details below. If the standard measure on consists of atoms only (we shall call such sets "discrete"), and specifies the measure of any equal to , then an integral over is simply a sum and defines the value of the probability measure on the set }, in other words, the probability that the quantum system is in the state . How amplitudes and the vector are related can be understood with the standard basis of , elements of which will be denoted by or (see bra–ket notation for the angle bracket notation). In this basis
+specifies the coordinate presentation of an abstract vector .
+
+Mathematically, many presentations of the system's Hilbert space can exist. We shall consider not an arbitrary one, but a one for the observable in question. A convenient configuration space is such that each point produces some unique value of . For discrete it means that all elements of the standard basis are eigenvectors of . In other words, shall be diagonal in that basis. Then formula_6 is the "probability amplitude" for the eigenstate . If it corresponds to a non-degenerate eigenvalue of , then formula_7 gives the probability of the corresponding value of for the initial state .
+
+For non-discrete there may not be such states as in , but the decomposition is in some sense possible; see spectral theory and Spectral theorem for accurate explanation.
+
+If the configuration space is continuous (something like the real line or Euclidean space, see above), then there are no valid quantum states corresponding to particular , and the probability that the system is "in the state " will always be zero. An archetypical example of this is the space constructed with 1-dimensional Lebesgue measure; it is used to study a motion in one dimension. This presentation of the infinite-dimensional Hilbert space corresponds to the spectral decomposition of the coordinate operator: in this example. Although there are no such vectors as , strictly speaking, the expression can be made meaningful, for instance, with spectral theory.
+
+Generally, it is the case when the motion of a particle is described in the position space, where the corresponding probability amplitude function is the wave function.
+
+If the function represents the quantum state vector , then the real expression , that depends on , forms a probability density function of the given state. The difference of a "density function" from simply a numerical probability means that one should integrate this modulus-squared function over some (small) domains in to obtain probability values – as was stated above, the system can't be in some state with a positive probability. It gives to both amplitude and density function a physical dimension, unlike a dimensionless probability. For example, for a 3-dimensional wave function, the amplitude has the dimension [L], where L is length.
+
+Note that for both continuous and infinite discrete cases not "every" measurable, or even smooth function (i.e. a possible wave function) defines an element of ; see #Normalisation below.
+
+When the set is discrete (see above), vectors represented with the Hilbert space are just column vectors composed of "amplitudes" and indexed by .
+
+These are sometimes referred to as wave functions of a discrete variable . Discrete dynamical variables are used in such problems as a particle in an idealized reflective box and quantum harmonic oscillator. Components of the vector will be denoted by for uniformity with the previous case; there may be either finite of infinite number of components depending on the Hilbert space.
+In this case, if the vector has the norm 1, then is just the probability that the quantum system resides in the state . It defines a discrete probability distribution on .
+
+A discrete probability amplitude may be considered as a fundamental frequency in the Probability Frequency domain (spherical harmonics) for the purposes of simplifying M-theory transformation calculations.
+
+Take the simplest meaningful example of the discrete case: a quantum system that can be in two possible states: for example, the polarization of a photon. When the polarization is measured, it could be the horizontal state , or the vertical state . Until its polarization is measured the photon can be in a superposition of both these states, so its state could be written as:
+
+The probability amplitudes of for the states and are and respectively. When the photon's polarization is measured, the resulting state is either horizontal or vertical. But in a random experiment, the probability of being horizontally polarized is , and the probability of being vertically polarized is .
+
+Therefore, a photon in a state formula_9 would have a probability of 1/3 to come out horizontally polarized, and a probability of 2/3 to come out vertically polarized when an ensemble of measurements are made. The order of such results, is, however, completely random.
+
+In the example above, the measurement must give either or , so the total probability of measuring or must be 1. This leads to a constraint that ; more generally the sum of the squared moduli of the probability amplitudes of all the possible states is equal to one. If to understand "all the possible states" as an orthonormal basis, that makes sense in the discrete case, then this condition is the same as the norm-1 condition explained above.
+
+One can always divide any non-zero element of a Hilbert space by its norm and obtain a "normalized" state vector. Not every wave function belongs to the Hilbert space , though. Wave functions that fulfill this constraint are called normalizable.
+
+The Schrödinger wave equation, describing states of quantum particles, has solutions that describe a system and determine precisely how the state changes with time. Suppose a wavefunction is a solution of the wave equation, giving a description of the particle (position , for time ). If the wavefunction is square integrable, "i.e."
+for some , then is called the normalized wavefunction. Under the standard Copenhagen interpretation, the normalized wavefunction gives probability amplitudes for the position of the particle. Hence, at a given time , is the probability density function of the particle's position. Thus the probability that the particle is in the volume at is
+Note that if any solution to the wave equation is normalisable at some time , then the defined above is always normalised, so that
+is always a probability density function for all . This is key to understanding the importance of this interpretation, because for a given the particle's constant mass, initial and the potential, the Schrödinger equation fully determines subsequent wavefunction, and the above then gives probabilities of locations of the particle at all subsequent times.
+
+A. Provided a system evolves naturally (which under the Copenhagen interpretation means that the system is not subjected to measurement), the following laws apply:
+
+Law 2 is analogous to the addition law of probability, only the probability being substituted by the probability amplitude. Similarly, Law 4 is analogous to the multiplication law of probability for independent events; note that it fails for entangled states.
+
+B. When an experiment is performed to decide between the several alternatives, the same laws hold true for the corresponding probabilities: formula_17.
+
+Provided one knows the probability amplitudes for events associated with an experiment, the above laws provide a complete description of quantum systems in terms of probabilities.
+
+The above laws give way to the path integral formulation of quantum mechanics, in the formalism developed by the celebrated theoretical physicist Richard Feynman. This approach to quantum mechanics forms the stepping-stone to the path integral approach to quantum field theory.
+
+Probability amplitudes have special significance because they act in quantum mechanics as the equivalent of conventional probabilities, with many analogous laws, as described above. For example, in the classic double-slit experiment, electrons are fired randomly at two slits, and the probability distribution of detecting electrons at all parts on a large screen placed behind the slits, is questioned. An intuitive answer is that , where is the probability of that event. This is obvious if one assumes that an electron passes through either slit. When nature does not have a way to distinguish which slit the electron has gone through (a much more stringent condition than simply "it is not observed"), the observed probability distribution on the screen reflects the interference pattern that is common with light waves. If one assumes the above law to be true, then this pattern cannot be explained. The particles cannot be said to go through either slit and the simple explanation does not work. The correct explanation is, however, by the association of probability amplitudes to each event. This is an example of the case A as described in the previous article. The complex amplitudes which represent the electron passing each slit ( and ) follow the law of precisely the form expected: . This is the principle of quantum superposition. The probability, which is the modulus squared of the probability amplitude, then, follows the interference pattern under the requirement that amplitudes are complex:
+Here, formula_19 andformula_20
+are the arguments of and respectively. A purely real formulation has too few dimensions to describe the system's state when superposition is taken into account. That is, without the arguments of the amplitudes, we cannot describe the phase-dependent interference. The crucial term formula_21 is called the "interference term", and this would be missing if we had added the probabilities.
+
+However, one may choose to devise an experiment in which he observes which slit each electron goes through. Then case B of the above article applies, and the interference pattern is not observed on the screen.
+
+One may go further in devising an experiment in which he gets rid of this "which-path information" by a "quantum eraser". Then, according to the Copenhagen interpretation, the case A applies again and the interference pattern is restored.
+
+Intuitively, since a normalised wave function stays normalised while evolving according to the wave equation, there will be a relationship between the change in the probability density of the particle's position and the change in the amplitude at these positions.
+
+Define the probability current (or flux) as
+measured in units of (probability)/(area × time).
+
+Then the current satisfies the equation
+The probability density is formula_24, this equation is exactly the continuity equation, appearing in many situations in physics where we need to describe the local conservation of quantities. The best example is in classical electrodynamics, where corresponds to current density corresponding to electric charge, and the density is the charge-density. The corresponding continuity equation describes the local conservation of charges.
+
+For two quantum systems with spaces and and given states and respectively, their combined state can be expressed as a function on , that gives the
+product of respective probability measures. In other words, amplitudes of a non-entangled composite state are products of original amplitudes, and respective observables on the systems 1 and 2 behave on these states as independent random variables. This strengthens the probabilistic interpretation explicated above.
+
+The concept of amplitudes described above is relevant to quantum state vectors. It is also used in the context of unitary operators that are important in the scattering theory, notably in the form of S-matrices. Whereas moduli of vector components squared, for a given vector, give a fixed probability distribution, moduli of matrix elements squared are interpreted as transition probabilities just as in a random process. Like a finite-dimensional unit vector specifies a finite probability distribution, a finite-dimensional unitary matrix specifies transition probabilities between a finite number of states. Note that columns of a unitary matrix, as vectors, have the norm 1.
+
+The "transitional" interpretation may be applied to s on non-discrete spaces as well.
+
+
+

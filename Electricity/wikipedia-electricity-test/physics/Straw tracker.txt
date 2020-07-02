@@ -1,0 +1,8 @@
+﻿Straw tracker
+
+A straw tracker is a type of particle detector which uses many straw chambers to track the path of a particle. 
+
+The path of a particle is determined by the best fit to all the straws with hits. Since the time for a particular straw to produce a signal is proportional to the distance of the particle's closest approach to that chamber's wire, if a particle on a predictable path (e.g. a helix in a magnetic field) passes through many straws, the path of the particle can be determined more precisely than the size of any particular straw.
+
+
+

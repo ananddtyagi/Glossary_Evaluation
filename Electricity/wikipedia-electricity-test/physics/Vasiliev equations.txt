@@ -1,0 +1,113 @@
+﻿Vasiliev equations
+
+Vasiliev equations are "formally" consistent gauge invariant nonlinear equations whose linearization over a specific vacuum solution describes free massless higher-spin fields on anti-de Sitter space. The Vasiliev equations are classical equations and no Lagrangian is known that starts from canonical two-derivative Fronsdal Lagrangian and is completed by interactions terms. There is a number of variations of Vasiliev equations that work in three, four and arbitrary number of space-time dimensions. Vasiliev's equations admit supersymmetric extensions with any number of super-symmetries and allow for Yang-Mills gaugings. Vasiliev's equations are background independent, the simplest exact solution being anti-de Sitter space. It is important to note that locality is not properly implemented and the equations give a solution of certain formal deformation procedure, which is difficult to map to field theory language. The higher-spin AdS/CFT correspondence is reviewed in Higher-spin theory article.
+
+The Vasiliev equations are generating equations and yield differential equations in the space-time upon solving them order by order with respect to certain auxiliary directions. The equations rely on several ingredients: unfolded equations and higher-spin algebras.
+
+The exposition below is organised in such a way as to split the Vasiliev's equations into the building blocks and then join them together. The example of the four-dimensional bosonic Vasiliev's equations is reviewed at length since all other dimensions and super-symmetric generalisations are simple modifications of this basic example. 
+
+Three variations of Vasiliev's equations are known: four-dimensional, three-dimensional and d-dimensional. They differ by mild details that are discussed below.
+Higher-spin algebras are global symmetries of the higher-spin theory multiplet. The same time they can be defined as global symmetries of some conformal field theories (CFT), which underlies the kinematic part of the higher-spin AdS/CFT correspondence, which is a particular case of the AdS/CFT. Another definition is that higher-spin algebras are quotients of the universal enveloping algebra of the anti-de Sitter algebra formula_1 by certain two-sided ideals. Some more complicated examples of higher-spin algebras exist, but all of them can be obtained by tensoring the simplest higher-spin algebras with matrix algebras and then imposing further constraints. Higher-spin algebras originate as associative algebras and the Lie algebra can be constructed via the commutator.
+
+In the case of the four-dimensional bosonic higher-spin theory the relevant higher-spin algebra is very simple thanks to formula_2 and can be built upon two-dimensional quantum Harmonic oscillator. In the latter case two pairs of creation/annihilation operators formula_3 are needed. These can be packed into the quartet 
+formula_4 of operators obeying the canonical commutation relations
+where formula_6 is the formula_7 invariant tensor, i.e. it is anti-symmetric. As is well known, the bilinears provide an oscillator realization of formula_7:
+The higher-spin algebra is defined as the algebra of all even functions formula_10 in formula_11. That the functions are even is in accordance with the bosonic content of the higher-spin theory as formula_11 will be shown to be related to the Majorana spinors from the space-time point of view and even powers of formula_11 correspond to tensors. It is an associative algebra and the product is conveniently realised by the Moyal star product:
+with the meaning that the algebra of operators formula_15 can be replaced with the algebra of function formula_16 in ordinary commuting variables formula_17 (hats off) and the product needs to be replaced with the non-commutative star-product. For example, one finds
+and therefore formula_19 as it would be the case for the operators. Another representation of the same star-product is more useful in practice:
+The exponential formula can be derived by integrating by parts and dropping the boundary terms. The prefactor is chosen as to ensure formula_21. In the Lorentz-covariant base we can split formula_22 and we also split formula_23. Then the Lorentz generators are formula_24, formula_25 and the translation generators are formula_26. The formula_27-automorphism can be realized in two equivalent ways: either as formula_28 or as formula_29. In both the cases it leaves the Lorentz generators untouched and flips the sign of translations.
+
+The higher-spin algebra constructed above can be shown to be the symmetry algebra of the three-dimensional Klein-Gordon equation formula_30. Considering more general free CFT's, e.g. a number of scalars plus a number of fermions, the Maxwell field and other, one can construct more examples of higher-spin algebras.
+
+The Vasiliev equations are equations in certain bigger space endowed with auxiliary directions to be solved for. The additional directions are given by the doubles of formula_17, called formula_32,
+which are furthermore entangled with Y. The star-product on the algebra of functions in formula_33 in formula_34-variables is
+The integral formula here-above is a particular star-product that corresponds to the Weyl ordering among Y's and among Z's, with the opposite signs for the commutator:
+Moreover, the Y-Z star product is normal ordered with respect to Y-Z and Y+Z as is seen from 
+
+The higher-spin algebra is an associative subalgebra in the extended algebra. In accordance with the bosonic projection is given by formula_38.
+
+The essential part of the Vasiliev equations relies on an interesting deformation of the Quantum harmonic oscillator, known as deformed oscillators. First of all, let us pack the usual creation and annihilation operators formula_39 in a doublet formula_40. The canonical commutation relations (the formula_41-factors are introduced to facilitate comparison with Vasiliev's equations)
+can be used to prove that the bilinears in formula_43 form formula_44 generators
+In particular, formula_46 rotates formula_43 as an formula_48-vector with formula_49 playing the role of the formula_48-invariant metric. The deformed oscillators are defined by appending the set of generators with an additional generating element formula_51 and postulating
+Again, one can see that formula_46, as defined above, form formula_48-generators and rotate properly formula_43. At formula_56 we get back to the undeformed oscillators. In fact, formula_43 and formula_46 form the generators of the Lie superalgebra formula_59, where formula_43 should be viewed as odd generators. Then, formula_61 is the part of the defining relations of formula_59.
+One (or two) copies of the deformed oscillator relations form a part of the Vasiliev equations where the generators are replaced with fields and the commutation relations are imposed as field equations.
+
+The equations for higher-spin fields originate from the Vasiliev equations in the unfolded form.
+Any set of differential equations can be put in the first order form by introducing auxiliary fields to denote derivatives. Unfolded approach is an advanced reformulation of this idea that takes into account gauge symmetries and diffeomorphisms. Instead of just formula_63 the unfolded equations are written in the language of differential forms as
+where the variables are differential forms formula_65 of various degrees, enumerated by an abstract index formula_66; formula_67 is the exterior derivative formula_68. The structure function formula_69 is assumed to be expandable in exterior product Taylor series as
+where formula_71 has form degree formula_72 and the sum is over all forms whose form degrees add up to formula_73. The simplest example of unfolded equations are the zero curvature equations formula_74 for a one-form connection formula_75 of any Lie algebra formula_76. Here formula_66 runs over the base of the Lie algebra, and the structure function formula_78 encodes the structure constants of the Lie algebra.
+
+Since formula_79 the consistency of the unfolded equations requires 
+which is the Frobenius integrability condition. In the case of the zero curvature equation this is just the Jacobi identity. Once the system is integrable it can be shown to have certain gauge symmetries. Every field formula_71 that is a form of non-zero degree formula_72 possesses a gauge parameter formula_83 that is a form of degree formula_84 and the gauge transformations are
+
+The Vasiliev equations generate the unfolded equations for a specific field content, which consists of a one-form formula_75 and a zero-form formula_87, both taking values in the higher-spin algebra. Therefore, formula_88 and formula_89, formula_90. The unfolded equations that describe interactions of higher-spin fields are
+where formula_92 are the interaction vertices that are of higher and higher order in the formula_87-field. The product in the higher-spin algebra is denoted by formula_94. The explicit form of the vertices can be extracted from the Vasiliev equations. The vertices that are bilinear in the fields are determined by the higher-spin algebra. Automorphism formula_27 is induced by the automorphism of the anti-de Sitter algebra that flips the sign of translations, see below.
+If we truncate away higher orders in the formula_87-expansion, the equations are just the zero-curvature condition for a connection formula_75 of the higher-spin algebra and the covariant constancy equation for a zero-form formula_87 that takes values in the twisted-adjoint representation (twist is by the automorphism formula_27).
+
+The field content of the Vasiliev equations is given by three fields all taking values in the extended algebra of functions in Y and Z: 
+
+As to avoid any confusion caused by the differential forms in the auxiliary Z-space and to reveal the relation to the deformed oscillators the Vasiliev equations are written below in the component form. 
+The Vasiliev equations can be split into two parts. The first part contains only zero-curvature or covariant constancy equations:
+where the higher-spin algebra automorphism formula_112 is extended to the full algebra as 
+the latter two forms being equivalent because of the bosonic projection imposed on formula_114.
+
+Therefore, the first part of the equations implies that there is no nontrivial curvature in the x-space since formula_115 is flat. The second part makes the system nontrivial and determines the curvature of the auxiliary connection formula_108:
+where two Klein operators were introduced
+The existence of the Klein operators is of utter importance for the system. They realise the formula_112 automorphism as an inner one 
+In other words, the Klein operator formula_121 behave as formula_122, i.e. it anti-commutes to odd functions and commute to even functions in y,z.
+
+These 3+2 equations are the Vasiliev equations for the four-dimensional bosonic higher-spin theory. Several comments are in order.
+
+To prove that the linearized Vasiliev equations do describe free massless higher-spin fields we need to consider the linearised fluctuations over the anti-de Sitter vacuum. First of all we take the exact solution where formula_150 is a flat connection of the anti-de Sitter algebra, formula_149 and formula_152 and add fluctuations 
+Then, we linearize the Vasiliev equations 
+Above it was used several times that formula_155, i.e. the vacuum value of the S-field acts as the derivative under the commutator. It is convenient to split the four-component Y,Z into two-component variables as formula_156. Another trick that was used in the fourth equation is the invertibility of the Klein operators: 
+The fifth of the Vasiliev equations is now split into the last three equation above.
+
+The analysis of the linearized fluctuations is in solving the equations one by one in the right order. Recall that one expects to find unfolded equations for two fields: one-form formula_158 and zero-form formula_104. From the fourth equation it follows that 
+formula_160 does not depend on the auxiliary Z-direction. Therefore, one can identify formula_161. 
+The second equation then immediately leads to 
+where formula_163 is the Lorentz covariant derivative
+where ... denote the term with formula_165 that is similar to the first one. The Lorentz covariant derivative comes from the usual commutator action of the spin-connection part of formula_143. The term with the vierbein results from the formula_112-automorphism that flips the sign of the AdS-translations and produces anti-commutator formula_168.
+
+To read off the content of the C-equation one needs to expand it in Y and analyze the C-equation component-wise
+Then various components can be seen to have the following interpretation:
+
+The last three equations can be recognized to be the equations of the form formula_179 where formula_180 is the exterior derivative on the space of differential forms in the Z-space. Such equations can be solved with the help of the Poincare Lemma. In addition one needs to know how to multiply by the Klein operator from the right, which is easy to derive from the integral formula for the star-product:
+I.e. the result is to exchange the half of the Y and Z variables and to flip the sign. The solution to the last three equations can be written as
+where a similar formula exists for formula_183.
+Here the last term is the gauge ambiguity, i.e. the freedom to add exact forms in the Z-space, and formula_184.
+One can gauge fix it to have formula_185. Then, one plugs the solution to the third equation, which of the same type, i.e. a differential equation of the first order in the Z-space. Its general solution is again given by the Poincare Lemma
+where formula_187 is the integration constant in the Z-space, i.e. the de-Rham cohomology. It is this integration constant that is to be identified with the one-form formula_188 as the name suggests. After some algebra one finds
+where we again dropped a term with dotted and undotted indices exchanged. The last step is to plug the solution into the first equation to find
+and again the second term on the right is omitted. It is important that formula_191 is not a flat connection, while formula_192 is a flat connection. To analyze the formula_191-equations it is useful to expand formula_191 in Y
+The content of the formula_191-equation is as follows:
+
+To conclude, anti-de Sitter space is an exact solution of the Vasiliev equations and upon linearization over it one finds unfolded equations that are equivalent to the Fronsdal equations for fields with s=0,1,2,3... .
+
+
+so that the fields are now function of formula_208 and space-time coordinates. The components of the fields are required to have the right spin-statistic. The equations need to be slightly modified.
+
+There also exist Vasiliev's equations in other dimensions:
+The equations are very similar to the four-dimensional ones, but there are some important modifications in the definition of the algebra that the fields take values in and there are further constraints in the d-dimensional case.
+There is a number of flaws/features of the Vasiliev equations that have been revealed over the last years. First of all, classical equations of motion, e.g. the Vasiliev equations, do not allow one to address the problems that require an action, the most basic one being quantization. Secondly, there are discrepancies between the results obtained from the Vasiliev equations and those from the other formulations of higher spin theories, from the AdS/CFT correspondence or from general field theory perspective. Most of the discrepancies can be attributed to the assumptions used in the derivation of the equations: gauge invariance is manifest, but locality was not properly imposed and the Vasiliev equations are a solution of a certain formal deformation problem. Practically speaking, it is not known in general how to extract the interaction vertices of the higher spin theory out of the equations.
+
+Most of the studies concern with the four-dimensional Vasiliev equations. 
+The correction to the free spin-2 equations due to the scalar field stress-tensor was extracted out of the four-dimensional Vasiliev equations and found to be
+where formula_211 are symmetrized derivatives with traces subtracted. The most important information is in the coefficients formula_212 and in the prefactor formula_213, where formula_214 is a free parameter that the equations have, see Other dimensions, extensions, and generalisations. It is important to note that the usual stress-tensor has no more than two derivative and the terms formula_215 are not independent (for example, they contribute to the same formula_216 AdS/CFT three-point function). This is a general property of field theories that one can perform nonlinear (and also higher derivative) field redefinitions and therefore there exist infinitely many ways to write the same interaction vertex at the classical level. The canonical stress-tensor has two derivatives and the terms with contracted derivatives can be related to it via such redefinitions.
+
+A surprising fact that had been noticed before its inconsistency with the AdS/CFT was realized is that the stress-tensor can change sign and, in particular, vanishes for formula_217. This would imply that the corresponding correlation function in the Chern-Simons matter theories vanishes, formula_218, which is not the case. 
+
+The most important and detailed tests were performed much later. It was first shown that some of the three-point AdS/CFT functions, as obtained from the Vasiliev equations, turn out to be infinite or inconsistent with AdS/CFT, while some other do agree. Those that agree, in the language of Unfolded equations correspond to formula_219 and the infinities/inconsistencies resulted from formula_220. The terms of the first type are local and are fixed by the higher spin algebra. The terms of the second type can be non-local (when solved perturbatively the master field formula_221 is a generating functions of infinitely many derivatives of higher spin fields). These non-localities are not present in higher spin theories as can be seen from the explicit cubic action. 
+
+Further infinities, non-localities or missing structures were observed. Some of these tests explore the extension of the Klebanov-Polyakov Conjecture to Chern-Simons matter theories where the structure of correlation functions is more intricate and certain parity-odd terms are present. Some of these structures were not reproduced by the Vasiliev equations. General analysis of the Vasiliev equations at the second order showed that for any three fixed spins the interaction term is an infinite series in derivatives (similar to formula_222-sum above); all of the terms in the series contribute to the same AdS/CFT three-point function and the contribution is infinite. All the problems can be attributed to the assumptions used in the derivation of the Vasiliev equations: restrictions on the number of derivatives in the interaction vertices or, more generally, locality was not imposed, which is important for getting meaningful interaction vertices, see e.g. Noether Procedure. The problem how to impose locality and extract interaction vertices out of the equations is now under active investigation.
+
+As is briefly mentioned in Other dimensions, extensions, and generalisations there is an option to introduce infinitely many additional coupling constants that enter via phase factor formula_223. As was noted, the second such coefficient formula_224 will affect five-point AdS/CFT correlation functions, but not the three-point ones, which seems to be in tension with the results obtained directly from imposing higher spin symmetry on the correlation functions. Later, it was shown that the terms in the equations that result from 
+formula_225 are too non-local and lead to an infinite result for the AdS/CFT correlation functions. 
+
+In three dimensions the Prokushkin-Vasiliev equations, which are supposed to describe interactions of matter fields with higher spin fields in three dimensions, are also affected by the aforementioned locality problem. For example, the perturbative corrections at the second order to the stress-tensors of the matter fields lead to infinite correlation functions. There is, however, another discrepancy: the spectrum of the Prokushkin-Vasiliev equations has, in addition to the matter fields (scalar and spinor) and higher spin fields, a set of unphysical fields that do not have any field theory interpretation, but interact with the physical fields.
+
+Since the Vasiliev equations are quite complicated there are few exact solutions known
+
+
+
+

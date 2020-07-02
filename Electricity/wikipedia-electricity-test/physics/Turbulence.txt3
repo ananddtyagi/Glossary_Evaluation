@@ -1,0 +1,92 @@
+﻿Turbulence
+
+In fluid dynamics, turbulence or turbulent flow is fluid motion characterized by chaotic changes in pressure and flow velocity. It is in contrast to a laminar flow, which occurs when a fluid flows in parallel layers, with no disruption between those layers.
+
+Turbulence is commonly observed in everyday phenomena such as surf, fast flowing rivers, billowing storm clouds, or smoke from a chimney, and most fluid flows occurring in nature or created in engineering applications are turbulent. Turbulence is caused by excessive kinetic energy in parts of a fluid flow, which overcomes the damping effect of the fluid's viscosity. For this reason turbulence is commonly realized in low viscosity fluids. In general terms, in turbulent flow, unsteady vortices appear of many sizes which interact with each other, consequently drag due to friction effects increases. This increases the energy needed to pump fluid through a pipe. Turbulence can be exploited, for example, by devices such as aerodynamic spoilers on aircraft that "spoil" the laminar flow to increase drag and reduce lift.
+
+The onset of turbulence can be predicted by the dimensionless Reynolds number, the ratio of kinetic energy to viscous damping in a fluid flow. However, turbulence has long resisted detailed physical analysis, and the interactions within turbulence create a very complex phenomenon. Richard Feynman has described turbulence as the most important unsolved problem in classical physics.
+
+
+
+Turbulence is characterized by the following features:
+
+
+
+Turbulent diffusion is usually described by a turbulent diffusion coefficient. This turbulent diffusion coefficient is defined in a phenomenological sense, by analogy with the molecular diffusivities, but it does not have a true physical meaning, being dependent on the flow conditions, and not a property of the fluid itself. In addition, the turbulent diffusivity concept assumes a constitutive relation between a turbulent flux and the gradient of a mean variable similar to the relation between flux and gradient that exists for molecular transport. In the best case, this assumption is only an approximation. Nevertheless, the turbulent diffusivity is the simplest approach for quantitative analysis of turbulent flows, and many models have been postulated to calculate it. For instance, in large bodies of water like oceans this coefficient can be found using Richardson's four-third power law and is governed by the random walk principle. In rivers and large ocean currents, the diffusion coefficient is given by variations of Elder's formula.
+
+
+
+Via this energy cascade, turbulent flow can be realized as a superposition of a spectrum of flow velocity fluctuations and eddies upon a mean flow. The eddies are loosely defined as coherent patterns of flow velocity, vorticity and pressure. Turbulent flows may be viewed as made of an entire hierarchy of eddies over a wide range of length scales and the hierarchy can be described by the energy spectrum that measures the energy in flow velocity fluctuations for each length scale (wavenumber). The scales in the energy cascade are generally uncontrollable and highly non-symmetric. Nevertheless, based on these length scales these eddies can be divided into three categories.
+The integral time scale for a Lagrangian flow can be defined as:
+
+where "u"′ is the velocity fluctuation, and formula_2 is the time lag between measurements.
+
+Although it is possible to find some particular solutions of the Navier–Stokes equations governing fluid motion, all such solutions are unstable to finite perturbations at large Reynolds numbers. Sensitive dependence on the initial and boundary conditions makes fluid flow irregular both in time and in space so that a statistical description is needed. The Russian mathematician Andrey Kolmogorov proposed the first statistical theory of turbulence, based on the aforementioned notion of the energy cascade (an idea originally introduced by Richardson) and the concept of self-similarity. As a result, the Kolmogorov microscales were named after him. It is now known that the self-similarity is broken so the statistical description is presently modified. 
+
+A complete description of turbulence is one of the unsolved problems in physics. According to an apocryphal story, Werner Heisenberg was asked what he would ask God, given the opportunity. His reply was: "When I meet God, I am going to ask him two questions: Why relativity? And why turbulence? I really believe he will have an answer for the first." A similar witticism has been attributed to Horace Lamb (who had published a noted text book on Hydrodynamics)—his choice being quantum electrodynamics (instead of relativity) and turbulence. Lamb was quoted as saying in a speech to the British Association for the Advancement of Science, "I am an old man now, and when I die and go to heaven there are two matters on which I hope for enlightenment. One is quantum electrodynamics, and the other is the turbulent motion of fluids. And about the former I am rather optimistic."
+
+The onset of turbulence can be, to some extent, predicted by the Reynolds number, which is the ratio of inertial forces to viscous forces within a fluid which is subject to relative internal movement due to different fluid velocities, in what is known as a boundary layer in the case of a bounding surface such as the interior of a pipe. A similar effect is created by the introduction of a stream of higher velocity fluid, such as the hot gases from a flame in air. This relative movement generates fluid friction, which is a factor in developing turbulent flow. Counteracting this effect is the viscosity of the fluid, which as it increases, progressively inhibits turbulence, as more kinetic energy is absorbed by a more viscous fluid. The Reynolds number quantifies the relative importance of these two types of forces for given flow conditions, and is a guide to when turbulent flow will occur in a particular situation.
+
+This ability to predict the onset of turbulent flow is an important design tool for equipment such as piping systems or aircraft wings, but the Reynolds number is also used in scaling of fluid dynamics problems, and is used to determine dynamic similitude between two different cases of fluid flow, such as between a model aircraft, and its full size version. Such scaling is not always linear and the application of Reynolds numbers to both situations allows scaling factors to be developed. 
+A flow situation in which the kinetic energy is significantly absorbed due to the action of fluid molecular viscosity gives rise to a laminar flow regime. For this the dimensionless quantity the Reynolds number () is used as a guide.
+
+With respect to laminar and turbulent flow regimes:
+
+
+The Reynolds number is defined as
+
+where:
+
+While there is no theorem directly relating the non-dimensional Reynolds number to turbulence, flows at Reynolds numbers larger than 5000 are typically (but not necessarily) turbulent, while those at low Reynolds numbers usually remain laminar. In Poiseuille flow, for example, turbulence can first be sustained if the Reynolds number is larger than a critical value of about 2040; moreover, the turbulence is generally interspersed with laminar flow until a larger Reynolds number of about 4000.
+
+The transition occurs if the size of the object is gradually increased, or the viscosity of the fluid is decreased, or if the density of the fluid is increased.
+
+When flow is turbulent, particles exhibit additional transverse motion which enhances the rate of energy and momentum exchange between them thus increasing the heat transfer and the friction coefficient.
+
+Assume for a two-dimensional turbulent flow that one was able to locate a specific point in the fluid and measure the actual flow velocity of every particle that passed through that point at any given time. Then one would find the actual flow velocity fluctuating about a mean value:
+
+and similarly for temperature () and pressure (), where the primed quantities denote fluctuations superposed to the mean. This decomposition of a flow variable into a mean value and a turbulent fluctuation was originally proposed by Osborne Reynolds in 1895, and is considered to be the beginning of the systematic mathematical analysis of turbulent flow, as a sub-field of fluid dynamics. While the mean values are taken as predictable variables determined by dynamics laws, the turbulent fluctuations are regarded as stochastic variables.
+
+The heat flux and momentum transfer (represented by the shear stress ) in the direction normal to the flow for a given time are
+
+where is the heat capacity at constant pressure, is the density of the fluid, is the coefficient of turbulent viscosity and is the turbulent thermal conductivity.
+
+Richardson's notion of turbulence was that a turbulent flow is composed by "eddies" of different sizes. The sizes define a characteristic length scale for the eddies, which are also characterized by flow velocity scales and time scales (turnover time) dependent on the length scale. The large eddies are unstable and eventually break up originating smaller eddies, and the kinetic energy of the initial large eddy is divided into the smaller eddies that stemmed from it. These smaller eddies undergo the same process, giving rise to even smaller eddies which inherit the energy of their predecessor eddy, and so on. In this way, the energy is passed down from the large scales of the motion to smaller scales until reaching a sufficiently small length scale such that the viscosity of the fluid can effectively dissipate the kinetic energy into internal energy.
+
+In his original theory of 1941, Kolmogorov postulated that for very high Reynolds numbers, the small-scale turbulent motions are statistically isotropic (i.e. no preferential spatial direction could be discerned). In general, the large scales of a flow are not isotropic, since they are determined by the particular geometrical features of the boundaries (the size characterizing the large scales will be denoted as ). Kolmogorov's idea was that in the Richardson's energy cascade this geometrical and directional information is lost, while the scale is reduced, so that the statistics of the small scales has a universal character: they are the same for all turbulent flows when the Reynolds number is sufficiently high.
+
+Thus, Kolmogorov introduced a second hypothesis: for very high Reynolds numbers the statistics of small scales are universally and uniquely determined by the kinematic viscosity and the rate of energy dissipation . With only these two parameters, the unique length that can be formed by dimensional analysis is
+
+This is today known as the Kolmogorov length scale (see Kolmogorov microscales).
+
+A turbulent flow is characterized by a hierarchy of scales through which the energy cascade takes place. Dissipation of kinetic energy takes place at scales of the order of Kolmogorov length , while the input of energy into the cascade comes from the decay of the large scales, of order . These two scales at the extremes of the cascade can differ by several orders of magnitude at high Reynolds numbers. In between there is a range of scales (each one with its own characteristic length ) that has formed at the expense of the energy of the large ones. These scales are very large compared with the Kolmogorov length, but still very small compared with the large scale of the flow (i.e. ). Since eddies in this range are much larger than the dissipative eddies that exist at Kolmogorov scales, kinetic energy is essentially not dissipated in this range, and it is merely transferred to smaller scales until viscous effects become important as the order of the Kolmogorov scale is approached. Within this range inertial effects are still much larger than viscous effects, and it is possible to assume that viscosity does not play a role in their internal dynamics (for this reason this range is called "inertial range").
+
+Hence, a third hypothesis of Kolmogorov was that at very high Reynolds number the statistics of scales in the range are universally and uniquely determined by the scale and the rate of energy dissipation .
+
+The way in which the kinetic energy is distributed over the multiplicity of scales is a fundamental characterization of a turbulent flow. For homogeneous turbulence (i.e., statistically invariant under translations of the reference frame) this is usually done by means of the "energy spectrum function" , where is the modulus of the wavevector corresponding to some harmonics in a Fourier representation of the flow velocity field :
+
+where is the Fourier transform of the flow velocity field. Thus, represents the contribution to the kinetic energy from all the Fourier modes with , and therefore,
+
+where is the mean turbulent kinetic energy of the flow. The wavenumber corresponding to length scale is . Therefore, by dimensional analysis, the only possible form for the energy spectrum function according with the third Kolmogorov's hypothesis is
+
+where would be a universal constant. This is one of the most famous results of Kolmogorov 1941 theory, and considerable experimental evidence has accumulated that supports it.
+
+In spite of this success, Kolmogorov theory is at present under revision. This theory implicitly assumes that the turbulence is statistically self-similar at different scales. This essentially means that the statistics are scale-invariant in the inertial range. A usual way of studying turbulent flow velocity fields is by means of flow velocity increments:
+
+that is, the difference in flow velocity between points separated by a vector (since the turbulence is assumed isotropic, the flow velocity increment depends only on the modulus of ). Flow velocity increments are useful because they emphasize the effects of scales of the order of the separation when statistics are computed. The statistical scale-invariance implies that the scaling of flow velocity increments should occur with a unique scaling exponent , so that when is scaled by a factor ,
+
+should have the same statistical distribution as
+
+with independent of the scale . From this fact, and other results of Kolmogorov 1941 theory, it follows that the statistical moments of the flow velocity increments (known as "structure functions" in turbulence) should scale as
+
+where the brackets denote the statistical average, and the would be universal constants.
+
+There is considerable evidence that turbulent flows deviate from this behavior. The scaling exponents deviate from the value predicted by the theory, becoming a non-linear function of the order of the structure function. The universality of the constants have also been questioned. For low orders the discrepancy with the Kolmogorov value is very small, which explain the success of Kolmogorov theory in regards to low order statistical moments. In particular, it can be shown that when the energy spectrum follows a power law
+
+with , the second order structure function has also a power law, with the form
+
+Since the experimental values obtained for the second order structure function only deviate slightly from the value predicted by Kolmogorov theory, the value for is very near to (differences are about 2%). Thus the "Kolmogorov − spectrum" is generally observed in turbulence. However, for high order structure functions the difference with the Kolmogorov scaling is significant, and the breakdown of the statistical self-similarity is clear. This behavior, and the lack of universality of the constants, are related with the phenomenon of intermittency in turbulence. This is an important area of research in this field, and a major goal of the modern theory of turbulence is to understand what is really universal in the inertial range.
+
+
+
+

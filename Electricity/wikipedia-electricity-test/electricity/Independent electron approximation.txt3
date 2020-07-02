@@ -1,0 +1,15 @@
+﻿Independent electron approximation
+
+The independent electron approximation is used in both the free electron model and the nearly-free electron model. In this approximation we do not consider electron-electron interaction in a crystal. It is more difficult to treat electron-electron interactions than ion-electron interactions because:
+
+
+Electron-electron interactions are often weaker than ion-electron interactions due to the following:
+
+
+One major effect of electron-electron interactions is that electrons distribute around the ions so that they screen the ions in the lattice from other electrons. 
+
+Electron-electron interactions may be very important for certain properties in materials. For example, the theory covering much of superconductivity is BCS theory, in which the attraction of pairs of electrons to each other, termed "Cooper pairs", is the mechanism behind superconductivity. 
+
+
+
+

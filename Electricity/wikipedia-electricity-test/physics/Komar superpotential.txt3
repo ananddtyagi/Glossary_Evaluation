@@ -1,0 +1,14 @@
+﻿Komar superpotential
+
+In general relativity, the Komar superpotential, corresponding to the invariance of the Hilbert-Einstein Lagrangian formula_1, is the tensor density:
+
+associated with a vector field formula_3, and where formula_4 denotes covariant derivative with respect to the Levi-Civita connection.
+
+The Komar two-form:
+
+where formula_6 denotes interior product, generalizes to an arbitrary vector field formula_7 the so-called above Komar superpotential, which was originally derived for timelike Killing vector fields.
+
+Komar superpotential is affected by the anomalous factor problem: In fact, when computed, for example, on the Kerr-Newman solution, produces the correct angular momentum, but just one-half of the expected mass.
+
+
+

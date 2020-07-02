@@ -1,0 +1,35 @@
+﻿AlertMe
+
+AlertMe was a UK smart Tech company that provides energy and home monitoring hardware and services. AlertMe produces hardware and software to enable users to monitor and control their home energy use.
+
+In 2015 the company was acquired by British Gas Trading Limited for £65 million. In April 2016 the limited company was renamed to Centrica Connected Home Limited.
+
+AlertMe uses Non Intrusive Load Monitoring to extrapolate trends from customer data, which is then used to make energy saving recommendations.
+
+The AlertMe platform is based on a home hub that connects to cloud servers provided by Amazon Web Services via the home broadband router. The hub communicates via wireless to devices in the home, both AlertMe devices and third party enabled devices.
+
+The AlertMe platform is open and expandable to allow users to add new devices and applications to their personal dashboard or smartphone app. Applications such as electricity monitoring (SmartEnergy), remote heating control (SmartHeating) and home monitoring (SmartMonitoring) are the core applications, but with the development of many new third party devices in the future the platform can adopt further applications such as lighting controls and automation, locks and keypads as well as smart appliances when they become available.
+
+AlertMe has strategic partnerships with British Gas in the UK and Lowe's in the USA.
+British Gas is the largest domestic energy provider in the UK serving 10 million homes and 15.9 million energy accounts.
+Lowe's is the second largest home improvement retailer in the world with 15 million consumers visiting its 1725 stores every week.
+
+AlertMe has won eight awards since 2009 for product innovation and business strategy, including:
+
+Red Herring Europe 100 2012
+
+Smart Metering UK & Europe Best In Home Display 2012
+
+Rosenblatt New Energy Award for Best Deal 2011
+
+IET Innovation Award for Software in Design 2010
+
+Global Cleantech 100 2009 & 2010
+
+Bloomberg New Energy Pioneer 2010
+
+Design Week Consumer Product Design 2009
+
+
+
+

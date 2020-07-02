@@ -1,0 +1,30 @@
+﻿Active and passive transformation
+
+In analytic geometry, spatial transformations in the 3-dimensional Euclidean space formula_1 are distinguished into active or alibi transformations, and passive or alias transformations. An active transformation is a transformation which actually changes the physical position (alibi, elsewhere) of a point, or rigid body, which can be defined in the absence of a coordinate system; whereas a passive transformation is merely a change in the coordinate system in which the object is described (alias, other name) (change of coordinate map, or change of basis). By "transformation", mathematicians usually refer to active transformations, while physicists and engineers could mean either. Both types of transformation can be represented by a combination of a translation and a linear transformation.
+
+Put differently, a "passive" transformation refers to description of the "same" object in two different coordinate systems.
+On the other hand, an "active transformation" is a transformation of one or more objects with respect to the same coordinate system. For instance, active transformations are useful to describe successive positions of a rigid body. On the other hand, passive transformations may be useful in human motion analysis to observe the motion of the tibia relative to the femur, that is, its motion relative to a ("local") coordinate system which moves together with the femur, rather than a ("global") coordinate system which is fixed to the floor.
+
+As an example, let the vector formula_2, be a vector in the plane. A rotation of the vector through an angle θ in counterclockwise direction is given by the rotation matrix:
+which can be viewed either as an "active transformation" or a "passive transformation" (where the above matrix will be inverted), as described below.
+
+In general a spatial transformation formula_5 may consist of a translation and a linear transformation. In the following, the translation will be omitted, and the linear transformation will be represented by a 3×3-matrix formula_6.
+
+As an active transformation, formula_6 transforms the initial vector formula_8 into a new vector formula_9.
+
+If one views formula_10 as a new basis, then the coordinates of the new vector formula_11 in the new basis are the same as those of formula_12 in the original basis. Note that active transformations make sense even as a linear transformation into a different vector space. It makes sense to write the new vector in the unprimed basis (as above) only when the transformation is from the space into itself.
+
+On the other hand, when one views formula_6 as a passive transformation, the initial vector formula_8 is left unchanged, while the coordinate system and its basis vectors are transformed in the opposite direction, that is, with the inverse transformation formula_15.
+
+The new coordinates formula_17 of formula_18 with respect to the new coordinate system XYZ are given by: 
+
+From this equation one sees that the new coordinates are given by
+
+As a passive transformation formula_6 transforms the old coordinates into the new ones.
+
+Note the equivalence between the two kinds of transformations: the coordinates of the new point in the active transformation and the new coordinates of the point in the passive transformation are the same, namely
+
+
+
+
+

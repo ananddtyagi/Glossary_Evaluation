@@ -1,0 +1,82 @@
+﻿Onsager reciprocal relations
+
+In thermodynamics, the Onsager reciprocal relations express the equality of certain ratios between flows and forces in thermodynamic systems out of equilibrium, but where a notion of local equilibrium exists.
+
+"Reciprocal relations" occur between different pairs of forces and flows in a variety of physical systems. For example, consider fluid systems described in terms of temperature, matter density, and pressure. In this class of systems, it is known that temperature differences lead to heat flows from the warmer to the colder parts of the system; similarly, pressure differences will lead to matter flow from high-pressure to low-pressure regions. What is remarkable is the observation that, when both pressure and temperature vary, temperature differences at constant pressure can cause matter flow (as in convection) and pressure differences at constant temperature can cause heat flow. Perhaps surprisingly, the heat flow per unit of pressure difference and the density (matter) flow per unit of temperature difference are equal. This equality was shown to be necessary by Lars Onsager using statistical mechanics as a consequence of the time reversibility of microscopic dynamics (microscopic reversibility). The theory developed by Onsager is much more general than this example and capable of treating more than two thermodynamic forces at once, with the limitation that "the principle of dynamical reversibility does not apply when (external) magnetic fields or Coriolis forces are present", in which case "the reciprocal relations break down".
+
+Though the fluid system is perhaps described most intuitively, the high precision of electrical measurements makes experimental realisations of Onsager's reciprocity easier in systems involving electrical phenomena. In fact, Onsager's 1931 paper refers to thermoelectricity and transport phenomena in electrolytes as well-known from the 19th century, including "quasi-thermodynamic" theories by Thomson and Helmholtz respectively. Onsager's reciprocity in the thermoelectric effect manifests itself in the equality of the Peltier (heat flow caused by a voltage difference) and Seebeck (electrical current caused by a temperature difference) coefficients of a thermoelectric material. Similarly, the so-called "direct piezoelectric" (electrical current produced by mechanical stress) and "reverse piezoelectric" (deformation produced by a voltage difference) coefficients are equal. For many kinetic systems, like the Boltzmann equation or chemical kinetics, the Onsager relations are closely connected to the principle of detailed balance and follow from them in the linear approximation near equilibrium.
+
+Experimental verifications of the Onsager reciprocal relations were collected and analyzed by D. G. Miller for many classes of irreversible processes, namely for thermoelectricity, electrokinetics, transference in electrolytic solutions, diffusion, conduction of heat and electricity in anisotropic solids, thermomagnetism and galvanomagnetism. In this classical review, chemical reactions are considered as "cases with meager" and inconclusive evidence. Further theoretical analysis and experiments support the reciprocal relations for chemical kinetics with transport.
+
+For his discovery of these reciprocal relations, Lars Onsager was awarded the 1968 Nobel Prize in Chemistry. The presentation speech referred to the three laws of thermodynamics and then added "It can be said that Onsager's reciprocal relations represent a further law making a thermodynamic study of irreversible processes possible." Some authors have even described Onsager's relations as the "Fourth law of thermodynamics".
+
+The basic thermodynamic potential is internal energy. In a simple fluid system, neglecting the effects of viscosity the fundamental thermodynamic equation is written:
+
+where "U" is the internal energy, "T" is temperature, "S" is entropy, "P" is the hydrostatic pressure, "V" is the volume, formula_2 is the chemical potential, and "M" mass. In terms of the internal energy density, "u", entropy density "s", and mass density formula_3, the fundamental equation at fixed volume is written:
+
+For non-fluid or more complex systems there will be a different collection of variables describing the work term, but the principle is the same. The above equation may be solved for the entropy density:
+
+The above expression of the first law in terms of entropy change defines the entropic conjugate variables of formula_6 and formula_3, which are formula_8 and formula_9 and are intensive quantities analogous to potential energies; their gradients are called thermodynamic forces as they cause flows of the corresponding extensive variables as expressed in the following equations.
+
+The conservation of mass is expressed locally by the fact that the flow of mass density formula_3 satisfies the continuity equation:
+where formula_12 is the mass flux vector. The formulation of energy conservation is generally not in the form of a continuity equation because it includes contributions both from the macroscopic mechanical energy of the fluid flow and of the microscopic internal energy. However, if we assume that the macroscopic velocity of the fluid is negligible, we obtain energy conservation in the following form:
+
+where formula_6 is the internal energy density and formula_15 is the internal energy flux.
+
+Since we are interested in a general imperfect fluid, entropy is locally not conserved and its local evolution can be given in the form of entropy density formula_16 as
+
+where formula_18 is the rate of increase in entropy density due to the irreversible processes of equilibration occurring in the fluid and formula_19 is the entropy flux.
+
+In the absence of matter flows, Fourier's law is usually written:
+
+where formula_21 is the thermal conductivity. However, this law is just a linear approximation, and holds only for the case where formula_22, with the thermal conductivity possibly being a function of the thermodynamic state variables, but not their gradients or time rate of change. Assuming that this is the case, Fourier's law may just as well be written:
+
+In the absence of heat flows, Fick's law of diffusion is usually written:
+
+where "D" is the coefficient of diffusion. Since this is also a linear approximation and since the chemical potential is monotonically increasing with density at a fixed temperature, Fick's law may just as well be written:
+
+where, again, formula_26 is a function of thermodynamic state parameters, but not their gradients or time rate of change. For the general case in which there are both mass and energy fluxes, the phenomenological equations may be written as:
+
+or, more concisely,
+
+where the entropic "thermodynamic forces" conjugate to the "displacements" formula_6 and formula_3 are formula_32 and formula_33 and formula_34 is the Onsager matrix of transport coefficients.
+
+From the fundamental equation, it follows that:
+and
+
+Using the continuity equations, the rate of entropy production may now be written:
+
+and, incorporating the phenomenological equations:
+
+It can be seen that, since the entropy production must be greater than zero, the Onsager matrix of phenomenological coefficients formula_34 is a positive semi-definite matrix.
+
+Onsager's contribution was to demonstrate that not only is formula_34 positive semi-definite, it is also symmetric, except in cases where time-reversal symmetry is broken. In other words, the cross-coefficients formula_41 and formula_42 are equal. The fact that they are at least proportional follows from simple dimensional analysis ("i.e.", both coefficients are measured in the same units of temperature times mass density).
+
+The rate of entropy production for the above simple example uses only two entropic forces, and a 2x2 Onsager phenomenological matrix. The expression for the linear approximation to the fluxes and the rate of entropy production can very often be expressed in an analogous way for many more general and complicated systems.
+
+Let formula_43 denote fluctuations from equilibrium values in several thermodynamic quantities, and let formula_44 be the entropy. Then, Boltzmann's entropy formula gives for the probability distribution function formula_45, "A"=const, since the probability of a given set of fluctuations formula_46 is proportional to the number of microstates with that fluctuation. Assuming the fluctuations are small, the probability distribution function can be expressed through the second differential of the entropy
+
+where we are using Einstein summation convention and formula_48 is a positive definite symmetric matrix.
+
+Using the quasi-stationary equilibrium approximation, that is, assuming that the system is only slightly non-equilibrium, we have formula_49
+
+Suppose we define "thermodynamic conjugate" quantities as formula_50, which can also be expressed as linear functions (for small fluctuations): formula_51
+
+Thus, we can write formula_52 where formula_53 are called "kinetic coefficients"
+
+The "principle of symmetry of kinetic coefficients" or the "Onsager's principle" states that formula_54 is a symmetric matrix, that is formula_55
+
+Define mean values formula_56 and formula_57 of fluctuating quantities formula_58 and formula_59 respectively such that they take given values formula_60 at formula_61 Note that formula_62
+
+Symmetry of fluctuations under time reversal implies that formula_63
+
+or, with formula_56, we have formula_65
+
+Differentiating with respect to formula_66 and substituting, we get formula_67
+
+Putting formula_61 in the above equation, formula_69
+
+It can be easily shown from the definition that formula_70, and hence, we have the required result.
+
+
+

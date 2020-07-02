@@ -1,0 +1,81 @@
+﻿Density of states
+
+In solid state physics and condensed matter physics, the density of states (DOS) of a system describes the number of states that are available to be occupied by the system at each level of energy. It is mathematically represented as a distribution by a probability density function, and it is generally an average over the space and time domains of the various states occupied by the system. The density of states is directly related to the dispersion relations of the properties of the system. High DOS at a specific energy level means that many states are available for occupation.
+
+Generally, the density of states of matter is continuous. In isolated systems however, such as atoms or molecules in the gas phase, the density distribution is discrete, like a spectral density. Local variations, most often due to distortions of the original system, are often called local density of states (LDOS). If the DOS of an undisturbed system is zero, the LDOS can locally be non-zero due to the presence of a local potential.
+
+In quantum mechanical systems, waves, or wave-like particles, can occupy modes or states with wavelengths and propagation directions dictated by the system. For example, in some systems, the interatomic spacing and the atomic charge of a material could allow only electrons of certain wavelengths to exist. In other systems, the crystalline structure of a material could allow waves to propagate in one direction, while suppressing wave propagation in another direction. Often, only specific states are permitted. Thus, it can happen that many states are available for occupation at a specific energy level, while no states are available at other energy levels . 
+
+For example, the density of states of electrons at the band edge between the valence and conduction bands in a semiconductor is shown in orange in Fig. 4. For an electron in the conduction band, an increase of the electron energy makes more states available for occupation. Alternatively, the density of state is discontinuous for an interval of energy, which means that no states are available for electrons to occupy within the band gap of the material. This condition also means that an electron at the conduction band edge must lose at least the band gap energy of the material in order to transition to another state in the valence band.
+
+Depending on the quantum mechanical system, the density of states can be calculated for electrons, photons, or phonons, and can be given as a function of either energy or the wave vector "k". To convert between the DOS as a function of the energy and the DOS as a function of the wave vector, the system-specific energy dispersion relation between "E" and "k" must be known. 
+
+In general, the topological properties of the system have a major impact on the properties of the density of states. The most well-known systems, like neutronium in neutron stars and free electron gases in metals (examples of degenerate matter and a Fermi gas), have a 3-dimensional Euclidean topology. Less familiar systems, like two-dimensional electron gases (2DEG) in graphite layers and the quantum Hall effect system in MOSFET type devices, have a 2-dimensional Euclidean topology. Even less familiar are carbon nanotubes, the quantum wire and Luttinger liquid with their 1-dimensional topologies. Systems with 1D and 2D topologies are likely to become more common, assuming developments in nanotechnology and materials science proceed.
+
+In general the density of states, related to volume "V" and "N" countable energy levels, is defined by:
+
+Using formula_2 (the smallest allowed change of formula_3 for a particle in a box of dimension formula_4 and length formula_5) under the limit formula_6, one derives the volume-related density of states for continuous energy levels
+
+With formula_4 of the spatial dimension of the considered system and formula_9 the wave vector.
+
+Equivalently, the density of states can also be understood as the derivative of the microcanonical partition function formula_10 with respect to the energy:
+
+The number of states with energy formula_12 (degree of degeneracy) is given by:
+where the last equality only applies when the mean value theorem for integrals is valid.
+
+There is a large variety of systems and types of states for which DOS calculations can be done.
+
+Some condensed matter systems possess a symmetry of its structure on its microscopic scale which simplifies calculations of its density of states. In spherically symmetric systems, the integrals of function are one-dimensional because all variables in the calculation depend only on the radial parameter of the dispersion relation. Fluids, glasses or amorphous solids are example of a symmetric system whose dispersion relations has a rotational symmetry. 
+Measurements on powders or polycrystalline samples require evaluation and calculation functions and integrals over the whole domain, most often a Brillouin zone, of the dispersion relations of the system of interest. Sometimes the symmetry of the system is high, which causes the shape of the functions describing the dispersion relations of the system to appear many times over the whole domain of the dispersion relation. In such cases the effort to calculate the DOS can be reduced by a great amount when the calculation is limited to a reduced zone or fundamental domain. The Brillouin zone of the face-centered cubic lattice (FCC) in the figure on the right has the 48-fold symmetry of the point group "O" with full octahedral symmetry. This configuration means that the integration over the whole domain of the Brillouin zone can be reduced to a 48-th part of the whole Brillouin zone. As a crystal structure periodic table shows, there are many elements with a FCC crystal structure, like diamond, silicon and platinum and their Brillouin zones and dispersion relations have this 48-fold symmetry. Two other familiar crystal structures are the body-centered cubic lattice (BCC) and hexagonal closed packed structures (HCP) with cubic and hexagonal lattices, respectively. The BCC structure has the 24-fold pyritohedral symmetry of the point group "T". The HCP structure has the 12-fold prismatic dihedral symmetry of the point group "D". A complete list of symmetry properties of a point group can be found in point group character tables.
+
+In general it is easier to calculate a DOS when the symmetry of the system is higher and the number of topological dimensions of the dispersion relation is lower. The DOS of dispersion relations with rotational symmetry can often be calculated analytically. This result is fortunate, since many materials of practical interest, such as steel and silicon, have high symmetry.
+
+In anisotropic condensed matter systems such as a single crystal of a compound, the density of states could be different in one crystallographic direction than in another. These causes the anisotropic density of states to be more difficult to visualize, and might require methods such as calculating the DOS for particular points or directions only, or calculating the projected density of states (PDOS) to a particular crystal orientation.
+
+The density of states is dependent upon the dimensional limits of the object itself. In a system described by three orthogonal parameters (3 Dimension), the units of DOS is EnergyVolume , in a two dimensional system, the units of DOS is EnergyArea , in a one dimensional system, the units of DOS is EnergyLength. The referenced volume is the volume of "k"-space; the space enclosed by the constant energy surface of the system derived through a dispersion relation that relates "E" to "k". An example of a 3-dimensional "k"-space is given in Fig. 1. It can be seen that the dimensionality of the system confines the momentum of particles inside the system.
+
+The calculation for DOS starts by counting the "N" allowed states at a certain "k" that are contained within inside the volume of the system. This procedure is done by differentiating the whole k-space volume formula_14 in n-dimensions at an arbitrary "k", with respect to "k". The volume, area or length in 3, 2 or 1-dimensional spherical "k"-spaces are expressed by
+
+for a n-dimensional "k"-space with the topologically determined constants
+
+for linear, disk and spherical symmetrical shaped functions in 1, 2 and 3-dimensional Euclidean "k"-spaces respectively.
+
+According to this scheme, the density of wave vector states "N" is, through differentiating formula_17 with respect to "k", expressed by
+
+formula_19 is the chemical potential (also denoted as E and called the Fermi level when "T"=0), formula_20 is the Boltzmann constant, and formula_21 is temperature. Fig. 4 illustrates how the product of the Fermi-Dirac distribution function and the three-dimensional density of states for a semiconductor can give insight to physical properties such as carrier concentration and Energy band gaps.
+
+Bose–Einstein statistics: The Bose–Einstein probability distribution function is used to find the probability that a boson occupies a specific quantum state in a system at thermal equilibrium. Bosons are particles which do not obey the Pauli exclusion principle (e.g. phonons and photons). The distribution function can be written as
+
+From these two distributions it is possible to calculate properties such as the internal energy formula_23, the number of particles formula_24, specific heat capacity formula_25, and thermal conductivity formula_3. The relationships between these properties and the product of the density of states and the probability distribution, denoting the density of states by formula_27 instead of formula_28, are given by
+
+formula_4 is dimensionality, formula_31 is sound velocity and formula_32 is mean free path.
+
+The density of states appears in many areas of physics, and helps to explain a number of quantum mechanical phenomena.
+
+Calculating the density of states for small structures shows that the distribution of electrons changes as dimensionality is reduced. For quantum wires, the DOS for certain energies actually becomes higher than the DOS for bulk semiconductors, and for quantum dots the electrons become quantized to certain energies.
+
+The photon density of states can be manipulated by using periodic structures with length scales on the order of the wavelength of light. Some structures can completely inhibit the propagation of light of certain colors (energies), creating a photonic band gap: the DOS is zero for those photon energies. Other structures can inhibit the propagation of light only in certain directions to create mirrors, waveguides, and cavities. Such periodic structures are known as photonic crystals. In nanostructured media the concept of local density of states (LDOS) is often more relevant than that of DOS, as the DOS varies considerably from point to point.
+
+Interesting systems are in general complex, for instance compounds, biomolecules, polymers, etc. Because of the complexity of these systems the analytical calculation of the density of states is in most of the cases impossible. Computer simulations offer a set of algorithms to evaluate the density of states with a high accuracy. One of these algorithms is called the Wang and Landau algorithm.
+
+Within the Wang and Landau scheme any previous knowledge of the density of states is required. One proceeds as follows: the cost function (for example the energy) of the system is discretized. Each time the bin "i" is reached one updates
+a histogram for the density of states, formula_33, by
+
+where "f" is called the modification factor. As soon as each bin in the histogram is visited a certain number of times
+(10-15), the modification factor is reduced by some criterion, for instance,
+
+where "n" denotes the "n"-th update step. The simulation finishes when the modification factor is less than a certain threshold, for instance formula_36.
+
+The Wang and Landau algorithm has some advantages over other common algorithms such as multicanonical simulations and parallel tempering. For example, the density of states is obtained as the main product of the simulation. Additionally, Wang and Landau simulations are completely independent of the temperature. This feature allows to compute the density of states of systems with very rough energy landscape such as proteins.
+
+Mathematically the density of states is formulated in terms of a tower of covering maps.
+
+Local density of states (LDOS) describes a space-resolved density of states. In materials science, for example, this term is useful when interpreting the data from a scanning tunneling microscope (STM), since this method is capable of imaging electron densities of states with atomic resolution. According to crystal structure, this quantity can be predicted by computational methods, as for example with density functional theory.
+
+Local density of states can be used to gain insights into a solid-state device. For example, the figure on the right illustrates LDOS of a transistor as it turns on and off in a ballistic simulation. The LDOS has clear boundary in the source and drain, that corresponds to the location of band edge. In the channel, the DOS is increasing as gate voltage increase and potential barrier goes down. 
+
+In optics and photonics the concept of local density of states refers to the states that can be occupied by a photon. For light it is usually measured by fluorescence methods, near-field scanning methods or by cathodoluminescence techniques.
+
+
+
+

@@ -1,0 +1,11 @@
+﻿Surface growth
+
+In mathematics and physics, a surface growth model is the dynamical study of growth of a surface, usually by means of a stochastic differential equation of a field. Popular growth models include:
+
+
+They are studied for their fractal properties, scaling behavior, critical exponents, universality classes, and relations to chaos theory, dynamical system, non-equilibrium / disordered / complex systems.
+
+Popular tools include statistical mechanics, renormalization group, rough path theory, etc.
+
+
+

@@ -1,0 +1,48 @@
+﻿Silver chloride electrode
+
+A silver chloride electrode is a type of reference electrode, commonly used in electrochemical measurements. For environmental reasons it has widely replaced the saturated calomel electrode. For example, it is usually the internal reference electrode in pH meters and it is often used as reference in reduction potential measurements. As an example of the latter, the silver chloride electrode is the most commonly used reference electrode for testing cathodic protection corrosion control systems in sea water environments.
+
+The electrode functions as a redox electrode and the equilibrium is between the silver metal (Ag) and its salt—silver chloride (AgCl, also called silver(I) chloride).
+
+The corresponding half-reactions can be presented as follows:
+or can be written together:
+
+which can be simplified:
+
+This reaction is characterized by fast electrode kinetics, meaning that a sufficiently high current can be passed through the electrode with the 100% efficiency of the redox reaction (dissolution of the metal or cathodic deposition of the silver-ions). The reaction has been proven to obey these equations in solutions of pH values between 0 and 13.5.
+
+The Nernst equation below shows the dependence of the potential of the silver-silver(I) chloride electrode on the activity or effective concentration of chloride-ions:
+
+The standard electrode potential E against standard hydrogen electrode (SHE) is 0.230 V ± 10 mV. The potential is however very sensitive to traces of bromide ions which make it more negative. (The more exact standard potential given by an IUPAC review paper is +0.22249 V, with a standard deviation of 0.13 mV at 25 °C.)
+
+Commercial reference electrodes consist of a plastic tube electrode body. The electrode is a silver wire that is coated with a thin layer of silver chloride, either physically by dipping the wire in molten silver chloride, chemically by electroplating the wire in concentrated hydrochloric acid or electrochemically by oxidising the silver in a chloride solution.
+
+A porous plug on one end allows contact between the field environment with the silver chloride electrolyte. An insulated lead wire connects the silver rod with measuring instruments. A voltmeter negative lead is connected to the test wire.
+
+The electrode body contains potassium chloride to stabilize the silver chloride concentration. When working in seawater, this body can be removed and the chloride concentration is fixed by the stable salinity of the water. The potential of a silver:silver chloride reference electrode with respect to standard hydrogen electrode depends on the electrolyte composition.
+
+The electrode has many features making it suitable for use in the field: 
+
+They are usually manufactured with saturated potassium chloride electrolyte, but can be used with lower concentrations such as 1 mol/kg potassium chloride. As noted above, changing the electrolyte concentration changes the electrode potential. Silver chloride is slightly soluble in strong potassium chloride solutions, so it is sometimes recommended the potassium chloride be saturated with silver chloride to avoid stripping the silver chloride off the silver wire.
+
+Silver chloride electrodes are also used by many applications of biological electrode systems such as biomonitoring sensors as part of electrocardiography (ECG) and electroencephalography (EEG), and in transcutaneous electrical nerve stimulation (TENS) to deliver current. Historically, the electrodes were fabricated from solid materials such as silver, brass coated with silver, tin and nickel. In today's applications, most biomonitoring electrodes are silver/silver chloride sensors which are fabricated by coating a thin layer of silver on plastic substrates and the outer layer of silver is converted to silver chloride.
+
+The principle of silver/silver chloride sensors operation is the conversion of ion current at the surface of human tissues to electron current to be delivered through the lead wire to the instrument to read. An important part of the operation is electrolyte gel which is applied between the electrode and tissues. The gel contains free chloride ions such that the charge can be carried through the electrolyte, therefore the electrolyte can be considered as conductive for ion current as the human tissues. When the ion current exists, the silver atoms in the electrode oxidize and discharge cations to the electrolyte and the electrons carry charge through the lead wire. At the same time, the chloride ions which are anions in the electrolyte travel toward the electrode and they are reduced as they bond with silver of the electrode resulting in silver chloride and free electrons to deliver to the lead wire. The reaction allows current to pass from electrolyte to electrode and the electron current passes through the lead wire for the instrument to read.
+
+When there is an uneven distribution of cations and anions, there will be a small voltage called "half-cell potential" associated with the current. In the DC system that is used by the ECG and EEG instruments, the difference between the half-cell potential and the zero potential is shown as DC offset which is an undesirable characteristic. Silver/silver chloride is a popular choice of biological electrodes due to its low half-cell potential of approximately 220 mV and the lower of the impedance of the electrode by silver chloride.
+
+When appropriately constructed, the silver chloride electrode can be used up to 300 °C. The standard potential (i.e., the potential when the chloride activity is 1 mol/kg) of the silver chloride electrode is a function of temperature as follows:
+
+Bard et al. give the following correlations for the standard potential of the silver chloride electrode between 0 and 95°C as a function of temperature (where t is temperature in °C):
+
+The same source also gives the fit to the high-temperature potential between 25 and 275°C, which reproduces the data in the table above:
+
+The extrapolation to 300°C gives formula_4.
+
+Farmer gives the following correction for the potential of the silver chloride electrode with 0.1 mol/kg KCl solution between 25 and 275°C, accounting for the activity of Cl at the elevated temperature:
+
+
+For use in soil they are usually manufactured with saturated potassium chloride electrolyte, but can be used with lower concentrations such as 1 M potassium chloride. In seawater or chlorinated potable water they are usually directly immersed with no separate electrolyte. As noted above, changing the electrolyte concentration changes the electrode potential. Silver chloride is slightly soluble in strong potassium chloride solutions, so it is sometimes recommended that the potassium chloride be saturated with silver chloride.
+
+
+

@@ -1,0 +1,113 @@
+﻿Wigner quasiprobability distribution
+
+The Wigner quasiprobability distribution (also called the Wigner function or the Wigner–Ville distribution after Eugene Wigner and ) is a quasiprobability distribution. It was introduced by Eugene Wigner in 1932 to study quantum corrections to classical statistical mechanics. The goal was to link the wavefunction that appears in Schrödinger's equation to a probability distribution in phase space.
+
+It is a generating function for all spatial autocorrelation functions of a given quantum-mechanical wavefunction .
+Thus, it maps on the quantum density matrix in the map between real phase-space functions and Hermitian operators introduced by Hermann Weyl in 1927, in a context related to representation theory in mathematics (cf. Weyl quantization in physics). In effect, it is the Wigner–Weyl transform of the density matrix, so the realization of that operator in phase space. It was later rederived by Jean Ville in 1948 as a quadratic (in signal) representation of the local time-frequency energy of a signal, effectively a spectrogram.
+
+In 1949, José Enrique Moyal, who had derived it independently, recognized it as the quantum moment-generating functional, and thus as the basis of an elegant encoding of all quantum expectation values, and hence quantum mechanics, in phase space (cf. phase space formulation). It has applications in statistical mechanics, quantum chemistry, quantum optics, classical optics and signal analysis in diverse fields such as electrical engineering, seismology, time–frequency analysis for music signals, spectrograms in biology and speech processing, and engine design.
+
+A classical particle has a definite position and momentum, and hence it is represented by a point in phase space. Given a collection (ensemble) of particles, the probability of finding a particle at a certain position in phase space is specified by a probability distribution, the Liouville density. This strict interpretation fails
+for a quantum particle, due to the uncertainty principle. Instead, the above quasiprobability Wigner distribution plays an analogous role, but does not satisfy all the properties of a conventional probability distribution; and, conversely, satisfies boundedness properties unavailable to classical distributions.
+
+For instance, the Wigner distribution can and normally does take on negative values for states which have no classical model—and is a convenient indicator of quantum mechanical interference. (See below for a characterization of pure states whose Wigner functions are non-negative.)
+Smoothing the Wigner distribution through a filter of size larger than (e.g., convolving with a
+phase-space Gaussian, a Weierstrass transform, to yield the Husimi representation, below), results in a positive-semidefinite function, i.e., it may be thought to have been coarsened to a semi-classical one.
+
+Regions of such negative value are provable (by convolving them with a small Gaussian) to be "small": they cannot extend to compact regions larger than a few , and hence disappear in the classical limit. They are shielded by the uncertainty principle, which does not allow precise location within phase-space regions smaller than , and thus renders such "negative probabilities" less paradoxical.
+
+The Wigner distribution of a pure state is defined as:
+
+where is the wavefunction and and are position and momentum but could be any conjugate variable pair (e.g. real and imaginary parts of the electric field or frequency and time of a signal). Note that it may have support in even in regions where has no support in ("beats").
+
+It is symmetric in and ,
+where is the normalized momentum-space wave function, proportional to the Fourier transform of .
+
+In 3D,
+
+In the general case, which includes mixed states, it is the Wigner transform of the density matrix,
+where ⟨"x"|"ψ"⟩ = . This Wigner transformation (or map) is the inverse of the Weyl transform, which maps phase-space functions to Hilbert-space operators, in Weyl quantization.
+
+Thus, the Wigner function is the cornerstone of quantum mechanics in phase space.
+
+In 1949, José Enrique Moyal elucidated
+how the Wigner function provides the integration measure (analogous
+to a probability density function) in phase space, to yield expectation values from phase-space c-number functions uniquely associated to suitably ordered operators through Weyl's transform (cf. Wigner–Weyl transform and property 7 below), in a manner evocative of classical probability theory.
+
+Specifically, an operator's expectation value is a "phase-space average" of the Wigner transform of that operator,
+
+1. "W"("x", "p") is a real valued function.
+
+2. The "x" and "p" probability distributions are given by the marginals:
+
+3. "W"("x", "p") has the following reflection symmetries:
+
+4. "W"("x", "p") is Galilei-covariant:
+
+5. The equation of motion for each point in the phase space is classical in the absence of forces:
+In fact, it is classical even in the presence of harmonic forces.
+
+6. State overlap is calculated as:
+
+7. Operator expectation values (averages) are calculated as
+phase-space averages of the respective Wigner transforms:
+
+8. In order that "W"("x", "p") represent physical (positive) density matrices:
+for all pure states |θ〉.
+
+9. By virtue of the Cauchy–Schwarz inequality, for a pure state, it is constrained to be bounded,
+
+This bound disappears in the classical limit, "ħ" → 0. In this limit, "W"("x", "p") reduces to the probability density in coordinate space "x", usually highly localized, multiplied by δ-functions in momentum: the classical limit is "spiky". Thus, this quantum-mechanical bound precludes a Wigner function which is a perfectly localized delta function in phase space, as a reflection of the uncertainty principle.
+
+The Wigner transformation is a general invertible transformation of an operator on a Hilbert space to a function "g(x,p)" on phase space, and is given by
+
+Hermitian operators map to real functions. The inverse of this transformation,
+so from phase space to Hilbert space, is called the Weyl transformation,
+(not to be confused with the distinct Weyl transformation in differential geometry).
+
+The Wigner function "W"("x,p") discussed here is thus seen to be the Wigner transform of the density matrix operator "ρ̂". Thus, the trace of an operator with the density matrix Wigner-transforms to the equivalent phase-space integral overlap of "g"("x", "p") with the Wigner function.
+
+The Wigner transform of the von Neumann evolution equation of the density matrix in the Schrödinger picture is
+where H(x,p) is Hamiltonian and { {•, •} } is the Moyal bracket. In the classical limit "ħ" → 0, the Moyal bracket reduces to the Poisson bracket, while this evolution equation reduces to the Liouville equation of classical statistical mechanics.
+
+Strictly formally, in terms of quantum characteristics, the solution of
+this evolution equation reads, formula_22,
+where formula_23 and formula_24 are solutions of
+so-called quantum Hamilton's equations, subject to initial conditions
+formula_25 and formula_26, and where formula_27-product
+composition is understood for all argument functions.
+
+Since, however, formula_27-composition is thoroughly nonlocal (the "quantum probability fluid" diffuses, as observed by Moyal), vestiges of local trajectories
+are normally barely discernible in the evolution of the Wigner distribution function.
+In the integral representation of -products, successive operations by them have been adapted to a phase-space path-integral, to solve this evolution equation for the Wigner function (see also ).
+This non-trajectoral feature of Moyal time evolution is illustrated in Figs 5,6,7, below, for Hamiltonians more complex than the oscillator (in some contrast to the quasi-classical oscillator evolution of Fig 4.)
+The Wigner function allows one to study the classical limit, offering a comparison of the classical and quantum dynamics in phase space.
+
+It has recently been suggested that the Wigner function approach can be viewed as a quantum analogy to the operatorial formulation of classical mechanics introduced in 1932 by Bernard Koopman and John von Neumann: the time evolution of the Wigner function approaches, in the limit "ħ" → 0, the time evolution of the Koopman–von Neumann wavefunction of a classical particle.
+
+As already noted, the Wigner function of quantum state typically takes some negative values. Indeed, for a pure state in one variable, if formula_29 for all formula_30 and formula_31, then the wave function must have the form
+for some complex numbers formula_33 with formula_34 (Hudson's theorem). Note that formula_35 is allowed to be complex, so that formula_36 is not necessarily a Gaussian wave packet in the usual sense. Thus, pure states with non-negative Wigner functions are not necessarily minimum uncertainty states in the sense of the Heisenberg uncertainty formula; rather, they give equality in the Schrödinger uncertainty formula, which includes an anticommutator term in addition to the commutator term. (With careful definition of the respective variances, all pure state Wigner functions lead to Heisenberg's inequality all the same.)
+
+In higher dimensions, the characterization of pure states with non-negative Wigner functions is similar; the wave function must have the form
+where formula_38 is a symmetric complex matrix whose real part is positive definite, formula_39 is a complex vector, and is a complex number. The Wigner function of any such state is a Gaussian distribution on phase space.
+
+The cited paper of Soto and Claverie gives an elegant proof of this characterization, using the Segal–Bargmann transform. The reasoning is as follows. The Husimi Q function of formula_36 may be computed as the squared magnitude of the Segal–Bargmann transform of formula_36, multiplied by a Gaussian. Meanwhile, the Husimi Q function is the convolution of the Wigner function with a Gaussian. If the Wigner function of formula_36 is non-negative everywhere on phase space, then the Husimi Q function will be strictly positive everywhere on phase space. Thus, the Segal–Bargmann transform formula_43 of formula_36 will be nowhere zero. Thus, by a standard result from complex analysis, we have
+for some holomorphic function formula_46. But in order for formula_47 to belong to the Segal–Bargmann space—that is, for formula_47 to be square-integrable with respect to a Gaussian measure—formula_46 must have at most quadratic growth at infinity. From this, elementary complex analysis can be used to show that formula_46 must actually be a quadratic polynomial. Thus, we obtain an explicit form of the Segal–Bargmann transform of any pure state whose Wigner function is non-negative. We can then invert the Segal–Bargmann transform to obtain the claimed form of the position wave function.
+
+There does not appear to be any simple characterization of mixed states with non-negative Wigner functions.
+
+It has been shown that the Wigner quasiprobability distribution function can be regarded as an -deformation of another phase space distribution function that describes an ensemble of de Broglie–Bohm causal trajectories. Basil Hiley has shown that the quasi-probability distribution may be understood as the density matrix re-expressed in terms of a mean position and momentum of a "cell" in phase space, and the de Broglie–Bohm interpretation allows one to describe the dynamics of the centers of such "cells".
+
+There is a close connection between the description of quantum states in terms of the Wigner function and a method of quantum states reconstruction in terms of mutually unbiased bases.
+
+
+
+The Wigner distribution was the first quasiprobability distribution to be formulated, but many more followed, formally equivalent and transformable to and from it (viz. Transformation between distributions in time–frequency analysis). As in the case of coordinate systems, on account of varying properties, several such have with various advantages for specific applications:
+Nevertheless, in some sense, the Wigner distribution holds a privileged position among all these distributions, since it is the "only one" whose requisite star product drops out (integrates out by parts to effective unity) in the evaluation of expectation values, as illustrated above, and so "can" be visualized as a quasiprobability measure analogous to the classical ones.
+
+As indicated, the formula for the Wigner function was independently derived several times in different contexts. In fact, apparently, Wigner was unaware that even within the context of quantum theory, it had been introduced previously by Heisenberg and Dirac, albeit purely formally: these two missed its significance, and that of its negative values, as they merely considered it as an approximation to the full quantum description of a system such as the atom. (Incidentally, Dirac would later become Wigner's brother-in-law, marrying his sister Manci.) Symmetrically, in most of his legendary 18-month correspondence with Moyal in the mid-1940s, Dirac was unaware that Moyal's quantum-moment generating function was effectively the Wigner function, and it was Moyal who finally brought it to his attention.
+
+
+
+
+

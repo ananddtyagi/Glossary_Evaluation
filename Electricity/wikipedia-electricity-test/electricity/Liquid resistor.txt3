@@ -1,0 +1,22 @@
+﻿Liquid resistor
+
+A liquid resistor is an electrical resistor in which the resistive element is a liquid. Fixed-value liquid resistors are typically used where very high power dissipation is required. They are used in the rotor circuits of large slip ring induction motors to control starting current, torque and to limit large electrical fault currents (while other protection systems operate to clear or isolate the fault). They typically have electrodes made of welded steel plate (galvanised to reduce corrosion), suspended by insulated connections in a conductive chemical solution held in a tank - which may be open or enclosed. The tank body is normally solidly grounded or earthed. A typical unit can be rated for continuous use, or for short periods when used for current limitation in protection systems.
+
+A common use in the electrical power generating and distribution industry is as a fault current limiter in the common neutral leg of large three-phase transformers and generators. In the UK they are known as Liquid Neutral Earthing Resistors (LNERs).
+
+A rating of 0.5 megawatt for 30 seconds would not be unusual to protect the winding of a 660 MW generator. In this application where a neutral leg current flows due to a current imbalance between the generator or transformer windings due to a fault, it is limited in magnitude by the resistor.
+
+A permanently installed current transformer (CT) fixed around the neutral leg feeder to the LNER senses the current. The CT sends a signal current to an external sensing circuit (the protection system) which then sends a signal to the relevant circuit breaker to open and disconnect the supply or isolate the generator (or transformer) from the fault. The ohmic value of the resistor is calculated as a function of the permissible fault current and the system voltage to earth.
+
+The electrolyte is normally a custom solution of sodium carbonate (soda ash) mixed on-site for the specific job.
+
+This salt is alkaline and electrode corrosion effects on galvanised steel tanks is manageable if re-galvanisation is possible.
+
+The resistance of the bulk electrolyte is a function of temperature and the concentration of the salt governed by the formula:
+
+where "θ" is the temperature (in Celsius) and "R" is the standardised or datum calibration temperature.
+
+A specialised technique is required to accurately calibrate an LNER electrolyte bulk resistance value and it is normally carried out by experienced power engineers and technicians. This task must be done off-load at routine intervals (roughly 2–4 years depending on results from routine monitoring) to maintain the resistance value within tolerance and facilitate inspection of the LNER.
+
+
+

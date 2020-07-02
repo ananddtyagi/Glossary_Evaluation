@@ -1,0 +1,35 @@
+﻿Group velocity dispersion
+
+In optics, group velocity dispersion (GVD) is a characteristic of a dispersive medium, used most often to determine how the medium will affect the duration of an optical pulse traveling through it. Formally, GVD is defined as the derivative of the inverse of group velocity of light in a material with respect to angular frequency,
+
+where formula_2 and formula_3 are angular frequencies, and the group velocity formula_4 is defined as formula_5. The units of group velocity dispersion are [time]/[distance], often expressed in fs/mm.
+
+Equivalently, group velocity dispersion can be defined in terms of the medium-dependent wave vector formula_6 according to
+or in terms of the refractive index formula_8 according to
+
+Group velocity dispersion is most commonly used to estimate the amount of chirp that will be imposed on a pulse of light after passing through a material of interest. The relevant expression is given by
+
+A simple illustration of how GVD can be used to determine pulse chirp can be seen by looking at the effect of a transform-limited pulse of duration formula_11 passing through a planar medium of thickness "d". Before passing through the medium, the phase offsets of all frequencies are aligned in time, and the pulse can be described as a function of time according to the expression
+or equivalently, as a function of frequency according to the expression
+(the parameters "A" and "B" are normalization constants).
+Passing through the medium results in a frequency-dependent phase accumulation formula_14 , such that the post-medium pulse can be described by 
+In general, the refractive index formula_8, and therefore the wave vector formula_17, can be an arbitrary function of formula_2, making it difficult to analytically perform the inverse Fourier transform back into the time domain. However, if the bandwidth of the pulse is narrow relative to the curvature of formula_19, then good approximations of the impact of the refractive index can be obtained by replacing formula_6 with its Taylor expansion centered about formula_3:
+
+Truncating this expression and inserting it into the post-medium frequency-domain expression results in a post-medium time-domain expression of 
+On balance, the pulse will have lengthened to an intensity standard deviation value of
+thus validating the initial expression. Note that for a transform-limited pulse σσ = 1/2, which makes it appropriate to identify 1/(2σ) as the bandwidth.
+
+An alternate derivation of the relationship between pulse chirp and GVD, which more immediately illustrates the reason why GVD can be defined by the derivative of inverse group velocity, can be outlined as follows. Consider two transform-limited pulses of carrier frequencies formula_25 and formula_26, which are initially overlapping in time. After passing through the medium, these two pulses will exhibit a time delay between their respective pulse-envelope centers, given by 
+The expression can be approximated as a Taylor expansion, giving 
+or,
+From here it is possible to imagine scaling this expression up two pulses to infinitely many. The frequency difference formula_30 must be replaced by the bandwidth, and the time delay formula_31 evolves into the induced chirp.
+
+A closely related yet independent quantity is the group delay dispersion (GDD), defined such that group velocity dispersion is the group delay dispersion per unit length. GDD is commonly used as a parameter in characterizing layered mirrors, where the group velocity dispersion is not particularly-well defined, yet the chirp induced after bouncing off the mirror can be well-characterized. The units of group delay dispersion are [time], often expressed in fs.
+
+The group delay dispersion (GDD) of an optical element is the derivative of the group delay with respect to angular frequency, and also the second derivative of the optical phase. formula_32. It is a measure of the chromatic dispersion of the element. GDD is related to the total dispersion parameter formula_33 as
+
+formula_34
+
+
+
+

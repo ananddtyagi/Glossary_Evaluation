@@ -1,0 +1,14 @@
+﻿Electrically conductive adhesive
+
+An electrically conductive adhesive is a glue that is primarily used for electronics.
+
+The electric conductivity is caused by a component that makes ca. 80% of the total mass of an electrically conductive adhesive. This conductive component is suspended in a sticky component that holds the electrically conductive adhesive together. The particles of the conductive component are in contact to each other and in this way make electric current possible.
+
+The conductive component can be silver, nickel, copper or graphite. Other conductive materials are possible but unusual. The adhesive component can be a varnish, synthetic resin, or Silicone. Variations in conductive component's type and concentration change the resistivity of the adhesive . A typical silver-based conductive adhesive such as that made by Electrolube contains ingredients in the following proportions:-
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+﻿Node (circuits)
+
+In electrical engineering, a node is any point on a circuit where the terminals of two or more circuit elements meet. In circuit diagrams, connections are ideal wires with zero resistance, so a node may consist of the entire section of wire between elements, not just a single point.
+
+According to Ohm's law, "V = IR", the voltage across any two points of a node with negligible resistance is
+
+showing that the voltage at every point of a node is the same. However, there are some notable exceptions where the voltage difference is large enough to become significant:
+
+Dots used to mark nodes on a circuit diagram are sometimes referred to as "meatballs".
+
+

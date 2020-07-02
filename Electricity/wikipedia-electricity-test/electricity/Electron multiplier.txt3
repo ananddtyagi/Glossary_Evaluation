@@ -1,0 +1,19 @@
+﻿Electron multiplier
+
+An electron multiplier is a vacuum-tube structure that multiplies incident charges. In a process called secondary emission, a single electron can, when bombarded on secondary-emissive material, induce emission of roughly 1 to 3 electrons. If an electric potential is applied between this metal plate and yet another, the emitted electrons will accelerate to the next metal plate and induce secondary emission of still more electrons. This can be repeated a number of times, resulting in a large shower of electrons all collected by a metal anode, all having been triggered by just one.
+
+In 1930, Russian physicist Leonid Aleksandrovitch Kubetsky proposed a device which used photocathodes combined with dynodes, or secondary electron emitters, in a single tube to remove secondary electrons by increasing the electric potential through the device. The electron multiplier can use any number of dynodes in total, which use a coefficient, σ, and created a gain of σ where n is the number of emitters. 
+
+Secondary electron emission begins when one electron hits a dynode inside a vacuum chamber and ejects electrons that cascade onto more dynodes and repeats the process over again. The dynodes are set up so that each time an electron hits the next one it will have an increase of about 100 electron Volts greater than the last dynode. Some advantages of using this include a response time in the picoseconds, a high sensitivity, and an electron gain of about 10 electrons. 
+
+A continuous dynode system uses a horn shape funnel of glass coated with a thin film of semiconducting materials. The electrodes have increasing resistance to allow secondary emission. Continuous dynodes use a negative high voltage in the wider end and goes to a positive near ground at the narrow end. The first device of this kind was called a Channel Electron Multiplier (CEM). CEMs required 2-4 kilovolts in order to achieve a gain of 10 electrons. 
+
+Another geometry of continuous-dynode electron multiplier is called the microchannel plate (MCP). It may be considered a 2-dimensional parallel array of very small continuous-dynode electron multipliers, built together and powered in parallel. Each microchannel is generally parallel-walled, not tapered or funnel-like. MCPs are constructed from lead glass and carry a resistance of 10 Ω between each electrode. Each channel has a diameter of 10-100 μm. The electron gain for one microchannel plate can be around 10-10 electrons. 
+
+In mass spectrometry electron multipliers are often used as a detector of ions that have been separated by a mass analyzer of some sort. They can be the continuous-dynode type and may have a curved horn-like funnel shape or can have discrete dynodes as in a photomultiplier. Continuous dynode electron multipliers are also used in NASA missions and are coupled to a gas chromatography mass spectrometer (GC-MS) which allows scientists to determine the amount and types of gasses present on Titan, Saturn's largest moon. 
+
+Microchannel plates are also used in night-vision goggles. As electrons hit the millions of channels, they release thousands of secondary electrons. These electrons then hit a phosphor screen where they are amplified and converted back into light. The resulting image patterns the original and allows for better vision in the dark, while only using a small battery pack to provide a voltage for the MCP. 
+
+
+
+

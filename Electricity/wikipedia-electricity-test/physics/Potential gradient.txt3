@@ -1,0 +1,34 @@
+﻿Potential gradient
+
+In physics, chemistry and biology, a potential gradient is the local rate of change of the potential with respect to displacement, i.e. spatial derivative, or gradient. This quantity frequently occurs in equations of physical processes because it leads to some form of flux.
+
+The simplest definition for a potential gradient "F" in one dimension is the following:
+
+where is some type of scalar potential and is displacement (not distance) in the direction, the subscripts label two different positions , and potentials at those points, . In the limit of infinitesimal displacements, the ratio of differences becomes a ratio of differentials:
+
+where is the electromagnetic vector potential. This last potential expression in fact reduces Faraday's law to an identity.
+
+In fluid mechanics, the velocity field describes the fluid motion. An irrotational flow means the velocity field is conservative, or equivalently the vorticity pseudovector field is zero: 
+
+This allows the velocity potential to be defined simply as:
+
+In an electrochemical half-cell, at the interface between the electrolyte (an ionic solution) and the metal electrode, the standard electric potential difference is:
+
+where "R" = gas constant, "T" = temperature of solution, "z" = valency of the metal, "e" = elementary charge, "N" = Avogadro constant, and "a" is the activity of the ions in solution. Quantities with superscript ⊖ denote the measurement is taken under standard conditions. The potential gradient is relatively abrupt, since there is an almost definite boundary between the metal and solution, hence the interface term.
+
+In biology, a potential gradient is the net difference in electric charge across a cell membrane.
+
+Since gradients in potentials correspond to physical fields, it makes no difference if a constant is added on (it is erased by the gradient operator which includes partial differentiation). This means there is no way to tell what the "absolute value" of the potential "is" – the zero value of potential is completely arbitrary and can be chosen anywhere by convenience (even "at infinity"). This idea also applies to vector potentials, and is exploited in classical field theory and also gauge field theory.
+
+Absolute values of potentials are not physically observable, only gradients and path-dependent potential differences are. However, the Aharonov–Bohm effect is a quantum mechanical effect which illustrates that non-zero electromagnetic potentials along a closed loop (even when the and fields are zero everywhere in the region) lead to changes in the phase of the wave function of an electrically charged particle in the region, so the potentials appear to have measurable significance.
+
+Field equations, such as Gauss's laws for electricity, for magnetism, and for gravity, can be written in the form:
+
+where is the electric charge density, monopole density (should they exist), or mass density and is a constant (in terms of physical constants , , and other numerical factors).
+
+Scalar potential gradients lead to Poisson's equation:
+
+A general theory of potentials has been developed to solve this equation for the potential. The gradient of that solution gives the physical field, solving the field equation.
+
+
+

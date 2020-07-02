@@ -1,0 +1,24 @@
+﻿Clausius–Mossotti relation
+
+The Clausius–Mossotti relation expresses the dielectric constant (relative permittivity, ε) of a material in terms of the atomic polarizibility, α, of the material's constituent atoms and/or molecules, or a homogeneous mixture thereof. It is named after Ottaviano-Fabrizio Mossotti and Rudolf Clausius. It is equivalent to the Lorentz–Lorenz equation. It may be expressed as:
+
+where
+
+In the case that the material consists of a mixture of two or more species, the right hand side of the above equation would consist of the sum of the molecular polarizability contribution from each species, indexed by "i" in the following form: (see Lorrain and Corson - Electromagnetic Field and Waves, 1962, 2nd Edition, page 116)
+
+In the CGS system of units the Clausius–Mossotti relation is typically rewritten to show the molecular polarizability "volume" formula_7 which has units of volume (m). Confusion may arise from the practice of using the shorter name "molecular polarizability" for both formula_5 and formula_9 within literature intended for the respective unit system.
+
+The Lorentz–Lorenz equation is similar to the Clausius–Mossotti relation, except that it relates the refractive index (rather than the dielectric constant) of a substance to its polarizability. The Lorentz–Lorenz equation is named after the Danish mathematician and scientist Ludvig Lorenz, who published it in 1869, and the Dutch physicist Hendrik Lorentz, who discovered it independently in 1878.
+
+The most general form of the Lorentz–Lorenz equation is (in CGS units)
+where formula_11 is the refractive index, formula_4 is the number of molecules per unit volume, and formula_13 is the mean polarizability. 
+This equation is approximately valid for homogeneous solids as well as liquids and gases.
+
+When the square of the refractive index is formula_14, as it is for many gases, the equation reduces to:
+or simply
+
+This applies to gases at ordinary pressures. The refractive index formula_11 of the gas can then be expressed in terms of the molar refractivity formula_18 as:
+where formula_20 is the pressure of the gas, formula_21 is the universal gas constant, and formula_22 is the (absolute) temperature, which together determine the number density formula_4.
+
+
+

@@ -1,0 +1,128 @@
+﻿Canonical transformation
+
+In Hamiltonian mechanics, a canonical transformation is a change of canonical coordinates that preserves the form of Hamilton's equations. This is sometimes known as form invariance. It need not preserve the form of the Hamiltonian itself. Canonical transformations are useful in their own right, and also form the basis for the Hamilton–Jacobi equations (a useful method for calculating conserved quantities) and Liouville's theorem (itself the basis for classical statistical mechanics).
+
+Since Lagrangian mechanics is based on generalized coordinates, transformations of the coordinates do not affect the form of Lagrange's equations and, hence, do not affect the form of Hamilton's equations if we simultaneously change the momentum by a Legendre transformation into
+
+Therefore, coordinate transformations (also called point transformations) are a "type" of canonical transformation. However, the class of canonical transformations is much broader, since the old generalized coordinates, momenta and even time may be combined to form the new generalized coordinates and momenta. Canonical transformations that do not include the time explicitly are called restricted canonical transformations (many textbooks consider only this type).
+
+For clarity, we restrict the presentation here to calculus and classical mechanics. Readers familiar with more advanced mathematics such as cotangent bundles, exterior derivatives and symplectic manifolds should read the related symplectomorphism article. (Canonical transformations are a special case of a symplectomorphism.) However, a brief introduction to the modern mathematical description is included at the end of this article.
+
+Boldface variables such as represent a list of generalized coordinates that need not transform like a vector under rotation, e.g.,
+
+A dot over a variable or list signifies the time derivative, e.g.,
+
+The dot product notation between two lists of the same number of coordinates is a shorthand for the sum of the products of corresponding components, e.g.,
+
+The dot product (also known as an "inner product") maps the two coordinate lists into one variable representing a single numerical value.
+
+The functional form of Hamilton's equations is
+
+By definition, the transformed coordinates have analogous dynamics
+
+where is a new Hamiltonian (sometimes called the Kamiltonian) that must be determined.
+
+In general, a transformation does not preserve the form of Hamilton's equations. For time independent transformations between and we may check if the transformation is restricted canonical, as follows. Since restricted transformations have no explicit time dependence (by definition), the time derivative of a new generalized coordinate is
+
+where is the Poisson bracket.
+
+We also have the identity for the conjugate momentum "P"
+
+If the transformation is canonical, these two must be equal, resulting in the equations
+
+The analogous argument for the generalized momenta "P" leads to two other sets of equations
+
+These are the direct conditions to check whether a given transformation is canonical.
+
+The direct conditions allow us to prove Liouville's theorem, which states that the "volume" in phase space is conserved under canonical transformations, i.e.,
+
+By calculus, the latter integral must equal the former times the Jacobian 
+
+where the Jacobian is the determinant of the matrix of partial derivatives, which we write as
+
+Exploiting the "division" property of Jacobians yields
+
+Eliminating the repeated variables gives
+
+Application of the direct conditions above yields .
+
+To "guarantee" a valid transformation between and , we may resort to an indirect generating function approach. Both sets of variables must obey Hamilton's principle. That is the Action Integral over the Lagrangian formula_16 and formula_17 respectively, obtained by the Hamiltonian via ("inverse") Legendre transformation, both must be stationary (so that one can use the Euler–Lagrange equations to arrive at equations of the above-mentioned and designated form; as it is shown for example here):
+
+One way for both variational integral equalities to be satisfied is to have
+
+Lagrangians are not unique: one can always multiply by a constant and add a total time derivative and yield the same equations of motion (see for reference: ).
+
+In general, the scaling factor is set equal to one; canonical transformations for which are called extended canonical transformations. is kept, otherwise the problem would be rendered trivial and there would be not much freedom for the new canonical variables to differ from the old ones.
+
+Here is a generating function of one old canonical coordinate ( or ), one new canonical coordinate ( or ) and (possibly) the time . Thus, there are four basic types of generating functions (although mixtures of these four types can exist), depending on the choice of variables. As will be shown below, the generating function will define a transformation from old to new canonical coordinates, and any such transformation is guaranteed to be canonical.
+
+The type 1 generating function depends only on the old and new generalized coordinates
+To derive the implicit transformation, we expand the defining equation above
+
+Since the new and old coordinates are each independent, the following equations must hold
+
+These equations define the transformation as follows. The "first" set of equations
+
+define relations between the new generalized coordinates and the old canonical coordinates . Ideally, one can invert these relations to obtain formulae for each as a function of the old canonical coordinates. Substitution of these formulae for the coordinates into the "second" set of equations
+
+yields analogous formulae for the new generalized momenta in terms of the old canonical coordinates . We then invert both sets of formulae to obtain the "old" canonical coordinates as functions of the "new" canonical coordinates . Substitution of the inverted formulae into the final equation 
+yields a formula for as a function of the new canonical coordinates .
+
+In practice, this procedure is easier than it sounds, because the generating function is usually simple. For example, let 
+This results in swapping the generalized coordinates for the momenta and vice versa 
+and . This example illustrates how independent the coordinates and momenta are in the Hamiltonian formulation; they are equivalent variables.
+
+The type 2 generating function depends only on the old generalized coordinates and the new generalized momenta
+where the formula_29 terms represent a Legendre transformation to change the right-hand side of the equation below. To derive the implicit transformation, we expand the defining equation above
+
+Since the old coordinates and new momenta are each independent, the following equations must hold
+
+These equations define the transformation as follows. The "first" set of equations
+
+define relations between the new generalized momenta and the old canonical coordinates . Ideally, one can invert these relations to obtain formulae for each as a function of the old canonical coordinates. Substitution of these formulae for the coordinates into the "second" set of equations
+
+yields analogous formulae for the new generalized coordinates in terms of the old canonical coordinates . We then invert both sets of formulae to obtain the "old" canonical coordinates as functions of the "new" canonical coordinates . Substitution of the inverted formulae into the final equation 
+yields a formula for as a function of the new canonical coordinates .
+
+In practice, this procedure is easier than it sounds, because the generating function is usually simple. For example, let 
+where is a set of functions. This results in a point transformation of the generalized coordinates
+
+The type 3 generating function depends only on the old generalized momenta and the new generalized coordinates 
+where the formula_38 terms represent a Legendre transformation to change the left-hand side of the equation below. To derive the implicit transformation, we expand the defining equation above
+
+Since the new and old coordinates are each independent, the following equations must hold
+
+These equations define the transformation as follows. The "first" set of equations
+
+define relations between the new generalized coordinates and the old canonical coordinates . Ideally, one can invert these relations to obtain formulae for each as a function of the old canonical coordinates. Substitution of these formulae for the coordinates into the "second" set of equations
+
+yields analogous formulae for the new generalized momenta in terms of the old canonical coordinates . We then invert both sets of formulae to obtain the "old" canonical coordinates as functions of the "new" canonical coordinates . Substitution of the inverted formulae into the final equation 
+yields a formula for as a function of the new canonical coordinates .
+
+In practice, this procedure is easier than it sounds, because the generating function is usually simple.
+
+The type 4 generating function formula_44 depends only on the old and new generalized momenta
+where the formula_46 terms represent a Legendre transformation to change both sides of the equation below. To derive the implicit transformation, we expand the defining equation above
+
+Since the new and old coordinates are each independent, the following equations must hold
+
+These equations define the transformation as follows. The "first" set of equations
+
+define relations between the new generalized momenta and the old canonical coordinates . Ideally, one can invert these relations to obtain formulae for each as a function of the old canonical coordinates. Substitution of these formulae for the coordinates into the "second" set of equations
+
+yields analogous formulae for the new generalized coordinates in terms of the old canonical coordinates . We then invert both sets of formulae to obtain the "old" canonical coordinates as functions of the "new" canonical coordinates . Substitution of the inverted formulae into the final equation 
+yields a formula for as a function of the new canonical coordinates .
+
+Motion itself (or, equivalently, a shift in the time origin) is a canonical transformation. If formula_52 and formula_53, then Hamilton's principle is automatically satisfied
+
+since a valid trajectory formula_55 should always satisfy Hamilton's principle, regardless of the endpoints.
+
+In mathematical terms, canonical coordinates are any coordinates on the phase space (cotangent bundle) of the system that allow the canonical one-form to be written as
+
+up to a total differential (exact form). The change of variable between one set of canonical coordinates and another is a canonical transformation. The index of the generalized coordinates is written here as a "superscript" (formula_57), not as a "subscript" as done above (formula_58). The superscript conveys the contravariant transformation properties of the generalized coordinates, and does "not" mean that the coordinate is being raised to a power. Further details may be found at the symplectomorphism article.
+
+The first major application of the canonical transformation was in 1846, by Charles Delaunay, in the study of the Earth-Moon-Sun system. This work resulted in the publication of a pair of large volumes as "Mémoires" by the French Academy of Sciences, in 1860 and 1867.
+
+
+
+

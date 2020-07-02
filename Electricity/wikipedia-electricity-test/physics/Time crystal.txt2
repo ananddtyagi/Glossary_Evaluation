@@ -1,0 +1,52 @@
+﻿Time crystal
+
+A time crystal or space-time crystal is a structure that repeats in time, as well as in space. Normal three-dimensional crystals have a repeating pattern in space, but remain unchanged as time passes. Time crystals repeat themselves in time as well, leading the crystal to change from moment to moment. A time crystal never reaches thermal equilibrium, as it is a type of non-equilibrium matter, a form of matter proposed in 2012, and first observed in 2017. This state of matter cannot be isolated from its environment—it is an open system in non-equilibrium.
+
+The idea of a time crystal was first described by Nobel laureate Frank Wilczek in 2012. Later work developed a more precise definition for time crystals. It was proven that they cannot exist in equilibrium. Then, in 2014 Krzysztof Sacha predicted the behaviour of discrete time crystals in a periodically-driven many-body system. and in 2016, Norman Yao et al. proposed a different way to create time crystals in spin systems. From there, Christopher Monroe and Mikhail Lukin independently confirmed this in their labs. Both experiments were published in "Nature" in 2017.
+
+The idea of a space-time crystal was first put forward by Frank Wilczek, a professor at MIT and Nobel laureate, in 2012.
+
+In 2013, Xiang Zhang, a nanoengineer at University of California, Berkeley, and his team proposed creating a time crystal in the form of a constantly rotating ring of charged ions.
+
+In response to Wilczek and Zhang, Patrick Bruno, a theorist at the European Synchrotron Radiation Facility in Grenoble, France, published several articles in 2013 claiming to show that space-time crystals were impossible. Also later Masaki Oshikawa from the University of Tokyo showed that time crystals would be impossible at their ground state; moreover, he implied that any matter cannot exist in non-equilibrium in its ground state.
+
+Subsequent work developed more precise definitions of time translation symmetry-breaking, which ultimately led to a "no-go" proof that quantum time crystals in equilibrium are not possible.
+
+Several realizations of time crystals, which avoid the equilibrium no-go arguments, were later proposed. Krzysztof Sacha at Jagiellonian University in Krakow predicted the behaviour of discrete time crystals in a periodically driven system of ultracold atoms. Later works suggested that periodically driven quantum spin systems could show similar behaviour.
+
+Norman Yao at Berkeley studied a different model of time crystals. His ideas were successfully used by two teams: a group led by Harvard's Mikhail Lukin and a group led by Christopher Monroe at University of Maryland.
+
+Symmetries in nature lead directly to conservation laws, something which is precisely formulated by the Noether theorem.
+
+The basic idea of "time-translation symmetry" is that a translation in time has no effect on physical laws, i.e. that the laws of nature that apply today were the same in the past and will be the same in the future. This symmetry implies the conservation of energy.
+
+Normal crystals exhibit "broken translation symmetry": they have repeated patterns in space and are not invariant under arbitrary translations or rotations. The laws of physics are unchanged by arbitrary translations and rotations. However, if we hold fixed the atoms of a crystal, the dynamics of an electron or other particle in the crystal depend on how it moves relative to the crystal, and particle momentum can change by interacting with the atoms of a crystal — for example in Umklapp processes. Quasimomentum, however, is conserved in a perfect crystal.
+
+Time crystals show a broken symmetry analogous to a discrete space-translation symmetry breaking. For example, the molecules of a liquid freezing on the surface of a crystal can align with the molecules of the crystal, but with a pattern "less" symmetric than the crystal: it breaks the initial symmetry. This broken symmetry exhibits three important characteristics:
+
+Time crystals seem to break "time-translation symmetry" and have repeated patterns in time even if the laws of the system are invariant by translation of time. Actually, studied time crystals shows "discrete" time-translation symmetry breaking: they are periodically driven systems oscillating at a "fraction" of the frequency of the driving force. The initial symmetry is already a discrete time-translation symmetry (formula_1), not a continuous one (formula_2), which are instead described by magnetic space groups.
+
+Many systems can show behaviors of spontaneous time translation symmetry breaking: convection cells, oscillating chemical reactions, aerodynamic flutter, and subharmonic response to a periodic driving force such as the Faraday instability, NMR spin echos, parametric down-conversion, and period-doubled nonlinear dynamical systems.
+
+However, Floquet time crystals are unique in that they follow a strict definition of discrete time-translation symmetry breaking:
+
+Moreover, the broken symmetry in time crystals is the result of many-body interactions: the order is the consequence of a "collective process", just like in spatial crystals. This is not the case for NMR spin echos.
+
+Fields or particles may change their energy by interacting with a time crystal, just as they can change their momentum by interacting with a spatial crystal.
+
+These characteristics makes time crystals analogous to spatial crystals as described above.
+
+Time crystals do not violate the laws of thermodynamics: energy in the overall system is conserved, such a crystal does not spontaneously convert thermal energy into mechanical work, and it cannot serve as a perpetual store of work. But it may change perpetually in a fixed pattern in time for as long as the system can be maintained. They possess "motion without energy"—their apparent motion does not represent conventional kinetic energy.
+
+It has been proven that a time crystal cannot exist in thermal equilibrium. Recent years have seen more studies of non-equilibrium quantum fluctuations.
+
+In October 2016, Christopher Monroe at the University of Maryland claimed to have created the world's first discrete time crystal. Using the idea from Yao's proposal, his team trapped a chain of Yb ions in a Paul trap, confined by radio-frequency electromagnetic fields. One of the two spin states was selected by a pair of laser beams. The lasers were pulsed, with the shape of the pulse controlled by an acousto-optic modulator, using the Tukey window to avoid too much energy at the wrong optical frequency. The hyperfine electron states in that setup, "S" and , have very close energy levels, separated by 12.642831 GHz. Ten Doppler-cooled ions were placed in a line 0.025 mm long and coupled together.
+
+The researchers observed a subharmonic oscillation of the drive. The experiment showed "rigidity" of the time crystal, where the oscillation frequency remained unchanged even when the time crystal was perturbed, and that it gained a frequency of its own and vibrated according to it (rather than only the frequency of the drive). However, once the perturbation or frequency of vibration grew too strong, the time crystal "melted" and lost this subharmonic oscillation, and it returned to the same state as before where it moved only with the induced frequency.
+
+Later in 2016, Mikhail Lukin at Harvard also reported the creation of a driven time crystal. His group used a diamond crystal doped with a high concentration of nitrogen-vacancy centers, which have strong dipole–dipole coupling and relatively long-lived spin coherence. This strongly interacting dipolar spin system was driven with microwave fields, and the ensemble spin state was determined with an optical (laser) field. It was observed that the spin polarization evolved at half the frequency of the microwave drive. The oscillations persisted for over 100 cycles. This subharmonic response to the drive frequency is seen as a signature of time-crystalline order.
+
+A similar idea called a choreographic crystal has been proposed.
+
+
+

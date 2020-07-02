@@ -1,0 +1,74 @@
+﻿Gyrator–capacitor model
+
+The gyrator–capacitor model is a lumped-element model for magnetic fields, similar to magnetic circuits, but based on using elements analogous to capacitors (see magnetic capacitance) rather than elements analogous to resistors (see magnetic reluctance) to represent the magnetic flux path. Windings are represented as gyrators, interfacing between the electrical circuit and the magnetic model.
+
+The primary advantage of the gyrator–capacitor model compared to the magnetic reluctance model is that the model preserves the correct values of energy flow, storage and dissipation. The gyrator–capacitor model is an example of a group of analogies that preserve energy flow across energy domains by making power conjugate pairs of variables in the various domains analogous.
+
+Magnetic effective resistance (SI unit: Ω) is the real component of complex magnetic impedance. This causes a magnetic circuit to lose magnetic potential energy. Active power in a magnetic circuit equals the product of magnetic effective resistance formula_1 and magnetic current squared formula_2.
+
+formula_3
+
+The magnetic effective resistance on a complex plane appears as the side of the resistance triangle for magnetic circuit of an alternating current. The effective magnetic resistance is bounding with the effective magnetic conductance formula_4 by the expression
+
+where formula_6 is the full magnetic impedance of a magnetic circuit.
+
+In a magnetic circuit, magnetic inductance (inductive magnetic reactance) is the analogy to inductance in an electrical circuit. In the SI system, it is measured in units of -Ω. This model makes magnetomotive force (mmf) the analog of electromotive force in electrical circuits, and time rate of change of magnetic flux the analog of electric current.
+
+For phasor analysis the magnetic inductive reactance is:
+
+Where:
+
+In the complex form it is a positive imaginary number:
+
+The magnetic potential energy sustained by magnetic inductivity varies with the frequency of oscillations in electric fields. The average power in a given period is equal to zero. Due to its dependence on frequency, magnetic inductance is mainly observable in magnetic circuits which operate at VHF and/or UHF frequencies.
+
+The notion of magnetic inductivity is employed in analysis and computation of circuit behavior in the gyrator–capacitor model in a way analogous to inductance in electrical circuits.
+
+Magnetic impedance (SI unit: Ω) is the ratio of a sinusoidal magnetic tension formula_11 to a sinusoidal magnetic current formula_12 in a gyrator–capacitor model. Analogous to electrical impedance, magnetic impedance is likewise a complex variable.
+
+Magnetic impedance is also called the "full" magnetic resistance. It is derived from:
+
+The phase angle formula_16 of the magnetic impedance is equal to:
+
+Magnetic reactance is the parameter of a passive magnetic circuit or an element of the circuit, which is equal to the square root of the difference of squares of the magnetic complex impedance and magnetic effective resistance to a magnetic current, taken with the sign plus, if the magnetic current lags behind the magnetic tension in phase, and with the sign minus, if the magnetic current leads the magnetic tension in phase.
+
+Magnetic reactance is the component of magnetic complex impedance of the alternating current circuit, which produces the phase shift between a magnetic current and magnetic tension in the circuit. It is measured in units of formula_18 and is denoted by formula_19 (or formula_20). It may be inductive formula_21 or capacitive formula_22, where formula_9 is the angular frequency of a magnetic current, formula_24 is the magnetic inductivity of a circuit, formula_25 is the magnetic capacitivity of a circuit. The magnetic reactance of an undeveloped circuit with the inductivity and the capacitivity, which are connected in series, is equal: formula_26 . If formula_27, then the net reactance formula_28 and resonance takes place in the circuit. In the general case formula_29. When an energy loss is absent (formula_30), formula_31. The angle of the phase shift in a magnetic circuit formula_32. On a complex plane, the magnetic reactance appears as the side of the resistance triangle for circuit of an alternating current.
+
+Magnetic capacitivity (SI unit: H), denoted as formula_33, is an extensive property and is defined as:
+
+formula_34
+
+Where:
+formula_35 is the magnetic permeability, 
+formula_36 is the element cross-section, and formula_37 is the element length.
+
+For phasor analysis, the magnetic permeability and the magnetic capacitivity are complex values.
+
+Magnetic capacitivity is also equal to magnetic flux divided by the difference of magnetic potential across the element.
+
+formula_38
+
+Where:
+
+The notion of magnetic capacitivity is employed in the gyrator–capacitor model in a way analogous to capacitance in electrical circuits.
+
+Magnetic complex impedance is equal to the relationship of the complex effective or amplitude value of a sinusoidal magnetic tension on the passive magnetic circuit or its element, and accordingly the complex effective or amplitude value of a sinusoidal magnetic current in this circuit or in this element.
+
+Magnetic complex impedance [1, 2] is measured in units – [formula_40] and determined by the formula:
+
+formula_41
+where
+formula_42 is the relationship of the effective or amplitude value of a magnetic tension and accordingly of the effective or amplitude magnetic current is called full magnetic resistance (magnetic impedance). The full magnetic resistance (magnetic impedance) is equal to the modulus of the complex magnetic impedance. The argument of a complex magnetic impedance is equal to the difference of the phases of the magnetic tension and magnetic current formula_43.
+Complex magnetic impedance can be presented in following form:
+
+formula_44
+
+where 
+formula_45 is the real part of the complex magnetic impedance, called the effective magnetic resistance; 
+formula_46 is the imaginary part of the complex magnetic impedance, called the reactive magnetic resistance. 
+The full magnetic resistance (magnetic impedance) is equal
+
+formula_47, formula_48
+
+
+

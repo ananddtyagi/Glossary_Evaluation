@@ -1,0 +1,10 @@
+﻿Front (physics)
+
+In physics, a front can be understood as a interface between two different possible states (either stable or unstable) in a physical system. For example, a Weather front is the interface between two different density masses of air, in combustion where the flame is the interface between burned and unburned material or in population dynamics where the front is the interface between populated and unpopulated places. Fronts can be static or mobile depending on the conditions of the system, and the causes of the motion can be the variation of a free energy, where the most energetically favorable state invades the less favorable one or shape induced motion due to non-variation dynamics in the system .
+
+From a mathematical point of view, fronts are solutions of spatially extended systems connecting two steady states, and from dynamical systems point of view, a front corresponds to a heteroclinic orbit of the system in the co-mobile frame (or proper frame).
+The most simple example of front solution connecting a homogeneous stable state with a homogeneous unstable state can be shown in the one-dimensional Fisher-Kolmogorov equation: 
+
+that describes a simple model for the density formula_2 of population. This equation has two steady states, formula_3, and formula_4. This solution corresponds to extinction and saturation of population. Observe that this model is spatially-extended, because it includes a diffusion term given by the second derivative. The state formula_5 is stable as a simple linear analysis can show and the state formula_6 is unstable. There exist a family of front solutions connecting formula_7 with formula_8, and such solution are propagative. Particularly, there exist one solution of the form formula_9, with formula_10 is a velocity that only depends on formula_11 and formula_12
+
+

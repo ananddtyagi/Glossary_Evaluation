@@ -1,0 +1,304 @@
+﻿Noether's theorem
+
+Noether's theorem states that every differentiable symmetry of the action of a physical system has a corresponding conservation law. The theorem was proven by mathematician Emmy Noether in 1915 and published in 1918, after a special case was proven by E. Cosserat & F. Cosserat in 1909. The action of a physical system is the integral over time of a Lagrangian function (which may or may not be an integral over space of a Lagrangian density function), from which the system's behavior can be determined by the principle of least action. This theorem only applies to continuous and smooth symmetries over physical space.
+
+Noether's theorem is used in theoretical physics and the calculus of variations. A generalization of the formulations on constants of motion in Lagrangian and Hamiltonian mechanics (developed in 1788 and 1833, respectively), it does not apply to systems that cannot be modeled with a Lagrangian alone (e.g., systems with a Rayleigh dissipation function). In particular, dissipative systems with continuous symmetries need not have a corresponding conservation law.
+
+Her first theorem states that every different symmetry of a physical thing has a conservation law. For example, if you hit two marbles together on the table, it would be the same as hitting them together on the floor; location doesn't matter as long as they’re hit together in the same way. Here, the conserved quantity is momentum.
+
+As an illustration, if a physical system behaves the same regardless of how it is oriented in space, its Lagrangian is symmetric under continuous rotations: from this symmetry, Noether's theorem dictates that the angular momentum of the system be conserved, as a consequence of its laws of motion. The physical system itself need not be symmetric; a jagged asteroid tumbling in space conserves angular momentum despite its asymmetry. It is the laws of its motion that are symmetric.
+
+As another example, if a physical process exhibits the same outcomes regardless of place or time, then its Lagrangian is symmetric under continuous translations in space and time respectively: by Noether's theorem, these symmetries account for the conservation laws of linear momentum and energy within this system, respectively.
+
+As a final example, if the behavior of a physical system does not change upon spatial or temporal reflection, then its Lagrangian has reflection symmetry and time reversal symmetry respectively: Noether's theorem says that these symmetries result in the conservation laws of parity and entropy, respectively.
+
+Noether's theorem is important, both because of the insight it gives into conservation laws, and also as a practical calculational tool. It allows investigators to determine the conserved quantities (invariants) from the observed symmetries of a physical system. Conversely, it allows researchers to consider whole classes of hypothetical Lagrangians with given invariants, to describe a physical system. As an illustration, suppose that a physical theory is proposed which conserves a quantity "X". A researcher can calculate the types of Lagrangians that conserve "X" through a continuous symmetry. Due to Noether's theorem, the properties of these Lagrangians provide further criteria to understand the implications and judge the fitness of the new theory.
+
+There are numerous versions of Noether's theorem, with varying degrees of generality. There are natural quantum counterparts of this theorem, expressed in the Ward–Takahashi identities. Generalizations of Noether's theorem to superspaces also exist.
+
+All fine technical points aside, Noether's theorem can be stated informally
+
+A more sophisticated version of the theorem involving fields states that:
+
+The word "symmetry" in the above statement refers more precisely to the covariance of the form that a physical law takes with respect to a one-dimensional Lie group of transformations satisfying certain technical criteria. The conservation law of a physical quantity is usually expressed as a continuity equation.
+
+The formal proof of the theorem utilizes the condition of invariance to derive an expression for a current associated with a conserved physical quantity. 
+In modern (since ca. 1980) terminology, the conserved quantity is called the "Noether charge", while the flow carrying that charge is called the "Noether current". The Noether current is defined up to a solenoidal (divergenceless) vector field.
+
+In the context of gravitation, Felix Klein's statement of Noether's theorem for action "I" stipulates for the invariants: 
+
+The main idea behind Noether's theorem is most easily illustrated by a system with one coordinate formula_1 and a continuous symmetry formula_2 (gray arrows on the diagram). Consider any trajectory formula_3 (bold on the diagram) that satisfies the system's laws of motion. That is, the action formula_4 governing this system is stationary on this trajectory, i. e. doesn't change under any local variation of the trajectory. In particular it wouldn't change under a variation that applies the symmetry flow formula_5 on a time segment [] and is motionless outside that segment. To keep trajectory continuous, use a "buffering" periods of small time formula_6 to transition between the segments gradually. 
+
+The total change in the action formula_4 now comprises of changes brought by every interval in play. Parts, where variation itself vanishes, bring no formula_8. The middle part doesn't change the action either, because its transformation formula_5 is a symmetry and thus preserves the Lagrangian formula_10 and the action formula_11. The only remaining parts are the "buffering" pieces. Roughly speaking, they contribute mostly through their "slanting" formula_12. That changes the Lagrangian by formula_13, which integrates to
+
+These last terms, evaluated around the endpoints formula_15 and formula_16, should cancel each other in order to the total change in the action formula_8 be zero, as would be expected if the trajectory is a solution. That is
+
+meaning the quantity formula_19 is conserved, which is the conclusion of the Noether's theorem. For instance if pure translations formula_20 are the symmetry, then the conserved quantity becomes just formula_21, the canonical momentum.
+
+More general cases follow the same idea: 
+
+A conservation law states that some quantity "X" in the mathematical description of a system's evolution remains constant throughout its motion — it is an invariant. Mathematically, the rate of change of "X" (its derivative with respect to time) is zero,
+
+Such quantities are said to be conserved; they are often called constants of motion (although motion "per se" need not be involved, just evolution in time). For example, if the energy of a system is conserved, its energy is invariant at all times, which imposes a constraint on the system's motion and may help in solving for it. Aside from insights that such constants of motion give into the nature of a system, they are a useful calculational tool; for example, an approximate solution can be corrected by finding the nearest state that satisfies the suitable conservation laws.
+
+The earliest constants of motion discovered were momentum and energy, which were proposed in the 17th century by René Descartes and Gottfried Leibniz on the basis of collision experiments, and refined by subsequent researchers. Isaac Newton was the first to enunciate the conservation of momentum in its modern form, and showed that it was a consequence of Newton's third law. According to general relativity, the conservation laws of linear momentum, energy and angular momentum are only exactly true globally when expressed in terms of the sum of the stress–energy tensor (non-gravitational stress–energy) and the Landau–Lifshitz stress–energy–momentum pseudotensor (gravitational stress–energy). The local conservation of non-gravitational linear momentum and energy in a free-falling reference frame is expressed by the vanishing of the covariant divergence of the stress–energy tensor. Another important conserved quantity, discovered in studies of the celestial mechanics of astronomical bodies, is the Laplace–Runge–Lenz vector.
+
+In the late 18th and early 19th centuries, physicists developed more systematic methods for discovering invariants. A major advance came in 1788 with the development of Lagrangian mechanics, which is related to the principle of least action. In this approach, the state of the system can be described by any type of generalized coordinates q; the laws of motion need not be expressed in a Cartesian coordinate system, as was customary in Newtonian mechanics. The action is defined as the time integral "I" of a function known as the Lagrangian "L"
+
+where the dot over q signifies the rate of change of the coordinates q,
+
+Hamilton's principle states that the physical path q("t")—the one actually taken by the system—is a path for which infinitesimal variations in that path cause no change in "I", at least up to first order. This principle results in the Euler–Lagrange equations,
+
+Thus, if one of the coordinates, say "q", does not appear in the Lagrangian, the right-hand side of the equation is zero, and the left-hand side requires that
+
+where the momentum
+
+is conserved throughout the motion (on the physical path).
+
+Thus, the absence of the ignorable coordinate "q" from the Lagrangian implies that the Lagrangian is unaffected by changes or transformations of "q"; the Lagrangian is invariant, and is said to exhibit a symmetry under such transformations. This is the seed idea generalized in Noether's theorem.
+
+Several alternative methods for finding conserved quantities were developed in the 19th century, especially by William Rowan Hamilton. For example, he developed a theory of canonical transformations which allowed changing coordinates so that some coordinates disappeared from the Lagrangian, as above, resulting in conserved canonical momenta. Another approach, and perhaps the most efficient for finding conserved quantities, is the Hamilton–Jacobi equation.
+
+The essence of Noether's theorem is generalizing the ignorable coordinates outlined.
+
+One can assume that the Lagrangian "L" defined above is invariant under small perturbations (warpings) of the time variable "t" and the generalized coordinates q. One may write
+
+where the perturbations "δt" and "δ"q are both small, but variable. For generality, assume there are (say) "N" such symmetry transformations of the action, i.e. transformations leaving the action unchanged; labelled by an index "r" = 1, 2, 3, …, "N".
+
+Then the resultant perturbation can be written as a linear sum of the individual types of perturbations,
+where "ε" are infinitesimal parameter coefficients corresponding to each: 
+For translations, Q is a constant with units of length; for rotations, it is an expression linear in the components of q, and the parameters make up an angle.
+
+Using these definitions, Noether showed that the "N" quantities
+
+(which have the dimensions of [energy]·[time] + [momentum]·[length] = [action]) are conserved (constants of motion).
+
+
+For illustration, consider a Lagrangian that does not depend on time, i.e., that is invariant (symmetric) under changes "t" → "t" + δ"t", without any change in the coordinates q. In this case, "N" = 1, "T" = 1 and Q = 0; the corresponding conserved quantity is the total energy "H"
+
+
+Consider a Lagrangian which does not depend on an ("ignorable", as above) coordinate "q"; so it is invariant (symmetric) under changes "q" → "q" + "δq". In that case, "N" = 1, "T" = 0, and "Q" = 1; the conserved quantity is the corresponding linear momentum "p"
+
+In special and general relativity, these apparently separate conservation laws are aspects of a single conservation law, that of the stress–energy tensor, that is derived in the next section.
+
+
+The conservation of the angular momentum L = r × p is analogous to its linear momentum counterpart. It is assumed that the symmetry of the Lagrangian is rotational, i.e., that the Lagrangian does not depend on the absolute orientation of the physical system in space. For concreteness, assume that the Lagrangian does not change under small rotations of an angle "δθ" about an axis n; such a rotation transforms the Cartesian coordinates by the equation
+
+Since time is not being transformed, "T"=0. Taking "δθ" as the "ε" parameter and the Cartesian coordinates r as the generalized coordinates q, the corresponding Q variables are given by
+
+Then Noether's theorem states that the following quantity is conserved,
+
+In other words, the component of the angular momentum L along the n axis is conserved.
+
+If n is arbitrary, i.e., if the system is insensitive to any rotation, then every component of L is conserved; in short, angular momentum is conserved.
+
+Although useful in its own right, the version of Noether's theorem just given is a special case of the general version derived in 1915. To give the flavor of the general theorem, a version of Noether's theorem for continuous fields in four-dimensional space–time is now given. Since field theory problems are more common in modern physics than mechanics problems, this field theory version is the most commonly used (or most often implemented) version of Noether's theorem.
+
+Let there be a set of differentiable fields formula_5 defined over all space and time; for example, the temperature formula_60 would be representative of such a field, being a number defined at every place and time. The principle of least action can be applied to such fields, but the action is now an integral over space and time
+
+A continuous transformation of the fields formula_5 can be written infinitesimally as
+
+where formula_64 is in general a function that may depend on both formula_65 and formula_5. The condition for formula_64 to generate a physical symmetry is that the action formula_68 is left invariant. This will certainly be true if the Lagrangian density formula_69 is left invariant, but it will also be true if the Lagrangian changes by a divergence,
+
+since the integral of a divergence becomes a boundary term according to the divergence theorem. A system described by a given action might have multiple independent symmetries of this type, indexed by formula_71 so the most general symmetry transformation would be written as
+
+with the consequence
+
+For such systems, Noether's theorem states that there are formula_74 conserved current densities
+
+(where the dot product is understood to contract the "field" indices, not the formula_76 index or formula_77 index).
+
+In such cases, the conservation law is expressed in a four-dimensional way
+
+which expresses the idea that the amount of a conserved quantity within a sphere cannot change unless some of it flows out of the sphere. For example, electric charge is conserved; the amount of charge within a sphere cannot change unless some of the charge leaves the sphere.
+
+For illustration, consider a physical system of fields that behaves the same under translations in time and space, as considered above; in other words, formula_79 is constant in its third argument. In that case, "N" = 4, one for each dimension of space and time. An infinitesimal translation in space, formula_80 (with formula_81 denoting the Kronecker delta), affects the fields as formula_82: that is, relabelling the coordinates is equivalent to leaving the coordinates in place while translating the field itself, which in turn is equivalent to transforming the field by replacing its value at each point formula_65 with the value at the point formula_84 "behind" it which would be mapped onto formula_65 by the infinitesimal displacement under consideration. Since this is infinitesimal, we may write this transformation as
+
+The Lagrangian density transforms in the same way, formula_87, so
+
+and thus Noether's theorem corresponds to the conservation law for the stress–energy tensor "T", where we have used formula_89 in place of formula_77. To wit, by using the expression given earlier, and collecting the four conserved currents (one for each formula_89) into a tensor formula_92, Noether's theorem gives
+
+with
+
+The conservation of electric charge, by contrast, can be derived by considering "Ψ" linear in the fields "φ" rather than in the derivatives. In quantum mechanics, the probability amplitude "ψ"(x) of finding a particle at a point x is a complex field "φ", because it ascribes a complex number to every point in space and time. The probability amplitude itself is physically unmeasurable; only the probability "p" = |"ψ"| can be inferred from a set of measurements. Therefore, the system is invariant under transformations of the "ψ" field and its complex conjugate field "ψ" that leave |"ψ"| unchanged, such as
+
+a complex rotation. In the limit when the phase "θ" becomes infinitesimally small, "δθ", it may be taken as the parameter "ε", while the "Ψ" are equal to "iψ" and −"iψ"*, respectively. A specific example is the Klein–Gordon equation, the relativistically correct version of the Schrödinger equation for spinless particles, which has the Lagrangian density
+
+In this case, Noether's theorem states that the conserved (∂ ⋅ "j" = 0) current equals
+
+which, when multiplied by the charge on that species of particle, equals the electric current density due to that type of particle. This "gauge invariance" was first noted by Hermann Weyl, and is one of the prototype gauge symmetries of physics.
+
+Consider the simplest case, a system with one independent variable, time. Suppose the dependent variables q are such that the action integral
+
+is invariant under brief infinitesimal variations in the dependent variables. In other words, they satisfy the Euler–Lagrange equations
+
+And suppose that the integral is invariant under a continuous symmetry. Mathematically such a symmetry is represented as a flow, φ, which acts on the variables as follows
+
+where "ε" is a real variable indicating the amount of flow, and "T" is a real constant (which could be zero) indicating how much the flow shifts time.
+
+The action integral flows to
+
+which may be regarded as a function of "ε". Calculating the derivative at "ε"' = 0 and using Leibniz's rule, we get
+
+Notice that the Euler–Lagrange equations imply
+
+Substituting this into the previous equation, one gets
+
+Again using the Euler–Lagrange equations we get
+
+Substituting this into the previous equation, one gets
+
+From which one can see that
+
+is a constant of the motion, i.e., it is a conserved quantity. Since φ[q, 0] = q, we get formula_113 and so the conserved quantity simplifies to
+
+To avoid excessive complication of the formulas, this derivation assumed that the flow does not change as time passes. The same result can be obtained in the more general case.
+
+Noether's theorem may also be derived for tensor fields "φ" where the index "A" ranges over the various components of the various tensor fields. These field quantities are functions defined over a four-dimensional space whose points are labeled by coordinates "x" where the index "μ" ranges over time ("μ" = 0) and three spatial dimensions ("μ" = 1, 2, 3). These four coordinates are the independent variables; and the values of the fields at each event are the dependent variables. Under an infinitesimal transformation, the variation in the coordinates is written
+
+whereas the transformation of the field variables is expressed as
+
+By this definition, the field variations "δφ" result from two factors: intrinsic changes in the field themselves and changes in coordinates, since the transformed field "α" depends on the transformed coordinates ξ. To isolate the intrinsic changes, the field variation at a single point "x" may be defined
+
+If the coordinates are changed, the boundary of the region of space–time over which the Lagrangian is being integrated also changes; the original boundary and its transformed version are denoted as Ω and Ω’, respectively.
+
+Noether's theorem begins with the assumption that a specific transformation of the coordinates and field variables does not change the action, which is defined as the integral of the Lagrangian density over the given region of spacetime. Expressed mathematically, this assumption may be written as
+
+where the comma subscript indicates a partial derivative with respect to the coordinate(s) that follows the comma, e.g.
+
+Since ξ is a dummy variable of integration, and since the change in the boundary Ω is infinitesimal by assumption, the two integrals may be combined using the four-dimensional version of the divergence theorem into the following form
+
+The difference in Lagrangians can be written to first-order in the infinitesimal variations as
+
+However, because the variations are defined at the same point as described above, the variation and the derivative can be done in reverse order; they commute
+
+Using the Euler–Lagrange field equations
+
+the difference in Lagrangians can be written neatly as
+
+Thus, the change in the action can be written as
+
+Since this holds for any region Ω, the integrand must be zero
+
+For any combination of the various symmetry transformations, the perturbation can be written
+
+where formula_129 is the Lie derivative of φ in the "X" direction. When "φ" is a scalar or formula_130,
+
+These equations imply that the field variation taken at one point equals
+
+Differentiating the above divergence with respect to "ε" at "ε" = 0 and changing the sign yields the conservation law
+
+where the conserved current equals
+
+Suppose we have an "n"-dimensional oriented Riemannian manifold, "M" and a target manifold "T". Let formula_135 be the configuration space of smooth functions from "M" to "T". (More generally, we can have smooth sections of a fiber bundle over "M".)
+
+Examples of this "M" in physics include:
+
+Now suppose there is a functional
+
+called the action. (It takes values into R, rather than C; this is for physical reasons, and doesn't really matter for this proof.)
+
+To get to the usual version of Noether's theorem, we need additional restrictions on the action. We assume formula_138 is the integral over "M" of a function
+
+called the Lagrangian density, depending on "φ", its derivative and the position. In other words, for "φ" in formula_135
+
+Suppose we are given boundary conditions, i.e., a specification of the value of "φ" at the boundary if "M" is compact, or some limit on "φ" as "x" approaches ∞. Then the subspace of formula_135 consisting of functions "φ" such that all functional derivatives of formula_68 at "φ" are zero, that is:
+
+and that "φ" satisfies the given boundary conditions, is the subspace of on shell solutions. (See principle of stationary action)
+
+Now, suppose we have an infinitesimal transformation on formula_135, generated by a functional derivation, "Q" such that
+
+for all compact submanifolds "N" or in other words,
+
+for all "x", where we set
+
+If this holds on shell and off shell, we say "Q" generates an off-shell symmetry. If this only holds on shell, we say "Q" generates an on-shell symmetry. Then, we say "Q" is a generator of a one parameter symmetry Lie group.
+
+Now, for any "N", because of the Euler–Lagrange theorem, on shell (and only on-shell), we have
+
+Since this is true for any "N", we have
+
+But this is the continuity equation for the current formula_151 defined by:
+
+which is called the Noether current associated with the symmetry. The continuity equation tells us that if we integrate this current over a space-like slice, we get a conserved quantity called the Noether charge (provided, of course, if "M" is noncompact, the currents fall off sufficiently fast at infinity).
+
+Noether's theorem is an on shell theorem: it relies on use of the equations of motion—the classical path. It reflects the relation between the boundary conditions and the variational principle. Assuming no boundary terms in the action, Noether's theorem implies that
+
+The quantum analogs of Noether's theorem involving expectation values, e.g. ⟨∫"d""x" ∂·"J"⟩ = 0, probing off shell quantities as well are the Ward–Takahashi identities.
+
+Suppose we have two symmetry derivations "Q" and "Q". Then, ["Q", "Q"] is also a symmetry derivation. Let's see this explicitly. Let's say
+
+and
+
+Then,
+
+where "f" = "Q"["f"] − "Q"["f"]. So,
+
+This shows we can extend Noether's theorem to larger Lie algebras in a natural way.
+
+This applies to "any" local symmetry derivation "Q" satisfying "QS" ≈ 0, and also to more general local functional differentiable actions, including ones where the Lagrangian depends on higher derivatives of the fields. Let "ε" be any arbitrary smooth function of the spacetime (or time) manifold such that the closure of its support is disjoint from the boundary. "ε" is a test function. Then, because of the variational principle (which does "not" apply to the boundary, by the way), the derivation distribution q generated by "q"["ε"][Φ("x")] = "ε"("x")"Q"[Φ("x")] satisfies "q"["ε"]["S"] ≈ 0 for every "ε", or more compactly, "q"("x")["S"] ≈ 0 for all "x" not on the boundary (but remember that "q"("x") is a shorthand for a derivation "distribution", not a derivation parametrized by "x" in general). This is the generalization of Noether's theorem.
+
+To see how the generalization is related to the version given above, assume that the action is the spacetime integral of a Lagrangian that only depends on φ and its first derivatives. Also, assume
+
+Then,
+
+for all "ε".
+
+More generally, if the Lagrangian depends on higher derivatives, then
+
+Looking at the specific case of a Newtonian particle of mass "m", coordinate "x", moving under the influence of a potential "V", coordinatized by time "t". The action, "S", is:
+
+The first term in the brackets is the kinetic energy of the particle, whilst the second is its potential energy. Consider the generator of time translations "Q" = "d/dt". In other words, formula_162. The coordinate "x" has an explicit dependence on time, whilst "V" does not; consequently:
+
+so we can set
+
+Then,
+
+The right hand side is the energy, and Noether's theorem states that formula_166 (i.e. the principle of conservation of energy is a consequence of invariance under time translations.
+
+More generally, if the Lagrangian does not depend explicitly on time, the quantity
+
+(called the Hamiltonian) is conserved.
+
+Still considering 1-dimensional time, let
+
+i.e. "N" Newtonian particles where the potential only depends pairwise upon the relative displacement.
+
+For formula_169, consider the generator of Galilean transformations (i.e. a change in the frame of reference). In other words,
+
+And
+
+This has the form of formula_172 so we can set
+
+Then,
+
+where formula_175 is the total momentum, "M" is the total mass and formula_176 is the center of mass. Noether's theorem states:
+
+Both examples 1 and 2 are over a 1-dimensional manifold (time). An example involving spacetime is a conformal transformation of a massless real scalar field with a quartic potential in (3 + 1)-Minkowski spacetime.
+
+For "Q", consider the generator of a spacetime rescaling. In other words,
+
+The second term on the right hand side is due to the "conformal weight" of formula_5. And
+
+This has the form of
+
+(where we have performed a change of dummy indices) so set
+
+Then
+
+Noether's theorem states that formula_185 (as one may explicitly check by substituting the Euler–Lagrange equations into the left hand side).
+
+If one tries to find the Ward–Takahashi analog of this equation, one runs into a problem because of anomalies.
+
+Application of Noether's theorem allows physicists to gain powerful insights into any general theory in physics, by just analyzing the various transformations that would make the form of the laws involved invariant. For example:
+
+
+In quantum field theory, the analog to Noether's theorem, the Ward–Takahashi identity, yields further conservation laws, such as the conservation of electric charge from the invariance with respect to a change in the phase factor of the complex field of the charged particle and the associated gauge of the electric potential and vector potential.
+
+The Noether charge is also used in calculating the entropy of stationary black holes.
+
+
+
+
+
+

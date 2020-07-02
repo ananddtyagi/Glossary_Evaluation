@@ -1,0 +1,22 @@
+﻿ISFET
+
+An ISFET is an ion-sensitive field-effect transistor, that is a field-effect transistor used for measuring ion concentrations in solution; when the ion concentration (such as H, see pH scale) changes, the current through the transistor will change accordingly. Here, the solution is used as the gate electrode. A voltage between substrate and oxide surfaces arises due to an ion sheath.
+
+The surface hydrolysis of Si–OH groups of the gate materials varies in aqueous solutions due to pH value. Typical gate materials are SiO, SiN, AlO and TaO.
+
+The mechanism responsible for the oxide surface charge can be described by the "site binding model", which describes the equilibrium between the Si–OH surface sites and the H ions in the solution. The hydroxyl groups coating an oxide surface such as that of SiO can donate or accept a proton and thus behave in an amphoteric way as illustrated by the following acid-base reactions occurring at the oxide-electrolyte interface:
+
+An ISFET's source and drain are constructed as for a MOSFET. The gate electrode is separated from the channel by a barrier which is sensitive to hydrogen ions and a gap to allow the substance under test to come in contact with the sensitive barrier. An ISFET's threshold voltage depends on the pH of the substance in contact with its ion-sensitive barrier.
+
+ISFET was invented by Piet Bergveld in 1970.
+
+An ISFET electrode sensitive to H concentration can be used as a conventional glass electrode to measure the pH of a solution. However, it also requires a reference electrode to operate. If the reference electrode used in contact with the solution is of the AgCl or HgCl classical type, it will suffer the same limitations as conventional pH electrodes (junction potential, KCl leak, and glycerol leak in case of gel electrode). A conventional reference electrode can also be bulky and fragile. A too large volume constrained by a classical reference electrode also precludes the miniaturization of the ISFET electrode, a mandatory feature for some biological or "in vivo" clinical analyses (disposable mini-catheter pH probe). The breakdown of a conventional reference electrode could also make problem in on-line measurements in the pharmaceutical or food industry if highly valuable products are contaminated by electrode debris or toxic chemical compounds at a late production stage and must be discarded for the sake of safety.
+
+For this reason, since more than 20 years many research efforts have been dedicated to on-chip embarked tiny reference field effect transistors (REFET). Their functioning principle, or operating mode, can vary, depending on the electrode producers and are often proprietary and protected by patents. Semi-conductor modified surfaces required for REFET are also not always in thermodynamical equilibrium with the test solution and can be sensitive to aggressive or interfering dissolved species or not well characterized aging phenomena. This is not a real problem if the electrode can be frequently re-calibrated at regular time interval and is easily maintained during its service life. However, this may be an issue if the electrode has to remain immersed on-line for prolonged period of time, or is inaccessible for particular constrains related to the nature of the measurements itself (geochemical measurements under elevated water pressure in harsh environments or under anoxic or reducing conditions easily disturbed by atmospheric oxygen ingress or pressure changes).
+
+A crucial factor for ISFET electrodes, as for conventional glass electrodes, remains thus the reference electrode. When troubleshooting electrode malfunctions, often, most of the problems have to be searched for from the side of the reference electrode.
+
+
+
+
+

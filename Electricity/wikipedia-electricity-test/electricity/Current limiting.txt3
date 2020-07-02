@@ -1,0 +1,23 @@
+﻿Current limiting
+
+Current limiting is the practice in electrical or electronic circuits of imposing an upper limit on the current that may be delivered to a load with the purpose of protecting the circuit generating or transmitting the current from harmful effects due to a short-circuit or similar problem in the load.
+
+An inrush current limiter is a device or group of devices used to limit inrush current. Negative temperature coefficient (NTC) thermistors and resistors are two of the simplest options, with cool-down time and power dissipation being their main drawbacks, respectively. More complex solutions can be used when design constraints make simpler options infeasible.
+
+Some electronic circuits employ active current limiting, since a fuse may not protect solid-state devices. 
+
+One style of current limiting circuit is shown in the image. The schematic is representative of a simple protection mechanism used in regulated DC supplies and class-AB power amplifiers.
+
+Q1 is the pass or output transistor. R is the load current sensing device. Q2 is the protection transistor which turns on as soon as the voltage across R becomes about 0.65 V. This voltage is determined by the value of R and the load current through it (I). When Q2 turns on, it removes base current from Q1 thereby reducing the collector current of Q1. which is very nearly the load current. Thus, R fixes the maximum current to a value given by 0.65/R. For example, if R = 0.33 Ω, the current is limited to about 2 A even if R becomes a short (and V becomes zero). 
+
+Further, this power dissipation will remain as long as the overload exists, which means that the devices must be capable of withstanding it for a substantial period. This power dissipation will be substantially less than if no current limiting circuit had been provided. In this technique, beyond the current limit the output voltage will decrease to a value depending on the current limit and load resistance.
+
+An issue with the previous circuit is that Q1 will not be saturated unless its base is biased about 0.5 volts above V.
+
+The circuits at right and left operate more efficiently from a single (V) supply. In both circuits, R1 allows Q1 to turn on and pass voltage and current to the load. When the current through R_sense exceeds the design limit, Q2 begins to turn on, which in turn begins to turn off Q1, thus limiting the load current. The optional component R2 protects Q2 in the event of a short-circuited load. When V is at least a few volts, a MOSFET can be used for Q1 for lower dropout voltage. Due to its simplicity, this circuit is sometimes used as a current source for high-power LEDs. 
+Many electronics designers put a small resistor on IC output pins.
+This slows the edge rate which improves electromagnetic compatibility. Some devices have this "slew rate limiting" output resistor built in; some devices have programmable slew rate limiting. This provides overall slew rate control.
+
+
+
+

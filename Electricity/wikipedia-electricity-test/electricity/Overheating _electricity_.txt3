@@ -1,0 +1,20 @@
+﻿Overheating (electricity)
+
+Overheating is a phenomenon of rising of temperature in an electric circuit (or portion of a circuit). Overheating causes potential damage to the circuit components, and can cause fire, explosion, or injury. Damage caused by overheating is commonly irreversible; i.e. the only way to repair is to replace some components.
+
+On overheating, the temperature of the part rises above the operating temperature. Overheating can take place
+Overheating may be caused from any accidental fault of the circuit (such as short-circuit or spark-gap), or may be caused from a wrong design or manufacture (such as the lack of a proper heat dissipation system).
+
+Due to accumulation of heat, the system reaches to an equilibrium of heat accumulation vs. dissipation, at a much higher temperature than expected.
+
+Circuit-breakers placed at different portions of circuit (in series to the path of current it will affect). If more current than expected goes through the circuit-breaker, the circuit breaker "opens" the circuit and stops all current.
+A fuse is a kind of widely used circuit breaker, that involves direct effect of Joule-overheating. A fuse is always placed in series with the path of current it will affect. Depending upon work, inside a fuse, there is a narrow (often a hairline) wire of definite-material, in the fuse. When more-than expected current flows through the fuse; the fuse-wire overheats (melts) and "opens" the circuit. In some gadgets, more than one
+
+Many ventilator holes or slits kept on the box of equipments. Heat sinks (heat-radiating metallic objects) attached with some-portions of the circuit that produce more heat/ more vulnerable to heat. often, fans are required. Some high-voltage instruments kept immersed in oil. In some cases, to remove unwanted heat, some cooling-system like air-condition or refrigerating-heat-pumps may be required.
+
+Sometimes special circuits built for purpose of sensing the temperature or voltage status, and thereafter controlling these variables. In these circuits, Thermistors (Temperature dependent resistors), VDR (voltage-dependent resistors), thermostat (that switches off the circuit at higher-temperature), Sensors (such as infrared-thermometers), etc. used to modify the current upon different conditions like circuit-temperature and input voltage.
+
+For a certain definite purpose in a definite electrical equipment or a portion of it, definite type and size of materials (for boards,wires, insulators) with proper rating for voltage, current and temperature,are used. The circuit-resistance never kept too-low. Sometimes some parts placed inside the board and box, maintaining a proper distance from each-other, to avoid heat-damage and short-circuit-damage. To prevent short-circuit, on the wire-joints, appropriate type of electrical connectors and mechanical fasteners used.
+
+
+

@@ -1,0 +1,18 @@
+﻿Pseudospark switch
+
+The pseudospark switch, also known as a cold-cathode thyratron due to the similarities with regular thyratrons, is a gas-filled tube capable of high speed switching. Advantages of pseudospark switches include the ability to carry reverse currents (up to 100%), low pulse, high lifetime, and a high current rise of about 10 A/sec. In addition, since the cathode is not heated prior to switching, the standby power is approximately one order of magnitude lower than in thyratrons. However, pseudospark switches have undesired plasma phenomena at low peak currents. Issues such as current quenching, chopping, and impedance fluctuations occur at currents less than 2-3 kA while at very high peak currents (20-30 kA) a transition to a metal vapor arc occurs which leads to erosion of the electrodes. Pseudospark switches are functionally similar to triggered spark gaps.
+
+A pseudospark switch's electrodes (cathode and anode) have central holes approximately 3 to 5 mm in diameter. Behind the cathode and anode lie a hollow cathode and hollow anode, respectively. The electrodes are separated by an insulator. A low pressure (less than 50 Pa) "working gas" (typically hydrogen) is contained between the electrodes.
+
+While a pseudospark switch is generally fairly simple in construction, engineering a switch for higher lifetimes is more difficult. One method of extending the lifetime is to create a multichannel pseudospark switch to distribute the current and as a result, decrease the erosion. Another method is to simply use cathode materials more resistant to erosion.
+
+Typical electrode materials include copper, nickel, tungsten/rhenium, molybdenum, tantalum, and ceramic materials. Tantalum, however, cannot be used with hydrogen due to chemical erosion affecting the lifetime adversely. Of the metals, tungsten and molybdenum are commonly used, though molybdenum electrodes show issues with reignition behavior. Several papers which compare electrode materials claim tungsten is the most suitable of the metal electrodes tested. Some ceramic materials such as silicon carbide and boron carbide have proven to be excellent electrode materials as well, with lower erosion rates than tungsten in certain cases.
+
+In a pseudospark discharge a breakdown is first triggered between the electrodes by applying a voltage. The gas then breaks down as a function of the pressure, distance, and voltage. An "ionization avalanche" then occurs producing a homogeneous discharge plasma confined to the central regions of the electrodes.
+
+In the figure above, the various stages of the pseudospark discharge can be seen. Stage (I) is the triggering or low current phase. The discharges in both stage (II), the hollow cathode phase, and stage (III), the borehole phase, are capable of carrying currents of several hundred amps. The transition from the borehole phase to the high current phase (IV) is very fast, characterized by a sudden jump in switch impedance. The last phase (V) only occurs for currents of several 10 kA and is unwelcome as it results in high erosion rates.
+
+
+
+
+

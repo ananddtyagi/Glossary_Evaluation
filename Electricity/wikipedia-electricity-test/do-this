@@ -1,0 +1,1 @@
+../run_termolator.sh foreground.list background.list .txt electricity True True 30000 5000 .. False False False wikipedia_physics.pkl -1

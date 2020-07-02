@@ -1,0 +1,11 @@
+﻿AEP meter label format
+
+The California Direct Access Standards setting process in 1997 identified the need to standardize the electric meter label identifier so as to create a unique identifier for every electric meter in the United States. The AEP meter label format is a recommended solution for this need.
+
+AEP meter label format follows ANSI C12.10 requirements for format of the electric meter labels. (See below) The format for the barcode label is:
+
+where
+
+The meter test code is used by calibration equipment manufacturers to automatically set up their equipment to calibrate a given meter. The user scans in the AEP barcode on the meter, and the calibrator will use the correct voltage and test amps. The last five characters are user specified, and many electric utilities use these characters for an inventory code or date of manufacture.
+
+

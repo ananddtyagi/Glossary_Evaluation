@@ -1,0 +1,57 @@
+﻿Surface treatment of PTFE
+
+Polytetrafluoroethylene (PTFE), better known by its trade name Teflon, has many desirable properties which make it an attractive material for numerous industries. It has good chemical resistance, a low dielectric constant, low dielectric loss, and a low coefficient of friction, making it ideal for reactor linings, circuit boards, and kitchen utensils, to name a few applications. However, its nonstick properties make it challenging to bond to other materials or to itself.
+
+A number of adhesion promotion methods have been developed to enhance PTFE bond strength. The primary methods currently used in industry are sodium etching and plasma etching. Results of ion beam treatment and laser surface roughening have also been reported in the literature, but do not have a significant presence as commercial processes.
+
+Wetting the surface of PTFE with commercially available solvents and liquid adhesives is virtually impossible. The exception to this is with special halogenated solvents that have a surface energy lower than PTFE, such as 3M's FC series solvents. These 3M solvents are, however, toxic and expensive. Additionally, even if wettability is acceptable, the PTFE will not form hydrogen bonds which are the primary source of adhesion strength. The PTFE surface therefore must be chemically modified to produce a surface which is capable of forming hydrogen bonds.
+
+Sodium etching of fluoropolymers has been used for decades to enhance bondability of PTFE. It is performed by immersion of the PTFE in a solution containing sodium followed by rinsing in alcohol and water. The process was originally performed by dissolving sodium metal in liquid ammonia. An alternative method was to form a complex with naphthalene, which was then dissolved in an ether such as tetrahydrofuran (THF). Both types of solutions carry risks to the user – both ammonia and THF are irritants, and both are flammable. At higher concentrations, THF is also a central nervous system depressant. In rats, the inhalation LC(50) (Lethal Concentration which kills 50% of test subjects) is 21,000 ppm for 3 hours. In humans, chronic effects have not been reported, but researchers using THF have developed severe occipital headaches and marked decreases in white blood cell counts.
+
+More recently, glycol ethers (known as glymes) have come into use as carriers for the sodium naphthalene complex for PTFE etching. These glymes are ethylene glycol dimethyl ether (monoglyme), diethylene glycol dimethyl ether (diglyme), and tetraethylene glycol dimethyl ether (tetraglyme). Glymes pose minimal or no health risks to the user, and the solutions do not require special storage conditions. When using glyme-based etchants, it is recommended that the etching process be performed at moderately elevated temperatures, about 50 °C. The elevated temperature causes the etchant to release more active sodium. It also lowers the viscosity of the etchant which enhances wetting of high aspect ratio features such as plated through-holes in printed circuit boards. Tests of diglyme-based etchants used at 50 °C have shown bond strength increases of 50% or more over room temperature etching.
+
+Commercially available etchants today are primarily glyme-based. Rogers Corporation, a manufacturer of PTFE printed circuit board laminates, refers to Poly-Etch and FluoroEtch etchants in its Fabrication Guidelines, "Bonding PTFE Materials for Microwave Stripline Packages and Other Multilayer Circuits". Poly-Etch is a sodium naphthalene complex in tetraglyme, while Fluoro-Etch is a sodium naphthalide complex in diglyme Matheson, the manufacturer of Poly-Etch, also manufactures a monoglyme-based etchant called Poly-Etch W.
+
+The main effect of sodium etching is defluorination of the PTFE, stripping the fluorine molecules from the carbon backbone of the polymer. The fluorine-to-carbon atomic ratio (F/C ratio) is reduced from PTFE's theoretical ratio of 2.0 to 0.2 or less, after exposure to sodium naphthalene for 1 minute. The fluorine atoms are replaced with hydroxyl, carbonyl, and other functional groups which can form hydrogen bonds.
+
+Topographically, chemical etching of PTFE with sodium results in a highly porous defluorinated layer. Superficially, it displays a characteristic "mud crack" appearance.
+
+Wettability is improved significantly by the sodium etching process. The resultant surface has an increased surface energy, reported in one study as increasing from 16.4 mN/m to 62.2 mN/m. Contact angle is reduced from approximately 115 degrees to approximately 60 degrees.
+
+Relative to untreated PTFE, the sodium etching process has been well-documented to increase PTFE bond strengths significantly regardless of the test method (tensile, peel, lap shear) used to evaluate samples bonded with epoxy. It should be noted that virtually all sodium etching bond strengths reported in academic journals predate the advent of glymes as carriers for sodium naphthalene complex.
+
+In adhesion tests per ASTM D4541, in which an aluminum stud is bonded to the test surface and the stud is pulled in the direction normal to the surface, both surfaces of the failure interface were analyzed by X-ray photoelectron spectroscopy (XPS). F/C ratio was used as an indicator of the failure mode: F/C of zero corresponds to failure in the epoxy, while an F/C ratio near 2.0 indicates failure in the bulk PTFE. Intermediate F/C ratios indicate that failure occurred in the zone modified by the pretreatment.
+
+Using this analysis method, failure in sodium etched samples is shown to be cohesive, occurring between the modified layer and the bulk PTFE and not between the epoxy and the treated PTFE. The adhesion properties therefore are assumed to be limited by the properties of the treated layer.
+
+Sodium treated PTFE will degrade with exposure to UV radiation. Immediately after sodium treatment, the PTFE surface is dark brown. The weaker the etching solution, the lighter the color change and the weaker the bond will be. When exposed to UV radiation, the treated PTFE will gradually return to its original white color. Exposure to light, abrasion, heat and some oxidizing agents will also degrade the treated surface. The shelf life of treated surfaces may be as high as 3 to 4 months when stored below 5 °C in a dark oxygen- and moisture-free environment.
+
+In plasma etching, the PTFE is exposed to plasma, an electrically charged gas. Various gases may be used to generate the plasma.
+
+Like chemical etching, plasma etching also defluorinates the PTFE, though not to the same degree. F/C ratios drop from 2.0 to 1.4 with an argon plasma, and to 1.8 with an oxygen plasma, and to 0.7-0.8 with an ammonia or hydrogen plasma.
+
+Topographically, plasma treatment changes the surface morphology, with different morphologies resulting from different plasma gases used.
+
+Contact angle decreased with treatment by some, but not all, plasma gases – in one study, argon plasma decreased the contact angle from about 105 degrees to 30 degrees after 1 hour of treatment, but oxygen plasma did not affect the contact angle.
+
+Surface energy increased from 16.4 mN/m to 48.8 mN/m after ammonia plasma treatment and 36.8 mN/m after hydrogen plasma.
+
+The aluminum stud pull-off test showed an increase from 31 N to about 200 N after either ammonia or hydrogen plasma treatment. XPS analysis of the plasma treated failure interface indicated cohesive failure between the modified layer and the bulk PTFE, similar to the chemically etched samples.
+
+Despite similar failure mechanisms in both sodium-etched and plasma-etched samples, sodium etching produces much higher bond strengths than plasma etching. Sodium-etched samples exhibited 4 to 5 times the strength of plasma-etched samples when tested in tension per ASTM D4541. When tested in peel, sodium-etched samples exhibited 3 to 12 times the peel strength of plasma-etched samples, depending on the type of plasma used.
+
+One proposed explanation for the large difference in bond strengths is that chemical etching modifies the PTFE to a greater depth than plasma etching, increasing the tortuosity of the fracture path through the etched layer during adhesion testing. Another explanation for the large difference in bond strengths is that, in addition to defluorination, sodium etching results in cross-linking which may stabilize the modified PTFE interface, while plasma etching may cause chain scission (breakage of the PTFE polymer chain), since the C-C bond is weaker than the C-F bond. This polymer chain scission weakens the strength of the modified PTFE.
+
+While plasma etching is not able to achieve adhesion increases approaching those of chemical etching, it does provide some improvement to PTFE adhesion over untreated PTFE.
+
+Ion beam and laser treatments have also been studied as methods to improve PTFE adhesion. However, neither of these treatment modalities appears to be in use commercially.
+
+Ion beam-treated PTFE exhibits significantly greater surface morphology changes than either chemical etching or plasma etching. Ion beam treatments with pure argon or pure oxygen result in minimal defluorination as determined by F/C ratio. Contact angle actually increased with ion beam treatment.
+
+Peel strength with ion beam treatment increased as a function of the ion beam dose, achieving higher peel strengths than plasma-treated samples at doses above 5E15 ions/cm
+
+The primary effect of ion beam treatment therefore is morphology modification, with little chemical effect. Longer ion beam treatment time is assumed to increase surface area for bonding, which in turn increases peel strength.
+
+Laser surface roughening of PTFE has also been studied as a potential method for increasing bond strength to PTFE. In one study, Rauh et al. treated PTFE with a pulsed ArF laser at 193 nm. Multiple pulses were required to achieve a uniform roughness across the surface due to inhomogeneity of the untreated material. Peel test results using epoxy resin showed an increase from 0.9 N/cm to 8.9 N/cm.
+
+

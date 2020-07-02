@@ -1,0 +1,20 @@
+﻿Comparative Tracking Index
+
+The Comparative Tracking Index or CTI is used to measure the electrical breakdown (tracking) properties of an insulating material. Tracking is an electrical breakdown on the "surface" of an insulating material wherein an initial exposure to heat chars the material, and the char is more conductive than the original insulator, producing more current flow, more heat, and eventually complete failure.
+
+A large voltage difference gradually creates a conductive leakage path across the surface of the material by forming a carbonized track. Testing method is specified in IEC standard 60112.
+
+To measure the tracking, 50 drops of 0.1% ammonium chloride solution are dropped on the material, and the voltage measured for a 3 mm thickness is considered representative of the material performance. Also term PTI (Proof Tracking Index) is used: it means voltage at which during testing on five samples the samples pass the test with no failures.
+
+Performance Level Categories (PLC) were introduced to avoid excessive implied precision and bias.
+
+The CTI value is used for electrical safety assessment of electrical apparatus, as for instance carried out by Underwriters Laboratory in USA and many other laboratories in the world. The minimum required creepage distances over an insulating material between electrically conducting parts in apparatus, especially between parts with a high voltage and parts that can be touched by human users, is dependent on the insulator's CTI value. Also for internal distances in an apparatus by maintaining CTI based distances, the risk of fire is reduced.
+
+Creepage distance requirement depends on the CTI. Material which CTI is unknown are classified in IIIb group. There's no CTI requirement for glass, ceramic, and other inorganic material which don't breakdown on the surface.
+
+The better the insulation, the higher the CTI (positive relationship). In terms of clearance, a higher CTI value means a lower minimum creepage distance required, and the closer two conductive parts can be. 
+
+In design of medical products, the CTI is treated differently. Material groups are classified as shown below, per IEC 60601-1:2005, International Standard published by the International Electrotechnical Commission:
+
+
+

@@ -1,0 +1,41 @@
+﻿Rotational partition function
+
+The rotational partition function relates the rotational degrees of freedom to the rotational part of the energy.
+
+The total canonical partition function formula_1 of a system of formula_2 identical, noninteracting atoms or molecules can be divided into the atomic or molecular partition functions
+
+with
+
+Where formula_5 is the degeneracy of the "j" quantum level of an individual particle, formula_6 is the Boltzmann constant, and formula_7 is the absolute temperature of system.
+for molecules, under the assumption that that total energy levels formula_8 can be partitioned into its contributions from different degrees of freedom (weakly coupled degrees of freedom)
+
+and the number of degenerate states are given as products of the single contributions
+
+where "trans", "ns", "rot", "vib" and "e" denotes translational, nuclear spin, rotational and vibrational contributions as well as electron excitation, the molecular partition functions
+
+can be written as a product itself
+
+Rotational energies are quantized. For a diatomic molecule like CO or HCl or a linear polyatomic molecule like OCS in its ground vibrational state, the allowed rotational energies in the rigid rotor approximation are
+
+J is the quantum number for total rotational angular momentum and takes all integer values starting at zero,i.e. formula_14 is the rotational constant, and formula_15 is the moment of inertia. Here we are using "B" in energy units. If it is expressed in frequency units, replace "B" by "hB" in all the expression that follow, where "h" is Planck's constant. If "B" is given in units of formula_16, then replace "B" by "hcB" where c is the speed of light in vacuum.
+
+For each value of J, we have rotational degeneracy, formula_17 = (2J+1), so the rotational partition function is therefore
+
+For all but the lightest molecules or the very lowest temperatures we have formula_19. This suggests we can approximate the sum by replacing the sum over J by an integral of J treated as a continuous variable.
+
+This approximation is known as the high temperature limit. It is also called the classical approximation as this is the result for the canonical partition function for a classical rigid rod.
+
+Using the Euler–Maclaurin formula an improved estimate can be found
+
+For the CO molecule at formula_22, the (unit less) contribution formula_23 to formula_24 turns out to be in the range of formula_25.
+
+The mean thermal rotational energy per molecule can now be computed by taking the derivative of formula_23 with respect to temperature formula_27. In the high temperature limit approximation, the mean thermal rotational energy of a linear rigid rotor is formula_28.
+
+For a diatomic molecule with a center of symmetry, such as formula_29 or formula_30 (i.e. formula_31 point group), rotation of a molecule by formula_32 radian about an axis perpendicular to the molecule axis and going through the center of mass will interchange pairs of equivalent atoms. The spin–statistics theorem of quantum mechanics requires that the total molecular wavefunction be either symmetric or antisymmetric with respect to this rotation depending upon whether an even or odd number of pairs of fermion nuclear pairs are exchanged. A given electronic & vibrational wavefunction will either be symmetric or antisymmetric with respect to this rotation. The rotational wavefunction with quantum number "J" will have a sign change of formula_33. The nuclear spins states can be separated into those that are symmetric or antisymmetric with respect to the nuclear permutations produced by the rotation. For the case of a symmetric diatomic with nuclear spin quantum number "I" for each nucleus, there are formula_34 symmetric spin functions and formula_35 are antisymmetric functions for a total number of nuclear functions formula_36. Nuclei with an even nuclear mass number are bosons and have integer nuclear spin quantum number, "I". Nuclei with odd mass number are fermions and had half integer "I". For the case of H2, rotation exchanges a single pair of fermions and so the overall wavefunction must be antisymmetric under the half rotation. The vibration-electronic function is symmetric and so the rotation-vibration-electronic will be even or odd depending upon whether "J" is an even or odd integer. Since the total wavefunction must be odd, the even "J" levels can only use the antisymmetric functions (only one for " I = 1/2") while the odd "J" levels can use the symmetric functions ( three for " I = 1/2"). For D2, "I = 1" and thus there are six symmetric functions, which go with the even "J" levels to produce an overall symmetric wavefunction, and three antisymmetric functions that must go with odd "J" rotational levels to produce an overall even function. The number of nuclear spin functions that are compatible with a given rotation-vibration-electronic state is called the nuclear spin statistical weight of the level, often represented as formula_37. Averaging over both even and odd "J" levels, the mean statistical weight is formula_38, which is one half the value of formula_39 expected ignoring the quantum statistical restrictions. In the high temperature limit, it is traditional to correct for the missing nuclear spin states by dividing the rotational partition function by a factor formula_40 with formula_41 known as the rotational symmetry number which is 2 for linear molecules with a center of symmetry and 1 for linear molecules without.
+
+A rigid, nonlinear molecule has rotational energy levels determined by three rotational constants, conventionally written formula_42 and formula_43, which can often be determined by rotational spectroscopy. In terms of these constants, the rotational partition function can be written in the high temperature limit as 
+
+with formula_41 again known as the rotational symmetry number which in general equals the number ways a molecule can be rotated to overlap itself in an indistinguishable way, i.e. that at most interchanges identical atoms. Like in the case of the diatomic treated explicitly above, this factor corrects for the fact that only a fraction of the nuclear spin functions can be used for any given molecular level to construct wavefunctions that overall obey the required exchange symmetries. The expression for formula_46 works for asymmetric, symmetric and spherical top rotors.
+
+
+

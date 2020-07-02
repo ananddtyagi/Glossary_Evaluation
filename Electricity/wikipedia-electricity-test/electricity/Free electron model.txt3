@@ -1,0 +1,68 @@
+﻿Free electron model
+
+In solid-state physics, the free electron model is a simple model for the behaviour of charge carriers in a metallic solid. It was developed in 1927, principally by Arnold Sommerfeld, who combined the classical Drude model with quantum mechanical Fermi–Dirac statistics and hence it is also known as the Drude–Sommerfeld model.
+
+Given its simplicity, it is surprisingly successful in explaining many experimental phenomena, especially
+
+The free electron model solved many of the inconsistencies related to the Drude model and gave insight into several other properties of metals. The model considers that metals are composed of a quantum electron gas where ions play almost no role. The model can be very predictive when applied to alkali and noble metals.
+
+In the free electron model four main assumptions are taken into account:
+
+The name of the model comes from the first two assumptions, as each electron can be treated as free particle with a respective quadratic relation between energy and momentum.
+
+The crystal lattice is not explicitly taken into account in the free electron model, but a quantum-mechanical justification was given a year later (1928) by Bloch's theorem: an unbound electron moves in a periodic potential as a free electron in vacuum, except for the electron mass "m" becoming an effective mass "m*" which may deviate considerably from "m" (one can even use negative effective mass to describe conduction by electron holes). Effective masses can be derived from band structure computations that were not originally taken into account in the free electron model.
+
+Many physical properties follow directly from the Drude model, as some equations do not depend on the statistical distribution of the particles. Taking the classical velocity distribution of an ideal gas or the velocity distribution of a Fermi gas only changes the results related to the speed of the electrons.
+
+Mainly, the free electron model and the Drude model predict the same DC electrical conductivity "σ" for Ohm's law, that is
+
+where formula_4 is the current density, formula_5 is the external electric field, formula_6 is the electronic density (number of electrons/volume) and formula_7 is the electron electric charge.
+
+Other quantities that remain the same under the free electron model as under Drude's are the AC susceptibility, the plasma frequency, the magnetoresistance, and the Hall coefficient related to the Hall effect.
+
+Many properties of the free electron model follow directly from equations related to the Fermi gas, as the independent electron approximation leads to an ensemble of non-interacting electrons. For a three-dimensional electron gas we can define the Fermi energy as
+
+where formula_9 is the reduced Planck constant. The Fermi energy defines the energy of the highest energy electron at zero temperature. For metals the Fermi energy is in the order of units of electronvolts above the free electron band minimum energy.
+
+The 3D density of states (number of energy states, per energy per volume) of a non-interacting electron gas is given by:
+
+where formula_11 is the energy of a given electron. This formula takes into account the spin degeneracy but does not consider a possible energy shift due to the bottom of the conduction band. For 2D the density of states is constant and for 1D is inversely proportional to the square root of the electron energy.
+
+The chemical potential formula_12 of electrons in a solid is also known as the Fermi level and, like the related Fermi energy, often denoted formula_13. The Sommerfeld expansion can be used to calculate the Fermi level (formula_14) at higher temperatures as:
+
+where formula_16 is the temperature and we define formula_17 as the Fermi temperature (formula_18 is Boltzmann constant). The perturbative approach is justified as the Fermi temperature is usually of about 10 K for a metal, hence at room temperature or lower the Fermi energy formula_19 and the chemical potential formula_20 are practically equivalent.
+
+The total energy per unit volume (at formula_21) can also be calculated by integrating over the phase space of the system, we obtain
+
+which does not depend on temperature. Compare with the energy per electron of an ideal gas: formula_23, which is null at zero temperature. For an ideal gas to have the same energy as the electron gas, the temperatures would need to be of the order of the Fermi temperature. Thermodynamically, this energy of the electron gas corresponds to a zero-temperature pressure given by
+
+where formula_25 is the volume and formula_26 is the total energy, the derivative performed at temperature and chemical potential constant. This pressure is called the electron degeneracy pressure and does not come from repulsion or motion of the electrons but from the restriction that no more than two electrons (due to the two values of spin) can occupy the same energy level. This pressure defines the compressibility or bulk modulus of the metal
+
+This expression gives the right order of magnitude for the bulk modulus for alkali metals and noble metals, which show that this pressure is as important as other effects inside the metal. For other metals the crystalline structure has to be taken into account.
+
+One open problem in solid-state physics before the arrival of the free electron model was related to the low heat capacity of metals. Even when the Drude model was a good approximation for the Lorenz number of the Wiedemann–Franz law, the classical argument is based on the idea that the volumetric heat capacity of an ideal gas is
+
+If this was the case, the heat capacity of a metal could be much higher due to this electronic contribution. Nevertheless, such a large heat capacity was never measured, raising suspicions about the argument. By using Sommerfeld's expansion one can obtain corrections of the energy density at finite temperature and obtain the volumetric heat capacity of an electron gas, given by:
+
+where the prefactor to formula_30is considerably smaller than the 3/2 found in formula_31, about 100 times smaller at room temperature and much smaller at lower formula_32. The good estimation of the Lorenz number in the Drude model was a result of the classical mean velocity of electron being about 100 larger than the quantum version, compensating the large value of the classical heat capacity. The free electron model calculation of the Lorenz factor is about twice the value of Drude's and its closer to the experimental value. With this heat capacity the free electron model is also able to predict the right order of magnitude and temperature dependence at low "T" for the Seebeck coefficient of the thermoelectric effect.
+
+Evidently, the electronic contribution alone does not predict the Dulong–Petit law, i.e. the observation that the heat capacity of a metal is constant at high temperatures. The free electron model can be improved in this sense by adding the lattice vibrations contribution. Two famous schemes to include the lattice into the problem are the Einstein solid model and Debye model. With the addition of the later, the volumetric heat capacity of a metal at low temperatures can be more precisely written in the form, 
+where formula_34 and formula_35 are constants of related to the material. The linear term comes from the electronic contribution while the cubic term comes from Debye model. At high temperature this expression is no longer correct, the electronic heat capacity can be neglected, and the total heat capacity of the metal tends to a constant.
+
+Notice that without the relaxation time approximation, there is no reason for the electrons to deflect their motion, as there are no interactions, thus the mean free path should be infinite. The Drude model considered the mean free path of electrons to be close to the distance between ions in the material, implying the earlier conclusion that the diffusive motion of the electrons was due to collisions with the ions. The mean free paths in the free electron model are instead given by formula_36 (where formula_37 is the Fermi speed) and are in the order of hundreds of ångströms, at least one order of magnitude larger than any possible classical calculation. The mean free path is then not a result of electron-ion collisions but instead is related to imperfections in the material, either due to defects and impurities in the metal, or due to thermal fluctuations.
+
+The free electron model presents several inadequacies that are contradicted by experimental observation. We list some inaccuracies below:
+
+Other inadequacies are present in the Wiedemann–Franz law at intermediate temperatures and the frequency-dependence of metals in the optical spectrum.
+
+More exact values for the electrical conductivity and Wiedemann–Franz law can be obtained by softening the relaxation-time approximation by appealing to the Boltzmann transport equations or the Kubo formula.
+
+Spin is mostly neglected in the free electron model and its consequences can lead to emergent magnetic phenomena like Pauli paramagnetism and ferromagnetism.
+
+An immediate continuation to the free electron model can be obtained by assuming the empty lattice approximation, which forms the basis of the band structure model known as the nearly free electron model.
+
+Adding repulsive interactions between electrons does not change very much the picture presented here. Lev Landau showed that a Fermi gas under repulsive interactions, can be seen as a gas of equivalent quasiparticles that slightly modify the properties of the metal. Landau's model is now known as the Fermi liquid theory. More exotic phenomena like superconductivity, where interactions can be attractive, require a more refined theory.
+
+
+
+

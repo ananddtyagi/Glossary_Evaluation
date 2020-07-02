@@ -1,0 +1,25 @@
+﻿Fractional quantum mechanics
+
+In physics, fractional quantum mechanics is a generalization of standard quantum mechanics, which naturally comes out when the Brownian-like quantum paths substitute with the Lévy-like ones in the Feynman path integral. This concept was discovered by Nick Laskin who coined the term "fractional quantum mechanics".
+
+Standard quantum mechanics can be approached in three different ways: the matrix mechanics, the Schrödinger equation and the Feynman path integral.
+
+The Feynman path integral is the path integral over Brownian-like quantum-mechanical paths. Fractional quantum mechanics has been discovered by Nick Laskin (1999) as a result of expanding the Feynman path integral, from the Brownian-like to the Lévy-like quantum mechanical paths. A path integral over the Lévy-like quantum-mechanical paths results in a generalization of quantum mechanics. If the Feynman path integral leads to the well known Schrödinger equation, then the path integral over Lévy trajectories leads to the fractional Schrödinger equation. The Lévy process is characterized
+by the Lévy index "α", 0 < "α" ≤ 2. At the special case when "α" = 2 the Lévy process becomes the process of Brownian motion. The fractional Schrödinger equation includes a space derivative of fractional order "α" instead of the second order ("α" = 2) space derivative in the standard Schrödinger equation. Thus, the fractional Schrödinger equation is a fractional differential equation in accordance with modern terminology. This is the key point to launch the term fractional Schrödinger equation and more general term "fractional quantum mechanics". As mentioned above, at "α" = 2 the Lévy motion becomes Brownian motion. Thus, fractional quantum mechanics includes standard quantum mechanics as a particular case at "α" = 2. The quantum-mechanical path integral over the Lévy paths at "α" = 2 becomes the well-known Feynman path integral and the fractional Schrödinger equation becomes the well-known Schrödinger equation.
+
+The fractional Schrödinger equation discovered by Nick Laskin has the following form (see, Refs.[1,3,4])
+
+using the standard definitions:
+
+Further,
+
+Here, the wave functions in the position and momentum spaces; formula_3 and formula_4 are related each other by the 3-dimensional Fourier transforms:
+
+The index "α" in the fractional Schrödinger equation is the Lévy index, 1 < "α" ≤ 2.
+
+The effective mass of states in solid state systems can depend on the wave vector k, i.e. formally one considers m=m(k). Polariton Bose-Einstein condensate modes are examples of states in solid state systems with mass sensitive to variations and locally in k fractional quantum mechanics is experimentally feasible.
+
+
+
+
+

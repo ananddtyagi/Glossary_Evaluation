@@ -1,0 +1,63 @@
+﻿Lorentz scalar
+
+In a relativistic theory of physics, a Lorentz scalar is an expression, formed from items of the theory, which evaluates to a scalar, invariant under any Lorentz transformation. A Lorentz scalar may be generated from e.g., the scalar product of vectors, or from contracting tensors of the theory. While the components of vectors and tensors are in general altered under Lorentz transformations, Lorentz scalars remain unchanged.
+
+A Lorentz scalar is not always immediately seen to be an invariant scalar in the mathematical sense, but the resulting scalar value is invariant under any basis transformation applied to the vector space, on which the considered theory is based. A simple Lorentz scalar in Minkowski spacetime is the "spacetime distance" ("length" of their difference) of two fixed events in spacetime. While the "position"-4-vectors of the events change between different inertial frames, their spacetime distance remains invariant under the corresponding Lorentz transformation. Other examples of Lorentz scalars are the "length" of 4-velocities (see below), or the Ricci curvature in a point in spacetime from General relativity, which is a contraction of the Riemann curvature tensor there.
+
+In special relativity the location of a particle in 4-dimensional spacetime is given by 
+
+where formula_2 is the position in 3-dimensional space of the particle, formula_3 is the velocity in 3-dimensional space and formula_4 is the speed of light.
+
+The "length" of the vector is a Lorentz scalar and is given by
+
+where formula_6 is the proper time as measured by a clock in the rest frame of the particle and the Minkowski metric is given by
+
+This is a time-like metric.
+
+Often the alternate signature of the Minkowski metric is used in which the signs of the ones are reversed.
+
+This is a space-like metric.
+
+In the Minkowski metric the space-like interval formula_9 is defined as
+
+We use the space-like Minkowski metric in the rest of this article.
+
+The velocity in spacetime is defined as
+
+where
+
+The 4-acceleration is always perpendicular to the 4-velocity
+
+Therefore, we can regard acceleration in spacetime as simply a rotation of the 4-velocity. The inner product of the acceleration and the velocity is a Lorentz scalar and is zero. This rotation is simply an expression of energy conservation:
+
+where formula_15 is the energy of a particle and formula_16 is the 3-force on the particle.
+
+The 4-momentum of a particle is
+
+where formula_18 is the particle rest mass, formula_19 is the momentum in 3-space, and
+
+is the energy of the particle.
+
+Consider a second particle with 4-velocity formula_21 and a 3-velocity formula_22. In the rest frame of the second particle the inner product of formula_21 with formula_24 is proportional to the energy of the first particle
+
+where the subscript 1 indicates the first particle.
+
+Since the relationship is true in the rest frame of the second particle, it is true in any reference frame. formula_26, the energy of the first particle in the frame of the second particle, is a Lorentz scalar. Therefore,
+
+in any inertial reference frame, where formula_28 is still the energy of the first particle in the frame of the second particle .
+
+In the rest frame of the particle the inner product of the momentum is
+
+Therefore, the rest mass (m) is a Lorentz scalar. The relationship remains true independent of the frame in which the inner product is calculated.
+In many cases the rest mass is written as formula_30 to avoid confusion with the relativistic mass, which is formula_31
+
+Note that
+
+The square of the magnitude of the 3-momentum of the particle as measured in the frame of the second particle is a Lorentz scalar.
+
+The 3-speed, in the frame of the second particle, can be constructed from two Lorentz scalars
+
+Scalars may also be constructed from the tensors and vectors, from the contraction of tensors (such as formula_34), or combinations of contractions of tensors and vectors (such as formula_35).
+
+
+

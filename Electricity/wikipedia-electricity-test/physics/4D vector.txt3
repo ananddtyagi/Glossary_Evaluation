@@ -1,0 +1,17 @@
+﻿4D vector
+
+In computer science, a 4D vector is a 4-component vector data type. Uses include homogeneous coordinates for 3-dimensional space in computer graphics, and "red green blue alpha" (RGBA) values for bitmap images with a color and alpha channel (as such they are widely used in computer graphics). They may also represent quaternions (useful for rotations) although the algebra they define is different.
+
+Some microprocessors have hardware support for 4D vectors with instructions dealing with 4 lane "single instruction, multiple data" (SIMD) instructions, usually with a 128-bit data path and 32-bit floating point fields.
+
+Specific instructions (e.g., 4 element dot product) may facilitate the use of one 128-bit register to represent a 4D vector. For example, in chronological order: Hitachi SH4, PowerPC VMX128 extension, and Intel x86 SSE4.
+
+Some 4-element vector engines (e.g., the PS2 vector units) went further with the ability to broadcast components as multiply sources, and cross product support. Earlier generations of graphics processing unit (GPU) shader pipelines used "very long instruction word" (VLIW) instruction sets tailored for similar operations.
+
+SIMD use for 4D vectors can be conveniently wrapped in a "vector maths library" (commonly implemented in C or C++) 
+commonly used in video game development, along with 4×4 matrix support. These are distinct from more general linear algebra libraries in other domains focussing on matrices of arbitrary size. Such libraries sometimes support 3D vectors padded to 4D or loading 3D data into 4D registers, with arithmetic mapped efficiently to SIMD operations by per platform intrinsic function implementations. There is choice between AOS and SOA approaches given the availability of 4 element registers, versus SIMD instructions that are usually tailored toward homogenous data.
+
+Shading languages for graphics processing unit (GPU) programming usually have a 4D datatypes (along with 2D, 3D) with x-y-z-w accessors including "permutes" or "swizzle" access, e.g., allowing easy swapping of RGBA or ARGB formats, accessing two 2D vectors packed into one 4D vector, etc. Modern GPUs have since moved to scalar single instruction, multiple threads (SIMT) pipelines (for more efficiency in "general-purpose computing on graphics processing units" (GPGPU)) but still support this programming model.
+
+
+

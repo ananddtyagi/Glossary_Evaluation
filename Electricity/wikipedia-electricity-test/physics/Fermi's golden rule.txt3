@@ -1,0 +1,26 @@
+﻿Fermi's golden rule
+
+In quantum physics, Fermi's golden rule is a formula that describes the transition rate (probability of transition per unit time) from one energy eigenstate of a quantum system to a group of energy eigenstates in a continuum, as a result of a weak perturbation. This transition rate is effectively independent of time (so long as the strength of the perturbation is independent of time) and is proportional to the strength of the coupling between the initial and final states of the system (described by the square of the matrix element of the perturbation) as well as the density of states. It is also applicable when the final state is not part of a continuum if there is some decoherence in the process, like relaxation of the atoms or like noise in the perturbation, in which case the density of states is replaced by the reciprocal of decoherence bandwidth.
+
+Although named after Enrico Fermi, most of the work leading to the Golden Rule is due to Paul Dirac who formulated 20 years earlier a virtually identical equation, including the three components of a constant, the matrix element of the perturbation and an energy difference. It was given this name because, on account of its importance, Fermi dubbed it "Golden Rule No. 2."
+
+Most uses of the term Fermi's golden rule are referring to "Golden Rule No.2", however, Fermi's "Golden Rule No.1" is of a similar form and considers the probability of indirect transitions per unit time.
+
+Fermi's golden rule describes a system which begins in an eigenstate, formula_1, of an unperturbed Hamiltonian, and considers the effect of a perturbing Hamiltonian, applied to the system. If is time-independent, the system goes only into those states in the continuum that have the same energy as the initial state. If is oscillating sinusoidally as a function of time (i.e. it is a harmonic perturbation) with an angular frequency , the transition is into states with energies that differ by from the energy of the initial state.
+
+In both cases, the "transition probability per unit of time" from the initial state formula_2 to a set of final states formula_3 is essentially constant. It is given, to first order approximation, by
+where formula_5 is the matrix element (in bra–ket notation) of the perturbation between the final and initial states and formula_6 is the density of states (number of continuum states in an infinitesimally small energy interval formula_7 ) at the energy formula_8 of the final states. This transition probability is also called "decay probability" and is related to the inverse of the mean lifetime. Thus, the probability of finding the system in state formula_9 is proportional to formula_10.
+
+The standard way to derive the equation is to start with time-dependent perturbation theory and to take the limit for absorption under the assumption that the time of the measurement is much larger than the time needed for the transition.
+
+Only the magnitude of the matrix element formula_11 enters the Fermi's Golden Rule. The phase of this matrix element, however, contains separate information about the transition process.
+It appears in expressions that complement the Golden Rule in the semiclassical Boltzmann equation approach to electron transport.
+
+When considering energy level transitions between two discrete states Fermi's golden rule is written as,
+where formula_13 is the density of photon states at a given energy, formula_14 is the photon energy and formula_15 is the angular frequency. This alternative expression relies on the fact that there is a continuum of final (photon) states, i.e. the range of allowed photon energies is continuous.
+
+Fermi's golden rule predicts that the probability that a excited state will decay depends on the density of states. This can be seen experimentally by measuring the decay rate of a dipole near to a mirror: as the presence of the mirror creates regions of higher and lower density of states, the measured decay rate depends on the distance between the mirror and the dipole.
+
+
+
+

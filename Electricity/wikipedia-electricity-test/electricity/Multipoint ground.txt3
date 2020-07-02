@@ -1,0 +1,23 @@
+﻿Multipoint ground
+
+A multipoint ground is an alternate type of electrical installation that attempts to solve the ground loop and mains hum problem by creating many alternate paths for electrical energy to find its way back to ground. The distinguishing characteristic of a multipoint ground is the use of many interconnected grounding conductors into a loose grid configuration. There will be many paths between any two points in a multipoint grounding system, rather than the single path found in a star topology ground. This type of ground may also be known as a Signal Reference Grid or Ground (SRG) or an Equipotential Ground.
+
+If installed correctly, it can maintain reference ground potential much better than a star topology in a similar application across a wider range of frequencies and currents.
+
+A multipoint ground system is more complicated to install and maintain over the long term, and can be more expensive to install.
+
+Star topology systems can be converted to multipoint systems by installing new conductors between old existing ones. However, this should be done with care as it can inadvertently introduce noise onto signal lines during the conversion process. The noise can be diminished over time as noisy and failed components are removed and repaired, but some isolation of high current (e.g. motors and lighting) and sensitive low current (e.g. amplifiers and radios) equipment may always be necessary.
+
+A multipoint grounding system can solve several problems, but they must all be addressed in turn. The size of the conductors must be designed to meet the expected load in operations and in lightning protection. The amount of cross bonding, and the topology of the grids, is determined by the expected frequencies in the signals to be carried and the uses the installation will be put to.
+
+A ground grid is provided primarily for safety, and the size of the conductors is probably governed by local building or electrical code. One factor to keep in mind is that since the final grid will have multiple paths to ground, the final system resistance to ground will likely be lower than for a typical star ground. But this does not change the need for adequate conductor size to any given piece of equipment in case of a fault.
+
+Lightning protection is provided by bonding the multipoint ground grid to one or more grounding rods under or at the perimeter of the building, and then up to the lightning rods. If the building has significant metal framing elements, these should be bonded to the lightning rods and grounding rods as well.
+
+If the building has large motors, driving such things as fans, pumps, elevators, etc., these should also be on the multipoint grid. However, they should not be on segments of the grid that will service equipment such as audio amplifiers, small signal radio circuits, computer networks, sensitive electrical instrumentation, etc. Since building two grids into the same building may be prohibitively expensive, a good compromise is to connect the low frequency, high current equipment to the grid at or near the ground rods and entrance transformers, in such a way that their load 
+will not flow across the segment of the grid connected to the low current equipment. Thus the system is still an electrically continuous unit, but motor noise does not impinge directly into signal paths.
+
+The cross bonding is governed by the frequencies and wavelengths to be protected against. A multipoint ground is at its best when it allows currents of many different frequencies to find a path to ground. If the system is expected to always have no more than main current present, the wavelengths involved at 50 or 60 Hz will cause the system design to become a star topology. But if higher frequencies are present, they need to be closer. In general, the spacing between nodes should be less than 1/8 of the shortest wavelength present. This will guarantee that current can always flow no matter which path it tries to take. If less than 1/8 wavelength node spacing cannot be achieved, then at least include as many cross connects as possible, as closely spaced as possible.
+
+
+

@@ -1,0 +1,17 @@
+﻿Static synchronous compensator
+
+A static synchronous compensator (STATCOM), also known as a static synchronous condenser (STATCON), is a regulating device used on alternating current electricity transmission networks. It is based on a power electronics voltage-source converter and can act as either a source or sink of reactive AC power to an electricity network. If connected to a source of power it can also provide active AC power. It is a member of the FACTS family of devices. It is inherently modular and electable.
+
+These compensators are also usable to reduce voltage fluctuations.
+
+Usually a STATCOM is installed to support electricity networks that have a poor power factor and often poor voltage regulation. There are however, other uses, the most common use is for voltage stability.
+
+A STATCOM is a voltage source converter (VSC)-based device, with the voltage source behind a reactor. The voltage source is created from a DC capacitor and therefore a STATCOM has very little active power capability. However, its active power capability can be increased if a suitable energy storage device is connected across the DC capacitor.
+The reactive power at the terminals of the STATCOM depends on the amplitude of the voltage source. For example, if the terminal voltage of the VSC is higher than the AC voltage at the point of connection, the STATCOM generates reactive current; conversely, when the amplitude of the voltage source is lower than the AC voltage, it absorbs reactive power.
+The response time of a STATCOM is shorter than that of a static VAR compensator (SVC), mainly due to the fast switching times provided by the IGBTs of the voltage source converter. The STATCOM also provides better reactive power support at low AC voltages than an SVC, since the reactive power from a STATCOM decreases linearly with the AC voltage (as the current can be maintained at the rated value even down to low AC voltage).
+
+A static var compensator can also be used for voltage stability. However, a STATCOM has better characteristics than an SVC. When the system voltage drops sufficiently to force the STATCOM output current to its ceiling, its maximum reactive output current will not be affected by the voltage magnitude. Therefore, it exhibits constant current characteristics when the voltage is low under the limit. In contrast the SVC's reactive output is proportional to the square of the voltage magnitude. This makes the provided reactive power decrease rapidly when voltage decreases, thus reducing its stability. In addition, the speed of response of a STATCOM is faster than that of an SVC and the harmonic emission is lower, however STATCOMs typically exhibit higher losses and may be more expensive than SVCs, so the (older) SVC technology is still widespread.
+
+
+
+

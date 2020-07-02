@@ -1,0 +1,55 @@
+﻿System size expansion
+
+The system size expansion, also known as van Kampen's expansion or the Ω-expansion, is a technique pioneered by Nico van Kampen used in the analysis of stochastic processes. Specifically, it allows one to find an approximation to the solution of a master equation with nonlinear transition rates. The leading order term of the expansion is given by the linear noise approximation, in which the master equation is approximated by a Fokker–Planck equation with linear coefficients determined by the transition rates and stoichiometry of the system.
+
+Less formally, it is normally straightforward to write down a mathematical description of a system where processes happen randomly (for example, radioactive atoms randomly decay in a physical system, or genes that are expressed stochastically in a cell). However, these mathematical descriptions are often too difficult to solve for the study of the systems statistics (for example, the mean and variance of the number of atoms or proteins as a function of time). The system size expansion allows one to obtain an approximate statistical description that can be solved much more easily than the master equation.
+
+Systems that admit a treatment with the system size expansion may be described by a probability distribution formula_1, giving the probability of observing the system in state formula_2 at time formula_3. formula_2 may be, for example, a vector with elements corresponding to the number of molecules of different chemical species in a system. In a system of size formula_5 (intuitively interpreted as the volume), we will adopt the following nomenclature: formula_6 is a vector of macroscopic copy numbers, formula_7 is a vector of concentrations, and formula_8 is a vector of deterministic concentrations, as they would appear according to the rate equation in an infinite system. formula_9 and formula_6 are thus quantities subject to stochastic effects.
+
+A master equation describes the time evolution of this probability. Henceforth, a system of chemical reactions will be discussed to provide a concrete example, although the nomenclature of "species" and "reactions" is generalisable. A system involving formula_11 species and formula_12 reactions can be described with the master equation:
+
+Here, formula_5 is the system size, formula_15 is an operator which will be addressed later, formula_16 is the stoichiometric matrix for the system (in which element formula_16 gives the stoichiometric coefficient for species formula_18 in reaction formula_19), and formula_20 is the rate of reaction formula_19 given a state formula_9 and system size formula_5.
+
+formula_24 is a step operator, removing formula_16 from the formula_18th element of its argument. For example, formula_27. This formalism will be useful later.
+
+The above equation can be interpreted as follows. The initial sum on the RHS is over all reactions. For each reaction formula_19, the brackets immediately following the sum give two terms. The term with the simple coefficient −1 gives the probability flux away from a given state formula_6 due to reaction formula_19 changing the state. The term preceded by the product of step operators gives the probability flux due to reaction formula_19 changing a different state formula_32 into state formula_6. The product of step operators constructs this state formula_32.
+
+For example, consider the (linear) chemical system involving two chemical species formula_35 and formula_36 and the reaction formula_37. In this system, formula_38 (species), formula_39 (reactions). A state of the system is a vector formula_40, where formula_41 are the number of molecules of formula_35 and formula_36 respectively. Let formula_44, so that the rate of reaction 1 (the only reaction) depends on the concentration of formula_35. The stoichiometry matrix is formula_46.
+
+Then the master equation reads:
+
+where formula_48 is the shift caused by the action of the product of step operators, required to change state formula_6 to a precursor state formula_50.
+
+If the master equation possesses nonlinear transition rates, it may be impossible to solve it analytically. The system size expansion utilises the ansatz that the variance of the steady-state probability distribution of constituent numbers in a population scales like the system size. This ansatz is used to expand the master equation in terms of a small parameter given by the inverse system size.
+
+Specifically, let us write the formula_51, the copy number of component formula_18, as a sum of its "deterministic" value (a scaled-up concentration) and a random variable formula_53, scaled by formula_54:
+
+The probability distribution of formula_6 can then be rewritten in the vector of random variables formula_53:
+
+Consider how to write reaction rates formula_59 and the step operator formula_15 in terms of this new random variable. Taylor expansion of the transition rates gives:
+
+The step operator has the effect formula_62 and hence formula_63:
+
+We are now in a position to recast the master equation.
+
+This rather frightening expression makes a bit more sense when we gather terms in different powers of formula_5. First, terms of order formula_54 give
+
+These terms cancel, due to the macroscopic reaction equation
+
+The terms of order formula_70 are more interesting:
+
+which can be written as
+
+where
+
+and
+
+The time evolution of formula_75 is then governed by the linear Fokker–Planck equation with coefficient matrices formula_76 and formula_77 (in the large-formula_5 limit, terms of formula_79 may be neglected, termed the linear noise approximation). With knowledge of the reaction rates formula_80 and stoichiometry formula_81, the moments of formula_75 can then be calculated.
+
+The approximation implies that fluctuations around the mean are Gaussian distributed. Non-Gaussian features of the distributions can be computed by taking into account higher order terms in the expansion.
+
+The linear noise approximation has become a popular technique for estimating the size of intrinsic noise in terms of coefficients of variation and Fano factors for molecular species in intracellular pathways. The second moment obtained from the linear noise approximation (on which the noise measures are based) are exact only if the pathway is composed of first-order reactions. However bimolecular reactions such as enzyme-substrate, protein-protein and protein-DNA interactions are ubiquitous elements of all known pathways; for such cases, the linear noise approximation can give estimates which are accurate in the limit of large reaction volumes. Since this limit is taken at constant concentrations, it follows that the linear noise approximation gives accurate results in the limit of large molecule numbers and becomes less reliable for pathways characterized by many species with low copy numbers of molecules.
+
+A number of studies have elucidated cases of the insufficiency of the linear noise approximation in biological contexts by comparison of its predictions with those of stochastic simulations. This has led to the investigation of higher order terms of the system size expansion that go beyond the linear approximation. These terms have been used to obtain more accurate moment estimates for the mean concentrations and for the variances of the concentration fluctuations in intracellular pathways. In particular, the leading order corrections to the linear noise approximation yield corrections of the conventional rate equations. Terms of higher order have also been used to obtain corrections to the variances and covariances estimates of the linear noise approximation. The linear noise approximation and corrections to it can be computed using the open source software intrinsic Noise Analyzer. The corrections have been shown to be particularly considerable for allosteric and non-allosteric enzyme-mediated reactions in intracellular compartments.
+
+

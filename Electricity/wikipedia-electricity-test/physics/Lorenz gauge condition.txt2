@@ -1,0 +1,49 @@
+﻿Lorenz gauge condition
+
+In electromagnetism, the Lorenz gauge condition or Lorenz gauge (sometimes mistakenly called the Lorentz gauge) is a partial gauge fixing of the electromagnetic vector potential. The condition is that formula_1 This does not completely determine the gauge: one can still make a gauge transformation formula_2 where formula_3 is a harmonic scalar function (that is, a scalar function satisfying formula_4 the equation of a massless scalar field).
+
+The Lorenz condition is used to eliminate the redundant spin-0 component in the representation theory of the Lorentz group. It is equally used for massive spin-1 fields where the concept of gauge transformations does not apply at all.
+
+The Lorenz condition is named after Ludvig Lorenz. It is a Lorentz invariant condition, and is frequently called the "Lorentz condition" because of confusion with Hendrik Lorentz, after whom Lorentz covariance is named.
+
+In electromagnetism, the Lorenz condition is generally used in calculations of time-dependent electromagnetic fields through retarded potentials. The condition is
+
+where formula_6 is the four-potential, the comma denotes a partial differentiation and the repeated index indicates that the Einstein summation convention is being used. The condition has the advantage of being Lorentz invariant. It still leaves substantial gauge degrees of freedom.
+
+In ordinary vector notation and SI units, the condition is
+
+where formula_8 is the magnetic vector potential and formula_9 is the electric potential; see also gauge fixing.
+
+In Gaussian units the condition is
+
+A quick justification of the Lorenz gauge can be found using Maxwell's equations and the relation between the magnetic vector potential and the magnetic field:
+
+Therefore,
+
+Since the curl is zero, that means there is a scalar function formula_13 such that 
+
+This gives the well known equation for the electric field, 
+
+This result can be plugged into the Ampère–Maxwell equation,
+
+This leaves,
+
+To have Lorentz invariance, the time derivatives and spatial derivatives must be treated equally (i.e. of the same order). Therefore, it is convenient to choose the Lorenz gauge condition, which gives the result
+
+A similar procedure with a focus on the electric scalar potential and making the same gauge choice will yield
+
+These are simpler and more symmetric forms of the inhomogeneous Maxwell's equations. Note that the Coulomb gauge also fixes the problem of Lorentz invariance, but leaves a coupling term with first-order derivatives.
+
+Here 
+
+is the vacuum velocity of light, and formula_21 is the d'Alembertian operator. These equations are not only valid under vacuum conditions, but also in polarized media, if formula_22 and formula_23 are source density and circulation density, respectively, of the electromagnetic induction fields formula_24 and formula_25 calculated as usual from formula_13 and formula_27 by the equations 
+
+The explicit solutions for formula_9 and formula_8 – unique, if all quantities vanish sufficiently fast at infinity – are known as retarded potentials.
+
+When originally published, Lorenz's work was not received well by Maxwell. Maxwell had eliminated the Coulomb electrostatic force from his derivation of the electromagnetic wave equation since he was working in what would nowadays be termed the Coulomb gauge. The Lorenz gauge hence contradicted Maxwell's original derivation of the EM wave equation by introducing a retardation effect to the Coulomb force and bringing it inside the EM wave equation alongside the time varying electric field, which was introduced in Lorenz's paper "On the identity of the vibrations of light with electrical currents". Lorenz's work was the first symmetrizing shortening of Maxwell's equations after Maxwell himself published his 1865 paper. In 1888, retarded potentials came into general use after Heinrich Rudolf Hertz's experiments on electromagnetic waves. In 1895, a further boost to the theory of retarded potentials came after J. J. Thomson's interpretation of data for electrons (after which investigation into electrical phenomena changed from time-dependent electric charge and electric current distributions over to moving point charges).
+
+
+
+
+
+

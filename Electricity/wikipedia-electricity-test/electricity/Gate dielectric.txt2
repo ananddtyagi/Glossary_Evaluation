@@ -1,0 +1,9 @@
+﻿Gate dielectric
+
+A gate dielectric is a dielectric used between the gate and substrate of a field-effect transistor. In state-of-the-art processes, the gate dielectric is subject to many constraints, including:
+
+
+The capacitance and thickness constraints are almost directly opposed to each other. For silicon-substrate FETs, the gate dielectric is almost always silicon dioxide (called "gate oxide"), since thermal oxide has a very clean interface. However, the semiconductor industry is interested in finding alternative materials with higher dielectric constants, which would allow higher capacitance with the same thickness.
+
+
+

@@ -1,0 +1,16 @@
+﻿Palladium-hydrogen electrode
+
+The palladium-hydrogen electrode (abbreviation: Pd/H) is one of the common reference electrodes used in electrochemical study. Most of its characteristics are similar to the standard hydrogen electrode (with platinum). But palladium has one significant feature—the capability to absorb (dissolve into itself) molecular hydrogen.
+
+Two phases can coexist in palladium when hydrogen is absorbed:
+
+The electrochemical behaviour of a palladium electrode in equilibrium with HO ions in solution parallels the behaviour of palladium with molecular hydrogen
+
+Thus the equilibrium is controlled in one case by the partial pressure or fugacity of molecular hydrogen and in other case—by activity of H-ions in solution.
+
+When palladium is electrochemically charged by hydrogen, the existence of two phases is manifested by a constant potential of approximately +50 mV compared to the reversible hydrogen electrode. This potential is independent of the amount of hydrogen absorbed over a wide range. This property has been utilized in the construction of a palladium/hydrogen reference electrode. The main feature of such electrode is an absence of non-stop bubbling of molecular hydrogen through the solution as it is absolutely necessary for the standard hydrogen electrode.
+
+
+Electrochimica Acta
+
+

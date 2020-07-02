@@ -1,0 +1,49 @@
+﻿Charge transport mechanisms
+
+Charge transport mechanisms are theoretical models that aim to quantitatively describe the electric current flow through a given medium.
+
+Crystalline solids and molecular solids are two opposite extreme cases of materials that exhibit substantially different transport mechanisms. While in atomic solids transport is "intra"-molecular, also known as band transport, in molecular solids the transport is "inter"-molecular, also known as hopping transport. The two different mechanisms result in different charge mobilities.
+
+In disordered solids, disordered potentials result in weak localization effects (traps), which reduce the mean free path, and hence the mobility, of mobile charges. Carrier recombination also decreases mobility.
+
+Starting with Ohm's law and using the definition of conductivity, it is possible to derive the following common expression for current as a function of carrier mobility μ and applied electric field E:
+
+The relationship formula_2 holds when the concentration of localized states is significantly higher than the concentration of charge carriers, and assuming that hopping events are independent from each other.
+
+Generally, the carrier mobility μ depends on temperature T, on the applied electric field E, and the concentration of localized states N. Depending on the model, increased temperature may either increase or decrease carrier mobility, applied electric field can increase mobility by contributing to thermal ionization of trapped charges, and increased concentration of localized states increases the mobility as well. Charge transport in the same material may have to be described by different models, depending on the applied field and temperature.
+
+Carrier mobility strongly depends on the concentration of localized states in a non-linear fashion. In the case of nearest-neighbour hopping, which is the limit of low concentrations, the following expression can be fitted to the experimental results:
+where formula_4 is the concentration and formula_5 is the localization length of the localized states. This equation is characteristic of incoherent hopping transport, which takes place at low concentrations, where the limiting factor is the exponential decay of hopping probability with inter-site distance.
+
+Sometimes this relation is expressed for conductivity, rather than mobility:
+where formula_4 is the concentration of randomly distributed sites, formula_8 is concentration independent, formula_5 is the localization radius, and formula_10 is a numerical coefficient.
+
+At high concentrations, a deviation from the nearest-neighbour model is observed, and variable-range hopping is used instead to describe transport. Variable range hopping can be used to describe disordered systems such as molecularly-doped polymers, low molecular weight glasses and conjugated polymers. In the limit of very dilute systems, the nearest-neighbour dependence formula_11 is valid, but only with formula_12.
+
+At low carrier densities, the Mott formula for temperature-dependent conductivity is used to describe hopping transport. In variable hopping it is given by:
+where formula_14 is a parameter signifying a characteristic temperature. 
+For low temperatures, assuming a parabolic shape of the density of states near the Fermi level, the conductivity is given by:
+
+At high carrier densities, an Arrhenius dependence is observed:
+In fact, the electrical conductivity of disordered materials under DC bias has a similar form for a large temperature range, also known as activated conduction:
+
+High electric fields cause an increase in the observed mobility:
+It was shown that this relationship holds for a large range of field strengths.
+
+The real and imaginary parts of the AC conductivity for a large range of disordered semiconductors has the following form:
+where C is a constant and s is usually smaller than unity.
+
+Similar to electron conduction, the electrical resistance of thin-film electrolytes depends on the applied electric field, such that when the thickness of the sample is reduced, the conductivity improves due to both the reduced thickness and the field-induced conductivity enhancement. The field dependence of the current density j through an ionic conductor, assuming a random walk model with independent ions under a periodic potential is given by:
+where α is the inter-site separation.
+
+Characterization of transport properties requires fabricating a device and measuring its current-voltage characteristics. Devices for transport studies are typically fabricated by thin film deposition or break junctions. The dominant transport mechanism in a measured device can be determined by differential conductance analysis. In the differential form, the transport mechanism can be distinguished based on the voltage and temperature dependence of the current through the device.
+
+It is common to express the mobility as a product of two terms, a field-independent term and a field-dependent term:
+where formula_23 is the activation energy and β is model-dependent. For Poole–Frenkel hopping, for example,
+
+Tunneling and thermionic emission are typically observed when the barrier height is low.
+Thermally-assisted tunneling is a "hybrid" mechanism that attempts to describe a range of simultaneous behaviours, from tunneling to thermionic emission.
+
+
+
+

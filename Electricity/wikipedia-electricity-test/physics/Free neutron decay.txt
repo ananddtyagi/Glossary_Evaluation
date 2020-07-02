@@ -1,0 +1,19 @@
+﻿Free neutron decay
+
+Outside the nucleus, free neutrons are unstable and have a mean lifetime of (about 14 minutes, 42 seconds). Therefore, the half-life for this process (which differs from the mean lifetime by a factor of ) is (about 10 minutes, 11 seconds). The beta decay of the neutron, described above, can be denoted as follows:
+
+This decay, like any flavor-changing process, occurs through operation of the weak force. It involves the emission of a boson from one of the down quarks within the neutron, thereby converting the down quark into an up quark and the neutron into a proton; the then decays into the electron and the antineutrino. The following equations denote the same process as the first equation above, but also include the short-lived and describe the process on both the nucleon and the quark level:
+
+For the free neutron, the decay energy for this process (based on the rest masses of the neutron, proton and electron) is 0.782343 MeV. That is the difference between the rest mass of the neutron and the sum of the rest masses of the products. That difference has to be carried away as kinetic energy. The maximal energy of the beta decay electron (in the process wherein the neutrino receives a vanishingly small amount of kinetic energy) has been measured at 0.782 ± .013 MeV. The latter number is not well-enough measured to determine the comparatively tiny rest mass of the neutrino (which must in theory be subtracted from the maximal electron kinetic energy); furthermore, neutrino mass is constrained by many other methods.
+
+A small fraction (about one in 1000) of free neutrons decay with the same products, but add an extra particle in the form of an emitted gamma ray:
+
+This gamma ray may be thought of as a sort of "internal bremsstrahlung" that arises as the emitted beta particle (electron) interacts with the charge of the proton in an electromagnetic way. In this process, some of the decay energy is carried away as photon energy. Internal bremsstrahlung gamma ray production is also a minor feature of beta decays of bound neutrons, that is, those within a nucleus.
+
+A very small minority of neutron decays (about four per million) are so-called "two-body (neutron) decays", in which a proton, electron and antineutrino are produced as usual, but the electron fails to gain the 13.6 eV necessary energy to escape the proton (the ionization energy of hydrogen), and therefore simply remains bound to it, as a neutral hydrogen atom (one of the "two bodies"). In this type of free neutron decay, in essence all of the neutron decay energy is carried off by the antineutrino (the other "body").
+
+The transformation of a free proton to a neutron (plus a positron and a neutrino) is energetically impossible, since a free neutron has a greater mass than a free proton.
+
+While the neutron lifetime has been studied for decades, there currently exists a lack of consilience on its exact value, due to different results from two experimental methods ("bottle" versus "beam"). While the error margin was once overlapping, increasing refinement in technique which should have resolved the issue has failed to demonstrate convergence to a single value. The difference in mean lifetime values obtained as of 2014 was approximately 9 seconds. Further, a prediction of the value based on quantum chromodynamics as of 2018 is still not sufficiently precise to support one over the other. As discussed in , the beam test would be incorrect if there is a decay mode that does not produce a proton.
+
+

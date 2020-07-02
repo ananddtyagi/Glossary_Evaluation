@@ -1,0 +1,13 @@
+﻿Magnetic capacitance
+
+Magnetic capacitance (capacitive magnetic reactance) (SI Unit: -Ω) is a magnetic "reactance" which prevents magnetic "current" in oscillating magnetic circuits from rising. This is associated with high reluctance.
+
+For harmonic regimes it is equal to:
+
+Where:
+
+In complex form it is written as an imaginary number:
+
+The electrical potential energy sustained by magnetic capacitivity varies with the frequency of oscillations in magnetic fields. The average power in a given period is equal to zero. The magnetic capacitance is a reactive part of the magnetic circuit.
+
+

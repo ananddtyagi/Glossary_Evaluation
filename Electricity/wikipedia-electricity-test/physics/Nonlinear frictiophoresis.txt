@@ -1,0 +1,131 @@
+﻿Nonlinear frictiophoresis
+
+Nonlinear frictiophoresis is the unidirectional drift of a particle in a medium caused by periodic driving force with zero mean. The effect is possible due to nonlinear dependence of the friction-drag force on the particle's velocity. It was discovered theoretically.,
+and is mainly known as nonlinear electrofrictiophoresis
+At first glance, a periodic driving force with zero mean is able to entrain a particle into an oscillating movement without unidirectional drift, because integral momentum provided to the particle by the force is zero. The possibility of unidirectional drift can be recognized if one takes into account that the particle itself loses momentum through transferring it further to the medium it moves in/at. If the friction is nonlinear, then it may so happen that the momentum loss during movement in one direction does not equal to that in the opposite direction and this causes unidirectional drift. For this to happen, the driving force time-dependence must be more complicated than it is in a single sinusoidal harmonic.
+
+The simplest case of friction-velocity dependence law is the
+Stokes's one:
+where formula_2 is the friction/drag force applied to a particle moving with velocity formula_3 in a medium. The friction-velocity law (1) is observed for a slowly moving spherical particle in a Newtonian fluid. It is linear, see Fig. 1, and is not suitable for nonlinear frictiophoresis to take place. The characteristic property of the law (1) is that any, even a very small driving force is able to get particle moving. This is not the case for such media as Bingham plastic. For those media, it is necessary to apply some threshold force, formula_4, to get the particle moving. This kind of friction-velocity (dry friction) law has a jump discontinuity at formula_5:
+
+It is nonlinear, see Fig. 2, and is used in this example.
+
+Let formula_7 denote the period of driving force. Chose a time
+value formula_8
+such that formula_9
+and two force values, formula_10, formula_11
+such that the following relations are
+satisfied:
+The periodic driving force formula_14
+used in this example is as follows:
+It is clear that, due to (3), formula_14 has zero mean:
+
+See also Fig. 3.
+
+For the sake of simplicity, we consider here the physical situation when inertia may be neglected. The latter can be achieved if
+particle's mass is small, velocity is low and friction is high. This conditions have to ensure that formula_18,
+where formula_19 is the relaxation time. In this situation, the particle driven with force (4) immediately starts moving with constant velocity 
+formula_20 during interval
+formula_21
+and will immediately
+stop moving during interval formula_22, see Fig. 4.
+
+This results in the
+positive mean velocity of unidirectional drift:
+
+Analysis of possibility to get a nonzero drift by periodic force with
+zero integral has been made in
+The dimensionless
+equation of motion for a particle driven by periodic force
+formula_14, formula_25, formula_26
+is as follows:
+where the friction/drag force
+formula_28 satisfies
+the following:
+It is proven in 
+that any solution to (5)
+settles down onto periodic regime
+formula_30, formula_31, which has nonzero mean:
+almost certainly, provided formula_14
+is not antiperiodic.
+
+For formula_34, two cases of formula_14 have been considered explicitly:
+
+1. Saw-shaped driving force, see Fig. 5:
+
+In this case, found in 
+first order in formula_37 approximation to formula_30,
+formula_39, has the following mean value:
+This estimate is made expecting formula_41.
+
+2. Two harmonics driving force,
+In this case, the first order in formula_37 approximation
+has the following mean value:
+This value is maximized in formula_45, formula_46, keeping formula_47 constant. Interesting that the drift value depends on formula_45 and changes its direction twice as formula_45 spans over the interval formula_50. Another type of analysis, based on symmetry breaking suggests as well that a zero mean driving force is able to generate a directed drift.
+
+ In applications, the nature of force formula_14 in (5), is usually electric, similar to forces acting during standard electrophoresis. The only differences are that the force is periodic and without constant component.
+For the effect to show up, the dependence of friction/drag force on velocity must be nonlinear. This is the case for numerous substances known as non-Newtonian fluids. Among these are gels, and dilatant fluids, pseudoplastic fluids, liquid crystals.
+
+Dedicated experiments
+have determined formula_52 for a standard DNA ladder up to 1500 bp long in 1.5% agarose gel. The dependence found, see Fig. 6, supports the possibility of nonlinear frictiophoresis in such a system. Based on data in Fig. 6, an optimal time course for driving electric field with zero mean, formula_53, has been found in, which ensures maximal drift for 1500 b.p. long fragment,
+see Fig. 7.
+The effect of unidirectional drift caused by periodic force with zero integral value has a peculiar dependence on the time course of the force applied. See the previous section for examples. This offers a new dimension to a set of separation problems.
+
+In the DNA fragments separation,
+zero mean periodic electric field is used in zero-integrated-field electrophoresis (ZIFE),
+where the field time dependence similar to that shown in Fig. 3 is used.
+This allows to separate long fragments in agarose gel,
+nonseparable by standard constant field electrophoresis.
+The long DNA geometry and its manner of movement in a gel,
+known as reptation
+do not allow to apply directly the consideration based on Eq. (5), above.
+
+It was observed,
+
+that under certain physical conditions
+the mechanism described in Mathematical analysis section, above,
+can be used for separation with respect to specific mass,
+like particles made of isotopes of the same material.
+
+The idea of organizing directed drift with zero mean periodic drive
+have obtained further development for other configurations
+and other physical mechanism of nonlinearity.
+
+An electric dipole
+rotating freely around formula_54-axis
+in a medium with nonlinear friction can be manipulated by
+applying electromagnetic wave polarized circularly along formula_55
+and composed of two harmonics. The equation of motion
+for this system is as follows:
+where formula_57 is the torque acting on the dipole due to
+circular wave: 
+where formula_59 is the dipole moment component orthogonal
+to formula_54-axis
+and formula_61 defines the dipole direction in the formula_62 plane. By choosing proper
+phase shift formula_45 in (6) it is possible to
+orient the dipole in any desired direction, formula_64.
+The direction formula_64 is
+attained due to angular directed drift, which becomes zero when
+formula_66.
+A small detuning between the first and second harmonic in (6) results in continuous rotational drift.
+
+If a particle undergoes a directed drift while moving freely in accordance
+with Eq. (5), then it drifts similarly if a shallow enough
+potential field formula_67 is imposed. Equation of motion in that case is:
+where formula_69 is the force due to potential field. The drift continues until a steep enough region in the course of formula_67 is met, which is able to stop the drift. This kind of behavior, as rigorous mathematical analysis shows, 
+results in modification of formula_67 by adding a linear in formula_72 term. This may change the formula_67 qualitatively, by, e.g. changing the number of equilibrium points, see Fig. 8. The effect may be essential during high frequency
+electric field acting on biopolymers. 
+For electrophoresis of colloid particles under a small strength electric field, the force formula_14
+in the right-hand side of Eq. (5) is linearly proportional to the
+strength formula_53 of the electric field applied. For a high strength,
+the linearity is broken due to nonlinear polarization.
+As a result, the force may depend nonlinearly on the applied field:
+In the last expression, even if
+the applied field, formula_53 has zero mean, the applied force formula_14 may happen to have a constant component that can cause a directed drift.
+
+As above, for this to happen, formula_53 must have more than a single sinusoidal harmonic.
+This same effect for a liquid in a tube may serve in
+electroosmotic pump
+driven with zero mean electric field.
+
+

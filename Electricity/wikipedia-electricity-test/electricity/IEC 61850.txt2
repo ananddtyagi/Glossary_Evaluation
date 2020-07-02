@@ -1,0 +1,14 @@
+﻿IEC 61850
+
+IEC 61850 is an international standard defining communication protocols for intelligent electronic devices at electrical substations. It is a part of the International Electrotechnical Commission's (IEC) Technical Committee 57 reference architecture for electric power systems. The abstract data models defined in IEC 61850 can be mapped to a number of protocols. Current mappings in the standard are to MMS (Manufacturing Message Specification), GOOSE (Generic Object Oriented Substation Event), SMV (Sampled Measured Values), and soon to Web Services. These protocols can run over TCP/IP networks or substation LANs using high speed switched Ethernet to obtain the necessary response times below four milliseconds for protective relaying.
+
+Multiple protocols exist for substation automation, which include many proprietary protocols with custom communication links. Interoperation of devices from different vendors would be an advantage to users of substation automation devices. An IEC project group of about 60 members from different countries worked in three IEC working groups from 1995. They responded to all the concerns and objectives and created IEC 61850. The objectives set for the standard were:
+
+IEC 61850 consists of the following parts detailed in separate IEC 61850 
+
+IEC 61850 features include:
+
+
+
+
+

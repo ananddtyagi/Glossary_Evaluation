@@ -1,0 +1,9 @@
+﻿Intrinsic parity
+
+In quantum mechanics, the intrinsic parity is a phase factor that arises as an eigenvalue of the parity operation formula_1 (a reflection about the origin). To see that the parity's eigenvalues are phase factors, we assume an eigenstate of the parity operation (this is realized because the intrinsic parity is a property of a particle species) and use the fact that two parity transformations leave the particle in the same state, thus the new wave function can differ by only a phase factor, i.e.: formula_2 thus formula_3, since these are the only eigenstates satisfying the above equation. 
+
+The intrinsic parity's phase is conserved for non-weak interactions (the product of the intrinsic parities is the same before and after the reaction). As formula_4 the Hamiltonian is invariant under a parity transformation. The intrinsic parity of a system is the product of the intrinsic parities of the particles, for instance for noninteracting particles we have formula_5. Since the parity commutes with the Hamiltonian and formula_6 its eigenvalue does not change with time, therefore the intrinsic parities phase is a conserved quantity.
+
+A consequence of the Dirac equation is that the intrinsic parity of fermions and antifermions obey the relation formula_7, so particles and their antiparticles have the opposite parity. Single leptons can never be created or destroyed in experiments, as lepton number is a conserved quantity. This means experiments are unable to distinguish the sign of a leptons parity, so by convention it is chosen that leptons have intrinsic parity +1, antileptons have formula_8. Similarly the parity of the quarks is chosen to be +1, and antiquarks is -1.
+
+

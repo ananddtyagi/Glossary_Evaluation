@@ -1,0 +1,47 @@
+﻿Master equation
+
+In physics, chemistry and related fields, master equations are used to describe the time evolution of a system that can be modelled as being in a probabilistic combination of states at any given time and the switching between states is determined by a transition rate matrix. The equations are a set of differential equations over time of the probabilities that the system occupies each of the different states.
+
+A master equation is a phenomenological set of first-order differential equations describing the time evolution of (usually) the probability of a system to occupy each one of a discrete set of states with regard to a continuous time variable "t". The most familiar form of a master equation is a matrix form:
+where formula_2 is a column vector (where element "i" represents state "i"), and formula_3 is the matrix of connections. The way connections among states are made determines the dimension of the problem; it is either
+
+When the connections are time-independent rate constants, the master equation represents a kinetic scheme, and the process is Markovian (any jumping time probability density function for state "i" is an exponential, with a rate equal to the value of the connection). When the connections depend on the actual time (i.e. matrix formula_3 depends on the time, formula_5 ), the process is not stationary and the master equation reads
+
+When the connections represent multi exponential jumping time probability density functions, the process is semi-Markovian, and the equation of motion is an integro-differential equation termed the generalized master equation:
+
+The matrix formula_3 can also represent birth and death, meaning that probability is injected (birth) or taken from (death) the system, where then, the process is not in equilibrium.
+
+Let formula_3 be the matrix describing the transition rates (also known as kinetic rates or reaction rates). As always, the first subscript represents the row, the second subscript the column. That is, the source is given by the second subscript, and the destination by the first subscript. This is the opposite of what one might expect, but it is technically convenient.
+
+For each state "k", the increase in occupation probability depends on the contribution from all other states to "k", and is given by:
+
+where formula_11 is the probability for the system to be in the state formula_12, while the matrix formula_3 is filled with a grid of transition-rate constants. Similarly, formula_14 contributes to the occupation of all other states formula_15
+
+In probability theory, this identifies the evolution as a continuous-time Markov process, with the integrated master equation obeying a Chapman–Kolmogorov equation.
+
+The master equation can be simplified so that the terms with "ℓ" = "k" do not appear in the summation. This allows calculations even if the main diagonal of the formula_3 is not defined or has been assigned an arbitrary value.
+
+The final equality arises from the fact that 
+because the summation over the probabilities formula_20 yields one, a constant function. Since this has to hold for any probability formula_2 (and in particular for any probability of the form formula_22 for some k) we get
+Using this we can write the diagonal elements as
+
+The master equation exhibits detailed balance if each of the terms of the summation disappears separately at equilibrium—i.e. if, for all states "k" and "ℓ" having equilibrium probabilities formula_25 and formula_26,
+
+These symmetry relations were proved on the basis of the time reversibility of microscopic dynamics (microscopic reversibility) as Onsager reciprocal relations.
+
+Many physical problems in classical, quantum mechanics and problems in other sciences, can be reduced to the form of a "master equation", thereby performing a great simplification of the problem (see mathematical model).
+
+The Lindblad equation in quantum mechanics is a generalization of the master equation describing the time evolution of a density matrix. Though the Lindblad equation is often referred to as a "master equation", it is not one in the usual sense, as it governs not only the time evolution of probabilities (diagonal elements of the density matrix), but also of variables containing information about quantum coherence between the states of the system (non-diagonal elements of the density matrix).
+
+Another special case of the master equation is the Fokker-Planck equation which describes the time evolution of a continuous probability distribution. Complicated master equations which resist analytic treatment can be cast into this form (under various approximations), by using approximation techniques such as the system size expansion.
+
+Stochastic chemical kinetics are yet another example of the Master equation. A chemical Master equation is used to model a set of chemical reactions when the number of molecules of one or more species is small (of the order of 100 or 1000 molecules).
+
+A quantum master equation is a generalization of the idea of a master equation. Rather than just a system of differential equations for a set of probabilities (which only constitutes the diagonal elements of a density matrix), quantum master equations are differential equations for the entire density matrix, including off-diagonal elements. A density matrix with only diagonal elements can be modeled as a classical random process, therefore such an "ordinary" master equation is considered classical. Off-diagonal elements represent quantum coherence which is a physical characteristic that is intrinsically quantum mechanical.
+
+The Redfield equation and Lindblad equation are examples of approximate quantum master equations assumed to be Markovian. More accurate quantum master equations for certain applications include the polaron transformed quantum master equation, and the VPQME (variational polaron transformed quantum master equation).
+
+
+
+
+

@@ -1,0 +1,33 @@
+﻿Formal charge
+
+In chemistry, a formal charge (FC) is the charge assigned to an atom in a molecule, assuming that electrons in all chemical bonds are shared equally between atoms, regardless of relative electronegativity. When determining the best Lewis structure (or predominant resonance structure) for a molecule, the structure is chosen such that the formal charge on each of the atoms is as close to zero as possible.
+
+The formal charge of any atom in a molecule can be calculated by the following equation:
+
+where "V" is the number of valence electrons of the neutral atom in isolation (in its ground state); "N" is the number of non-bonding valence electrons on this atom in the molecule; and "B" is the total number of electrons shared in bonds with other atoms in the molecule.
+
+In organic chemistry convention, formal charges are an essential feature of a correctly rendered Lewis–Kekulé structure, and a structure omitting nonzero formal charges is considered incorrect, or at least, incomplete. In contrast, this convention is not followed in inorganic chemistry. Formal charges are drawn in close proximity to the atom bearing the charge. They may or may not be enclosed in a circle for clarity. 
+
+On the other hand, many workers in organometallic and a majority of workers in coordination chemistry will omit formal charges, unless they are needed for emphasis, or they are needed to make a particular point. Instead a top-right corner ⌝ will be drawn following the covalently-bound, charged entity, in turn followed immediately by the "overall" charge. 
+
+This difference in practice stems from the relatively straightforward assignment of bond order, valence electron count, and hence, formal charge for compounds only containing main-group elements (though oligomeric compounds like organolithium reagents and enolates tend to be depicted in an oversimplified and idealized manner), while there are genuine uncertainties, ambiguities, and outright disagreements when these assignments are attempted for transition-metal complexes.
+
+
+Even though all three structures gave us a total charge of zero, the final structure is the superior one because there are no charges in the molecule at all.
+
+The following is equivalent:
+
+
+It is important to keep in mind that formal charges are just that – formal, in the sense that this system is a formalism. The formal charge system is just a method to keep track of all of the valence electrons that each atom brings with it when the molecule is formed.
+
+Formal charge is a tool for estimating the distribution of electric charge within a molecule. The concept of oxidation states constitutes a competing method to assess the distribution of electrons in molecules. If the formal charges and oxidation states of the atoms in carbon dioxide are compared, the following values are arrived at:
+The reason for the difference between these values is that formal charges and oxidation states represent fundamentally different ways of looking at the distribution of electrons amongst the atoms in the molecule. With formal charge, the electrons in each covalent bond are assumed to be split exactly evenly between the two atoms in the bond (hence the dividing by two in the method described above). The formal charge view of the CO molecule is essentially shown below:
+The covalent (sharing) aspect of the bonding is overemphasized in the use of formal charges, since in reality there is a higher electron density around the oxygen atoms due to their higher electronegativity compared to the carbon atom. This can be most effectively visualized in an electrostatic potential map.
+
+With the oxidation state formalism, the electrons in the bonds are "awarded" to the atom with the greater electronegativity. The oxidation state view of the CO molecule is shown below: 
+Oxidation states overemphasize the ionic nature of the bonding; the difference in electronegativity between carbon and oxygen is insufficient to regard the bonds as being ionic in nature.
+
+In reality, the distribution of electrons in the molecule lies somewhere between these two extremes. The inadequacy of the simple Lewis structure view of molecules led to the development of the more generally applicable and accurate valence bond theory of Slater, Pauling, et al., and henceforth the molecular orbital theory developed by Mulliken and Hund.
+
+
+

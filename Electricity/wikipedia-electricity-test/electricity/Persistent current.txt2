@@ -1,0 +1,32 @@
+﻿Persistent current
+
+Persistent current is a perpetual electric current, not requiring an external power source.
+
+In electromagnetism, all magnetizations can be seen as microscopic persistent currents.
+By definition a magnetization formula_1 can be replaced by its corresponding microscopic form, which is an electric current density:
+This current is a bound current, not having any charge accumulation associated with it since it is divergenceless.
+What this means is that any permanently magnetized object, for example a piece of lodestone, can be considered to have persistent electric currents running throughout it (the persistent currents are generally concentrated near the surface).
+
+The converse is also true: any persistent electric current is divergence-free, and can therefore be represented instead by a magnetization.
+Therefore, in the macroscopic Maxwell's equations, it is purely a choice of mathematical convenience, whether to represent persistent currents as magnetization or vice versa.
+In the microscopic formulation of Maxwell's equations, however, formula_1 does not appear and so any magnetizations must be instead represented by bound currents.
+
+In superconductors, charge can flow without any resistance. It is possible to make pieces of superconductor with a large built-in persistent current, either by creating the superconducting state (cooling the material) while charge is flowing through it, or by changing the magnetic field around the superconductor after creating the superconducting state. This principle is used in superconducting electromagnets to generate sustained high magnetic fields that only require a small amount of power to maintain. The persistent current was first identified by Onnes, and attempts to set a lower bound on their duration have reached values of over 100,000 years.
+
+Surprisingly, it is also possible to have tiny persistent currents inside resistive metals that are placed in a magnetic field, even in metals that are nominally "non-magnetic".
+The current is the result of a quantum mechanical effect that influences how electrons travel through metals, and arises from the same kind of motion that allows the electrons inside an atom to orbit the nucleus forever.
+
+This type of persistent current is a mesoscopic low temperature effect: the magnitude of the current becomes appreciable when the size of the metallic system is reduced to the scale of the electron quantum phase coherence length and the thermal length. Persistent currents decrease with increasing temperature and will vanish exponentially above a temperature known as the Thouless temperature. This temperature scales as the inverse of the circuit diameter squared. Consequently, it has been suggested that persistent currents could flow up to room temperature and above in nanometric metal structures such as metal (Au, Ag...) nanoparticles. This hypothesis has been offered for explaining the singular magnetic properties of nanoparticles made of gold and other metals. 
+Unlike with superconductors, these persistent currents do not appear at zero magnetic field, as the current fluctuates symmetrically between positive and negative values; the magnetic field breaks that symmetry and allows a nonzero average current.
+Although the persistent current in an individual ring is largely unpredictable due to uncontrolled factors like the disorder configuration, it has a slight bias so that an average persistent current appears even for an ensemble of conductors with different disorder configurations.
+
+This kind of persistent current was first predicted to be experimentally observable in micrometer-scale rings in 1983 by Markus Büttiker, Yoseph Imry, and Rolf Landauer. Because the effect requires the phase coherence of electrons around the entire ring, the current can not be observed when the ring is interrupted by an ammeter and thus the current must by measured indirectly through its magnetization.
+In fact, all metals exhibit some magnetization in magnetic fields due a combination of de Haas–van Alphen effect, core diamagnetism, Landau diamagnetism, Pauli paramagnetism, which all appear regardless of the shape of the metal.
+The additional magnetization from persistent current becomes strong with a connected ring shape, and for example would disappear if the ring were cut.
+
+Experimental evidence of the observation of persistent currents were first reported in 1990 by a research group at Bell Laboratories using a superconducting resonator to study an array of copper rings. Subsequent measurements using superconducting resonators and extremely sensitive magnetometers known as superconducting quantum interference devices (SQUIDs) produced inconsistent results.
+In 2009, physicists at Stanford University using a scanning SQUID and at Yale University using microelectromechanical cantilevers reported measurements of persistent currents in nanoscale gold and aluminum rings respectively that both showed a strong agreement with the simple theory for non-interacting electrons.
+
+The 2009 measurements both reported greater sensitivity to persistent currents than previous measurements and made several other improvements to persistent current detection. The scanning SQUID's ability to change the position of the SQUID detector relative to the ring sample allowed for a number of rings to be measured on one sample chip and better extraction of the current signal from background noise. The cantilever detector's mechanical detection technique made it possible to measure the rings in a clean electromagnetic environment over a large range of magnetic field and also to measure a number of rings on one sample chip.
+
+

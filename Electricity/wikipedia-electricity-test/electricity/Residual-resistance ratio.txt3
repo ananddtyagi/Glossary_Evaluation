@@ -1,0 +1,13 @@
+﻿Residual-resistance ratio
+
+Residual-resistivity ratio (also known as Residual-resistance ratio or just RRR) is usually defined as the ratio of the resistivity of a material at room temperature and at 0 K. Of course, 0 K can never be reached in practice so some estimation is usually made. Since the RRR can vary quite strongly for a single material depending on the amount of impurities and other crystallographic defects, it serves as a rough index of the purity and overall quality of a sample. Since resistivity usually increases as defect prevalence increases, a large RRR is associated with a pure sample. RRR is also important for characterizing certain unusual low temperature states such as the Kondo effect and superconductivity. Note that since it is a unitless ratio there is no difference between a residual resistivity and residual-resistance ratio.
+
+Usually at "warm" temperatures the resistivity of a metal varies linearly with temperature. That is, a plot of the resistivity as a function of temperature is a straight line. If this straight line were extrapolated all the way down to absolute zero, a theoretical RRR could be calculated
+In the simplest case of a good metal that is free of scattering mechanisms one would expect ρ = 0, which would cause RRR to diverge. However, usually this is not the case because defects such as grain boundaries, impurities, etc. act as scattering sources that contribute a temperature independent ρ value. This shifts the intercept of the curve to a higher number, giving a smaller RRR. 
+
+In practice the resistivity of a given sample is measured down to as cold as possible, which on typical laboratory instruments is in the range of 2 K, though much lower is possible. By this point the linear resistive behavior is usually no longer applicable and by the low temperature ρ is taken as a good approximation to 0 K.
+
+
+
+
+

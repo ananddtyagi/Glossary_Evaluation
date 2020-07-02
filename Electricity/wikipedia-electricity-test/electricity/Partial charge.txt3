@@ -1,0 +1,23 @@
+﻿Partial charge
+
+A partial charge is a non-integer charge value when measured in elementary charge units. Partial charge is more commonly called net atomic charge. It is represented by the Greek lowercase letter δ, namely δ− or δ+.
+
+Partial charges are created due to the asymmetric distribution of electrons in chemical bonds. For example, in a polar covalent bond like HCl, the shared electron oscillates between the bonded atoms. The resulting partial charges are a property only of zones within the distribution, and not the assemblage as a whole. For example, chemists often choose to look at a small space surrounding the nucleus of an atom: When an electrically neutral atom bonds chemically to another neutral atom that is more electronegative, its electrons are partially drawn away. This leaves the region about that atom's nucleus with a partial positive charge, and it creates a partial negative charge on the atom to which it is bonded.
+In such a situation, the distributed charges taken as a group always carries a whole number of elementary charge units. Yet one can point to zones within the assemblage where less than a full charge resides, such as the area around an atom's nucleus. This is possible in part because particles are not like mathematical points—which must be either inside a zone or outside it—but are smeared out by the uncertainty principle of quantum mechanics. Because of this smearing effect, if one defines a sufficiently small zone, a fundamental particle may be both partly inside and partly outside it.
+
+Partial atomic charges are used in molecular mechanics force fields to compute the electrostatic interaction energy using Coulomb's law. They are also often used for a qualitative understanding of the structure and reactivity of molecules.
+
+Partial atomic charges can be used to quantify the degree of ionic versus covalent bonding of any compound across the periodic table. The necessity for such quantities arises, for example, in molecular simulations to compute bulk and surface properties in agreement with experiment. Evidence for chemically different compounds shows that available experimental data and chemical understanding lead to justified atomic charges. Atomic charges for a given compound can be derived in multiple ways, such as:
+
+The discussion of individual compounds in prior work has shown convergence in atomic charges, i.e., a high level of consistency between the assigned degree of polarity and the physical-chemical properties mentioned above. The resulting uncertainty in atomic charges is ±0.1e to ±0.2e for highly charged compounds, and often  0.1e for compounds with atomic charges below ±1.0e. Often, the application of one or two of the above concepts already leads to very good values, especially taking into account a growing library of experimental benchmark compounds and compounds with tested force fields.
+
+The published research literature on partial atomic charges varies in quality from extremely poor to extremely well-done. Although a large number of different methods for assigning partial atomic charges from quantum chemistry calculations have been proposed over many decades, the vast majority of proposed methods do not work well across a wide variety of material types. Only as recently as 2016 was a method for theoretically computing partial atomic charges developed that performs consistently well across an extremely wide variety of material types. All of the earlier methods had fundamental deficiencies that prevented them from assigning accurate partial atomic charges in many materials. Mulliken and Löwdin partial charges are physically unreasonable, because they do not have a mathematical limit as the basis set is improved towards completeness. Hirshfeld partial charges are usually too low in magnitude. Some methods for assigning partial atomic charges do not converge to a unique solution. In some materials, atoms in molecules analysis yields non-nuclear attractors describing electron density partitions that cannot be assigned to any atom in the material; in such cases, atoms in molecules analysis cannot assign partial atomic charges.
+
+According to Cramer (2002), partial charge methods can be divided into four classes:
+
+
+The following is a detailed list of methods, partly based on Meister and Schwarz (1994).
+
+
+
+

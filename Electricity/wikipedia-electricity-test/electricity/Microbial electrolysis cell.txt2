@@ -1,0 +1,20 @@
+﻿Microbial electrolysis cell
+
+A microbial electrolysis cell (MEC) is a technology related to Microbial fuel cells (MFC). Whilst MFCs produce an electric current from the microbial decomposition of organic compounds, MECs partially reverse the process to generate hydrogen or methane from organic material by applying an electric current. The electric current would ideally be produced by a renewable source of power. The hydrogen or methane produced can be used to produce electricity by means of an additional PEM fuel cell or internal combustion engine.
+
+MEC systems are based on a number of components:
+
+Microorganisms – are attached to the anode. The identity of the microorganisms determines the products and efficiency of the MEC.
+
+Materials – The anode material in a MEC can be the same as an MFC, such as carbon cloth, carbon paper, graphite felt, graphite granules or graphite brushes. Platinum can be used as a catalyst to reduce the overpotential required for hydrogen production. The high cost of platinum is driving research into biocathodes as an alternative. Or as other alternative for catalyst, the stainless steel plates were used as cathode and anode materials. Other materials include membranes (although some MECs are membraneless), and tubing and gas collection systems.
+
+Electrogenic microorganisms consuming an energy source (such as acetic acid) release electrons and protons, creating an electrical potential of up to 0.3 volts. In a conventional MFC, this voltage is used to generate electrical power. In a MEC, an additional voltage is supplied to the cell from an outside source. The combined voltage is sufficient to reduce protons, producing hydrogen gas. As part of the energy for this reduction is derived from bacterial activity, the total electrical energy that has to be supplied is less than for electrolysis of water in the absence of microbes. Hydrogen production has reached up to 3.12 mH/md with an input voltage of 0.8 volts. The efficiency of hydrogen production depends on which organic substances are used. Lactic and acetic acid achieve 82% efficiency, while the values for unpretreated cellulose or glucose are close to 63%.
+The efficiency of normal water electrolysis is 60 to 70 percent. As MEC’s convert unusable biomass into usable hydrogen, they can produce 144% more usable energy than they consume as electrical energy. Depending on the organisms present at the cathode, MECs can also produce methane by a related mechanism.
+
+CalculationsOverall hydrogen recovery was calculated as "RH" = "C""R". The Coulombic efficiency is "C"=("n"/"n"), where "n" is the moles of hydrogen that could be theoretically produced and "n" = "C"/(2"F") is the moles of hydrogen that could be produced from the measured current, "C" is the total coulombs calculated by integrating the current over time, "F" is Faraday's constant, and 2 is the moles of electrons per mole of hydrogen. The cathodic hydrogen recovery was calculated as "R" = "n"/"n", where "n" is the total moles of hydrogen produced. Hydrogen yield ("Y") was calculated as "Y" = "n" /"n", where "n" is substrate removal calculated on the basis of chemical oxygen demand (22).
+
+Hydrogen and methane can both be used as alternatives to fossil fuels in internal combustion engines or for power generation. Like MFCs or bioethanol production plants, MECs have the potential to convert waste organic matter into a valuable energy source. Hydrogen can also be combined with the nitrogen in the air to produce ammonia, which can be used to make ammonium fertilizer. Ammonia has been proposed as a practical alternative to fossil fuel for internal combustion engines.
+
+
+
+

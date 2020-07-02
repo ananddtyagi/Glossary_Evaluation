@@ -1,0 +1,54 @@
+﻿Transconductance
+
+Transconductance (for transfer conductance), also infrequently called mutual conductance, is the electrical characteristic relating the current through the output of a device to the voltage across the input of a device. Conductance is the reciprocal of resistance.
+
+Transadmittance (or transfer admittance) is the AC equivalent of transconductance.
+
+Transconductance is very often denoted as a conductance, "g", with a subscript, m, for "mutual". It is defined as follows:
+
+For small signal alternating current, the definition is simpler:
+
+The SI unit, the siemens, with the symbol, S; 1 siemens = 1 ampere per volt replaced the old unit of conductance, having the same definition, the "mho" (ohm spelled backwards), symbol, ℧.
+
+Transresistance (for transfer resistance), also infrequently referred to as mutual resistance, is the dual of transconductance. It refers to the ratio between a change of the voltage at two output points and a related change of current through two input points, and is notated as r:
+
+The SI unit for transresistance is simply the ohm, as in resistance.
+
+Transimpedance (or, transfer impedance) is the AC equivalent of transresistance, and is the dual of transadmittance.
+
+For vacuum tubes, transconductance is defined as the change in the plate(anode) current divided by the corresponding change in the grid/cathode voltage, with a constant plate(anode) to cathode voltage. Typical values of g for a small-signal vacuum tube are 1 to 10 millisiemens. It is one of the three characteristic constants of a vacuum tube, the other two being its gain μ (mu) and plate resistance r or r. The Van der Bijl equation defines their relation as follows:
+
+Similarly, in field effect transistors, and MOSFETs in particular, transconductance is the change in the drain current divided by the small change in the gate/source voltage with a constant drain/source voltage. Typical values of "g" for a small-signal field effect transistor are 1 to 30 millisiemens.
+
+Using the Shichman–Hodges model, the transconductance for the MOSFET can be expressed as (see MOSFET article):
+
+where "I" is the DC drain current at the bias point, and "V" is the overdrive voltage, which is the difference between the bias point gate–source voltage and the threshold voltage (i.e., "V" ≡ "V" - "V"). The overdrive voltage (sometimes known as the effective voltage) is customarily chosen at about 70–200 mV for the 65 nm technology node ("I" ≈ 1.13 mA/μm of width) for a "g" of 11–32 mS/μm.
+
+Additionally, the transconductance for the junction FET is given by formula_6, where V is the pinchoff voltage and I is the maximum drain current.
+
+Traditionally, the transconductance for the FET and MOSFET as given in the equations above is derived from the transfer equation of each device, using calculus. However, Cartwright has shown that this can be done without calculus.
+
+The g of bipolar small-signal transistors varies widely, being proportional to the collector current. It has a typical range of 1 to 400 millisiemens. The input voltage change is applied between the base/emitter and the output is the change in collector current flowing between the collector/emitter with a constant collector/emitter voltage.
+
+The transconductance for the bipolar transistor can be expressed as
+
+where "I" = DC collector current at the Q-point, and "V" = , typically about 26 mV at room temperature. For a typical current of 10 mA, "g" ≈ 385 mS. The input impedance is the current gain divided by the transconductance.
+
+The output (collector) conductance is determined by the Early voltage and is proportional to the collector current. For most transistors in linear operation it is well below 100 µS.
+
+A transconductance amplifier ("g" amplifier) puts out a current proportional to its input voltage. In network analysis, the transconductance amplifier is defined as a "voltage controlled current source" ("VCCS") . It is common to see these amplifiers installed in a cascode configuration, which improves the frequency response.
+
+A transresistance amplifier outputs a voltage proportional to its input current. The transresistance amplifier is often referred to as a transimpedance amplifier, especially by semiconductor manufacturers.
+
+The term for a transresistance amplifier in network analysis is "current controlled voltage source" ("CCVS").
+
+A basic inverting transresistance amplifier can be built from an operational amplifier and a single resistor. Simply connect the resistor between the output and the inverting input of the operational amplifier and connect the non-inverting input to ground. The output voltage will then be proportional to the input current at the inverting input, decreasing with increasing input current and vice versa. 
+
+Specialist chip transresistance (transimpedance) amplifiers are widely used for amplifying the signal current from photo diodes at the receiving end of ultra high speed fibre optic links.
+
+An operational transconductance amplifier (OTA) is an integrated circuit which can function as a transconductance amplifier. These normally have an input to allow the transconductance to be controlled.
+
+
+
+
+

@@ -1,0 +1,21 @@
+﻿Electrical polarity
+
+Electrical polarity is a term used throughout industries and fields that involve electricity. There are two types of poles: positive (+) and negative (−). This represents the electrical "potential" at the ends of a circuit. A battery has a positive terminal (+ pole) and a negative terminal (− pole). Interconnection of electrical device nearly always require correct polarity to be maintained. Correct polarity is essential for the operation of vacuum tube and semiconductor devices, many electric motors, electrochemical cells, electrical instruments, and other devices.
+
+Conventional current flows from the positive pole (terminal) to the negative pole. Electrons flow from negative to positive. In a direct current (DC) circuit, current flows in one direction only, and one pole is always negative and the other pole is always positive. In an alternating current (AC) circuit the two poles alternate between negative and positive and the direction of the current (electron flow) reverses periodically.
+
+Polarity symbols are used where the polarity of a terminal or wire must be identified. An electrical color code or other conventions may be used. In DC circuits, the positive pole is usually marked red (or "+") and the negative pole is usually marked black (or "−"), but other color schemes are sometimes used in automotive and telecommunications systems.
+
+On a car battery, the positive pole usually has a larger diameter than the negative pole. Modern cars have the negative terminal of the battery connected to the vehicle's body, and the positive terminal provides the live wire to the various systems. Older cars were built with the positive terminal of the battery bonded to the chassis.
+
+In AC systems the two wires of a circuit alternate polarity many times per second. In electrical power systems, all wires carrying the same instantaneous polarity at any moment will have a common identifying marking scheme, such as wire color. Depending on the conventions used for wiring the power system, the color coding or other marking may also indicate additional properties of the conductor, such as its role as neutral in a power circuit. In a polyphase AC system, identifying the wires belonging to a common phase is important to ensure proper operation of the circuit.
+
+Where alternating current circuits are used to carry signals such as audio, polarity is also required to ensure proper function of the system. For example, a set of loudspeakers used for stereo music reproduction will have all device terminals and wiring marked to ensure the same instantaneous polarity, so that the resulting sound produced by each speaker element is in the same phase and add correctly at the listener's ear.
+
+Instruments such as analog voltmeters will indicate up-scale when the instrument's negative lead is connected to the negative pole of a device under test, and the positive lead to the positive terminal. A reversed analog instrument will indicate down-scale, forcing the pointer against the scale end stop; this may damage a sensitive instrument. Digital instruments may indicate reverse polarity of connection with a minus sign before the numerical measurement. A test light using a neon glow lamp will indicate polarity by inspection of the glow around the lamp electrodes; the electrode connected to the negative pole of the circuit will have a glow around it. A neon lamp connected to AC will have a glow visible at both terminals.
+
+Testing of polarity in alternating current system can be done by an instrument such as a dual-trace oscilloscope that can identify when two points have instantaneously similar voltages, or by measurement between terminals with a voltmeter. If the two points are of the same polarity ( "in-phase"), voltage will be a minimum.
+
+
+
+

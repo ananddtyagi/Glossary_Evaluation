@@ -1,0 +1,43 @@
+﻿Electron precipitation
+
+Electron precipitation (also called energetic electron precipitation or EEP) is an atmospheric phenomenon that occurs when previously trapped electrons enter the Earth's atmosphere, thus creating communications interferences and other disturbances. Electrons are trapped in the Van Allen radiation belt by Earth's magnetic fields and begin to spiral around field lines in the radiation belt. They may remain there for an indefinite period of time (in some cases years). When broadband very low frequency (VLF) waves propagate the radiation belts, the electrons exit the radiation belt and "precipitate" (or travel) into the ionosphere (a region of Earth's atmosphere) where the electrons will collide with ions. Electron precipitation is regularly linked to ozone depletion. It is often caused by lightning strikes.
+
+An electron's gyrofrequency is the number of times it revolves around a field line. VLF waves traveling through the magnetosphere, caused by lightning or powerful transmitters, propagate through the radiation belt. When those VLF waves hit the electrons with the same frequency as an electron's gyrofrequency, the electron exits the radiation belt and "precipitates" (because it will not be able to re-enter the radiation belt) throughout the Earth's atmosphere and ionosphere.
+
+Often, as an electron precipitates, it is directed into the upper atmosphere where it may collide with neutral particles, thus depleting the electron's energy. If an electron makes it through the upper atmosphere, it will continue into the ionosphere. Groups of precipitated electrons can change the shape and conductivity of the ionosphere by colliding with atoms or molecules (usually oxygen or nitrogen based particles) in the region. When colliding with an atom, the electron strips the atom of its other electrons creating an ion. Collisions with the air molecules also release photons which provide a dim "aurora" effect. Because this occurs at such a high altitude, humans in aircraft are not affected by the radiation.
+
+The ionization process, caused by electron precipitation in the ionosphere, increases its electrical conductivity which in turn brings the bottom of the ionosphere to a lower altitude. When this happens, ozone depletion occurs and certain communications may be disrupted. The lowered altitude of the ionosphere is temporary (unless electron precipitation is steady) while the ions and electrons rapidly react to form neutral particles.
+
+Electron precipitation can lead to a substantial, short-term loss of ozone (capping out at around 90%). However, this phenomenon also correlates to some long term ozone depletion as well. Studies have revealed that 60 major electron precipitation events occurred from 2002 to 2012. Different measurement tools (see below) read different ozone depletion averages ranging from 5-90%. However, some of the tools (specifically the ones that reported lower averages) did not take accurate readings or missed a couple of years. Typically, ozone depletion resulting from electron precipitation is more common during the winter season. The largest EEP event from the studies during 2002 to 2012 was recorded in October 2003. This event caused an ozone depletion of up to 92%. It lasted for 15 days and the ozone layer was fully restored a couple of days afterwards. EEP ozone depletion studies are important for monitoring the safety of Earth's environment and variations in the solar cycle.
+
+Electron precipitation can be caused by VLF waves from powerful transmitter based communications and lightning storms.
+
+Lightning-induced electron precipitation (also referred to as LEP) occurs when lightning strikes the Earth. When a bolt of lightning strikes the ground, an electromagnetic pulse (EMP) is released which can hit the trapped electrons in the radiation belt. The electrons are then dislodged and "precipitate" into the Earth's atmosphere. Because the EMP caused by lightning strikes is so powerful and occurs over a large range of spectrums, it is known to cause more electron precipitation than transmitter induced precipitation.
+
+In order to cause electron precipitation, transmitters must produce very powerful waves with wavelengths from 10 to 100 km. Naval communication arrays often cause transmitter-induced precipitation of electron radiation (TIPER) because powerful waves are needed to communicate through water. These powerful transmitters are operating at almost all times of the day. Occasionally, these waves will have the exact heading and frequency needed to cause an electron to precipitate from the radiation belt.
+
+Electron precipitation can be studied by using various tools and methods to calculate its effects on the atmosphere. Scientists use superposed epoch analysis to take into account the strengths and weaknesses of a large set of different measurement methods. They then use that collected data to calculate when an EEP event is taking place and its effects on the atmosphere.
+
+In most cases, satellite measurements of electron precipitation are actually measurements of ozone depletion that is then linked to EEP events. The different instruments use a wide variety of methods to calculate ozone levels. While some of the methods may provide significantly inaccurate data, the average of all of the data combined is widely accepted as accurate.
+
+The Global Ozone Monitoring by Occultation of Stars (GOMOS) is a measurement instrument aboard the European satellite Envisat. It measures ozone amounts by using the emitted electromagnetic spectrum from surrounding stars combined with trigonometric calculations in a process called stellar occultation.
+
+The Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) is a measurement instrument aboard NASA's Thermal Ionosphere Mesosphere Energetics Dynamics (TIMED) satellite. The instrument measures ozone (and other atmospheric conditions) through an infrared radiometer (with a spectral range from 1.27 μm to 17 μm).
+
+The Microwave Limb Sounder (MLS), an instrument aboard the Aura satellite, measures microwave emission from the Earth's upper atmosphere. This data can help researchers find the levels of ozone depletion to an accuracy of 35%.
+
+The Medium Energy Proton Electron Detector (MEPED) measures electrons in the Earth's radiation belt and can estimate the amount of precipitating electrons in the ionosphere.
+
+With Sub-ionospheric Detection, a signal is sent from a VLF transmitter through the radiation belt to a VLF receiver on the other end. The VLF signal will cause some electrons to precipitate, thus disturbing the VLF signal before it reaches the VLF receiver on the other end. The VLF receiver measures these disturbances and uses the data to estimate amount of precipitated electrons.
+
+PIPER is a Stanford-made photometer specifically designed for capturing the photons emitted when ionization occurs in the ionosphere. Researchers can use this data to detect EEP events and measure the amount of precipitated electrons.
+
+X-ray equipment can be used in conjunction with other equipment to measure electron precipitation. Because x-rays are emitted during electron collisions, x-rays found in the ionosphere can be correlated to EEP events.
+
+VLF Remote Sensing is a technique of monitoring electron precipitation by monitoring VLF transmissions from the U.S. Navy for "Trumi Events" (large changes of phase and amplitude of the waves). Although this method can monitor electron precipitation, it cannot monitor the ionization of said electrons.
+
+James Van Allen from the State University of Iowa with his group, were the first to use vehicles with sensors to study electron fluxes precipitating in the atmosphere With rockoon rockets. The rockets would reach a maximum height of 50 km The soft radiation detected was later named after Van Allen in 1957.
+
+The next advancement of research of electron precipitation was performed by Winckler with his group from the university of Minnesota. They used balloons that carried detectors into the atmosphere.
+
+

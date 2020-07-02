@@ -1,0 +1,32 @@
+﻿Impulse (physics)
+
+In classical mechanics, impulse (symbolized by J or Imp) is the integral of a force, F, over the time interval, t, for which it acts. Since force is a vector quantity, impulse is also a vector in the same direction. Impulse applied to an object produces an equivalent vector change in its linear momentum, also in the same direction. The SI unit of impulse is the newton second (N⋅s), and the dimensionally equivalent unit of momentum is the kilogram meter per second (kg⋅m/s). The corresponding English engineering units are the pound-second (lbf⋅s) and the slug-foot per second (slug⋅ft/s).
+
+A resultant force causes acceleration and a change in the velocity of the body for as long as it acts. A resultant force applied over a longer time therefore produces a bigger change in linear momentum than the same force applied briefly: the change in momentum is equal to the product of the average force and duration. Conversely, a small force applied for a long time produces the same change in momentum—the same impulse—as a larger force applied briefly.
+
+The impulse is the integral of the resultant force ("F") with respect to time:
+
+Impulse J produced from time "t" to "t" is defined to be
+
+where F is the resultant force applied from "t" to "t".
+
+From Newton's second law, force is related to momentum p by
+
+Therefore,
+
+where Δp is the change in linear momentum from time "t" to "t". This is often called the impulse-momentum theorem (analogous to the work-energy theorem).
+
+As a result, an impulse may also be regarded as the change in momentum of an object to which a resultant force is applied. The impulse may be expressed in a simpler form when the mass is constant:
+where
+
+Impulse has the same units and dimensions as momentum. In the International System of Units, these are . In English engineering units, they are .
+
+The term "impulse" is also used to refer to a fast-acting force or impact. This type of impulse is often "idealized" so that the change in momentum produced by the force happens with no change in time. This sort of change is a step change, and is not physically possible. However, this is a useful model for computing the effects of ideal collisions (such as in game physics engines). Additionally, in rocketry, the term "total impulse" is commonly used and is considered synonymous with the term "impulse".
+
+The application of Newton's second law for variable mass allows impulse and momentum to be used as analysis tools for jet- or rocket-propelled vehicles. In the case of rockets, the impulse imparted can be normalized by unit of propellant expended, to create a performance parameter, specific impulse. This fact can be used to derive the Tsiolkovsky rocket equation, which relates the vehicle's propulsive change in velocity to the engine's specific impulse (or nozzle exhaust velocity) and the vehicle's propellant-mass ratio.
+
+
+
+
+
+

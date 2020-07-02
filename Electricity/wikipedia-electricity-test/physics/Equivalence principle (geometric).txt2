@@ -1,0 +1,18 @@
+﻿Equivalence principle (geometric)
+
+The equivalence principle is one of the corner-stones of gravitation theory. Different formulations of the equivalence principle are labeled "weakest", "weak", "middle-strong" and "strong." All of these formulations are based on the empirical equality of inertial mass, gravitational active and passive charges.
+
+The "weakest" equivalence principle is restricted to the motion law of a probe point mass in a uniform gravitational field. Its localization is the "weak" equivalence principle that states the existence of a desired local inertial frame at a given world point. This is the case of equations depending on a gravitational field and its first order derivatives, e. g., the equations of mechanics of probe point masses, and the equations of electromagnetic and Dirac fermion fields. The "middle-strong" equivalence principle is concerned with any matter, except a gravitational field, while the "strong" one is applied to all physical laws.
+
+The above-mentioned variants of the equivalence principle aim to guarantee the transition of General Relativity to Special Relativity in a certain reference frame. However, only the particular "weakest" and "weak" equivalence principles are true. 
+To overcome this difficulty, the equivalence principle can be formulated in geometric terms as follows.
+
+In the spirit of Felix Klein's Erlanger program, Special Relativity can be characterized as the Klein geometry of Lorentz group invariants. Then the geometric equivalence principle is formulated to require the existence of Lorentz invariants on a world manifold formula_1. This requirement holds if the tangent bundle formula_2 of formula_1 admits an atlas with Lorentz transition functions, i.e., a structure group of the associated frame bundle formula_4 of linear tangent frames in formula_2 is reduced to the Lorentz group formula_6. By virtue of the well known theorem on structure group reduction, this reduction takes place if and only if the quotient bundle formula_7 possesses a global section, which is a pseudo-Riemannian metric on formula_1.
+
+Thus the geometric equivalence principle provides the necessary and sufficient conditions of the existence of a pseudo-Riemannian metric, i.e., a gravitational field on a world manifold.
+
+Based on the geometric equivalence principle, gravitation theory is formulated as gauge theory where a gravitational field is described as a classical Higgs field responsible for spontaneous breakdown of space-time symmetries.
+
+
+
+

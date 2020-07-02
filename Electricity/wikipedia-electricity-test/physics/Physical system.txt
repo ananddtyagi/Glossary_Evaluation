@@ -1,0 +1,11 @@
+﻿Physical system
+
+In physics, a physical system is a portion of the physical universe chosen for analysis. Everything outside the system is known as the environment. The environment is ignored except for its effects on the system.
+
+The split between system and environment is the analyst's choice, generally made to simplify the analysis. For example, the water in a lake, the water in half of a lake, or an individual molecule of water in the lake can each be considered a physical system. An isolated system is one that has negligible interaction with its environment. Often a system in this sense is chosen to correspond to the more usual meaning of system, such as a particular machine.
+
+In the study of quantum coherence, the "system" may refer to the microscopic properties of an object (e.g. the mean of a pendulum bob), while the relevant "environment" may be the internal degrees of freedom, described classically by the pendulum's thermal vibrations.
+
+
+
+

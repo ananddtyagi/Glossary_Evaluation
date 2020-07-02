@@ -1,0 +1,61 @@
+﻿Electric potential energy
+
+Electric potential energy, or electrostatic potential energy, is a potential energy (measured in joules) that results from conservative Coulomb forces and is associated with the configuration of a particular set of point charges within a defined system. An "object" may have electric potential energy by virtue of two key elements: its own electric charge and its relative position to other electrically charged "objects".
+
+The term "electric potential energy" is used to describe the potential energy in systems with time-variant electric fields, while the term "electrostatic potential energy" is used to describe the potential energy in systems with time-invariant electric fields.
+
+The electric potential energy of a system of point charges is defined as the work required assembling this system of charges by bringing them close together, as in the system from an infinite distance.
+
+^\mathbf{r} q\mathbf{E}(\mathbf{r'}) \cdot \mathrm{d} \mathbf{r'},
+
+The electrostatic potential energy can also be defined from the electric potential as follows:
+
+The SI unit of electric potential energy is the joule (named after the English physicist James Prescott Joule). In the CGS system the erg is the unit of energy, being equal to 10 J. Also electronvolts may be used, 1 eV = 1.602×10 J.
+
+The electrostatic potential energy, "U", of one point charge "q" at position r in the presence of a point charge "Q", taking an infinite separation between the charges as the reference position, is:
+
+where formula_3 is Coulomb's constant, "r" is the distance between the point charges "q" & "Q", and "q" & "Q" are the charges (not the absolute values of the charges—i.e., an electron would have a negative value of charge when placed in the formula). The following outline of proof states the derivation from the definition of electric potential energy and Coulomb's law to this formula.
+
+The electrostatic potential energy, "U", of one point charge "q" in the presence of "n" point charges "Q", taking an infinite separation between the charges as the reference position, is:
+
+where formula_3 is Coulomb's constant, "r" is the distance between the point charges "q" & "Q", and "q" & "Q" are the signed values of the charges.
+
+The electrostatic potential energy "U" stored in a system of "N" charges "q", "q", ..., "q" at positions r, r, ..., r respectively, is:
+
+where, for each "i" value, Φ(r) is the electrostatic potential due to all point charges except the one at r, and is equal to:
+
+formula_5,
+
+where "r" is the distance between q and q.
+
+The electrostatic potential energy of a system containing only one point charge is zero, as there are no other sources of electrostatic potential against which an external agent must do work in moving the point charge from infinity to its final location.
+
+A common question arises concerning the interaction of a point charge with its own electrostatic potential. Since this interaction doesn't act to move the point charge itself, it doesn't contribute to the stored energy of the system.
+
+Consider bringing a point charge, "q", into its final position near a point charge, "Q". The electrostatic potential Φ(r) due to "Q" is
+
+Hence we obtain, the electric potential energy of "q" in the potential of "Q" as
+
+where r is the separation between the two point charges.
+
+The electrostatic potential energy of a system of three charges should not be confused with the electrostatic potential energy of "Q" due to two charges "Q" and "Q", because the latter doesn't include the electrostatic potential energy of the system of the two charges "Q" and "Q".
+
+The electrostatic potential energy stored in the system of three charges is:
+
+The energy density, or energy per unit volume, formula_9, of the electrostatic field of a continuous charge distribution is:
+
+Some elements in a circuit can convert energy from one form to another. For example, a resistor converts electrical energy to heat. This is known as the Joule effect. A capacitor stores it in its electric field. The total electric potential energy stored in a capacitor is given by
+
+where "C" is the capacitance, "V" is the electric potential difference, and "Q" the charge stored in the capacitor.
+
+The total electrostatic potential energy may also be expressed in terms of the electric field in the form
+
+where formula_13 is the displacement of the electric field within a dielectric material and integration is over the entire volume of the dielectric.
+
+The total electrostatic potential energy stored within a charged dielectric may also be expressed in terms of a continuous volume charge, formula_14,
+
+where integration is over the entire volume of the dielectric.
+
+These latter two expressions are valid only for cases when the smallest increment of charge is zero (formula_16) such as dielectrics in the presence of metallic electrodes or dielectrics containing many charges.
+
+

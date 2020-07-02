@@ -1,0 +1,8 @@
+Electric  ||| S:21 E:30 ||| NNP
+transient  ||| S:30 E:40 ||| NN
+may  ||| S:40 E:44 ||| MD
+refer  ||| S:44 E:50 ||| VB
+to ||| S:50 E:52 ||| TO
+Physical  ||| S:55 E:64 ||| FW
+phenomena ||| S:64 E:73 ||| FW
+Software ||| S:76 E:84 ||| UH

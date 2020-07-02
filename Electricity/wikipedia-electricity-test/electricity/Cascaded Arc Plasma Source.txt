@@ -1,0 +1,11 @@
+﻿Cascaded Arc Plasma Source
+
+The cascaded arc is a wall-stabilized thermal electric arc discharge that produces a high density, low temperature plasma.
+
+The cascaded arc source, developed at the Eindhoven University of Technology, is shown in the figure below. Compared to plasma sources in other linear plasma generators, this source can produce high-density argon and hydrogen plasmas (respectively 10 – 10 and 10 – 10 m) at a relatively low electron temperature (~1 eV). Due to the high collision frequency of the particles in the source, the plasma is in thermal equilibrium and reasonably homogeneous.
+
+The cascaded arc consists of a gas inlet, three tungsten cathodes, cascaded plates, a nozzle and an anode. Via the gas inlet, the working gas -argon or hydrogen- can flow into the cathode chamber. The source is typically running at 0.5–3.0 slm ( –  particles per second) and a discharge current of 100–300 A. The cascaded plates in between the cathode and anode are electrically insulated from each other by 1 mm thick Boron nitride plates. The voltage of these plates is the floating potential. Both nozzle and anode are grounded.
+
+
+
+

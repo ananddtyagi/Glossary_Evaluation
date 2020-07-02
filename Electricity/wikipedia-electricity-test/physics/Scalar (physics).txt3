@@ -1,0 +1,22 @@
+﻿Scalar (physics)
+
+A scalar or scalar quantity in physics is a physical quantity that can be described by a single element of a number field such as a real number, often accompanied by units of measurement. A scalar is usually said to be a physical quantity that only has magnitude and no other characteristics. This is in contrast to vectors, tensors, etc. which are described by several numbers that characterize their magnitude, direction, and so on.
+
+The concept of a scalar in physics is essentially the same as in mathematics. Formally, a scalar is unchanged by coordinate system transformations. In classical theories, like Newtonian mechanics, this means that rotations or reflections preserve scalars, while in relativistic theories, Lorentz transformations or space-time translations preserve scalars.
+
+Since scalars mostly may be treated as special cases of multi-dimensional quantities such as vectors and tensors, "physical scalar fields" might be regarded as a special case of more general fields, like vector fields, spinor fields, and tensor fields.
+
+A physical quantity is expressed by a numerical value and a physical unit, not merely a number. Its quantity may be regarded as the product of the number and the unit (e.g. for distance, 1 km is the same as 1000 m). Thus, following the example of distance, the quantity does not depend on the length of the base vectors of the coordinate system. Also, other changes of the coordinate system may affect the formula for computing the scalar (for example, the Euclidean formula for distance in terms of coordinates relies on the basis being orthonormal), but not the scalar itself. In this sense, physical distance deviates from the definition of metric in not being just a real number; however it satisfies all other properties. The same applies for other physical quantities which are not dimensionless.
+
+An example of a scalar quantity is temperature: the temperature at a given point is a single number. Velocity, on the other hand, is a vector quantity: velocity in three-dimensional space is specified by three values; in a Cartesian coordinate system the values are the components of speed along each coordinate axis. The associated fields describe the temperature and velocity in each point of some space. Considering the norms of the velocity vectors results in a scalar field of the speeds in each point of the space.
+
+Some examples of scalar quantities in physics are mass, charge, volume, time, speed, and electric potential at a point inside a medium. The distance between two points in three-dimensional space is a scalar, but the direction from one of those points to the other is not, since describing a direction requires two physical quantities such as the angle on the horizontal plane and the angle away from that plane. Force cannot be described using a scalar, since force has both direction and magnitude; however, the magnitude of a force alone can be described with a scalar, for instance the gravitational force acting on a particle is not a scalar, but its magnitude is. The speed of an object is a scalar (e.g. 180 km/h), while its velocity is not (e.g. 108 km/h northward and 144 km/h westward). 
+Some other examples of scalar quantities in Newtonian mechanics are electric charge and charge density.
+
+In the theory of relativity, one considers changes of coordinate systems that trade space for time. As a consequence, several physical quantities that are scalars in "classical" (non-relativistic) physics need to be combined with other quantities and treated as four-vectors or tensors. For example, the charge density at a point in a medium, which is a scalar in classical physics, must be combined with the local current density (a 3-vector) to comprise a relativistic 4-vector. Similarly, energy density must be combined with momentum density and pressure into the stress–energy tensor.
+
+Examples of scalar quantities in relativity include electric charge, spacetime interval (e.g., proper time and proper length), and invariant mass.
+
+
+
+

@@ -1,0 +1,12 @@
+﻿Autonomous peripheral operation
+
+In computing, autonomous peripheral operation is a hardware feature found in some modern microcontroller architectures to off-load certain tasks into embedded autonomous peripherals in order to minimize latencies and improve throughput in hard real-time applications as well as to save energy in ultra-low-power designs.
+
+Forms of autonomous peripherals in microcontrollers were first introduced around 2005. Allowing embedded peripherals to work independently of the CPU and even interact with each other in certain pre-configurable ways off-loads event-driven communication into the peripherals to help improve the real-time performance due to lower latency and allows for potentially higher data throughput due to the added parallelism. Since 2009, the scheme has been improved in newer implementations to continue functioning in sleep modes as well, thereby allowing the CPU to remain dormant for longer periods of time in order to save energy. This is partially driven by the IoT market.
+
+Conceptually, autonomous peripheral operation can be seen as a generalization of and mixture between direct memory access (DMA) and hardware interrupts. Peripherals that issue event signals are called "event generators" or "producers" whereas target peripherals are called "event users" or "consumers". In some implementations, peripherals can be configured to pre-process the incoming data and perform various peripheral-specific functions like comparing, windowing, filtering or averaging in hardware without having to pass the data through the CPU for processing.
+
+Known implementations include:
+
+
+

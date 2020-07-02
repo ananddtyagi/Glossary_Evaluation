@@ -1,0 +1,15 @@
+﻿Ionic conductivity (solid state)
+
+Ionic conductivity (denoted by ) is a measure of a substance's tendency towards ionic conduction. This involves the movement of an ion from one site to another through defects in the crystal lattice of a solid or aqueous solution.
+
+Ionic conduction is one mechanism of current. In solids, ions typically occupy fixed positions in the crystal lattice and do not move. However, ionic conduction can occur, especially as the temperature increases 
+
+Ionic conduction in solids has been a subject of interest since the beginning of the 19th century. Michael Faraday established in 1839 that the laws of electrolysis are also obeyed in ionic solids like lead(II) fluoride () and silver sulfide ().
+
+In 1921, Tubandt et al. found that solid silver iodide () had extraordinary high ionic conductivity. At temperatures above 147 °C, AgI changes into a phase that has an ionic conductivity of ~ 1 –1 cm, similar to that of its liquid phase. This high temperature phase of AgI was the first superionic conductor ever discovered. The highly conductive phase of AgI is now known as alpha-AgI. It was shown that a sublattice cationic disorder takes place in alpha-AgI. The liquid-like state of Ag ions, as proposed by Strock (1934, 1936) and later reinforced by others (Geller, 1977; Funke, 1976), consists of a cubic unit cell of iodide ions (I), in which a total of 42 sites (6 octahedral, 12 tetragonal and 24 trigonal bipyramidal) are available for 2 Ag ions, as shown in the Figure 1. O' Keeffe and Hyde (1976) have argued that this phase transition in AgI is dramatic and powerful, nothing less than the melting and have also shown that the entropy change at the super-ionic transition is comparable to its value at the melting. Thus, in the -phase, I ions form a body-centered cubic lattice and the Ag ions are distributed in such a way that 42 crystallographic equivalent interstices are available for the two Ag ions.
+
+Alpha phase crystals of various materials like , , , etc. were soon discovered (Tubandt, 1932). By the early 1930s, it was demonstrated that these fast ionically conducting solids could be treated entirely the same as aqueous electrolytes from the viewpoint of chemical reactions and thermodynamics, hence these materials were labeled "solid electrolytes".
+
+
+
+

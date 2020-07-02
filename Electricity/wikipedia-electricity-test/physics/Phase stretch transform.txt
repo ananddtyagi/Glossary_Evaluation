@@ -1,0 +1,46 @@
+﻿Phase stretch transform
+
+Phase stretch transform (PST) is a computational approach to signal and image processing. One of its utilities is for feature detection and classification. PST is related to time stretch dispersive Fourier transform. It transforms the image by emulating propagation through a diffractive medium with engineered 3D dispersive property (refractive index). The operation relies on symmetry of the dispersion profile and can be understood in terms of dispersive eigenfunctions or stretch modes. PST performs similar functionality as phase-contrast microscopy, but on digital images. PST can be applied to digital images and temporal (time series) data.
+
+Here the principle is described in the context of feature enhancement in digital images. The image is first filtered with a spatial kernel followed by application of a nonlinear frequency-dependent phase. The output of the transform is the phase in the spatial domain. The main step is the 2-D phase function which is typically applied in the frequency domain. The amount of phase applied to the image is frequency dependent, with higher amount of phase applied to higher frequency features of the image. Since sharp transitions, such as edges and corners, contain higher frequencies, PST emphasizes the edge information. Features can be further enhanced by applying thresholding and morphological operations. PST is related to warped or anamorphic stretch transform, another computational algorithm inspired by optical physics that performs nonuniform sampling and sparse coding.
+
+Photonic time stretch technique can be understood by considering the propagation of an optical pulse through a dispersive fiber. By disregarding the loss and non-linearity in fiber, the non-linear Schrödinger equation governing the optical pulse propagation in fiber upon integration reduces to:
+
+formula_1 (1)
+
+where formula_2 =GVD parameter, z is propagation distance, formula_3 is the reshaped output pulse at distance z and time t. The response of this dispersive element in the time-stretch system can be approximated as a phase propagator as presented in 
+formula_4 (2)
+<br>
+Therefore, Eq. 1 can be written as following for a pulse that propagates through the time-stretch system and is reshaped into a temporal signal with a complex envelope given by 
+<br>
+formula_5 (3)
+<br>
+The time stretch operation is formulated as generalized phase and amplitude operations,
+<br>
+formula_6 (4)
+
+where formula_7 is the phase filter and formula_8is the amplitude filter. Next the operator is converted to discrete domain, 
+<br>
+formula_9 (5)
+<br>
+where formula_10 is the discrete frequency, formula_11 is the phase filter, formula_12 is the amplitude filter and FFT is Fast Fourier Transform.
+
+The Stretch operator formula_13 for a digital image is then 
+<br>
+formula_14 (6)
+
+In the above equations, formula_15 is the input image, formula_16 and formula_17 are the spatial variables, formula_18 is the two dimensional Fast Fourier Transform, and formula_19 and formula_20 are spatial frequency variables. The function formula_21 is the warped phase kernel and the function formula_22 is a localization kernel implemented in frequency domain. PST operator is defined as the phase of the Warped Stretch Transform output as follows
+
+formula_23 (7)
+
+where formula_24is the angle operator.
+
+PST has been used for edge detection in biological and biomedical images as well as synthetic-aperture radar (SAR) image processing. PST has also been applied to improve the point spread function for single molecule imaging in order to achieve super-resolution. The transform exhibits intrinsic superior properties compared to conventional edge detectors for feature detection in low contrast visually impaired images.
+
+The PST function can also be performed on 1-D temporal waveforms in the analog domain to reveal transitions and anomalies in real time.
+
+On February 9, 2016, a UCLA Engineering research group has made public the computer code for PST algorithm that helps computers process images at high speeds and "see" them in ways that human eyes cannot. The researchers say the code could eventually be used in face, fingerprint, and iris recognition systems for high-tech security, as well as in self-driving cars' navigation systems or for inspecting industrial products.
+Matlab and Python implementation for PST is available for free download from our Github Repository. The Matlab implementation for PST can also be downloaded from Matlab Files Exchange. However, it is provided for research purposes only, and a license must be obtained for any commercial applications. The software is protected under a US patent.
+
+
+

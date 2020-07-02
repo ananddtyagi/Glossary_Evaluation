@@ -1,0 +1,10 @@
+﻿Heisenberg cut
+
+In quantum mechanics, a Heisenberg cut is the hypothetical interface between quantum events and an observer's information, knowledge, or conscious awareness. Below the cut everything is governed by the wave function; above the cut a classical description is used. The Heisenberg cut is a theoretical construct; it is not known whether actual Heisenberg cuts exist, where they might be found, or how they could be detected experimentally. However, the concept is useful for analysis.
+
+The cut is named after Werner Heisenberg's work on the Copenhagen interpretation of quantum mechanics in which it is associated with wave function collapse. Interpretations of quantum mechanics that do not recognise wave function collapse (such as De Broglie–Bohm or many-worlds interpretations) do not require Heisenberg cuts.
+
+Heisenberg stated the concept in many different ways in his work, for one example he wrote: "In this situation it follows automatically that, in a mathematical treatment of the process, a dividing line must be drawn between, on the one hand, the apparatus which we use as an aid in putting the question and thus, in a way, treat as part of ourselves, and on the other hand, the physical systems we wish to investigate. The latter we represent mathematically as a wave function. This function, according to quantum theory, consists of a differential equation which determines any future state from the present state of the function... The dividing line between the system to be observed and the measuring apparatus is immediately defined by the nature of the problem but it obviously signifies no discontinuity of the physical process. For this reason there must, within limits, exist complete freedom in choosing the position of the dividing line."
+
+
+

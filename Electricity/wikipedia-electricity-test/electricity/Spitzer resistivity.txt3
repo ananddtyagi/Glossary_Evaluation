@@ -1,0 +1,16 @@
+﻿Spitzer resistivity
+
+The Spitzer resistivity formula_1, or its opposite the Spitzer conductivity formula_2 first formulated by Lyman Spitzer in 1950, is an equation showing the electrical resistance in a plasma decreases in proportion to the electron temperature as formula_3.
+
+The Spitzer resistivity is a classical model of electrical resistivity commonly used in plasma physics, based upon electron-ion collisions. The transverse Spitzer resistivity is given by:
+
+and the parallel Spitzer resistivity by:
+
+where formula_6 is the ionization of nuclei, formula_7 is the electron charge, formula_8 is the electron mass, formula_9 is the Coulomb logarithm, formula_10 is the electric permittivity of free space, formula_11 is Boltzmann's constant, and formula_12 is the electron temperature in kelvins. The two resistivities correspond to current perpendicular and parallel to a strong magnetic field (the collision rate is small compared to the gyrofrequency). In an unmagnetized case the resistivity is formula_13.
+
+In CGS the expression is given by:
+
+For arbitrary formula_6,
+where
+
+

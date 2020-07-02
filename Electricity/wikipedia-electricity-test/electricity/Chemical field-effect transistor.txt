@@ -1,0 +1,18 @@
+﻿Chemical field-effect transistor
+
+"See also ISFET"
+
+A ChemFET is a chemically-sensitive field-effect transistor, that is a field-effect transistor used as a sensor for measuring chemical concentrations in solution. When the target analyte concentration changes, the current through the transistor will change accordingly. Here, the analyte solution separates the source and gate electrodes. A concentration gradient between the solution and the gate electrode arises due to a semi-permeable membrane on the FET surface containing receptor moieties that preferentially bind the target analyte. This concentration gradient of charged analyte ions creates a chemical potential between the source and gate, which is in turn measured by the FET.
+
+A ChemFET's source and drain are constructed as for an ISFET, with the gate electrode separated from the source electrode by a solution. The gate electrode's interface with the solution is a semi-permeable membrane containing the receptors, and a gap to allow the substance under test to come in contact with the sensitive receptor moieties. A ChemFET's threshold voltage depends on the concentration gradient between the analyte in solution and the analyte in contact with its receptor-embedded semi-permeable barrier.
+
+Often, ionophores are used to facilitate analyte ion mobility through the substrate to the receptor. For example, when targeting anions, quaternary ammonium salts (such as tetraoctylammonium bromide) are used to provide cationic nature to the membrane, facilitating anion mobility through the substrate to the receptor moieties.
+
+ChemFETs can be utilized in either liquid or gas phase to detect target analyte, requiring reversible binding of analyte with a receptor located in the gate electrode membrane. There is a wide range of applications of ChemFETs, including most notably anion or cation selective sensing. More work has been done with cation-sensing ChemFETs than anion-sensing ChemFETs. Anion-sensing is more complicated than cation-sensing in ChemFETs due to many factors, including the size, shape, geometry, polarity, and pH of the species of interest.
+
+The body of a ChemFET is generally found to be robust. However, the unavoidable requirement for a separate reference electrode makes the system more bulky overall and potentially more fragile.
+
+ChemFETs are based on a modified ISFET, a concept developed by Bergveld in the 1970s. There is some confusion as to the relationship between ChemFETs and ISFETs. Whereas an ISFET only detects ions, a ChemFET detects any chemical (including ions).
+
+
+

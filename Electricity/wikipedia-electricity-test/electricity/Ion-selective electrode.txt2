@@ -1,0 +1,19 @@
+﻿Ion-selective electrode
+
+An ion-selective electrode (ISE), also known as a specific ion electrode (SIE), is a transducer (or sensor) that converts the activity of a specific ion dissolved in a solution into an electrical potential. The voltage is theoretically dependent on the logarithm of the ionic activity, according to the Nernst equation. Ion-selective electrodes are used in analytical chemistry and biochemical/biophysical research, where measurements of ionic concentration in an aqueous solution are required.
+
+There are four main types of ion-selective membrane used in ion-selective electrodes (ISEs): glass, solid state, liquid based, and compound electrode.
+
+Glass membranes are made from an ion-exchange type of glass (silicate or chalcogenide). This type of ISE has good selectivity, but only for several single-charged cations; mainly H, Na, and Ag. Chalcogenide glass also has selectivity for double-charged metal ions, such as Pb, and Cd. The glass membrane has excellent chemical durability and can work in very aggressive media. A very common example of this type of electrode is the pH glass electrode.
+
+Crystalline membranes are made from mono- or polycrystallites of a single substance. They have good selectivity, because only ions which can introduce themselves into the crystal structure can interfere with the electrode response. This is the major difference between this type of electrodes and the glass membrane electrodes. The lack of internal solution reduces the potential junctions. Selectivity of crystalline membranes can be for both cation and anion of the membrane-forming substance. An example is the fluoride selective electrode based on LaF crystals.
+
+Ion-exchange resins are based on special organic polymer membranes which contain a specific ion-exchange substance (resin). This is the most widespread type of ion-specific electrode. Usage of specific resins allows preparation of selective electrodes for tens of different ions, both single-atom or multi-atom. They are also the most widespread electrodes with anionic selectivity. However, such electrodes have low chemical and physical durability as well as "survival time". An example is the potassium selective electrode, based on valinomycin as an ion-exchange agent.
+
+Enzyme electrodes definitely are not true ion-selective electrodes but usually are considered within the ion-specific electrode topic. Such an electrode has a "double reaction" mechanism - an enzyme reacts with a specific substance, and the product of this reaction (usually H or OH) is detected by a true ion-selective electrode, such as a pH-selective electrodes. All these reactions occur inside a special membrane which covers the true ion-selective electrode, which is why enzyme electrodes sometimes are considered as ion-selective. An example is glucose selective electrodes.
+
+Electrodes specific for each alkali metal ion, Li, Na, K, Rb and Cs have been developed.The principle on which these electrodes are based is that the alkali metal ion is encapsulated in a molecular cavity whose size is matched to the size of the ion. For example, an electrode based on Valinomycin may be used for the determination of potassium ion concentration.
+
+
+
+

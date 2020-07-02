@@ -1,0 +1,32 @@
+﻿Magnetic braking
+
+Magnetic braking is a theory explaining the loss of stellar angular momentum due to material getting captured by the stellar magnetic field and thrown out at great distance from the surface of the star. It plays an important role in the evolution of binary star systems.
+
+The currently accepted theory of the solar system's evolution states that the Solar System originates from a contracting gas cloud. As the cloud contracts, the angular momentum formula_1 must be conserved. Any small net rotation of the cloud will cause the spin to increase as the cloud collapses, forcing the material into a rotating disk. At the dense center of this disk a protostar forms, which gains heat from the gravitational energy of the collapse. As the collapse continues, the rotation rate can increase to the point where the accreting protostar can break up due to centrifugal force at the equator.
+
+Thus the rotation rate must be braked during the first 100,000 years of the star's life to avoid this scenario. One possible explanation for the braking is the interaction of the protostar's magnetic field with the stellar wind. In the case of our own Sun, when the planets' angular momenta are compared to the Sun's own, the Sun has less than 1% of its supposed angular momentum. In other words, the Sun has slowed down its spin while the planets have not.
+
+Ionized material captured by the magnetic field lines will rotate with the Sun as if it were a solid body. As material escapes from the Sun due to the solar wind, the highly ionized material will be captured by the field lines and rotate with the same angular velocity as the Sun, even though it is carried far away from the Sun's surface, until it eventually escapes. This effect of carrying mass far from the centre of the Sun and throwing it away slows down the spin of the Sun. The same effect is used in slowing the spin of a rotating satellite; here two wires spool out weights to a distance slowing the satellites spin, then the wires are cut, letting the weights escape into space and permanently robbing the spacecraft of its angular momentum.
+
+As ionized material follows the Sun's magnetic field lines, due to the effect of the field lines being frozen in the plasma, the charged particles feel a force formula_2 of the magnitude:
+where formula_4 is the charge, formula_5 is the velocity and formula_6 is the magnetic field vector. This bending action forces the particles to "corkscrew" around the magnetic field lines while held in place by a "magnetic pressure"formula_7, or "energy density", while rotating together with the Sun as a solid body:
+
+Since magnetic field strength decreases with the cube of the distance there will be a place where the kinetic gas pressure formula_9 of the ionized gas is great enough to break away from the field lines:
+
+where n is the number of particles, m is the mass of the individual particle and v is the radial velocity away from the Sun, or the speed of the solar wind.
+
+Due to the high conductivity of the stellar wind, the magnetic field outside the sun declines with radius like the mass density of the wind, i.e. decline as an inverse square law . The magnetic field is therefore given by
+
+where formula_12 is the magnetic field on the surface of the sun and formula_13 is its radius. The critical distance where the material will break away from the field lines can then be calculated as the distance where the kinetic pressure and the magnetic pressure are equal, i.e.
+
+If the solar mass loss is omni-directional then the mass loss formula_17; plugging this into the above equation and isolating the critical radius it follows that
+
+Currently it is estimated that:
+
+This leads to a critical radius formula_23. This means that the ionized plasma will rotate together with the Sun as a solid body until it reaches a distance of nearly 15 times the radius of the Sun; from there the material will break off and stop affecting the Sun.
+
+The amount of solar mass needed to be thrown out along the field lines to make the Sun completely stop rotating can then be calculated using the specific angular momentum:
+It has been suggested that the sun lost a comparable amount of material over the course of its lifetime.
+
+
+

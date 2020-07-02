@@ -1,0 +1,109 @@
+﻿Equivalence principle
+
+In the theory of general relativity, the equivalence principle is the equivalence of gravitational and inertial mass, and Albert Einstein's observation that the gravitational "force" as experienced locally while standing on a massive body (such as the Earth) is the same as the "pseudo-force" experienced by an observer in a non-inertial (accelerated) frame of reference.
+
+Something like the equivalence principle emerged in the early 17th century, when Galileo expressed experimentally that the acceleration of a test mass due to gravitation is independent of the amount of mass being accelerated.
+
+Kepler, using Galileo's discoveries, showed knowledge of the equivalence principle by accurately describing what would occur if the moon were stopped in its orbit and dropped towards Earth. This can be deduced without knowing if or in what manner gravity decreases with distance, but requires assuming the equivalency between gravity and inertia.
+
+The 1/54 ratio is Kepler's estimate of the Moon–Earth mass ratio, based on their diameters. The accuracy of his statement can be deduced by using Newton's inertia law F=ma and Galileo's gravitational observation that distance formula_1. Setting these accelerations equal for a mass is the equivalence principle. Noting the time to collision for each mass is the same gives Kepler's statement that D/D=M/M, without knowing the time to collision or how or if the acceleration force from gravity is a function of distance.
+
+Newton's gravitational theory simplified and formalized Galileo's and Kepler's ideas by recognizing Kepler's "animal force or some other equivalent" beyond gravity and inertia were not needed, deducing from Kepler's planetary laws how gravity reduces with distance.
+
+The equivalence principle was properly introduced by Albert Einstein in 1907, when he observed that the acceleration of bodies towards the center of the Earth at a rate of 1""g"" ("g" = 9.81 m/s being a standard reference of gravitational acceleration at the Earth's surface) is equivalent to the acceleration of an inertially moving body that would be observed on a rocket in free space being accelerated at a rate of 1"g". Einstein stated it thus:
+
+That is, being on the surface of the Earth is equivalent to being inside a spaceship (far from any sources of gravity) that is being accelerated by its engines. The direction or vector of acceleration equivalence on the surface of the earth is "up" or directly opposite the center of the planet while the vector of acceleration in a spaceship is directly opposite from the mass ejected by its thrusters. From this principle, Einstein deduced that free-fall is inertial motion. Objects in free-fall do not experience being accelerated downward (e.g. toward the earth or other massive body) but rather weightlessness and no acceleration. In an inertial frame of reference bodies (and photons, or light) obey Newton's first law, moving at constant velocity in straight lines. Analogously, in a curved spacetime the world line of an inertial particle or pulse of light is "as straight as possible" (in space "and" time). Such a world line is called a geodesic and from the point of view of the inertial frame is a straight line. This is why an accelerometer in free-fall doesn't register any acceleration; there isn't any.
+
+As an example: an inertial body moving along a geodesic through space can be trapped into an orbit around a large gravitational mass without ever experiencing acceleration. This is possible because spacetime is radically curved in close vicinity to a large gravitational mass. In such a situation the geodesic lines bend inward around the center of the mass and a free-floating (weightless) inertial body will simply follow those curved geodesics into an elliptical orbit. An accelerometer on-board would never record any acceleration.
+
+By contrast, in Newtonian mechanics, gravity is assumed to be a force. This force draws objects having mass towards the center of any massive body. At the Earth's surface, the force of gravity is counteracted by the mechanical (physical) resistance of the Earth's surface. So in Newtonian physics, a person at rest on the surface of a (non-rotating) massive object is in an inertial frame of reference. These considerations suggest the following corollary to the equivalence principle, which Einstein formulated precisely in 1911:
+
+Einstein also referred to two reference frames, K and K'. K is a uniform gravitational field, whereas K' has no gravitational field but is uniformly accelerated such that objects in the two frames experience identical forces:
+
+This observation was the start of a process that culminated in general relativity. Einstein suggested that it should be elevated to the status of a general principle, which he called the "principle of equivalence" when constructing his theory of relativity:
+
+Einstein combined (postulated) the equivalence principle with special relativity to predict that clocks run at different rates in a gravitational potential, and light rays bend in a gravitational field, even before he developed the concept of curved spacetime.
+
+So the original equivalence principle, as described by Einstein, concluded that free-fall and inertial motion were physically equivalent. This form of the equivalence principle can be stated as follows. An observer in a windowless room cannot distinguish between being on the surface of the Earth, and being in a spaceship in deep space accelerating at 1g. This is not strictly true, because massive bodies give rise to tidal effects (caused by variations in the strength and direction of the gravitational field) which are absent from an accelerating spaceship in deep space. The room, therefore, should be small enough that tidal effects can be neglected.
+
+Although the equivalence principle guided the development of general relativity, it is not a founding principle of relativity but rather a simple consequence of the "geometrical" nature of the theory. In general relativity, objects in free-fall follow geodesics of spacetime, and what we perceive as the force of gravity is instead a result of our being unable to follow those geodesics of spacetime, because the mechanical resistance of matter prevents us from doing so.
+
+Since Einstein developed general relativity, there was a need to develop a framework to test the theory against other possible theories of gravity compatible with special relativity. This was developed by Robert Dicke as part of his program to test general relativity. Two new principles were suggested, the so-called Einstein equivalence principle and the strong equivalence principle, each of which assumes the weak equivalence principle as a starting point. They only differ in whether or not they apply to gravitational experiments.
+
+Another clarification needed is that the equivalence principle assumes a constant acceleration of 1g without considering the mechanics of generating 1g. If we do consider the mechanics of it, then we must assume the aforementioned windowless room has a fixed mass. Accelerating it at 1g means there is a constant force being applied, which = m*g where m is the mass of the windowless room along with its contents (including the observer). Now, if the observer jumps inside the room, an object lying freely on the floor will decrease in weight momentarily because the acceleration is going to decrease momentarily due to the observer pushing back against the floor in order to jump. The object will then gain weight while the observer is in the air and the resulting decreased mass of the windowless room allows greater acceleration; it will lose weight again when the observer lands and pushes once more against the floor; and it will finally return to its initial weight afterwards. To make all these effects equal those we would measure on a planet producing 1g, the windowless room must be assumed to have the same mass as that planet. Additionally, the windowless room must not cause its own gravity, otherwise the scenario changes even further. These are technicalities, clearly, but practical ones if we wish the experiment to demonstrate more or less precisely the equivalence of 1g gravity and 1g acceleration.
+
+Three forms of the equivalence principle are in current use: weak (Galilean), Einsteinian, and strong.
+
+The weak equivalence principle, also known as the universality of free fall or the Galilean equivalence principle can be stated in many ways. The strong EP includes (astronomic) bodies with gravitational binding energy (e.g., 1.74 solar-mass pulsar PSR J1903+0327, 15.3% of whose separated mass is absent as gravitational binding energy). The weak EP assumes falling bodies are bound by non-gravitational forces only. Either way:
+
+Locality eliminates measurable tidal forces originating from a radial divergent gravitational field (e.g., the Earth) upon finite sized physical bodies. The "falling" equivalence principle embraces Galileo's, Newton's, and Einstein's conceptualization. The equivalence principle does not deny the existence of measurable effects caused by a "rotating" gravitating mass (frame dragging), or bear on the measurements of light deflection and gravitational time delay made by non-local observers.
+
+By definition of active and passive gravitational mass, the force on formula_2 due to the gravitational field of formula_3 is:
+
+Likewise the force on a second object of arbitrary mass due to the gravitational field of mass is:
+
+By definition of inertial mass:
+
+If formula_7 and formula_8 are the same distance formula_9 from formula_10 then, by the weak equivalence principle, they fall at the same rate (i.e. their accelerations are the same)
+
+Hence:
+
+Therefore:
+
+In other words, passive gravitational mass must be proportional to inertial mass for all objects.
+
+Furthermore, by Newton's third law of motion:
+
+must be equal and opposite to
+
+It follows that:
+
+In other words, passive gravitational mass must be proportional to active gravitational mass for all objects.
+
+The dimensionless Eötvös-parameter formula_17 is the difference of the ratios of gravitational and inertial masses divided by their average for the two sets of test masses "A" and "B."
+
+Tests of the weak equivalence principle are those that verify the equivalence of gravitational mass and inertial mass. An obvious test is dropping different objects, ideally in a vacuum environment, e.g., inside the Fallturm Bremen drop tower.
+
+See:
+
+Experiments are still being performed at the University of Washington which have placed limits on the differential acceleration of objects towards the Earth, the Sun and towards dark matter in the galactic center. Future satellite experiments – STEP (Satellite Test of the Equivalence Principle), Galileo Galilei, and MICROSCOPE (MICROSatellite à traînée Compensée pour l'Observation du Principe d'Équivalence) – will test the weak equivalence principle in space, to much higher accuracy.
+
+With the first successful production of antimatter, in particular anti-hydrogen, a new approach to test the weak equivalence principle has been proposed. Experiments to compare the gravitational behavior of matter and antimatter are currently being developed.
+
+Proposals that may lead to a quantum theory of gravity such as string theory and loop quantum gravity predict violations of the weak equivalence principle because they contain many light scalar fields with long Compton wavelengths, which should generate fifth forces and variation of the fundamental constants. Heuristic arguments suggest that the magnitude of these equivalence principle violations could be in the 10 to 10 range. Currently envisioned tests of the weak equivalence principle are approaching a degree of sensitivity such that "non-discovery" of a violation would be just as profound a result as discovery of a violation. Non-discovery of equivalence principle violation in this range would suggest that gravity is so fundamentally different from other forces as to require a major reevaluation of current attempts to unify gravity with the other forces of nature. A positive detection, on the other hand, would provide a major guidepost towards unification.
+
+What is now called the "Einstein equivalence principle" states that the weak equivalence principle holds, and that:
+Here "local" has a very special meaning: not only must the experiment not look outside the laboratory, but it must also be small compared to variations in the gravitational field, tidal forces, so that the entire laboratory is freely falling. It also implies the absence of interactions with "external" fields "other than the gravitational field".
+
+The principle of relativity implies that the outcome of local experiments must be independent of the velocity of the apparatus, so the most important consequence of this principle is the Copernican idea that dimensionless physical values such as the fine-structure constant and electron-to-proton mass ratio must not depend on where in space or time we measure them. Many physicists believe that any Lorentz invariant theory that satisfies the weak equivalence principle also satisfies the Einstein equivalence principle.
+
+"Schiff's conjecture" suggests that the weak equivalence principle implies the Einstein equivalence principle, but it has not been proven. Nonetheless, the two principles are tested with very different kinds of experiments. The Einstein equivalence principle has been criticized as imprecise, because there is no universally accepted way to distinguish gravitational from non-gravitational experiments (see for instance Hadley and Durand).
+
+In addition to the tests of the weak equivalence principle, the Einstein equivalence principle can be tested by searching for variation of dimensionless constants and mass ratios. The present best limits on the variation of the fundamental constants have mainly been set by studying the naturally occurring Oklo natural nuclear fission reactor, where nuclear reactions similar to ones we observe today have been shown to have occurred underground approximately two billion years ago. These reactions are extremely sensitive to the values of the fundamental constants.
+
+There have been a number of controversial attempts to constrain the variation of the strong interaction constant. There have been several suggestions that "constants" do vary on cosmological scales. The best known is the reported detection of variation (at the 10 level) of the fine-structure constant from measurements of distant quasars, see Webb et al. Other researchers dispute these findings. Other tests of the Einstein equivalence principle are gravitational redshift experiments, such as the Pound–Rebka experiment which test the position independence of experiments.
+
+The strong equivalence principle suggests the laws of gravitation are independent of velocity and location. In particular,
+and
+The first part is a version of the weak equivalence principle that applies to objects that exert a gravitational force on themselves, such as stars, planets, black holes or Cavendish experiments. The second part is the Einstein equivalence principle (with the same definition of "local"), restated to allow gravitational experiments and self-gravitating bodies. The freely-falling object or laboratory, however, must still be small, so that tidal forces may be neglected (hence "local experiment").
+
+This is the only form of the equivalence principle that applies to self-gravitating objects (such as stars), which have substantial internal gravitational interactions. It requires that the gravitational constant be the same everywhere in the universe and is incompatible with a fifth force. It is much more restrictive than the Einstein equivalence principle.
+
+The strong equivalence principle suggests that gravity is entirely geometrical by nature (that is, the metric alone determines the effect of gravity) and does not have any extra fields associated with it. If an observer measures a patch of space to be flat, then the strong equivalence principle suggests that it is absolutely equivalent to any other patch of flat space elsewhere in the universe. Einstein's theory of general relativity (including the cosmological constant) is thought to be the only theory of gravity that satisfies the strong equivalence principle. A number of alternative theories, such as Brans–Dicke theory, satisfy only the Einstein equivalence principle.
+
+The strong equivalence principle can be tested by searching for a variation of Newton's gravitational constant "G" over the life of the universe, or equivalently, variation in the masses of the fundamental particles. A number of independent constraints, from orbits in the solar system and studies of Big Bang nucleosynthesis have shown that "G" cannot have varied by more than 10%.
+
+Thus, the strong equivalence principle can be tested by searching for fifth forces (deviations from the gravitational force-law predicted by general relativity). These experiments typically look for failures of the inverse-square law (specifically Yukawa forces or failures of Birkhoff's theorem) behavior of gravity in the laboratory. The most accurate tests over short distances have been performed by the Eöt–Wash group. A future satellite experiment, SEE (Satellite Energy Exchange), will search for fifth forces in space and should be able to further constrain violations of the strong equivalence principle. Other limits, looking for much longer-range forces, have been placed by searching for the Nordtvedt effect, a "polarization" of solar system orbits that would be caused by gravitational self-energy accelerating at a different rate from normal matter. This effect has been sensitively tested by the Lunar Laser Ranging Experiment. Other tests include studying the deflection of radiation from distant radio sources by the sun, which can be accurately measured by very long baseline interferometry. Another sensitive test comes from measurements of the frequency shift of signals to and from the Cassini spacecraft. Together, these measurements have put tight limits on Brans–Dicke theory and other alternative theories of gravity.
+
+In 2014, astronomers discovered a stellar triple system including a millisecond pulsar PSR J0337+1715 and two white dwarfs orbiting it. The system provided them a chance to test the strong equivalence principle in a strong gravitational field with high accuracy.
+
+One challenge to the equivalence principle is the Brans–Dicke theory. Self-creation cosmology is a modification of the Brans–Dicke theory. The Fredkin Finite Nature Hypothesis is an even more radical challenge to the equivalence principle and has even fewer supporters.
+
+In August 2010, researchers from the University of New South Wales, Swinburne University of Technology, and Cambridge University published a paper titled "Evidence for spatial variation of the fine structure constant", whose tentative conclusion is that, "qualitatively, [the] results suggest a violation of the Einstein Equivalence Principle, and could infer a very large or infinite universe, within which our 'local' Hubble volume represents a tiny fraction."
+
+Dutch physicist and string theorist Erik Verlinde has generated a self-contained, logical derivation of the equivalence principle based on the starting assumption of a holographic universe. Given this situation, gravity would not be a true fundamental force as is currently thought but instead an "emergent property" related to entropy. Verlinde's entropic gravity theory apparently leads naturally to the correct observed strength of dark energy; previous failures to explain its incredibly small magnitude have been called by such people as cosmologist Michael Turner (who is credited as having coined the term "dark energy") as "the greatest embarrassment in the history of theoretical physics". These ideas are far from settled and still very controversial.
+
+
+
+
+

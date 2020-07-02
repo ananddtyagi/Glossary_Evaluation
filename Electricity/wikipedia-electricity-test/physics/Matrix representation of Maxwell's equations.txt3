@@ -1,0 +1,76 @@
+﻿Matrix representation of Maxwell's equations
+
+In electromagnetism, a branch of fundamental physics, the matrix representations of the Maxwell's equations are a formulation of Maxwell's equations using matrices, complex numbers, and vector calculus. These representations are for a homogeneous medium, an approximation in an inhomogeneous medium. A matrix representation for an inhomogeneous medium was presented using a pair of matrix equations. A single equation using 4 × 4 matrices is necessary and sufficient for any homogeneous medium. For an inhomogeneous medium it necessarily requires 8 × 8 matrices.
+
+Maxwell's equations in the standard vector calculus formalism, in an inhomogeneous medium with sources, are:
+
+The media is assumed to be linear, that is
+
+where ε = ε(r, "t") is the permittivity of the medium and μ = μ(r, "t") the permeability of the medium (see constitutive equation). For a homogeneous medium ε and μ are constants.
+The speed of light in the medium is given by
+
+In vacuum, ε = 8.85 × 10 C·N·m and μ = 4π × 10 H·m
+
+One possible way to obtain the required matrix representation is
+to use the Riemann-Silberstein vector given by
+
+If for a certain medium ε = ε(r, "t") and μ = μ(r, "t") are constants (or can be treated as "local" constants under certain approximations), then the vectors F (r, "t") satisfy
+
+Thus by using the Riemann-Silberstein vector, it is possible to reexpress the Maxwell's equations for a
+medium with constant ε = ε(r, "t") and μ = μ(r, "t") as a
+pair of equations.
+
+In order to obtain a single matrix equation instead of a pair, the following new functions
+are constructed using the components of the Riemann-Silberstein vector
+
+The vectors for the sources are
+
+Then,
+
+where * denotes complex conjugation and the triplet, M = ("M", "M", "M") is expressed in terms of
+
+Alternately, one may use the matrix "J" = −Ω. Both differ by a sign. For our purpose it is fine to use either Ω or "J". However, they have a different meaning: "J" is contravariant
+and Ω is covariant. The matrix Ω corresponds to the Lagrange brackets of classical mechanics and "J" corresponds to the Poisson brackets. An important relation is Ω = "J". The "M"-matrices are
+
+Each of the four Maxwell's equations are obtained from the
+matrix representation. This is done by taking
+the sums and differences of row-I with row-IV and row-II with row-III
+respectively. The first three give the "y", "x" and "z" components
+of the curl and the last one gives the divergence conditions.
+
+It is to be noted that the matrices M are all non-singular and all are Hermitian. Moreover, they satisfy the usual algebra of the Dirac matrices, including,
+
+It is to be noted that the (Ψ, M) are "not" unique. Different choices of Ψ would give rise to different M, such that the triplet M continues to satisfy the algebra of the Dirac matrices. The Ψ "via" the Riemann-Silberstein vector has certain advantages over the other possible choices. The Riemann-Silberstein vector is well known in classical electrodynamics and has certain interesting properties and uses.
+
+In deriving the above 4 × 4 matrix representation of the Maxwell's equations, the spatial and temporal derivatives of ε(r, "t") and μ(r, "t") in the first two of the Maxwell's equations have been ignored. The ε and μ have been treated as "local" constants.
+
+In an inhomogeneous medium, the spatial and temporal variations of ε = ε(r, "t") and μ = μ(r, "t") are not zero. 
+That is they are no longer "local" constant. Instead of using ε = ε(r, "t") and μ = μ(r, "t"), it is advantageous to use the two derived "laboratory functions" namely the resistance function and the velocity function
+
+In terms of these functions:
+These functions occur in the matrix representation through their logarithmic derivatives;
+
+where
+
+is the refractive index of the medium.
+
+The following matrices naturally arise in the exact matrix representation of the Maxwell's equation in a medium
+
+where Σ are the Dirac spin matrices and α are the matrices used in the Dirac equation, and σ is the triplet of the Pauli matrices
+
+Finally, the matrix representation is
+
+The above representation contains thirteen 8 × 8 matrices. Ten of these are Hermitian. The exceptional ones are the ones that contain the three components of w(r, "t"), the logarithmic gradient of the resistance function. These three matrices, for the resistance function are antihermitian.
+
+The Maxwell's equations have been expressed in a matrix form for a medium with varying permittivity ε = ε(r, "t") and permeability μ = μ(r, "t"), in presence of sources. This representation uses a single matrix equation, instead of a "pair" of matrix equations. In this representation, using 8 × 8 matrices, it has been possible to separate the dependence of the coupling between the upper components (Ψ) and the lower components (Ψ) through the two laboratory functions. Moreover, the exact matrix representation has an algebraic structure very similar to the Dirac equation. Maxwell's equations can be derived from the Fermat's principle of geometrical optics by the process of "wavization" analogous to the quantization of classical mechanics.
+
+One of the early uses of the matrix forms of the Maxwell's equations was to study certain symmetries, and the similarities with the Dirac equation.
+
+The matrix form of the Maxwell's equations is used as a candidate for the Photon Wavefunction.
+
+Historically, the geometrical optics is based on the Fermat's principle of least time. Geometrical optics can be completely derived from the Maxwell's equations. This is traditionally done using the Helmholtz equation. It is to be noted that the derivation of the Helmholtz equation from the Maxwell's equations is an approximation as one neglects the spatial and temporal derivatives of the permittivity and permeability of the medium. A new formalism of light beam optics has been developed, starting with the Maxwell's equations in a matrix form: a single entity containing all the four Maxwell's equations.
+Such a prescription is sure to provide a deeper understanding of beam-optics and polarization in a unified manner.
+The beam-optical Hamiltonian derived from this matrix representation has an algebraic structure very similar to the Dirac equation, making it amenable to the Foldy-Wouthuysen technique. This approach is very similar to one developed for the quantum theory of charged-particle beam optics.
+
+
+

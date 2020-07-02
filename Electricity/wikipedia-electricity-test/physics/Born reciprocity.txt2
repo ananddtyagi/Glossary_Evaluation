@@ -1,0 +1,19 @@
+﻿Born reciprocity
+
+In physics, Born reciprocity, also called reciprocal relativity or Born–Green reciprocity, is a principle set up by theoretical physicist Max Born that calls for a duality-symmetry among space and momentum. Born and his co-workers expanded his principle to a framework that is also known as reciprocity theory.
+
+Born noticed a symmetry among configuration space and momentum space representations of a free particle, in that its wave function description is invariant to a change of variables "x" → "p" and "p" → −"x". (It can also be worded such as to include scale factors, e.g. invariance to "x" → "ap" and "p" → −"bx" where "a", "b" are constants.) Born hypothesized that such symmetry should apply to the four-vectors of special relativity, that is, to the four-vector space coordinates
+
+and the four-vector momentum (four-momentum) coordinates
+Both in classical and in quantum mechanics, the Born reciprocity conjecture postulates that the transformation "x" → "p" and "p" → −"x" leaves invariant the Hamilton equations:
+
+From his reciprocity approach, Max Born conjectured the invariance of a space-time-momentum-energy line element. Born and H.S. Green similarly introduced the notion an invariant (quantum) metric operator formula_5 as extension of the Minkowski metric of special relativity to an invariant metric on phase space coordinates. The metric is invariant under the group of quaplectic transformations.
+
+Such a reciprocity as called for by Born can be observed in much, but not all, of the formalism of classical and quantum physics. Born's reciprocity theory was not developed much further for reason of difficulties in the mathematical foundations of the theory.
+
+However Born's idea of a quantum metric operator was later taken up by Hideki Yukawa when developing his nonlocal quantum theory in the 1950s. In 1981, Eduardo R. Caianiello proposed a "maximal acceleration", similarly as there is a minimal length at Planck scale, and this concept of maximal acceleration has been expanded upon by others. It has also been suggested that Born reciprocity may be the underlying physical reason for the T-duality symmetry in string theory, and that Born reciprocity may be of relevance to developing a quantum geometry.
+
+Born chose the term "reciprocity" for the reason that in a crystal lattice, the motion of a particle can be described in "p"-space by means of the reciprocal lattice.
+
+
+

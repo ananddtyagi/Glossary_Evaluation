@@ -1,0 +1,49 @@
+﻿Perturbation theory
+
+Perturbation theory comprises mathematical methods for finding an approximate solution to a problem, by starting from the exact solution of a related, simpler problem. A critical feature of the technique is a middle step that breaks the problem into "solvable" and "perturbation" parts. Perturbation theory is applicable if the problem at hand cannot be solved exactly, but can be formulated by adding a "small" term to the mathematical description of the exactly solvable problem.
+
+Perturbation theory leads to an expression for the desired solution in terms of a formal power series in some "small" parameter – known as a perturbation series – that quantifies the deviation from the exactly solvable problem. The leading term in this power series is the solution of the exactly solvable problem, while further terms describe the deviation in the solution, due to the deviation from the initial problem. Formally, we have for the approximation to the full solution , a series in the small parameter (here called ), like the following:
+
+In this example, would be the known solution to the exactly solvable initial problem and represent the higher-order terms which may be found iteratively by some systematic procedure. For small these higher-order terms in the series become successively smaller.
+
+An approximate "perturbation solution" is obtained by truncating the series, usually by keeping only the first two terms, the initial solution and the "first-order" perturbation correction
+
+Perturbation theory is closely related to methods used in numerical analysis. The earliest use of what would now be called "perturbation theory" was to deal with the otherwise unsolvable mathematical problems of celestial mechanics: for example the orbit of the Moon, which moves noticeably differently from a simple Keplerian ellipse because of the competing gravitation of the Earth and the Sun.
+
+Perturbation methods start with a simplified form of the original problem, which is "simple enough" to be solved exactly. In celestial mechanics, this is usually a Keplerian ellipse. Under non-relativistic gravity, an ellipse is exactly correct when there are only two gravitating bodies (say, the Earth and the Moon) but not quite correct when there are three or more objects (say, the Earth, Moon, Sun, and the rest of the solar system) and not quite correct when the gravitational interaction is stated using formulations from General relativity.
+
+The solved, but simplified problem is then "perturbed" to make the conditions that the perturbed solution actually satisfies closer to the formula in the original problem, such as including the gravitational attraction of a third body (the Sun). Typically, the "conditions" that represent reality are a formula (or several) that specifically express some physical law, like Newton's second law, the force-acceleration equation,
+
+In the case of the example, the force is calculated based on the number of gravitationally relevant bodies; the acceleration is obtained, using calculus, from the path of the Moon in its orbit. Both of these come in two forms: approximate values for force and acceleration, which result from simplifications, and hypothetical exact values for force and acceleration, which would require the complete answer to calculate.
+
+The slight changes that result from accommodating the perturbation, which themselves may have been simplified yet again, are used as corrections to the approximate solution. Because of simplifications introduced along every step of the way, the corrections are never perfect, and the conditions met by the corrected solution do not perfectly match the equation demanded by reality. However, even only one cycle of corrections often provides an excellent approximate answer to what the real solution should be.
+
+There is no requirement to stop at only one cycle of corrections. A partially corrected solution can be re-used as the new starting point for yet another cycle of perturbations and corrections. In principle, cycles of finding increasingly better corrections could go on indefinitely. In practice, one typically stops at one or two cycles of corrections. The usual difficulty with the method is that the corrections progressively make the new solutions very much more complicated, so each cycle is much more difficult to manage than the previous cycle of corrections. Isaac Newton is reported to have said, regarding the problem of the Moon's orbit, that "It causeth my head to ache."
+
+This general procedure is a widely used mathematical tool in advanced sciences and engineering: start with a simplified problem and gradually add corrections that make the formula that the corrected problem becomes a closer and closer match to the original formula.
+
+Examples for the "mathematical description" are: an algebraic equation, a differential equation (e.g., the equations of motion or a wave equation), a free energy (in statistical mechanics), radiative transfer, a Hamiltonian operator (in quantum mechanics).
+
+Examples for the kind of solution to be found perturbatively: the solution of the equation (e.g., the trajectory of a particle), the statistical average of some physical quantity (e.g., average magnetization), the ground state energy of a quantum mechanical problem.
+
+Examples for the exactly solvable problems to start with: linear equations, including linear equations of motion (harmonic oscillator, linear wave equation), statistical or quantum-mechanical systems of non-interacting particles (or in general, Hamiltonians or free energies containing only terms quadratic in all degrees of freedom).
+
+Examples of "perturbations" to deal with: Nonlinear contributions to the equations of motion, interactions between particles, terms of higher powers in the Hamiltonian/Free Energy.
+
+For physical problems involving interactions between particles, the terms of the perturbation series may be displayed (and manipulated) using Feynman diagrams.
+
+Perturbation theory was first devised to solve otherwise intractable problems in the calculation of the motions of planets in the solar system. For instance, Newton's law of universal gravitation explained the gravitation between two astronomical bodies, but when a third body is added, the problem was, "How does each body pull on each?" Newton's equation only allowed the mass of two bodies to be analyzed. The gradually increasing accuracy of astronomical observations led to incremental demands in the accuracy of solutions to Newton's gravitational equations, which led several notable 18th and 19th century mathematicians, such as Lagrange and Laplace, to extend and generalize the methods of perturbation theory. These well-developed perturbation methods were adopted and adapted to solve new problems arising during the development of quantum mechanics in 20th century atomic and subatomic physics. Paul Dirac developed perturbation theory in 1927 to evaluate when a particle would be emitted in radioactive elements. It was later named Fermi's golden rule.
+
+Since the planets are very remote from each other, and since their mass is small as compared to the mass of the Sun, the gravitational forces between the planets can be neglected, and the planetary motion is considered, to a first approximation, as taking place along Kepler's orbits, which are defined by the equations of the two-body problem, the two bodies being the planet and the Sun.
+
+Since astronomic data came to be known with much greater accuracy, it became necessary to consider how the motion of a planet around the Sun is affected by other planets. This was the origin of the three-body problem; thus, in studying the system Moon–Earth–Sun the mass ratio between the Moon and the Earth was chosen as the small parameter. Lagrange and Laplace were the first to advance the view that the constants which describe the motion of a planet around the Sun are "perturbed", as it were, by the motion of other planets and vary as a function of time; hence the name "perturbation theory".
+
+Perturbation theory was investigated by the classical scholars—Laplace, Poisson, Gauss—as a result of which the computations could be performed with a very high accuracy. The discovery of the planet Neptune in 1848 by Urbain Le Verrier, based on the deviations in motion of the planet Uranus (he sent the coordinates to Johann Gottfried Galle who successfully observed Neptune through his telescope), represented a triumph of perturbation theory.
+
+The standard exposition of perturbation theory is given in terms of the "order" to which the perturbation is carried out: first-order perturbation theory or second-order perturbation theory, and whether the perturbed states are degenerate, which requires singular perturbation. In the singular case extra care must be taken, and the theory is slightly more elaborate.
+
+Many of the ab initio quantum chemistry methods use perturbation theory directly or are closely related methods. Implicit perturbation theory works with the complete Hamiltonian from the very beginning and never specifies a perturbation operator as such. Møller–Plesset perturbation theory uses the difference between the Hartree–Fock Hamiltonian and the exact non-relativistic Hamiltonian as the perturbation. The zero-order energy is the sum of orbital energies. The first-order energy is the Hartree–Fock energy and electron correlation is included at second-order or higher. Calculations to second, third or fourth order are very common and the code is included in most ab initio quantum chemistry programs. A related but more accurate method is the coupled cluster method.
+
+
+
+

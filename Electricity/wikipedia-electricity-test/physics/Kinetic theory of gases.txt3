@@ -1,0 +1,228 @@
+﻿Kinetic theory of gases
+
+The kinetic theory of gases describes a gas as a large number of submicroscopic particles (atoms or molecules), all of which are in constant, rapid, random motion. The randomness arises from the particles' many collisions with each other and with the walls of the container.
+
+Kinetic theory of gases explains the macroscopic properties of gases, such as pressure, temperature, viscosity, thermal conductivity, and volume, by considering their molecular composition and motion. The theory posits that gas pressure results from particles' collisions with the walls of a container at different velocities.
+
+Kinetic molecular theory defines temperature in its own way, in contrast with the thermodynamic definition.
+
+Under an optical microscope, the molecules making up a liquid are too small to be visible. However, the jittery motion of pollen grains or dust particles in liquid are visible. Known as Brownian motion, the motion of the pollen or dust results from their collisions with the liquid's molecules.
+
+In approximately 50 BCE, the Roman philosopher Lucretius proposed that apparently static macroscopic bodies were composed on a small scale of rapidly moving atoms all bouncing off each other. This Epicurean atomistic point of view was rarely considered in the subsequent centuries, when Aristotlean ideas were dominant.
+
+In 1738 Daniel Bernoulli published "Hydrodynamica", which laid the basis for the kinetic theory of gases. In this work, Bernoulli posited the argument, still used to this day, that gases consist of great numbers of molecules moving in all directions, that their impact on a surface causes the gas pressure that we feel, and that what we experience as heat is simply the kinetic energy of their motion. 
+Bernoulli also surmised that temperature was the effect of the kinetic energy of the molecules, and thus correlated with the ideal gas law.
+
+The theory was not immediately accepted, in part because conservation of energy had not yet been established, and it was not obvious to physicists how the collisions between molecules could be perfectly elastic.
+A competing theory favored by Newton was the replussion theory, in which heat was a calorific fluid that repulsed molecules in proportion its quantity (i.e. heat) and the inverse square of the distances between molecules.
+
+Other pioneers of the kinetic theory (which were neglected by their contemporaries) were Mikhail Lomonosov (1747), Georges-Louis Le Sage (ca. 1780, published 1818), John Herapath (1816) and John James Waterston (1843), which connected their research with the development of mechanical explanations of gravitation. In 1856 August Krönig (probably after reading a paper of Waterston) created a simple gas-kinetic model, which only considered the translational motion of the particles.
+
+In 1857 Rudolf Clausius, according to his own words independently of Krönig, developed a similar, but much more sophisticated version of the theory which included translational and contrary to Krönig also rotational and vibrational molecular motions. In this same work he introduced the concept of mean free path of a particle.
+In 1871, Ludwig Boltzmann generalized Maxwell's achievement and formulated the Maxwell–Boltzmann distribution. Also the logarithmic connection between entropy and probability was first stated by him.
+
+In the beginning of the twentieth century, however, atoms were considered by many physicists to be purely hypothetical constructs, rather than real objects. An important turning point was Albert Einstein's (1905) and Marian Smoluchowski's (1906)
+papers on Brownian motion, which succeeded in making certain accurate quantitative predictions based on the kinetic theory.
+
+The theory for ideal gases makes the following assumptions:
+
+
+
+
+More modern developments relax these assumptions and are based on the Boltzmann equation. These can accurately describe the properties of dense gases, because they include the volume of the molecules. The necessary assumptions are the absence of quantum effects, molecular chaos and small gradients in bulk properties. Expansions to higher orders in the density are known as virial expansions.
+
+An important book on kinetic theory is that by Chapman and Cowling. An important approach to the subject is called Chapman–Enskog theory. There have been many modern developments and there is an alternative approach developed by Grad based on moment expansions.
+In the other limit, for extremely rarefied gases, the gradients in bulk properties are not small compared to the mean free paths. This is known as the Knudsen regime and expansions can be performed in the Knudsen number.
+
+In kinetic model of gases, the pressure is equal to the force exerted by the atoms hitting and rebounding from a unit area of the gas container surface. Consider a gas of "N" molecules, each of mass "m", enclosed in a cube of volume "V" = "L". When a gas molecule collides with the wall of the container perpendicular to the "x" axis and bounces off in the opposite direction with the same speed (an elastic collision), the change in momentum is given by:
+
+where "p" is the momentum, "i" and "f" indicate initial and final momentum (before and after collision), "x" indicates that only the "x" direction is being considered, and "v" is the speed of the particle (which is the same before and after the collision).
+
+The particle impacts one specific side wall once every
+
+where "L" is the distance between opposite walls.
+
+The force due to this particle is
+
+The total force on the wall is
+
+where the bar denotes an average over the "N" particles.
+
+Since the motion of the particles is random and there is no bias applied in any direction, the average squared speed in each direction is identical:
+
+By Pythagorean theorem in three dimensions the total squared speed "v" is given by
+
+Therefore:
+
+and the force can be written as:
+
+This force is exerted on an area "L". Therefore, the pressure of the gas is
+
+where "V" = "L" is the volume of the box.
+
+In terms of the kinetic energy of the gas "K":
+
+This is a first non-trivial result of the kinetic theory because it relates pressure, a macroscopic property, to the (translational) kinetic energy of the molecules formula_12, which is a microscopic property.
+
+Rewriting the above result for the pressure as formula_13, 
+we may combine it with the ideal gas law
+
+where formula_14 is the Boltzmann constant and formula_15 the
+absolute temperature defined by the ideal gas law, to obtain
+
+which leads to simplified expression of the average kinetic energy per molecule,
+
+The kinetic energy of the system is N times that of a molecule, namely formula_18.
+Then the temperature formula_15 takes the form
+
+which becomes
+Eq.()
+is one important result of the kinetic
+theory:
+"The average molecular kinetic energy is proportional to the ideal gas law's absolute temperature".
+From Eq.() and
+Eq.(),
+we have
+
+Thus, the product of pressure and
+volume per mole is proportional to the average
+(translational) molecular kinetic energy.
+
+Eq.() and Eq.()
+are called the "classical results",
+which could also be derived from statistical mechanics;
+for more details, see:
+
+Since there are
+formula_20
+degrees of freedom in a monatomic-gas system with
+formula_21
+particles,
+the kinetic energy per degree of freedom per molecule is
+
+In the kinetic energy per degree of freedom,
+the constant of proportionality of temperature
+is 1/2 times Boltzmann constant or R/2 per mole. In addition to this, the temperature will decrease when the pressure drops to a certain point.
+This result is related
+to the equipartition theorem.
+
+As noted in the article on heat capacity, diatomic
+gases should have 7 degrees of freedom, but the lighter diatomic gases act
+as if they have only 5. Monatomic gases have 3 degrees of freedom.
+
+Thus the kinetic energy per kelvin (monatomic ideal gas) is 3 [R/2] = 3R/2:
+
+At standard temperature (273.15 K), we get:
+
+The total number and velocity distribution of particles hitting the container wall can be calculated based on naive kinetic theory, and the result can be used for analyzing effusion into vacuum:
+
+Assume that, in the container, the number density is formula_22 and particles obey Maxwell's velocity distribution:
+
+formula_23
+
+The particles hitting a small area formula_24 on the container, with speed formula_25 at angle formula_26 from the normal, in time interval formula_27 is contained in a parallelepiped with base area formula_24 and height formula_29, hence the total number of these particle is:
+
+formula_30 
+
+Note that only the particles within the following constraint are actually heading to hit the wall:
+
+formula_31 
+
+Integrating over all appropriate velocities within the constraint yields the number of atomic or molecular collisions with a wall of a container per unit area per unit time:
+
+The last line makes use of ideal gas law. This quantity is also known as the impingement rate in vacuum physics. 
+
+The velocity distribution of particles hitting this small area is:
+
+formula_33
+
+with the constraint formula_34, and the constant can be determined by normalization condition. 
+
+In Cartesian coordinates, this is:
+
+formula_35
+
+with the constraint formula_36, and the constant can be determined by normalization condition. 
+
+From the above distribution, the average velocity of these impinging particles is:
+
+formula_37
+
+When these particles bounce off the container wall, each of them transfers a momentum of formula_38, hence the average force is:
+
+formula_39
+
+From the kinetic energy formula it can be shown that
+
+where "v" is in m/s, "T" is in kelvins, and "m" is the mass of one molecule of gas. The most probable (or mode) speed formula_43 is 81.6% of the rms speed formula_44, and the mean (arithmetic mean, or average) speed formula_45 is 92.1% of the rms speed (isotropic distribution of speeds).
+
+See: 
+
+The kinetic theory of gases deals not only with gases in thermodynamic equilibrium, but also very importantly with gases not in thermodynamic equilibrium. This means using kinetic theory to consider what are known as "transport properties", such as mass diffusivity, viscosity and thermal conductivity. 
+The diffusion constant is related to viscosity by the Einstein relation (kinetic theory).
+
+In books on elementary kinetic theory one can find results for dilute gas modeling that have widespread use. 
+The derivation of the kinetic model for shear viscosity usually starts by considering a Couette flow, where two parallel plates are separated by a gas layer. The upper plate moves with constant velocity to the right due to a force formula_46. The lower plate is stationary, and an equal and opposite force must therefore be acting on it to keep it at rest. The molecules in the gas layer have a forward velocity component formula_47 which increases uniformly with distance formula_48 above the lower plate. The non-equilibrium flow is superimposed on a Maxwell–Boltzmann equilibrium distribution of molecular motions.
+
+Let formula_49 be the collision cross section of one molecule colliding with another. The number density formula_50 is defined as the number of molecules per (extensive) volume formula_51. The collision cross section per volume or collision cross section density is formula_52, and it is related to the mean free path formula_53 by 
+
+formula_54
+
+Notice that the unit of the collision cross section per volume formula_52 is reciprocal of length. The mean free path is the average distance traveled by a molecule, or a number of molecules per volume, before they make their first collision.
+
+Let formula_56 be the forward velocity of the gas at an imaginary horizontal surface inside the gas layer. On the average, a molecule that crosses the surface makes its last collision before crossing at a distance equal to two-thirds of the mean free path (i.e. formula_57) away from the surface. At this distance above and below the surface, the forward momentum of the molecule is respectively
+
+formula_58
+
+where m is the molecular mass. The molecular flux formula_59 includes all molecules arriving at one side of an element of the surface within the gas layer. The incoming molecules are coming from all directions at the one side of the surface and with all speeds. This molecular flux (i.e. the number flux) is related to the average molecular speed formula_60 by
+
+formula_61
+
+Notice that the forward velocity gradient formula_62 can be considered to be constant over a distance of mean free path. Next we multiply by the total flux to get the change of momentum per unit time and per unit area, that is carried by the molecules crossing from either above or below the surface area. This gives the equation
+
+formula_63
+
+The net rate of momentum per unit area that is transported across the imaginary surface is thus
+
+formula_64
+
+The defining equation for the (shear) viscosity formula_65 of the gas is
+
+formula_66
+
+Combining the above kinetic equation with defining equation for (shear) viscosity by formula_67 gives the equation for shear viscosity, which is usually denoted formula_68 when it is a dilute gas:
+
+formula_69
+
+Combining this equation with the equation for mean free path gives
+
+formula_70
+
+From statistical thermodynamics for gases we have equations relating average molecular speed to most likely speed and further to temperature. These statistical results gives the average (equilibrium) molecular speed as
+
+formula_71
+
+where formula_72 is the most probable speed, formula_73 is the Boltzmann constant. We note that
+
+formula_74
+
+and insert the velocity in the viscosity equation above. This gives the well known equation for shear viscosity for dilute gases:
+
+formula_75
+
+and formula_76 is the molar mass. The equation above presupposes that the gas density is low (i.e. the pressure is low). This implies that the kinetic translational energy dominates over rotational and vibrational molecule energies. The viscosity equation further presupposes that there is only one type of gas molecules, and that the gas molecules are perfect elastic and hard core particles of spherical shape. This assumption of elastic, hard core spherical molecules, like billiard balls, implies that the collision cross section of one molecule can be estimated by
+
+formula_77
+
+The radius formula_78 is called collision cross section radius or kinetic radius, and the diameter formula_79 is called collision cross section diameter or kinetic diameter of a molecule in a monomolecular gas. There are no simple general relation between the collision cross section and the hard core size of the (fairly spherical) molecule. The relation depends on shape of the potential energy of the molecule. For a real spherical molecule (i.e. a noble gas atom or a reasonably spherical molecule) the interaction potential is more like the Lennard-Jones potential or Morse potential which have a negative part that attracts the other molecule from distances longer than the hard core radius. The radius for zero Lennard-Jones potential is then appropriate to use as estimate for the kinetic radius.
+
+Local nomenclature list:
+
+
+
+
+
+
+
+
+

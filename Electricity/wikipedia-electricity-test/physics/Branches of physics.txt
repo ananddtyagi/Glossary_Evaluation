@@ -1,0 +1,44 @@
+﻿Branches of physics
+
+<hr>
+Physics deals with the combination of matter and energy. It also deals with a wide variety of systems, about which theories have been developed that are used by physicists. In general, theories are experimentally tested numerous times before they are accepted as correct as a description of Nature (within a certain domain of validity). For instance, the theory of classical mechanics accurately describes the motion of objects, provided they are much larger than atoms and moving at much less than the speed of light. These "central theories" are important tools for research in more specialized topics, and any physicist, regardless of his or her specialization, is expected to be literate in them.
+
+Classical mechanics is a model of the physics of forces acting upon bodies; includes sub-fields to describe the behaviors of solids, gases, and fluids. It is often referred to as "Newtonian mechanics" after Isaac Newton and his laws of motion. It also includes the classical approach as given by Hamiltonian and Lagrange methods. It deals with the motion of particles and general system of particles.
+
+There are many branches of classical mechanics, such as: statics, dynamics, kinematics, continuum mechanics (which includes fluid mechanics), statistical mechanics, etc.
+
+The first chapter of "The Feynman Lectures on Physics" is about the existence of atoms, which Feynman considered to be the most compact statement of physics, from which science could easily result even if all other knowledge was lost. By modeling matter as collections of hard spheres, it is possible to describe the kinetic theory of gases, upon which classical thermodynamics is based.
+
+Thermodynamics studies the effects of changes in temperature, pressure, and volume on physical systems on the macroscopic scale, and the transfer of energy as heat. Historically, thermodynamics developed out of the desire to increase the efficiency of early steam engines.
+
+The starting point for most thermodynamic considerations is the laws of thermodynamics, which postulate that energy can be exchanged between physical systems as heat or work. They also postulate the existence of a quantity named entropy, which can be defined for any system. In thermodynamics, interactions between large ensembles of objects are studied and categorized. Central to this are the concepts of system and surroundings. A system is composed of particles, whose average motions define its properties, which in turn are related to one another through equations of state. Properties can be combined to express internal energy and thermodynamic potentials, which are useful for determining conditions for equilibrium and spontaneous processes.
+
+The study of the behaviors of electrons, electric media, magnets, magnetic fields, and general interactions of light.
+
+The special theory of relativity enjoys a relationship with electromagnetism and mechanics; that is, the principle of relativity and the principle of stationary action in mechanics can be used to derive Maxwell's equations, and "vice versa".
+
+The theory of special relativity was proposed in 1905 by Albert Einstein in his article "On the Electrodynamics of Moving Bodies". The title of the article refers to the fact that special relativity resolves an inconsistency between Maxwell's equations and classical mechanics. The theory is based on two postulates: (1) that the mathematical forms of the laws of physics are invariant in all inertial systems; and (2) that the speed of light in a vacuum is constant and independent of the source or observer. Reconciling the two postulates requires a unification of space and time into the frame-dependent concept of spacetime.
+
+General relativity is the geometrical theory of gravitation published by Albert Einstein in 1915/16. It unifies special relativity, Newton's law of universal gravitation, and the insight that gravitation can be described by the curvature of space and time. In general relativity, the curvature of spacetime is produced by the energy of matter and radiation.
+
+Quantum mechanics is the branch of physics treating atomic and subatomic systems and their interaction with radiation. It is based on the observation that all forms of energy are released in discrete units or bundles called "quanta". Remarkably, quantum theory typically permits only probable or statistical calculation of the observed features of subatomic particles, understood in terms of wave functions. The Schrödinger equation plays the role in quantum mechanics that Newton's laws and conservation of energy serve in classical mechanics—i.e., it predicts the future behavior of a dynamic system—and is a wave equation that is used to solve for wavefunctions.
+
+For example, the light, or electromagnetic radiation emitted or absorbed by an atom has only certain frequencies (or wavelengths), as can be seen from the line spectrum associated with the chemical element represented by that atom. The quantum theory shows that those frequencies correspond to definite energies of the light quanta, or photons, and result from the fact that the electrons of the atom can have only certain allowed energy values, or levels; when an electron changes from one allowed level to another, a quantum of energy is emitted or absorbed whose frequency is directly proportional to the energy difference between the two levels. The photoelectric effect further confirmed the quantization of light.
+
+In 1924, Louis de Broglie proposed that not only do light waves sometimes exhibit particle-like properties, but particles may also exhibit wave-like properties. Two different formulations of quantum mechanics were presented following de Broglie's suggestion. The wave mechanics of Erwin Schrödinger (1926) involves the use of a mathematical entity, the wave function, which is related to the probability of finding a particle at a given point in space. The matrix mechanics of Werner Heisenberg (1925) makes no mention of wave functions or similar concepts but was shown to be mathematically equivalent to Schrödinger's theory. A particularly important discovery of the quantum theory is the uncertainty principle, enunciated by Heisenberg in 1927, which places an absolute theoretical limit on the accuracy of certain measurements; as a result, the assumption by earlier scientists that the physical state of a system could be measured exactly and used to predict future states had to be abandoned. Quantum mechanics was combined with the theory of relativity in the formulation of Paul Dirac. Other developments include quantum statistics, quantum electrodynamics, concerned with interactions between charged particles and electromagnetic fields; and its generalization, quantum field theory.
+String Theory
+A possible candidate for the theory of everything, this theory combines the theory of general relativity and quantum mechanics to make a single theory. This theory can predict about properties of both small and big objects. This theory is currently under developmental stage.
+
+Optics is the study of light, and the instruments created to use or detect it (i.e. telescopes, spectrometers, etc.). Atomic physics, molecular physics, and optical physics are each individual sub-fields of AMO that study the physical properties of the atom, molecules, and light, respectively.
+
+The study of the physical properties of matter in a condensed phase.
+
+Particle physics studies the nature of particles, while nuclear physics studies the atomic nuclei.
+
+Cosmology studies how the universe came to be, and its eventual fate. It is studied by physicists and astrophysicists.
+
+To the interdisciplinary fields, which define partially sciences of their own, belong e.g. the
+
+The table below lists the core theories along with many of the concepts they employ.
+
+

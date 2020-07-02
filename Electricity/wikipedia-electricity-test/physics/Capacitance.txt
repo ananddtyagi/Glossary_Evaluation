@@ -1,0 +1,111 @@
+﻿Capacitance
+
+Capacitance is the ratio of the change in an electric charge in a system to the corresponding change in its electric potential. There are two closely related notions of capacitance: "self capacitance" and "mutual capacitance". Any object that can be electrically charged exhibits "self capacitance". A material with a large self capacitance holds more electric charge at a given voltage than one with low capacitance. The notion of "mutual capacitance" is particularly important for understanding the operations of the capacitor, one of the three elementary linear electronic components (along with resistors and inductors).
+
+The capacitance is a function only of the geometry of the design (e.g. area of the plates and the distance between them) and the permittivity of the dielectric material between the plates of the capacitor. For many dielectric materials, the permittivity and thus the capacitance, is independent of the potential difference between the conductors and the total charge on them.
+
+The SI unit of capacitance is the farad (symbol: F), named after the English physicist Michael Faraday. A 1 farad capacitor, when charged with 1 coulomb of electrical charge, has a potential difference of 1 volt between its plates. The reciprocal of capacitance is called elastance.
+
+In electrical circuits, the term "capacitance" is usually a shorthand for the "mutual capacitance" between two adjacent conductors, such as the two plates of a capacitor. However, for an isolated conductor, there also exists a property called "self capacitance", which is the amount of electric charge that must be added to an isolated conductor to raise its electric potential by one unit (i.e. one volt, in most measurement systems). The reference point for this potential is a theoretical hollow conducting sphere, of infinite radius, with the conductor centered inside this sphere.
+
+Mathematically, the "self capacitance" of a conductor is defined by
+where
+
+Using this method, the self capacitance of a conducting sphere of radius "R" is:
+
+Example values of self capacitance are:
+
+The inter-winding capacitance of a coil is sometimes called self capacitance, but this is a different phenomenon. It is actually mutual capacitance between the individual turns of the coil and is a form of stray, or parasitic capacitance. This self-capacitance is an important consideration at high frequencies: It changes the impedance of the coil and gives rise to parallel resonance. In many applications this is an undesirable effect and sets an upper frequency limit for the correct operation of the circuit.
+
+A common form is a parallel-plate capacitor, which consists of two conductive plates insulated from each other, usually sandwiching a dielectric material. In a parallel plate capacitor, capacitance is very nearly proportional to the surface area of the conductor plates and inversely proportional to the separation distance between the plates.
+
+If the charges on the plates are +"q" and −"q", and "V" gives the voltage between the plates, then the capacitance "C" is given by
+
+which gives the voltage/current relationship
+
+The energy stored in a capacitor is found by integrating the work "W":
+
+The discussion above is limited to the case of two conducting plates, although of arbitrary size and shape.
+The definition
+formula_8 does not apply when there are more than two charged plates, or when the net charge on the two plates is non-zero. To handle this case, Maxwell introduced his "coefficients of potential". If three (nearly ideal) conductors are given charges formula_9, then the voltage at conductor 1 is given by
+
+and similarly for the other voltages. Hermann von Helmholtz and Sir William Thomson showed that the coefficients of potential are symmetric, so that formula_11, etc. Thus the system can be described by a collection of coefficients known as the "elastance matrix" or "reciprocal capacitance matrix", which is defined as:
+
+From this, the mutual capacitance formula_13 between two objects can be defined by solving for the total charge "Q" and using formula_14.
+
+Since no actual device holds perfectly equal and opposite charges on each of the two "plates", it is the mutual capacitance that is reported on capacitors.
+
+The collection of coefficients formula_16 is known as the "capacitance matrix", and is the inverse of the elastance matrix.
+
+The capacitance of the majority of capacitors used in electronic circuits is generally several orders of magnitude smaller than the farad. The most common subunits of capacitance in use today are the microfarad (µF), nanofarad (nF), picofarad (pF), and, in microcircuits, femtofarad (fF). However, specially made supercapacitors can be much larger (as much as hundreds of farads), and parasitic capacitive elements can be less than a femtofarad. In the past, alternate subunits were used in historical electronic books; "mfd" and "mf" for microfarad (µF); "mmfd", "mmf", "µµF" for picofarad (pF); but are rarely used any more.
+
+Capacitance can be calculated if the geometry of the conductors and the dielectric properties of the insulator between the conductors are known. A qualitative explanation for this can be given as follows.<br> Once a positive charge is put unto a conductor, this charge creates an electrical field, repelling any other positive charge to be moved onto the conductor; i.e., increasing the necessary voltage. But if nearby there is another conductor with a negative charge on it, the electrical field of the positive conductor repelling the second positive charge is weakened (the second positive charge also feels the attracting force of the negative charge). So due to the second conductor with a negative charge, it becomes easier to put a positive charge on the already positive charged first conductor, and vice versa; i.e., the necessary voltage is lowered. <br> As a quantitative example consider the capacitance of a capacitor constructed of two parallel plates both of area "A" separated by a distance "d". If "d" is sufficiently small with respect to the smallest chord of "A", there holds, to a high level of accuracy:
+where
+
+Capacitance is proportional to the area of overlap and inversely proportional to the separation between conducting sheets. The closer the sheets are to each other, the greater the capacitance.
+The equation is a good approximation if "d" is small compared to the other dimensions of the plates so that the electric field in the capacitor area is uniform, and the so-called "fringing field" around the periphery provides only a small contribution to the capacitance.
+
+Combining the equation for capacitance with the above equation for the energy stored in a capacitance, for a flat-plate capacitor the energy stored is:
+
+where "W" is the energy, in joules; "C" is the capacitance, in farads; and "V" is the voltage, in volts.
+
+Any two adjacent conductors can function as a capacitor, though the capacitance is small unless the conductors are close together for long distances or over a large area. This (often unwanted) capacitance is called parasitic or "stray capacitance". Stray capacitance can allow signals to leak between otherwise isolated circuits (an effect called crosstalk), and it can be a limiting factor for proper functioning of circuits at high frequency.
+
+Stray capacitance between the input and output in amplifier circuits can be troublesome because it can form a path for feedback, which can cause instability and parasitic oscillation in the amplifier. It is often convenient for analytical purposes to replace this capacitance with a combination of one input-to-ground capacitance and one output-to-ground capacitance; the original configuration — including the input-to-output capacitance — is often referred to as a pi-configuration. Miller's theorem can be used to effect this replacement: it states that, if the gain ratio of two nodes is 1/"K", then an impedance of "Z" connecting the two nodes can be replaced with a "Z"/(1 − "k") impedance between the first node and ground and a "KZ"/("K" − 1) impedance between the second node and ground. Since impedance varies inversely with capacitance, the internode capacitance, "C", is replaced by a capacitance of KC from input to ground and a capacitance of ("K" − 1)"C"/"K" from output to ground. When the input-to-output gain is very large, the equivalent input-to-ground impedance is very small while the output-to-ground impedance is essentially equal to the original (input-to-output) impedance.
+
+Calculating the capacitance of a system amounts to solving the Laplace equation "∇φ = 0" with a constant potential "φ" on the 2-dimensional surface of the conductors embedded in 3-space. This is simplified by symmetries. There is no solution in terms of elementary functions in more complicated cases.
+
+For plane situations analytic functions may be used to map different geometries to each other. See also Schwarz–Christoffel mapping.
+
+The energy (measured in joules) stored in a capacitor is equal to the "work" required to push the charges into the capacitor, i.e. to charge it. Consider a capacitor of capacitance "C", holding a charge +"q" on one plate and −"q" on the other. Moving a small element of charge d"q" from one plate to the other against the potential difference requires the work d"W":
+
+where "W" is the work measured in joules, "q" is the charge measured in coulombs and "C" is the capacitance, measured in farads.
+
+The energy stored in a capacitor is found by integrating this equation. Starting with an uncharged capacitance () and moving charge from one plate to the other until the plates have charge +"Q" and −"Q" requires the work "W":
+
+The capacitance of nanoscale dielectric capacitors such as quantum dots may differ from conventional formulations of larger capacitors. In particular, the electrostatic potential difference experienced by electrons in conventional capacitors is spatially well-defined and fixed by the shape and size of metallic electrodes in addition to the statistically large number of electrons present in conventional capacitors. In nanoscale capacitors, however, the electrostatic potentials experienced by electrons are determined by the number and locations of all electrons that contribute to the electronic properties of the device. In such devices, the number of electrons may be very small, however, the resulting spatial distribution of equipotential surfaces within the device are exceedingly complex.
+
+The capacitance of a connected, or "closed", single-electron device is twice the capacitance of an unconnected, or "open", single-electron device. This fact may be traced more fundamentally to the energy stored in the single-electron device whose "direct polarization" interaction energy may be equally divided into the interaction of the electron with the polarized charge on the device itself due to the presence of the electron and the amount of potential energy required to form the polarized charge on the device (the interaction of charges in the device's dielectric material with the potential due to the electron).
+
+The derivation of a "quantum capacitance" of a few-electron device involves the thermodynamic chemical potential of an "N"-particle system given by
+
+whose energy terms may be obtained as solutions of the Schrödinger equation. The definition of capacitance,
+
+with the potential difference
+
+may be applied to the device with the addition or removal of individual electrons,
+
+Then
+
+is the "quantum capacitance" of the device.
+
+This expression of "quantum capacitance" may be written as
+
+which differs from the conventional expression described in the introduction where formula_28, the stored electrostatic potential energy,
+
+by a factor of 1/2 with formula_30.
+
+However, within the framework of purely classical electrostatic interactions, the appearance of the factor of 1/2 is the result of integration in the conventional formulation,
+
+which is appropriate since formula_32 for systems involving either many electrons or metallic electrodes, but in few-electron systems, formula_33. The integral generally becomes a summation. One may trivially combine the expressions of capacitance and electrostatic interaction energy,
+
+respectively, to obtain,
+
+which is similar to the quantum capacitance. A more rigorous derivation is reported in the literature. In particular, to circumvent the mathematical challenges of the spatially complex equipotential surfaces within the device, an "average" electrostatic potential experiences by "each" electron is utilized in the derivation.
+
+The reason for apparent mathematical differences is understood more fundamentally as the potential energy, formula_37, of an isolated device (self-capacitance) is twice that stored in a "connected" device in the lower limit "N"=1. As "N" grows large, formula_38. Thus, the general expression of capacitance is
+
+In nanoscale devices such as quantum dots, the "capacitor" is often an isolated, or partially isolated, component within the device. The primary differences between nanoscale capacitors and macroscopic (conventional) capacitors are the number of excess electrons (charge carriers, or electrons, that contribute to the device's electronic behavior) and the shape and size of metallic electrodes. In nanoscale devices, nanowires consisting of metal atoms typically do not exhibit the same conductive properties as their macroscopic, or bulk material, counterparts.
+
+In electronic and semiconductor devices, transient or frequency-dependent current between terminals contains both conduction and displacement components. Conduction current is related to moving charge carriers (electrons, holes, ions, etc.), while displacement current is caused by time-varying electric field. Carrier transport is affected by electric field and by a number of physical phenomena - such as carrier drift and diffusion, trapping, injection, contact-related effects, impact ionization, etc. As a result, device admittance is frequency-dependent, and a simple electrostatic formula for capacitance formula_40 is not applicable. A more general definition of capacitance, encompassing electrostatic formula, is:
+
+where formula_42 is the device admittance, and formula_43 is the angular frequency.
+
+In general case, capacitance is a function of frequency. At high frequencies, capacitance approached a constant value, equal to "geometric" capacitance, determined by the terminals' geometry and dielectric content in the device.
+A paper by Steven Laux presents a review of numerical techniques for capacitance calculation. In particular, capacitance can be calculated by a Fourier transform of a transient current in response to a step-like voltage excitation:
+
+Usually, capacitance in semiconductor devices is positive. However, in some devices and under certain conditions (temperature, applied voltages, frequency, etc.), capacitance can become negative. Non-monotonic behavior of the transient current in response to a step-like excitation has been proposed as the mechanism of negative capacitance. Negative capacitance has been demonstrated and explored in many different types of semiconductor devices.
+
+
+
+

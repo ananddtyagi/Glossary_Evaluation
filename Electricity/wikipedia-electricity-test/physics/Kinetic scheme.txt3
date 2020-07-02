@@ -1,0 +1,18 @@
+﻿Kinetic scheme
+
+In physics, chemistry and related fields, a kinetic scheme is a network of states and connections between them representing the scheme of a dynamical process. Usually a kinetic scheme represents a Markovian process, while for non-Markovian processes generalized kinetic schemes are used. Figure 1 shows an illustration of a kinetic scheme.
+
+A kinetic scheme is a network (a directed graph) of distinct states (although repetition of states may occur and this depends on the system), where each pair of states "i" and "j" are associated with directional rates, formula_1 (and formula_2). It is described with a master equation: a first-order differential equation for the probability formula_3 of a system to occupy each one its states at time "t" (element "i" represents state "i"). Written in a matrix form, this states: formula_4, where formula_5 is the matrix of connections (rates) formula_1.
+
+In a Markovian kinetic scheme the connections are constant with respect to time (and any jumping time probability density function for state "i" is an exponential, with a rate equal the value of all the exiting connections). 
+
+When detailed balance exists in a system, the relation formula_7 holds for every connected states "i" and "j". The result represents the fact that any closed loop in a Markovian network in equilibrium does not have a net flow.
+
+Matrix formula_5 can also represent birth and death, meaning that probability is injected (birth) or taken from (death) the system, where then, the process is not in equilibrium. These terms are different than a birth-death process, where there is simply a linear kinetic scheme.
+
+
+An example for such a process is a reduced dimensions form. 
+
+
+
+

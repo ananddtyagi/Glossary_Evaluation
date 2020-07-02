@@ -1,0 +1,29 @@
+﻿Generating Availability Data System
+
+The Generating Availability Data System (GADS) is a database produced by the North American Electric Reliability Corporation (NERC). It includes annual summary reports comprising the statistics for power stations in the United States and Canada.
+
+GADS is the main source of power station outage data in North America. This reporting system, initiated by the electric utility industry in 1982, expands and extends the data collection procedures begun by the industry in 1963. NERC GADS is recognized today as a valuable source of reliability, availability, and maintainability (RAM) information.
+
+This information, collected for both total unit and major equipment groups, is used by analysts' industry-wide in numerous applications. GADS maintains complete operating histories on more than 5,800 generating units representing 71% of the installed generating capacity of the United States and Canada. GADS is a mandatory industry program for conventional generating units 50 MW and larger starting January 1, 2012 and 20 MW and larger starting January 1, 2013. GADS remains open to all non-required participants in the Regional Entities (shown in Figure I-2 of the NERC GADS DRI) and any other organization (domestic or international) that operate electric generating facilities who is willing to follow the GADS mandatory requirements as presented in the document Final GADSTF Recommendations Report dated July 20, 2011.
+
+GADS data consists of three data types:
+
+One example of such detail is that in its data pertaining to forced outages and unplanned unit failures, it makes the fine distinction between immediate, delayed, and postponed outages.
+
+An important statistic calculated from the raw GADS data is the Equivalent Forced Outage Rate (EFOR), which is the hours of unit failure (unplanned outage hours and equivalent unplanned derated hours) given as a percentage of the total hours of the availability of that unit (unplanned outage, unplanned derated, and service hours).
+
+Recently, in response to the deregulated energy markets, the Equivalent Forced Outage Rate – Demand (EFORd) has taken on greater importance:
+
+
+Industry Development of GADS
+
+Before any data element was included in GADS, an industry committee to determine its applicability to utility operation and RAM analyses scrutinized it. A series of industry meetings were held to discuss the analytical usefulness of each element and to determine if utilities could reasonably provide that data to GADS. Consequently, the only data requested in the GADS Data Reporting Instructions (DRI) meet industry-prescribed needs.
+
+The industry also realized a need to include standardized terminology in the GADS program if it were to function on an international scale. As a result, the definitions promulgated by The Institute of Electrical and Electronic Engineers' (IEEE) Standard 762, "Definitions for Reporting Electric Generating Unit Reliability, Availability and Productivity" were incorporated.
+
+Utilities started their reporting using the GADS guidelines on January 1, 1982.
+
+GADS superseded the earlier data collection procedures begun by the Edison Electric Institute (EEI), a program started in the mid-1960s. GADS contains many of the same elements previously collected by EEI in addition to the many new data items. This seeming duplication of data was done intentionally: the EEI information can be derived from GADS so analyses that include data from earlier than 1982 can be completed.
+
+
+

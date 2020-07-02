@@ -1,0 +1,12 @@
+﻿Configuration entropy
+
+In statistical mechanics, configuration entropy is the portion of a system's entropy that is related to discrete representative positions of its constituent particles. For example, it may refer to the number of ways that atoms or molecules pack together in a mixture, alloy or glass, the number of conformations of a molecule, or the number of spin configurations in a magnet. The name might suggest that it relates to all possible configurations or particle positions of a system, excluding the entropy of their velocity or momentum, but that usage rarely occurs. 
+
+If the configurations all have the same weighting, or energy, the configurational entropy is given by Boltzmann's entropy formula
+where "k" is the Boltzmann constant and "W" is the number of possible configurations. In a more general formulation, if a system can be in states "n" with probabilities "P", the configurational entropy of the system is given by
+which in the perfect disorder limit (all "P" = 1/"W") leads to Boltzmann's formula, while in the opposite limit (one configuration with probability 1), the entropy vanishes. This formulation is called the Gibbs entropy formula and is analogous to that of Shannon's information entropy.
+
+The mathematical field of combinatorics, and in particular the mathematics of combinations and permutations is highly important in the calculation of configurational entropy. In particular, this field of mathematics offers formalized approaches for calculating the number of ways of choosing or arranging discrete objects; in this case, atoms or molecules. However, it is important to note that the positions of molecules are not strictly speaking "discrete" above the quantum level. Thus a variety of approximations may be used in discretizing a system to allow for a purely combinatorial approach. Alternatively, integral methods may be used in some cases to work directly with continuous position functions, usually denoted as a configurational integral.
+
+
+

@@ -1,0 +1,82 @@
+﻿Flotation of flexible objects
+
+Flotation of flexible objects is a phenomenon in which the bending of a flexible material allows an object to displace a greater amount of fluid than if it were completely rigid. This ability to displace more fluid translates directly into an ability to support greater loads, giving the flexible structure an advantage over a similarly rigid one. Inspiration to study the effects of elasticity are taken from nature, where plants, such as black pepper and animals living at the water surface have evolved to take advantage of the load-bearing benefits elasticity imparts.
+
+In his work "On Floating Bodies", Archimedes famously stated:
+
+While this basic idea carried enormous weight and has come to form the basis of understanding why objects float, it is best applied for objects with a characteristic length scale greater than the capillary length. What Archimedes had failed to predict was the influence of surface tension and its impact at small length scales.
+
+More recent works, such as that of Keller, have extended these principles by considering the role of surface tension forces on partially submerged bodies. Keller, for instance, demonstrated analytically that the weight of water displaced by a meniscus is equal to the vertical component of the surface tension force.
+
+Nonetheless, the role of flexibility and its impact on an object's load-bearing potential is one that did receive attention until the mid-2000s and onward. In an initial study, Vella studied the load supported by a raft composed of thin, rigid strips. Specifically, he compared the case of floating individual strips to floating an aggregation of strips, wherein the aggregate structure causes portions of the meniscus (and hence, resulting surface tension force) to disappear. By extending his analysis to consider a similar system composed of thin strips of some finite bending stiffness, he found that this later case in fact was able support a greater load.
+
+A well known work in the area of surface tension aided flotation was the analysis of water strider locomotion along the surface of water. Using the idea of flexible structures, Ji et al. re-examined this problem by considering the compliance of a water strider leg. By modeling the leg as a compliant structure that deforms at the water surface (rather than pierce it), Ji was able to ascertain what added benefit this flexibility has in supporting the insect. Other studies on the water strider have examined the ways in which flexibility can affect wetting properties of the leg.
+
+Another track of research has been to investigate how exactly the interaction between liquid and a compliant object leads to the resulting deformation. In one example, such analysis has been extended to explain the difficulty in submerging hairs in a fluid. These works focus on behavior near the contact line, and consider what role non-linear effects such as slippage play.
+
+In a liquid solution, any given liquid molecule experience strong cohesive forces from neighboring molecules. While these forces are balanced in the bulk, molecules at the surface of the solution are surrounded on one side by water molecules and on the other side by gas molecules. The resulting imbalance of cohesive forces along the surface results in a net "pull" toward the bulk, giving rise to the phenomena of surface tension.
+
+When a hydrophobic object of weight formula_1 is placed on the surface of water, its weight begins deforming the water line. The hydrophobic nature of the object means that the water will attempt to minimize contact due to an unfavorable energy tradeoff associated with wetting. As a result, surface tension attempts to pull back on the water line in order to minimize contact with the hydrophobic object and retain a lowest energy state. This action by the surface to pull back on the depressed water interface is the source of a capillary force, which acts tangentially along the contact line and thereby gives rise to a component in the vertical direction. An attempt to further depress the object is resisted by this capillary force until the contact line reaches a vertical position located about two capillary lengths below the undisturbed water line. Once this occurs, the meniscus collapses and the object sinks.
+
+The more fluid a floating object is able to displace, the greater the load it is able to bear. As a result, the ultimate payoff of flexibility is in determining whether or not a bent configuration results in an increased volume of displaced water. As a flexible object bends, it penetrates further into the water and increases the total fluid displaced above it. However, this bending action necessarily forces the cross-section at the water line to decrease, narrowing the column of displaced water above the object. Thus, whether or not bending is advantageous is ultimately given by a tradeoff of these factors.
+
+The following analysis is taken largely from the work of Burton and Bush, and offers some mathematical insight into the role that flexibility plays in improving load-bearing characteristics of floating objects.
+
+Consider two plates of infinite width, thickness formula_2, and length formula_3 that are connected by a torsional spring with spring constant per unit width formula_4. Furthermore, let formula_5 be the angle between a plate and the horizontal, and formula_6 the from where the meniscus meets the plate to the horizontal. The distance from the undisturbed water line to the plate's outer edge is formula_7. The density of water is formula_8, the density of air is considered negligible, and the plate density, formula_9, shall be varied. All systems naturally assume a configuration that minimizes total energy. Thus, the goal of this analysis is to identify the configurations (i.e., values of formula_7 and formula_5) that result in a stable equilibrium for a given value of formula_9.
+
+For a total system energy of formula_13, it is natural to distinguish sub-components:
+
+formula_14 
+
+In defining formula_17, there are several associated components:
+
+formula_18 
+
+Similarly, the system potential energy, formula_23, is taken to be composed of two terms:
+formula_24 
+
+There are two ways in which the system energy can change by an incremental amount. The first is a translation of the center of mass of the plates by some distance formula_28. The second is an incremental change, formula_29 in the hinge angle. Such a change will induce a new moment.
+
+As mentioned, the system will seek the orientation that minimizes formula_30 in order to find point of stable equilibrium. Writing out these terms more explicitly:
+
+formula_31 
+
+formula_36
+
+Here, formula_37 is the equation air/water interface, formula_38 is the incremental displacement of the interface, and formula_39 is the surface tension of water.
+
+For a given value of formula_9, stable equilibrium configurations are identified as being those values of formula_7 and formula_5 that satisfy
+
+formula_43 
+
+formula_44
+
+Taken in a different light, these conditions can be seen as identifying formula_7 and formula_5 that result in zero net force and zero net torque for a given formula_9.
+
+Defining non-dimensional plate length formula_48, non-dimensional plate edge depth formula_49, and non-dimensional load formula_50, Burton and Bush derived the following analytical results:
+
+formula_51 
+formula_52 
+formula_53
+
+The equations for formula_54 and formula_5 give the configuration parameters that give the maximum value of formula_56. For further insight, it is helpful to examine various regimes of the non-dimensional plate length, formula_57.
+
+When the characteristic plate length is much smaller than the characteristic plate edge depth, the effects of gravity, surface tension, and spring energy become dominant. In this limiting case, it turns out that flexibility does not improve load-bearing capabilities of the plates; indeed, the optimal configuration is a flat plate. Since the plate length is so much smaller than the displacement from the undisturbed water line, the extra fluid displaced by bending a rigid plate is outweighed by the loss of fluid in the column above the plate.
+
+In this regime, flexibility may or may not improve load-bearing capabilities of the plates. The two characteristics lengths are of comparable dimension, so particular values for each determine whether or not additional fluid displaced through bending exceeds fluid lost through the narrowing of the column.
+
+In this regime, the benefit of flexibility is most pronounced. The characteristic plate length is significantly longer than the characteristic depth to which the plate is submerged beneath the water line. As a result, the narrowing column above the plate is negligible, which the additional displacement of water due to bending is significant.
+
+To relate this mathematical to physical systems, the above analysis can be extended to continuously deformable bodies. Generalizing the equations of the two plate system allows one to write a corresponding set of equations for the case of a continuously deformable plate. This continuously deformable plate is composed of formula_61 sub-plates, where similar force and torque equilibrium conditions described before must be satisfied for each sub-plate. Such analysis reveals that for a highly compliant 2D structure with a characteristic length much greater than the capillary length, the shape bearing the highest load is a perfect semi-circle. As stiffness increases, the semi-circle is deformed to shapes with lower curvature.
+
+This initial look at continuously deformable bodies represents an initial stab into a very complicated problem. With the groundwork laid here in this analysis, it is likely that future works will implement this general ideology in a finite element approach. Doing so will allow much closer simulation of real world phenomena and will aid in determining how effects of elasticity can aid in the design of robots, instruments, and other devices that operate along the water line.
+
+In the Brazilian rain forest, sudden rainfall can trigger flooding at a moment's notice. Given that flooding can potentially destroy a colony and drown the insects, fire ants have developed a unique adaptation to this situation. While individual fire ants are hydrophobic and flounder at the waters surface, large groups of ants can link together to form a living raft. As the queen and larvae are evacuated from the flooding colony, they sit upon this living raft, floating along the waterline until reaching some solid land.
+
+The importance of flexibility in this self-assembled ant raft is several fold. The extra weight-bearing that flexibility imparts is vital as hungry fish will swim along the underside of the raft and eat at many of the members. Furthermore, as waves travel along the water surface, the ant raft's flexibility allows it to effectively "roll" with the wave and minimize disturbances it would otherwise cause for a similar but rigid structure.
+
+Among aquatic vegetation, the lily pad is perhaps the most recognizable, commonly associated with ponds and lakes. Their flexibility allows for increased loads, enabling them to support animals, such as frogs, many times their own weight.
+
+Some aquatic flowers, such as the daisy Bellis perennis, use compliance as a survival mechanism. Such flowers have roots that extend down to the underlying soil, anchoring the flower to the surface of the water. When flooding occurs, the petals pull inward and deform the water line, shielding the genetic material in the core. Some flowers are even known to completely close up into a shell in this fashion, trapping air inside.
+
+

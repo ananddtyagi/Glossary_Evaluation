@@ -1,0 +1,27 @@
+﻿Appliance classes
+
+In the electrical appliance manufacturing industry, the following IEC protection classes are defined in IEC 61140 and used to differentiate between the protective-earth connection requirements of devices.
+
+These appliances have no protective-earth connection and feature only a single level of insulation between live parts and exposed metalwork. If permitted at all, Class 0 items are intended for use in dry areas only. A single fault could cause an electric shock or other dangerous occurrence, without triggering the automatic operation of any fuse or circuit breaker. Sales of such items have been prohibited in much of the world for safety reasons, for example in the UK by Section 8 of The Low Voltage Electrical Equipment (Safety) Regulations 1989 and New Zealand by the Electricity Act. A typical example of a Class 0 appliance is the old style of Christmas fairy lights. However, equipment of this class is common in some 110 V countries, and in much of the 220 V developing world, whether permitted officially or not. These appliances do not have their chassis connected to electrical earth. In many countries the plug of a class 0 equipment is such that it cannot be inserted to grounded outlet like Schuko. The failure of such an equipment in a location where there are grounded equipment can cause fatal shock if one touches both. Any equipment with a schuko plug will act like a Class 0 equipment when connected to an ungrounded outlet.
+
+These appliances must have their chassis connected to electrical earth (US: ground) by a separate earth conductor (coloured green/yellow in most countries, green in the US, Canada and Japan).
+The earth connection is achieved with a 3-conductor mains cable, typically ending with 3-prong AC connector which plugs into a corresponding AC outlet. The basic requirement is that no single failure can result in dangerous voltage becoming exposed so that it might cause an electric shock and that if a fault occurs the supply will be removed automatically (this is sometimes referred to as ADS = Automatic Disconnection of Supply).
+
+A fault in the appliance which causes a live conductor to contact the casing will cause a current to flow in the earth conductor. If large enough, this current will trip an over-current device (fuse or circuit breaker (CB)) and disconnect the supply. The disconnection time has to be fast enough not to allow fibrillation to start if a person is in contact with the casing at the time. This time and the current rating in turn sets a maximum earth resistance permissible. 
+To provide supplementary protection against high-impedance faults it is common to recommend a residual-current device (RCD) also known as a residual current circuit breaker (RCCB), ground fault circuit interrupter (GFCI), or residual current operated circuit-breaker with integral over-current protection (RCBO), which will cut off the supply of electricity to the appliance if the currents in the two poles of the supply are not equal and opposite.
+
+Electrical installations where the chassis is connected to earth with a separate terminal, instead of via the mains cable. In effect this provides the same automatic disconnection as Class I, for equipment that otherwise would be Class 0.
+
+A Class II or double insulated electrical appliance is one which has been designed in such a way that it does not require a safety connection to electrical earth (ground).
+
+The basic requirement is that no single failure can result in dangerous voltage becoming exposed so that it might cause an electric shock and that this is achieved without relying on an earthed metal casing. This is usually achieved at least in part by having at least two layers of insulating material between live parts and the user, or by using reinforced insulation.
+
+In Europe, a double insulated appliance must be labelled "Class II" or "double insulated" or bear the double insulation symbol: ⧈ (a square inside another square).
+
+Insulated AC/DC power supplies (such as cell-phone chargers) are typically designated as Class II, meaning that the DC output wires are isolated from the AC input. The designation "Class II" should not be confused with the designation "Class 2", as the latter is unrelated to insulation (it originates from standard UL 1310, setting limits on maximum output voltage/current/power).
+
+A Class III appliance is designed to be supplied from a separated/safety extra-low voltage (SELV) power source. The voltage from a SELV supply is low enough that under normal conditions a person can safely come into contact with it without risk of electrical shock. The extra safety features built into Class I and Class II appliances are therefore not required. For medical devices, compliance with Class III is "not" considered sufficient protection, and further more-stringent regulations apply to such equipment.
+
+
+
+

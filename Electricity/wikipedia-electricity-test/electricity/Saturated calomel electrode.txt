@@ -1,0 +1,30 @@
+﻿Saturated calomel electrode
+
+The Saturated calomel electrode (SCE) is a reference electrode based on the reaction between elemental mercury and mercury(I) chloride. It has been widely replaced by the silver chloride electrode, however the calomel electrode has a reputation of being more robust. The aqueous phase in contact with the mercury and the mercury(I) chloride (HgCl, "calomel") is a saturated solution of potassium chloride in water. The electrode is normally linked via a porous frit to the solution in which the other electrode is immersed. This porous frit is a salt bridge.
+
+In cell notation the electrode is written as:
+
+The electrode is based on the redox reactions
+The half reactions can be balanced to the following reaction
+Which can be simplified to the precipitation reaction, with the equilibrium constant of the solubility product.
+
+The Nernst equations for these half reactions are:
+
+The Nernst equation for the balanced reaction is:
+where "E" is the standard electrode potential for the reaction and "a" is the activity for the mercury cation (the activity for a liquid of 1 Molar is 1).
+
+At equilibrium, 
+This equality allows us to find the solubility product.
+
+Due to the high concentration of chloride ions, the concentration of mercury ions (<chem>[Hg2^2+]</chem>) is low. This reduces risk of mercury poisoning for users and other mercury problems.
+
+The only variable in this equation is the activity (or concentration) of the chloride anion. But since the inner solution is saturated with potassium chloride, this activity is fixed by the solubility of potassium chloride, which is: . This gives the SCE a potential of +0.248 V vs. SHE at 20 °C and +0.244 V vs. SHE at 25 °C, but slightly higher when the chloride solution is less than saturated. For example, a 3.5M KCl electrolyte solution has an increased reference potential of +0.250 V vs. SHE at 25°C while a 0.1 M solution has a +0.283 V potential at the same temperature.
+
+The SCE is used in pH measurement, cyclic voltammetry and general aqueous electrochemistry.
+
+This electrode and the silver/silver chloride reference electrode work in the same way. In both electrodes, the activity of the metal ion is fixed by the solubility of the metal salt.
+
+The calomel electrode contains mercury, which poses much greater health hazards than the silver metal used in the Ag/AgCl electrode.
+
+
+

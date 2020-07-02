@@ -1,0 +1,46 @@
+﻿Action-angle coordinates
+
+In classical mechanics, action-angle coordinates are a set of canonical coordinates useful in solving many integrable systems. The method of action-angles is useful for obtaining the frequencies of oscillatory or rotational motion without solving the equations of motion. Action-angle coordinates are chiefly used when the Hamilton–Jacobi equations are completely separable. (Hence, the Hamiltonian does not depend explicitly on time, i.e., the energy is conserved.) Action-angle variables define an invariant torus, so called because holding the action constant defines the surface of a torus, while the angle variables parameterize the coordinates on the torus.
+
+The Bohr–Sommerfeld quantization conditions, used to develop quantum mechanics before the advent of wave mechanics, state that the action must be an integral multiple of Planck's constant; similarly, Einstein's insight into EBK quantization and the difficulty of quantizing non-integrable systems was expressed in terms of the invariant tori of action-angle coordinates.
+
+Action-angle coordinates are also useful in perturbation theory of Hamiltonian mechanics, especially in determining adiabatic invariants. One of the earliest results from chaos theory, for the non-linear perturbations of dynamical systems with a small number of degrees of freedom is the KAM theorem, which states that the invariant tori are stable under small perturbations.
+
+The use of action-angle variables was central to the solution of the Toda lattice, and to the definition of Lax pairs, or more generally, the idea of the isospectral evolution of a system.
+
+Action angles result from a type-2 canonical transformation where the generating function is Hamilton's characteristic function formula_1 ("not" Hamilton's principal function formula_2). Since the original Hamiltonian does not depend on time explicitly, the new Hamiltonian formula_3 is merely the old Hamiltonian formula_4 expressed in terms of the new canonical coordinates, which we denote as formula_5 (the action angles, which are the generalized coordinates) and their new generalized momenta formula_6. We will not need to solve here for the generating function formula_7 itself; instead, we will use it merely as a vehicle for relating the new and old canonical coordinates.
+
+Rather than defining the action angles formula_5 directly, we define instead their generalized momenta, which resemble the classical action for each original generalized coordinate
+
+where the integration path is implicitly given by the constant energy function formula_10. Since the actual motion is not involved in this integration, these generalized momenta formula_11 are constants of the motion, implying that the transformed Hamiltonian formula_12 does not depend on the conjugate generalized coordinates formula_13
+
+where the formula_13 are given by the typical equation for a type-2 canonical transformation
+
+Hence, the new Hamiltonian formula_17 depends only on the new generalized momenta formula_6.
+
+The dynamics of the action angles is given by Hamilton's equations
+
+The right-hand side is a constant of the motion (since all the formula_20's are). Hence, the solution is given by
+
+where formula_22 is a constant of integration. In particular, if the original generalized coordinate undergoes an oscillation or rotation of period formula_23, the corresponding action angle formula_13 changes by formula_25.
+
+These formula_26 are the frequencies of oscillation/rotation for the original generalized coordinates formula_27. To show this, we integrate the net change in the action angle formula_13 over exactly one complete variation (i.e., oscillation or rotation) of its generalized coordinates formula_27
+
+Setting the two expressions for formula_31 equal, we obtain the desired equation
+
+The action angles formula_5 are an independent set of generalized coordinates. Thus, in the general case, each original generalized coordinate formula_34 can be expressed as a Fourier series in "all" the action angles
+
+where formula_36 is the Fourier series coefficient. In most practical cases, however, an original generalized coordinate formula_27 will be expressible as a Fourier series in only its own action angles formula_13
+
+The general procedure has three steps:
+
+
+In some cases, the frequencies of two different generalized coordinates are identical, i.e., formula_42 for formula_43. In such cases, the motion is called degenerate.
+
+Degenerate motion signals that there are additional general conserved quantities; for example, the frequencies of the Kepler problem are degenerate, corresponding to the conservation of the Laplace–Runge–Lenz vector.
+
+Degenerate motion also signals that the Hamilton–Jacobi equations are completely separable in more than one coordinate system; for example, the Kepler problem is completely separable in both spherical coordinates and parabolic coordinates.
+
+
+
+

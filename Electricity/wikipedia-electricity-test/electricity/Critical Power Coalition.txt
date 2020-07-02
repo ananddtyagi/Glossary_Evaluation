@@ -1,0 +1,14 @@
+﻿Critical Power Coalition
+
+The Critical Power Coalition (CPC) is a non-profit consortium whose member companies include Caterpillar Inc.; Cummins Power Generation; MTU Detroit Diesel Power Generation; Digital Power Group; Eaton Corporation; Eaton Corporation/ Powerware Division; EDSA; EnerSys; EYP Mission Critical Facilities; Holder Construction; Liebert/ Emerson Electric; MGE UPS Systems; Power Management Concepts; S&C Electric Company; Siemens Energy & Automation; and Square D/Schneider Electric. 
+
+The CPC's mission is to address operational, technology, and policy issues relating to on-site quality, reliability, and continuity of electric power where and when it is vital. Over the past two decades, data centers, financial institutions, hospitals, airports, telecommunications facilities. emergency response centers, manufacturing plants, have invested in hardware, systems, software, and engineering services to ensure the uninterrupted supply of high-quality, ultra-reliable power to keep critical facilities and equipment operating when grid power is either inadequate, or fails. For example, following the North American Northeast Blackout of 2003, research among data center operators showed that – of 500 companies surveyed – nearly half experienced significant financial losses, with 10% of them experiencing losses exceeding $1 million (U.S.) [1]
+
+The CPC is dedicated to addressing the continued divergence inherent in two core trends: as conventional grid power inherent limitations and vulnerabilities grow, many private sector and government operations are increasingly dependent on digital equipment that is collaterally dependent on critical-quality electricity.
+
+The CPC is the first non-profit organization for users and providers of Critical Power, with a mission to: 
+
+
+
+
+

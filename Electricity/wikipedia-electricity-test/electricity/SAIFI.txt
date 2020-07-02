@@ -1,0 +1,14 @@
+﻿SAIFI
+
+The System Average Interruption Frequency Index (SAIFI) is commonly used as a reliability indicator by electric power utilities. SAIFI is the average number of interruptions that a customer would experience, and is calculated as
+
+formula_1
+
+where formula_2 is the failure rate and formula_3 is the number of customers for location formula_4. In other words,
+
+formula_5
+
+SAIFI is measured in units of interruptions per customer. It is usually measured over the course of a year, and according to IEEE Standard 1366-1998 the median value for North American utilities is approximately 1.10 interruptions per customer.
+
+
+

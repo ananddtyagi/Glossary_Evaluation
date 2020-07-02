@@ -1,0 +1,75 @@
+﻿Mean field theory
+
+In physics and probability theory, mean-field theory (aka MFT or rarely self-consistent field theory) studies the behavior of high-dimensional random (stochastic) models by studying a simpler model that approximates the original by averaging over degrees of freedom. Such models consider many individual components that interact with each other. In MFT, the effect of all the other individuals on any given individual is approximated by a single averaged effect, thus reducing a many-body problem to a one-body problem.
+
+The main idea of MFT is to replace all interactions to any one body with an average or effective interaction, sometimes called a "molecular field". This reduces any multi-body problem into an effective one-body problem. The ease of solving MFT problems means that some insight into the behavior of the system can be obtained at a lower computational cost.
+
+MFT has since been applied to a wide range of fields outside of physics, including statistical inference, graphical models, neuroscience, artificial intelligence, epidemic models, queueing theory, computer network performance and game theory, as in the Quantal response equilibrium.
+
+The ideas first appeared in physics (statistical mechanics) in the work of Pierre Curie and Pierre Weiss to describe phase transitions. MFT has been used in the Bragg–Williams approximation, models on Bethe lattice, Landau theory, Pierre–Weiss approximation, Flory–Huggins solution theory, and Scheutjens–Fleer theory.
+
+Systems with many (sometimes infinite) degrees of freedom are generally hard to solve exactly or compute in closed, analytic form, except for some simple cases (e.g. certain Gaussian random field theories, the 1D Ising model). Often combinatorial problems arise that make things like computing the partition function of a system difficult. MFT is an approximation method that often makes the original solvable and open to calculation. Sometimes, MFT gives very accurate approximations.
+
+In field theory, the Hamiltonian may be expanded in terms of the magnitude of fluctuations around the mean of the field. In this context, MFT can be viewed as the "zeroth-order" expansion of the Hamiltonian in fluctuations. Physically, this means an MFT system has no fluctuations, but this coincides with the idea that one is replacing all interactions with a "mean field."
+
+Quite often, MFT provides a convenient launch-point to studying higher order fluctuations. For example, when computing the partition function, studying the combinatorics of the interaction terms in the Hamiltonian can sometimes at best produce perturbative results or Feynman diagrams that correct the mean field approximation.
+
+In general, dimensionality plays a strong role in determining whether a mean-field approach will work for any particular problem. There is sometimes a critical dimension above which MFT is valid and below which not so much. 
+
+Heuristically in MFT, many interactions are replaced by one effective interaction. So if the field or particle exhibits many random interactions in the original system, they tend to cancel each other out so the mean effective interaction and MFT will be more accurate. This is true in cases of high dimensionality, when the Hamiltonian includes long-range forces, or when the particles are extended (e.g. polymers). The Ginzburg criterion is the formal expression of how fluctuations render MFT a poor approximation, often depending upon the number of spatial dimensions in the system of interest.
+
+The formal basis for mean field theory is the Bogoliubov inequality. This inequality states that the free energy of a system with Hamiltonian
+
+has the following upper bound:
+
+where formula_3 is the entropy and formula_4 and formula_5 are Helmholtz free energies. The average is taken over the equilibrium ensemble of the reference system with Hamiltonian formula_6. In the special case that the reference Hamiltonian is that of a non-interacting system and can thus be written as
+
+where formula_8 is shorthand for the degrees of freedom of the individual components of our statistical system (atoms, spins and so forth), one can consider sharpening the upper bound by minimizing the right hand side of the inequality. The minimizing reference system is then the "best" approximation to the true system using non-correlated degrees of freedom, and is known as the mean field approximation.
+
+For the most common case that the target Hamiltonian contains only pairwise interactions, "i.e.,"
+
+where formula_10 is the set of pairs that interact, the minimizing procedure can be carried out formally. Define formula_11 as the generalized sum of the observable formula_12 over the degrees of freedom of the single component (sum for discrete variables, integrals for continuous ones). The approximating free energy is given by
+
+where formula_14 is the probability to find the reference system in the state specified by the variables formula_15. This probability is given by the normalized Boltzmann factor
+
+where formula_17 is the partition function. Thus
+
+In order to minimize we take the derivative with respect to the single degree-of-freedom probabilities formula_19 using a Lagrange multiplier to ensure proper normalization. The end result is the set of self-consistency equations
+
+where the mean field is given by
+
+Mean field theory can be applied to a number of physical systems so as to study phenomena such as phase transitions.
+
+Consider the Ising model on a formula_22-dimensional lattice. The Hamiltonian is given by
+where the formula_24 indicates summation over the pair of nearest neighbors formula_25, and formula_26
+and formula_27 are neighboring Ising spins.
+
+Let us transform our spin variable by introducing the fluctuation from its mean value formula_28. We may rewrite the Hamiltonian:
+
+where we define formula_30; this is the "fluctuation" of the spin.
+
+If we expand the right hand side, we obtain one term that is entirely dependent on the mean values of the spins, and independent of the spin configurations. This is the trivial term, which does not affect the statistical properties of the system. The next term is the one involving the product of the mean value of the spin and the fluctuation value. Finally, the last term involves a product of two fluctuation values.
+
+The mean-field approximation consists of neglecting this second order fluctuation term. These fluctuations are enhanced at low dimensions, making MFT a better approximation for high dimensions.
+
+Again, the summand can be reexpanded. In addition, we expect that the mean value of each spin is site-independent, since the Ising chain is translationally invariant. This yields
+
+The summation over neighboring spins can be rewritten as formula_33 where formula_34 means 'nearest-neighbor of formula_35' and the formula_36 prefactor avoids double-counting, since each bond participates in two spins. Simplifying leads to the final expression
+
+where formula_38 is the coordination number. At this point, the Ising Hamiltonian has been "decoupled" into a sum of one-body Hamiltonians with an "effective mean-field" formula_39 which is the sum of the external field formula_40 and of the "mean-field" induced by the neighboring spins. It is worth noting that this mean field directly depends on the number of nearest neighbors and thus on the dimension of the system (for instance, for a hypercubic lattice of dimension formula_41, formula_42).
+
+Substituting this Hamiltonian into the partition function, and solving the effective 1D problem, we obtain
+
+where formula_44 is the number of lattice sites. This is a closed and exact expression for the partition function of the system. We may obtain the free energy of the system, and calculate critical exponents. In particular, we can obtain the magnetization formula_45 as a function of formula_46.
+
+We thus have two equations between formula_45 and formula_48, allowing us to determine formula_45 as a function of temperature. This leads to the following observation:
+
+formula_50 is given by the following relation: formula_55.
+This shows that MFT can account for the ferromagnetic phase transition.
+
+Similarly, MFT can be applied to other types of Hamiltonian as in the following cases:
+
+In mean-field theory, the mean field appearing in the single-site problem is a scalar or vectorial time-independent quantity. However, this need not always be the case: in a variant of mean-field theory called dynamical mean field theory (DMFT), the mean-field becomes a time-dependent quantity. For instance, DMFT can be applied to the Hubbard model to study the metal-Mott insulator transition.
+
+
+

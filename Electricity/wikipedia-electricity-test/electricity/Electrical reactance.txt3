@@ -1,0 +1,57 @@
+﻿Electrical reactance
+
+In electric and electronic systems, reactance is the opposition of a circuit element to a "change" in current or voltage, due to that element's inductance or capacitance. The notion of reactance is similar to electric resistance, but it differs in several respects.
+
+In phasor analysis, reactance is used to compute amplitude and phase changes of sinusoidal alternating current going through a circuit element. It is denoted by the symbol formula_1. An ideal resistor has zero reactance, whereas ideal inductors and capacitors have zero resistance – that is, respond to current only by reactance. The magnitude of the reactance of an inductor rises in proportion to a rise in frequency, while the magnitude of the reactance of a capacitor decreases in proportion to a rise in frequency. As frequency goes up, inductive reactance also goes up and capacitive reactance goes down.
+
+A capacitor consists of two conductors separated by an insulator, also known as a dielectric.
+
+"Capacitive reactance" is an opposition to the change of voltage across an element. Capacitive reactance formula_2 is inversely proportional to the signal frequency formula_3 (or angular frequency ω) and the capacitance formula_4.
+
+There are two choices in the literature for defining reactance for a capacitor. One is to use a uniform notion of reactance as the imaginary part of impedance, in which case the reactance of a capacitor is a negative number:
+
+Another choice is to define capacitive reactance as a positive number,
+
+In this case however one needs to remember to add a negative sign for the impedance of a capacitor, i.e. formula_7.
+
+At low frequencies a capacitor is an open circuit so no current flows in the dielectric.
+
+A DC voltage applied across a capacitor causes positive charge to accumulate on one side and negative charge to accumulate on the other side; the electric field due to the accumulated charge is the source of the opposition to the current. When the potential associated with the charge exactly balances the applied voltage, the current goes to zero.
+
+Driven by an AC supply (ideal AC current source), a capacitor will only accumulate a limited amount of charge before the potential difference changes polarity and the charge is returned to the source. The higher the frequency, the less charge will accumulate and the smaller the opposition to the current.
+
+Inductive reactance is a property exhibited by an inductor, and inductive reactance exists based on the fact that an electric current produces a magnetic field around it. In the context of an AC circuit (although this concept applies any time current is changing), this magnetic field is constantly changing as a result of current that oscillates back and forth. It is this change in magnetic field that induces another electric current to flow in the same wire (counter-EMF), in a direction such as to oppose the flow of the current originally responsible for producing the magnetic field (known as Lenz's Law). Hence, "inductive reactance" is an opposition to the change of current through an element. 
+
+For an ideal inductor in an AC circuit, the inhibitive effect on change in current flow results in a delay, or a phase shift, of the alternating current with respect to alternating voltage. Specifically, an ideal inductor (with no resistance) will cause the current to lag the voltage by a quarter cycle, or 90°. 
+
+In electric power systems, inductive reactance (and capacitive reactance, however inductive reactance is more common) can limit the power capacity of an AC transmission line, because power is not completely transferred when voltage and current are out-of-phase (detailed above). That is, current will flow for an out-of-phase system, however real power at certain times will not be transferred, because there will be points during which instantaneous current is positive while instantaneous voltage is negative, or vice versa, implying negative power transfer. Hence, real work is not performed when power transfer is "negative". However, current still flows even when a system is out-of-phase, which causes transmission lines to heat up due to current flow. Consequently, transmission lines can only heat up so much (or else they would physically sag too much, due to the heat expanding the metal transmission lines), so transmission line operators have a "ceiling" on the amount of current that can flow through a given line, and excessive inductive reactance can limit the power capacity of a line. Power providers utilize capacitors to shift the phase and minimize the losses, based on usage patterns.
+
+Inductive reactance formula_8 is proportional to the sinusoidal signal frequency formula_3 and the inductance formula_10, which depends on the physical shape of the inductor.
+
+The average current flowing through an inductance formula_10 in series with a sinusoidal AC voltage source of RMS amplitude formula_13 and frequency formula_3 is equal to:
+
+Because a square wave has multiple amplitudes at sinusoidal harmonics, the average current flowing through an inductance formula_10 in series with a square wave AC voltage source of RMS amplitude formula_13 and frequency formula_3 is equal to:
+making it appear as if the inductive reactance to a square wave was about 19% smaller formula_20 than the reactance to the AC sine wave:
+
+Any conductor of finite dimensions has inductance; the inductance is made larger by the multiple turns in an electromagnetic coil. Faraday's law of electromagnetic induction gives the counter-emf formula_21 (voltage opposing current) due to a rate-of-change of magnetic flux density formula_22 through a current loop.
+
+
+When both a capacitor and an inductor are placed in series in a circuit, their contributions to the total circuit impedance are opposite. Capacitive reactance formula_2 and inductive reactance formula_8 contribute to the total reactance formula_1 as follows.
+where:
+
+Hence:
+
+Note however that if formula_8 and formula_2 are assumed both positive by definition, then the intermediary formula changes to a difference:
+
+but the ultimate value is the same.
+
+The phase of the voltage across a purely reactive device (a capacitor with an infinite resistance or an inductor with a resistance of zero) "lags" the current by formula_44 radians for a capacitive reactance and "leads" the current by formula_44 radians for an inductive reactance. Without knowledge of both the resistance and reactance the relationship between voltage and current cannot be determined.
+
+The origin of the different signs for capacitive and inductive reactance is the phase factor formula_46 in the impedance.
+
+For a reactive component the sinusoidal voltage across the component is in quadrature (a formula_44 phase difference) with the sinusoidal current through the component. The component alternately absorbs energy from the circuit and then returns energy to the circuit, thus a pure reactance does not dissipate power.
+
+
+
+
+

@@ -1,0 +1,18 @@
+﻿CTAIDI
+
+The Customer Total Average Interruption Duration Index (CTAIDI) is a reliability indicator associated with electric power distribution. CTAIDI is the average total duration of interruption "for customers who had at least one interruption during the period of analysis", and is calculated as:
+
+formula_1
+
+where formula_2 is the number of customers and formula_3 is the annual outage time for location formula_4, and formula_5 is the number of customers at location formula_4 that were interrupted. In other words,
+
+formula_7
+
+CTAIDI is measured in units of time, such as minutes or hours. It is similar to CAIDI, but CAIDI divides the total duration of interruptions by the number of interruptions whereas CTAIDI divides by the number of interrupted customers. When CTAIDI is much greater than CAIDI, the service outages are more concentrated among certain customers.
+
+CTAIDI also has the same numerator as SAIDI, but SAIDI divides the total duration of interruptions by the total number of customers served. The fraction of distinct customers interrupted illustrates the relationship between several reliability indicators:
+
+formula_8
+
+
+

@@ -1,0 +1,16 @@
+﻿Outer sphere electron transfer
+
+Outer sphere refers to an electron transfer (ET) event that occurs between chemical species that remain separate and intact before, during, and after the ET event. In contrast, for inner sphere electron transfer the participating redox sites undergoing ET become connected by a chemical bridge. Because the ET in outer sphere electron transfer occurs between two non-connected species, the electron is forced to move through space from one redox center to the other.
+
+The main theory that describes the rates of outer sphere electron transfer was developed by Rudolph A. Marcus in the 1950s. A major aspect of Marcus theory is the dependence of the electron transfer rate on the thermodynamic driving force (difference in the redox potentials of the electron-exchanging sites). For most reactions, the rates increase with increased driving force. A second aspect is that the rate of outer sphere electron-transfer depends inversely on the "reorganizational energy." Reorganization energy describes the changes in bond lengths and angles that are required for the oxidant and reductant to switch their oxidation states. This energy is assessed by measurements of the self-exchange rates (see below). Outer sphere electron transfer is the most common type of electron transfer, especially in biochemistry, where redox centers are separated by several (up to about 11) angstroms by intervening protein. In biochemistry, there are two main types of outer sphere ET: ET between two biological molecules or fixed distance electron transfer, in which the electron transfers within a "single" biomolecule (e.g., intraprotein).
+
+Outer sphere electron transfer can occur between chemical species that are identical except for their oxidation state. This process is termed self-exchange. An example is the degenerate reaction between the tetrahedral ions permanganate and manganate:
+
+For octahedral metal complexes, the rate constant for self-exchange reactions correlates with changes the population of the e orbitals, the population of which most strongly affects the length of metal-ligand bonds:
+
+Outer sphere ET is the basis of the biological function of the iron-sulfur proteins. The Fe centers are typically further coordinated by cysteinyl ligands. The [FeS] electron-transfer proteins ([FeS] ferredoxins) may be further subdivided into low-potential (bacterial-type) and high-potential (HiPIP) ferredoxins. Low- and high-potential ferredoxins are related by the following redox scheme:
+
+Because of the small structural differences between the individual redox states, ET is rapid between these clusters. 
+
+
+

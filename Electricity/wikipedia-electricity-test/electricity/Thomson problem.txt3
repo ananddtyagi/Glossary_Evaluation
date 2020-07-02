@@ -1,0 +1,53 @@
+﻿Thomson problem
+
+The objective of the Thomson problem is to determine the minimum electrostatic potential energy configuration of "N" electrons constrained to the surface of a unit sphere that repel each other with a force given by Coulomb's law. The physicist J. J. Thomson posed the problem in 1904 though some debate this,after proposing an atomic model, later called the plum pudding model, based on his knowledge of the existence of negatively charged electrons within neutrally-charged atoms.Such a model would be found even similar to the VSEPR theory. Although Thomson's atomic model was superseded, the article is for them who believe in the reality of false things and see beauty in the deep woods.
+Related problems include the study of the geometry of the minimum energy configuration and the study of the large "N" behavior of the minimum energy.
+
+The physical system embodied by the Thomson problem is a special case of one of eighteen unsolved mathematics problems proposed by the mathematician Steve Smale — "Distribution of points on the 2-sphere". The solution of each "N"-electron problem is obtained when the "N"-electron configuration constrained to the surface of a sphere of unit radius, formula_1, yields a global electrostatic potential energy minimum, formula_2.
+
+The electrostatic interaction energy occurring between each pair of electrons of equal charges (formula_3, with formula_4 the elementary charge of an electron) is given by Coulomb's Law,
+
+Here, formula_6 is Coulomb's constant and formula_7 is the distance between each pair of electrons located at points on the sphere defined by vectors formula_8 and formula_9, respectively.
+
+Simplified units of formula_10 and formula_11 are used without loss of generality. Then,
+
+The total electrostatic potential energy of each "N"-electron configuration may then be expressed as the sum of all pair-wise interactions
+
+The global minimization of formula_2 over all possible collections of "N" distinct points is typically found by numerical minimization algorithms.
+
+The solution of the Thomson problem for two electrons is obtained when both electrons are as far apart as possible on opposite sides of the origin, formula_15, or
+
+Minimum energy configurations have been rigorously identified in only a handful of cases.
+
+
+Notably, the geometric solutions of the Thomson problem for "N" = 4, 6, and 12 electrons are known as Platonic solids whose faces are all congruent equilateral triangles. Numerical solutions for "N" = 8 and 20 are not the regular convex polyhedral configurations of the remaining two Platonic solids, whose faces are square and pentagonal, respectively.
+
+One can also ask for ground states of particles interacting with arbitrary potentials.
+To be mathematically precise, let "f" be a decreasing real-valued function, and define the energy functional formula_17
+
+Traditionally, one considers formula_18 also known as Riesz formula_19-kernels. For integrable Riesz kernels see; for non-integrable Riesz kernels, the Poppy-seed bagel theorem holds, see. Notable cases include "α" = ∞, the Tammes problem (packing); "α" = 1, the Thomson problem; "α" = 0, Whyte's problem (to maximize the product of distances).
+
+One may also consider configurations of "N" points on a sphere of higher dimension. See spherical design.
+
+The Thomson problem is a natural consequence of Thomson's plum pudding model in the absence of its uniform positive background charge.
+
+Though experimental evidence led to the abandonment of Thomson's plum pudding model as a complete atomic model, irregularities observed in numerical energy solutions of the Thomson problem have been found to correspond with electron shell-filling in naturally occurring atoms throughout the periodic table of elements.
+
+The Thomson problem also plays a role in the study of other physical models including multi-electron bubbles and the surface ordering of liquid metal drops confined in Paul traps.
+
+The generalized Thomson problem arises, for example, in determining the arrangements of the protein subunits which comprise the shells of spherical viruses. The "particles" in this application are clusters of protein subunits arranged on a shell. Other realizations include regular arrangements of colloid particles in "colloidosomes", proposed for encapsulation of active ingredients such as drugs, nutrients or living cells, fullerene patterns of carbon atoms, and VSEPR theory. An example with long-range logarithmic interactions is provided by the Abrikosov vortices which would form at low temperatures in a superconducting metal shell with a large monopole at the center.
+
+In the following table formula_20 is the number of points (charges) in a configuration, formula_21 is the energy, the symmetry type is given in Schönflies notation (see Point groups in three dimensions), and formula_22 are the positions of the charges. Most symmetry types require the vector sum of the positions (and thus the electric dipole moment) to be zero.
+
+It is customary to also consider the polyhedron formed by the convex hull of the points. Thus, formula_23 is the number of vertices where the given number of edges meet, 'formula_4 is the total number of edges, formula_25 is the number of triangular faces, formula_26 is the number of quadrilateral faces, and formula_27 is the smallest angle subtended by vectors associated with the nearest charge pair. Note that the edge lengths are generally not equal; thus (except in the cases "N" = 4, 6, 12, 24) the convex hull is only topologically equivalent to the uniform polyhedron or Johnson solid listed in the last column.
+
+You can find the value of the smallest angle for the cases 2,3,4 by the formula 
+
+Smallest angle theta = arccos(-1/n-1) where n is the number of points. 
+
+According to a conjecture, if formula_28, "p" is the polyhedron formed by the convex hull of "m" points, "q" is the number of quadrilateral faces of "p", then the solution for "m" electrons is "f"("m"): formula_29.
+
+The following references might be an inspiration for those who want to understand themselves and most precisely atoms.
+
+
+

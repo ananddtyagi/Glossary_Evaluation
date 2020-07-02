@@ -1,0 +1,37 @@
+﻿Liquid rheostat
+
+A liquid rheostat or water rheostat or salt water rheostat is a type of variable resistor. 
+This may be used as a dummy load or as a starting resistor for large slip ring motors.
+
+In the simplest form it consists of a tank containing brine or other electrolyte solution, in which electrodes are submerged to create an electrical load. The electrodes may be raised or lowered into the liquid to respectively decrease or increase the electrical resistance of the load. To stabilize the load, the mixture must not be allowed to boil.
+
+Modern designs use stainless steel electrodes, and sodium carbonate, or other salts, and do not use the container as one electrode. In some designs the electrodes are fixed and the liquid is raised and lowered by an external cylinder or pump. Motor start systems with a rapid starting cadenza may include water circulation to external heat exchangers. In such cases anti-freeze and anti-corrosion additives must be carefully chosen to not change the resistance or support the growth of algae or bacteria.
+
+The salt water rheostat operates at unity power factor and presents a resistance with negligible series inductance compared to a wire wound equivalent, and was widely used by generator assemblers, until 20 years ago, as a matter of course. They are still sometimes constructed on-site for the commissioning of large diesel generators in remote places, where discarded oil drums and scaffold tubes may form an improvised tank and electrodes.
+
+Typically a traditional liquid rheostat consists of a steel cylinder (the negative), about in size, standing on insulators, in which was suspended a hollow steel cylinder. This acted as the positive electrode and was supported by a steel rope and insulator from an adjustable pulley. The water pipe connection included an insulated section. The tank contained salt water, but not at the concentration that could be described as “brine”. The whole device was fenced off for safety.
+
+Operation was very simple, as adding more salt, more water or varying the height of the centre electrode would vary the load. The load proved to be quite stable, varying only slightly as the water heated up. It never came to the boil. Power dissipation was about 1 megawatt, at a potential of about 700 volts and current of about 1,500 amperes.
+
+Modern designs use stainless steel electrodes, and sodium carbonate, or other salts, and do not use the container as one electrode.
+
+Systems with a rapid starting cadenza may include water circulation to external heat exchangers. In such cases anti-freeze and anti-corrosion additives must be carefully chosen to not change the resistance or support the growth of algae or bacteria.
+
+An advantage is silent operation, with none of the fan noise of current resistive grid designs.
+
+Disadvantages include:
+
+Railways commonly used salt water load banks in the 1950s to test the output power of diesel-electric locomotives. They were subsequently replaced by specially designed resistive load banks. These later designs, rated for , currently cost in the region of 100,000 to 180,000 euro. Hence, it is economically advantageous for railways to build their own salt-water type. Some electric locomotives also used liquid rheostats, in particular in Italy for early three-phase AC types such as the FS Class E550. Some direct current designs also used them as starting resistors.
+
+Liquid rheostats were sometimes used in large (thousands of kilowatts/horsepower) wound rotor motor drives, to control the rotor circuit resistance and so the speed of the motor. Electrode position could be adjusted with a small electrically operated winch or a pneumatic cylinder. A cooling pump and heat exchanger were provided to allow slip energy to be dissipated into process water or other water system.
+
+High voltage distribution networks use fixed electrolyte resistors to ground the neutral, to provide a current limiting action, so that the voltage across the ground during fault is kept to a safe level. Unlike a solid resistor, the liquid resistor is self healing in the event of overload. Normally the resistance is set up during commissioning, and then left fixed.
+
+Modern motor starters are totally enclosed and the electrode movement is servo motor controlled. Typically a 1 tonne tank will start a 1 megawatt slip ring type motor, but there is considerable variation in start time depending on application.
+
+The fully salt-water load bank dates from an earlier, less regulated and litigious era. To pass current safety legislation requires more enclosed designs.
+
+They are no more dangerous than electrode heaters, which work on the same principle, but with plain water, or electrical immersion heaters, provided the correct precautions are used. This requires connecting the container to both ground and neutral and breaking all poles with a linked over-current circuit breaker. If in the open, safety barriers are required.
+
+
+

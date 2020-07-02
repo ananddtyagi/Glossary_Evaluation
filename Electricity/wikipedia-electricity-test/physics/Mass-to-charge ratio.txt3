@@ -1,0 +1,68 @@
+﻿Mass-to-charge ratio
+
+The mass-to-charge ratio ("m"/"Q") is a physical quantity that is most widely used in the electrodynamics of charged particles, e.g. in electron optics and ion optics. It appears in the scientific fields of electron microscopy, cathode ray tubes, accelerator physics, nuclear physics, Auger electron spectroscopy, cosmology and mass spectrometry. The importance of the mass-to-charge ratio, according to classical electrodynamics, is that two particles with the same mass-to-charge ratio move in the same path in a vacuum , when subjected to the same electric and magnetic fields. Its SI units are kg/C. In rare occasions the thomson has been used as its unit in the field of mass spectrometry.
+
+Some disciplines use the charge-to-mass ratio ("Q"/"m") instead, which is the multiplicative inverse of the mass-to-charge ratio. The CODATA recommended value for an electron is = .
+
+When charged particles move in electric and magnetic fields the following two laws apply:
+
+where F is the force applied to the ion, "m" is the mass of the particle, a is the acceleration, "Q" is the electric charge, E is the electric field, and v × B is the cross product of the ion's velocity and the magnetic flux density.
+
+This differential equation is the classic equation of motion for charged particles. Together with the particle's initial conditions, it completely determines the particle's motion in space and time in terms of "m"/"Q". Thus mass spectrometers could be thought of as "mass-to-charge spectrometers". When presenting data in a mass spectrum, it is common to use the dimensionless "m"/"z", which denotes the dimensionless quantity formed by dividing the mass number of the ion by its charge number.
+
+Combining the two previous equations yields:
+
+This differential equation is the classic equation of motion of a charged particle in vacuum. Together with the particle's initial conditions it determines the particle's motion in space and time. It immediately reveals that two particles with the same "m"/"Q" ratio behave in the same way. This is why the mass-to-charge ratio is an important physical quantity in those scientific fields where charged particles interact with magnetic or electric fields.
+
+There are non-classical effects that derive from quantum mechanics, such as the Stern–Gerlach effect that can diverge the path of ions of identical "m"/"Q".
+
+The IUPAC recommended symbol for mass and charge are "m" and "Q", respectively, however using a lowercase "q" for charge is also very common. Charge is a scalar property, meaning that it can be either positive (+) or negative (−). The Coulomb (C) is the SI unit of charge; however, other units can be used, such as expressing charge in terms of the elementary charge (e). The SI unit of the physical quantity "m"/"Q" is kilogram per coulomb.
+
+The units and notation above are used when dealing with the physics of mass spectrometry; however, the "m"/"z" notation is used for the independent variable in a mass spectrum. This notation eases data interpretation since it is numerically more related to the unified atomic mass unit. For example, if an ion carries one charge the "m"/"z" is numerically equivalent to the molecular or atomic mass of the ion in unified atomic mass units (u), where the numerical value of m/Q is abstruse. The "m" refers to the molecular or atomic mass number and "z" to the charge number of the ion; however, the quantity of "m"/"z" is dimensionless by definition. An ion with a mass of 100 u (unified atomic mass units) ("m" = 100) carrying two charges ("z" = 2) will be observed at "m"/"z" = 50. However, the empirical observation "m"/"z" = 50 is one equation with two unknowns and could have arisen from other ions, such as an ion of mass 50 u carrying one charge. Thus, the "m"/"z" of an ion alone neither infers mass nor the number of charges. Additional information, such as the mass spacing between mass isotopomers or the relationship between multiple charge states, is required to assign the charge state and infer the mass of the ion from the "m"/"z". This additional information is often but not always available. Thus, the "m"/"z" is primarily used to report an empirical observation in mass spectrometry. This observation may be used in conjunction with other lines of evidence to subsequently infer the physical attributes of the ion, such as mass and charge.
+
+In the 19th century, the mass-to-charge ratios of some ions were measured by electrochemical methods. In 1897, the mass-to-charge ratio of the electron was first measured by J. J. Thomson. By doing this, he showed that the electron was in fact a particle with a mass and a charge, and that its mass-to-charge ratio was much smaller than that of the hydrogen ion H. In 1898, Wilhelm Wien separated ions (canal rays) according to their mass-to-charge ratio with an ion optical device with superimposed electric and magnetic fields (Wien filter). In 1901 Walter Kaufman measured the increase of electromagnetic mass of fast electrons (Kaufmann–Bucherer–Neumann experiments), or relativistic mass increase in modern terms. In 1913, Thomson measured the mass-to-charge ratio of ions with an instrument he called a parabola spectrograph. Today, an instrument that measures the mass-to-charge ratio of charged particles is called a mass spectrometer.
+
+The charge-to-mass ratio ("Q"/"m") of an object is, as its name implies, the charge of an object divided by the mass of the same object. This quantity is generally useful only for objects that may be treated as particles. For extended objects, total charge, charge density, total mass, and mass density are often more useful.
+
+Derivation:
+
+formula_2 or formula_3 (1)
+
+Since formula_4,
+
+formula_5 or formula_6 (2)
+
+Equations (1) and (2) yield
+
+formula_7
+
+In some experiments, the charge-to-mass ratio is the only quantity that can be measured directly. Often, the charge can be inferred from theoretical considerations, so that the charge-to-mass ratio provides a way to calculate the mass of a particle.
+
+Often, the charge-to-mass ratio can be determined from observing the deflection of a charged particle in an external magnetic field. The cyclotron equation, combined with other information such as the kinetic energy of the particle, will give the charge-to-mass ratio. One application of this principle is the mass spectrometer. The same principle can be used to extract information in experiments involving the cloud chamber.
+
+The ratio of electrostatic to gravitational forces between two particles will be proportional to the product of their charge-to-mass ratios. It turns out that gravitational forces are negligible on the subatomic level, due to the extremely small masses of subatomic particles.
+
+The electron charge-to-mass quotient, formula_8, is a quantity that may be measured in experimental physics. It bears significance because the electron mass "m" is difficult to measure directly, and is instead derived from measurements of the elementary charge "e" and formula_9. It also has historical significance; the "Q"/"m" ratio of the electron was successfully calculated by J. J. Thomson in 1897—and more successfully by Dunnington, which involves the angular momentum and deflection due to a perpendicular magnetic field. Thomson's measurement convinced him that cathode rays were particles, which were later identified as electrons, and he is generally credited with their discovery.
+
+The CODATA recommended value is formula_8 = . CODATA refers to this as the electron charge-to-mass quotient, but ratio is still commonly used.
+
+There are two other common ways of measuring the charge-to-mass ratio of an electron, apart from Thomson and Dunnington's methods.
+
+
+The charge-to-mass ratio of an electron may also be measured with the Zeeman effect, which gives rise to energy splittings in the presence of a magnetic field "B":
+
+Here "m" are quantum integer values ranging from -"j" to "j", with "j" as the eigenvalue of the total angular momentum operator J, with
+where S is the spin operator with eigenvalue "s" and L is the angular momentum operator with eigenvalue "l". "g" is the Landé g-factor, calculated as
+
+The shift in energy is also given in terms of frequency "ν" and wavelength "λ" as
+
+Measurements of the Zeeman effect commonly involve the use of a Fabry–Pérot interferometer, with light from a source (placed in a magnetic field) being passed between two mirrors of the interferometer. If "δD" is the change in mirror separation required to bring the "m"-order ring of wavelength "λ" + "Δλ" into coincidence with that of wavelength "λ", and "ΔD" brings the ("m" + 1) ring of wavelength "λ" into coincidence with the "m"-order ring, then
+
+It follows then that
+
+Rearranging, it is possible to solve for the charge-to-mass ratio of an electron as
+
+
+
+
+

@@ -1,0 +1,58 @@
+﻿Electric violin
+
+An electric violin is a violin equipped with an electronic output of its sound. The term most properly refers to an instrument intentionally made to be electrified with built-in pickups, usually with a solid body. It can also refer to a violin fitted with an electric pickup of some type, although "amplified violin" or "electro-acoustic violin" are more accurate in that case.
+
+Electrically amplified violins have been used in one form or another since the 1920s; jazz and blues artist Stuff Smith is generally credited as being one of the first performers to adapt pickups and amplifiers to violins. The Electro Stringed Instrument Corporation, National String Instrument Corporation and Vega Company sold electric violins in the 1930s and 1940s; Fender produced a very small number of electric violins in 1958 (first production model pictured at the head of this page), and resissued it again in 1969 until 1975.
+
+Barcus Berry have been producing electric violins since the mid-1960s and in the early 1970s Max Mathews began developing an electric violin which reached completion in 1984 During the 1980s more companies were formed producing their own brand of electric violin, such as RAAD or The Amazing Electric Violin and ZETA. There has been a great deal more commercial success for manufacturers of electric violins since the 1990s for both well known, established companies and new independent makers too.
+
+Acoustic violins may be used with an add-on piezoelectric bridge or body pickup, or a magnetic pickup attached to the fingerboard end. Alternatively, an electrodynamic pickup can be installed under an acoustic violin's fingerboard avoiding interference with any tone-producing parts of the violin, and therefore keeping its acoustic resonances and tone intact.
+To avoid feedback from the resonances of the hollow body under high amplification on stage, many instruments have a solid body instead. The timbre (tone color) of a standard unamplified violin is due in large part to these resonances, however, so depending on how the signal is picked up, an electric violin may have a "rawer" or "sharper" sound than an acoustic instrument. This raw sound is often preferred in rock, pop, and some avant-garde genres. Several "semi-hollow" designs exist, containing a sealed but hollow resonating chamber that provides some approximation of acoustic violin sound while reducing susceptibility to feedback.
+
+Solid-body electric violins typically have a non-traditional, minimalistic design to keep weight down. Lately, materials such as kevlar, glass and carbon fibres, are used in the build process.
+
+They are often seen as "experimental" instruments, being less established than electric guitar or bass. Hence, there are many variations on the standard design, such as frets, extra strings, machine heads, "baritone" strings that sound an octave lower than normal, and sympathetic strings. Luthier Yuri Landman built a 12 string electric violin for the Belgian band DAAU. The strings on this instrument are clustered in four groups of three strings tuned unison creating a chorus. Also the instrument features an extra pickup in the tail piece for extra amplification of string resonances.
+
+Acoustic 5-string violins are becoming more common, and it is not unusual for an electric violin to have 5, 6, 7 or more strings. The typical solid body also accommodates the extra tension caused by more strings without stressing the instrument too much. The extra strings are usually a low C string for 5-strings, a low C and low F for 6, and a low C, F and B for 7.
+
+Electric violin signals usually pass through electronic processing, in the same way as an electric guitar, to achieve a desired sound. This could include delay, reverb, chorus, distortion, or other effects.
+
+Today electric violins are even being used to reinvigorate music education. NBC, for example, recently featured a "music camp that combines rock and orchestra" by Mark Wood, who was chosen as the "person of the day" and featured on "Today" for bringing fresh interest to music education with rock performances all on electric violins where proceeds are donated back to school music programs. "Today" stated "The perfect blend of classical instruments and rock and roll is giving kids across the country a whole new appreciation for music."
+
+Electric violins may use magnetic, piezoelectric, or electrodynamic pickups. Guitar/coil type magnetic pickups require the use of violin strings that have ferrous (iron-containing, as in steel) metal wraps or cores. A few single-coil guitar-style magnetic systems are available, The small body size and arced string arrangement of a violin limit the amount of space available for coil placement.
+One unusual acoustic/electric violin system uses the string itself as a linear active pickup element. Made to fit standard acoustic violins, the only requisite is that the string is electrically conducting, so the common synthetic or steel core strings can be used.
+
+Generally, piezoelectric pickups are inexpensive and more common. Piezo elements come in the shape of ceramic discs, cylinders or a plastic film. They detect physical vibrations directly, sometimes placed in or on the body, or in some cases actual string vibrations directly, but more commonly general bridge vibrations are sensed. Some piezo setups have a separate pickup (or two, or even four in the case of some Barbera Transducer Systems pickups) within the bridge under each string. A few systems use transducers oriented in various directions to differentiate between bowed and plucked string motion. Operating a switch then selects the preferred mode.
+
+Piezo pickups have a high (capacitive) output impedance, and must be plugged into a high impedance input stage in the amplifier or a powered preamp (a charge amplifier is best). This buffers the signal to avoid low frequency loss and microphonic noise pickup in the instrument cable. Preamplification is often done by an external signal processor, but some electric violin body designs provide internal housing for preamp circuitry.
+
+Essentially, amplifying an electric violin is exactly the same as amplifying a guitar. They both produce an audio output which is transferred through an audio cable into an amp or PA. For this reason, there are few amps that are specifically for violin, and even those can be repurposed for guitar. Most electric violinists use standard guitar amplifiers. The advantage with using guitar amps is that they have been used for years and their sound is reliable, though not all guitar amps will give a desired tone. Some prefer the more mellow tone of tube amps over solid state amps and digital PA's for violins.
+
+Although the violin is an instrument used extensively in classical music, electric violins are generally employed by classical performers only in the performance of contemporary classical music. The electric violin is more frequently used by non-classical musicians in popular genres such as metal, rock, hip hop, electronic music, pop, jazz/jazz fusion, country, new-age, and experimental music. Well known electric violinists include:
+
+NB. Famous electric violinists are listed on a separate page.
+
+It is used extensively in folk rock; one prominent exponent in the area being Dave Swarbrick. Folk metal band Turisas also puts a lot of emphasis on the electric violin in their compositions. Finnish folk metal band Korpiklaani also focuses in Jaakko Lemmetty's electric violin parts. It has also found its way into modern musical theater, a recent example being Whistle Down the Wind by Andrew Lloyd Webber. Several popular bands that use the electric violin are Zox, Operator Please, Doll Factory, and pop punk band Yellowcard. Urban Blitz of protopunk rock band Doctors of Madness used the instrument to original effect in the mid 1970s; also using baritone Violectra.
+
+Artists such as Tracy Silverman and Daniel Bernard Roumain have popularized violin "looping". Instead of playing strictly with a band or as a traditional soloist, these musicians use a loop pedal to layer sound and effectively become a one-man band. Using a variety of pedals and techniques on the violin, these musicians yield a wide array of sounds, allowing original compositions and arrangements for electric looping violin of popular rock and hip hop tunes.
+
+Ben Lee (violinist), of the electric violin duo FUSE, became the Guinness world record holder for "Fastest Electric Violinist" when he performed "Flight of the Bumblebee" in 58.515 seconds in London, UK, on 14 November 2010 playing on a 5 stringed electric violin.
+
+Classically trained violinist Emilie Autumn has also made extensive use of the electric violin, particularly on her instrumental Laced/Unlaced album.
+
+In Brazil, the Electric Violin appears in the work of Marcus Viana, like "Sagrado Coração da Terra" (Sacred Heart of Earth), a Symphonic Prog/Progressive Rock, and Transfonika Orkestra (soundtracks), besides many others.
+
+Several Irish fiddlers have adopted electric instruments. The fiddle is quite prominently featured in such bands as the Celtic punk bands Flogging Molly, and The Levellers. Eileen Ivers played a blue Barcus-Berry electric fiddle during her tours with Riverdance during the 1990s, later switching to a custom-made blue ZETA Music Systems Strados acoustic-electric fiddle (which ZETA later marketed as the "Eileen Ivers Signature Series").
+
+Daiana Mazza is another violinist from Brazil. She appears in works of Rock, Brazilian Music, Brazilian Gospel, Jazz and Folk, like Braia, Kernunna, Carol Carolo, Os Minervas, Leonardo Araujo, Transfonika Orkestra, Sagrado Coração da Terra, and others.
+
+
+In the mid-1980s, Zeta Music developed a prototype violin for Laurie Anderson. Through a custom pickup and interface, it sends MIDI data, allowing the violin to control synthesizers. This design was later refined and turned into a commercial product. Unlike most pickup designs of the time, the Zeta pickup has the ability to output the signal from each string to a separate audio channel. Using a multi-pin cable to their pitch-to-MIDI converter, this allows for polyphonic MIDI control, and each string may be set to an independent MIDI channel.
+
+In 2010, Keith McMillen, a founder of Zeta Music, announced the StringPort polyphonic string-to-USB 2.0 converter for the Zeta polyphonic pickup and other, polyphonic pickup systems. While no other, dedicated, polyphonic, violin-to-MIDI systems are manufactured, there are a number of general, pitch-to-MIDI violin systems available today as well as general pitch-to-MIDI computer accessories. General, monophonic pickup-to-MIDI systems, such as those manufactured by Roland and Yamaha have been available for decades and may be adapted to standard, electric violins. Without polyphonic instrument output, these systems tend to be monophonic, allowing only monophonic operation—only one pitch can be detected and digitised at a time— but through the use of proprietary pickups, some MIDI polyphony can be achieved. Some pitch to MIDI interfaces from Axon/TerraTec will give full per-string polyphony, interfacing with the multi-pin output from the Zeta MIDI pickup.
+
+Notable artists who have performed using a MIDI-enabled violin include L. Subramaniam, Jean-Luc Ponty, Charles Bisharat, Drew Tretick, Gregory Docenko, Dorothy Martirano and Boyd Tinsley from Dave Matthews Band.
+
+
+
+

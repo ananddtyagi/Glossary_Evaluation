@@ -1,0 +1,16 @@
+﻿Fluoride selective electrode
+
+A fluoride selective electrode is a type of ion selective electrode sensitive to the concentration of the fluoride ion. A common example is the lanthanum fluoride electrode.
+
+In the lanthanum fluoride electrode, the sensing element is a crystal of lanthanum fluoride LaF, doped with europium fluoride EuF to create lattice vacancies. Such a crystal is an ionic conductor by virtue of the mobility of fluoride ions which jump between lattice vacancies. An electrochemical cell may be constructed using such a crystal as a membrane separating two fluoride solutions. This cell acts as a concentration cell with transference where the fluoride transport number is 1. As transference of charge through the crystal is almost exclusively due to fluoride, the electrode is highly specific to fluoride. The only ion which significantly interferes is hydroxide (OH). Generally such "alkaline error" can be avoided by buffering the sample to a pH below 7.
+
+The cell diagram of a typical experimental arrangement is:
+where: 
+
+Some commercially available reference electrodes have an internal junction which minimizes the liquid junction potential between the sample solution and the electrolyte in the reference electrode (KCl). The internal electrolyte is at fixed composition and the electrode response is given by the Nernst equation:
+
+where:
+
+Martin S. Frant and James W. Ross Jr. Electrode for Sensing Fluoride Ion Activity in Solution. Science 23 December 1966:Vol. 154. no. 3756, pp. 1553 - 1555
+
+

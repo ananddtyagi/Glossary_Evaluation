@@ -1,0 +1,23 @@
+﻿Capacitance multiplier
+
+A capacitance multiplier is designed to make a capacitor function like a capacitor that is much larger. This can be achieved in at least two ways. 
+
+
+Capacitor multipliers make low-frequency filter and long-duration timing circuits possible that would be impractical with actual capacitors. Another application is in DC power supplies where very low ripple voltage (under load) is of paramount importance, such as in class-A amplifiers.
+
+Here the capacitance of capacitor C1 is multiplied by approximately the transistor's current gain (β).
+
+Without Q, R2 would be the load on the capacitor. With Q in place, the loading imposed upon C1 is simply the load current reduced by a factor of (β + 1). Consequently, C1 appears multiplied by a factor of (β + 1) when viewed by the load.
+
+Another way is to look at this circuit as emitter follower with capacitor C1 holding voltage at base constant with load of input impedance of Q1: R2 multiplied by (1 + β), so the output current is stablized much more against power line voltage noise.
+
+Here, the capacitance of capacitor C1 is multiplied by the ratio of resistances C = C1 * ( 1+ (R1 / R2)), if looking into the Vi node.
+
+The synthesized capacitance also brings with it a series resistance approximately equal to R2.
+
+A negative capacitance multiplier can be created with a negative impedance converter.
+
+These permit the synthesis of accurate values of large capacitance (e.g. 1 F), by multiplying the capacitance of a high-precision lower value capacitor by the use of two transformers. Its function is to act as a reference standard, not as a general-purpose circuit element. The resulting device is a four-terminal element and cannot be used at dc.
+
+
+

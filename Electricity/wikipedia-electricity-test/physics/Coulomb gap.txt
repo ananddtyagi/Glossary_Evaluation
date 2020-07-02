@@ -1,0 +1,23 @@
+﻿Coulomb gap
+
+First introduced by M. Pollak, the Coulomb gap is a soft gap in the Single-Particle Density of States (DOS) of a system of interacting localized electrons.
+Due to the long-range Coulomb interactions, the single-particle DOS vanishes at the chemical potential, at low enough temperatures, such that thermal excitations do not wash out the gap.
+
+At zero temperature, a classical treatment of a system gives an upper bound for the DOS near the Fermi-energy, first suggested by Efros and Shklovskii. The argument is as follows:
+Let us look at the ground state configuration of the system. Defining formula_1 as the energy of an electron at site formula_2, due to the disorder and the Coulomb interaction with all other electrons (we define this both for occupied and unoccupied sites), it is easy to see that the energy needed to move an electron from an occupied site formula_2 to an unoccupied site formula_4 is given by the expression:
+
+The subtraction of the last term accounts for the fact that formula_6 contains a term due to the interaction with the electron present at site formula_2, but after moving the electron this term should not be considered. It is easy to see from this that there exists an energy formula_8 such that all sites with energies above it are empty, and below it are full (this is the Fermi energy, but since we are dealing with a system with interactions it is not obvious a-priori that it is still well-defined).
+Assume we have a finite single-particle DOS at the Fermi energy, formula_9. For every possible transfer of an electron from an occupied site i to an unoccupied site j, the energy invested should be positive, since we are assuming we are in the ground state of the system, i.e., formula_10.
+Assuming we have a large system, consider all the sites with energies in the interval formula_11 The number of these, by assumption, is formula_12 As explained, formula_13 of these would be occupied, and the others unoccupied. Of all pairs of occupied and unoccupied sites, let us choose the one where the two are closest to each other. If we assume the sites are randomly distributed in space, we find that the distance between these two sites is of order:
+formula_14, where d is the dimension of space.
+Plugging the expression for formula_15 into the previous equation, we obtain the inequality:
+formula_16 where formula_17 is a coefficient of order unity. Since formula_18, this inequality will necessarily be violated for small enough formula_19. Hence, assuming a finite DOS at formula_8 led to a contradiction. Repeating the above calculation under the assumption that the DOS near formula_8 is proportional to formula_22 shows that formula_23. This is an upper bound for the Coulomb gap. Efros considered single electron excitations, and obtained an integro-differential equation for the DOS, showing the Coulomb gap in fact follows the above equation (i.e., the upper bound is a tight bound).
+
+Other treatments of the problem include a mean-field numerical approach, as well as more recent treatments such as, also verifying the upper bound suggested above is a tight bound. Many Monte-Carlo simulations were also performed, some of them in disagreement with the result quoted above. Few works deal with the quantum aspect of the problem.
+
+Direct experimental confirmation of the gap has been done via tunneling experiments, which probed the single-particle DOS in two and three dimensions. The experiments clearly showed a linear gap in two-dimensions, and a parabolic gap in three-dimensions.
+Another experimental consequence of the Coulomb gap is found in the conductivity of samples in the localized regime.
+The existence of a gap in the spectrum of excitations would result in a lowered conductivity than that predicted by Mott Variable range hopping. If one uses the analytical expression of the Single-Particle DOS in the Mott derivation, a universal formula_24 is obtained, for any dimension. The observation of this is expected to occur below a certain temperature, such that the optimal energy of hopping would be smaller than the width of the Coulomb gap. The transition from Mott to so-called Efros-Shklovskii Variable Range Hopping has been observed experimentally for various systems. Nevertheless, no rigorous derivation of the Efros-Shklovskii conductivity formula has been put forth, and in some experiments formula_25 behavior is observed, for alpha which fits neither the Mott nor the Efros-Shklovskii theories.
+
+
+

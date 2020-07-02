@@ -1,0 +1,55 @@
+﻿Specific gravity
+
+Specific gravity is the ratio of the density of a substance to the density of a reference substance; equivalently, it is the ratio of the mass of a substance to the mass of a reference substance for the same given volume. "Apparent" specific gravity is the ratio of the weight of a volume of the substance to the weight of an equal volume of the reference substance. The reference substance for liquids is nearly always water at its densest (at ); for gases it is air at room temperature (). Nonetheless, the temperature and pressure must be specified for both the sample and the reference. Pressure is nearly always . 
+
+Temperatures for both sample and reference vary from industry to industry. In British beer brewing, the practice for specific gravity as specified above is to multiply it by 1,000. Specific gravity is commonly used in industry as a simple means of obtaining information about the concentration of solutions of various materials such as brines, hydrocarbons, antifreeze coolants, sugar solutions (syrups, juices, honeys, brewers wort, must, etc.) and acids.
+
+Being a ratio of densities, specific gravity is a dimensionless quantity independent of the systems of units used to make measurements. Specific gravity varies with temperature and pressure; reference and sample must be compared at the same temperature and pressure or be corrected to a standard reference temperature and pressure. Substances with a specific gravity of 1 are neutrally buoyant in water. Those with SG greater than 1 are denser than water and will, disregarding surface tension effects, sink in it. Those with an SG less than 1 are less dense than water and will float on it. In scientific work, the relationship of mass to volume is usually expressed directly in terms of the density (mass per unit volume) of the substance under study. It is in industry where specific gravity finds wide application, often for historical reasons.
+
+True specific gravity can be expressed mathematically as:
+
+where "ρ" is the density of the sample and "ρ" is the density of water.
+
+The apparent specific gravity is simply the ratio of the weights of equal volumes of sample and water in air:
+
+where "W" represents the weight of the sample measured in air and "W" the weight of sample measured in water.
+
+It can be shown that true specific gravity can be computed from different properties:
+
+where "g" is the local acceleration due to gravity, "V" is the volume of the sample and of water (the same for both), "ρ" is the density of the sample, "ρ" is the density of water and "W" represents a weight obtained in vacuum.
+
+The density of water varies with temperature and pressure as does the density of the sample. So it is necessary to specify the temperatures and pressures at which the densities or weights were determined. It is nearly always the case that measurements are made at 1 nominal atmosphere (101.325 kPa ± variations from changing weather patterns). But as specific gravity usually refers to highly incompressible aqueous solutions or other incompressible substances (such as petroleum products), variations in density caused by pressure are usually neglected at least where apparent specific gravity is being measured. For true ("in vacuo") specific gravity calculations, air pressure must be considered (see below). Temperatures are specified by the notation ("T"/"T"), with "T" representing the temperature at which the sample's density was determined and "T" the temperature at which the reference (water) density is specified. For example, SG (20 °C/4 °C) would be understood to mean that the density of the sample was determined at 20 °C and of the water at 4 °C. Taking into account different sample and reference temperatures, we note that, while "SG" = (20 °C/20 °C), it is also the case that "SG" = = (20 °C/4 °C). Here, temperature is being specified using the current ITS-90 scale and the densities used here and in the rest of this article are based on that scale. On the previous IPTS-68 scale, the densities at 20 °C and 4 °C are and respectively, resulting in an SG (20 °C/4 °C) value for water of .
+
+As the principal use of specific gravity measurements in industry is determination of the concentrations of substances in aqueous solutions and as these are found in tables of SG versus concentration, it is extremely important that the analyst enter the table with the correct form of specific gravity. For example, in the brewing industry, the Plato table lists sucrose concentration by weight against true SG, and was originally (20 °C/4 °C) i.e. based on measurements of the density of sucrose solutions made at laboratory temperature (20 °C) but referenced to the density of water at 4 °C which is very close to the temperature at which water has its maximum density "ρ" equal to 999.972 kg/m in SI units ( in cgs units or 62.43 lb/cu ft in United States customary units). The ASBC table in use today in North America, while it is derived from the original Plato table is for apparent specific gravity measurements at (20 °C/20 °C) on the IPTS-68 scale where the density of water is . In the sugar, soft drink, honey, fruit juice and related industries sucrose concentration by weight is taken from a table prepared by A. Brix which uses SG (17.5 °C/17.5 °C). As a final example, the British SG units are based on reference and sample temperatures of 60 °F and are thus (15.56 °C/15.56 °C).
+
+Given the specific gravity of a substance, its actual density can be calculated by rearranging the above formula:
+
+Occasionally a reference substance other than water is specified (for example, air), in which case specific gravity means density relative to that reference.
+
+Specific gravity can be measured in a number of value ways. The following illustration involving the use of the pycnometer is instructive. A pycnometer is simply a bottle which can be precisely filled to a specific, but not necessarily accurately known volume, "V". Placed upon a balance of some sort it will exert a force.
+
+where "m" is the mass of the bottle and "g" the gravitational acceleration at the location at which the measurements are being made. "ρ" is the density of the air at ambient pressure and "ρ" is the density of the material of which the bottle is made (usually glass) so that the second term is the mass of air displaced by the glass of the bottle whose weight, by Archimedes Principle must be subtracted. The bottle is filled with air, but as that air displaces an equal amount of air the weight of that air is canceled by the weight of the air displaced. Now we fill the bottle with the reference fluid, for example pure water. The force exerted on the pan of the balance becomes:
+
+If we subtract the force measured on the empty bottle from this (or tare the balance before making the water measurement) we obtain.
+
+where the subscript n indicates that this force is net of the force of the empty bottle. The bottle is now emptied, thoroughly dried and refilled with the sample. The force, net of the empty bottle, is now:
+
+where "ρ" is the density of the sample. The ratio of the sample and water forces is:
+
+This is called the Apparent Specific Gravity, denoted by subscript A, because it is what we would obtain if we took the ratio of net weighings in air from an analytical balance or used a hydrometer (the stem displaces air). Note that the result does not depend on the calibration of the balance. The only requirement on it is that it read linearly with force. Nor does "SG" depend on the actual volume of the pycnometer. 
+
+Further manipulation and finally substitution of "SG", the true specific gravity (the subscript V is used because this is often referred to as the specific gravity "in vacuo"), for gives the relationship between apparent and true specific gravity.
+
+In the usual case we will have measured weights and want the true specific gravity. This is found from
+
+Since the density of dry air at 101.325 kPa at 20 °C is and that of water is the difference between true and apparent specific gravities for a substance with specific gravity (20 °C/20 °C) of about 1.100 would be . Where the specific gravity of the sample is close to that of water (for example dilute ethanol solutions) the correction is even smaller.
+
+
+
+
+
+
+
+
+
+

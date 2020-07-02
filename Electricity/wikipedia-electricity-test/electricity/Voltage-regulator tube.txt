@@ -1,0 +1,50 @@
+﻿Voltage-regulator tube
+
+A voltage-regulator tube (VR tube) is an electronic component used as a shunt regulator to hold a voltage constant at a pre-determined level.
+
+Physically, these devices resemble vacuum tubes, but there are two main differences:
+
+Electrically, these devices resemble Zener diodes, with the following major differences:
+When sufficient voltage is applied across the electrodes, the gas ionizes, forming a glow discharge around the cathode electrode. The VR tube then acts as a negative resistance device; as the current through the device increases, the amount of ionization also increases, reducing the resistance of the device to further current flow. In this way, the device conducts sufficient current to hold the voltage across its terminals to the desired value.
+
+Because the device would conduct a nearly unlimited amount of current, there must be some external means of limiting the current. Usually, this is provided by an external resistor upstream from the VR tube. The VR tube then conducts any portion of the current that does not flow into the downstream load, maintaining an approximately constant voltage across the VR tube's electrodes. The VR tube's regulation voltage was only guaranteed when conducting an amount of current within the allowable range. In particular, if the current through the tube is too low to maintain ionization, the output voltage can rise above the nominal output—as far as the input supply voltage. If the current through the tube is too high, it can enter an arc discharge mode where the voltage will be significantly lower than nominal and the tube may be damaged.
+
+Some voltage-regulator tubes contained small amounts of radionuclides to produce a more reliable ionization.
+
+The "Corona" VR tube is a high-voltage version that's hydrogen-filled at close to atmospheric pressure, for voltages ranging from 400 V to 30 kV at tens of microamperes. It has a coaxial form; the outer cylindrical electrode is the cathode and the inner one is the anode. The voltage stability depends on the gas pressure.
+
+In America, VR tubes were given RETMA tube part numbers. Lacking a heater (filament), the tube's part numbers began with "0" (zero).
+
+In Europe, VR tubes were given part numbers under the professional system ("ZZ1xxx") and under a dedicated system.
+
+In USSR, glow-discharge stabilitrons were given designation in Cyrillic with serial number of development. For example, "СГ21Б", "СГ204К" and i.e.
+
+VR tubes were only available in certain voltages. Common models were:
+
+Octal-based tubes, 5–40 mA current:
+
+Miniature tubes, 5–30 mA current:
+
+Miniature tubes, 1–10 mA current:
+
+Voltage reference 1.5–3.0 mA current:
+
+Subminiature tubes:
+
+Miniature corona tubes, 5–55 µA current:
+
+Wire-ended, subminiature corona tubes:
+
+The pinout of VR tubes was designed so that power could be forced to flow "through" the VR tubes to the load. That is, the load current would flow in one pin of the VR tube and out through a second pin. In this way, the circuit could be arranged so that unplugging the VR tube would disconnect the load. (Otherwise, unplugging the VR tube would have allowed the voltage to become unregulated, possibly rising as high as the source voltage and damaging the downstream load.)
+
+Because the glow discharge is a "statistical" process, a certain amount of electrical noise is introduced into the regulated voltage as the level of ionization varies. In most cases, this could be easily filtered out by placing a small capacitor in parallel with the VR tube or using an RC decoupling network downstream of the VR tube. Too large a capacitance (>0.1μF for an 0D3, for instance), however, and the circuit will form a relaxation oscillator, definitely ruining the voltage regulation and possibly causing the tube to fail catastrophically.
+
+VR tubes could be operated in series for greater voltage ranges. They could not be operated in parallel: because of manufacturing variations, the current would not be shared equally among several tubes in parallel. (Note the equivalent behavior with series and parallel connected Zener diodes.)
+
+Presently, VR tubes have been almost-entirely supplanted by solid state regulators based on Zener diodes and avalanche breakdown diodes.
+
+Correctly operating VR tubes glow during normal operation. The color of the glow varies depending upon the gas mixture used to fill the tubes.
+
+Though they lack a heater, VR tubes often do become warm during operation due to the current and voltage drop through them.
+
+

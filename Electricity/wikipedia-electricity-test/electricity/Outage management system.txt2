@@ -1,0 +1,28 @@
+﻿Outage management system
+
+An outage management system (OMS) is a computer system used by operators of electric distribution systems to assist in restoration of power.
+
+Major functions usually found in an OMS include:
+
+At the core of a modern outage management system is a detailed network model of the distribution system. The utility's geographic information system (GIS) is usually the source of this network model. By combining the locations of outage calls from customers, a rules engine is used to predict the locations of outages. For instance, since the distribution system is primarily tree-like or radial in design, all calls in particular area downstream of a fuse could be inferred to be caused by a single fuse or circuit breaker upstream of the calls.
+
+The outage calls are usually taken by call takers in a call center utilizing a customer information system (CIS). Another common way for outage calls to enter into the CIS (and thus the OMS) is by integration with an interactive voice response (IVR) system. The CIS is also the source for all the customer records which are linked to the network model. Customers are typically linked to the transformer serving their residence or business. It is important that every customer be linked to a device in the model so that accurate statistics are derived on each outage. Customers not linked to a device in the model are referred to as "fuzzies".
+
+More advanced automatic meter reading (AMR) systems can provide outage detection and restoration capability and thus serve as virtual calls indicating customers who are without power. However, unique characteristics of AMR systems such as the additional system loading and the potential for false positives requires that additional rules and filter logic must be added to the OMS to support this integration.
+
+Outage management systems are also commonly integrated with SCADA systems which can automatically report the operation of monitored circuit breakers and other intelligent devices such as SCADA reclosers.
+
+Another system that is commonly integrated with an outage management system is a mobile data system. This integration provides the ability for outage predictions to automatically be sent to crews in the field and for the crews to be able to update the OMS with information such as estimated restoration times without requiring radio communication with the control center. Crews also transmit details about what they did during outage restoration.
+
+It is important that the outage management system electrical model be kept up to current so that it can accurately make outage predictions and also accurately keep track of which customers are out and which are restored. By using this model and by tracking which switches, breakers and fuses are open and which are closed, network tracing functions can be used to identify every customer who is out, when they were first out and when they were restored. Tracking this information is the key to accurately reporting outage statistics. (P.-C. Chen, et al., 2014)
+
+OMS benefits include:
+
+An OMS supports distribution system planning activities related to improving reliability by providing important outage statistics. In this role, an OMS provides the data needed for the calculation of measurements of the system reliability. Reliability is commonly measured by performance indices defined by the IEEE P1366-2003 standard. The most frequently used performance indices are SAIDI, CAIDI, SAIFI and MAIFI.
+
+An OMS also support the improvement of distribution reliability by providing historical data that can be mined to find common causes, failures and damages. By understanding the most common modes of failure, improvement programs can be prioritized with those that provide the largest improvement on reliability for the lowest cost.
+
+While deploying an OMS improves the accuracy of the measured reliability indices, it often results an apparent degradation of reliability due to improvements over manual methods that almost always underestimate the frequency of outages, the size of outage and the duration of outages. To compare reliability in years before an OMS deployment to the years after requires adjustments to be made to the pre-deployment years measurements to be meaningful.
+
+
+

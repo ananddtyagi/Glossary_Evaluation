@@ -1,0 +1,82 @@
+﻿Quantum pseudo-telepathy
+
+Quantum pseudo-telepathy is the fact that in certain Bayesian games with asymmetric information, players who have access to a shared physical system in an entangled quantum state, and who are able to execute strategies that are contingent upon measurements performed on the entangled physical system, are able to achieve higher expected payoffs in equilibrium than can be achieved in any mixed-strategy Nash equilibrium of the same game by players without access to the entangled quantum system.
+
+In their 1999 paper, Gilles Brassard, Richard Cleve and Alain Tapp demonstrated that quantum pseudo-telepathy allows players in some games to achieve outcomes that would otherwise only be possible if participants were allowed to communicate during the game.
+
+This phenomenon came to be referred to "as quantum pseudo-telepathy", with the prefix "pseudo" referring to the fact that quantum pseudo-telepathy does not involve the exchange of information between any parties. Instead, quantum pseudo-telepathy removes the need for parties to exchange information in some circumstances.
+
+By removing the need to engage in communication to achieve mutually advantageous outcomes in some circumstances, quantum pseudo-telepathy could be useful if some participants in a game were separated by many light years, meaning that communication between them would take many years. This would be an example of a macroscopic implication of quantum non-locality.
+
+Quantum pseudo-telepathy is generally used as a thought experiment to demonstrate the non-local characteristics of quantum mechanics. However, quantum pseudo-telepathy is a real-world phenomenon which can be verified experimentally. It is thus an especially striking example of an experimental confirmation of Bell inequality violations.
+
+A Bayesian game is a game in which both players have imperfect information regarding the value of certain parameters. In a Bayesian game it is sometimes the case that for at least some players, the highest expected payoff achievable in a Nash equilibrium is lower than that which could have been achieved had there not have been imperfect information. Asymmetric information is a special case of imperfect information, in which different players differ in terms of the knowledge they possess regarding the value of certain parameters.
+
+A common assumption in classical Bayesian games of asymmetric information is that all players are unaware of the values of certain crucial parameters before the game begins. Once the game begins, different players receive information regarding the value of different parameters. However, once the game begins, players are forbidden to communicate and are consequently unable to exchange the information they collectively possess regarding the game's parameters.
+
+This assumption has a crucial implication: even if players are able to communicate and discuss strategies before the game begins, this will not enhance any player's expected payoff, because the crucial information regarding unknown parameters has not yet been 'revealed' to the game's participants. However, if the game were to be modified, so that players were permitted to communicate after the game has begun, once each player has received some information regarding the value of some of the unknown parameters, then it may be possible for the game's participants to achieve a Nash equilibrium which is Pareto optimal to any Nash equilibrium achievable in the absence of communication.
+
+The crucial implication of quantum telepathy is that although communication before a Bayesian game of asymmetric information begins does not result in improved equilibrium payoffs, it can be proven that in some Bayesian games, allowing players to exchange entangled qubits "before" the game begins can allow players to achieve a Nash equilibrium which would only otherwise be achievable if in-game communication were permitted.
+
+An example of quantum pseudo-telepathy can be observed in the Mermin–Peres magic square game.
+
+This game features two players, Alice and Bob.
+
+At the very start of the game, Alice and Bob are separated. After they are separated, communication between them is not possible.
+
+The game requires that Alice fill in one row, and Bob one column, of a 3x3 table with plus and minus signs.
+
+Before the game begins, Alice does not know which row of the table she will be required to fill in. Similarly, Bob does not know which column he will be required to fill in.
+
+After the two players are separated, Alice is randomly assigned one row of the table and asked to fill it with plus and minus signs. Similarly, Bob is randomly assigned one column of the table and asked to fill it with plus and minus signs.
+
+The players are subject to the following requirement: Alice must fill in her row such that there is an even number of minus signs in that row. Furthermore, Bob must fill in his column such that there is an odd number of minus signs in that column.
+
+Crucially, Alice does not know which column Bob has been asked to fill in. Similarly, Bob does not know which row Alice has been asked to fill in. Thus, this game is a Bayesian game with asymmetric imperfect information, since neither player has complete information about the game (imperfect information) and both players differ in terms of the information that they do possess (asymmetric information).
+
+Depending on the actions taken by participants, one of two outcomes can occur in this game. Either both players win, or both players lose.
+
+If Alice and Bob place the same sign in the cell shared by their row and column, they win the game. If they place opposite signs, they lose the game.
+
+Note that both players place all their plus and minus signs simultaneously, and neither player can see where the other player has placed their signs until the game is finished.
+
+It is easy to prove that in the classic formulation of this game, there is no strategy (Nash equilibrium or otherwise) which allows the players to win the game with probability greater than 8/9. If Alice and Bob meet before the game begins and exchange information, this will not impact the game in any way; the best the players can do is still win with probability 8/9.
+
+The reason why the game can only be won with probability 8/9 is that a perfectly consistent table does not exist: it would be self-contradictory, with the sum of the minus signs in the table being even based on row sums, and being odd when using column sums, or vice versa. As a further illustration, if they use the partial table shown in the diagram (supplemented by a −1 for Alice and a +1 for Bob in the missing square) and the challenge rows and columns are selected at random, they will win 8/9 of the time. No classical strategy exists which can beat this victory rate (with random row and column selection).
+
+If the game was modified to allow Alice and Bob to communicate "after" they discover which row/column they have been assigned, then there will exist a set of strategies allowing both players to win the game with probability 1. However, if quantum pseudo-telepathy were used, then Alice and Bob could both win the game "without" communicating.
+
+Use of quantum pseudo-telepathy would enable Alice and Bob to win the game 100% of the time "without" any communication once the game has begun.
+
+This requires Alice and Bob to possess two pairs of particles with entangled states. These particles must have been prepared before the start of the game. One particle of each pair is held by Alice and the other by Bob. When Alice and Bob learn which column and row they must fill, each uses that information to select which measurements they should make to their particles. The result of the measurements will appear to each of them to be random (and the observed partial probability distribution of either particle will be independent of the measurement performed by the other party), so no real "communication" takes place.
+
+However, the process of measuring the particles imposes sufficient structure on the joint probability distribution of the results of the measurement such that if Alice and Bob choose their actions based on the results of their measurement, then there will exist a set of strategies and measurements allowing the game to be won with probability 1.
+
+Note that Alice and Bob could be light years apart from one another, and the entangled particles will still enable them to coordinate their actions sufficiently well to win the game with certainty.
+
+Each round of this game uses up one entangled state. Playing "N" rounds requires that "N" entangled states (2N independent Bell pairs, see below) be shared in advance. This is because each round needs 2-bits of information to be measured (the third entry is determined by the first two, so measuring it isn't necessary), which destroys the entanglement. There is no way to reuse old measurements from earlier games.
+
+The trick is for Alice and Bob to share an entangled quantum state and to use specific measurements on their components of the entangled state to derive the table entries. A suitable correlated state consists of an entangled pair of Bell states:
+
+here formula_2 and formula_3 are eigenstates of the Pauli operator "S" with eigenvalues +1 and −1, respectively, whilst the subscripts a, b, c, and d identify the components of each Bell state, with "a" and "c" going to Alice, and "b" and "d" going to Bob. The symbol formula_4 represents a tensor product.
+
+Observables for these components can be written as products of the Pauli spin matrices:
+
+Products of these Pauli spin operators can be used to fill the 3×3 table such that each row and each column contains a mutually commuting set of observables with eigenvalues +1 and −1, and with the product of the obervables in each row being the identity operator, and the product of observables in each column equating to minus the identity operator. This is a so-called Mermin–Peres magic square. is shown in below table.
+
+Effectively, while it is not possible to construct a 3×3 table with entries +1 and −1 such that the product of the elements in each row equals +1 and the product of elements in each column equals −1, it is possible to do so with the richer algebraic structure based on spin matrices.
+
+The play proceeds by having each player make three measurements on one (shared) entangled state per round of play. A different measurement must be made to obtain an entry for each box; the measurement to be made is indicated in the table above. It is possible to consistently make all three measurements on one state: that is because the three needed operators all commute. Thus, each player obtains three values. As long as the table above is used, the resulting measurements are guaranteed to always multiply out to +1 for Alice, and −1 for Bob, thus winning the round. Of course, each new round requires a new entangled state, as different rows and columns are "not" compatible with each other.
+
+In classical non-cooperative game theory a coordination game is any game with multiple Nash equilibria. The literature regarding pseudo-telepathy occasionally refers to games such as the Mermin–Peres game as coordination games. On one hand, this is technically correct, because the classic variant of the Mermin–Peres game does feature multiple Nash equilibria.
+
+However, quantum pseudo-telepathy does not provide any solution to the coordination problems which characterize coordination games. Quantum pseudo-telepathy's utility lies in resolving problems with asymmetric information in Bayesian games where communication is prohibited.
+
+For example, implementing pseudo-telepathic strategies in the Mermin–Peres game can remove the need of Bob and Alice to exchange information. However, pseudo-telepathic strategies do not resolve coordination problems. Specifically, even after implementing pseudo-telepathic strategies, Bob and Alice will only win the game with probability one if they both coordinate their pseudo-telepathic strategies in a manner isomorphic to that described above.
+
+It has been demonstrated that the above-described game is the simplest two-player game of its type in which quantum pseudo-telepathy allows a win with probability one. Other games in which quantum pseudo-telepathy occurs have been studied, including larger magic square games, graph colouring games giving rise to the notion of quantum chromatic number, and multiplayer games involving more than two participants.
+Recent studies tackle the question of the robustness of the effect against noise due to imperfect measurements on the coherent quantum state. Recent work has shown an exponential enhancement in the communication cost of nonlinear distributed computation, due to entanglement, when the communication channel itself is restricted to be linear.
+
+
+
+

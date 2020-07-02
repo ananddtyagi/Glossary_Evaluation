@@ -1,0 +1,19 @@
+﻿Economic optimization of electric conductors
+
+Economic optimization of electric conductors (also known as economic cable sizing - ECS) is the process of selecting cable based on both safety and economic analysis.
+The objective of ECS is to minimise lifetime costs of cables and to reduce emissions due to loses in cables.
+
+Four criteria are typically used for cable selection:
+
+Until recently, energy costs were sufficiently low that the ongoing cable losses were not significant. 
+However, there are two recent effects that have changed this situation:
+
+There are two primary lifetime costs associated with power cables:
+
+The total lifetime cost is the sum of the costs, all of which are related to cable size. 
+The objective of economic cable sizing is to find the lowest overall total cost while maintaining safety standards.
+There are several approaches to this which are all based upon these fundamental principles. The following standards cover the economics sizing of cables:
+
+In New South Wales, Australia it is permissible to use the calculated energy savings that are due to implementing ECS in BASIX (Building Sustainability Index) applications. Each ECS based application is assessed on a case by case basis.
+
+

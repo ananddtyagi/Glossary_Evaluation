@@ -1,0 +1,110 @@
+﻿Cauchy momentum equation
+
+The Cauchy momentum equation is a vector partial differential equation put forth by Cauchy that describes the non-relativistic momentum transport in any continuum. In convective (or Lagrangian) form it is written: 
+
+where is the density at the point considered in the continuum (for which the continuity equation holds), is the stress tensor, and contains all of the body forces per unit mass (often simply gravitational acceleration). is the flow velocity vector field, which depends on time and space.
+
+After an appropriate change of variables, it can also be written in conservation (or Eulerian) form:
+
+where is the momentum density at a given space-time point, is the flux associated to the momentum density, and contains all of the body forces per unit volume.
+
+Applying Newton's second law (th component) to a control volume in the continuum being modeled gives:
+
+and basing on the Reynolds transport theorem and on the material derivative notation:
+
+where represents the control volume. Since this equation must hold for any control volume, it must be true that the integrand is zero, from this the Cauchy momentum equation follows. The main step (not done above) in deriving this equation is establishing that the derivative of the stress tensor is one of the forces that constitutes .
+
+Cauchy equations can also be put in the following form:
+
+simply by defining:
+
+where is the momentum density at the point considered in the continuum (for which the continuity equation holds), is the flux associated to the momentum density, and contains all of the body forces per unit volume. is the dyad of the velocity.
+
+Here and have same number of dimensions as the flow speed and the body acceleration, while , being a tensor, has .
+
+In the Eulerian forms it is apparent that the assumption of no deviatoric stress brings Cauchy equations to the Euler equations.
+
+A significant feature of the Navier–Stokes equations is the presence of convective acceleration: the effect of time-independent acceleration of a flow with respect to space. While individual continuum particles indeed experience time dependent acceleration, the convective acceleration of the flow field is a spatial effect, one example being fluid speeding up in a nozzle.
+
+Regardless of what kind of continuum is being dealt with, convective acceleration is a nonlinear effect. Convective acceleration is present in most flows (exceptions include one-dimensional incompressible flow), but its dynamic effect is disregarded in creeping flow (also called Stokes flow). Convective acceleration is represented by the nonlinear quantity , which may be interpreted either as or as , with the tensor derivative of the velocity vector . Both interpretations give the same result.
+
+The convection term formula_6 can be written as , where is the advection operator. This representation can be contrasted to the one in terms of the tensor derivative. 
+The tensor derivative is the component-by-component derivative of the velocity vector, defined by , so that
+
+The vector calculus identity of the cross product of a curl holds:
+
+where the Feynman subscript notation is used, which means the subscripted gradient operates only on the factor .
+
+Lamb in his famous classical book Hydrodynamics (1895), still in print, used this identity to change the convective term of the flow velocity in rotational form, i.e. without a tensor derivative:
+
+where the vector formula_10 is called the Lamb vector. The Cauchy momentum equation becomes:
+
+Using the identity:
+
+the Cauchy equation becomes:
+
+In fact, in case of an external conservative field, by defining its potential :
+
+In case of a steady flow the time derivative of the flow velocity disappears, so the momentum equation becomes:
+
+And by projecting the momentum equation on the flow direction, i.e. along a "streamline", the cross product disappears due to a vector calculus identity of the triple scalar product:
+
+If the stress tensor is isotropic, then only the pressure enters, and the Euler momentum equation in the steady incompressible case becomes:
+
+In the steady incompressible case the mass equation is simply:
+
+that is, "the mass conservation for a steady incompressible flow states that the density along a streamline is constant". This leads to a considerable simplification of the Euler momentum equation:
+
+The convenience of defining the total head for an inviscid liquid flow is now apparent:
+
+in fact, the above equation can be simply written as:
+
+That is, "the momentum balance for a steady inviscid and incompressible flow in an external conservative field states that the total head along a streamline is constant".
+
+The Lamb form is also useful in irrotational flow, where the curl of the velocity (called vorticity) is equal to zero. In that case, the convection term formula_6 reduces to
+
+The effect of stress in the continuum flow is represented by the and terms; these are gradients of surface forces, analogous to stresses in a solid. Here is the pressure gradient and arises from the isotropic part of the Cauchy stress tensor. This part is given by the normal stresses that occur in almost all situations. The anisotropic part of the stress tensor gives rise to , which usually describes viscous forces; for incompressible flow, this is only a shear effect. Thus, is the deviatoric stress tensor, and the stress tensor is equal to:
+
+where is the identity matrix in the space considered and the shear tensor.
+
+All non-relativistic momentum conservation equations, such as the Navier–Stokes equation, can be derived by beginning with the Cauchy momentum equation and specifying the stress tensor through a constitutive relation. By expressing the shear tensor in terms of viscosity and fluid velocity, and assuming constant density and viscosity, the Cauchy momentum equation will lead to the Navier–Stokes equations. By assuming inviscid flow, the Navier–Stokes equations can further simplify to the Euler equations.
+
+The divergence of the stress tensor can be written as
+
+The effect of the pressure gradient on the flow is to accelerate the flow in the direction from high pressure to low pressure.
+
+As written in the Cauchy momentum equation, the stress terms and are yet unknown, so this equation alone cannot be used to solve problems. Besides the equations of motion—Newton's second law—a force model is needed relating the stresses to the flow motion. For this reason, assumptions based on natural observations are often applied to specify the stresses in terms of the other flow variables, such as velocity and density.
+
+The vector field represents body forces per unit mass. Typically, these consist of only gravity acceleration, but may include others, such as electromagnetic forces. In non-inertial coordinate frames, other "inertial accelerations" associated with rotating coordinates may arise.
+
+Often, these forces may be represented as the gradient of some scalar quantity , with in which case they are called conservative forces. Gravity in the direction, for example, is the gradient of . Because pressure from such gravitation arises only as a gradient, we may include it in the pressure term as a body force . The pressure and force terms on the right-hand side of the Navier–Stokes equation become
+
+In order to make the equations dimensionless, a characteristic length and a characteristic velocity need to be defined. These should be chosen such that the dimensionless variables are all of order one. The following dimensionless variables are thus obtained:
+
+Substitution of these inverted relations in the Euler momentum equations yields:
+
+and by dividing for the first coefficient:
+
+Now defining the Froude number:
+
+the Euler number:
+
+and the coefficient of skin-friction or the one usually referred as 'drag' co-efficient in the field of aerodynamics:
+
+by passing respectively to the conservative variables, i.e. the momentum density and the force density:
+
+the equations are finally expressed (now omitting the indexes):
+
+
+Cauchy equations in the Froude limit (corresponding to negligible external field) are named free Cauchy equations:
+
+
+
+and can be eventually conservation equations. The limit of high Froude numbers (low external field) is thus notable for such equations and is studied with perturbation theory.
+
+Finally in convective form the equations are:
+
+
+
+
+

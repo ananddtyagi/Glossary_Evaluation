@@ -1,0 +1,13 @@
+﻿Arnold–Beltrami–Childress flow
+
+The Arnold–Beltrami–Childress (ABC) flow or Gromeka–Arnold–Beltrami–Childress (GABC) flow is a three-dimensional incompressible velocity field which is an exact solution of Euler's equation. Its representation in Cartesian coordinates is the following:
+
+where formula_4 is the material derivative of the Lagrangian motion of a fluid parcel located at formula_5
+
+It is notable as a simple example of a fluid flow that can have chaotic trajectories.
+
+It is named after Vladimir Arnold, Eugenio Beltrami, and Stephen Childress. Ippolit S. Gromeka's (1881) name has been historically neglected, though much of the discussion has been done by him first.
+
+
+
+

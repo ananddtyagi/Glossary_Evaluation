@@ -1,0 +1,59 @@
+﻿Entropic uncertainty
+
+In quantum mechanics, information theory, and Fourier analysis, the entropic uncertainty or Hirschman uncertainty is defined as the sum of the temporal and spectral Shannon entropies. It turns out that Heisenberg's uncertainty principle can be expressed as a lower bound on the sum of these entropies. This is "stronger" than the usual statement of the uncertainty principle in terms of the product of standard deviations.
+
+In 1957, Hirschman considered a function "f" and its Fourier transform "g" such that
+where the "≈" indicates convergence in , and normalized so that (by Plancherel's theorem),
+
+He showed that for any such functions the sum of the Shannon entropies is non-negative,
+
+A tighter bound,
+
+was conjectured by Hirschman and Everett, proven in 1975 by W. Beckner and in the same year interpreted by as a generalized quantum mechanical uncertainty principle by and Mycielski.
+The equality holds in the case of Gaussian distributions.
+
+Note, however, that the above entropic uncertainty function is distinctly "different" from the quantum Von Neumann entropy represented in phase space.
+
+The proof of this tight inequality depends on the so-called ("q", "p")-norm of the Fourier transformation. (Establishing this norm is the most difficult part of the proof.)
+
+From this norm, one is able to establish a lower bound on the sum of the (differential) Rényi entropies, , where , which generalize the Shannon entropies. For simplicity, we consider this inequality only in one dimension; the extension to multiple dimensions is straightforward and can be found in the literature cited.
+
+The ("q", "p")-norm of the Fourier transform is defined to be
+
+In 1961, Babenko found this norm for "even" integer values of "q". Finally, in 1975,
+using Hermite functions as eigenfunctions of the Fourier transform, Beckner proved that the value of this norm (in one dimension) for all "q" ≥ 2 is
+Thus we have the Babenko–Beckner inequality that
+
+From this inequality, an expression of the uncertainty principle in terms of the Rényi entropy can be derived.
+
+Letting formula_9, 2"α"="p", and 2"β"="q", so that and 1/2<"α"<1<"β", we have
+Squaring both sides and taking the logarithm, we get
+
+Multiplying both sides by 
+reverses the sense of the inequality,
+
+Rearranging terms, finally yields an inequality in terms of the sum of the Rényi entropies,
+
+Note that this inequality is symmetric with respect to and : One no longer need assume that ; only that they are positive and not both one, and that "1/α + 1/β" = 2. To see this symmetry, simply exchange the rôles of "i" and −"i" in the Fourier transform.
+
+Taking the limit of this last inequality as "α, β" → 1 yields the less general Shannon entropy inequality,
+valid for any base of logarithm, as long as we choose an appropriate unit of information, bit, nat, etc.
+
+The constant will be different, though, for a different normalization of the Fourier transform, (such as is usually used in physics, with normalizations chosen so that "ħ"=1 ), i.e.,
+In this case, the dilation of the Fourier transform absolute squared by a factor of 2 simply adds log(2) to its entropy.
+
+The Gaussian or normal probability distribution plays an important role in the relationship between variance and entropy: it is a problem of the calculus of variations to show that this distribution maximizes entropy for a given variance, and at the same time minimizes the variance for a given entropy. In fact, for any probability density function "φ" on the real line, Shannon's entropy inequality specifies:
+where "H" is the Shannon entropy and "V" is the variance, an inequality that is saturated only in the case of a normal distribution.
+
+Moreover, the Fourier transform of a Gaussian probability amplitude function is also Gaussian—and the absolute squares of both of these are Gaussian, too. This can then be used to derive the usual Robertson variance uncertainty inequality from the above entropic inequality, enabling "the latter to be tighter than the former". That is (for "ħ"=1), exponentiating the Hirschman inequality and using Shannon's expression above, 
+
+Hirschman explained that entropy—his version of entropy was the negative of Shannon's—is a "measure of the concentration of [a probability distribution] in a set of small measure." Thus "a low or large negative Shannon entropy means that a considerable mass of the probability distribution is confined to a set of small measure".
+
+Note that this set of small measure need not be contiguous; a probability distribution can have several concentrations of mass in intervals of small measure, and the entropy may still be low no matter how widely scattered those intervals are. This is not the case with the variance: variance measures the concentration of mass about the mean of the distribution, and a low variance means that a considerable mass of the probability distribution is concentrated in a "contiguous interval" of small measure.
+
+To formalize this distinction, we say that two probability density functions "φ" and "φ" are equimeasurable if
+where is the Lebesgue measure. Any two equimeasurable probability density functions have the same Shannon entropy, and in fact the same Rényi entropy, of any order. The same is not true of variance, however. Any probability density function has a radially decreasing equimeasurable "rearrangement" whose variance is less (up to translation) than any other rearrangement of the function; and there exist rearrangements of arbitrarily high variance, (all having the same entropy.)
+
+
+
+

@@ -1,0 +1,186 @@
+﻿Fractional Schrödinger equation
+
+The fractional Schrödinger equation is a fundamental equation of fractional quantum mechanics. It was discovered by Nick Laskin (1999) as a result of extending the Feynman path integral, from the Brownian-like to Lévy-like quantum mechanical paths. The term "fractional Schrödinger equation" was coined by Nick Laskin.
+
+The fractional Schrödinger equation in the form originally obtained by Nick Laskin is:
+
+
+Further,
+
+Here, the wave functions in the position and momentum spaces; formula_2 and formula_3 are related each other by the 3-dimensional Fourier transforms:
+
+The index "α" in the fractional Schrödinger equation is the Lévy index, 1 < "α" ≤ 2. Thus, the fractional Schrödinger equation includes a space derivative of fractional order "α" instead of the second order ("α" = 2) space derivative in the standard Schrödinger equation. Thus, the fractional Schrödinger equation is a fractional differential equation in accordance with modern terminology. This is the main point of the term "fractional Schrödinger equation" or a more general term fractional quantum mechanics. At "α" = 2 fractional Schrödinger equation becomes the well-known Schrödinger equation.
+
+The fractional Schrödinger equation has the following operator form
+
+where the fractional Hamilton operator formula_5 is given by
+
+The Hamilton operator, formula_5 corresponds to the classical mechanics Hamiltonian function introduced by Nick Laskin
+
+where p and r are the momentum and the position vectors respectively.
+
+The special case when the Hamiltonian formula_9 is independent of time
+is of great importance for physical applications. 
+It is easy to see that in this case there exist the special solution of the fractional Schrödinger equation
+where formula_12 satisfies
+
+or
+
+This is the time-independent fractional Schrödinger equation (see, Ref.[2]).
+
+Thus, we see that the wave function formula_15 oscillates with a definite frequency. In classical physics the frequency corresponds to the energy. Therefore, the quantum mechanical state has a definite energy "E". 
+The probability to find a particle at formula_16 is the absolute square of the wave function formula_17
+Because of time-independent fractional Schrödinger equation this is equal to formula_18 and does not depend upon the time. 
+That is, the probability of finding the particle at formula_16 is independent of the time. One can say that the system is in a stationary
+state. In other words, there is no variation in the probabilities as a function of time.
+
+The conservation law of fractional quantum mechanical probability has been discovered for the first time by D.A.Tayurskii and Yu.V. Lysogorski 
+
+where formula_21
+is the quantum mechanical probability density and the vector formula_22
+can be called by the fractional probability current density vector
+
+and
+
+here we use the notation (see also matrix calculus): formula_25.
+
+It has been found in Ref.[5] that there are quantum physical conditions when the new term formula_26 is negligible and we come to the continuity equation for quantum probability current and quantum density (see, Ref.[2]):
+
+Introducing the momentum operator formula_28 we can write the vector formula_29
+in the form (see, Ref.[2])
+
+This is fractional generalization of the well-known equation for probability current density
+vector of standard quantum mechanics (see, Ref.[7]).
+
+The quantum mechanical velocity operator formula_31 is defined as follows:
+
+Straightforward calculation results in (see, Ref.[2])
+
+Hence,
+
+To get the probability current density equal to 1 (the current when one
+particle passes through unit area per unit time) the wave function of a free
+particle has to be normalized as
+
+where formula_36 is the particle velocity, formula_37.
+
+Then we have
+
+that is, the vector formula_29 is indeed the unit vector.
+
+When formula_40 is the potential energy of hydrogenlike atom,
+
+where "e" is the electron charge and "Z" is the atomic number of the hydrogenlike atom, (so "Ze" is the nuclear charge of the atom), we come to following fractional eigenvalue problem,
+
+This eigenvalue problem has first been introduced and solved by Nick Laskin in.
+
+Using the first Niels Bohr postulate yields
+
+and it gives us the equation for the Bohr radius of the fractional hydrogenlike atom
+
+Here "a" is the fractional Bohr radius (the radius of the lowest, "n" = 1, Bohr orbit) defined as,
+
+The energy levels of the fractional hydrogenlike atom are given by
+
+where "E" is the binding energy of the electron in the lowest Bohr orbit
+that is, the energy required to put it in a state with "E" = 0 corresponding to "n" = ∞,
+
+The energy ("α" − 1)"E" divided by "ħc", ("α" − 1)"E"/"ħc", can be considered as fractional generalization of the
+Rydberg constant of standard quantum mechanics. For "α" = 2 and "Z" = 1 the formula
+formula_48 is transformed into
+
+which is the well-known expression for the Rydberg formula.
+
+According to the second Niels Bohr postulate, the frequency of radiation formula_50 associated with the transition, say, for example from the orbit "m" to the orbit "n", is,
+
+The above equations are fractional
+generalization of the Bohr model. In the special Gaussian case, when ("α" = 2) those equations give us the well-known results of the Bohr model.
+
+A particle in a one-dimensional well moves in a potential field formula_52, which is zero for 
+formula_53 and which is infinite elsewhere,
+
+It is evident "a priori" that the energy spectrum will be discrete. The solution of the fractional Schrödinger equation for the stationary state with well-defined energy "E" is described by a wave function formula_57, which can be written as
+
+where formula_59, is now time independent. 
+In regions (i) and (iii),
+the fractional Schrödinger
+equation can be satisfied only if we take formula_60. In the middle region
+(ii), the time-independent fractional Schrödinger equation is (see, Ref.[6]).
+
+This equation defines the wave functions and the energy spectrum within region (ii), while outside
+of the region (ii), xa, the wave functions are zero. The wave function formula_59 has to be continuous everywhere, thus we impose the boundary conditions formula_63 for the solutions of the "time-independent fractional Schrödinger equation" (see, Ref.[6]). Then the solution in region (ii) can be written as
+
+To satisfy the boundary conditions we have to choose
+
+and
+
+It follows from the last equation that
+
+Then the even (formula_68 under reflection formula_69) solution of the time-independent fractional Schrödinger equation formula_70 in the infinite potential well is
+
+The odd (formula_72 under reflection formula_69) solution of the time-independent fractional Schrödinger equation formula_70 in the infinite potential well is
+
+The solutions formula_70 and formula_77 have the
+property that
+
+where formula_79 is the Kronecker symbol and
+
+The eigenvalues of the particle in an infinite potential well are (see, Ref.[6])
+
+It is obvious that in the Gaussian case ("α" = 2) above equations are ö
+transformed into the standard quantum mechanical equations for a particle in a box (for example, see
+Eq.(20.7) in )
+
+The state of the lowest energy, the ground state, in the infinite potential
+well is represented by the formula_82 at "n"=1,
+
+and its energy is
+
+"Fractional quantum oscillator" introduced by Nick Laskin (see, Ref.[2]) is the fractional quantum mechanical model with the Hamiltonian operator formula_85 defined as
+
+where "q" is interaction constant.
+
+The fractional Schrödinger equation for the wave
+function formula_15 of the fractional quantum oscillator is,
+
+Aiming to search for solution in form
+
+we come to the time-independent fractional Schrödinger equation,
+
+The Hamiltonian formula_91 is the fractional
+generalization of the 3D quantum harmonic oscillator Hamiltonian of standard quantum
+mechanics.
+
+The energy levels of 1D fractional quantum oscillator with the Hamiltonian function formula_92 were found in semiclassical approximation (see, Ref.[2]).
+
+We set the total energy equal to "E", so that
+
+whence
+
+At the turning points formula_95. Hence, the classical motion is
+possible in the range formula_96.
+
+A routine use of the Bohr-Sommerfeld quantization rule yields
+
+where the notation formula_98 means the integral over one complete period of
+the classical motion and formula_99 is the turning point
+of classical motion.
+
+To evaluate the integral in the right hand we introduce a new variable formula_100. Then we have
+
+The integral over "dy" can be expressed in terms of the Beta-function,
+
+Therefore,
+
+The above equation gives the energy levels of stationary states for the 1D fractional quantum oscillator (see, Ref.[2]),
+
+This equation is generalization of the well-known energy levels equation of the
+standard quantum harmonic oscillator (see, Ref.[7]) and is transformed into it at "α" = 2 and "β" = 2.
+It follows from this equation that at formula_105 the energy levels are equidistant. When formula_106 and formula_107 the equidistant energy levels can be for "α" = 2 and "β" = 2 only. It means that the only standard quantum harmonic oscillator has an equidistant energy spectrum.
+
+The effective mass of states in solid state systems can depend on the wave vector k, i.e. formally one considers m=m(k). Polariton Bose-Einstein condensate modes are examples of states in solid state systems with mass sensitive to variations and locally in k fractional quantum mechanics is experimentally feasible .
+
+
+
+
+

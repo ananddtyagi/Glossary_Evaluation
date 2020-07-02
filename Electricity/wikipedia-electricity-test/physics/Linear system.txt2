@@ -1,0 +1,50 @@
+﻿Linear system
+
+A linear system is a mathematical model of a system based on the use of a linear operator.
+Linear systems typically exhibit features and properties that are much simpler than the nonlinear case.
+As a mathematical abstraction or idealization, linear systems find important applications in automatic control theory, signal processing, and telecommunications. For example, the propagation medium for wireless communication systems can often be
+modeled by linear systems.
+
+A general deterministic system can be described by an operator, formula_1, that maps an input, formula_2, as a function of formula_3 to an output, formula_4, a type of black box description. Linear systems satisfy the property of superposition. Given two valid inputs 
+as well as their respective outputs
+then a linear system must satisfy
+for any scalar values formula_10 and formula_11.
+The system is then defined by the equation formula_12, where formula_4 is some arbitrary function of time, and formula_2 is the system state. Given formula_4 and formula_1, formula_2 can be solved for. For example, a simple harmonic oscillator obeys the differential equation:
+
+If
+then formula_1 is a linear operator. Letting formula_21, we can rewrite the differential equation as formula_12, which shows that a simple harmonic oscillator is a linear system.
+
+The behavior of the resulting system subjected to a complex input can be described as a sum of responses to simpler inputs. In nonlinear systems, there is no such relation. 
+This mathematical property makes the solution of modelling equations simpler than many nonlinear systems.
+For time-invariant systems this is the basis of the impulse response or the frequency response methods (see LTI system theory), which describe a general input function formula_2 in terms of unit impulses or frequency components. 
+
+Typical differential equations of linear time-invariant systems are well adapted to analysis using the Laplace transform in the continuous case, and the Z-transform in the discrete case (especially in computer implementations).
+
+Another perspective is that solutions to linear systems comprise a system of functions which act like vectors in the geometric sense.
+
+A common use of linear models is to describe a nonlinear system by linearization. This is usually done for mathematical convenience.
+
+The time-varying impulse response "h"("t","t") of a linear system is defined as the response of the system at time "t" = "t" to a single impulse applied at time "t" = "t". In other words, if the input "x"("t") to a linear system is 
+
+where δ("t") represents the Dirac delta function, and the corresponding response "y"("t") of the system is
+
+then the function "h"("t","t") is the time-varying impulse response of the system. Since the system cannot respond before the input is applied the following causality condition must be satisfied:
+
+The output of any general continuous-time linear system is related to the input by an integral which may be written over a doubly infinite range because of the causality condition:
+
+If the properties of the system do not depend on the time at which it is operated then it is said to be time-invariant and h() is a function only of the time difference τ = t-t' which is zero for τ<0 (namely t<t'). By redefinition of h() it is then possible to write the input-output relation equivalently in any of the ways,
+
+Linear time-invariant systems are most commonly characterized by the Laplace transform of the impulse response function called the "transfer function" which is:
+
+In applications this is usually a rational algebraic function of s. Because h(t) is zero for negative t, the integral may equally be written over the doubly infinite range and putting s = iω follows the formula for the "frequency response function":
+
+The output of any discrete time linear system is related to the input by the time-varying convolution sum:
+
+or equivalently for a time-invariant system on redefining h(),
+
+where
+
+represents the lag time between the stimulus at time "m" and the response at time "n".
+
+
+

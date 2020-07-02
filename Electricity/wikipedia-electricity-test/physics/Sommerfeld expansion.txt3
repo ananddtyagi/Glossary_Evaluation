@@ -1,0 +1,38 @@
+﻿Sommerfeld expansion
+
+A Sommerfeld expansion is an approximation method developed by Arnold Sommerfeld for a certain class of integrals which are common in condensed matter and statistical physics. Physically, the integrals represent statistical averages using the Fermi–Dirac distribution.
+
+When the inverse temperature formula_1 is a large quantity, the integral can be expanded in terms of formula_1 as
+
+where formula_4 is used to denote the derivative of formula_5 evaluated at formula_6 and where the formula_7 notation refers to limiting behavior of order formula_8. The expansion is only valid if formula_5 vanishes as formula_10 and goes no faster than polynomially in formula_11 as formula_12.
+If the integral is from zero to infinity, then the integral in the first term of the expansion is from zero to formula_13 and the second term is unchanged.
+Integrals of this type appear frequently when calculating electronic properties, like the heat capacity, in the free electron model of solids. In these calculations the above integral expresses the expected value of the quantity formula_5. For these integrals we can then identify formula_1 as the inverse temperature and formula_13 as the chemical potential. Therefore, the Sommerfeld expansion is valid for large formula_1 (low temperature) systems.
+
+We seek an expansion that is second order in temperature, i.e., to formula_18, where formula_19 is the product of temperature and Boltzmann's constant. Begin with a change variables to formula_20:
+
+Divide the range of integration, formula_22, and rewrite formula_23 using the change of variables formula_24:
+
+Next, employ an algebraic 'trick' on the denominator of formula_23,
+
+to obtain:
+
+Return to the original variables with formula_30 in the first term of formula_23. Combine formula_22 to obtain:
+
+The numerator in the second term can be expressed as an approximation to the first derivative, provided formula_34 is sufficiently small and formula_5 is sufficiently smooth:
+
+to obtain,
+
+The definite integral is known to be:
+
+Hence,
+
+We can obtain higher order terms in the Sommerfeld expansion by use of a 
+generating function for moments of the Fermi distribution. This is given by 
+Here formula_41 and Heaviside step function formula_42 subtracts the divergent zero-temperature contribution.
+Expanding in powers of formula_34 gives, for example 
+
+A similar generating function for the odd moments of the Bose function is 
+formula_50
+
+
+

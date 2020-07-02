@@ -1,0 +1,33 @@
+﻿Townsend (unit)
+
+The Townsend (symbol Td) is a physical unit of the reduced electric field (ratio E/N), where formula_1 is electric field and formula_2 is concentration of neutral particles.
+
+It is named after John Sealy Townsend, who conducted early research into gas ionisation.
+
+It is defined by the relation
+
+formula_3
+
+For example, an electric field of
+
+formula_4
+
+in a medium with the density of an ideal gas at 1 atm, the Loschmidt constant
+
+formula_5
+
+gives
+
+formula_6,
+
+which corresponds to formula_7.
+
+This unit is important in gas discharge physics, where it serves as scaling parameter because the mean energy of electrons (and therefore many other properties of discharge) is typically a function of formula_8 over broad range of formula_1 and formula_2.
+
+The concentration formula_2, which is in ideal gas simply related to pressure and temperature, controls the mean free path and collision frequency. The electric field formula_1 governs the energy gained between two successive collisions.
+
+Reduced electric field being a scaling factor effectively means, that increasing the electric field intensity "E" by some factor "q" has the same consequences as lowering gas density "N" by factor "q".
+
+
+
+

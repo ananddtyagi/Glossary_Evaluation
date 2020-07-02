@@ -1,0 +1,13 @@
+﻿Sheath current
+
+A sheath current is a form of charge transfer in wires. Sheath currents can run along the outer sheath of a coaxial cable. This can be caused by a geographically proximate or remote ground potential. 
+
+Sheath currents may lower the efficiency of transmission and can interfere with nearby electronic devices. In addition, sheath currents caused by differences in ground potential at the ends of a coaxial cable to common mode signals that are superimposed on the useful signal as a noise voltage. Sheath currents can be caused by ground loops.
+
+High-frequency signal lines may attenuate or prevent sheath currents using a sheath current filter which is applied to a coaxial cable in or near the device. In the simplest case, this is a ferrite bead, it includes the coaxial inner and outer conductor and acts as a common-mode choke. At the same time, a ferrite bead has a transformer effect, so that a useful signal is confirmed as differential-mode. To increase the inductance compared to the unwanted common mode signal component, the cable can also be repeatedly passed through or wound around the bead.
+
+In addition, higher frequency signals are often used with a capacitive coupling filter. More information is available in the article sheath current filter. 
+
+With a balun, sheath currents can be avoided when a balanced line is connected to an unbalanced line. Without the use of baluns, sheath currents will occur on the unbalanced line. A use for this is the combination of a symmetric dipole antenna with a coaxial line.
+
+

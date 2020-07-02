@@ -1,0 +1,80 @@
+﻿Y-Δ transform
+
+The Y-Δ transform, also written wye-delta and also known by many other names, is a mathematical technique to simplify the analysis of an electrical network. The name derives from the shapes of the circuit diagrams, which look respectively like the letter Y and the Greek capital letter Δ. This circuit transformation theory was published by Arthur Edwin Kennelly in 1899. It is widely used in analysis of three-phase electric power circuits. 
+
+The Y-Δ transform can be considered a special case of the star-mesh transform for three resistors. In mathematics, the Y-Δ transform plays an important role in theory of circular planar graphs.
+
+The Y-Δ transform is known by a variety of other names, mostly based upon the two shapes involved, listed in either order. The Y, spelled out as wye, can also be called T or star; the Δ, spelled out as delta, can also be called triangle, Π (spelled out as pi), or mesh. Thus, common names for the transformation include wye-delta or delta-wye, star-delta, star-mesh, or T-Π. 
+
+The transformation is used to establish equivalence for networks with three terminals. Where three elements terminate at a common node and none are sources, the node is eliminated by transforming the impedances. For equivalence, the impedance between any pair of terminals must be the same for both networks. The equations given here are valid for complex as well as real impedances.
+
+The general idea is to compute the impedance formula_1 at a terminal node of the Y circuit with impedances formula_2, formula_3 to adjacent nodes in the Δ circuit by
+
+where formula_5 are all impedances in the Δ circuit. This yields the specific formulae
+
+The general idea is to compute an impedance formula_5 in the Δ circuit by
+
+where formula_9 is the sum of the products of all pairs of impedances in the Y circuit and formula_10 is the impedance of the node in the Y circuit which is opposite the edge with formula_5. The formulae for the individual edges are thus
+
+Or, if using admittance instead of resistance:
+
+Note that the general formula in Y to Δ using admittance is similar to Δ to Y using resistance.
+
+The feasibility of the transformation can be shown as a consequence of the superposition theorem for electric circuits. A short proof, rather than one derived as a corollary of the more general star-mesh transform, can be given as follows. The equivalence lies in the statement that for any external voltages (formula_14 and formula_15) applying at the three nodes (formula_16 and formula_17), the corresponding currents (formula_18 and formula_19) are exactly the same for both the Y and Δ circuit, and vice versa. In this proof, we start with given external currents at the nodes. According to the superposition theorem, the voltages can be obtained by studying the superposition of the resulting voltages at the nodes of the following three problems applied at the three nodes with current:
+
+
+The equivalence can be readily shown by using Kirchhoff's circuit laws that formula_23. Now each problem is relatively simple, since it involves only one single ideal current source. To obtain exactly the same outcome voltages at the nodes for each problem, the equivalent resistances in the two circuits must be the same, this can be easily found by using the basic rules of series and parallel circuits:
+
+Though usually six equations are more than enough to express three variables (formula_25) in term of the other three variables(formula_26), here it is straightforward to show that these equations indeed lead to the above designed expressions.
+
+In fact, the superposition theorem establishes the relation between the values of the resistances, the uniqueness theorem guarantees the uniqueness of such solution.
+
+Resistive networks between two terminals can theoretically be simplified to a single equivalent resistor (more generally, the same is true of impedance). Series and parallel transforms are basic tools for doing so, but for complex networks such as the bridge illustrated here, they do not suffice. 
+
+The Y-Δ transform can be used to eliminate one node at a time and produce a network that can be further simplified, as shown. 
+
+The reverse transformation, Δ-Y, which adds a node, is often handy to pave the way for further simplification as well.
+
+Every two-terminal network represented by a planar graph can be reduced to a single equivalent resistor by a sequence of series, parallel, Y-Δ, and Δ-Y transformations. However, there are non-planar networks that cannot be simplified using these transformations, such as a regular square grid wrapped around a torus, or any member of the Petersen family.
+
+In graph theory, the Y-Δ transform means replacing a Y subgraph of a graph with the equivalent Δ subgraph. The transform preserves the number of edges in a graph, but not the number of vertices or the number of cycles. Two graphs are said to be Y-Δ equivalent if one can be obtained from the other by a series of Y-Δ transforms in either direction. For example, the Petersen family is a Y-Δ equivalence class.
+
+To relate formula_27 from Δ to formula_28 from Y, the impedance between two corresponding nodes is compared. The impedance in either configuration is determined as if one of the nodes is disconnected from the circuit.
+The impedance between "N" and "N" with "N" disconnected in Δ:
+
+To simplify, let formula_30 be the sum of formula_27.
+
+Thus,
+
+The corresponding impedance between N and N in Y is simple:
+
+hence:
+
+Repeating for formula_36:
+
+and for formula_38:
+
+From here, the values of formula_28 can be determined by linear combination (addition and/or subtraction).
+
+For example, adding (1) and (3), then subtracting (2) yields
+
+For completeness:
+
+Let 
+
+We can write the Δ to Y equations as
+
+Multiplying the pairs of equations yields
+
+and the sum of these equations is
+
+Factor formula_53 from the right side, leaving formula_30 in the numerator, canceling with an formula_30 in the denominator.
+
+Divide (8) by (1)
+
+which is the equation for formula_58. Dividing (8) by (2) or (3) (expressions for formula_59 or formula_60) gives the remaining equations.
+
+
+
+
+

@@ -1,0 +1,5 @@
+﻿Resistive plate chamber
+
+A Resistive plate chamber (RPC) is a particle detector widely used in high energy physics. They are used for detecting muons in most of the modern experiments including ATLAS, CMS, and BES III.
+
+

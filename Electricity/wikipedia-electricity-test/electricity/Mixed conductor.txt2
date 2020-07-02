@@ -1,0 +1,20 @@
+﻿Mixed conductor
+
+Mixed conductor which is known as mixed ion-electron conductor (MIEC) refers to a single-phase material which has a significant conduction ionically and electronically. Due to the mixed conduction, a formally neutral species can transport in a solid and therefore mass storage and redistribution are enabled. Mixed conductors are well known in conjugation with high-temperature superconductivity and are able to capacitate rapid solid-state reactions.
+
+They are used as catalysts (for oxidation), permeation membranes, sensors, and electrodes in batteries and fuel cells because they allow for rapidly transducing chemical signals and permeating chemical components.
+
+Strontium titanate (SrTiO), titanium dioxide (TiO), (La,Ba,Sr)(Mn,Fe,Co)O, La2CuO, cerium(IV) oxide (CeO), lithium iron phosphate (LiFePO), and LiMnPO are examples of mixed conductors.
+
+MIEC materials tend to be nonstoichiometric oxides, many of which have perovskite structures with rare earth metals on the A-site and transition metals on the B-site. Substituting various ions into the lattice of such an oxide can result in increased electronic conductivity through the formation of holes and introduce ionic conductivity by developing oxygen vacancies. This mechanism is known as defect theory, which states that defects like these offer additional pathways that favor fast diffusion. Other promising materials include those with pyrochlore, brownmillerite, Ruddlesden-Popper, and orthorhombic KNiF-type structures.
+
+However, true (single-phase) MIECs that are compatible with other design parameters can be difficult to find, so many researchers have turned to heterogeneous MIEC materials (H-MIECs). An H-MIEC is a composite mixture of two phases: one for conducting ions, and another conducting electrons or holes. These materials are desirable for the ability to tune their properties for specific applications by adjusting concentration levels to achieve optimal electron and ion transport. Porous H-MIECs also incorporate a third phase in the form of pores, which allow the formation of triple phase boundaries (TPBs) between the three phases that provide high catalytic activity.
+
+Current state-of-the-art solid oxide fuel cells (SOFCs) and electrolysis cells (SOECs) frequently incorporate electrodes made of MIEC materials. SOFCs are unique among fuel cells in that negatively charged ions (O) are transported from the cathode to the anode across the electrolyte, making MIEC cathode materials critical to achieving high performance. These fuel cells operate with the following oxidation-reduction reaction:
+
+MIECs like lanthanum strontium cobalt ferrite (LSCF) are frequently the subject of modern fuel cell research, as they enable the reduction reaction to occur over the entire cathode surface area instead of only at the cathode/electrolyte interface.
+
+One of the most commonly used oxygen electrode (cathode) materials is the H-MIEC LSM-YSZ, consisting of lanthanum strontium manganite (LSM) infiltrated onto a YO-doped ZrO scaffold. The LSM nanoparticles are deposited on the walls of the porous YSZ scaffold to provide an electronically conductive pathway and a high density of TPBs for the reduction reaction to occur.
+
+
+

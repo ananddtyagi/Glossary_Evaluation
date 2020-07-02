@@ -1,0 +1,18 @@
+﻿Invariant (physics)
+
+In mathematics and theoretical physics, an invariant is a property of a system which remains unchanged under some transformation.
+
+In the current era, the immobility of Polaris (the North Star) under the diurnal motion of the celestial sphere is a classical illustration of physical invariance.
+
+Another example of a physical invariant is the speed of light under a Lorentz transformation and time under a Galilean transformation. Such spacetime transformations represent shifts between the reference frames of different observers.
+
+By Noether's theorem invariance of the action of a physical system under a continuous symmetry represents a fundamental conservation law. For example, invariance under translation leads to conservation of momentum, and invariance in time leads to conservation of energy.
+
+Quantities can be invariant under some common transformations but not under others. For example, the velocity of a particle is invariant when switching from rectangular coordinates to curvilinear coordinates, but is not invariant when transforming between frames of reference that are moving with respect to each other. Other quantities, like the speed of light, are always invariant.
+
+Invariants are important in modern theoretical physics, and many theories are expressed in terms of their symmetries and invariants. 
+
+Covariance and contravariance generalize the mathematical properties of invariance in tensor mathematics, and are frequently used in electromagnetism, special relativity, and general relativity.
+
+
+

@@ -1,0 +1,496 @@
+﻿Euler equations (fluid dynamics)
+
+In fluid dynamics, the Euler equations are a set of quasilinear hyperbolic equations governing adiabatic and inviscid flow. They are named after Leonhard Euler. The equations represent Cauchy equations of conservation of mass (continuity), and balance of momentum and energy, and can be seen as particular Navier–Stokes equations with zero viscosity and zero thermal conductivity. In fact, Euler equations can be obtained by linearization of some more precise continuity equations like Navier–Stokes equations in a local equilibrium state given by a Maxwellian. The Euler equations can be applied to incompressible and to compressible flow – assuming the flow velocity is a solenoidal field, or using another appropriate energy equation respectively (the simplest form for Euler equations being the conservation of the specific entropy). Historically, only the incompressible equations have been derived by Euler. However, fluid dynamics literature often refers to the full set – including the energy equation – of the more general compressible equations together as "the Euler equations".
+
+From the mathematical point of view, Euler equations are notably hyperbolic conservation equations in the case without external field (i.e., in the limit of high Froude number). In fact, like any Cauchy equation, the Euler equations originally formulated in convective form (also called "Lagrangian form") can also be put in the "conservation form" (also called "Eulerian form"). The conservation form emphasizes the mathematical interpretation of the equations as conservation equations through a control volume fixed in space, and is the most important for these equations also from a numerical point of view. The convective form emphasizes changes to the state in a frame of reference moving with the fluid.
+
+The Euler equations first appeared in published form in Euler's article "Principes généraux du mouvement des fluides", published in "Mémoires de l'Académie des Sciences de Berlin" in 1757 (in this article Euler actually published only the "general" form of the continuity equation and the momentum equation; the energy balance equation would be obtained a century later). They were among the first partial differential equations to be written down. At the time Euler published his work, the system of equations consisted of the momentum and continuity equations, and thus was underdetermined except in the case of an incompressible fluid. An additional equation, which was later to be called the adiabatic condition, was supplied by Pierre-Simon Laplace in 1816.
+
+During the second half of the 19th century, it was found that the equation related to the balance of energy must at all times be kept, while the adiabatic condition is a consequence of the fundamental laws in the case of smooth solutions. With the discovery of the special theory of relativity, the concepts of energy density, momentum density, and stress were unified into the concept of the stress–energy tensor, and energy and momentum were likewise unified into a single concept, the energy–momentum vector
+
+In convective form (i.e., the form with the convective operator made explicit in the momentum equation), the incompressible Euler equations in case of density constant in time and uniform in space are:
+
+where:
+formula_6 denotes the gradient with respect to space,
+
+The first equation is the Euler momentum equation with uniform density (for this equation it could also not be constant in time). By expanding the material derivative, the equations become:
+
+In fact for a flow with uniform density formula_13 the following identity holds:
+
+formula_14
+
+where formula_15 is the mechanic pressure. The second equation is the incompressible constraint, stating the flow velocity is a solenoidal field (the order of the equations is not causal, but underlines the fact that the incompressible constraint is not a degenerate form of the continuity equation, but rather of the energy equation, as it will become clear in the following). Notably, the continuity equation would be required also in this incompressible case as an additional third equation in case of density varying in time "or" varying in space. For example, with density uniform but varying in time, the continuity equation to be added to the above set would correspond to:
+
+formula_16
+
+So the case of constant and uniform density is the only one not requiring the continuity equation as additional equation regardless of the presence or absence of the incompressible constraint. In fact, the case of incompressible Euler equations with constant and uniform density being analyzed is a toy model featuring only two simplified equations, so it is ideal for didactical purposes even if with limited physical relevancy.
+
+The equations above thus represent respectively conservation of mass (1 scalar equation) and momentum (1 vector equation containing formula_17 scalar components, where formula_17 is the physical dimension of the space of interest). Flow velocity and pressure are the so-called "physical variables".
+
+In a coordinate system given by formula_19 the velocity and external force vectors formula_1 and formula_21 have components formula_22 and formula_23, respectively. Then the equations may be expressed in subscript notation as:
+
+where the formula_25 and formula_26 subscripts label the "N"-dimensional space components, and formula_27 is the Kroenecker delta. The use of Einstein notation (where the sum is implied by repeated indices instead of sigma notation) is also frequent.
+
+Although Euler first presented these equations in 1755, many fundamental questions about them remain unanswered.
+
+In three space dimensions it is not even known whether solutions of the equations are defined for all time or if they form singularities.
+
+Smooth solutions of the free (in the sense of without source term: g=0) equations satisfy the conservation of specific kinetic energy:
+
+In the one dimensional case without the source term (both pressure gradient and external force), the momentum equation becomes the inviscid Burgers equation:
+
+This is a model equation giving many insights on Euler equations.
+
+In order to make the equations dimensionless, a characteristic length formula_30, and a characteristic velocity formula_31, need to be defined. These should be chosen such that the dimensionless variables are all of order one. The following dimensionless variables are thus obtained:
+
+and of the field unit vector:
+
+Substitution of these inversed relations in Euler equations, defining the Froude number, yields (omitting the * at apix):
+\nabla\cdot \mathbf u=0
+\end{align} \right.
+
+Euler equations in the Froude limit (no external field) are named free equations and are conservative. The limit of high Froude numbers (low external field) is thus notable and can be studied with perturbation theory.
+
+The conservation form emphasizes the mathematical properties of Euler equations, and especially the contracted form is often the most convenient one for computational fluid dynamics simulations. Computationally, there are some advantages in using the conserved variables. This gives rise to a large class of numerical methods
+called conservative methods.
+
+The free Euler equations are conservative, in the sense they are equivalent to a conservation equation:
+
+or simply in Einstein notation:
+
+where the conservation quantity formula_36 in this case is a vector, and formula_37 is a flux matrix. This can be simply proved.
+
+At last Euler equations can be recast into the particular equation:
+
+For certain problems, especially when used to analyze compressible flow in a duct or in case the flow is cylindrically or spherically symmetric, the one-dimensional Euler equations are a useful first approximation. Generally, the Euler equations are solved by Riemann's method of characteristics. This involves finding curves in plane of independent variables (i.e., formula_38 and formula_39) along which partial differential equations (PDE's) degenerate into ordinary differential equations (ODE's). Numerical solutions of the Euler equations rely heavily on the method of characteristics.
+
+In convective form the incompressible Euler equations in case of density variable in space are:
+
+where the additional variables are:
+
+The first equation, which is the new one, is the incompressible continuity equation. In fact the general continuity equation would be:
+
+formula_43
+
+but here the last term is identically zero for the incompressibility constraint.
+
+The incompressible Euler equations in the Froude limit are equivalent to a single conservation equation with conserved quantity and associated flux respectively:
+
+Here formula_36 has length formula_46 and formula_37 has size formula_48. In general (not only in the Froude limit) Euler equations are expressible as:
+
+The variables for the equations in conservation form are not yet optimised. In fact we could define:
+
+where:
+
+where:
+
+In differential convective form, the compressible (and most general) Euler equations can be written shortly with the material derivative notation:
+
+where the additional variables here is:
+
+The equations above thus represent conservation of mass, momentum, and energy: the energy equation expressed in the variable internal energy allows to understand the link with the incompressible case, but it is not in the simplest form.
+Mass density, flow velocity and pressure are the so-called "convective variables" (or physical variables, or lagrangian variables), while mass density, momentum density and total energy density are the so-called "conserved variables" (also called eulerian, or mathematical variables). 
+
+If one explicitates the material derivative the equations above are:
+
+formula_54
+
+Coming back to the incompressible case, it now becomes apparent that the "incompressible constraint" typical of the former cases actually is a particular form valid for incompressible flows of the "energy equation", and not of the mass equation. In particular, the incompressible constraint corresponds to the following very simple energy equation:
+
+formula_55
+
+Thus for an incompressible inviscid fluid the specific internal energy is constant along the flow lines, also in a time-dependent flow. The pressure in an incompressible flow acts like a Lagrange multiplier, being the multiplier of the incompressible constraint in the energy equation, and consequently in incompressible flows it has no thermodynamic meaning. In fact, thermodynamics is typical of compressible flows and degenerates in incompressible flows.>
+
+Basing on the mass conservation equation, one can put this equation in the conservation form:
+
+formula_56
+
+meaning that for an incompressible inviscid nonconductive flow a continuity equation holds for the internal energy.
+
+Since by definition the specific enthalpy is:
+
+formula_57
+
+The material derivative of the specific internal energy can be expressed as:
+
+formula_58
+
+Then by substituting the momentum equation in this expression, one obtains:
+
+formula_59
+
+And by substituting the latter in the energy equation, one obtains that the enthalpy expression for the Euler energy equation:
+
+formula_60
+
+In a reference frame moving with an inviscid and nonconductive flow, the variation of enthalpy directly corresponds to a variation of pressure.
+
+In thermodynamics the independent variables are the specific volume, and the specific entropy, while the specific energy is a function of state of these two variables.
+
+And by multiplication:
+
+formula_61
+
+This equation is the only belonging to general continuum equations, so only this equation have the same form for example also in Navier-Stokes equations.
+
+On the other hand, the pressure in thermodynamics is the opposite of the partial derivative of the specific internal energy with respect to the specific volume:
+
+formula_62
+
+since the internal energy in thermodynamics is a function of the two variables aforementioned, the pressure gradient contained into the momentum equation should be explicited as:
+
+formula_63
+
+It is convenient for brevity to switch the notation for the second order derivatives:
+
+formula_64
+
+Finally, the energy equation:
+
+formula_65
+
+can be furtherly simplified in convective form by changing variable from specific energy to the specific entropy: in fact the first law of thermodynamics in local form can be written:
+
+formula_66
+
+by substituting the material derivative of the internal energy, the energy equation becomes:
+
+formula_67
+
+now the term between parenthesis is identically zero according to the conservation of mass, then the Euler energy equation becomes simply:
+
+formula_68
+
+For a thermodynamic fluid, the compressible Euler equations are consequently best written as:
+
+\end{align}\right.
+
+where:
+
+In the general case and not only in the incompressible case, the energy equation means that for an inviscid thermodynamic fluid the specific entropy is constant along the flow lines, also in a time-dependent flow. Basing on the mass conservation equation, one can put this equation in the conservation form:
+
+formula_72
+
+meaning that for an inviscid nonconductive flow a continuity equation holds for the entropy.
+
+On the other hand, the two second-order partial derivatives of the specific internal energy in the momentum equation require the specification of the fundamental equation of state of the material considered, i.e. of the specific internal energy as function of the two variables specific volume and specific entropy:
+
+formula_73
+
+The "fundamental" equation of state contains all the thermodynamic information about the system (Callen, 1985), exactly like the couple of a "thermal" equation of state together with a "caloric" equation of state.
+
+The Euler equations in the Froude limit are equivalent to a single conservation equation with conserved quantity and associated flux respectively:
+
+where:
+
+Here formula_36 has length N+2 and formula_37 has size N(N+2). In general (not only in the Froude limit) Euler equations are expressible as:
+
+where:
+
+We remark that also the Euler equation even when conservative (no external field, Froude limit) have no Riemann invariants in general. Some further assumptions are required
+
+However, we already mentioned that for a thermodynamic fluid the equation for the total energy density is equivalent to the conservation equation:
+
+formula_80
+
+Then the conservation equations in the case of a thermodynamic fluid are more simply expressed as:
+
+where:
+
+Another possible form for the energy equation, being particularly useful for isobarics, is:
+
+where:
+
+Expanding the fluxes can be an important part of constructing numerical solvers, for example by exploiting (approximate) solutions to the Riemann problem. In regions where the state vector y varies smoothly, the equations in conservative form can be put in quasilinear form :
+
+where formula_85 are called the flux Jacobians defined as the matrices:
+
+Obviously this Jacobian does not exist in discontinuity regions (e.g. contact discontinuities, shock waves in inviscid nonconductive flows). If the flux Jacobians formula_85 are not functions of the state vector formula_36, the equations reveals "linear".
+
+The compressible Euler equations can be decoupled into a set of N+2 wave equations that describes sound in Eulerian continuum if they are expressed in characteristic variables instead of conserved variables.
+
+In fact the tensor A is always diagonalizable. If the eigenvalues (the case of Euler equations) are all real the system is defined "hyperbolic", and physically eigenvalues represent the speeds of propagation of information. If they are all distinguished, the system is defined "strictly hyperbolic" (it will be proved to be the case of one-dimensional Euler equations). Furthermore, diagonalisation of compressible Euler equation is easier when the energy equation is expressed in the variable entropy (i.e. with equations for thermodynamic fluids) than in other energy variables. This will become clear by considering the 1D case.
+
+If formula_89 is the right eigenvector of the matrix formula_90 corresponding to the eigenvalue formula_91, by building the projection matrix:
+
+formula_92
+
+One can finally find the "characteristic variables" as:
+
+Since A is constant, multiplying the original 1-D equation in flux-Jacobian form with P yields the characteristic equations:
+
+The original equations have been decoupled into N+2 characteristic equations each describing a simple wave, with the eigenvalues being the wave speeds. The variables "w" are called the "characteristic variables" and are a subset of the conservative variables. The solution of the initial value problem in terms of characteristic variables is finally very simple. In one spatial dimension it is:
+
+Then the solution in terms of the original conservative variables is obtained by transforming back:
+
+this computation can be explicited as the linear combination of the eigenvectors:
+
+Now it becomes apparent that the characteristic variables act as weights in the linear combination of the jacobian eigenvectors. The solution can be seen as superposition of waves, each of which is advected independently without change in shape. Each "i"-th wave has shape "w""p" and speed of propagation "λ". In the following we show a very simple example of this solution procedure.
+
+If one considers Euler equations for a thermodynamic fluid with the two further assumptions of one spatial dimension and free (no external field: "g" = 0) :
+
+If one defines the vector of variables:
+
+recalling that formula_69 is the specific volume, formula_101 the flow speed, formula_71 the specific entropy, the corresponding jacobian matrix is:
+
+At first one must find the eigenvalues of this matrix by solving the characteristic equation:
+
+formula_104
+
+that is explicitly:
+
+This determinant is very simple: the fastest computation starts on the last row, since it has the highest number of zero elements.
+
+Now by computing the determinant 2x2:
+
+by defining the parameter:
+
+or equivalently in mechanical variables, as:
+
+This parameter is always real according to the second law of thermodynamics. In fact the second law of thermodynamics can be expressed by several postulates. The most elementary of them in mathematical terms is the statement of convexity of the fundamental equation of state, i.e. the hessian matrix of the specific energy expressed as function of specific volume and specific entropy:
+
+is defined positive. This statement corresponds to the two conditions:
+
+The first condition is the one ensuring the parameter "a" is defined real.
+
+The characteristic equation finally results:
+
+That has three real solutions:
+
+Then the matrix has three real eigenvalues all distinguished: the 1D Euler equations are a strictly hyperbolic system.
+
+At this point one should determine the three eigenvectors: each one is obtained by substituting one eigenvalue in the eigenvalue equation and then solving it. By substituting the first eigenvalue λ one obtains:
+
+Basing on the third equation that simply has solution s=0, the system reduces to:
+
+The two equations are redundant as usual, then the eigenvector is defined with a multiplying constant. We choose as right eigenvector:
+
+The other two eigenvectors can be found with analogous procedure as:
+
+Then the projection matrix can be built:
+
+Finally it becomes apparent that the real parameter "a" previously defined is the speed of propagation of the information characteristic of the hyperbolic system made of Euler equations, i.e. it is the "wave speed". It remains to be shown that the sound speed corresponds to the particular case of an isoentropic transformation:
+
+Sound speed is defined as the wavespeed of an isentropic transformation:
+
+by the definition of the isoentropic compressibility:
+
+the soundspeed results always the square root of ratio between the isoentropic compressibility and the density:
+
+The sound speed in an ideal gas depends only on its temperature:
+
+Since the specific enthalpy in an ideal gas is proportional to its temperature:
+
+the sound speed in an ideal gas can also be made dependent only on its specific enthalpy:
+
+ Bernoulli's theorem is a direct consequence of the Euler equations.
+
+The vector calculus identity of the cross product of a curl holds:
+
+where the Feynman subscript notation formula_127 is used, which means the subscripted gradient operates only on the factor formula_37.
+
+Lamb in his famous classical book Hydrodynamics (1895), still in print, used this identity to change the convective term of the flow velocity in rotational form:
+
+the Euler momentum equation in Lamb's form becomes:
+
+Now, basing on the other identity:
+
+the Euler momentum equation assumes a form that is optimal to demonstrate Bernoulli's theorem for steady flows:
+
+In fact, in case of an external conservative field, by defining its potential φ:
+
+In case of a steady flow the time derivative of the flow velocity disappears, so the momentum equation becomes:
+
+And by projecting the momentum equation on the flow direction, i.e. along a "streamline", the cross product disappears because its result is always perpendicular to the velocity:
+
+In the steady incompressible case the mass equation is simply:
+
+, that is the mass conservation for a steady incompressible flow states that the density along a streamline is constant. Then the Euler momentum equation in the steady incompressible case becomes:
+
+The convenience of defining the total head for an inviscid liquid flow is now apparent:
+
+which may be simply written as:
+
+That is, the momentum balance for a steady inviscid and incompressible flow in an external conservative field states that the total head along a streamline is constant.
+
+In the most general steady (compressibile) case the mass equation in conservation form is:
+
+Therefore, the previous expression is rather
+
+The right-hand side appears on the energy equation in convective form, which on the steady state reads:
+
+The energy equation therefore becomes:
+
+formula_143
+
+so that the internal specific energy now features in the head.
+
+Since the external field potential is usually small compared to the other terms, it is convenient to group the latter ones in the total enthalpy:
+
+and the Bernoulli invariant for an inviscid gas flow is:
+
+which can be written as:
+
+That is, the energy balance for a steady inviscid flow in an external conservative field states that the sum of the total enthalpy and the external potential is constant along a streamline.
+
+In the usual case of small potential field, simply:
+
+By substituting the pressure gradient with the entropy and enthalpy gradient, according to the first law of thermodynamics in the enthalpy form:
+
+in the convective form of Euler momentum equation, one arrives to:
+
+Friedmann deduced this equation for the particular case of a perfect gas and published it in 1922. However, this equation is general for an inviscid nonconductive fluid and no equation of state is implicit in it.
+
+On the other hand, by substituting the enthalpy form of the first law of thermodynamics in the rotational form of Euler momentum equation, one obtains:
+
+and by defining the specific total enthalpy:
+
+one arrives to the Crocco–Vazsonyi form (Crocco, 1937) of the Euler momentum equation:
+
+In the steady case the two variables entropy and total enthalpy are particularly useful since Euler equations can be recast into the Crocco's form:
+
+Finally if the flow is also isothermal:
+
+formula_154
+
+by defining the specific total Gibbs free energy:
+
+formula_155
+
+the Crocco's form can be reduced to:
+
+From these relationships one deduces that the specific total free energy is uniform in a steady, irrotational, isothermal, isoentropic, inviscid flow.
+
+The Euler equations are quasilinear hyperbolic equations and their general solutions are waves. Under certain assumptions they can be simplified leading to Burgers equation. Much like the familiar oceanic waves, waves described by the Euler Equations 'break' and so-called shock waves are formed; this is a nonlinear effect and represents the solution becoming multi-valued. Physically this represents a breakdown of the assumptions that led to the formulation of the differential equations, and to extract further information from the equations we must go back to the more fundamental integral form. Then, weak solutions are formulated by working in 'jumps' (discontinuities) into the flow quantities – density, velocity, pressure, entropy – using the Rankine–Hugoniot equations. Physical quantities are rarely discontinuous; in real flows, these discontinuities are smoothed out by viscosity and by heat transfer. (See Navier–Stokes equations)
+
+Shock propagation is studied – among many other fields – in aerodynamics and rocket propulsion, where sufficiently fast flows occur.
+
+To properly compute the continuum quantities in discontinuous zones (for example shock waves or boundary layers) from the "local" forms (all the above forms are local forms, since the variables being described are typical of one point in the space caonsidered, i.e. they are "local variables") of Euler equations through finite difference methods generally too many space points and time steps would be necessary for the memory of computers now and in the near future. In these cases it is mandatory to avoid the local forms of the conservation equations, passing some weak forms, like the finite volume one.
+
+Starting from the simplest case, one consider a steady free conservation equation in conservation form in the space domain:
+
+where in general F is the flux matrix. By integrating this local equation over a fixed volume V, it becomes:
+
+Then, basing on the divergence theorem, we can transform this integral in a boundary integral of the flux:
+
+This "global form" simply states that there is no net flux of a conserved quantity passing through a region in the case steady and without source. In 1D the volume reduces to an interval, its boundary being its extrema, then the divergence theorem reduces to the fundamental theorem of calculus:
+
+that is the simple finite difference equation, known as the "jump relation":
+
+That can be made explicit as:
+
+where the notation employed is:
+
+Or, if one performs an indefinite integral:
+
+On the other hand, a transient conservation equation:
+
+brings to a jump relation:
+
+For one-dimensional Euler equations the conservation variables and the flux are the vectors:
+
+where:
+
+In the one dimensional case the correspondent jump relations, called the Rankine–Hugoniot equations, are: 
+
+In the steady one dimensional case the become simply:
+
+Thanks to the mass difference equation, the energy difference equation can be simplified without any restriction:
+
+where formula_174 is the specific total enthalpy.
+
+These are the usually expressed in the convective variables:
+
+formula_175
+
+where:
+
+The energy equation is an integral form of the Bernoulli equation in the compressible case. 
+The former mass and momentum equations by substitution lead to the Rayleigh equation:
+
+Since the second member is a constant, the Rayleigh equation always describes a simple line in the pressure volume plane not depending of any equation of state, i.e. the Rayleigh line.
+By substituition in the Rankine–Hugoniot equations, that can be also made explicit as:
+
+One can also obtain the kinetic equation and to the Hugoniot equation. The analytical passages are not shown here for brevity.
+
+These are respectively:
+
+The Hugoniot equation, coupled with the fundamental equation of state of the material:
+
+formula_181
+
+describes in general in the pressure volume plane a curve passing by the conditions (v,p), i.e. the Hugoniot curve, whose shape strongly depends on the type of material considered.
+
+It is also customary to define a "Hugoniot function":
+
+allowing to quantify deviations from the Hugoniot equation, similarly to the previous definition of the "hydraulic head", useful for the deviations from the Bernoulli equation.
+
+On the other hand, by integrating a generic conservation equation:
+
+on a fixed volume V, and then basing on the divergence theorem, it becomes:
+
+By integrating this equation also over a time interval:
+
+Now by defining the node conserved quantity:
+
+we deduce the finite volume form:
+
+In particular, for Euler equations, once the conserved quantities have been determined, the convective variables are deduced by back substitution:
+
+Then the explicit finite volume expressions of the original convective variables are: 
+
+\mathbf u_{m,n+1}=\mathbf u_{m,n} - \frac 1 {\rho_{m,n} V_m} \int_{t_n}^{t_{n+1}} \oint_{\partial V_m} (\rho \mathbf u \otimes \mathbf u - p \mathbf I) \cdot \hat n \, ds \, dt \\[1.2ex]
+\mathbf e_{m,n+1}=\mathbf e_{m,n} - \frac 1 2 (u^2_{m,n+1} - u^2_{m,n}) - \frac 1 {\rho_{m,n} V_m} \int_{t_n}^{t_{n+1}} \oint_{\partial V_m} (\rho e + \frac 1 2 \rho u^2 + p) \mathbf u \cdot \hat n \, ds \, dt \\[1.2ex]
+\end{align}\right. .
+
+It has been shown that Euler equations are not a complete set of equations, but they require some additional constraints to admit a unique solution: these are the equation of state of the material considered. To be consistent with thermodynamics these equations of state should satisfy the two laws of thermodynamics. On the other hand, by definition non-equilibrium system are described by laws lying outside these laws. In the following we list some very simple equations of state and the corresponding influence on Euler equations.
+
+For an ideal polytropic gas the fundamental equation of state is:
+
+where formula_53 is the specific energy, formula_69 is the specific volume, formula_71 is the specific entropy, formula_193 is the molecular mass, formula_194 here is considered a constant (polytropic process), and can be shown to correspond to the heat capacity ratio. This equation can be shown to be consistent with the usual equations of state employed by thermodynamics.
+
+From this equation one can derive the equation for pressure by its thermodynamic definition:
+
+By inverting it one arrives to the mechanical equation of state:
+
+Then for an ideal gas the compressible Euler equations can be simply expressed in the "mechanical" or "primitive variables" specific volume, flow velocity and pressure, by taking the set of the equations for a thermodynamic system and modifying the energy equation into a pressure equation through this mechanical equation of state. At last, in convective form they result:
+
+\end{align}\right.
+
+and in one-dimensional quasilinear form they results:
+
+where the conservative vector variable is:
+
+and the corresponding jacobian matrix is:
+
+In the case of steady flow, it is convenient to choose the Frenet–Serret frame along a streamline as the coordinate system for describing the steady momentum Euler equation:
+where formula_1, formula_15 and formula_40 denote the flow velocity, the pressure and the density, respectively.
+
+Let formula_204 be a Frenet–Serret orthonormal basis which consists of a tangential unit vector, a normal unit vector, and a binormal unit vector to the streamline, respectively.
+Since a streamline is a curve that is tangent to the velocity vector of the flow, the left-handed side of the above equation, the convective derivative of velocity, can be described as follows:
+where formula_206 is the radius of curvature of the streamline.
+
+Therefore, the momentum part of the Euler equations for a steady flow is found to have a simple form:
+
+For barotropic flow formula_208, Bernoulli's equation is derived from the first equation:
+The second equation expresses that, in the case the streamline is curved, there should exist a pressure gradient normal to the streamline because the centripetal acceleration of the fluid parcel is only generated by the normal pressure gradient.
+
+The third equation expresses that pressure is constant along the binormal axis.
+
+Let formula_210 be the distance from the center of curvature of the streamline, 
+then the second equation is written as follows:
+where formula_212
+
+This equation states: 
+"In a steady flow of an inviscid fluid without external forces, the center of curvature of the streamline lies in the direction of decreasing radial pressure." 
+
+Although this relationship between the pressure field and flow curvature is very useful, it doesn't have a name in the English-language scientific literature. Japanese fluid-dynamicists call the relationship the "Streamline curvature theorem".
+
+This "theorem" explains clearly why there are such low pressures in the centre of vortices, which consist of concentric circles of streamlines.
+This also is a way to intuitively explain why airfoils generate lift forces.
+
+All potential flow solutions are also solutions of the Euler equations, and in particular the incompressible Euler equations when the potential is harmonic. 
+Solutions to the Euler equations with vorticity are:
+
+
+

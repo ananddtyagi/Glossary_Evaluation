@@ -1,0 +1,15 @@
+﻿Auxiliary electrode
+
+The auxiliary electrode, often also called the counter electrode, is an electrode used in a three electrode electrochemical cell for voltammetric analysis or other reactions in which an electric current is expected to flow. The auxiliary electrode is distinct from the reference electrode, which establishes the electrical potential against which other potentials may be measured, and the working electrode, at which the cell reaction takes place.
+
+In a two-electrode system, either a known current or potential is applied between the working and auxiliary electrodes and the other variable may be measured. The auxiliary electrode functions as a cathode whenever the working electrode is operating as an anode and vice versa. The auxiliary electrode often has a surface area much larger than that of the working electrode to ensure that the half-reaction occurring at the auxiliary electrode can occur fast enough so as not to limit the process at the working electrode.
+
+When a three electrode cell is used to perform electroanalytical chemistry, the auxiliary electrode, along with the working electrode, provides a circuit over which current is either applied or measured. Here, the potential of the auxiliary electrode is usually not measured and is adjusted so as to balance the reaction occurring at the working electrode. This configuration allows the potential of the working electrode to be measured against a known reference electrode without compromising the stability of that reference electrode by passing current over it.
+
+The auxiliary electrode may be isolated from the working electrode using a glass frit. Such isolation prevents any byproducts generated at the auxiliary electrode from contaminating the main test solution: for example, if a reduction is being performed at the working electrode in aqueous solution, oxygen may be evolved from the auxiliary electrode. Such isolation is crucial during the bulk electrolysis of a species which exhibits reversible redox behavior.
+
+Auxiliary electrodes are often fabricated from electrochemically inert materials such as gold, platinum, or carbon.
+
+
+
+

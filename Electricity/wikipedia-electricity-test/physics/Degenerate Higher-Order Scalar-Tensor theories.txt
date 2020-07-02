@@ -1,0 +1,29 @@
+﻿Degenerate Higher-Order Scalar-Tensor theories
+
+Degenerate Higher-Order Scalar-Tensor theories (or DHOST theories) are theories of modified gravity. They have a Lagrangian containing second-order derivatives of a scalar field but do not generate ghosts (kinetic excitations with negative kinetic energy), because they only contain one propagating scalar mode (as well as the two usual tensor modes).
+
+DHOST theories were introduced in 2015 by David Langlois and Karim Noui. They are a generalisation of Beyond Horndeski (or GLPV) theories, which are themselves a generalisation of Horndeski theories. The equations of motion of Horndeski theories contain only two derivatives of the metric and the scalar field, and it was believed that only equations of motion of this form would not contain an extra scalar degree of freedom (which would lead to unwanted ghosts). However, it was first shown that a class of theories now named Beyond Horndeski also avoided the extra degree of freedom. Originally theories which were quadratic in the second derivative of the scalar field were studied, but DHOST theories up to cubic order have now been studied.
+
+All DHOST theories depend on a scalar field formula_1. The general action of DHOST theories is given by
+
+formula_2
+
+where formula_3 is the kinetic energy of the scalar field, formula_4, and the quadratic terms in formula_5 are given by
+
+formula_6
+
+where
+
+formula_7
+
+and the cubic terms are given by
+
+formula_8 
+
+where
+
+formula_9
+
+The formula_10 and formula_11 are arbitrary functions of formula_1 and formula_3.
+
+

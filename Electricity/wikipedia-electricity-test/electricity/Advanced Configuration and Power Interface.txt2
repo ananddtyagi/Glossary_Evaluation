@@ -1,0 +1,72 @@
+﻿Advanced Configuration and Power Interface
+
+In a computer, the Advanced Configuration and Power Interface (ACPI) provides an open standard that operating systems can use to discover and configure computer hardware components, to perform power management by (for example) putting unused components to sleep, and to perform status monitoring. First released in December 1996, ACPI aims to replace Advanced Power Management (APM), the MultiProcessor Specification, and the Plug and Play BIOS (PnP) Specification. ACPI brings the power management under the control of the operating system, as opposed to the previous BIOS-centric system that relied on platform-specific firmware to determine power management and configuration policies. The specification is central to the Operating System-directed configuration and Power Management (OSPM) system, an implementation for ACPI which removes device management responsibilities from legacy firmware interfaces via a UI.
+
+Internally, ACPI advertises the available components and their functions to the operating system kernel using instruction lists ("methods") provided through the system firmware (Unified Extensible Firmware Interface (UEFI) or BIOS), which the kernel parses. ACPI then executes the desired operations written in "ACPI Machine Language" (such as the initialization of hardware components) using an embedded minimal virtual machine.
+
+Intel, Microsoft and Toshiba originally developed the standard, while HP, Huawei and Phoenix also participated later. In October 2013, ACPI Special Interest Group (ACPI SIG), the original developers of the ACPI standard, agreed to transfer all assets to the UEFI Forum, in which all future development will take place.
+
+The UEFI Forum published of the standard, "Revision 6.3", in end of January 2019.
+
+The firmware-level ACPI has three main components: the ACPI tables, the ACPI BIOS, and the ACPI registers. Unlike its predecessors, such as the APM or PnP BIOS, the ACPI implements little of its functionality in the ACPI BIOS code, whose main role is to load the ACPI tables in system memory. Instead, most of the firmware ACPI functionality is provided in bytecode of "ACPI Machine Language" (AML), a Turing-complete, domain-specific low-level language, stored in the ACPI tables. To make use of these tables, the operating system must have an interpreter for the AML bytecode. A reference AML interpreter implementation is provided by the ACPI Component Architecture (ACPICA). At the BIOS development time, AML bytecode is compiled from the ASL (ACPI Source Language) code.
+
+As ACPI also replaces PnP BIOS, it also provides a hardware enumerator, mostly implemented in the Differentiated System Description Table (DSDT) ACPI table. The advantage of a bytecode approach is that unlike PnP BIOS code (which was 16-bit), the ACPI bytecode may be used in any operating system, even in 64-bit long mode.
+
+Overall design decision was not without criticism. In November 2003, Linus Torvalds—author of the Linux kernel—described ACPI as "a complete design disaster in every way". In 2001, other senior Linux software developers like Alan Cox expressed concerns about the requirements that bytecode from an external source must be run by the kernel with full privileges, as well as the overall complexity of the ACPI specification. In 2014, Mark Shuttleworth, founder of the Ubuntu Linux distribution, compared ACPI with Trojan horses.
+
+The ACPI Component Architecture (ACPICA), mainly written by Intel's engineers, provides an open-source platform-independent reference implementation of the operating system–related ACPI code. The ACPICA code is used by Linux, Haiku and FreeBSD, which supplement it with their operating-system specific code.
+
+The first revision of the ACPI specification was released in December 1996, supporting 16 and 32-bit addressing spaces. It was not until August 2000 that ACPI received 64-bit address support as well as support for multiprocessor workstations and servers with revision 2.0.
+
+In September 2004, revision 3.0 was released, bringing to the ACPI specification support for SATA controllers, PCI Express bus, multiprocessor support for more than 256 processors, ambient light sensors and user-presence devices, as well as extending the thermal model beyond the previous processor-centric support.
+
+Released in June 2009, revision 4.0 of the ACPI specification added various new features to the design; most notable are the USB 3.0 support, logical processor idling support, and x2APIC support.
+
+Revision 5.0 of the ACPI specification was released in December 2011, followed by the revision 5.1 that was released in July 2014.
+
+The latest specification revision is 6.3, which was released in end of January 2019.
+
+Microsoft's Windows 98 was the first operating system to implement ACPI, but its implementation was somewhat buggy or incomplete, although some of the problems associated with it were caused by the first-generation ACPI hardware. Windows 98 first edition disabled ACPI by default except on a whitelist of systems. Other operating systems, including later versions of Windows, eComStation, FreeBSD, NetBSD, OpenBSD, HP-UX, OpenVMS, Linux, and PC versions of Solaris, have at least some support for ACPI. Some newer operating systems, like Windows Vista, require an ACPI-compliant BIOS in order to work at all. However, Windows Vista sometimes will not work with a motherboard's ACPI.
+
+Windows based operating systems use acpi.sys to access acpi events. 
+
+The 2.4 series of the Linux kernel had only minimal support for ACPI, with better support implemented (and enabled by default) from kernel version 2.6.0 onwards. Old ACPI BIOS implementations tend to be quite buggy, and consequently are not supported by later operating systems. For example, Windows 2000, Windows XP, and Windows Server 2003 only use ACPI if the BIOS date is after January 1, 1999, and for Windows 98 Second Edition this date is December 1, 1999. Similarly, Linux kernel 2.6 blacklisted any ACPI BIOS from before January 1, 2001.
+
+Linux based operating systems can provide access to acpi events via acpid. 
+
+Once an OSPM-compatible operating system activates ACPI, it takes exclusive control of all aspects of power management and device configuration. The OSPM implementation must expose an ACPI-compatible environment to device drivers, which exposes certain system, device and processor states.
+
+The ACPI Specification defines the following four global "Gx" states and six sleep "Sx" states for an ACPI-compliant computer system:
+
+The specification also defines a "Legacy" state: the state on an operating system which does not support ACPI. In this state, the hardware and power are not managed via ACPI, effectively disabling ACPI.
+
+The device states "D0"–"D3" are device dependent:
+
+The CPU power states "C0"–"C3" are defined as follows:
+
+
+While a device or processor operates (D0 and C0, respectively), it can be in one of several power-performance states. These states are implementation-dependent. Though, P0 is always the highest-performance state; with P1 to P"n" being successively lower-performance states, up to an implementation-specific limit of "n" no greater than 16.
+
+P-states have become known as SpeedStep in Intel processors, as PowerNow! or Cool'n'Quiet in AMD processors, and as PowerSaver in VIA processors.
+
+
+ACPI-compliant systems interact with hardware through either a "Function Fixed Hardware (FFH) Interface", or a platform-independent hardware programming model which relies on platform-specific ACPI Machine Language (AML) provided by the original equipment manufacturer (OEM).
+
+Function Fixed Hardware interfaces are platform-specific features, provided by platform manufacturers for the purposes of performance and failure recovery. Standard Intel-based PCs have a fixed function interface defined by Intel, which provides a set of core functionality that reduces an ACPI-compliant system's need for full driver stacks for providing basic functionality during boot time or in the case of major system failure.
+
+ACPI Platform Error Interface (APEI) is a specification for reporting of hardware errors, e.g. from the chipset, to the operating system.
+
+ACPI defines many tables that provide the interface between an ACPI-compliant operating system, and system firmware. This includes Differentiated System Description Table (DSDT), Secondary System Description Table (SSDT), and Static Resource Affinity Table (SRAT), for example.
+
+The tables allow description of system hardware in a platform-independent manner, and are presented as either fixed-formatted data structures or in AML. The main AML table is the DSDT (differentiated system description table).
+
+The Root System Description Pointer is located in a platform-dependent manner, and describes the rest of the tables.
+
+Ubuntu founder Mark Shuttleworth has likened ACPI to Trojan horses. He has described proprietary firmware (ACPI-related or any other firmware) as a security risk, saying that "firmware on your device is the NSA's best friend" and calling firmware (ACPI or non-ACPI) "a Trojan horse of monumental proportions". He has pointed out that low quality, closed source firmware is a major threat to system security: "Your biggest mistake is to assume that the NSA is the only institution abusing this position of trust — in fact, it's reasonable to assume that all firmware is a cesspool of insecurity, courtesy of incompetence of the highest degree from manufacturers, and competence of the highest degree from a very wide range of such agencies".
+
+As a solution to this problem, he has called for declarative firmware (ACPI or non-ACPI). Firmware should be open-source so that the code can be checked and verified. Firmware should be declarative, meaning that it should describe "hardware linkage and dependencies" and should not include executable code.
+
+To see a current list of Common Vulnerabilities and Exposures use a search engine to provide that.
+
+
+

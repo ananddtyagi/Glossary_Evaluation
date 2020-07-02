@@ -1,0 +1,28 @@
+﻿Battery room
+
+A battery room is a room in a facility used to house batteries for backup or uninterruptible power systems. Battery rooms are found in telecommunication central offices, and to provide standby power to computing equipment in datacenters. Batteries provide direct current (DC) electricity, which may be used directly by some types of equipment, or which may be converted to alternating current (AC) by uninterruptible power supply (UPS) equipment. The batteries may provide power for minutes, hours or days depending on the electrical system design, although most commonly the batteries power the UPS during brief electric utility outages lasting only seconds. 
+
+Battery rooms were used to segregate the fumes and corrosive chemicals of wet cell batteries (often lead–acid) from the operating equipment; a separate room also allowed better control of temperature and ventilation for the batteries. In 1890 the Western Union central telegraph office in New York City had 20,000 wet cells, mostly primary zinc-copper type, in use.
+
+Telephone system central offices contain large battery systems to provide power for customer telephones, telephone switches, and related apparatus. Terrestrial microwave links, cellular telephone sites, fibre optic apparatus and satellite communications facilities also have standby battery systems, which may be large enough to occupy a separate room in the building. In normal operation power from the local commercial utility operates telecommunication equipment, and batteries provide power if the normal supply is interrupted. These can be sized for the expected full duration of an interruption, or may be required only to provide power while a standby generator set or other emergency power supply is started. 
+
+Batteries often used in battery rooms are the flooded lead-acid battery, the valve regulated lead-acid battery or the nickel–cadmium battery. Batteries are installed in groups. Several batteries are wired together in a series circuit forming a group providing DC electric power at 12, 24, 48 or 60 volts (or higher). Usually there are two or more groups of series-connected batteries. These groups of batteries are connected in a parallel circuit. This arrangement allows an individual group of batteries to be taken offline for service or replacement without compromising the availability of uninterruptible power. Generally, the larger the battery room's electrical capacity, the larger the size of each individual battery and the higher the room's DC voltage.
+
+Battery rooms are also found in electric power plants and substations where reliable power is required for operation of switchgear, critical standby systems, and possibly black start of the station. Often batteries for large switchgear line-ups are 125 V or 250 V nominal systems, and feature redundant battery chargers with independent power sources. Separate battery rooms may be provided to protect against loss of the station due to a fire in a battery bank. For stations that are capable of black start, power from the battery system may be required for many purposes including switchgear operations.
+
+Very large utility batteries may be used for grid energy storage.
+
+Battery rooms are found on diesel-electric submarines, where they contain the lead-acid batteries used for undersea propulsion of the vessel. Even nuclear submarines contain large battery rooms as backups to provide maneuvering power if the nuclear reactor is shut down. Batteries in surface vessels may also be contained in a battery room.
+
+Battery rooms on ocean-going vessels must prevent seawater from contacting battery acid, as this could produce toxic chlorine gas.
+This is of particular concern on submarines.
+
+Since several types of secondary batteries give off hydrogen if overcharged, ventilation of a battery room is critical to maintain the concentration below the lower explosive limit. The number of air changes per hour required to prevent unsafe accumulation can be calculated from the number of cells and the charging current, given the chemistry of the battery. 
+
+The life span of secondary batteries is reduced at high temperature and the energy storage capacity is reduced at low temperature, so a battery room must have heating or cooling to maintain the proper temperature.
+
+Batteries may contain large quantities of corrosive electrolytes such as sulfuric acid used in lead-acid batteries or caustic potash (aka potassium hydroxide) used in NiCad batteries. Materials of the battery room must resist corrosion and contain any accidental spills. Plant personnel must be protected from spilled electrolyte. In some jurisdictions, large battery systems may contain reportable amounts of sulfuric acid, a concern for fire departments. Battery rooms in industrial and utility installations typically have an eye-wash station or decontamination showers nearby, so that workers who are accidentally splashed with electrolyte can immediately wash it away from the eyes and skin.
+
+
+
+

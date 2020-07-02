@@ -1,0 +1,27 @@
+﻿Linear response function
+
+A linear response function describes the input-output relationship of a signal transducer such as a radio turning electromagnetic waves into music or a neuron turning synaptic input into a response. Because of its many applications in information theory, physics and engineering there exist alternative names for specific linear response functions such as susceptibility, impulse response or impedance, see also transfer function. The concept of a Green's function or fundamental solution of an ordinary differential equation is closely related.
+
+Denote the input of a system by formula_1 (e.g. a force), and the response of the system by formula_2 (e.g. a position). Generally, the value of formula_2 will depend not only on the present value of formula_1, but also on past values. Approximately formula_2 is a weighted sum of the previous values of formula_6, with the weights given by the linear response function formula_7:
+
+The explicit term on the right-hand side is the leading order term of a Volterra expansion for the full nonlinear response. If the system in question is highly non-linear, higher order terms in the expansion, denoted by the dots, become important and the signal transducer cannot adequately be described just by its linear response function.
+
+The complex-valued Fourier transform formula_9 of the linear response function is very useful as it describes the output of the system if the input is a sine wave formula_10 with frequency formula_11. The output reads
+
+with amplitude gain formula_13 and phase shift formula_14.
+
+Consider a damped harmonic oscillator with input given by an external driving force formula_1,
+
+The complex-valued Fourier transform of the linear response function is given by
+
+The amplitude gain is given by the magnitude of the complex number formula_18 and the phase shift by the arctan of the imaginary part of the function, divided by the real one.
+
+From this representation, we see that for small formula_19 the Fourier transform formula_9 of the linear response function yields a pronounced maximum ("Resonance") at the frequency formula_21. The linear response function for a harmonic oscillator is mathematically identical to that of an RLC circuit. The width of the maximum formula_22 typically is much smaller than formula_23 so that the Quality factor formula_24 can be extremely large.
+
+The exposition of linear response theory, in the context of quantum statistics, can be found in a paper by Ryogo Kubo. This defines particularly the Kubo formula, which considers the general case that the "force" h(t) is a perturbation of the basic operator of the system, the Hamiltonian, formula_25 where formula_26 corresponds to a measurable quantity as input, while the output x(t) is the perturbation of the thermal expectation of another measurable quantity formula_27. The Kubo formula then defines the quantum-statistical calculation of the susceptibility formula_28 by a general formula involving only the mentioned operators. 
+
+As a consequence of the principle of causality the complex-valued function formula_29 has poles only in the lower half-plane. This leads to the Kramers–Kronig relations, which relates the real and the imaginary parts of formula_29 by integration. The simplest example is once more the damped harmonic oscillator.
+
+
+
+

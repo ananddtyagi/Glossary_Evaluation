@@ -1,0 +1,45 @@
+﻿Admittance
+
+In electrical engineering, admittance is a measure of how easily a circuit or device will allow a current to flow. It is defined as the reciprocal of impedance. The SI unit of admittance is the siemens (symbol S); the older, synonymous unit is mho, and its symbol is ℧ (an upside-down uppercase omega Ω). Oliver Heaviside coined the term "admittance" in December 1887.
+
+Admittance is defined as
+
+where 
+
+Resistance is a measure of the opposition of a circuit to the flow of a steady current, while impedance takes into account not only the resistance but also dynamic effects (known as reactance). Likewise, admittance is not only a measure of the ease with which a steady current can flow, but also the dynamic effects of the material's susceptance to polarization:
+
+where 
+
+The dynamic effects of the material's susceptance relate to the universal dielectric response, the power law scaling of a system's admittance with frequency under alternating current conditions. 
+
+The impedance, Z, is composed of real and imaginary parts,
+where
+
+Admittance, just like impedance, is a complex number, made up of a real part (the conductance, "G"), and an imaginary part (the susceptance, "B"), thus:
+
+where "G" (conductance) and "B" (susceptance) are given by:
+
+The magnitude and phase of the admittance are given by:
+
+where 
+
+Note that (as shown above) the signs of reactances become reversed in the admittance domain; i.e. capacitive susceptance is positive and inductive susceptance is negative.
+
+In the context of electrical modeling of transformers and transmission lines, shunt components that provide paths of least resistance in certain models are generally specified in terms of their admittance. Each side of most transformer models contains shunt components which model magnetizing current and core losses. These shunt components can be referenced to the primary or secondary side. For simplified transformer analysis, admittance from shunt elements can be neglected. When shunt components have non-negligible effects on system operation, the shunt admittance must be considered. In the diagram below, all shunt admittances are referred to the primary side. The real and imaginary components of the shunt admittance, conductance and susceptance, are represented by Gc and B, respectively.
+
+Transmission lines can span hundreds of kilometers, over which the line's capacitance can affect voltage levels. For short length transmission line analysis, which applies to lines shorter than 80 kilometers, this capacitance can be ignored and shunt components are not necessary in the model. Lines between 80 and about 250 kilometers, generally considered to be in the medium-line category, contain a shunt admittance governed by
+
+formula_12
+
+where
+
+Y – total shunt admittance
+
+y – shunt admittance per unit length
+
+l – length of line
+
+C – capacitance of line
+
+
+

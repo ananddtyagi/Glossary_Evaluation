@@ -1,0 +1,71 @@
+﻿Relation between Schrödinger's equation and the path integral formulation of quantum mechanics
+
+This article relates the Schrödinger equation with the path integral formulation of quantum mechanics using a simple nonrelativistic one-dimensional single-particle Hamiltonian composed of kinetic and potential energy.
+
+Schrödinger's equation, in bra–ket notation, is
+
+where formula_2 is the Hamiltonian operator.
+
+The Hamiltonian operator can be written
+
+where formula_4 is the potential energy, m is the mass and we have assumed for simplicity that there is only one spatial dimension .
+
+The formal solution of the equation is
+
+where we have assumed the initial state is a free-particle spatial state formula_6.
+
+The transition probability amplitude for a transition from an initial state formula_7 to a final free-particle spatial state formula_8 at time is
+
+The path integral formulation states that the transition amplitude is simply the integral of the quantity
+
+over all possible paths from the initial state to the final state. Here S is the classical action.
+The reformulation of this transition amplitude, originally due to Dirac and conceptualized by Feynman, forms the basis of the path integral formulation.
+
+The following derivation makes use of the Trotter product formula, which states that for self-adjoint operators "A" and "B" (satisfying certain technical conditions), we have 
+even if "A" and "B" do not commute.
+
+We can divide the time interval into segments of length
+
+The transition amplitude can then be written
+
+Although the kinetic energy and potential energy operators do not commute, the Trotter product formula, cited above, says that over each small time-interval, we can ignore this noncommutativity and write
+
+For notational simplicity, we delay making this substitution for the moment.
+
+We can insert the identity matrix
+
+We now implement the substitution associated to the Trotter product formula, so that we have, effectively
+
+We can insert the identity
+
+into the amplitude to yield
+
+where we have used the fact that the free particle wave function is
+
+The integral over p can be performed (see Common integrals in quantum field theory) to obtain
+
+The transition amplitude for the entire time period is
+
+If we take the limit of large the transition amplitude reduces to
+
+where S is the classical action given by
+
+and L is the classical Lagrangian given by
+
+Any possible path of the particle, going from the initial state to the final state, is approximated as a broken line and included in the measure of the integral
+
+This expression actually defines the manner in which the path integrals are to be taken. The coefficient in front is needed to ensure that the expression has the correct dimensions, but it has no actual relevance in any physical application.
+
+This recovers the path integral formulation from Schrödinger's equation.
+
+The path integral reproduces the Schrödinger equation for the initial and final state even when a potential is present. This is easiest to see by taking a path-integral over infinitesimally separated times.
+
+Since the time separation is infinitesimal and the cancelling oscillations become severe for large values of , the path integral has most weight for close to . In this case, to lowest order the potential energy is constant, and only the kinetic energy contribution is nontrivial. (This separation of the kinetic and potential energy terms in the exponent is essentially the Trotter product formula.) The exponential of the action is
+
+The first term rotates the phase of locally by an amount proportional to the potential energy. The second term is the free particle propagator, corresponding to times a diffusion process. To lowest order in they are additive; in any case one has with (1):
+
+As mentioned, the spread in is diffusive from the free particle propagation, with an extra infinitesimal rotation in phase which slowly varies from point to point from the potential:
+
+and this is the Schrödinger equation. Note that the normalization of the path integral needs to be fixed in exactly the same way as in the free particle case. An arbitrary continuous potential does not affect the normalization, although singular potentials require careful treatment.
+
+

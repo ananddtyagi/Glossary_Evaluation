@@ -1,0 +1,29 @@
+﻿Coulomb constant
+
+The Coulomb constant, the electric force constant, or the electrostatic constant (denoted , or ) is a proportionality constant in electrodynamics equations. The value of this constant is dependent upon the medium that the charged objects are immersed in. In SI units, in the case of vacuum, it is equal to approximately or . It was named after the French physicist Charles-Augustin de Coulomb (1736–1806) who introduced Coulomb's law.
+
+The Coulomb constant is the constant of proportionality in Coulomb's law,
+
+where is a unit vector in the -direction. In SI: 
+where formula_3 is the vacuum permittivity. This formula can be derived from Gauss' law,
+
+Taking this integral for a sphere, radius , around a point charge, we note that the electric field points radially outwards at all times and is normal to a differential surface element on the sphere, and is constant for all points equidistant from the point charge.
+
+Noting that for some test charge ,
+
+In some modern systems of units, the Coulomb constant has an exact numeric value; in Gaussian units , in Lorentz–Heaviside units (also called "rationalized") . This was previously true in SI when the vacuum permeability was defined as . Together with the speed of light in vacuum , defined as , the vacuum permittivity can be written as , giving an exact value of
+
+Since the redefinition of SI base units, the Coulomb constant is no longer exactly defined and is subject to the measurement error in the fine structure constant so that
+
+The Coulomb constant is used in many electric equations, although it is sometimes expressed as the following product of the vacuum permittivity constant:
+
+The Coulomb constant appears in many expressions including the following:
+
+Coulomb's law:
+
+Electric potential energy:
+
+Electric field:
+
+
+

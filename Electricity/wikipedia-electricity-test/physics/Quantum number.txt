@@ -1,0 +1,18 @@
+﻿Quantum number
+
+Quantum numbers describe values of conserved quantities in the dynamics of a quantum system. In the case of electrons, the quantum numbers can be defined as "the sets of numerical values which give acceptable solutions to the Schrödinger wave equation for the hydrogen atom". An important aspect of quantum mechanics is the quantization of the observable quantities, since quantum numbers are discrete sets of integers or half-integers, although they could approach infinity in some cases. This distinguishes quantum mechanics from classical mechanics where the values that characterize the system such as mass, charge, or momentum, range continuously. Quantum numbers often describe specifically the energy levels of electrons in atoms, but other possibilities include angular momentum, spin, etc. An important family is flavour quantum numbers – internal quantum numbers which determine the type of a particle and its interactions with other particles through the forces. Any quantum system can have one or more quantum numbers; it is thus difficult to list all possible quantum numbers.
+
+The question of "how many quantum numbers are needed to describe any given system" has no universal answer. Hence for each system one must find the answer for a full analysis of the system. A quantized system requires at least one quantum number. The dynamics of any quantum system are described by a quantum Hamiltonian, . There is one quantum number of the system corresponding to the energy, that is to say the eigenvalue of the Hamiltonian. There is also one quantum number for each operator that commutes with the Hamiltonian. These are all the quantum numbers that the system can have. The operators defining the quantum numbers should be independent of each other. Often, there is more than one way to choose a set of independent operators. Consequently, in different situations different sets of quantum numbers may be used for the description of the same system.
+
+Four quantum numbers can describe an electron in an atom completely:
+
+
+The spin-orbital interaction, however, relates these numbers. Thus, a complete description of the system can be given with fewer quantum numbers, if orthogonal choices are made for these basis vectors.
+
+It is important to specify the electron being referred to. This may, for example, be the highest occupied orbital electron; the actual differentiating electron; or the differentiating electron according to the "aufbau" approximation. In lanthanum, for example, the electrons involved are in the 6s; 5d; and 4f orbitals, respectively. In this case the principle quantum numbers are 6, 5, and 4. The "differentiating electron" means the electron that differentiates an element from the previous one.
+
+The model used here describes electrons using four quantum numbers, , , , , given below. It is also the common nomenclature in the classical description of nuclear particle states (e.g. protons and neutrons). A quantum description of molecular orbitals require different quantum numbers, because the Hamiltonian and its symmetries are quite different.
+
+This describes the electron shell, or energy level, of an electron. The value of ranges from 1 to the shell containing the outermost electron of that atom, that is<ref>
+
+

@@ -1,0 +1,21 @@
+﻿Amplitude adjusting
+
+The Amplitude adjusting (also referred to as Amplitude control) enables the power control of electric loads, which are operated with AC voltage. A representative application is the heating control of industrial high temperature furnaces.
+
+Contrary to the conventional phase angle or full wave control, 
+during amplitude control only the Amplitude of the sinusoidal supply current is changed. The level of the amplitude only depends on the consumed power. The sinus oscillation does not change.
+
+Because current and voltage are in phase, only real power is taken from the mains for amplitude control. So the current consumption from the mains is considerably lower than the current consumption in case of phase-angle operation.
+
+The continuous current flow causes a mild operation of the used heater elements and consequently significant longer lifetimes are realized. Depending on the ambient conditions the lifetime can be twice as long. 
+
+Especially the surface damage of the heater elements at thresholds can be reduced.
+
+The amplitude control eliminates the flicker effects and harmonics, as usual for Thyristor units, so that the standard specifications according to EN 61000-3-2 and EN 61000-3-3 are observed.
+
+Reactive power compensation is not required, reducing equipment costs.
+
+Sinus units or IGBT power converters for power control of:
+
+
+

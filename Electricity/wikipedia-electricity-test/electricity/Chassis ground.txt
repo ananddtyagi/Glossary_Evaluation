@@ -1,0 +1,9 @@
+﻿Chassis ground
+
+A chassis ground is a link between different metallic parts of a machine to ensure an electrical connection between them. Examples include electronic instruments and motor vehicles.
+
+
+The chassis must not be considered as a link to the Earth. Depending on the usage of electrical machines, this may or may not be the case. For example, in all cars metallic parts are linked together but they are not linked to the Earth. This explains why one can experience electrical discharge when leaving a car.
+
+
+

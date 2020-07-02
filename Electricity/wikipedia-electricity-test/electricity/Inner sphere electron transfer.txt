@@ -1,0 +1,27 @@
+﻿Inner sphere electron transfer
+
+Inner sphere electron transfer (IS ET) or bonded electron transfer is a redox chemical reaction that proceeds via a covalent linkage—a strong electronic interaction—between the oxidant and the reductant reactants. In inner sphere electron transfer, a ligand bridges the two metal redox centers during the electron transfer event. Inner sphere reactions are inhibited by large ligands, which prevent the formation of the crucial bridged intermediate. Thus, IS ET is rare in biological systems, where redox sites are often shielded by bulky proteins. Inner sphere ET is usually used to describe reactions involving transition metal complexes and most of this article is written from this perspective. However, redox centers can consist of organic groups rather than metal centers.
+
+The bridging ligand could be virtually any entity that can convey electrons. Typically, such a ligand has more than one lone electron pair, such that it can serve as an electron donor to both the reductant and the oxidant. Common bridging ligands include the halides and the pseudohalides such as hydroxide and thiocyanate. More complex bridging ligands are also well known including oxalate, malonate, and pyrazine. Prior to ET, the bridged complex must form, and such processes are often highly reversible. Electron transfer occurs through the bridge once it is established. In some cases, the stable bridged structure may exist in the ground state; in other cases, the bridged structure may be a transiently-formed intermediate, or else as a transition state during the reaction.
+
+The alternative to inner sphere electron transfer is outer sphere electron transfer. In any transition metal redox process, the mechanism can be assumed to be outer sphere unless the conditions of the inner sphere are met. Inner sphere electron transfer is generally enthalpically more favorable than outer sphere electron transfer due to a larger degree of interaction between the metal centers involved, however, inner sphere electron transfer is usually entropically less favorable since the two sites involved must become more ordered (come together via a bridge) than in outer sphere electron transfer.
+
+The discoverer of the inner sphere mechanism was Henry Taube, who was awarded the Nobel Prize in Chemistry in 1983 for his pioneering studies. A particularly historic finding is summarized in the abstract of the seminal publication.
+"When Co(NH)Cl is reduced by Cr in M [meaning 1 M] HClO, 1 Cl appears attached to Cr for each Cr(III) which is formed or Co(III) reduced. When the reaction is carried on in a medium containing radioactive Cl, the mixing of the Cl attached to Cr(III) with that in solution is less than 0.5%. This experiment shows that transfer of Cl to the reducing agent from the oxidizing agent is direct…"
+The paper and the excerpt above can be described with the following equation:
+
+The point of interest is that the chloride that was originally bonded to the cobalt, the oxidant, becomes bonded to chromium, which in its +3 oxidation state, forms kinetically inert bonds to its ligands. This observation implies the intermediacy of the bimetallic complex [Co(NH)("μ"-Cl)Cr(HO)], wherein ""μ"-Cl" indicates that the chloride bridges between the Cr and Co atoms, serving as a ligand for both. This chloride serves as a conduit for electron flow from Cr(II) to Co(III), forming Cr(III) and Co(II).
+
+In the preceding example, the occurrence of the chloride bridge is "inferred" from the product analysis, but it was "not" observed. One complex that serves as a model for the bridged intermediate is the Creutz–Taube complex, [(NH)RuNCHNRu(NH)]. This species is named after Carol Creutz, who prepared the ion during her PhD studies with Henry Taube. The bridging ligand is the heterocycle pyrazine, 1,4-CHN. In the Creutz–Taube ion, the average oxidation state of ruthenium is +2.5. Spectroscopic studies, however, show that the two ruthenium centers are equivalent, which indicates the ease with which the electron hole communicates between the two metals. The significance of the Creutz–Taube ion is its simplicity, which facilitates theoretical analysis, and its high symmetry, which ensures a high degree of delocalization. Many more complex mixed valence species are known both as molecules and polymeric materials.
+
+Mixed valence compounds contain an element which is present in more than one oxidation state. Well-known mixed valence compounds include the Creutz–Taube complex, Prussian blue and molybdenum blue. Many solids are mixed-valency including indium chalcogenides. Mixed valency is required for organic metals to exhibit electrical conductivity.
+
+As the extinction coefficient decreases, the coupling constant decreases, influencing the angle to increase.
+
+Mixed-valence compounds are subdivided into three groups, according to the Robin–Day classification:
+
+
+Organic mixed valence compounds are also known.
+
+
+

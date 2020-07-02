@@ -1,0 +1,35 @@
+﻿Space cloth
+
+Space cloth is a hypothetical infinite plane of conductive material having a resistance of η ohms per square, where η is the Impedance of free space. "η" ≈ 376.7 ohms. If a transmission line composed of straight parallel perfect conductors in free space is terminated by space cloth that is normal to the transmission line then that transmission line is terminated by its characteristic impedance. The calculation of the characteristic impedance of a transmission line composed of straight, parallel good conductors may be replaced by the calculation of the D.C. resistance between electrodes placed on a two-dimensional resistive surface. This equivalence can be used in reverse to calculate the resistance between two conductors on a resistive sheet if the arrangement of the conductors is the same as the cross section of a transmission line of known impedance. For example, a pad surrounded by a guard ring on a printed circuit board (PCB) is similar to the cross section of a coaxial cable transmission line.
+
+The figure to the right shows a coaxial cable terminated by space cloth. In the case of a closed structure like a coaxial cable, the space cloth may be trimmed to the boundary of the outer conductor. The computation of resistance between the conductors can be computed with 2D electromagnetic field solver methods including the relaxation method and analog methods using resistance paper. 
+
+In the case of a coaxial cable, there is a closed-form solution. The resistive surface is considered to be a series of infinitesimal annular rings, each having a width of "dρ" and a resistance of ("η"/2π"ρ")"dρ". The resistance between the inner electrode and the outer electrode is just the integral over all such rings.
+
+This is exactly the equation for the characteristic impedance of a coaxial cable in free space.
+
+The characteristic impedance of a two parallel wire transmission line is given by
+
+where "d" is the diameter of the wire and "D" is the center to center separation between the wires.
+
+If the second figure is taken to be two round pads on a printed circuit board that has surface contamination resulting in a surface resistivity of "R" (50 MΩ per square, for example) then the resistance between the two pads is given by:
+
+The figure shows the cross section of a three conductor transmission line. The structure has two transmission eigen-modes which are the differential mode (conductors a and b driven with equal amplitude but opposite phase voltages with respect to conductor c) and the common mode (conductors a and b driven with the same voltages with respect to conductor c). In general, the eigen-modes have different characteristic impedances. 
+
+If "w" ≫ "h", "h' ≫ "t", then the field in region IV and V and can be ignored.
+
+The resistance of regions I-III are
+
+formula_4
+
+formula_5
+
+In the common mode, conductors a and b are at the same voltage so there is no effect from region I. The common mode characteristic impedance is the resistance of region II in parallel with region III.
+
+formula_6
+
+In the differential mode, the characteristic impedance is the resistance of region I in parallel with the series combination of regions II and III.
+
+formula_7
+
+

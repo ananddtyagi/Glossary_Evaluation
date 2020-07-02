@@ -1,0 +1,21 @@
+﻿Reversible hydrogen electrode
+
+A reversible hydrogen electrode (RHE) is a reference electrode, more specifically a subtype of the standard hydrogen electrodes, for electrochemical processes. Unlike the standard hydrogen electrode, its measured potential does not change with the pH, so it can be directly used in the electrolyte.
+
+The name refers to the fact that the electrode is in the actual electrolyte solution and not separated by a salt bridge. The hydrogen ion concentration is therefore not 1, but corresponds to that of the electrolyte solution; in this way we can achieve a stable potential with a changing pH value. 
+The potential of the RHE correlates to the pH value:
+
+In general, for hydrogen electrodes in which the reaction:
+
+expires, the following dependence of the equilibrium potential , hydrogen pressure formula_2 and the activity formula_3 of the hydronium ions:
+
+Here formula_5 is the standard reduction potential (this is by definition equal to zero), R is the universal gas constant, T the absolute temperature and F is the Faraday constant.
+
+Surges occur in the electrolysis of water which means that the required cell voltage due to kinetic inhibition is higher than the equilibrium potential. The voltage increases with increasing current density at the electrodes. The measurement of equilibrium potentials is therefore possible without power.
+
+The reversible hydrogen electrode is a fairly practical and reproducible electrode "standard." The term refers to a hydrogen electrode immersed in the electrolyte solution actually used.
+
+The benefit of that electrode is that no salt bridge is needed:
+
+
+

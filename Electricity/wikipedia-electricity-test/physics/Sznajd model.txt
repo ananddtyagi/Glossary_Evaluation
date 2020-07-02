@@ -1,0 +1,22 @@
+﻿Sznajd model
+
+The Sznajd model or United we stand, divided we fall (USDF) model is an econophysics model suggested in 2000 introduced to gain fundamental understanding about opinion dynamics using methods from statistical physics. The Sznajd model implements a phenomenon called social validation and thus extends the Ising spin model. In simple words, the model states:
+For simplicity, one assumes that each individual formula_1 has
+an opinion S which might be Boolean (formula_2 for "no", formula_3 for "yes") in its simplest formulation, which means that each individual either agrees or disagrees to a given question.
+
+In the original 1D-formulation, each individual has exactly two neighbors just like beads on a bracelet. At each time step a pair of individual formula_4 and formula_5 is chosen at random to change their nearest neighbors' opinion (or: Ising spins) formula_6 and formula_7 according to two dynamical rules:
+
+In a closed (1 dimensional) community, two steady states are always reached, namely complete consensus (which is called "ferromagnetic state" in physics) or stalemate (the "antiferromagnetic state").
+Furthermore, Monte Carlo simulations showed that these simple rules lead to complicated dynamics, in particular to a power law in the decision time distribution with an exponent of -1.5.
+
+The final (antiferromagnetic) state of alternating all-on and all-off is unrealistic to represent the behavior of a community. It would mean that the complete population uniformly changes their opinion from one time step to the next. For this reason an alternative dynamical rule was proposed. One possibility is that two spins formula_4 and formula_5 change their nearest neighbors according to the two following rules: 
+
+In recent years, statistical physics has been accepted as modeling framework for phenomena outside the traditional physics. Fields as econophysics or sociophysics formed, and many quantitative analysts in finance are physicists. The Ising model in statistical physics has been a very important step in the history of studying collective (critical) phenomena. The Sznajd model is a simple but yet important variation of prototypical Ising system.
+
+In 2007, Katarzyna Sznajd-Weron has been recognized by the Young Scientist Award for Socio- and Econophysics of the Deutsche Physikalische Gesellschaft (German Physical Society) for an outstanding original contribution using physical methods to develop a better understanding of socio-economic problems.
+
+The Sznajd model belongs to the class of binary-state dynamics on a networks also referred to as Boolean networks. This class of systems includes the Ising model, the voter model and the q-voter model, the Bass diffusion model, threshold models and others.
+The Sznajd model can be applied to various fields:
+
+
+

@@ -1,0 +1,84 @@
+﻿Two-body problem
+
+In classical mechanics, the two-body problem is to predict the motion of two massive objects which are abstractly viewed as point particles. The problem assumes that the two objects interact only with one another; the only force affecting each object arises from the other one, and all other objects are ignored.
+
+The most prominent case of the classical two-body problem is the gravitational case (see also Kepler problem), arising in astronomy for predicting the orbits (or escapes from orbit) of objects such as satellites, planets, and stars. A two-point-particle model of such a system nearly always describes its behavior well enough to provide useful insights and predictions.
+
+A simpler "one body" model, the "central-force problem", treats one object as the immobile source of a force acting on other. One then seeks to predict the motion of the single remaining mobile object. Such an approximation can give useful results when one object is much more massive than the other (as with a light planet orbiting a heavy star, where the star can be treated as essentially stationary).
+
+However, the one-body approximation is usually unnecessary except as a stepping stone. For many forces, including gravitational ones, the general version of the two-body problem can be reduced to a pair of one-body problems, allowing it to be solved completely, and giving a solution simple enough to be used effectively.
+
+By contrast, the three-body problem (and, more generally, the "n"-body problem for "n" ≥ 3) cannot be solved in terms of first integrals, except in special cases.
+
+The two-body problem is interesting in astronomy because pairs of astronomical objects are often moving rapidly in arbitrary directions (so their motions become interesting), widely separated from one another (so they won't collide) and even more widely separated from other objects (so outside influences will be small enough to be ignored safely).
+
+Under the force of gravity, each member of a pair of such objects will orbit their mutual center of mass in an elliptical pattern, unless they are moving fast enough to escape one another entirely, in which case their paths will diverge along other planar conic sections. If one object is very much heavier than the other, it will move far less than the other with reference to the shared center of mass. The mutual center of mass may even be inside the larger object.
+
+For a mathematical summary of the solutions for this case, see Gravitational two-body problem. For the derivation of the solutions, see Classical central-force problem or Kepler problem.
+
+In principle, the same solutions apply to macroscopic problems involving objects interacting not only through gravity, but through any other attractive scalar force field obeying an inverse-square law, with electrostatic attraction being the obvious physical example. In practice, such problems rarely arise. Except perhaps in experimental apparatus or other specialized equipment, we rarely encounter electrostatically interacting objects which are moving fast enough, and in such a direction, as to avoid colliding, and/or which are isolated enough from their surroundings.
+
+Although the two-body model treats the objects as point particles, classical mechanics only apply to systems of macroscopic scale. Most behavior of subatomic particles "cannot" be predicted under the classical assumptions underlying this article or using the mathematics here.
+
+Electrons in an atom are sometimes described as "orbiting" its nucleus, following an early conjecture of Niels Bohr (this is the source of the term "orbital"). However, electrons don't actually orbit nuclei in any meaningful sense, and quantum mechanics are necessary for any useful understanding of the electron's real behavior. Solving the classical two-body problem for an electron orbiting an atomic nucleus is misleading and does not produce many useful insights.
+
+The complete two-body problem can be solved by re-formulating it as two one-body problems: a trivial one and one that involves solving for the motion of one particle in an external potential. Since many one-body problems can be solved exactly, the corresponding two-body problem can also be solved. 
+
+Let x and x be the vector positions of the two bodies, and "m" and "m" be their masses. The goal is to determine the trajectories x("t") and x("t") for all times "t", given the initial positions x("t" = 0) and x("t" = 0) and the initial velocities v("t" = 0) and v("t" = 0).
+
+When applied to the two masses, Newton's second law states that
+
+where F is the force on mass 1 due to its interactions with mass 2, and F is the force on mass 2 due to its interactions with mass 1. The two dots on top of the x position vectors denote their second derivative with respect to time, or their acceleration vectors.
+
+Adding and subtracting these two equations decouples them into two one-body problems, which can be solved independently. "Adding" equations (1) and (2) results in an equation describing the center of mass (barycenter) motion. By contrast, "subtracting" equation (2) from equation (1) results in an equation that describes how the vector r = x − x between the masses changes with time. The solutions of these independent one-body problems can be combined to obtain the solutions for the trajectories x("t") and x("t").
+
+Let formula_3 be the position of the center of mass (barycenter) of the system. Addition of the force equations (1) and (2) yields
+
+where we have used Newton's third law F = −F and where
+
+The resulting equation:
+
+shows that the velocity V = "d"R/"dt" of the center of mass is constant, from which follows that the total momentum "m" v + "m" v is also constant (conservation of momentum). Hence, the position R ("t") of the center of mass can be determined at all times from the initial positions and velocities.
+
+Dividing both force equations by the respective masses, subtracting the second equation from the first and rearranging gives the equation
+
+where we have again used Newton's third law F = −F and where r is the displacement vector from mass 2 to mass 1, as defined above.
+
+The force between the two objects, which originates in the two objects, should only be a function of their separation r and not of their absolute positions x and x; otherwise, there would not be translational symmetry, and the laws of physics would have to change from place to place. The subtracted equation can therefore be written:
+
+where formula_9 is the reduced mass
+
+Solving the equation for r("t") is the key to the two-body problem. The solution depends on the specific force between the bodies, which is defined by formula_11. For the case where formula_11 follows an inverse-square law, see the Kepler problem.
+
+Once R ("t") and r("t") have been determined, the original trajectories may be obtained
+
+as may be verified by substituting the definitions of R and r into the right-hand sides of these two equations.
+
+The motion of two bodies with respect to each other always lies in a plane (in the center of mass frame). 
+
+Proof: Defining the linear momentum p and the angular momentum L of the system, with respect to the center of mass, by the equations
+
+where μ is the reduced mass and r is the relative position r-r (with these written taking the center of mass as the origin, and thus both parallel to r) the rate of change of the angular momentum L equals the net torque N
+
+and using the property of the vector cross product that v × w = 0 for any vectors v and w pointing in the same direction,
+
+with F = "μ d"r /"dt".
+
+Introducing the assumption (true of most physical forces, as they obey Newton's strong third law of motion) that the force between two particles acts along the line between their positions, it follows that r × F =  0 and the angular momentum vector L is constant (conserved). Therefore, the displacement vector r and its velocity v are always in the plane perpendicular to the constant vector L.
+
+If the force F(r) is conservative then the system has a potential energy "U"(r), so the total energy can be written as
+
+In the center of mass frame the kinetic energy is the lowest and the total energy becomes
+The coordinates x and x can be expressed as
+and in a similar way the energy "E" is related to the energies "E" and "E" that separately contain the kinetic energy of each body: 
+
+For many physical problems, the force F(r) is a central force, i.e., it is of the form
+
+where "r" = |r| and r̂ = r/"r" is the corresponding unit vector. We now have:
+
+where "F"("r") is negative in the case of an attractive force.
+
+
+
+
+

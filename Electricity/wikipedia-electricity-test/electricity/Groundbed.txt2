@@ -1,0 +1,15 @@
+﻿Groundbed
+
+A groundbed is an array of electrodes, installed in the ground to provide a low resistance electrical path to ground or earth. A groundbed is a component in an earthing system.
+
+Each electrode is called a ground rod or a earth electrode.
+
+For building electrical grounding systems or earthing systems there is a low resistance conductor bonding the metalwork and this is connected to a groundbed. The electrodes for electrical grounding are often called "ground rods" and are often made from steel with a copper clad surface – typically 1 to 2 m long and in diameter. These are driven vertically into the ground and bonded together with bare copper wire. Other grounding electrodes may include buried solid plates, or a grid of buried wires, where soil conditions do not favor driven ground rods. Buried metallic piping systems, well casings or the reinforcing bars of concrete slabs in contact with the earth have all been used as grounding electrodes.
+
+Various materials may be placed around the ground rod to improve conductivity. These include:
+
+In cathodic protection, the anode groundbed is the arrangement of anodes in the ground or water and it provides the path for protective current to leave the anodes and enter to electrolyte.
+
+In a high voltage direct current transmission system, each converter station may be equipped with a substantial ground bed to facilitate earth return operation of the system. In normal operation of a bipolar HVDC system, current is carried on the two wires of the transmission line, but if a line fails or one converter fails, the earth return can be used to maintain partial operation. Ground beds must be designed to accept considerable current ( on the order of 1000 amperes) for extending times, without drying out. Ground return operation may cause objectionable earth currents that cause corrosion of other buried services such as pipelines. A short overhead power line may be run from the converter station to obtain the best location for a ground bed. 
+
+

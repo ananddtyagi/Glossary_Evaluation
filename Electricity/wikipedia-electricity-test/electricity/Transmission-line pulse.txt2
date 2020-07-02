@@ -1,0 +1,19 @@
+﻿Transmission-line pulse
+
+Transmission-Line Pulse (TLP) is a way to study integrated circuit technologies and circuit behavior in the current and time domain of electrostatic-discharge (ESD) events. The concept was described shortly after WWII in pp. 175–189 of Pulse Generators, Vol. 5 of the MIT Radiation Lab Series. Also, D. Bradley, J. Higgins, M. Key, and S. Majumdar realized a TLP-based laser-triggered spark gap for kilovolt pulses of accurately variable timing in 1969. For investigation of ESD and electrical-overstress (EOS) effects a measurement system using a TLP generator has been introduced first by T. Maloney and N. Khurana in 1985. Since then, the technique has become indispensable for integrated circuit ESD protection development.
+
+The TLP technique is based on charging a long, floating cable to a pre-determined voltage, and discharging it into a Device-Under-Test (DUT). The cable discharge emulates an electro-static discharge event, but employing time-domain reflectometry (TDR), the change in DUT impedance can be monitored as a function of time.
+
+The first commercial TLP system was developed by Barth Electronics in 1990s. Since then, other commercial systems have been developed (e.g., by Thermo Fisher Scientific, Grundtech, ESDEMC Technology, High Power Pulse Instruments, Hanwa, TLPsol).
+
+A subset of TLP, VF-TLP (Very-Fast Transmission-Line Pulsing), has lately gained popularity with its improved resolution and bandwidth for analysis of ephemeral ESD events such as CDM (Charged Device Model) events. Pioneered by academia (University of Illinois) and commercialized by Barth Electronics, VF-TLP has become an important ESD analysis tool for analyzing modern high-speed semiconductor circuits.
+
+ANSI/ESD STM5.5.1-2014 Electrostatic Discharge Sensitivity Testing – Transmission Line Pulse (TLP) – Component Level
+
+ANSI/ESD SP5.5.2-2007 Electrostatic Discharge Sensitivity Testing - Very Fast Transmission Line Pulse (VF-TLP) - Component Level
+
+IEC 62615:2010 Electrostatic discharge sensitivity testing - Transmission line pulse (TLP) - Component level
+
+
+
+

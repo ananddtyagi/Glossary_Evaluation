@@ -1,0 +1,28 @@
+﻿Classical electron radius
+
+The classical electron radius is a combination of fundamental physical quantities that define a length scale for problems involving an electron interacting with electromagnetic radiation. It links the classical electrostatic self-interaction energy of a homogeneous charge distribution to the electron's relativistic mass–energy. According to modern understanding, the electron is a point particle with a point charge and no spatial extent. Attempts to model the electron as a non-point particle have been described as ill-conceived and counter-pedagogic. Nevertheless, it is useful to define a length that characterizes electron interactions in atomic-scale problems. The classical electron radius is given as (in SI units)
+
+where formula_2 is the elementary charge, formula_3 is the electron mass, formula_4 is the speed of light, and formula_5 is the permittivity of free space. This numerical value is several times larger than the radius of the proton.
+
+In cgs units, the permittivity factor does not enter, but the classical electron radius has the same value.
+
+The classical electron radius is sometimes known as the Lorentz radius or the Thomson scattering length. It is one of a trio of related scales of length, the other two being the Bohr radius formula_6 and the Compton wavelength of the electron formula_7. The classical electron radius is built from the electron mass formula_8, the speed of light formula_4 and the electron charge formula_2. The Bohr radius is built from formula_8, formula_2 and the Planck constant formula_13. The Compton wavelength is built from formula_8, formula_13 and formula_4. Any one of these three length scales can be written in terms of any other using the fine structure constant formula_17:
+
+The classical electron radius length scale can be motivated by considering the energy necessary to assemble an amount of charge formula_19 into a sphere of a given radius formula_20. The electrostatic potential at a distance formula_20 from a charge formula_19 is
+
+To bring an additional amount of charge formula_24 from infinity necessitates putting energy into the system, formula_25, by an amount 
+
+If the sphere is "assumed" to have constant charge density, formula_27, then 
+
+Doing the integration for formula_20 starting at zero up to a final radius formula_20 leads to the expression for the total energy, formula_32, necessary to assemble total charge formula_19 into a uniform sphere of radius formula_20:
+
+This is called the electrostatic self-energy of the object. The charge formula_19 is now interpreted as the electron charge, formula_2, and the energy formula_32 is set equal to the relativistic mass-energy of the electron, formula_39, and the numerical factor 3/5 is ignored as being specific to the special case of a uniform charge density. The radius formula_20 is then "defined" to be the classical electron radius, formula_41, and one arrives at the expression given above.
+
+Note that this derivation does not say that formula_41 is the actual radius of an electron. It only establishes a dimensional link between electrostatic self energy and the mass-energy scale of the electron.
+
+The electron radius occurs in the classical limit of modern theories as well, such as non-relativistic Thomson scattering and the relativistic Klein–Nishina formula. Also, formula_41 is roughly the length scale at which renormalization becomes important in quantum electrodynamics. That is, at short-enough distances, quantum fluctuations within the vacuum of space surrounding an electron begin to have calculable effects that have measurable consequences in atomic and particle physics.
+
+
+
+
+

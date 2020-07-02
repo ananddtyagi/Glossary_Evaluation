@@ -1,0 +1,19 @@
+﻿Intelligent hybrid inverter
+
+An intelligent hybrid inverter or smart grid inverter is a trending generation of inverter for solar applications using renewable energy for home consumption, especially for solar photovoltaic installations. Some see this as a new technology, however in some parts of the world the application of such products has been around since the 1990s. Electricity from solar panels is generated only during the day, with peak generation around midday. Generation fluctuates and may not be synchronized with a load's electricity consumption. To overcome this gap between what is produced and what is consumed during the evening, when there is no solar electricity production, it is necessary to store energy for later use and manage energy storage and consumption with an intelligent hybrid (smart grid) inverter.
+With the development of systems that include renewable energy sources and rising electricity prices, private companies and research laboratories have developed smart inverters for synchronizing energy production and consumption.
+
+The function of a (smart-grid) is enabling selection and orientation of renewable energy, energy from the grid and energy storage based on consumption.
+Unlike conventional inverters, rather than systematically storing energy in batteries (with significant loss of yield >20%), hybrid inverters store energy only when necessary, e.g. when there is more production than consumption.
+This system also allows choosing whether electricity from photovoltaic panels should be stored or consumed through an internal intelligent apparatus control unit.
+This is possible through a technique that adds different energy sources (phase coupling: on-grid or grid-tie techniques) and the management of stored electricity in the battery (off grid technology). Hybrid inverters therefore operate on grid (grid-tie) as well as off-grid, hybrid (both on-grid and off-grid at the same time) and Backup (in case of a black out).
+According to the E.R.D.F. (French Electric Network) smart inverters are the future of photovoltaic solar panel installations dedicated to energy self-use, or auto-consumption of energy.
+
+Hybrid Inverters come in varying styles, ratings, functionalities and build qualities to suit different applications. Knowing the application is vital when selecting a Hybrid or Inverter. The technology is being developed from two directions:
+
+
+The IMEON hybrid inverter, manufactured by IMEON in France is an example of solar hybrid inverter with Artificial intelligence.
+The Pika Energy Island, manufactured by Pika Energy is an example of a commercially available intelligent hybrid inverter system.
+
+
+

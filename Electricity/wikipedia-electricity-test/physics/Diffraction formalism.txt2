@@ -1,0 +1,100 @@
+﻿Diffraction formalism
+
+Diffraction processes affecting waves are amenable to quantitative description and analysis. Such treatments are applied to a wave passing through one or more slits whose width is specified as a proportion of the wavelength. Numerical approximations may be used, including the Fresnel and Fraunhofer approximations.
+
+Because diffraction is the result of addition of all waves (of given wavelength) along all unobstructed paths, the usual procedure is to consider the contribution of an infinitesimally small neighborhood around a certain path (this contribution is usually called a wavelet) and then integrate over all paths (= add all wavelets) from the source to the detector (or given point on a screen). 
+
+Thus in order to determine the pattern produced by diffraction, the phase and the amplitude of each of the wavelets is calculated. That is, at each point in space we must determine the distance to each of the simple sources on the incoming wavefront. If the distance to each of the simple sources differs by an integer number of wavelengths, all the wavelets will be in phase, resulting in constructive interference. If the distance to each source is an integer plus one half of a wavelength, there will be complete destructive interference. Usually, it is sufficient to determine these minima and maxima to explain the observed diffraction effects. 
+
+The simplest descriptions of diffraction are those in which the situation can be reduced to a two-dimensional problem. For water waves, this is already the case, as water waves propagate only on the surface of the water. For light, we can often neglect one dimension if the diffracting object extends in that direction over a distance far greater than the wavelength. In the case of light shining through small circular holes we will have to take into account the full three-dimensional nature of the problem.
+
+Several qualitative observations can be made of diffraction in general:
+
+The problem of calculating what a diffracted wave looks like, is the problem of determining the phase of each of the simple sources on the incoming wave front. It is mathematically easier to consider the case of far-field or Fraunhofer diffraction, where the point of observation is far from that of the diffracting obstruction, and as a result, involves less complex mathematics than the more general case of near-field or Fresnel diffraction. To make this statement more quantitative, consider a diffracting object at the origin that has a size formula_1. For definiteness let us say we are diffracting light and we are interested in what the intensity looks like on a screen a distance formula_2 away from the object. At some point on the screen the path length to one side of the object is given by the Pythagorean theorem
+If we now consider the situation where formula_4, the path length becomes
+This is the Fresnel approximation. To further simplify things: If the diffracting object is much smaller than the distance formula_2, the last term will contribute much less than a wavelength to the path length, and will then not change the phase appreciably. That is formula_7. The result is the Fraunhofer approximation, which is only valid very far away from the object 
+Depending on the size of the diffraction object, the distance to the object and the wavelength of the wave, the Fresnel approximation, the Fraunhofer approximation or neither approximation may be valid. As the distance between the measured point of diffraction and the obstruction point increases, the diffraction patterns or results predicted converge towards those of Fraunhofer diffraction, which is more often observed in nature due to the extremely small wavelength of visible light.
+
+Multiple-slit arrangements can be mathematically considered as multiple simple wave sources, if the slits are narrow enough. For light, a slit is an opening that is infinitely extended in one dimension, and this has the effect of reducing a wave problem in 3D-space to a simpler problem in 2D-space. 
+The simplest case is that of two narrow slits, spaced a distance formula_1 apart. To determine the maxima and minima in the amplitude we must determine the path difference to the first slit and to the second one. In the Fraunhofer approximation, with the observer far away from the slits, the difference in path length to the two slits can be seen from the image to be
+Maxima in the intensity occur if this path length difference is an integer number of wavelengths.
+
+The corresponding minima are at path differences of an integer number plus one half of the wavelength:
+
+For an array of slits, positions of the minima and maxima are not changed, the "fringes" visible on a screen however do become sharper, as can be seen in the image. 
+To calculate this intensity pattern, one needs to introduce some more sophisticated methods. The mathematical representation of a radial wave is given by
+
+where formula_13, formula_14 is the wavelength, formula_15 is frequency of the wave and formula_16 is the phase of the wave at the slits at time t=0. The wave at a screen some distance away from the plane of the slits is given by the sum of the waves emanating from each of the slits. 
+To make this problem a little easier, we introduce the complex wave formula_17, the real part of which is equal to formula_18
+The absolute value of this function gives the wave amplitude, and the complex phase of the function corresponds to the phase of the wave. formula_17 is referred to as the complex amplitude.
+With formula_22 slits, the total wave at point formula_23 on the screen is
+
+Since we are for the moment only interested in the amplitude and relative phase, we can ignore any overall phase factors that are not dependent on formula_23 or formula_26. We approximate formula_27. In the Fraunhofer limit we can neglect terms of order :formula_28 in the exponential, and any terms involving formula_29 or formula_30 in the denominator. The sum becomes
+
+The sum has the form of a geometric sum and can be evaluated to give
+
+The intensity is given by the absolute value of the complex amplitude squared 
+
+where formula_34 denotes the complex conjugate of formula_35.
+
+As an example, an exact equation can now be derived for the intensity of the diffraction pattern as a function of angle in the case of single-slit diffraction. 
+
+A mathematical representation of Huygens' principle can be used to start an equation.
+
+Consider a monochromatic complex plane wave formula_36 of wavelength λ incident on a slit of width "a". 
+
+If the slit lies in the x′-y′ plane, with its center at the origin, then it can be assumed that diffraction generates a complex wave ψ, traveling radially in the r direction away from the slit, and this is given by:
+
+Let (x′,y′,0) be a point inside the slit over which it is being integrated. If (x,0,z) is the location at which the intensity of the diffraction pattern is being computed, the slit extends from formula_38 to formula_39, and from formula_40 to formula_41.
+
+The distance "r" from the slot is: 
+
+Assuming Fraunhofer diffraction will result in the conclusion formula_44. In other words, the distance to the target is much larger than the diffraction width on the target.
+By the binomial expansion rule, ignoring terms quadratic and higher, the quantity on the right can be estimated to be:
+
+It can be seen that 1/"r" in front of the equation is non-oscillatory, i.e. its contribution to the magnitude of the intensity is small compared to our exponential factors. Therefore, we will lose little accuracy by approximating it as "1/z".
+
+To make things cleaner, a placeholder 'C' is used to denote constants in the equation. It is important to keep in mind that C can contain imaginary numbers, thus the wave function will be complex. However, at the end, the ψ will be bracketed, which will eliminate any imaginary components.
+
+Now, in Fraunhofer diffraction, formula_47 is small, so formula_48 (note that formula_49 participates in this exponential and it is being integrated).
+
+In contrast the term formula_50 can be eliminated from the equation, since when bracketed it gives 1.
+
+Taking formula_53 results in:
+
+It can be noted through Euler's formula and its derivatives that formula_54 and formula_55. 
+
+formula_56
+
+where the (unnormalized) sinc function is defined by formula_57.
+
+Now, substituting in formula_58, the intensity (squared amplitude) formula_59 of the diffracted waves at an angle θ is given by:
+
+Let us again start with the mathematical representation of Huygens' principle.
+
+Consider formula_61 slits in the prime plane of equal size formula_62 and spacing formula_63 spread along the formula_49 axis. As above, the distance formula_65 from slit 1 is:
+
+To generalize this to formula_61 slits, we make the observation that while formula_68 and formula_69 remain constant, formula_49 shifts by 
+
+Thus 
+
+and the sum of all formula_61 contributions to the wave function is:
+
+Again noting that formula_75 is small, so formula_76, we have:
+
+Now, we can use the following identity
+
+formula_77
+
+Substituting into our equation, we find:
+
+We now make our formula_78 substitution as before and represent all non-oscillating constants by the formula_79 variable as in the 1-slit diffraction and bracket the result. Remember that 
+
+This allows us to discard the tailing exponent and we have our answer:
+
+In the far field, where r is essentially constant, then the equation:
+
+is equivalent to doing a fourier transform on the gaps in the barrier.
+
+
+

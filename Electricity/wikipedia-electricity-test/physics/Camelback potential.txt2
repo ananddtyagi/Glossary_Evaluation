@@ -1,0 +1,11 @@
+﻿Camelback potential
+
+A camelback potential is potential energy curve that looks like a normal distribution with a distinct dip where the peak would be, so named because it resembles the humps on a camel's back. The term was applied to a configuration of a superconducting quantum interference device in 2009, and to an arrangement of magnets in 2014.
+
+The latter system consists of two parallel diametric cylindrical magnets, that is, magnets that are magnetized perpendicular to their axis, with the north and south poles located on the curved surface as opposed to either end. When a diamagnetic rod (usually graphite) is placed between the magnets, it will remain in place and move back and forth in harmonic motion when disturbed. This arrangement, also known as a "PDL trap" for "parallel dipole line", was the subject of the 2017 International Physics Olympiad.
+
+In the magnetic system, the camelback potential effect only occurs when the length of the diamagnetic rod is between two critical lengths. Below the minimum length, the magnet is hypothesized to align with magnetic field lines, hence not maintaining its orientation and touching the magnet. The maximum length is limited by the distance between the peaks of the camelback humps; thus, a rod longer than that will be unstable and fall out of the trap. Both the radius and the length of the rod determine the damping of the system. The damping is primarily due to Stokes drag, as damping is non-observable under vacuum.
+
+Possible practical uses of the concept include being a platform for custom-designed 1D potentials, a highly sensitive force-distance transducer or a trap for semiconductor nanowires.
+
+

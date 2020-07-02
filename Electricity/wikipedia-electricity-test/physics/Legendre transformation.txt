@@ -1,0 +1,134 @@
+﻿Legendre transformation
+
+In mathematics and physics, the Legendre transformation, named after Adrien-Marie Legendre, is an involutive transformation on the real-valued convex functions of one real variable. It is commonly used in classical mechanics to derive the Hamiltonian formalism out of the Lagrangian formalism and in thermodynamics to derive the thermodynamic potentials, as well as in the solution of differential equations of several variables.
+
+For sufficiently smooth functions on the real line, the Legendre transform of a function can be specified, up to an additive constant, by the condition that the functions' first derivatives are inverse functions of each other. This can be expressed in Euler's derivative notation as
+or, equivalently, as formula_2 and formula_3 in Lagrange's notation.
+
+The generalization of the Legendre transformation to affine spaces and non-convex functions is known as the convex conjugate (also called the Legendre–Fenchel transformation), which can be used to construct a function's convex hull.
+
+Let be an interval, and a convex function; then its "Legendre transform" is the function defined by
+where formula_5 is the supremum, and the domain formula_6 is
+
+The transform is always well-defined when is convex.
+
+The generalization to convex functions on a convex set is straightforward: has domain
+and is defined by
+where formula_10 denotes the dot product of and .
+
+The function is called the convex conjugate function of . For historical reasons (rooted in analytic mechanics), the conjugate variable is often denoted , instead of . If the convex function is defined on the whole line and is everywhere differentiable, then
+can be interpreted as the negative of the -intercept of the tangent line to the graph of that has slope .
+
+The Legendre transformation is an application of the duality relationship between points and lines. The functional relationship specified by can be represented equally well as a set of points, or as a set of tangent lines specified by their slope and intercept values.
+
+For differentiable convex functions formula_12
+on the real line with an invertible first derivative, the Legendre transform formula_13
+can be specified, up to an additive constant, by the condition that the functions' first 
+derivatives are inverse functions of each other.
+
+To see this, first note that if formula_12 is differentiable and formula_15 is a critical point
+of the function of formula_16, then the
+supremum is achieved at formula_17 (by convexity). 
+Therefore, formula_18.
+
+Suppose that formula_19 is invertible and let formula_20 denote its inverse.
+Then for each formula_21, the point formula_22 is the unique critical point of
+formula_23. Indeed, formula_24 and so formula_25.
+Hence we have formula_26 for each formula_21. 
+By differentiating with respect to formula_21 we find 
+Since formula_30 this simplifies to formula_31.
+In other words, formula_32 and formula_19 are inverses.
+
+In general, if formula_34 is an inverse of formula_35, then formula_36 
+and so integration provides a constant formula_37 so that formula_38.
+
+In practical terms, given , the parametric plot of versus amounts to the graph of versus .
+
+In some cases (e.g. thermodynamic potentials, below), a non-standard requirement is used, amounting to an alternative definition of with a "minus sign",
+
+
+
+The exponential function
+as a Legendre transform, since their respective first derivatives and are inverse functions of each other.
+
+This example illustrates how the respective domains of a function and its Legendre transform need not agree.
+
+Let defined on ℝ, where is a fixed constant.
+
+For fixed, the function of , has the first derivative and second derivative ; there is one stationary point at , which is always a maximum.
+
+Thus, and
+
+If the capacitor is not connected to any circuit, then the "charges" on the plates remain constant as they move, and the force is the negative gradient of the electrostatic energy
+
+However, suppose, instead, that the "voltage" between the plates is maintained constant by connection to a battery, which is a reservoir for charge at constant potential difference; now the "charge is variable" instead of the voltage, its Legendre conjugate. To find the force, first compute the non-standard Legendre transform,
+
+The force now becomes the negative gradient of this Legendre transform, still pointing in the same direction,
+
+The two conjugate energies happen to stand opposite to each other, only because of the linearity of the capacitance—except now is no longer a constant. They reflect the two different pathways of storing energy into the capacitor, resulting in, for instance, the same "pull" between a capacitor's plates.
+
+In large deviations theory, the "rate function" is defined as the Legendre transformation of the logarithm of the moment generating function of a random variable. An important application of the rate function is in the calculation of tail probabilities of sums of i.i.d. random variables.
+
+Legendre transformation arises naturally in microeconomics in the process of finding the "supply" of some product given a fixed price on the market knowing the cost function , i.e. the cost for the producer to make/mine/etc. units of the given product.
+
+A simple theory explains the shape of the supply curve based solely on the cost function. Let us suppose the market price for a one unit of our product is . For a company selling this good, the best strategy is to adjust the production so that its profit is maximized. We can maximize the profit
+
+by differentiating with respect to and solving
+
+If we consider the maximal profit as a function of price, formula_56, we see that it is the Legendre transform of the cost function formula_57.
+
+For a strictly convex function, the Legendre transformation can be interpreted as a mapping between the graph of the function and the family of tangents of the graph. (For a function of one variable, the tangents are well-defined at all but at most countably many points, since a convex function is differentiable at all but at most countably many points.)
+
+The equation of a line with slope and -intercept is given by . For this line to be tangent to the graph of a function at the point requires
+and
+
+The function formula_19is strictly monotone as the derivative of a strictly convex function. The second equation can be solved for formula_61, allowing elimination of from the first, and solving for the -intercept of the tangent as a function of its slope ,
+
+Here, formula_63 denotes the Legendre transform of .
+
+The family of tangents of the graph of parameterized by is therefore given by
+or, written implicitly, by the solutions of the equation
+
+The graph of the original function can be reconstructed from this family of lines as the envelope of this family by demanding
+
+Eliminating from these two equations gives
+
+Identifying with and recognizing the right side of the preceding equation as the Legendre transform of , yields
+
+For a differentiable real-valued function on an open subset of the Legendre conjugate of the pair is defined to be the pair , where is the image of under the gradient mapping , and is the function on given by the formula
+where
+
+is the scalar product on . The multidimensional transform can be interpreted as an encoding of the convex hull of the function's epigraph in terms of its supporting hyperplanes.
+
+Alternatively, if is a vector space and is its dual vector space, then for each point of and of , there is a natural identification of the cotangent spaces with and with . If is a real differentiable function over , then its exterior derivative, , is a section of the cotangent bundle and as such, we can construct a map from to . Similarly, if is a real differentiable function over , then defines a map from to . If both maps happen to be inverses of each other, we say we have a Legendre transform. The notion of the tautological one-form is commonly used in this setting.
+
+When the function is not differentiable, the Legendre transform can still be extended, and is known as the Legendre-Fenchel transformation. In this more general setting, a few properties are lost: for example, the Legendre transform is no longer its own inverse (unless there are extra assumptions, like convexity).
+
+Let be a smooth manifold, and let denote its tangent bundle. Let be a smooth function, which we will refer to as the Lagrangian. The Legendre transformation of is its fiber derivative. This is a morphism of vector bundles defined as follows. Suppose that and that is a chart. Then is a chart on , and for any point in this chart, the fiber derivative (and hence also the Legendre transformation) of is defined by
+The associated energy function is the function defined by
+where the angle brackets denote the natural pairing of a tangent and cotangent vector. The Legendre transform can be further generalized to a function from a vector bundle over to its dual bundle.
+
+The Legendre transformation has the following scaling properties: For ,
+
+It follows that if a function is homogeneous of degree then its image under the Legendre transformation is a homogeneous function of degree , where . (Since , with , implies .) Thus, the only monomial whose degree is invariant under Legendre transform is the quadratic.
+
+Let be a linear transformation. For any convex function on , one has
+
+where is the adjoint operator of defined by
+
+and is the "push-forward" of along 
+
+A closed convex function is symmetric with respect to a given set of orthogonal linear transformations,
+if and only if is symmetric with respect to .
+
+The infimal convolution of two functions and is defined as
+
+Let be proper convex functions on . Then
+
+For any function and its convex conjugate "Fenchel's inequality" (also known as the "Fenchel–Young inequality") holds for every and , i.e., "independent" pairs,
+
+
+
+
+
+

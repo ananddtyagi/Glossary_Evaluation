@@ -1,0 +1,42 @@
+﻿Capacitor analogy
+
+There are several formal analogies that can be made between electricity, which is invisible to the eye, and more familiar physical behaviors, such as the flowing of water or the motion of mechanical devices. 
+
+In the case of capacitance, one analogy to a capacitor in mechanical rectilineal terms is a spring where the compliance of the spring is analogous to the capacitance. Thus in electrical engineering, a capacitor may be defined as an ideal electrical component which satisfies this equation V = (1/C)ʃIdt where:
+
+V = voltage measured at the terminals of the capacitor
+
+C = the capacitance of the capacitor
+
+I = current flowing between the terminals of the capacitor
+
+t = time
+
+The equation quoted above has the same form as that describing an ideal massless spring:
+F = (1/k)ʃvdt where:
+
+F is the force applied between the two ends of the spring
+
+k is the compliance of the spring defined as displacement/force
+
+v is the speed (or velocity) of one end of the spring, the other end being fixed.
+
+Note that in the electrical case, current (I) is defined as the rate of change of charge (Q) with respect to time:
+
+I = dQ/dt
+
+While in the mechanical case, velocity (v) is defined as the rate of change of displacement (x) with respect to time:
+
+v = dx/dt
+
+Thus, in this analogy:
+
+
+Also, these analogous relationships apply:
+
+
+This analogy of the capacitor forms part of the more comprehensive impedance analogy of mechanical to electrical systems.
+
+
+
+

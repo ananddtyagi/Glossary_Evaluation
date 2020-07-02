@@ -1,0 +1,15 @@
+﻿Meter water equivalent
+
+In physics, the meter water equivalent (often "m.w.e." or "mwe") is a standard measure of cosmic ray attenuation in underground laboratories. A laboratory at a depth of 1000 m.w.e is shielded from cosmic rays equivalently to a lab below the surface of a body of water. Because laboratories at the same depth (in meters) can have greatly varied levels of cosmic ray penetration, the m.w.e. provides a convenient and consistent way of comparing cosmic ray levels in different underground locations.
+
+Cosmic ray attenuation is dependent on the density of the material of the overburden, so the m.w.e. is defined as the product of depth and density (also known as an interaction depth). Because the density of water is , of water gives an interaction depth of . Some publications use hg/cm² instead of m.w.e., although the two units are equivalent.
+
+For example, the Waste Isolation Pilot Plant, located deep in a salt formation, achieves 1585 m.w.e. shielding. Soudan Mine, at depth is only 8% deeper, but because it is in iron-rich rock it achieves 2100 m.w.e. shielding, 32% more.
+
+Another factor that must be accounted for is the "shape" of the overburden. While some laboratories are located beneath a flat ground surface, many are located in tunnels in mountains. Thus, the distance to the surface in directions other than straight up is less than it would be assuming a flat surface.
+
+In addition to m.w.e., underground laboratory depth can also be measured in meters of standard rock. Standard rock is defined to have mass number A = 22, atomic number Z = 11, and density . Because most laboratories are under earth and not underwater, the depth in standard rock is often closer to the actual underground depth of the laboratory.
+
+Underground laboratories exist at depths ranging from just below ground level to approximately 6000 m.w.e. at SNOLAB and 6700 m.w.e. at the Jinping Underground Laboratory in China.
+
+

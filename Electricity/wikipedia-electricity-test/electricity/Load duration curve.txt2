@@ -1,0 +1,14 @@
+﻿Load duration curve
+
+A load duration curve illustrates the variation of a certain load in a downward form such that the greatest load is plotted in the left and the smallest one in the right. On the time axis, the time duration for which each certain load continues during the day is given.
+
+There are some facts about the LDC that can be summarized as:
+A load duration curve (LDC) is used in electric power generation to illustrate the relationship between generating capacity requirements and capacity utilization.
+
+A LDC is similar to a load curve but the demand data is ordered in descending order of magnitude, rather than chronologically. The LDC curve shows the capacity utilization requirements for each increment of load. The height of each slice is a measure of capacity, and the width of each slice is a measure of the utilization rate or capacity factor. The product of the two is a measure of electrical energy (e.g. kilowatthours).
+
+A price duration curve shows the proportion of time for which the price exceeded a certain value.
+
+Together, the price duration curve and load duration curve enable the analyst to understand the behaviour of the electricity market, for example, the likelihood of peaking power plant being required for service, and the impact that this might have on price.
+
+

@@ -1,0 +1,17 @@
+﻿Glowing plate
+
+When a vacuum tube circuit malfunctions and draws excessive current, the anode ("plate") may overheat, sometimes causing a visible red or orange glow. In consumer electronics, this is universally indicative that the tube is experiencing an overload condition, though the reasons for the overload may vary.
+
+Some high-powered vacuum tubes (e.g. large transmitter or induction heating tubes) have silica envelopes and/or graphite or zirconium coated tantalum plates which are intended to operate at glowing temperatures and thus employ "radiation cooling". The zirconium plate coating acts as a getter, and proper getter action in these tubes depends on the plate running at high temperatures. Such tubes may develop excessive gas content if underloaded for long periods of time. One trade name for this type of plate coating is Eimac's "pyrovac".
+
+In consumer equipment, it is usually a sign of a shorted or badly mistuned load, or a badly out-of-bias condition. When testing, repairing or restoring vacuum tube-based equipment, it is wise to watch the plates of all the tubes for this condition.
+
+If the tube is overloaded, not only can the plate warp, causing a short to outer grids or beam-shaping elements, but the emissive layer on the cathode will be consumed very quickly. The equipment's power supply and the tube's load (output transformers, flyback transformers, etc.) are likely to be damaged by a sustained overload condition, so power should be immediately disconnected when a glowing plate is found.
+
+In modern-day repair and maintenance of early tube-based consumer electronics devices, a glowing plate will be rarely encountered. As a visible symptom of a destructive failure, checking for an overheated tube is essential to ensure the safe and reliable operation of the equipment undergoing maintenance. 
+
+Most frequently, a glowing plate overload will be found in rectifiers and output tubes. In particular: 
+
+If any tube presents a glowing plate, the equipment should be shut down immediately to avoid further damage.
+
+

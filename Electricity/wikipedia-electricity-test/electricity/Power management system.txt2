@@ -1,0 +1,15 @@
+﻿Power management system
+
+On marine vessels the Power Management System PMS is in charge of controlling the electrical system. Its task is to make sure that the electrical system is safe and efficient. If the power consumption is larger than the power production capacity, load shedding is used to avoid blackout. Other features could be to automatic start and stop consumers (e.g., diesel generators) as the load varies.
+
+The marine Power Management System PMS is a complete switchboard and generator control system to synchronize the auxiliary engines of the ships by implementing automatic load sharing and optimizing the efficiency of the power plant. It handles various configurations of generators driven by diesel engine, steam turbine and main engine in combination with switchboards of various complexity.
+
+Electrical energy in any combination of the Generators is implemented according to calculations of the electric power tables of each vessel. PMS System decides which Generators combination will be the best according to the Load Consumptions. The capacity of the Generators is such that in the event of any one generating set will be stopped then it will still be possible to supply all services necessary to provide normal operational conditions of propulsion and safety. Furthermore, it will be sufficient to start the largest motor of the ship without causing any other motor to stop or having any adverse effect on other equipment in operation. In general a PMS Power Management System performs the following functions on a Ship:
+
+
+
+3. http://www.km.kongsberg.com/ks/web/nokbg0240.nsf/AllWeb/A297BDC3A79BBB36C125726B00387597?OpenDocument
+
+4. ABB Marine, Integrated Automation System
+
+

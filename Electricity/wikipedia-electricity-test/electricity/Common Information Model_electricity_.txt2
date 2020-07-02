@@ -1,0 +1,19 @@
+﻿Common Information Model (electricity)
+
+In electric power transmission and distribution, the Common Information Model (CIM), a standard developed by the electric power industry that has been officially adopted by the International Electrotechnical Commission (IEC), which aims to allow application software to exchange information about an electrical network.
+
+The CIM is currently maintained as a UML model. It defines a common vocabulary and basic ontology for aspects of the electric power industry. The CIM models the network itself using the 'wires model'. This describes the basic components used to transport electricity. Measurements of power are modeled by another class. These measurements support the management of powerflow at the transmission level, and by extension, the modeling of power through a revenue meter on the distribution network. The CIM can be used to derive 'design artifacts' (e.g. XML Schema, RDF Schema) as needed for the integration of related application software.
+
+The CIM is also used to derive messages for the wholesale energy market with the framework for energy market communications, IEC 62325. The European style market profile is a profile derivation from the CIM to harmonize the energy market data exchanges in Europe. ENTSO-E is a major contributor to the European style market profile.
+
+The standard that defines the core packages of the CIM is IEC 61970-301, with a focus on the needs of electricity transmission, where related applications include energy management system, SCADA, planning and optimization. The IEC 61970-501 and 61970-452 standards define an XML format for network model exchanges using RDF. The IEC 61968 series of standards extend the CIM to meet the needs of electrical distribution, where related applications include distribution management system, outage management system, planning, metering, work management, geographic information system, asset management, customer information systems and enterprise resource planning.
+
+CIM and Substation Configuration Language (SCL) are developed in parallel under different working groups of IEC TC 57. Though both have the ability to exchange model and configuration information between different equipment or tools and use XML for storage, there are lot of differences between both the standards.
+
+
+There are applications which use both these standards and there will be significant improvements on interoperability and data exchange between the applications if SCL model can be transformed into CIM based models. Without the harmonization of these standards, the development and implementation of systems and applications will result in a significant amount of engineering and design that applies to only one implementation. The harmonization can be done by mixing equipment topological approach of CIM and functionality approach of SCL. IEC TC57 WG19 is involved in the harmonization CIM & SCL. This will involve the following steps
+
+
+
+
+

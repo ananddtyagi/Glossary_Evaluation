@@ -1,0 +1,67 @@
+﻿Green's function number
+
+In mathematical heat conduction, the Green's function number is used to uniquely categorize certain fundamental solutions of the heat equation to make existing solutions easier to identify, store, and retrieve.
+
+Numbers have long been used to identify types of boundary conditions.
+The Green's function number system was proposed 
+by Beck and Litkouhi in 1988
+and has seen increasing use since then. The number system has been used to catalog a large collection of Green's functions and related solutions.
+Although described here for solutions of the heat equation, this number system could also be used
+for any phenomena described by differential equations 
+such as diffusion, acoustics, electromagnetics,
+fluid dynamics, etc.
+
+The Green's function number specifies the coordinate system and the type of boundary conditions that a Green's function satisfies. The Green's function number has two parts, a letter designation followed by a number designation. The letter(s) designate the coordinate system while the numbers designate the type of boundary conditions that are satisfied.
+
+Some of the designations for the Greens function number system are given next. Coordinate system designations include: X, Y, and Z for Cartesian coordinates; R, Z, formula_1 for cylindrical coordinates; and, RS, formula_1, formula_3 for spherical coordinates. 
+Designations for several boundary conditions are given in Table 1. The zeroth boundary condition is important for identifying the presence of a coordinate boundary where no physical boundary exists, for example, far away in a semi-infinite body or at the center of a cylindrical or spherical body.
+
+As an example, number X11 denotes the Green's function that satisfies the heat equation 
+in the domain (0 < x < L) for boundary conditions of type 1 (Dirichlet) 
+at both boundaries x = 0 and x = L. 
+Here X denotes the Cartesian coordinate and 11 denotes the type 1 boundary condition 
+at both sides of the body. The boundary value problem for the X11 Green's function is given by
+Here formula_5 is the thermal diffusivity (m/s) and formula_6 is the
+Dirac delta function.
+
+As another Cartesian example, number X20 denotes the Green's function in the 
+semi-infinite body (formula_7) with a Neumann (type 2) boundary at x = 0. Here X 
+denotes the Cartesian coordinate, 2 denotes the type 2 boundary condition 
+at x = 0 and 0 denotes the zeroth type boundary condition (boundedness) at formula_8. 
+The boundary value problem for the X20 Green's function is given by
+
+As a two-dimensional example, number X10Y20 denotes the Green's function in the quarter-infinite body
+(formula_7, formula_11) with a Dirichlet (type 1) boundary at x = 0
+and a Neumann (type 2) boundary at y = 0. The boundary value problem for the X10Y20 Green's function is given by
+
+As an example in the cylindrical coordinate system, number R03 denotes the Green's function 
+that satisfies the heat equation in the solid cylinder (0 < r < a) with a boundary condition 
+of type 3 (Robin) at r = a. Here letter R denotes the cylindrical coordinate system, 
+number 0 denotes the zeroth boundary condition (boundedness) at the center of the 
+cylinder (r = 0), and number 3 denotes the type 3 (Robin) 
+boundary condition at r = a. 
+The boundary value problem for R03 Green's function is given by
+Here formula_15 is thermal conductivity (W/(m K)) and formula_16 is the
+heat transfer coefficient (W/(m K)).
+
+As another example, number R10 denotes the Green's function in a large body containing a 
+cylindrical void (a < r < formula_17) with a type 1 (Dirichlet) boundary condition at r = a. 
+Again letter R denotes the cylindrical coordinate system, number 1 denotes the 
+type 1 boundary at r = a, and number 0 denotes the type zero boundary (boundedness) 
+at large values of r. The boundary value problem for the R10 Green's function is given by
+
+As a two dimensional example, number R01formula_1900 denotes the Green's function in a
+solid cylinder with angular dependence, with a type 1 (Dirichlet) boundary condition at r = a. 
+Here letter formula_19 denotes the angular coordinate, and numbers 00 denote the 
+type zero boundaries for angle; here no physical boundary takes the form of the periodic boundary
+condition. The boundary value problem for the R01formula_1900 Green's function is given by
+
+As an example in the spherical coordinate system, number RS02 denotes the Green's function 
+for a solid sphere (0 < r < b ) with a type 2 (Neumann) 
+boundary condition at r = b. 
+Here letters RS denote the radial-spherical coordinate system, number 0 denotes 
+the zeroth boundary condition (boundedness) at r=0, and number 2 denotes the type 2 
+boundary at r = b. The boundary value problem for the RS02 Green's function is given by
+
+
+

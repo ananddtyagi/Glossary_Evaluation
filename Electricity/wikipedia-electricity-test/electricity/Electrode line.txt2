@@ -1,0 +1,15 @@
+﻿Electrode line
+
+An electrode line is used in some high-voltage direct-current (HVDC) power transmission systems which use the ground or sea as the return path for electric current. Many long-distance HVDC systems use sea or ground return for the DC neutral current since this is considerably cheaper than providing a dedicated "metallic return" conductor on an overhead wire or cable. 
+
+The connection into the ground requires a specially designed "ground electrode" (or "earth electrode"). The electrode is usually located several tens of kilometres from the converter station in order to avoid possible problems or corrosion in the converter station grounding system. The electrode line connects the converter station to the grounding electrode. The electrode line can be implemented, depending upon the situation of the electrode (onshore or in the sea), as ground cables, as overhead line, or as a combination of ground cable and overhead line.
+
+HVDC electrodes are used in most bipolar HVDC transmission systems as a means to improve the reliability of the entire system. In the event that one of the poles in the bipolar system is faulted, the current path will switch to ground return, thus allowing the system to continue operating at reduced capacity and reducing the possibility that a pole fault will cause a bipolar outage. Usually these ground return paths are only used for very short durations until the faulted pole can be returned to service. The ground current in such schemes can flow in either direction, and the electrodes have to be designed to be reversible, operating either as an anode or cathode.
+
+HVDC electrodes are also used in some monopolar HVDC systems, for example the Italy–Corsica–Sardinia scheme. In such systems the electrode line permanently carries the same current as the high-voltage conductor; however since the ground current is then only unidirectional, one of the electrodes (the cathode) can be of simpler design since corrosion is not a problem for cathode electrodes.
+
+The operating voltage of the electrode line usually is in the range of approx. 10-20kV (medium voltage range).
+
+
+
+

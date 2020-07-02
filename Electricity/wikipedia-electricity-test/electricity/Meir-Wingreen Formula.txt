@@ -1,0 +1,5 @@
+﻿Meir-Wingreen Formula
+
+The Meir-Wingreen formula describes the electric current through an arbitrary mesoscopic system. It was formulated by Yigal Meir and Ned Wingreen. When the interaction between electrons is neglected, this formula reduces to the Landauer formula. This textbook formula has become a standard tool for calculating the current through various systems, such as molecular junctions, quantum dots and nanoscale devices.
+
+

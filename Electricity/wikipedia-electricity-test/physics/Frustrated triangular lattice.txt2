@@ -1,0 +1,10 @@
+﻿Frustrated triangular lattice
+
+Geometrical frustration occurs when a set of degrees of freedom is incompatible with the space it occupies.
+
+A purely geometric example of this is the impossibility of close-packing pentagons in two dimensions. Another is atomic magnetic moments with antiferromagnetic interactions. These moments lower their interaction energy by pointing antiparallel to their neighbors.
+
+In the case of two dimensional space, the triangular lattice is the simplest example of such frustration. With a triangular lattice, the two spins can easily accommodate two sides, but the third spin is frustrated. If this third spin is up, then two arrangements out of the three are compatible, but one is incompatible. This leads to a huge degeneracy in the ground state with non-zero entropy. This frustration leads to breaking symmetry, which leads to ferroelectricity.
+
+
+

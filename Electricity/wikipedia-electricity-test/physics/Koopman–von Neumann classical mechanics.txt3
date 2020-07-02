@@ -1,0 +1,33 @@
+﻿Koopman–von Neumann classical mechanics
+
+The Koopman–von Neumann mechanics is a description of classical mechanics in terms of Hilbert space, introduced by Bernard Koopman and John von Neumann in 1931 and 1932.
+
+As Koopman and von Neumann demonstrated, a Hilbert space of complex, square integrable wavefunctions can be defined in which classical mechanics can be formulated as an operatorial theory similar to quantum mechanics.
+
+Statistical mechanics describes macroscopic systems in terms of statistical ensembles, such as the macroscopic properties of an ideal gas. Ergodic theory is a branch of mathematics arising from the study of statistical mechanics.
+
+The origins of Koopman–von Neumann (KvN) theory are tightly connected with the rise of ergodic theory as an independent branch of mathematics, in particular with Boltzmann's ergodic hypothesis.
+
+In 1931 Koopman and André Weil independently observed that the phase space of the classical system can be converted into a Hilbert space by postulating a natural integration rule over the points of the phase space as the definition of the scalar product, and that this transformation allows drawing of interesting conclusions about the evolution of physical observables from Stone's theorem, which had been proved shortly before. This finding inspired von Neumann to apply the novel formalism to the ergodic problem. Already in 1932 he completed the operator reformulation of quantum mechanics currently known as Koopman–von Neumann theory. Subsequently, he published several seminal results in modern ergodic theory including the proof of his mean ergodic theorem".
+
+In the approach of Koopman and von Neumann (KvN), dynamics in phase space is described by a (classical) probability density, recovered from an underlying wavefunction – the Koopman–von Neumann wavefunction – as the square of its absolute value (more precisely, as the amplitude multiplied with its own complex conjugate). This stands in analogy to the Born rule in quantum mechanics. In the KvN framework, observables are represented by commuting self-adjoint operators acting on the Hilbert space of KvN wavefunctions. The commutativity physically implies that all observables are simultaneously measurable. Contrast this with quantum mechanics, where observables need not commute, which underlines the uncertainty principle, Kochen–Specker theorem, and Bell inequalities.
+
+The KvN wavefunction is postulated to evolve according to exactly the same Liouville equation as the classical probability density. From this postulate it can be shown that indeed probability density dynamics is recovered.
+
+Conversely, it is possible to start from operator postulates, similar to the Hilbert space axioms of quantum mechanics, and derive the equation of motion by specifying how expectation values evolve.
+
+The relevant axioms are that as in quantum mechanics (i) the states of a system are represented by normalized vectors of a complex Hilbert space, and the observables are given by self-adjoint operators acting on that space, (ii) the expectation value of an observable is obtained in the manner as the expectation value in quantum mechanics, (iii) the probabilities of measuring certain values of some observables are calculated by the Born rule, and (iv) the state space of a composite system is the tensor product of the subsystem's spaces.
+
+In the Hilbert space and operator formulation of classical mechanics, the Koopman von Neumann–wavefunction takes the form of a superposition of eigenstates, and measurement collapses the KvN wavefunction to the eigenstate which is associated the measurement result, in analogy to the wave function collapse of quantum mechanics.
+
+However, it can be shown that for Koopman–von Neumann classical mechanics "non-selective measurements" leave the KvN wavefunction unchanged.
+
+The KvN dynamical equation () and Liouville equation () are first-order linear partial differential equations. One recovers Newton's laws of motion by applying the method of characteristics to either of these equations. Hence, the key difference between KvN and Liouville mechanics lies in weighting individual trajectories: Arbitrary weights, underlying the classical wave function, can be utilized in the KvN mechanics, while only positive weights, representing the probability density, are permitted in the Liouville mechanics (see this scheme).
+
+Being explicitly based on the Hilbert space language, the KvN classical mechanics adopts many techniques from quantum mechanics, for example, perturbation and diagram techniques as well as functional integral methods. The KvN approach is very general, and it has been extended to dissipative systems, relativistic mechanics, and classical field theories.
+
+The KvN approach is fruitful in studies on the quantum-classical correspondence as it reveals that the Hilbert space formulation is not exclusively quantum mechanical. Even Dirac spinors are not exceptionally quantum as they are utilized in the relativistic generalization of the KvN mechanics. Similarly as the more well-known phase space formulation of quantum mechanics, the KvN approach can be understood as an attempt to bring classical and quantum mechanics into a common mathematical framework. In fact, the time evolution of the Wigner function approaches, in the classical limit, the time evolution of the KvN wavefunction of a classical particle. However, a mathematical resemblance to quantum mechanics does not imply the presence of hallmark quantum effects. In particular, impossibility of double-slit experiment and Aharonov–Bohm effect are explicitly demonstrated in the KvN framework.
+
+
+
+

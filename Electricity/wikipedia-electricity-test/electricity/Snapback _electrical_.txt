@@ -1,0 +1,8 @@
+﻿Snapback (electrical)
+
+Snapback is a mechanism in a bipolar transistor in which avalanche breakdown or impact ionization provides a sufficient base current to turn on the transistor. It is used intentionally in the design of certain ESD protection devices integrated onto semiconductor chips. It can also be a parasitic failure mechanism when activated inadvertently, outwardly appearing much like latchup in that the chip seems to suddenly blow up when a high voltage is applied.
+
+Snapback is initiated by a small current from collector to base. In the case of ESD protection devices, this current is caused by avalanche breakdown due to a sufficiently large voltage applied across the collector-base junction. In the case of parasitic failures, the initiating current may result from inadvertently turning on the bipolar transistor and a sufficiently large voltage across the collector and base causing impact ionization, with some of the generated carriers then acting as the initiating current as they flow into the base. Once this initiating current flows into the base, the transistor turns on and the collector voltage decreases to the snapback holding voltage. This voltage happens at the point where the processes of base current generation and the bipolar transistor turning on are in balance: the collector-emitter current of the bipolar transistor decreases the collector voltage, which results in a lower electric field, which results in a smaller impact ionization or avalanche current and thus smaller base current, which weakens the bipolar action.
+
+
+

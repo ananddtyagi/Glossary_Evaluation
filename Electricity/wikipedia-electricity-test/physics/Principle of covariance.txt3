@@ -1,0 +1,16 @@
+﻿Principle of covariance
+
+In physics, the principle of covariance emphasizes formulation of physical laws using only those physical quantities the measurements of which the observers in different frames of reference could unambiguously correlate.
+
+Mathematically, the physical quantities must transform "covariantly", that is, under a certain representation of the group of coordinate transformations between admissible frames of reference of the physical theory. This group is referred to as the covariance group.
+
+The principle of covariance does not require invariance of the physical laws under the group of admissible transformations although in most cases the equations are actually invariant. However, in the theory of weak interactions the equations are not invariant under reflections (but are, of course, still covariant).
+
+In Newtonian mechanics the admissible frames of reference are inertial frames with relative velocities much smaller than the speed of light. Time is then absolute and the transformations between admissible frames of references are Galilean transformations which (together with rotations, translations, and reflections) form the Galilean group. The covariant physical quantities are Euclidean scalars, vectors, and tensors. An example of a covariant equation is Newton's second law,
+where the covariant quantities are the mass formula_2 of a moving body (scalar), the velocity formula_3 of the body (vector), the force formula_4 acting on the body, and the invariant time formula_5.
+
+In special relativity the admissible frames of reference are all inertial frames. The transformations between frames are the Lorentz transformations which (together with the rotations, translations, and reflections) form the Poincaré group. The covariant quantities are four-scalars, four-vectors etc., of the Minkowski space (and also more complicated objects like bispinors and others). An example of a covariant equation is the Lorentz force equation of motion of a charged particle in an electromagnetic field (a generalization of Newton's second law)
+where formula_2 and formula_8 are the mass and charge of the particle (invariant 4-scalars); formula_9 is the invariant interval (4-scalar); formula_10 is the 4-velocity (4-vector); and formula_11 is the electromagnetic field strength tensor (4-tensor).
+
+
+

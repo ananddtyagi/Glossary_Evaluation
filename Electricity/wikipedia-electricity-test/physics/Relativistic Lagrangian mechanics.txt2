@@ -1,0 +1,133 @@
+﻿Relativistic Lagrangian mechanics
+
+In theoretical physics, relativistic Lagrangian mechanics is Lagrangian mechanics applied in the context of special relativity and general relativity.
+
+Lagrangian mechanics can be formulated in special relativity as follows. Consider one particle ("N" particles are considered later).
+
+If a system is described by a Lagrangian "L", the Euler–Lagrange equations
+
+retain their form in special relativity, provided the Lagrangian generates equations of motion consistent with special relativity. Here r = ("x", "y", "z") is the position vector of the particle as measured in some lab frame where Cartesian coordinates are used for simplicity, and
+
+is the coordinate velocity, the derivative of position r with respect to coordinate time "t". (Throughout this article, overdots are with respect to coordinate time, not proper time). It is possible to transform the position coordinates to generalized coordinates exactly as in non-relativistic mechanics, r = r(q, "t"). Taking the total differential of r obtains the transformation of velocity v to the generalized coordinates, generalized velocities, and coordinate time
+
+remains the same. However, the energy of a moving particle is different to non-relativistic mechanics. It is instructive to look at the total relativistic energy of a free test particle. An observer in the lab frame defines events by coordinates r and coordinate time "t", and measures the particle to have coordinate velocity v = "d"r/"dt". By contrast, an observer moving with the particle will record a different time, this is the "proper time", "τ". Expanding in a power series, the first term is the particle's rest energy, plus its non-relativistic kinetic energy, followed by higher order relativistic corrections;
+
+where "c" is the speed of light in vacuum. The differentials in "t" and "τ" are related by the Lorentz factor "γ",
+
+where · is the dot product. The relativistic kinetic energy for an uncharged particle of rest mass "m" is
+
+and we may naïvely guess the relativistic Lagrangian for a particle to be this relativistic kinetic energy minus the potential energy. However, even for a free particle for which "V" = 0, this is wrong. Following the non-relativistic approach, we expect the derivative of this seemingly correct Lagrangian with respect to the velocity to be the relativistic momentum, which it is not.
+
+The definition of a generalized momentum can be retained, and the advantageous connection between cyclic coordinates and conserved quantities will continue to apply. The momenta can be used to "reverse-engineer" the Lagrangian. For the case of the free massive particle, in Cartesian coordinates, the "x" component of relativistic momentum is
+
+and similarly for the "y" and "z" components. Integrating this equation with respect to "dx"/"dt" gives
+
+where "X" is an arbitrary function of "dy"/"dt" and "dz"/"dt" from the integration. Integrating "p" and "p" obtains similarly
+
+where "Y" and "Z" are arbitrary functions of their indicated variables. Since the functions "X", "Y", "Z" are arbitrary, without loss of generality we can conclude the common solution to these integrals, a possible Lagrangian that will correctly generate all the components of relativistic momentum, is
+
+where "X" = "Y" = "Z" = 0.
+
+Alternatively, since we wish to build a Lagrangian out of relativistically invariant quantities, take the action as proportional to the integral of the Lorentz invariant line element in spacetime, the length of the particle's world line between proper times "τ" and "τ",
+
+where "ε" is a constant to be found, and after converting the proper time of the particle to the coordinate time as measured in the lab frame, the integrand is the Lagrangian by definition. The momentum must be the relativistic momentum,
+
+which requires "ε" = −"m""c", in agreement with the previously obtained Lagrangian.
+
+Either way, the position vector r is absent from the Lagrangian and therefore cyclic, so the Euler–Lagrange equations are consistent with the constancy of relativistic momentum,
+
+which must be the case for a free particle. Also, expanding the relativistic free particle Lagrangian in a power series to first order in (v/"c"),
+
+in the non-relativistic limit when v is small, the higher order terms not shown are negligible, and the Lagrangian is the non-relativistic kinetic energy as it should be. The remaining term is the negative of the particle's rest energy, a constant term which can be ignored in the Lagrangian.
+
+For the case of an interacting particle subject to a potential "V", which may be non-conservative, it is possible for a number of interesting cases to simply subtract this potential from the free particle Lagrangian,
+
+and the Euler–Lagrange equations lead to the relativistic version of Newton's second law, the coordinate time derivative of relativistic momentum is the force acting on the particle;
+
+assuming the potential "V" can generate the corresponding force F in this way. If the potential cannot obtain the force as shown, then the Lagrangian would need modification to obtain the correct equations of motion.
+
+It is also true that if the Lagrangian is explicitly independent of time and the potential "V"(r) independent of velocities, then the total relativistic energy
+
+is conserved, although the identification is less obvious since the first term is the relativistic energy of the particle which includes the rest mass of the particle, not merely the relativistic kinetic energy. Also, the argument for homogenous functions does not apply to relativistic Lagrangians.
+
+The extension to "N" particles is straightforward, the relativistic Lagrangian is just a sum of the "free particle" terms, minus the potential energy of their interaction;
+
+where all the positions and velocities are measured in the same lab frame, including the time.
+
+The advantage of this coordinate formulation is that it can be applied to a variety of systems, including multiparticle systems. The disadvantage is that some lab frame has been singled out as a preferred frame, and none of the equations are "manifestly covariant" (in other words, they do not take the same form in all frames of reference). For an observer moving relative to the lab frame, everything must be recalculated; the position r, the momentum p, total energy "E", potential energy, etc. In particular, if this other observer moves with constant relative velocity then Lorentz transformations must be used. However, the action will remain the same since it is Lorentz invariant by construction.
+
+A seemingly different but completely equivalent form of the Lagrangian for a free massive particle, which will readily extend to general relativity as shown below, can be obtained by inserting
+
+into the Lorentz invariant action so that
+
+where "ε" = −"m""c" is retained for simplicity. Although the line element and action are Lorentz invariant, the Lagrangian is "not", because it has explicit dependence on the lab coordinate time. Still, the equations of motion follow from Hamilton's principle
+
+Since the action is proportional to the length of the particle's worldline (in other words its trajectory in spacetime), this route illustrates that finding the stationary action is akin to finding the trajectory of shortest or largest length in spacetime. Correspondingly, the equations of motion of the particle are akin to the equations describing the trajectories of shortest or largest length in spacetime, "geodesics".
+
+For the case of an interacting particle in a potential "V", the Lagrangian is still
+
+which can also extend to many particles as shown above, each particle has its own set of position coordinates to define its position.
+
+In the covariant formulation, time is placed on equal footing with space, so the coordinate time as measured in some frame is part of the configuration space alongside the spatial coordinates (and other generalized coordinates). For a particle, either massless or massive, the Lorentz invariant action is (abusing notation)
+
+where lower and upper indices are used according to covariance and contravariance of vectors, "σ" is an "affine parameter", and "u" = "dx"/"dσ" is the four-velocity of the particle.
+
+For massive particles, "σ" can be the arc length "s", or proper time "τ", along the particle's world line,
+
+For massless particles, it cannot because the proper time of a massless particle is always zero;
+
+For a free particle, the Lagrangian has the form
+
+where the irrelevant factor of 1/2 is allowed to be scaled away by the scaling property of Lagrangians. No inclusion of mass is necessary since this also applies to massless particles. The Euler–Lagrange equations in the spacetime coordinates are
+
+which is the geodesic equation for affinely parameterized geodesics in spacetime. In other words, the free particle follows geodesics. Geodesics for massless particles are called "null geodesics", since they lie in a "light cone" or "null cone" of spacetime, while those for massive particles are called "non-null geodesics".
+
+This manifestly covariant formulation does not extend to an "N" particle system, since then the affine parameter of any one particle cannot be defined as a common parameter for all the other particles.
+
+For a 1d relativistic simple harmonic oscillator, the Lagrangian is
+
+where "k" is the spring constant.
+
+For a particle under a constant force, the Lagrangian is
+
+where "a" is the force per unit mass.
+
+In special relativity, the Lagrangian of a massive charged test particle in an electromagnetic field modifies to
+
+The Lagrangian equations in r lead to the Lorentz force law, in terms of the relativistic momentum
+
+In the language of four vectors and tensor index notation, the Lagrangian takes the form
+
+where "u" = "dx"/"dτ" is the four-velocity of the test particle, and "A" the electromagnetic four potential.
+
+The Euler–Lagrange equations are (notice the total derivative with respect to proper time instead of coordinate time)
+
+obtains
+
+Under the total derivative with respect to proper time, the first term is the relativistic momentum, the second term is
+
+then rearranging, and using the definition of the antisymmetric electromagnetic tensor, gives the covariant form of the Lorentz force law in the more familiar form,
+
+The Lagrangian is that of a single particle plus an interaction term "L"
+
+Varying this with respect to the position of the particle "r" as a function of time "t" gives
+
+This gives the equation of motion
+where
+is the non-gravitational force on the particle. (For "m" to be independent of time, we must have formula_41.)
+
+Rearranging gets the force equation
+where Γ is the Christoffel symbol which is the gravitational force field.
+
+If we let
+be the (kinetic) linear momentum for a particle with mass, then
+and
+hold even for a massless particle.
+
+In general relativity, the first term generalizes (includes) both the classical kinetic energy and the interaction with the gravitational field. For a charged particle in an electromagnetic field it is
+
+If the four spacetime coordinates "x" are given in arbitrary units (i.e. unitless), then "g" in m is the rank 2 symmetric metric tensor which is also the gravitational potential. Also, "A" in V·s is the electromagnetic 4-vector potential.
+
+
+
+

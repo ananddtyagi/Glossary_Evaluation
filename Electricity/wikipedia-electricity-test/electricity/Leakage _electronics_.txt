@@ -1,0 +1,26 @@
+﻿Leakage (electronics)
+
+In electronics, leakage is the gradual transfer of electrical energy across a boundary normally viewed as insulating, such as the spontaneous discharge of a charged capacitor, magnetic coupling of a transformer with other components, or flow of current across a transistor in the "off" state or a reverse-polarized diode.
+
+Gradual loss of energy from a charged capacitor is primarily caused by electronic devices attached to the capacitors, such as transistors or diodes, which conduct a small amount of current even when they are turned off. Even though this off current is an order of magnitude less than the current through the device when it is on, the current still slowly discharges the capacitor. Another contributor to leakage from a capacitor is from the undesired imperfection of some dielectric materials used in capacitors, also known as "dielectric leakage". It is a result of the dielectric material not being a perfect insulator and having some non-zero conductivity, allowing a "leakage current" to flow, slowly discharging the capacitor.
+
+Another type of leakage occurs when current leaks out of the intended circuit, instead flowing through some alternate path. This sort of leakage is undesirable because the current flowing through the alternate path can cause damage, fires, RF noise, or electrocution. Leakage of this type can be measured by observing that the current flow at some point in the circuit doesn't match the flow at another. Leakage in a high-voltage system can be fatal to a human in contact with the leak, as when a person accidentally grounds a high-voltage power line.
+
+Leakage may also mean an unwanted transfer of energy from one circuit to another. For example, magnetic lines of flux will not be entirely confined within the core of a power transformer; another circuit may couple to the transformer and receive some leaked energy at the frequency of the electric mains, which will cause audible hum in an audio application.
+
+Leakage current is also any current that flows when the ideal current is zero. Such is the case in electronic assemblies when they are in standby, disabled, or "sleep" mode (standby power). These devices can draw one or two microamperes while in their quiescent state compared to hundreds or thousands of milliamperes while in full operation. These leakage currents are becoming a significant factor to portable device manufacturers because of their undesirable effect on battery run time for the consumer.
+
+In semiconductor devices, leakage is a quantum phenomenon where mobile charge carriers (electrons or holes) tunnel through an insulating region. Leakage increases exponentially as the thickness of the insulating region decreases. Tunneling leakage can also occur across semiconductor junctions between heavily doped P-type and N-type semiconductors. Other than tunneling via the gate insulator or junctions, carriers can also leak between source and drain terminals of a Metal Oxide Semiconductor (MOS) transistor. This is called subthreshold conduction. The primary source of leakage occurs inside transistors, but electrons can also leak between interconnects. Leakage increases power consumption and if sufficiently large can cause complete circuit failure.
+
+Leakage is currently one of the main factors limiting increased computer processor performance. Efforts to minimize leakage include the use of strained silicon, high-k dielectrics, and/or stronger dopant levels in the semiconductor. Leakage reduction to continue Moore's law will not only require new material solutions but also proper system design. 
+
+Certain types of semiconductor manufacturing defects exhibit themselves as increased leakage. Thus measuring leakage, or Iddq testing, is a quick, inexpensive method for finding defective chips.
+
+Increased leakage is a common failure mode resulting from non-catastrophic overstress of a semiconductor device, when the junction or the gate oxide suffers permanent damage not sufficient to cause a catastrophic failure. Overstressing the gate oxide can lead to stress-induced leakage current.
+
+In bipolar junction transistors, the emitter current is the sum of the collector and base currents. I = I + I. The collector current has two components: minority carriers and majority carriers. The minority current is called the leakage current.
+
+Leakage current is generally measured in microamperes. For a reverse-biased diode it is temperature sensitive. Leakage current must be carefully examined for applications that work in wide temperature ranges in order to know the diode characteristics .
+
+
+

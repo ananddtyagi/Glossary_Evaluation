@@ -1,0 +1,15 @@
+﻿Curie–von Schweidler law
+
+The Curie–von Schweidler law refers to the response of dielectric material to the step input of a direct current (DC) voltage first observed by Jacques Curie and Egon Ritter von Schweidler.
+
+According to this law, the current decays according to a power law:
+
+where formula_2 is the current at a given charging time, formula_3, and formula_4 is the decay constant such that formula_5. Given that the dielectric has a finite conductance, the equation for current measured through a dielectric under a DC electrical field is:
+
+where formula_7 is a constant of proportionality, formula_8 is the decay constant (i.e., formula_9), and formula_10 is the intrinsic conductance of the dielectric. This stands in contrast to the Debye formulation, which states that the current is proportional an exponential function with a time constant, formula_11, according to:
+
+The Curie–von Schweidler behavior has been observed in many instances such as those shown by Andrzej Ka Johnscher and Jameson "et al". It has been interpreted as a many-body problem by Jonscher, but can also be formulated as an infinite number of resistor-capacitor circuits. This comes from the fact that the power law can be expressed as:
+
+where formula_14 is the Gamma function. Effectively, this relationship shows the power law expression to be composed of an infinite "weighted sum" of Debye responses.
+
+

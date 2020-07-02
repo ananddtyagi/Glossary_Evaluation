@@ -1,0 +1,226 @@
+﻿Computational anatomy
+
+Computational anatomy is an interdisciplinary field of biology focused on quantitative investigation and modelling of anatomical shapes variability. It involves the development and application of mathematical, statistical and data-analytical methods for modelling and simulation of biological structures.
+
+The field is broadly defined and includes foundations in anatomy, applied mathematics and pure mathematics, machine learning, computational mechanics, computational science, biological imaging, neuroscience, physics, probability, and statistics; it also has strong connections with fluid mechanics and geometric mechanics. Additionally, it complements newer, interdisciplinary fields like bioinformatics and neuroinformatics in the sense that its interpretation uses metadata derived from the original sensor imaging modalities (of which Magnetic Resonance Imaging is one example). It focuses on the anatomical structures being imaged, rather than the medical imaging devices. It is similar in spirit to the history of Computational linguistics, a discipline that focuses on the linguistic structures rather than the sensor acting as the transmission and communication medium(s).
+
+In computational anatomy, the diffeomorphism group is used to study different coordinate systems via coordinate transformations as generated via the Lagrangian and Eulerian velocities of flow in formula_1. The flows between coordinates in computational anatomy are constrained to be geodesic flows satisfying the principle of least action for the Kinetic energy of the flow. The kinetic energy is defined through a Sobolev smoothness norm with strictly more than two generalized, square-integrable derivatives for each component of the flow velocity, which guarantees that the flows in formula_2 are diffeomorphisms. 
+It also implies that the diffeomorphic shape momentum taken pointwise satisfying the Euler-Lagrange equation for geodesics is determined by its neighbors through spatial derivatives on the velocity field. This separates the discipline from the case of incompressible fluids for which momentum is a pointwise function of velocity. Computational anatomy intersects the study of Riemannian manifolds and nonlinear global analysis, where groups of diffeomorphisms are the central focus. Emerging high-dimensional theories of shape are central to many studies in computational anatomy, as are questions emerging from the fledgling field of shape statistics.
+The metric structures in computational anatomy are related in spirit to morphometrics, with the distinction that Computational anatomy focuses on an infinite-dimensional space of coordinate systems transformed by a diffeomorphism, hence the central use of the terminology , the metric space study of coordinate systems via diffeomorphisms.
+
+At computational anatomy's heart is the comparison of shape by recognizing in one shape the other. This connects it to D'Arcy Wentworth Thompson's developments On Growth and Form which has led to scientific explanations of morphogenesis, the process by which patterns are formed in Biology. Albrecht Durer's Four Books on Human Proportion were arguably the earliest works on computational anatomy. The efforts of Noam Chomsky in his pioneering of Computational Linguistics inspired the original formulation of computational anatomy as a generative model of shape and form from exemplars acted upon via transformations.
+
+Due to the availability of dense 3D measurements via technologies such as magnetic resonance imaging (MRI), computational anatomy has emerged as a subfield of medical imaging and bioengineering for extracting anatomical coordinate systems at the morphome scale in 3D. The spirit of this discipline shares strong overlap with areas such as computer vision and kinematics of rigid bodies, where objects are studied by analysing the groups responsible for the movement in question. Computational anatomy departs from computer vision with its focus on rigid motions, as the infinite-dimensional diffeomorphism group is central to the analysis of Biological shapes. It is a branch of the image analysis and pattern theory school at Brown University pioneered by Ulf Grenander. In Grenander's general Metric Pattern Theory, making spaces of patterns into a metric space is one of the fundamental operations since being able to cluster and recognize anatomical configurations often requires a metric of close and far between shapes. The diffeomorphometry metric of Computational anatomy measures how far two diffeomorphic changes of coordinates are from each other, which in turn induces a metric on the shapes and images indexed to them. The models of metric pattern theory, in particular group action on the orbit of shapes and forms is a central tool to the formal definitions in Computational anatomy.
+
+Computational anatomy is the study of shape and form at the morphome or gross anatomy millimeter, or morphology scale, focusing on the study of sub-manifolds of formula_3 points, curves surfaces and subvolumes of human anatomy.
+An early modern computational neuro-anatomist was David Van Essen performing some of the early physical unfoldings of the human brain based on printing of a human cortex and cutting. Jean Talairach's publication of Tailarach coordinates is an important milestone at the morphome scale demonstrating the fundamental basis of local coordinate systems in studying neuroanatomy and therefore the clear link to charts of differential geometry. Concurrently, virtual mapping in computational anatomy across high resolution dense image coordinates was already happening in Ruzena Bajcy's and Fred Bookstein's earliest developments based on Computed axial tomography and Magnetic resonance imagery.
+The earliest introduction of the use of flows of diffeomorphisms for transformation of coordinate systems in image analysis and medical imaging was by Christensen, Joshi, Miller, and Rabbitt.
+
+The first formalization of computational anatomy as an orbit of exemplar templates under diffeomorphism group action was in the original lecture given by Grenander and Miller with that title in May 1997 at the 50th Anniversary of the Division of Applied Mathematics at Brown University, and subsequent publication. This was the basis for the strong departure from much of the previous work on advanced methods for spatial normalization and image registration which were historically built on notions of addition and basis expansion. The structure preserving transformations central to the modern field of Computational Anatomy, homeomorphisms and diffeomorphisms carry smooth submanifolds smoothly. They are generated via Lagrangian and Eulerian flows which satisfy a law of composition of functions forming the group property, but are not additive.
+
+The original model of computational anatomy was as the triple, formula_4 the group formula_5, the orbit of shapes and forms formula_6, and the probability laws formula_7 which encode the variations of the objects in the orbit. The template or collection of templates are elements in the orbit formula_8 of shapes.
+
+The Lagrangian and Hamiltonian formulations of the equations of motion of computational anatomy took off post 1997 with several pivotal meetings including the 1997 Luminy meeting organized by the Azencott school at Ecole-Normale Cachan on the "Mathematics of Shape Recognition" and the 1998 Trimestre at Institute Henri Poincaré organized by David Mumford "Questions Mathématiques en Traitement du Signal et de l'Image" which catalyzed the Hopkins-Brown-ENS Cachan groups and subsequent developments and connections of Computational anatomy to developments in global analysis.
+
+The developments in computational anatomy included the establishment of the Sobelev smoothness conditions on the diffeomorphometry metric to insure existence of solutions of variational problems in the space of diffeomorphisms, the derivation of the Euler-Lagrange equations characterizing geodesics through the group and associated conservation laws, the demonstration of the metric properties of the right invariant metric, the demonstration that the Euler-Lagrange equations have a well-posed initial value problem with unique solutions for all time, and with the first results on sectional curvatures for the diffeomorphometry metric in landmarked spaces. Following the Los Alamos meeting in 2002, Joshi's original large deformation singular "Landmark" solutions in Computational anatomy were connected to peaked "Solitons" or "Peakons" as solutions for the Camassa-Holm equation. Subsequently, connections were made between Computational anatomy's Euler-Lagrange equations for momentum densities for the right-invariant metric satisfying Sobolev smoothness to Vladimir Arnold's characterization of the Euler equation for incompressible flows as describing geodesics in the group of volume preserving diffeomorphisms. The first algorithms, generally termed LDDMM for large deformation diffeomorphic mapping for computing connections between landmarks in volumes and spherical manifolds, curves, currents and surfaces, volumes, tensors, varifolds, and time-series have followed.
+
+These contributions of computational anatomy to the global analysis associated to the infinite dimensional manifolds of subgroups of the diffeomorphism group is far from trivial. The original idea of doing differential geometry, curvature and geodesics on infinite dimensional manifolds goes back to Bernhard Riemann's Habilitation (Ueber die Hypothesen, welche der Geometrie zu Grunde liegen); the key modern book laying the foundations of such ideas in global analysis are from Michor.
+
+The applications within medical imaging of computational anatomy continued to flourish after two organized meetings at the Institute for Pure and Applied Mathematics conferences at University of California, Los Angeles. Computational anatomy has been useful in creating accurate models of the atrophy of the human brain at the morphome scale, as well as Cardiac templates, as well as in modeling biological systems. Since the late 1990s, computational anatomy has become an important part of developing emerging technologies for the field of medical imaging. Digital atlases are a fundamental part of modern Medical-school education and in neuroimaging research at the morphome scale. Atlas based methods and virtual textbooks which accommodate variations as in deformable templates are at the center of many neuro-image analysis platforms including Freesurfer, FSL, MRIStudio, SPM. Diffeomorphic registration, introduced in the 90's, is now an important player with existing codes bases organized around ANTS,<ref name="stnava/ANTs"></ref> DARTEL, DEMONS, LDDMM,<ref name="NITRC: LDDMM: Tool/Resource Info"></ref> StationaryLDDMM, FastLDDMM, are examples of actively used computational codes for constructing correspondences between coordinate systems based on sparse features and dense images. Voxel-based morphometry (VBM) is an important technology built on many of these principles.
+
+The model of human anatomy is a deformable template, an orbit of exemplars under group action. Deformable template models have been central to Grenander's Metric Pattern theory, accounting for typicality via templates, and accounting for variability via transformation of the template. An orbit under group action as the representation of the deformable template is a classic formulation from differential geometry. The space of shapes are denoted formula_9, with the group formula_10 with law of composition formula_11; the action of the group on shapes is denoted formula_12, where the action of the group formula_13 is defined to satisfy 
+
+The orbit formula_15 of the template becomes the space of all shapes, formula_16, being homogenous under the action of the elements of formula_17.
+The orbit model of computational anatomy is an abstract algebra - to be compared to linear algebra- since the groups act nonlinearly on the shapes. This is a generalization of the classical models of linear algebra, in which the set of finite dimensional formula_18 vectors are replaced by the finite-dimensional anatomical submanifolds (points, curves, surfaces and volumes) and images of them, and the formula_19 matrices of linear algebra are replaced by coordinate transformations based on linear and affine groups and the more general high-dimensional diffeomorphism groups.
+
+The central objects are shapes or forms in computational anatomy, one set of examples being the 0,1,2,3-dimensional submanifolds of formula_20, a second set of examples being images generated via medical imaging such as via magnetic resonance imaging (MRI) and functional magnetic resonance imaging. The 0-dimensional manifolds are landmarks or fiducial points; 1-dimensional manifolds are curves such as sulcul and gyral curves in the brain; 2-dimensional manifolds correspond to boundaries of substructures in anatomy such as the subcortical structures of the midbrain or the gyral surface of the neocortex; subvolumes correspond to subregions of the human body, the heart, the thalamus, the kidney.
+
+The landmarks formula_21 are a collections of points with no other structure, delineating important fiducials within human shape and form (see associated landmarked image).
+The sub-manifold shapes such as surfaces formula_22 are collections of points modeled as parametrized by a local chart or immersion formula_23, formula_24 (see Figure showing shapes as mesh surfaces).
+The images such as MR images or DTI images formula_25, and are dense functions
+formula_26 are scalars, vectors, and matrices (see Figure showing scalar image).
+
+Groups and group actions are familiar to the Engineering community with the universal popularization and standardization of linear algebra as a basic model for analyzing signals and systems in mechanical engineering, electrical engineering and applied mathematics. In linear algebra the matrix groups (matrices with inverses) are the central structure, with group action defined by the usual definition of formula_27 as an formula_28 matrix, acting on formula_29 as formula_30 vectors; the orbit in linear-algebra is the set of formula_31-vectors given by formula_32, which is a group action of the matrices through the orbit of formula_33.
+
+The central group in computational anatomy defined on volumes in formula_1 are the diffeomorphisms formula_35 which are mappings with 3-components formula_36, law of composition of functions formula_37, with inverse formula_38.
+
+Most popular are scalar images, formula_39, with action on the right via the inverse.
+
+For sub-manifolds formula_22, parametrized by a chart or immersion formula_42, the diffeomorphic action the flow of the position
+
+Several group actions in computational anatomy have been defined.
+
+For the study of rigid body kinematics, the low-dimensional matrix Lie groups have been the central focus. The matrix groups are low-dimensional mappings, which are diffeomorphisms that provide one-to-one correspondences between coordinate systems, with a smooth inverse. The matrix group of rotations and scales can be generated via a closed form finite-dimensional matrices which are solution of simple ordinary differential equations with solutions given by the matrix exponential.
+
+For the study of deformable shape in computational anatomy, a more general diffeomorphism group has been the group of choice, which is the infinite dimensional analogue. The high-dimensional differeomorphism groups used in Computational Anatomy are generated via smooth flows formula_44 which satisfy the Lagrangian and Eulerian specification of the flow fields as first introduced in., satisfying the ordinary differential equation: 
+
+with formula_45 the vector fields on formula_46 termed the Eulerian velocity of the particles at position formula_47 of the flow. The vector fields are functions in a function space, modelled as a smooth Hilbert space of high-dimension, with the Jacobian of the flow formula_48 a high-dimensional field in a function space as well, rather than a low-dimensional matrix as in the matrix groups. Flows were first introduced for large deformations in image matching; formula_49 is the instantaneous velocity of particle formula_50 at time formula_51 .
+
+The inverse formula_52 required for the group is defined on the Eulerian vector-field with advective inverse flow
+
+The group of diffeomorphisms is very big. To ensure smooth flows of diffeomorphisms avoiding shock-like solutions for the inverse, the vector fields must be at least 1-time continuously differentiable in space. For diffeomorphisms on formula_46, vector fields are modelled as elements of the Hilbert space formula_54 using the Sobolev embedding theorems so that each element has strictly greater than 2 generalized square-integrable spatial derivatives (thus formula_55 is sufficient), yielding 1-time continuously differentiable functions.
+
+The diffeomorphism group are flows with vector fields absolutely integrable in Sobolev norm:
+where
+formula_56 
+with the linear operator formula_57 mapping to the dual space formula_58, with the integral calculated by integration by parts when formula_59 is a generalized function in the dual space.
+the images are denoted with the orbit as formula_60 and metric formula_61.
+
+In classical mechanics the evolution of physical systems is described by solutions to the Euler–Lagrange equations associated to the Least-action principle of Hamilton. This is a standard way, for example of obtaining Newton's laws of motion of free particles. More generally, the Euler-Lagrange equations can be derived for systems of generalized coordinates. The Euler-Lagrange equation in computational anatomy describes the geodesic shortest path flows between coordinate systems of the diffeomorphism metric. In computational anatomy the generalized coordinates are the flow of the diffeomorphism and its Lagrangian velocity formula_62, the two related via the Eulerian velocity formula_63. 
+Hamilton's principle for generating the Euler-Lagrange equation requires the action integral on the Lagrangian given by 
+the Lagrangian is given by the kinetic energy:
+
+In computational anatomy, formula_64 was first called the Eulerian or diffeomorphic shape momentum since when integrated against Eulerian velocity formula_65 gives energy density, and since there is a conservation of diffeomorphic shape momentum which holds. The operator formula_27 is the generalized moment of inertia or inertial operator.
+
+Classical calculation of the Euler-Lagrange equation from Hamilton's principle requires the perturbation of the Lagrangian on the vector field in the kinetic energy with respect to first order perturbation of the flow. This requires adjustment by the Lie bracket of vector field, given by operator formula_67 which involves the Jacobian given by 
+Defining the adjoint formula_69 then the first order variation gives the Eulerian shape momentum formula_59 satisfying the generalized equation:
+meaning for all smooth formula_71
+
+Computational anatomy is the study of the motions of submanifolds, points, curves, surfaces and volumes.
+Momentum associated to points, curves and surfaces are all singular, implying the momentum is concentrated on subsets of formula_20 which are dimension formula_74 in Lebesgue measure. In such cases, the energy is still well defined formula_75 since although formula_76 is a generalized function, the vector fields are smooth and the Eulerian momentum is understood via its action on smooth functions. The perfect illustration of this is even when it is a superposition of delta-diracs, the velocity of the coordinates in the entire volume move smoothly.The Euler-Lagrange equation () on diffeomorphisms for generalized functions formula_77 was derived in. In Riemannian Metric and Lie-Bracket Interpretation of the Euler-Lagrange Equation on Geodesics derivations are provided in terms of the adjoint operator and the Lie bracket for the group of diffeomorphisms. It has come to be called EPDiff equation for diffeomorphisms connecting to the Euler-Poincare method having been studied in the context of the inertial operator formula_78 for incompressible, divergence free, fluids.
+
+For the momentum density case formula_79, then Euler–Lagrange equation has a classical solution:The Euler-Lagrange equation on diffeomorphisms, classically defined for momentum densities first appeared in for medical image analysis.
+
+In medical imaging and computational anatomy, positioning and coordinatizing shapes are fundamental operations; the system for positioning anatomical coordinates and shapes built on the metric and the Euler-Lagrange equation a geodesic positioning system as first explicated in Miller Trouve and Younes.
+Solving the geodesic from the initial condition formula_80 is termed the Riemannian-exponential, a mapping formula_81 at identity to the group.
+
+The Riemannian exponential satisfies formula_82 for initial condition formula_83, vector field dynamics formula_84,
+
+
+Computing the flow formula_80 onto coordinates Riemannian logarithm, mapping formula_92 at identity from formula_93 to vector field formula_94;
+
+formula_95
+
+Extended to the entire group they become
+
+formula_96 ; formula_97 .
+
+These are inverses of each other for unique solutions of Logarithm; the first is called geodesic positioning, the latter geodesic coordinates (see Exponential map, Riemannian geometry for the finite dimensional version).The geodesic metric is a local flattening of the Riemannian coordinate system (see figure). 
+
+In computational anatomy the diffeomorphisms are used to push the coordinate systems, and the vector fields are used
+as the control within the
+anatomical orbit or morphological space. The model is that of a dynamical system, the flow of coordinates formula_98 and the control the vector field formula_99 related via formula_100 The Hamiltonian view
+
+This function is the extended Hamiltonian. The Pontryagin maximum principle gives the optimizing vector field which determines the geodesic flow satisfying formula_105 as well as the reduced Hamiltonian 
+The Lagrange multiplier in its action as a linear form has its own inner product of the canonical momentum acting on the velocity of the flow which is dependent on the shape, e.g. for landmarks a sum, for surfaces a surface integral, and. for volumes it is a volume integral with respect to formula_107 on formula_1. In all cases the Greens kernels carry weights which are the canonical momentum evolving according to an ordinary differential equation which corresponds to EL but is the geodesic reparameterization in canonical momentum. The optimizing vector field is given by
+with dynamics of canonical momentum reparameterizing the vector field along the geodesic 
+
+Whereas the vector fields are extended across the entire background space of formula_1, the geodesic flows associated to the submanifolds has Eulerian shape momentum which evolves as a generalized function formula_111 concentrated to the submanifolds. For landmarks the geodesics have Eulerian shape momentum which are a superposition of delta distributions travelling with the finite numbers of particles; the diffeomorphic flow of coordinates have velocities in the range of weighted Green's Kernels. For surfaces, the momentum is a surface integral of delta distributions travelling with the surface.
+
+The geodesics connecting coordinate systems satisfying have stationarity of the Lagrangian. The Hamiltonian is given by the extremum along the path formula_112, formula_113, equalling the and is stationary along . Defining the geodesic velocity at the identity formula_114, then along the geodesic
+
+In computational anatomy the submanifolds are pointsets, curves, surfaces and subvolumes which are the basic primitives. The geodesic flows between the submanifolds determine the distance, and form the basic measuring and transporting tools of diffeomorphometry. At formula_120 the geodesic has vector field formula_123 determined by the conjugate momentum and the Green's kernel of the inertial operator defining the Eulerian momentum formula_124. The metric distance between coordinate systems connected via the geodesic determined by the induced distance between identity and group element:
+
+Given the least-action there is a natural definition of momentum associated to generalized coordinates; the quantity acting against velocity gives energy. The field has studied two forms, the momentum associated to the Eulerian vector field termed Eulerian diffeomorphic shape momentum, and the momentum associated to the initial coordinates or canonical coordinates termed canonical diffeomorphic shape momentum. Each has a conservation law.The conservation of momentum goes hand in hand with the . In computational anatomy, formula_64 is the Eulerian Momentum since when integrated against Eulerian velocity formula_65 gives energy density; operator formula_27 the generalized moment of inertia or inertial operator which acting on the Eulerian velocity gives momentum which is conserved along the geodesic: 
+
+Conservation of Eulerian shape momentum was shown in and follows from ; conservation of canonical momentum was shown in
+^T p_t</math>: 
+
+LDDMM matching based on the entire tensor matrix
+has group action becomes formula_130 transformed eigenvectors
+
+The variational problem matching onto the principal eigenvector or the matrix is described
+LDDMM Tensor Image Matching.
+
+High angular resolution diffusion imaging (HARDI) addresses the well-known limitation of DTI, that is, DTI can only reveal one dominant fiber orientation at each location. HARDI measures diffusion along formula_132 uniformly distributed directions on the sphere and can characterize more complex fiber geometries. HARDI can be used to reconstruct an orientation distribution function (ODF) that characterizes the angular profile of the diffusion probability density function of water molecules. The ODF is a function defined on a unit sphere, formula_133.
+
+Dense LDDMM ODF matching takes the HARDI data as ODF at each voxel and solves the LDDMM variational problem in the space of ODF. In the field of information geometry, the space of ODF forms a Riemannian manifold with the Fisher-Rao metric. For the purpose of LDDMM ODF mapping, the square-root representation is chosen because it is one of the most efficient representations found to date as the various Riemannian operations, such as geodesics, exponential maps, and logarithm maps, are available in closed form. In the following, denote square-root ODF (formula_134) as formula_135, where formula_135 is non-negative to ensure uniqueness and formula_137. The variational problem for matching assumes that two ODF volumes can be generated from one to another via flows of diffeomorphisms formula_138, which are solutions of ordinary differential equations formula_139 starting from the identity map formula_140. Denote the action of the diffeomorphism on template as formula_141, formula_142, formula_143 are respectively the coordinates of the unit sphere, formula_144 and the image domain, with the target indexed similarly, formula_145,formula_142,formula_143.
+
+The group action of the diffeomorphism on the template is given according to
+where formula_149 is the Jacobian of the affined transformed ODF and is defined as
+formula_150
+This group action of diffeomorphisms on ODF reorients the ODF and reflects changes in both the magnitude of formula_151 and the sampling directions of formula_152 due to affine transformation. It guarantees that the volume fraction of fibers oriented toward a small patch must remain the same after the patch is transformed. 
+The LDDMM variational problem is defined as
+
+where the logarithm of formula_154 is defined as
+where formula_156 is the normal dot product between points in the sphere under the formula_157 metric.
+
+This LDDMM-ODF mapping algorithm has been widely used to study brain white matter degeneration in aging, Alzheimer's disease, and vascular dementia. The brain white matter atlas generated based on ODF is constructed via Bayesian estimation. Regression analysis on ODF is developed in the ODF manifold space in.
+
+The principle mode of variation represented by the orbit model is change of coordinates. For setting in which pairs of images are not related by diffeomorphisms but have photometric variation or image variation not represented by the template, active appearance modelling has been introduced, originally by Edwards-Cootes-Taylor and in 3D medical imaging in. In the context of computational anatomy in which metrics on the anatomical orbit has been studied, metamorphosis for modelling structures such as tumors and photometric changes which are not resident in the template was introduced in for Magnetic Resonance image models, with many subsequent developments extending the metamorphosis framework.
+
+For image matching the image metamorphosis framework enlarges the action so that formula_158 with action formula_159. In this setting metamorphosis combines both the diffeomorphic coordinate system transformation of computational anatomy as well as the early morphing technologies which only faded or modified the photometric or image intensity alone.
+
+Then the matching problem takes a form with equality boundary conditions:
+
+Transforming coordinate systems based on Landmark point or fiducial marker features dates back to Bookstein's early work on small deformation spline methods for interpolating correspondences defined by fiducial points to the two-dimensional or three-dimensional background space in which the fiducials are defined. Large deformation landmark methods came on in the late 90's. The above Figure depicts a series of landmarks associated three brain structures, the amygdala, entorhinal cortex, and hippocampus.
+
+Matching geometrical objects like unlabelled point distributions, curves or surfaces is another common problem in computational anatomy. Even in the discrete setting where these are commonly given as vertices with meshes, there are no predetermined correspondences between points as opposed to the situation of landmarks described above. From the theoretical point of view, while any submanifold formula_161 in formula_20, formula_163 can be parameterized in local charts formula_164, all reparametrizations of these charts give geometrically the same manifold. Therefore, early on in computational anatomy, investigators have identified the necessity of parametrization invariant representations. One indispensable requirement is that the end-point matching term between two submanifolds is itself independent of their parametrizations. This can be achieved via concepts and methods borrowed from Geometric measure theory, in particular currents and varifolds which have been used extensively for curve and surface matching.
+
+Denoted the landmarked shape formula_165 with endpoint formula_166, the variational problem becomes
+
+</math>|}}The geodesic Eulerian momentum is a generalized function formula_167, supported on the landmarked set in the variational problem.The endpoint condition with conservation implies the initial momentum at the identity of the group:
+
+The iterative algorithm 
+for large deformation diffeomorphic metric mapping for landmarks is given.
+
+Glaunes and co-workers first introduced diffeomorphic matching of pointsets in the general setting of matching distributions. As opposed to landmarks, this includes in particular the situation of weighted point clouds with no predefined correspondences and possibly different cardinalities. The template and target discrete point clouds are represented as two weighted sums of Diracs formula_169 and formula_170 living in the space of signed measures of formula_171. The space is equipped with a Hilbert metric obtained from a real positive kernel formula_172 on formula_171, giving the following norm:
+
+The matching problem between a template and target point cloud may be then formulated using this kernel metric for the endpoint matching term:
+
+where formula_176 is the distribution transported by the deformation.
+
+In the one dimensional case, a curve in 3D can be represented by an embedding formula_177, and the group action of "Diff" becomes formula_178. However, the correspondence between curves and embeddings is not one to one as the any reparametrization formula_179, for formula_180 a diffeomorphism of the interval [0,1], represents geometrically the same curve. In order to preserve this invariance in the end-point matching term, several extensions of the previous 0-dimensional measure matching approach can be considered.
+
+In the situation of oriented curves, currents give an efficient setting to construct invariant matching terms. In such representation, curves are interpreted as elements of a functional space dual to the space vector fields, and compared through kernel norms on these spaces. Matching of two curves formula_181 and formula_182 writes eventually as the variational problem
+
+with the endpoint term formula_184 is obtained from the norm
+
+the derivative formula_186 being the tangent vector to the curve and formula_187 a given matrix kernel of formula_20. Such expressions are invariant to any positive reparametrizations of formula_181 and formula_190, and thus still depend on the orientation of the two curves.
+
+Varifold is an alternative to currents when orientation becomes an issue as for instance in situations involving multiple bundles of curves for which no "consistent" orientation may be defined. Varifolds directly extend 0-dimensional measures by adding an extra tangent space direction to the position of points, leading to represent curves as measures on the product of formula_20 and the Grassmannian of all straight lines in formula_20. The matching problem between two curves then consists in replacing the endpoint matching term by formula_193 with varifold norms of the form:
+
+where formula_195 is the non-oriented line directed by tangent vector formula_186 and formula_197 two scalar kernels respectively on formula_2 and the Grassmannian. Due to the inherent non-oriented nature of the Grassmannian representation, such expressions are invariant to positive and negative reparametrizations.
+
+Surface matching share many similarities with the case of curves. Surfaces in formula_20 are parametrized in local charts by embeddings formula_200, with all reparametrizations formula_201 with formula_202 a diffeomorphism of U being equivalent geometrically. Currents and varifolds can be also used to formalize surface matching.
+
+Oriented surfaces can be represented as 2-currents which are dual to differential 2-forms. In formula_20, one can further identify 2-forms with vector fields through the standard wedge product of 3D vectors. In that setting, surface matching writes again:
+
+with the endpoint term formula_184 given through the norm
+
+with formula_207 the normal vector to the surface parametrized by formula_208.
+
+This surface mapping algorithm has been validated for brain cortical surfaces against CARET and FreeSurfer. LDDMM mapping for multiscale surfaces is discussed in.
+
+For non-orientable or non-oriented surfaces, the varifold framework is often more adequate. Identifying the parametric surface formula_208 with a varifold formula_210 in the space of measures on the product of formula_20 and the Grassmannian, one simply replaces the previous current metric formula_212 by:
+
+where formula_214 is the (non-oriented) line directed by the normal vector to the surface.
+
+There are many settings in which there are a series of measurements, a time-series to which the underlying
+coordinate systems will be matched and flowed onto. This occurs for example
+in the dynamic growth and atrophy models and motion tracking such as have been explored in An observed time sequence is given and the goal is to infer the time flow of geometric change of coordinates carrying the exemplars or templars through the period of observations.
+
+The generic time-series matching problem considers the series of times is formula_215. The flow optimizes at the series of costs formula_216 giving optimization problems of the form
+
+There have been at least three solutions offered thus far, piecewise geodesic, principal geodesic and splines.
+
+The random orbit model of computational anatomy first appeared in modelling the change in coordinates associated to the randomness of the group acting on the templates, which induces the randomness on the source of images in the anatomical orbit of shapes and forms and resulting observations through the medical imaging devices. Such a random orbit model in which randomness on the group induces randomness on the images was examined for the Special Euclidean Group for object recognition in.
+
+Depicted in the figure is a depiction of the random orbits around each exemplar, formula_218, generated by randomizing the flow by generating the initial tangent space vector field at the identity formula_94, and then generating random object formula_220.
+
+The random orbit model induces the prior on shapes and images formula_221 conditioned on a particular atlas formula_222. For this the generative model generates the mean field formula_223 as a random change in coordinates of the template according to formula_224, where the diffeomorphic change in coordinates is generated randomly via the geodesic flows. The prior on random transformations formula_225 on formula_226 is induced by the flow formula_227, with formula_228 constructed as a Gaussian random field prior formula_229. The density on the random observables at the output of the sensor formula_230 are given by
+formula_231
+
+Shown in the Figure on the right the cartoon orbit, are a random spray of the subcortical manifolds generated by randomizing the vector fields formula_118 supported over the submanifolds.
+
+The central statistical model of computational anatomy in the context of medical imaging has been the source-channel model of Shannon theory; the source is the deformable template of images formula_233, the channel outputs are the imaging sensors with observables formula_234 (see Figure).
+
+See The Bayesian model of computational anatomy for discussions (i) MAP estimation with multiple atlases, (ii)
+MAP segmentation with multiple atlases, MAP estimation of templates from populations.
+
+Shape in computational anatomy is a local theory, indexing shapes and structures to templates to which they are bijectively mapped. Statistical shape in computational anatomy is the empirical study of diffeomorphic correspondences between populations and common template coordinate systems. This is a strong departure from Procrustes Analyses and shape theories pioneered by David G. Kendall in that the central group of Kendall's theories are the finite-dimensional Lie groups, whereas the theories of shape in computational anatomy have focused on the diffeomorphism group, which to first order via the Jacobian can be thought of as a field–thus infinite dimensional–of low-dimensional Lie groups of scale and rotations. 
+
+The random orbit model provides the natural setting to understand empirical shape and shape statistics within computational anatomy since the non-linearity of the induced probability law on anatomical shapes and forms formula_6 is induced via the reduction to the vector fields formula_236 at the tangent space at the identity of the diffeomorphism group. The successive flow of the Euler equation induces the random space of shapes and forms formula_237.
+
+Performing empirical statistics on this tangent space at the identity is the natural way for inducing probability laws on the statistics of shape. Since both the vector fields and the Eulerian momentum formula_119 are in a Hilbert space the natural model is one of a Gaussian random field, so that given test function formula_239, then the inner-products with the test functions are Gaussian distributed with mean and covariance.
+
+This is depicted in the accompanying figure where sub-cortical brain structures are depicted in a two-dimensional coordinate system based on inner products of their initial vector fields that generate them from the template is shown in a 2-dimensional span of the Hilbert space.
+
+The study of shape and statistics in populations are local theories, indexing shapes and structures to templates to which they are bijectively mapped. Statistical shape is then the study of diffeomorphic correspondences relative to the template. A core operation is the generation of templates from populations, estimating a shape that is matched to the population. There are several important methods for generating templates including methods based on Frechet averaging, and statistical approaches based on the expectation-maximization algorithm and the Bayes Random orbit models of computational anatomy. Shown in the accompanying figure is a subcortical template reconstruction from the population of MRI subjects.
+
+Software suites containing a variety of diffeomorphic mapping algorithms include the following:
+
+
+
+
+

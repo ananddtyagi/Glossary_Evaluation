@@ -1,0 +1,78 @@
+﻿Yang–Mills theory
+
+Yang–Mills theory is a gauge theory based on the SU("N") group, or more generally any compact, reductive Lie algebra. Yang–Mills theory seeks to describe the behavior of elementary particles using these non-abelian Lie groups and is at the core of the unification of the electromagnetic force and weak forces (i.e. U(1) × SU(2)) as well as quantum chromodynamics, the theory of the strong force (based on SU(3)). Thus it forms the basis of our understanding of the Standard Model of particle physics.
+
+In a private correspondence, Wolfgang Pauli formulated in 1953 a six-dimensional theory of Einstein's field equations of general relativity, extending the five-dimensional theory of Kaluza, Klein, Fock and others to a higher-dimensional internal space. However, there is no evidence that Pauli developed the Lagrangian of a gauge field or the quantization of it. Because Pauli found that his theory "leads to some rather unphysical shadow particles", he refrained from publishing his results formally. Although Pauli did not publish his six-dimensional theory, he gave two talks about it in Zürich. Recent research shows that an extended Kaluza–Klein theory is in general not equivalent to Yang–Mills theory, as the former contains additional terms.
+
+In early 1954, Chen Ning Yang and Robert Mills extended the concept of gauge theory for abelian groups, e.g. quantum electrodynamics, to nonabelian groups to provide an explanation for strong interactions. The idea by Yang–Mills was criticized by Pauli, as the quanta of the Yang–Mills field must be massless in order to maintain gauge invariance. The idea was set aside until 1960, when the concept of particles acquiring mass through symmetry breaking in massless theories was put forward, initially by Jeffrey Goldstone, Yoichiro Nambu, and Giovanni Jona-Lasinio.
+
+This prompted a significant restart of Yang–Mills theory studies that proved successful in the formulation of both electroweak unification and quantum chromodynamics (QCD). The electroweak interaction is described by the gauge group SU(2) × U(1), while QCD is an SU(3) Yang–Mills theory. The massless gauge bosons of the electroweak SU(2) × U(1) mix after spontaneous symmetry breaking to produce the 3 massive weak bosons (, , and ) as well as the still-massless photon field. The dynamics of the photon field and its interactions with matter are, in turn, governed by the U(1) gauge theory of quantum electrodynamics. The Standard Model combines the strong interaction with the unified electroweak interaction (unifying the weak and electromagnetic interaction) through the symmetry group SU(3) × SU(2) × U(1). In the current epoch the strong interaction is not unified with the electroweak interaction, but from the observed running of the coupling constants it is believed they all converge to a single value at very high energies.
+
+Phenomenology at lower energies in quantum chromodynamics is not completely understood due to the difficulties of managing such a theory with a strong coupling. This may be the reason why confinement has not been theoretically proven, though it is a consistent experimental observation. This shows why QCD confinement at low energy is a mathematical problem of great relevance, and why the Yang–Mills existence and mass gap problem is a Millennium Prize Problem.
+
+Yang–Mills theories are special examples of gauge theories with a non-abelian symmetry group given by the Lagrangian
+
+with the generators of the Lie algebra, indexed by , corresponding to the "F"-quantities (the curvature or field-strength form) satisfying
+
+Here, the are structure constants of the Lie algebra, the covariant derivative is defined as
+
+The relation
+
+can be derived by the commutator
+
+The field has the property of being self-interacting and the equations of motion that one obtains are said to be semilinear, as nonlinearities are both with and without derivatives. This means that one can manage this theory only by perturbation theory with small nonlinearities.
+
+Note that the transition between "upper" ("contravariant") and "lower" ("covariant") vector or tensor components is trivial for "a" indices (e.g. formula_8), whereas for μ and ν it is nontrivial, corresponding e.g. to the usual Lorentz signature, formula_9.
+
+From the given Lagrangian one can derive the equations of motion given by
+
+Putting formula_11, these can be rewritten as
+
+A Bianchi identity holds
+
+which is equivalent to the Jacobi identity
+
+since formula_15. Define the dual strength tensor
+formula_16, then the Bianchi identity can be rewritten as
+
+A source formula_18 enters into the equations of motion as
+
+Note that the currents must properly change under gauge group transformations.
+
+We give here some comments about the physical dimensions of the coupling. In "D" dimensions, the field scales as formula_20 and so the coupling must scale as formula_21. This implies that Yang–Mills theory is not renormalizable for dimensions greater than four. Furthermore, for "D" = 4, the coupling is dimensionless and both the field and the square of the coupling have the same dimensions of the field and the coupling of a massless quartic scalar field theory. So, these theories share the scale invariance at the classical level.
+
+A method of quantizing the Yang–Mills theory is by functional methods, i.e. path integrals. One introduces a generating functional for "n"-point functions as
+
+but this integral has no meaning as it is because the potential vector can be arbitrarily chosen due to the gauge freedom. This problem was already known for quantum electrodynamics but here becomes more severe due to non-abelian properties of the gauge group. A way out has been given by Ludvig Faddeev and Victor Popov with the introduction of a ghost field (see Faddeev–Popov ghost) that has the property of being unphysical since, although it agrees with Fermi–Dirac statistics, it is a complex scalar field, which violates the spin–statistics theorem. So, we can write the generating functional as
+
+being
+
+for the field,
+
+for the gauge fixing and
+
+for the ghost. This is the expression commonly used to derive Feynman's rules (see Feynman diagram). Here we have "c" for the ghost field while ξ fixes the gauge's choice for the quantization. Feynman's rules obtained from this functional are the following
+
+These rules for Feynman diagrams can be obtained when the generating functional given above is rewritten as
+
+with
+
+being the generating functional of the free theory. Expanding in "g" and computing the functional derivatives, we are able to obtain all the "n"-point functions with perturbation theory. Using LSZ reduction formula we get from the "n"-point functions the corresponding process amplitudes, cross sections and decay rates. The theory is renormalizable and corrections are finite at any order of perturbation theory.
+
+For quantum electrodynamics the ghost field decouples because the gauge group is abelian. This can be seen from the coupling between the gauge field and the ghost field that is formula_29. For the abelian case, all the structure constants formula_30 are zero and so there is no coupling. In the non-abelian case, the ghost field appears as a useful way to rewrite the quantum field theory without physical consequences on the observables of the theory such as cross sections or decay rates.
+
+One of the most important results obtained for Yang–Mills theory is asymptotic freedom. This result can be obtained by assuming that the coupling constant "g" is small (so small nonlinearities), as for high energies, and applying perturbation theory. The relevance of this result is due to the fact that a Yang–Mills theory that describes strong interaction and asymptotic freedom permits proper treatment of experimental results coming from deep inelastic scattering.
+
+To obtain the behavior of the Yang–Mills theory at high energies, and so to prove asymptotic freedom, one applies perturbation theory assuming a small coupling. This is verified a posteriori in the ultraviolet limit. In the opposite limit, the infrared limit, the situation is the opposite, as the coupling is too large for perturbation theory to be reliable. Most of the difficulties that research meets is just managing the theory at low energies. That is the interesting case, being inherent to the description of hadronic matter and, more generally, to all the observed bound states of gluons and quarks and their confinement (see hadrons). The most used method to study the theory in this limit is to try to solve it on computers (see lattice gauge theory). In this case, large computational resources are needed to be sure the correct limit of infinite volume (smaller lattice spacing) is obtained. This is the limit the results must be compared with. Smaller spacing and larger coupling are not independent of each other, and larger computational resources are needed for each. As of today, the situation appears somewhat satisfactory for the hadronic spectrum and the computation of the gluon and ghost propagators, but the glueball and hybrids spectra are yet a questioned matter in view of the experimental observation of such exotic states. Indeed, the σ resonance is not seen in any of such lattice computations and contrasting interpretations have been put forward. This is a hotly debated issue.
+
+Yang–Mills theories met with general acceptance in the physics community after Gerard 't Hooft, in 1972, worked out their renormalization, relying on a formulation of the problem worked out by his advisor Martinus Veltman. Renormalizability is obtained even if the gauge bosons described by this theory are massive, as in the electroweak theory, provided the mass is only an "acquired" one, generated by the Higgs mechanism.
+
+The mathematics of the Yang–Mills theory is a very active field of research, yielding e.g. invariants of differentiable structures on four-dimensional manifolds via work of Simon Donaldson. Furthermore, the field of Yang–Mills theories was included in the Clay Mathematics Institute's list of "Millennium Prize Problems". Here the prize-problem consists, especially, in a proof of the conjecture that the lowest excitations of a pure Yang–Mills theory (i.e. without matter fields) have a finite mass-gap with regard to the vacuum state. Another open problem, connected with this conjecture, is a proof of the confinement property in the presence of additional Fermion particles.
+
+In physics the survey of Yang–Mills theories does not usually start from perturbation analysis or analytical methods, but more recently from systematic application of numerical methods to lattice gauge theories.
+
+
+
+
+
+

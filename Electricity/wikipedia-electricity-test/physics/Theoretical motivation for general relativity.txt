@@ -1,0 +1,183 @@
+﻿Theoretical motivation for general relativity
+
+A theoretical motivation for general relativity, including the motivation for the geodesic equation and the Einstein field equation, can be obtained from special relativity by examining the dynamics of particles in circular orbits about the earth. A key advantage in examining circular orbits is that it is possible to know the solution of the Einstein Field Equation "a priori". This provides a means to inform and verify the formalism.
+
+General relativity addresses two questions:
+
+The former question is answered with the geodesic equation. The second question is answered with the Einstein field equation. The geodesic equation and the field equation are related through a principle of least action. The motivation for the geodesic equation is provided in the section Geodesic equation for circular orbits The motivation for the Einstein field equation is provided in the section Stress–energy tensor
+
+For definiteness consider a circular earth orbit (helical world line) of a particle. The particle travels with speed v. An observer on earth sees that length is contracted in the frame of the particle. A measuring stick traveling with the particle appears shorter to the earth observer. Therefore, the circumference of the orbit, which is in the direction of motion appears longer than formula_1 times the diameter of the orbit.
+
+In special relativity the 4-proper-velocity of the particle in the inertial (non-accelerating) frame of the earth is
+
+where c is the speed of light, formula_3 is the 3-velocity, and formula_4 is
+
+The magnitude of the 4-velocity vector is always constant
+
+where we are using a Minkowski metric
+
+The magnitude of the 4-velocity is therefore a Lorentz scalar.
+
+The 4-acceleration in the earth (non-accelerating) frame is
+
+where formula_9 is c times the proper time interval measured in the frame of the particle. This is related to the time interval in the Earth's frame by
+
+Here, the 3-acceleration for a circular orbit is
+
+where formula_12 is the angular velocity of the rotating particle and formula_13 is the 3-position of the particle.
+
+The magnitude of the 4-velocity is constant. This implies that the 4-acceleration must be perpendicular to the 4-velocity. The inner product of the 4-acceleration and the 4-velocity is therefore always zero. The inner product is a Lorentz scalar.
+
+The equation for the acceleration can be generalized, yielding the geodesic equation
+
+where formula_16 is the 4-position of the particle and formula_17 is the curvature tensor give by
+
+where formula_19 is the Kronecker delta function, and we have the constraints
+
+and
+
+It is easily verified that circular orbits satisfy the geodesic equation. The geodesic equation is actually more general. Circular orbits are a particular solution of the equation. Solutions other than circular orbits are permissible and valid.
+
+The Ricci curvature tensor is a special curvature tensor given by the contraction
+
+The trace of the Ricci tensor, called the scalar curvature, is
+
+Consider the situation in which there are now two particles in nearby circular polar orbits of the earth at radius formula_24 and speed formula_25.
+
+The particles execute simple harmonic motion about the earth and with respect to each other. They are at their maximum distance from each other as they cross the equator. Their trajectories intersect at the poles.
+
+Imagine we have a spacecraft co-moving with one of the particles. The ceiling of the craft, the formula_26 direction, coincides with the formula_13 direction. The front of the craft is in the formula_28 direction, and the formula_29 direction is to the left of the craft. The spacecraft is small compared with the size of the orbit so that the local frame is a local Lorentz frame. The 4-separation of the two particles is given by formula_30. In the local frame of the spacecraft the geodesic equation is given by
+
+and
+
+is the curvature tensor in the local frame.
+
+The equation of motion for a particle in flat spacetime and in the absence of forces is
+
+If we require a particle to travel along a geodesic in curved spacetime, then the analogous expression in curved spacetime is
+
+where the derivative on the left is the covariant derivative, which is the generalization of the normal derivative to a derivative in curved spacetime. Here
+
+is a Christoffel symbol.
+
+The curvature is related to the Christoffel symbol by
+
+The interval in the local frame is
+
+where
+
+This gives a metric of
+
+in the local frame.
+
+The inverse of the metric tensor formula_44 is defined such that
+
+where the term on the right is the Kronecker delta.
+
+The transformation of the infinitesimal 4-volume formula_46 is
+
+where g is the determinant of the metric tensor.
+
+The differential of the determinant of the metric tensor is
+
+The relationship between the Christoffel symbols and the metric tensor is
+
+The principle of least action states that the world line between two events in spacetime is that world line that minimizes the action between the two events. In classical mechanics the principle of least action is used to derive Newton's laws of motion and is the basis for Lagrangian dynamics. In relativity it is expressed as
+
+between events 1 and 2 is a minimum. Here S is a scalar and
+
+is known as the Lagrangian density. The Lagrangian density is divided into two parts, the density for the orbiting particle formula_53 and the density formula_54 of the gravitational field generated by all other particles including those comprising the earth,
+
+In curved spacetime, the "shortest" world line is that geodesic that minimizes the curvature along the geodesic. The action then is proportional to the curvature of the world line. Since S is a scalar, the scalar curvature is the appropriate measure of curvature. The action for the particle is therefore
+
+where formula_57 is an unknown constant. This constant will be determined by requiring the theory to reduce to Newton's law of gravitation in the nonrelativistic limit.
+
+The Lagrangian density for the particle is therefore
+
+The action for the particle and the earth is
+
+We find the world line that lies on the surface of the sphere of radius r by varying the metric tensor. Minimization and neglect of terms that disappear on the boundaries, including terms second order in the derivative of g, yields
+
+where
+
+is the Hilbert stress–energy tensor of the field generated by the earth.
+
+The relationship, to within an unknown constant factor, between the stress-energy and the curvature is
+
+Newton's Law of Gravitation in non-relativistic mechanics states that the acceleration on an object of mass formula_63 due to another object of mass formula_64 is equal to
+
+where formula_66 is the gravitational constant, formula_13 is a vector from mass formula_64 to mass formula_63 and formula_24 is the magnitude of that vector. The time t is scaled with the speed of light c
+
+The acceleration formula_72 is independent of formula_63.
+
+For definiteness. consider a particle of mass formula_63 orbiting in the gravitational field of the earth with mass formula_64. The law of gravitation can be written
+
+where formula_77 is the average mass density inside a sphere of radius formula_24.
+
+Newton's law can be written
+
+where formula_80 is the volume of a sphere of radius formula_24. The quantity formula_82 will be recognized from special relativity as the rest energy of the large body, the earth. This is the sum of the rest energies of all the particles that compose earth. The quantity in the parentheses is then the average rest energy density of a sphere of radius formula_24 about the earth. The gravitational field is proportional to the average energy density within a radius r. This is the 00 component of the stress–energy tensor in relativity for the special case in which all the energy is rest energy. More generally
+
+where
+
+where formula_86 is the 4-velocity.
+
+The 00 component of the stress–energy tensor can be generalized to the relativistic case as a linear combination of the two terms
+
+where
+
+The 4-acceleration due to gravity can be written
+
+Unfortunately, this acceleration is nonzero for formula_90 as is required for circular orbits. Since the magnitude of the 4-velocity is constant, it is only the component of the force perpendicular to the 4-velocity that contributes to the acceleration. We must therefore subtract off the component of force parallel to the 4-velocity. This is known as Fermi–Walker transport. In other words,
+
+This yields
+
+The force in the local frame is
+
+We obtain the Einstein field equation by equating the acceleration required for circular orbits with the acceleration due to gravity
+
+This is the relationship between curvature of spacetime and the stress–energy tensor.
+
+The Ricci tensor becomes
+
+The trace of the Ricci tensor is
+
+Comparison of the Ricci tensor with the Ricci tensor calculated from the principle of least action, Theoretical motivation for general relativity#Principle of least action in general relativity identifying the stress–energy tensor with the Hilbert stress-energy, and remembering that A+B=1 removes the ambiguity in A, B, and C.
+
+and
+
+This gives
+
+The field equation can be written
+
+where
+
+This is the Einstein field equation that describes curvature of spacetime that results from stress-energy density. This equation, along with the geodesic equation have motivated by the kinetics and dynamics of a particle orbiting the earth in a circular orbit. They are true in general.
+
+Solving the Einstein field equation requires an iterative process. The solution is represented in the metric tensor
+
+Typically there is an initial guess for the tensor. The guess is used to calculate Christoffel symbols, which are used to calculate the curvature. If the Einstein field equation is not satisfied, the process is repeated.
+
+Solutions occur in two forms, vacuum solutions and non-vacuum solutions. A vacuum solution is one in which the stress–energy tensor is zero. The relevant vacuum solution for circular orbits is the Schwarzschild metric. There are also a number of exact solutions that are non-vacuum solutions, solutions in which the stress tensor is non-zero.
+
+Solving the geodesic equations requires knowledge of the metric tensor obtained through the solution of the Einstein field equation. Either the Christoffel symbols or the curvature are calculated from the metric tensor. The geodesic equation is then integrated with the appropriate boundary conditions.
+
+Maxwell's equations, the equations of electrodynamics, in curved spacetime are a generalization of Maxwell's equations in flat spacetime (see Formulation of Maxwell's equations in special relativity). Curvature of spacetime affects electrodynamics. Maxwell's equations in curved spacetime can be obtained by replacing the derivatives in the equations in flat spacetime with covariant derivatives. The sourced and source-free equations become (cgs units):
+
+and
+
+where formula_107 is the 4-current, formula_108 is the field strength tensor, formula_109 is the Levi-Civita symbol, and
+
+is the 4-gradient. Repeated indices are summed over according to Einstein summation convention. We have displayed the results in several common notations.
+
+The first tensor equation is an expression of the two inhomogeneous Maxwell's equations, Gauss' law and the Ampère's law with Maxwell's correction. The second equation is an expression of the homogeneous equations, Faraday's law of induction and Gauss's law for magnetism.
+
+The electromagnetic wave equation is modified from the equation in flat spacetime in two ways, the derivative is replaced with the covariant derivative and a new term that depends on the curvature appears.
+
+where the 4-potential is defined such that
+
+We have assumed the generalization of the Lorenz gauge in curved spacetime
+
+
+
+

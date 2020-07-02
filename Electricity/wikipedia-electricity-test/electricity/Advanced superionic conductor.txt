@@ -1,0 +1,15 @@
+﻿Advanced superionic conductor
+
+An advanced superionic conductor (AdSIC) is fast ion conductor that has a crystal structure close to optimal for fast ion transport (FIT). 
+
+The term was introduced in a paper by A.L. Despotuli, A.V. Andreeva and B. Rambaby.
+
+The rigid ion sublattice of AdSICs have structure channels where mobile ions of opposite sign migrate. Their ion-transport characteristics display ionic conductivity of ~0.3/Ω cm (RbAgI, 300 K) and activation energy of E~0.1 eV. This determines the temperature-dependent concentration of mobile ions ni~Ni x e capable to migrate in conduction channels at each moment (Ni~10/cm, ni~2x10/cm, 300 K).
+
+The Rubidium silver iodide–family is a group of AdSIC compounds and solid solutions that are isostructural with the RbAgI alpha modification. Examples of such compounds with mobile Ag- and Cu-cations include KAgI, NHAgI, KCsAgI, RbCsAgI, CsAgBrI, CsAgClBrI, CsAgClI, RbCuClI and KCuI
+
+RbAgI AdSIC displays peculiar features of crystal structure and dynamics of mobile ions.
+
+Recently, all solid state micrometre-sized supercapacitors based on AdSICs (nanoionic supercapacitors) had been recognized as critical electron component of future sub-voltage and deep-sub-voltage nanoelectronics and related technologies (22 nm technological node of CMOS and beyond).
+
+

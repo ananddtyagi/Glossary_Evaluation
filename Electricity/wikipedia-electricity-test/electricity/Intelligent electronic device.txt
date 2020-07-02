@@ -1,0 +1,12 @@
+﻿Intelligent electronic device
+
+An Intelligent Electronic Device (IED) is a term used in the electric power industry to describe microprocessor-based controllers of power system equipment, such as circuit breakers, transformers and capacitor banks.
+
+IEDs receive data from sensors and power equipment and can issue control commands, such as tripping circuit breakers if they sense voltage, current, or frequency anomalies, or raise/lower voltage levels in order to maintain the desired level. Common types of IEDs include protective relaying devices, On Load Tap Changer controllers, circuit breaker controllers, capacitor bank switches, recloser controllers, voltage regulators etc. This is generally controlled by a setting file. The testing of setting files is typically one of the most time consuming roles of a protection tester.
+
+Digital protective relays are primarily IEDs, using a microprocessor to perform several protective, control and similar functions. A typical IED can contain around 5-12 protection functions, 5-8 control functions controlling separate devices, an autoreclose function, self monitoring function, communication functions etc. Hence, they are aptly named as Intelligent Electronic Devices.
+
+Some recent IEDs are designed to support the IEC61850 standard for substation automation, which provides interoperability and advanced communications capabilities.
+
+
+

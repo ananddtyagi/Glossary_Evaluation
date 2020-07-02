@@ -1,0 +1,12 @@
+﻿Valley-fill circuit
+
+A valley-fill circuit is a type of passive power factor correction (PFC) circuit.
+For purposes of illustration, a basic full-wave diode-bridge rectifier is shown in the first stage, which converts the AC input voltage to a DC voltage. 
+
+When the AC voltage is applied, the rectified line voltage is applied across C1 and C2, as they are both charged via D3 and R1, until C1 and C2 are each charged up to approximately half of the peak line voltage. 
+When the line voltage falls below the peak, into the "valley" phase, Vout begins to fall toward half of the peak line voltage. At this point, C1 and C2 begin to discharge into the load at Vout, via D1 and D2 respectively. 
+R1 is needed to prevent a large in-rush current, and electromagnetic interference (EMI).
+
+An advantage of this design is that it is rather simple. A disadvantage is that the ripple voltage can still be 50% of peak, and have total harmonic distortion (THD) of 35%, which is rather high. A 1998 United States patent, US6141230A, provides a power factor of 0.98 and a THD of 9.61%.
+
+

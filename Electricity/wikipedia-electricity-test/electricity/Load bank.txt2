@@ -1,0 +1,43 @@
+﻿Load bank
+
+A load bank is a device which develops an electrical load, applies the load to an electrical power source and converts or dissipates the resultant power output of the source.
+A load bank includes load elements with protection, control, metering and accessory devices required for operation. Load banks can either be permanently installed at a facility and permanently connected to a power source or portable versions can be used for testing power sources such as standby generators and batteries. Load banks are the best way to replicate, prove and verify the real-life demands on critical power systems.
+
+Load banks are used in a variety of applications, including:
+
+
+The three most common types of load banks are resistive, inductive, and capacitive. Both inductive and capacitive loads create what is known as reactance in an AC circuit. Reactance is a circuit element's opposition to an alternating current, caused by the buildup of electric or magnetic fields in the element due to the current and is the "imaginary" component of impedance, or the resistance to AC signals at a certain frequency. Capacitive reactance is equal to 1/(2⋅π⋅f⋅C), and inductive reactance is equal to 2⋅π⋅f⋅L. The unit of reactance is the ohm. Inductive reactance resists the change to current, causing the circuit current to lag voltage. Capacitive reactance resists the change to voltage, causing the circuit current to lead voltage. 
+
+A resistive load bank, the most common type, provides equivalent loading for both generators and prime movers. That is, for each kilowatt (or horsepower) of load applied to the generator by the load bank, an equal amount of load is applied to the prime mover by the generator. A resistive load bank, therefore, removes energy from the complete system: load bank from generator—generator from prime mover—prime mover from fuel. Additional energy is removed as a consequence of resistive load bank operation: waste heat from coolant, exhaust and generator losses and energy consumed by accessory devices. A resistive load bank impacts upon all aspects of a generating system.
+
+The load of a resistive load bank is created by the conversion of electrical energy to heat via high-power resistors such as grid resistors. This heat must be dissipated from the load bank, either by air or by water, by forced means or convection.
+
+In a testing system, a resistive load simulates real-life resistive loads, such as incandescent lighting and heating loads as well as the resistive or unity power factor component of magnetic (motors, transformers) loads.
+
+The most common type uses wire resistance, usually with fan cooling, and this type is often portable and moved from generator to generator for test purposes. Sometimes a load of this type is built into a building, but this is unusual.
+
+Rarely a salt water rheostat is used. It can be readily improvised, which makes it useful in remote locations.
+
+For testing automotive batteries, a carbon pile load bank allows an adjustable load to be placed on the battery or charging system, allowing accurate simulation of the heavy load on the battery during cranking of the engine. Such devices are usually portable and may include metering to show voltage and current. 
+
+An inductive load includes inductive (lagging power factor) loads.
+
+An inductive load consists of an iron-core reactive element which, when used in conjunction with a resistive load bank, creates a lagging power factor load. Typically, the inductive load will be rated at a numeric value 75% that of the corresponding resistive load such that when applied together a resultant 0.8 power factor load is provided. That is to say, for each 100 kW of resistive load, 75 kVAr of inductive load is provided. Other ratios are possible to obtain other power factor ratings. An inductive load is used to simulate a real-life mixed commercial loads consisting of lighting, heating, motors, transformers, etc. With a resistive-inductive load bank, full power system testing is possible, because the provided impedance supplies currents out of phase with voltage and allows for performance evaluation of generators, voltage regulators, load tap changers, conductors, switchgear and other equipment.
+A capacitive load bank or capacitor bank is similar to an inductive load bank in rating and purpose, except leading power factor loads are created, so reactive power is supplied from these loads to the system, hence improves the power factor. These loads simulate certain electronic or non-linear loads typical of telecommunications, computer or UPS industries.
+
+A combined load bank usually consists of both resistive elements and inductors that can be used to provide load testing at non-unity PF (lagging) including the capability to test the generator set fully at 100% nameplate kVA rating. Combined load banks incorporate resistors and inductors all in a single construction which can be independently switched to allow resistive only, inductive only, or varying lagging power factor testing. Combined load banks are rated in kilovolt-amperes (kVA). It’s worth noting that combined load banks can consist of resistive, inductive, and capacitive (RLC) also.
+
+Typically, facilities require motor-driven devices, transformers and capacitors. If this is the case, then the load banks used for testing require reactive power compensation. The ideal solution is a combination of both resistive and reactive elements in one load bank package. 
+
+Resistive/reactive loads are able to mimic motor loads and electromagnetic devices within a power system, as well as provide purely resistive loads.
+
+Many backup generators and turbines need to be commissioned at nameplate capacity using a combination of resistive and reactive load to fully qualify their operating capability. Using a resistive/reactive load bank enables comprehensive testing from a single unit. A range of resistive/reactive load banks are available to simulate these types of loads on a power source and the transformers, relays and switches which will distribute the power throughout the facility.
+
+Resistive/reactive load banks are great choices for testing turbines, switchgear, rotary UPS, generators and UPS systems. They can also be used for integrated system testing of utility substation protection systems, particularly for more complex relays like distance, directional overcurrent, power directional and others. A resistive/reactive inductive and/or capacitive load is often required to test solar inverters to ensure solar panels can be stopped from producing electricity in the event of a power outage. The resistive/reactive combination load banks are used to test the engine generator set at its rated power factor. In most cases this is 0.8 power factor.
+
+An electronic load bank tends to be a fully programmable, air- or water-cooled design used to simulate a solid state load and to provide constant power and current loading on circuits for precision testing.
+
+Where a diesel-electric locomotive is equipped for dynamic braking, the braking resistor may be used as a load bank for testing the engine-generator set.
+
+
+

@@ -1,0 +1,88 @@
+﻿Paschen's law
+
+Paschen's law is an equation that gives the breakdown voltage, that is, the voltage necessary to start a discharge or electric arc, between two electrodes in a gas as a function of pressure and gap length. It is named after Friedrich Paschen who discovered it empirically in 1889.
+
+Paschen studied the breakdown voltage of various gases between parallel metal plates as the gas pressure and gap distance were varied:
+
+For a given gas, the voltage is a function only of the product of the pressure and gap length. The curve he found of voltage versus the pressure-gap length product "(right)" is called Paschen's curve. He found an equation that fit these curves, which is now called Paschen's law.
+
+At higher pressures and gap lengths, the breakdown voltage is approximately "proportional" to the product of pressure and gap length, and the term Paschen's law is sometimes used to refer to this simpler relation. However, this is only roughly true, over a limited range of the curve.
+
+Early vacuum experimenters found a rather surprising behavior. An arc would sometimes take place in a long irregular path rather than at the minimal distance between the electrodes. For example, in air, at a pressure of one atmosphere, the distance for minimal breakdown voltage is about 7.5 μm. The voltage required to arc this distance is 327 V, which is insufficient to ignite the arcs for gaps that are either wider or narrower. For a 3.5 μm gap, the required voltage is 533 V, nearly twice as much. If 500 V were applied, it would not be sufficient to arc at the 2.85 μm distance, but would arc at a 7.5 μm distance.
+
+Paschen found that breakdown voltage was described by the equation
+
+where formula_2 is the breakdown voltage in volts, formula_3 is the pressure in pascals, formula_4 is the gap distance in meters, formula_5 is the secondary-electron-emission coefficient (the number of secondary electrons produced per incident positive ion), formula_6 is the saturation ionization in the gas at a particular formula_7 (electric field/pressure), and formula_8 is related to the excitation and ionization energies.
+
+The constants formula_6 and formula_8 are determined experimentally and found to be roughly constant over a restricted range of formula_7 for any given gas. For example, air with an formula_7 in the range of 450 to 7500 V/(kPa·cm), formula_6 = 112.50 (kPa·cm) and formula_8 = 2737.50 V/(kPa·cm).
+
+The graph of this equation is the Paschen curve. By differentiating it with respect to formula_15 and setting the derivative to zero, the minimal voltage can be found. This yields
+
+and predicts the occurrence of a minimal breakdown voltage for formula_15 = 7.5×10 m·atm. This is 327 V in air at standard atmospheric pressure at a distance of 7.5 μm.
+
+The composition of the gas determines both the minimal arc voltage and the distance at which it occurs. For argon, the minimal arc voltage is 137 V at a larger 12 μm. For sulfur dioxide, the minimal arc voltage is 457 V at only 4.4 μm.
+
+For air at standard conditions for temperature and pressure (STP), the voltage needed to arc a 1-metre gap is about 3.4 MV. The intensity of the electric field for this gap is therefore 3.4 MV/m.
+
+The electric field needed to arc across the minimal-voltage gap is much greater than what is necessary to arc a gap of one metre. For a 7.5 μm gap the arc voltage is 327 V, which is 43 MV/m. This is about 13 times greater than the field strength for the 1-metre gap. The phenomenon is well verified experimentally and is referred to as the Paschen minimum.
+
+The equation loses accuracy for gaps under about 10 μm in air at one atmosphere
+and incorrectly predicts an infinite arc voltage at a gap of about 2.7 micrometres. Breakdown voltage can also differ from the Paschen curve prediction for very small electrode gaps, when field emission from the cathode surface becomes important.
+
+The mean free path of a molecule in a gas is the average distance between its collision with other molecules. This is inversely proportional to the pressure of the gas. In air the mean free path of molecules is about 96 nm. Since electrons are much smaller, their average distance between colliding with molecules is about 5.6 times longer, or about 0.5 μm. This is a substantial fraction of the 7.5 μm spacing between the electrodes for minimal arc voltage. If the electron is in an electric field of 43 MV/m, it will be accelerated and acquire 21.5 eV of energy in 0.5 μm of travel in the direction of the field. The first ionization energy needed to dislodge an electron from nitrogen molecule is about 15.6 eV. The accelerated electron will acquire more than enough energy to ionize a nitrogen molecule. This liberated electron will in turn be accelerated, which will lead to another collision. A chain reaction then leads to avalanche breakdown, and an arc takes place from the cascade of released electrons.
+
+More collisions will take place in the electron path between the electrodes in a higher-pressure gas. When the pressure–gap product formula_15 is high, an electron will collide with many different gas molecules as it travels from the cathode to the anode. Each of the collisions randomizes the electron direction, so the electron is not always being accelerated by the electric field—sometimes it travels back towards the cathode and is decelerated by the field.
+
+Collisions reduce the electron's energy and make it more difficult for it to ionize a molecule. Energy losses from a greater number of collisions require larger voltages for the electrons to accumulate sufficient energy to ionize many gas molecules, which is required to produce an avalanche breakdown.
+
+On the left side of the Paschen minimum, the formula_15 product is small. The electron mean free path can become long compared to the gap between the electrodes. In this case, the electrons might gain lots of energy, but have fewer ionizing collisions. A greater voltage is therefore required to assure ionization of enough gas molecules to start an avalanche.
+
+To calculate the breakthrough voltage, a homogeneous electrical field is assumed. This is the case in a parallel-plate capacitor setup. The electrodes may have the distance formula_4. The cathode is located at the point formula_21.
+
+To get impact ionization, the electron energy formula_22 must become greater than the ionization energy formula_23 of the gas atoms between the plates. Per length of path formula_24 a number of formula_25 ionizations will occur. formula_25 is known as the first Townsend coefficient as it was introduced by Townsend. The increase of the electron current formula_27, can be described for the assumed setup as
+
+The number of created electrons is
+
+Neglecting possible multiple ionizations of the same atom, the number of created ions is the same as the number of created electrons:
+
+formula_33 is the ion current. To keep the discharge going on, free electrons must be created at the cathode surface. This is possible because the ions hitting the cathode release secondary electrons at the impact. (For very large applied voltages also field electron emission can occur.) Without field emission, we can write
+
+where formula_35 is the mean number of generated secondary electrons per ion. This is also known as the second Townsend coefficient. Assuming that formula_36, one gets the relation between the Townsend coefficients by putting (4) into (3) and transforming:
+
+What is the amount of formula_25? The number of ionization depends upon the probability that an electron hits a gas molecule. This probability formula_39 is the relation of the cross-sectional area of a collision between electron and ion formula_40 in relation to the overall area formula_6 that is available for the electron to fly through:
+
+As expressed by the second part of the equation, it is also possible to express the probability as relation of the path traveled by the electron formula_24 to the mean free path formula_44 (distance at which another collision occurs).
+
+formula_45 is the number of molecules which electrons can hit. It can be calculated using the equation of state of the ideal gas
+
+The adjoining sketch illustrates that formula_47. As the radius of an electron can be neglected compared to the radius of an ion formula_48 it simplifies to formula_49. Using this relation, putting (7) into (6) and transforming to formula_44 one gets
+
+where the factor formula_52 was only introduced for a better overview.
+
+The alteration of the current of not yet collided electrons at every point in the path formula_24 can be expressed as
+
+This differential equation can easily be solved:
+
+The probability that formula_56 (that there was not yet a collision at the point formula_24) is
+
+According to its definition formula_25 is the number of ionizations per length of path and thus the relation of the probability that there was no collision in the mean free path of the ions, and the mean free path of the electrons:
+
+It was hereby considered that the energy formula_61 that a charged particle can get between a collision depends on the electric field strength formula_62 and the charge formula_63:
+
+For the parallel-plate capacitor we have formula_65, where formula_66 is the applied voltage. As a single ionization was assumed formula_63 is the elementary charge formula_68. We can now put (13) and (8) into (12) and get
+
+Putting this into (5) and transforming to formula_66 we get the Paschen law for the breakdown voltage formula_71 that was first investigated by Paschen in and whose formula was first derived by Townsend in, section 227:
+
+Plasma ignition in definition of Townsend (Townsend discharge) is a self-sustaining discharge, independent of an external source of free electrons. This means that electrons from the cathode can reach the anode in the distance formula_4 and ionize at least one atom on their way. So according to the definition of formula_25 this relation must be fulfilled:
+
+If formula_77 is used instead of (5) one gets for the breakdown voltage
+
+Paschen's law requires that:
+
+Different gases will have different mean free paths for molecules and electrons. This is because different molecules have different diameters. Noble gases like helium and argon are monatomic and tend to have smaller diameters. This gives them greater mean free paths.
+
+Ionization potentials differ between molecules, as well as the speed that they recapture electrons after they have been knocked out of orbit. All three effects change the number of collisions needed to cause an exponential growth in free electrons. These free electrons are necessary to cause an arc.
+
+
+
+

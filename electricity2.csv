@@ -1,0 +1,173 @@
+term|definition
+ACTUATOR SOLENOID|The solenoid in the actuator housing on the back of the injection pump which moves the control rack as commanded by the engine controller.
+ALTERNATOR|A device which converts mechanical energy into electrical energy.
+ALTERNATING CURRENT (AC)|A flow of electrons which reverses its direction of flow at regular intervals in a conductor.
+AMBIENT TEMPERATURE|The temperature of the surrounding medium, such as gas, air or liquid, which comes into contact with a particular component.
+AMMETER|An instrument for measuring the flow of electrical current in amperes. Ammeters are always connected in series with the circuit to be tested.
+AMPERE|A unit of measure for the flow of current in a circuit. One ampere is the amount of current flow provided when one volt of electrical pressure is applied against one ohm of resistance. The ampere is used to measure electricity much as "gallons per minute" is used to measure water flow.
+AMPERE-HOUR|A unit of measure for battery capacity. It is obtained by multiplying the current (in amperes) by the time (in hours) during which current flows. For example, a battery which provides 5 amperes for 20 hours is said to deliver 100 ampere - hours.
+AMPLIFIER|A device of electronic components used to increase power, voltage, or current of a signal.
+AMPLITUDE|A term used to describe the maximum value of a pulse or wave. It is the crest value measured from zero.
+ANALOG IC|lntegrated circuits composed to produce, amplify, or respond to variable voltages. They include many kinds of amplifiers that involve analog - to - digital conversions and vice versa, timers, and inverters. They are known as Operational Amplifier Circuits or OP - Amps.
+ANALOG GAUGE|A display device utilizing a varying current to cause a mechanical change in the position of its needle.
+ARMATURE|The movable part of a generator or motor. It is made up of conductors which rotate through a magnetic field to provide voltage or force by electromagnetic induction. The pivoted points in generator regulators are also called armatures.
+ARTIFICIAL MAGNETS|A magnet which has been magnetized by artificial means. It is also called, according to shape, a bar magnet or a horseshoe magnet.
+ATOM|A particle which is the smallest unit of a chemical element. It is made up mainly of electrons (minus charges) in orbit around protons (positive charges).
+AUXiliARY SPEED SENSOR|The engine speed sensor located on the engine timing gear cover. It serves as a back - up to the primary engine speed sensor.
+BENDIX DRIVE|One type flywheel engaging device for a starting motor. It is said to be mechanical because it engages by inertia.
+BREAK|See "Open."
+BRUSH|A device which rubs against a rotating slip ring or commutator to provide a passage for electric current to a stationary conductor.
+CALIBRATION|The determination or rectification of the graduations used on a testing instrument.
+CAPACITOR|A device which stores electrical energy. Commonly used for filtering out voltage spikes.
+CHARGE|To restore the active materials in a storage battery by the passage of direct current through the battery cells in a direction opposite that of the discharging current.
+CURRENT|Movement of electricity along a conductor. Current is measured in amperes.
+CURRENT FLOW|The flow or movement of electrons from atom to atom in a conductor.
+CYCLE|The change in an alternating electrical sine wave from zero to a positive peak to zero to a negative peak and back to zero.
+CYCLING|The process by which a battery is discharged and recharged.
+DIAGNOSTIC CODE|A number which represents a problem detected by the engine controller. Diagnostic codes are transmitted for use by on - board displays or a diagnostic reader so the operator or technician is aware there is a problem and in what part of the fuel injection system the problem can be found.
+DIFFERENTIATOR CIRCUIT|A circuit that consists of resistors and capacitors designed to change a DC input to an AC output. It is used to make narrow pulse generators and to trigger digital logic circuits. When used in integrated circuits it is known as an inverter.
+DIGITAL IC|lntegrated circuits that produce logic voltage signals or pulses that have only two levels of output that are either ON or OFF (yes or no). Some component output examples are: Diagnostic Codes Output, Pulse - Width - Modulated (PWM) Throttle Output, Auxiliary Speed Output, and Fuel FlowfThrottle Output.
+DIODE|An electrical device that will allow current to pass through itself in one direction only. Also see "Zener diode."
+DIRECT CURRENT (DC)|A steady flow of electrons moving steadily and continually in the same direction along a conductor from a point of high potential to one of lower potential. It is produced by a battery, generator, or rectifier.
+DISCHARGE|To remove electrical energy from a charged body such as a capacitor or battery.
+DISTRIBUTOR (IGNITION)|A device which directs the high voltage of the ignition coil to the engine spark plugs.
+DISTRIBUTOR LEAD CONNECTOR|A connection plug in the wires that lead from the sensor in the distributor to the electronic control unit.
+DYER DRIVE|One type of flywheel engaging mechanism in a starting motor.
+ELECTRICAL FIELD|The region around a charged body in which the charge has an effect.
+ELECTRICITY|The flow of electrons from atom to atom in a conductor.
+ELECTROCHEMICAL|The relationship of electricity to chemical changes and with the conversions of chemical and electrical energy. A battery is an electrochemical device.
+ELECTRO-HYDRAULIC VALVE|A hydraulic valve actuated by a solenoid through variable voltage applied to the solenoid coil.
+ELECTROLYTE|Any substance which, in solution, is dissociated into ions and is thus made capable of conducting an electrical current. The sulfuric acid - water solution in a storage battery is an electrolyte.
+ELECTROMAGNET|core of magnetic material, generally soft iron, surrounded by a coil of wire through which electrical current is passed to magnetize the core.
+ELECTROMAGNETIC CLUTCH|An electromagnetic device which stops the operation of one part of a machine while other parts of the unit keep on operating.
+ELECTROMAGNETIC FIELD|The magnetic field about a conductor created by the flow of electrical current through it.
+ELECTROMAGNETIC INDUCTION|The process by which voltage is induced in a conductor by varying the magnetic field so that lines of force cut across the conductor.
+ELECTRON|A tiny particle which rotates around the nucleus of an atom. It has a negative charge of electricity.
+ELECTRON THEORY|The theory which explains the nature of electricity and the exchange of "free" electrons between atoms of a conductor. It is also used as one theory to explain direction of current flow in a circuit.
+ELECTRONICS|The control of electrons (electricity) and the study of their behavior and effects. This control is accomplished by devices that resist, carry, select, steer, switch, store, manipulate, and exploit the electron.
+ELECTRONIC CONTROL UNIT (ECU)|General term for any electronic controller. See "controller:'
+ELECTRONIC GOVERNOR|The computer program within the engine controller which deterines the commanded fuel delivery based on throttle command, engine speed, and fuel temperature. It replaces the function of a mechanical govnor.
+ELECTRONIC IGNITION SYSTEM|A system in which the timing of the ignition spark is controlled electronically. Electronic ignition systems have no points or condenser, but instead have a reluctor, sensor, and electronic control unit.
+ELEMENT|(1) Any substance that normally cannot be separated into different substances. (2) The completed assembly of a battery consisting of negative plates, positive plates, and separators mounted in a cell compartment.
+ENGINE CONTROLLER|The electronic module which controls fuel delivery, diagnostic outputs, back - up operation, and communications with other electronic modules.
+FIELD EFFECT TRANSISTOR (FET)|A transistor which uses voltage to control the flow of current. Connections are the source (input), drain (output) and gate (control).
+FIXED RESISTOR|A resistor which has only one resistance value.
+FREOUENCY|The number of pulse or wave cycles that are completed in one second. Frequency is measured in Hertz, as in 60Hz (hertz) per second.
+FUNDAMENTAL LAW OF MAGNETISM|The fundamental law of magnetism is that unlike poles attract each other, and like poles repel each other.
+FUSE|A replaceable safety device for an electrical circuit. A fuse consists of a fine wire or a thin metal strip encased in glass or some fireresistant material. When an overload occurs in the circuit, the wire or metal strip melts, breaking the circuit.
+GATE|A logic circuit device which makes a YES or NO (one or zero) decision (output) based on two or more inputs.
+GENERATOR|A device which converts mechanical energy into electrical energy.
+GRID|A wire mesh to which the active materials of a storage battery are attached.
+GROUND|A ground occurs when any part of a wiring circuit unintentionally touches a metallic part of the machine frame.
+GROUNDED CIRCUIT|A connection of any electrical unit to the frame, engine, or any part of the tractor or machine, completing the electrical circuit to its source.
+GROWLER|A device for testing the armature of a generator or motor.
+HYDROMETER|An instrument for measuring specific gravity. A hydrometer is used to test the specific gravity of the electrolyte in a battery.
+IGNITION CONTROL UN IT|The module that contains the transistors and resistors that controls the electronic ignition.
+INDUCTANCE|The property of an electric circuit by which an electromotive force (voltage) is induced in it by a variation of current either in the circuit itself or in a neighboring circuit.
+INDUCTOR|A coil of wire wrapped around an iron core.
+INSULATED GATE FIELD EFFECT TRANSISTOR (IGFET)|A diffused transistor which has an insulated gate and almost infinite gate - channel resistance.
+INSULATOR|A substance or body that resists the flow of electrical current through it. Also see "Conductor:'
+INTEGRATED CIRCUIT (IC)|An electronic circuit which utilizes resistors, capacitors, diodes, and transistors to perform various types of operations. The two major types are Analog and Digital Integrated Circuits. Also see "Analog IC" and "DigitaI IC."
+INTEGRATOR CIRCUIT|A circuit that consists of resistors and capacitors and functions as a filter which can pass signals only below a certain frequency.
+INVERTER|A device with only one input and one output; it inverts or reverses any input.
+ION|An atom having either a shortage or excess of electrons.
+ISOLATION DIODE|A diode placed between the battery and the alternator. It blocks any current flow from the battery back through the alternator regulator when the alternator is not operating.
+LIGHT EMITTING DIODE (LED)|A solid - state display device that emits infrared light when a forward - biased current flows through it.
+LINES OF FORCE|Invisible lines which conveniently illustrate the characteristics of a magnetic field and magnetic flux about a magnet.
+LIQUID CRYSTAL DISPLAY (LCD)|A display device utilizing a special crystal fluid to allow segmented displays.
+MAGNET|A body which has the property of at. tracting iron or other magnets. Its molecules are aligned.
+MAGNETIC FIELD|That area near a magnet in which its property of magnetism can be detected. It is shown by magnetic lines of force.
+MAGNETIC FLUX|The flow of magnetism about a magnet exhibited by magnetic lines of force in a magnetic field.
+MAGNETIC INDUCTION|The process of introducing magnetism into a bar of iron or other magnetic material.
+MAGNETIC LINES OF FORCE|Invisible lines which conveniently illustrate the characteristics of a magnetic field and magnetic flux about a magnet.
+MAGNETIC MATERIAL|Any material to whose molecules the property of magnetism can be imparted.
+MAGNETIC NORTH|The direction sought by the north pole end of a magnet, such as a magnetic needle, in a horizontal position. It is near the geographic north pole of the Earth.
+MAGNETIC PICKUP ASSEMBLY|The assembly in a self - integrated electronic ignition system that contains a permanent magnet, a pole piece with internal teeth, and a pickup coil. These parts, when properly aligned, cause the primary circuit to switch off and induce high voltage in the secondary windings.
+MAGNETIC SOUTH|The opposite direction from magnetic north towards which the south pole end of a magnet, such as a magnetic needle, is attracted when in a horizontal position. It is near the geographic south pole of the Earth.
+MAGNETIC SWITCH|A solenoid which performs a simple function, such as closing or opening switch contacts.
+MAGNETISM|The property inherent in the molecules of certain substances, such as iron, to become magnetized, thus making the substance into a magnet
+MICROPROCESSOR|An integrated circuit combing logic, amplification and memory functions.
+MILLIAMPERE|1/1,OOO,OOO ampere.
+MOLECULE|A unit of matter which is the smallest portion of an element or compound that retains chemical identity with the substance in mass. It is made up of one or more atoms.
+MOTOR|A device which converts electric energy into mechanical energy.
+MUL TIMETER|A testing device that can be set to read ohms (resistance), voltage (force), or amperes (current) of a circuit.
+MUTUAL INDUCTION|Occurs when changing current in one coil induces voltage in a second coil.
+NATURAL MAGNET|A magnet which occurs in nature, such as a lodestone. Its property of magnetism has been imparted by the magnetic effects of the Earth.
+NEGATIVE|Designating or pertaining to a kind of electricity. Specifically, an atom that gains negative electrons is negatively charged.
+NEUTRON|An uncharged elementary particle. Present in all atomic nuclei except the hydrogen nucleus.
+NON-MAGNETIC MATERIAL|A material whose molecules cannot be magnetized.
+NORMALLY OPEN and NORMALLY CLOSED|These terms refer to the position taken by the contacts in a magnetically operated switching device, such as a relay, when the operating magnet is de. energized.
+OHM|The standard unit for measuring resistance to flow of an electrical current. Every electrical conductor offers resistance to the flow of current, just as a tube through which water flows offers resistance to the current of water. One ohm is the amount of resistance that limits current flow to one ampere in a circuit with one volt of electrical pressure.
+OHMMETER|An instrument for measuring the resistance in ohms of an electrical circuit.
+OHM'S LAW|Ohm's Law states that when an electric current is flowing through a conductor, such as a wire, the intensity of the current (in amperes) equals the electromotive force (volts) driving it, divided by the resistance of the conductor. The flow is in proportion to the electromotive force, or voltage, as long as the resistance remains the same.
+OPEN OR OPEN CIRCUIT|An open or open circuit occurs when a circuit is broken, such as by a broken wire or open switch, interrupting the flow of current through the circuit. It is analogous to a closed valve in a water system.
+OPERATIONAL AMPLIFIER|A high - voltage gain, low - power, linear amplifying circuit device used to add, subtract, average, etc.
+OVERRUNNING CLUTCH|One type of flywheelengaging member in a starting motor.
+PARALLEL CIRCUIT|A circuit in which the circuit components are arranged in branches so that there is a separate path to each unit along which electrical current can flow.
+PERMANENT MAGNET|A magnet which retains its property of magnetism for an indefinite period.
+PIEZO ELECTRIC DEVICE|A device made of crystalline materials, such as quartz, which bend or distort when force or pressure is exerted on them. This pressure forces the electrons to move.
+PLATE|A solid substance from which electrons flow. Batteries have positive plates and negative plates.
+POLARITY|A collective term applied to the positive (+) and negative ( - ) ends of a magnet or electrical mechanism such as a coil or battery.
+POLE|One or two points of a magnet at which its magnetic attraction is concentrated.
+POLE SHOES|Iron blocks fastened to the inside of a generator or motor housing around which the field or stator coils are wound. The pole shoes may be permanent or electro - magnets.
+POSITIVE|Designating or pertaining to a kind of electricity. Specifically, an atom which loses negative electrons and is positively charged.
+POTENTIOMETER|A variable resistor used as a voltage divider.
+POWER SWITCH TRANSISTOR|The part responsible for switching off the primary circuit that causes high voltage induction in the secondary winding in an electronic ignition system.
+PRIMARY SPEED SENSOR|An engine speed sensor located inside the actuator housing on the back of the injection pump.
+PRINCIPLE OF TURNING FORCE|Explains how magnetic force acts on a current - carrying conductor to create movement of an armature, such as in an electric motor.
+PRINTED CIRCUIT BOARD|A device used to hold integrated circuit components in place and provide current paths from component to component. Copper pathways are etched into the board with acid.
+PROTON|A particle which, together with the neutron constitutes the nucleus of an atom. It exhibits a positive charge of electricity.
+PULSE|A signal that is produced by a sudden ON and OFF of direct current (DC) within a circuit.
+PULSE-WIDTH-MODULATED (PWM)|A digital electronic signal which consists of a pulse generated at a fixed frequency. The information transmitted by the signal is contained in the width of the pulse. The width of the pulse is changed (modulated) to indicate a corresponding change in the information being transmitted, such as throttle command.
+RECTIFIER|A device (such as a vacuum tube, commutator, or diode) that converts alternating current into direct current.
+REGULATOR|A device which controls the flow of current or voltage in a circuit to a certain desired level.
+RELAY|An electrical coil switch that uses a small current to control a much larger current.
+RELUCTANCE|The resistance that a magnetic circuit offers to lines of force in a magnetic field.
+RELUCTOR|A metal cylinder, with teeth or legs, mounted on the distributor shaft in an electronic ignition system. The reluctor rotates with the distributor shaft and passes through the electromagnetic field of the sensor.
+RESISTANCE|The opposing or retarding force offered by a circuit or component of a circuit to the passage of electrical current through it. Resistance is measured in ohms.
+RESISTOR|A device usually made of wire or carbon which presents a resistance to current flow.
+RHEOSTAT|A resistor used for regulating a current by means of variable resistance; rheostats allow only one current path.
+RIGHT-HAND RULE|A method used to determine the direction a magnetic field rotates about a conductor, or to find the north pole of a magnetic field in a coil.
+ROTOR|The rotating part of an electrical machine such as a generator, motor, or alternator.
+SELF-INDUCTION|Voltage which occurs in a coil when there is a change of current.
+SEMICONDUCTOR|An element which has four electrons in the outer ring of its atoms. Silicon and germanium are examples. These elements are neither good conductors nor good insulators. Semiconductors are used to make diodes, transistors, and integrated circuits.
+SENDING UNIT|A device, usually located in some part of an engine, to transmit information to a gauge on an instrument panel.
+SENSOR|A small coil of fine wire in the distributor on electronic ignition systems. The sensor develops an electromagnetic field that is sensitive to the presence of metal. In monitors and controllers, they sense operations of machines and relay the information to a console.
+SEPARATOR|Any of several substances used to keep one substance from another. In batteries a separator separates the positive plates from the negative plates.
+SERIES CIRCUIT|A circuit in which the parts are connected end to end, positive pole to negative pole, so that only one path is provided for current flow.
+SERIES-PARALLEL CIRCUIT|A circuit in which some of the circuit components are connected in series and others are connected in parallel.
+SHORT (OR SHORT CIRCUIT)|This occurs when one part of a circuit comes in contact with another part of the same circuit, diverting the flow of current from its desired path.
+SHUNT|A conductor joining two points in a circuit so as to form a parallel circuit through which a portion of the current may pass.
+SLIP RING|In a generator, motor, or alternator, one of two or more continuous conducting rings from which brushes take, or deliver to, current.
+SOLENOID|A tubular coil used for producing a magnetic field. A solenoid usually performs some type of mechanical work.
+SOLID-STATE CIRCUITS|Electronic (integrated) circuits which utilize semiconductor devices such as transistors, diodes and silicon controlled rectifiers.
+SPARK PLUGS|Devices which ignite the fuel by a spark in a spark - ignition engine.
+SPECIFIC GRAVITY|The ratio of a weight of any volume of a substance to the weight of an equal volume of some substance taken as a standard, usually water for solids and liquids. When a battery electrolyte is tested the result is the specific gravity of the electrolyte.
+SPRAG CLUTCH DRIVE|A type of flywheel engaging device for a starting motor.
+STARTER MOTOR|A device that converts electrical energy from the battery into mechanical energy that turns an engine over for starting.
+STATOR|The stationary part of an alternator in which another part (the rotor) revolves.
+STORAGE BATTERY|A group of electrochemical cells connected together to generate electrical energy. It stores the energy in a chemical form.
+SULFATION|The formation of hard crystals of lead sulfate on battery plates. The battery is then "sulfated."
+SWITCH|A device which opens or closes electrical pathways in an electrical circuit.
+SYNCHROGRAPH|An all - purpose distributor tester.
+TACHOMETER|An instrument for measuring rotary speed; usually revolutions per minute.
+TEMPORARY MAGNET|A magnet which loses its property of magnetism quickly unless forces act to re - magnetize it.
+THERMISTOR|A temperature - compensated resistor. The degree of its resistance varies with the temperature. In some regulators, it controls a Zener diode so that a higher system voltage is produced in cold weather, when needed.
+TRANSFORMER|A device made of two coil windings that transfers voltage from one coil to the next through electromagnetic induction. Depending upon the number of windings per coil, a transformer can be designed to step - up or step - down its output voltage from its input voltage. Transformers can only function with alternating current (AC).
+TRANSIENT VOLTAGE PROTECTION MODULE (TVP)|A device which protects the engine controller electronics against high energy voltage transients such as alternator load dumps.
+TRANSISTOR|A device constructed of semi - conductors that is used in circuits to control a larger current by using a smaller current for operation. Its function is the same as a relay.
+TRIMMER RESISTOR|A resistor used in applications where only a small resistance change is needed.
+VACUUM FLORESCENT DISPLAY (VDC)|An anode - controlled display which emits its own light. It works like a television tube, directing streams of electrons to strike phosphorescent segments.
+VARIABLE RESISTOR|A resistor that can beadjusted to different ranges of value.
+VISCOSITY|The internal resistance of a fluid, caused by molecular attraction, which makes it resist a tendency to flow.
+VOLT|A unit of electrical pressure (or electromotive force) which causes current to flow in a circuit. One volt is the amount of pressure required to cause one ampere of current to flow against one ohm of resistance.
+VOLTAGE|That force which is generated to cause current to flow in an electrical circuit. It is also referred to as electromotive force or electrical potential. Voltage is measured in volts.
+VOLTAGE REGULATOR|A device that controls the strength of a magnetic field produced by a generator or alternator. It prevents the battery from being overor undercharged during high - or low - speed operation of the generator or alternator.
+VOLTMETER|An instrument for measuring the force in volts of an electrical current. This is the difference of potential (voltage) between different points in an electrical circuit. Voltmeters are connected across (parallel to) the points where voltage is to be measured.
+WATT|A unit of measure for indicating the electrical power applied in a circuit. It is obtained by multiplying the current (in amperes) by the electrical pressure (in volts) which cause it to flow. That is: watts = amperes x volts.
+WATT-HOUR|A unit of electrical energy. It indicates the amount of work done in an hour by a circuit at a steady rate of one watt. That is, watthours = ampere - hours x volts.
+WAVE|A signal that is produced by varying a continuous flow of current within a circuit. Waveforms can be created by either AC or DC current.
+WAVEFORM|A graphical representation ofelectrical cycles which shows the amount of variation in amplitude over some period of time.
+WINDING|The coiling of a wire about itself or about some object. Often identified as a series winding, a shunt winding, etc.
+WIRING HARNESS|Thf3 trunk and branches which feed an electrical circuit. Wires from one part of the circuit enter the trunk, joining other wires, and then emerge at another point in the circuit.
+ZENER DIODE (Reverse Bias Direction Diode)|A semiconductor device that will conduct current in the reverse direction when the voltage becomes higher than a predetermined voltage.

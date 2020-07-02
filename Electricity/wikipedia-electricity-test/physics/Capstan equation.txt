@@ -1,0 +1,77 @@
+﻿Capstan equation
+
+The capstan equation or belt friction equation, also known as Eytelwein's formula, relates the hold-force to the load-force if a flexible line is wound around a cylinder (a bollard, a winch or a capstan).
+Because of the interaction of frictional forces and tension, the tension on a line wrapped around a capstan may be different on either side of the capstan. A small "holding" force exerted on one side can carry a much larger "loading" force on the other side; this is the principle by which a capstan-type device operates.
+
+A holding capstan is a ratchet device that can turn only in one direction; once a load is pulled into place in that direction, it can be held with a much smaller force. A powered capstan, also called a winch, rotates so that the applied tension is multiplied by the friction between rope and capstan. On a tall ship a holding capstan and a powered capstan are used in tandem so that a small force can be used to raise a heavy sail and then the rope can be easily removed from the powered capstan and tied off.
+
+In rock climbing with so-called top-roping, a lighter person can hold (belay) a heavier person due to this effect.
+
+The formula is
+where formula_2 is the applied tension on the line, formula_3 is the resulting force exerted at the other side of the capstan, formula_4 is the coefficient of friction between the rope and capstan materials, and formula_5 is the total angle swept by all turns of the rope, measured in radians (i.e., with one full turn the angle formula_6).
+
+Several assumptions must be true for the formula to be valid:
+
+It can be observed that the force gain increases exponentially with the coefficient of friction, the number of turns around the cylinder, and the angle of contact. Note that "the radius of the cylinder has no influence on the force gain".
+
+The table below lists values of the factor formula_9 based on the number of turns and coefficient of friction "μ".
+From the table it is evident why one seldom sees a sheet (a rope to the loose side of a sail) wound more than three turns around a winch. The force gain would be extreme besides being counter-productive since there is risk of a riding turn, result being that the sheet will foul, form a knot and not run out when eased (by slacking grip on the tail (free end)).
+
+It is both ancient and modern practice for anchor capstans and jib winches to be slightly flared out at the base, rather than cylindrical, to prevent the rope (anchor warp or sail sheet) from sliding down. The rope wound several times around the winch can slip upwards gradually, with little risk of a riding turn, provided it is tailed (loose end is pulled clear), by hand or a self-tailer.
+
+For instance, the factor "153,552,935" (5 turns around a capstan with a coefficient of friction of 0.6) means, in theory, that a newborn baby would be capable of holding (not moving) the weight of two supercarriers (97,000 tons each, but for the baby it would be only a little more than 1 kg). The large number of turns around the capstan combined with such a high friction coefficient mean that very little additional force is necessary to hold such heavy weight in place. The cables necessary to support this weight, as well as the capstan's ability to withstand the crushing force of those cables, are separate considerations.
+
+The first step is to relate the radial or normal force formula_10(Newtons/radian) at any point of the rope wrapped around a capstan to the tension formula_11(Newtons) in the rope as shown in the figure. The y axis component of the upward force of the capstan on the rope, formula_10, must equal the Y axis downward component of the tension in the rope, formula_13.
+
+formula_14
+
+In the limit as formula_15 goes to zero (the small-angle approximation), formula_16 and formula_17 
+
+formula_18
+
+So the frictional force over a wrap angle formula_19 is
+
+The increase in rope tension formula_22 over a wrap angle formula_19 is the frictional force over that angle so
+
+Integration of both sides yields
+
+and exponentiating both sides,
+
+Finally,
+
+The belt friction equation for a v-belt is:
+
+where formula_31 is the angle (in radians) between the two flat sides of the pulley that the v-belt presses against. A flat belt has an effective angle of formula_32.
+
+The material of a v-belt or multi-v serpentine belt tends to wedge into the mating groove in a pulley as the load increases, improving torque transmission.
+
+For the same power transmission, a V-belt requires less tension than a flat belt, increasing bearing life.
+
+If a rope is lying in equilibrium under tangential forces on a rough orthotropic surface then all three following conditions are satisfied:
+
+1. No separation – normal reaction formula_33 is positive for all points of the rope curve:
+
+formula_34, where formula_35 is a normal curvature of the rope curve.
+
+2. Dragging coefficient of friction formula_36 and angle formula_31 are satisfying the following criteria for all points of the curve
+
+formula_38
+
+3. Limit values of the tangential forces:
+
+The forces at both ends of the rope formula_39 and formula_40 are satisfying the following inequality
+
+formula_41
+
+with formula_42,
+
+where formula_43is a geodesic curvature of the rope curve, formula_44 is a curvature of a rope curve, formula_45is a coefficient of friction in the tangential direction.
+
+If formula_46 then formula_47.
+
+This generalization has been obtained by Konyukhov A.,
+
+
+
+
+

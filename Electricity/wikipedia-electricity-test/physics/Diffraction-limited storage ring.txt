@@ -1,0 +1,12 @@
+﻿Diffraction-limited storage ring
+
+Diffraction-limited storage rings (DLSR), or ultra-low emittance storage rings, are synchrotron light sources where the emittance of the electron-beam in the storage ring is smaller or comparable to the emittance of the x-ray photon beam they produce at the end of their insertion devices.
+These facilities operate in the soft to hard x-ray range (100eV—100keV) with extremely high brilliance (in the order of 10—10 photons/s/mm/mrad/0.1%BW)
+
+Together with x-ray Free-electron laser, they constitute the fourth generation of light sources, characterized by a relatively high coherent flux (in the order of 10—10photons/s/0.1%BW for DLSR) and enable extended physical and chemical characterizations at the nano-scale.
+
+
+
+
+
+

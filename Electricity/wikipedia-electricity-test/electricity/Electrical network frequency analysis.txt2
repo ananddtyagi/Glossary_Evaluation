@@ -1,0 +1,11 @@
+﻿Electrical network frequency analysis
+
+Electrical network frequency (ENF) analysis is a forensic science technique for validating audio recordings by comparing frequency changes in background mains hum in the recording with long-term high-precision historical records of mains frequency changes from a database. In effect the mains hum signal is treated as if it were a time-dependent digital watermark that can help identify when the recording was created, and help detect any edits in the recording. Historical records of mains frequency changes are kept on record, e.g., by police in the German federal state of Bavaria since 2010.
+
+The technology has been hailed as "the most significant development in audio forensics since Watergate." However, according to a paper by Huijbregtse and Geradts, the ENF technique, although powerful, has significant limitations caused by ambiguity based on fixed frequency offsets during recording, and self-similarity within the mains frequency database, particularly for recordings shorter than 10 minutes.
+
+More recently, researchers demonstrated that indoor lights such as fluorescent lights and incandescent bulbs vary their light intensity in accordance with the voltage supplied, which in turn depends on the voltage supply frequency. As a result, the light intensity can carry the frequency fluctuation information to the visual sensor recordings in a similar way as the electromagnetic waves from the power transmission lines carry the ENF information to audio sensing mechanisms. Based on this result, researchers demonstrated that visual track from still video taken in indoor lighting environments also contain ENF traces that can be extracted by estimating the frequency at which ENF will appear in a video as low sampling frequency of video (25–30 Hz) cause significant aliasing. It was also demonstrated in the same research that the ENF signatures from the visual stream and the ENF signature from the audio stream in a given video should match. As a result, the matching between the two signals can be used to determine if the audio and visual track were recorded together or superimposed later.
+
+The distinctive electrical hums have been used to provide forensic verification of audio recordings, a process fully automated in the United Kingdom.
+
+

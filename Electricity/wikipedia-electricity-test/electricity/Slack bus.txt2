@@ -1,0 +1,34 @@
+﻿Slack bus
+
+In electrical power systems a slack bus (or swing bus), defined as a Vδ bus, is used to balance the active power |P| and reactive power |Q| in a system while performing load flow studies. The slack bus is used to provide for system losses by emitting or absorbing active and/or reactive power to and from the system.
+
+For power systems engineers, a load flow study explains the power system conditions at various intervals during operation. It aims to minimize the difference between the calculated and actual quantities. Here, the slack bus can contribute to the minimization by having an unconstrained real and reactive power input.
+
+formula_1
+
+formula_2
+
+formula_3
+
+The use of a slack bus has an inherent disadvantage when dealing with uncertain input variables: the slack bus must absorb all uncertainties arising from the system and thus must have the widest possible nodal power distributions. Even moderate amounts of uncertainty in a large system may allow the resulting distributions to contain values beyond the slack bus's margins.
+
+A load flow approach able to directly incorporate uncertainties into the solution processes can be very useful. The results from such analyses give solutions over the range of the uncertainties, i.e., solutions that are sets of values or regions instead of single values.
+
+Buses are of 3 types and are classified as:
+
+The slack bus provides or absorbs active and reactive power to and from the transmission line to provide for losses, since these variables are unknown until the final solution is established. The slack bus is the only bus for which the system reference phase angle is defined. From this, the various angular differences can be calculated in the power flow equations. If a slack bus is not specified, then a generator bus with maximum real power |P| acts as the slack bus. A given scheme can involve more than one slack bus.
+
+The most common formulation of the load flow problem specifies all input variables (PQ at loads, PV at generators) as deterministic values. Each set of specified values corresponds to one system state, which depends on a set of system conditions. When those conditions are uncertain, numerous scenarios must be analyzed.
+
+A classic load flow analysis consists of calculating voltage magnitude and phase angle at the buses, as well as the active and reactive line flows for the specified terminal (or bus conditions). Four variables are associated with each bus:
+
+Based on these values, a bus may be classified into the above-mentioned three categories as -
+
+Real and reactive powers (i.e. complex power) cannot be fixed. The net complex power flow into the network is not known in advance, and the system power losses are unknown until the study is complete. It is necessary to have one bus (i.e. the slack bus) at which complex power is unspecified so that it supplies the difference in the total system load plus losses and the sum of the complex powers specified at the remaining buses. The complex power allocated to this bus is computed as part of the solution. In order for the variations in real and reactive powers of the slack bus to be a small percentage of its generating capacity during the solution process, the bus connected to the largest generating station is normally selected as the slack bus. The slack bus is crucial to a load flow problem since it will account for transmission line losses. In a load flow problem, conservation of energy results in the total generation equaling to the sum of the loads. However, there still would be a discrepancy in these quantities due to line losses, which are dependent on line current. Yet to determine line current, angles and voltages of the buses connected to the line would be needed. Here, the slack bus will be required to account for line losses and serve as a generator, injecting real power to the system.
+
+The solution requires mathematical formulation and numerical solution. Since load flow problems generate non-linear equations that computers cannot solve quickly, numerical methods are required. The following methods are commonly used algorithms:
+
+
+
+
+

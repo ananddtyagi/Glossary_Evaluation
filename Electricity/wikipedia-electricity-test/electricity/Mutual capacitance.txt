@@ -1,0 +1,13 @@
+﻿Mutual capacitance
+
+Mutual capacitance is intentional or unintentional capacitance that occurs between two charge-holding objects or conductors, in which the current passing through one passes over into the other. In transmission lines, when conductors are closely spaced together, the air or material separating the lines acts as a dielectric, and the conductors act as a capacitors plates.
+
+All objects in the universe, conducting or non-conducting, that hold charge with respect to another exhibit capacitance. An object's capacitance increases when another object is brought closer to it. The human body is a great charge-holding object (capacitor) (this biological property is called body capacitance), and sensitive capacitive detectors can be made to function as proximity detectors. The capacitive property of the human body is also helpful in making touch switches, such as those used in touch-activated lamps. The lamp constantly charges and discharges its metal exterior, measuring a change in capacitance.
+
+When mutual capacitance occurs adversely (unintentionally) between transmission lines, this is an example of crosstalk.
+
+
+Capacitance Explained
+
+
+

@@ -1,0 +1,80 @@
+﻿Soil resistivity
+
+Soil resistivity is a measure of how much the soil resists the flow of electricity. It is a critical factor in design of systems that rely on passing current through the Earth's surface. An understanding of the soil resistivity and how it varies with depth in the soil is necessary to design the grounding system in an electrical substation, or for lightning conductors. It is needed for design of grounding (earthing) electrodes for substations and High-voltage direct current transmission systems. It can also be a useful measure in agriculture as a proxy measurement for moisture content.
+
+In most substations the earth is used to conduct fault current when there are ground faults on the system. In single wire earth return power transmission systems, the earth itself is used as the path of conduction from the end customers (the power consumers) back to the transmission facility. 
+In general there is some value above which the impedance of the earth connection must not rise, and some maximum step voltage which must not be exceeded to avoid endangering people and livestock.
+
+The soil resistivity value is subject to great variation, due to moisture, temperature and chemical content. Typical values are:
+
+The SI unit of resistivity is the Ohm-meter (Ω-m); in the United States the Ohm-centimeter (Ω-cm) is often used instead. One Ω-m is 100 Ω-cm. Sometimes the conductivity, the reciprocal of the resistivity, is quoted instead.
+
+A wide range of typical soil resistivity values can be found in literature. Military Handbook 419 (MIL-HDBK-419A) contains reference tables and formulae for the resistance of various patterns of rods and wires buried in soil of known resistivity. Being copyright free, these numbers are widely copied, sometimes without acknowledgement.
+
+Because soil quality may vary greatly with depth and over a wide lateral area, estimation of soil resistivity based on soil classification provide only a rough approximation. Actual resistivity measurements are required to fully qualify the resistivity and its effects on the overall transmission system.
+
+Several methods of resistivity measurement are frequently employed:
+
+For measurement the user can use Grounding resistance tester.
+The Wenner four-pin method, as shown in figure above, is the most commonly used technique for soil resistivity measurements.
+Using the Wenner method, the apparent soil resistivity value is:
+
+where
+
+ρ = measured apparent soil resistivity (Ωm)
+
+a = electrode spacing (m)
+
+b = depth of the electrodes (m)
+
+R = Wenner resistance measured as "V/I" in Figure (Ω)
+If b is small compared to a, as is the case of probes penetrating the ground only for a short distance (as normally happens), the previous equation can be reduced to:
+
+In the Schlumberger method the distance between the voltages probe is a and the distances from voltages probe and currents probe are c (see figure above).
+
+Using the Schlumberger method, if b is small compared to a and c, and c>2a, the apparent soil resistivity value is:
+
+where
+
+ρ = measured apparent soil resistance (Ωm)
+
+a = electrode spacing (m)
+
+b = depth of the electrodes (m)
+
+c = electrode spacing (m)
+
+R = Schlumberger resistance measured as "V/I" in Figure (Ω)
+
+The conversion between values measured using the Schlumberger and Wenner methods is possible only in an approximate way. In any cases, for both Wenner and Schlumberger methods the electrode spacing between the currents probe corresponds to the depth of soil investigation and the measured apparent soil resistivity is referred to a soil volume as in the figure.
+
+The current tends to flow near the surface for small probe spacing, whereas more current penetrates deeper into the soil for large spacing. The resistivity measured for a given current probe spacing represents, to a first approximation, the apparent resistivity of the soil to a depth equal to that spacing.
+
+If the apparent soil resistivity measured with Schlumberger method ρ (with the corresponding electrode spacing a and c) is given, assuming that the soil resistivity refers to a volume as in the figure with a=L/3 follows:
+
+with
+
+where:
+
+R = equivalent Wenner resistance (Ω)
+
+a = equivalent electrode spacing with Wenner method (m)
+
+a = electrode spacing between voltages probe with Schlumberger method (m)
+
+c = electrode spacing between voltages and currents probe with Schlumberger method (m)
+
+If the measured Schlumberger resistance is given, before calculating the apparent soil resistivity the following factor must be calculated:
+
+The Wenner method is the most widely used method for measuring soil resistivity for electrical grounding (earthing) purposes. The Schlumberger method was developed to increase the voltage signal for the earlier, less sensitive instruments, by placing the potential probes closer to the current probes.
+
+The soil resistivity measurements will be affected by existing nearby grounded electrodes. Buried conductive objects in contact with the soil can invalidate readings made by the methods described if they are close enough to alter the test current flow pattern. This is particularly true for large or long objects.
+
+Electrical conduction in soil is essentially electrolytic and for this reason the soil resistivity depends on:
+
+Because of the variability of soil resistivity, IEC standards require that the seasonal variation in resistivity be accounted for in transmission system design. Soil resistivity can increase by a factor of 10 or more in very cold temperatures. 
+
+Soil resistivity is one of the driving factors determining the corrosiveness of soil. The soil corrosiveness is classified based on soil electrical resistivity by the British Standard BS-1377 as follow:
+
+
+

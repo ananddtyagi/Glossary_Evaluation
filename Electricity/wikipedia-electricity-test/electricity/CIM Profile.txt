@@ -1,0 +1,10 @@
+﻿CIM Profile
+
+A CIM Profile is a subset model of the CIM UML model. These profiles are designated as parts documents in the IEC 61970 standard by working group 14. Each profile is itself a self-contained model which can be used for generating specific artifacts, such as CIM RDF or XML Schema. 
+
+A CIM Profile Group (e.g., 61970-456 Steady-state Solution Profile Group) is a logical grouping of CIM Profiles. In general, each Parts document encompasses an entire Profile group which has one or more profiles in it.
+
+
+
+
+

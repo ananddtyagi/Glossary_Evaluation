@@ -1,0 +1,20 @@
+﻿Integral length scale
+
+The integral length scale measures the correlation distance of a process in terms of space or time.
+In essence, it looks at the overall memory of the process and how it is influenced by previous positions and parameters. An intuitive example would be the case in which you have very low Reynolds number flows (e.g., a "Stokes" flow), where the flow is fully reversible and thus fully correlated with previous particle positions. This concept may be extended to turbulence, where it may be thought of as the time during which a particle is influenced by its previous position.
+
+The mathematical expressions for integral scales are:
+
+formula_1
+
+formula_2
+
+Where formula_3 is the integral time scale, L is the integral length scale, and formula_4 and formula_5 are the autocorrelation with respect to time and space respectively.
+
+In isotropic homogeneous turbulence, the integral length scale formula_6 is defined as the weighted average of the inverse wavenumber, i.e.,
+
+formula_7
+
+where formula_8 is the energy spectrum.
+
+

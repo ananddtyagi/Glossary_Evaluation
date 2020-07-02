@@ -1,0 +1,66 @@
+﻿Principle of least action
+
+The principle of least action – or, more accurately, the principle of stationary action – is a variational principle that, when applied to the action of a mechanical system, can be used to obtain the equations of motion for that system. In relativity, a different action must be minimized or maximized. The principle can be used to derive Newtonian, Lagrangian and Hamiltonian equations of motion, and even general relativity (see Einstein–Hilbert action). The physicist Paul Dirac, and after him Julian Schwinger and Richard Feynman, demonstrated how this principle can also be used in quantum calculations.
+It was historically called "least" because its solution requires finding the path that has the least value. Its classical mechanics and electromagnetic expressions are a consequence of quantum mechanics, but the stationary action method helped in the development of quantum mechanics.
+
+The principle remains central in modern physics and mathematics, being applied in thermodynamics, fluid mechanics, the theory of relativity, quantum mechanics, particle physics, and string theory and is a focus of modern mathematical investigation in Morse theory. Maupertuis' principle and Hamilton's principle exemplify the principle of stationary action.
+
+The action principle is preceded by earlier ideas in optics. In ancient Greece, Euclid wrote in his "Catoptrica" that, for the path of light reflecting from a mirror, the angle of incidence equals the angle of reflection. Hero of Alexandria later showed that this path was the shortest length and least time.
+
+Scholars often credit Pierre Louis Maupertuis for formulating the principle of least action because he wrote about it in 1744 and 1746. However, Leonhard Euler discussed the principle in 1744, and evidence shows that Gottfried Leibniz preceded both by 39 years.
+
+In 1933, Paul Dirac discerned the quantum mechanical underpinning of the principle in the quantum interference of amplitudes.
+
+The starting point is the "action", denoted formula_1 (calligraphic S), of a physical system. It is defined as the integral of the Lagrangian "L" between two instants of time "t" and "t" – technically a functional of the "N" generalized coordinates q = ("q", "q", ... , "q") which define the configuration of the system:
+
+where the dot denotes the time derivative, and "t" is time.
+
+Mathematically the principle is
+
+where "δ" (lowercase Greek delta) means a "small" change. In words this reads:
+
+In applications the statement and definition of action are taken together:
+
+The action and Lagrangian both contain the dynamics of the system for all times. The term "path" simply refers to a curve traced out by the system in terms of the coordinates in the configuration space, i.e. the curve q("t"), parameterized by time (see also parametric equation for this concept).
+
+In the 1600s, Pierre de Fermat postulated that ""light travels between two given points along the path of shortest time"," which is known as the principle of least time or Fermat's principle.
+
+Credit for the formulation of the principle of least action is commonly given to Pierre Louis Maupertuis, who felt that "Nature is thrifty in all its actions", and applied the principle broadly:
+
+This notion of Maupertuis, although somewhat deterministic today, does capture much of the essence of mechanics.
+
+In application to physics, Maupertuis suggested that the quantity to be minimized was the product of the duration (time) of movement within a system by the "vis viva",
+
+which is the integral of twice what we now call the kinetic energy "T" of the system.
+
+Leonhard Euler gave a formulation of the action principle in 1744, in very recognizable terms, in the "Additamentum 2" to his "Methodus Inveniendi Lineas Curvas Maximi Minive Proprietate Gaudentes". Beginning with the second paragraph:
+
+As Euler states, ∫"Mv"d"s" is the integral of the momentum over distance travelled, which, in modern notation, equals the abbreviated or reduced action
+
+Thus, Euler made an equivalent and (apparently) independent statement of the variational principle in the same year as Maupertuis, albeit slightly later. Curiously, Euler did not claim any priority, as the following episode shows.
+
+Maupertuis' priority was disputed in 1751 by the mathematician Samuel König, who claimed that it had been invented by Gottfried Leibniz in 1707. Although similar to many of Leibniz's arguments, the principle itself has not been documented in Leibniz's works. König himself showed a "copy" of a 1707 letter from Leibniz to Jacob Hermann with the principle, but the "original" letter has been lost. In contentious proceedings, König was accused of forgery, and even the King of Prussia entered the debate, defending Maupertuis (the head of his Academy), while Voltaire defended König.
+
+Euler, rather than claiming priority, was a staunch defender of Maupertuis, and Euler himself prosecuted König for forgery before the Berlin Academy on 13 April 1752. The claims of forgery were re-examined 150 years later, and archival work by C.I. Gerhardt in 1898 and W. Kabitz in 1913 uncovered other copies of the letter, and three others cited by König, in the Bernoulli archives.
+
+Euler continued to write on the topic; in his "Reflexions sur quelques loix generales de la nature" (1748), he called the quantity "effort". His expression corresponds to what we would now call potential energy, so that his statement of least action in statics is equivalent to the principle that a system of bodies at rest will adopt a configuration that minimizes total potential energy.
+
+Much of the calculus of variations was stated by Joseph-Louis Lagrange in 1760 and he proceeded to apply this to problems in dynamics. In "Méchanique Analytique" (1788) Lagrange derived the general equations of motion of a mechanical body. William Rowan Hamilton in 1834 and 1835 applied the variational principle to the classical Lagrangian function
+
+to obtain the Euler–Lagrange equations in their present form.
+
+In 1842, Carl Gustav Jacobi tackled the problem of whether the variational principle always found minima as opposed to other stationary points (maxima or stationary saddle points); most of his work focused on geodesics on two-dimensional surfaces. The first clear general statements were given by Marston Morse in the 1920s and 1930s, leading to what is now known as Morse theory. For example, Morse showed that the number of conjugate points in a trajectory equalled the number of negative eigenvalues in the second variation of the Lagrangian.
+
+Other extremal principles of classical mechanics have been formulated, such as Gauss's principle of least constraint and its corollary, Hertz's principle of least curvature.
+
+The mathematical equivalence of the differential equations of motion and their integral
+counterpart has important philosophical implications. The differential equations are statements about quantities localized to a single point in space or single moment of time. For example, Newton's second law
+
+states that the "instantaneous" force F applied to a mass "m" produces an acceleration a at the same "instant". By contrast, the action principle is not localized to a point; rather, it involves integrals over an interval of time and (for fields) an extended region of space. Moreover, in the usual formulation of classical action principles, the initial and final states of the system are fixed, e.g.,
+
+In particular, the fixing of the "final" state has been interpreted as giving the action principle a teleological character which has been controversial historically. However, according to W. Yourgrau and S. Mandelstam, "the teleological approach... presupposes that the variational principles themselves have mathematical characteristics which they "de facto" do not possess" In addition, some critics maintain this apparent teleology occurs because of the way in which the question was asked. By specifying some but not all aspects of both the initial and final conditions (the positions but not the velocities) we are making some inferences about the initial conditions from the final conditions, and it is this "backward" inference that can be seen as a teleological explanation. Teleology can also be overcome if we consider the classical description as a limiting case of the quantum formalism of path integration, in which stationary paths are obtained as a result of interference of amplitudes along all possible paths.
+
+The short story "Story of Your Life" by the speculative fiction writer Ted Chiang contains visual depictions of Fermat's Principle along with a discussion of its teleological dimension. Keith Devlin's "The Math Instinct" contains a chapter, "Elvis the Welsh Corgi Who Can Do Calculus" that discusses the calculus "embedded" in some animals as they solve the "least time" problem in actual situations.
+
+
+

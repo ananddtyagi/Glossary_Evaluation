@@ -1,0 +1,255 @@
+﻿Bose–Einstein statistics
+
+In quantum statistics, Bose–Einstein statistics (or B–E statistics) describe one of two possible ways in which a collection of non-interacting, indistinguishable particles may occupy a set of available discrete energy states at thermodynamic equilibrium. The aggregation of particles in the same state, which is a characteristic of particles obeying Bose–Einstein statistics, accounts for the cohesive streaming of laser light and the frictionless creeping of superfluid helium. The theory of this behaviour was developed (1924–25) by Satyendra Nath Bose, who recognized that a collection of identical and indistinguishable particles can be distributed in this way. The idea was later adopted and extended by Albert Einstein in collaboration with Bose.
+
+The Bose–Einstein statistics apply only to those particles not limited to single occupancy of the same state—that is, particles that do not obey the Pauli exclusion principle restrictions. Such particles have integer values of spin and are named bosons, after the statistics that correctly describe their behaviour. There must also be no significant interaction between the particles.
+At low temperatures, bosons behave differently from fermions (which obey the Fermi–Dirac statistics) in a way that an unlimited number of them can "condense" into the same energy state. This apparently unusual property also gives rise to the special state of matter – the Bose–Einstein condensate. Fermi–Dirac and Bose–Einstein statistics apply when quantum effects are important and the particles are "indistinguishable". Quantum effects appear if the concentration of particles satisfies
+where is the number of particles, is the volume, and is the quantum concentration, for which the interparticle distance is equal to the thermal de Broglie wavelength, so that the wavefunctions of the particles are barely overlapping.
+
+Fermi–Dirac statistics apply to fermions (particles that obey the Pauli exclusion principle), and Bose–Einstein statistics apply to bosons. As the quantum concentration depends on temperature, most systems at high temperatures obey the classical (Maxwell–Boltzmann) limit, unless they also have a very high density, as for a white dwarf. Both Fermi–Dirac and Bose–Einstein become Maxwell–Boltzmann statistics at high temperature or at low concentration.
+
+B–E statistics was introduced for photons in 1924 by Bose and generalized to atoms by Einstein in 1924–25.
+
+The expected number of particles in an energy state "i" for B–E statistics is
+with and where is the number of particles in state is the degeneracy of energy level is the energy of the "i"-th state, "μ" is the chemical potential, is the Boltzmann constant, and "T" is absolute temperature.
+
+For comparison, the average number of fermions with energy formula_3 given by Fermi–Dirac particle-energy distribution has a similar form:
+
+In addition to reducing to the Maxwell-Boltzmann distribution in the limit of high formula_5 and low density, B–E statistics also reduce to Rayleigh–Jeans law distribution for formula_6, namely 
+
+While presenting a lecture at the University of Dhaka (in what was then British India and now Bangladesh) on the theory of radiation and the ultraviolet catastrophe, Satyendra Nath Bose intended to show his students that the contemporary theory was inadequate, because it predicted results not in accordance with experimental results. During this lecture, Bose committed an error in applying the theory, which unexpectedly gave a prediction that agreed with the experiment. The error was a simple mistake—similar to arguing that flipping two fair coins will produce two heads one-third of the time—that would appear obviously wrong to anyone with a basic understanding of statistics (remarkably, this error resembled the famous blunder by d'Alembert known from his "Croix ou Pile" article). However, the results it predicted agreed with experiment, and Bose realized it might not be a mistake after all. For the first time, he took the position that the Maxwell–Boltzmann distribution would not be true for all microscopic particles at all scales. Thus, he studied the probability of finding particles in various states in phase space, where each state is a little patch having phase volume of "h", and the position and momentum of the particles are not kept particularly separate but are considered as one variable.
+
+Bose adapted this lecture into a short article called "Planck's Law and the Hypothesis of Light Quanta" and submitted it to the "Philosophical Magazine". However, the referee's report was negative, and the paper was rejected. Undaunted, he sent the manuscript to Albert Einstein requesting publication in the "Zeitschrift für Physik". Einstein immediately agreed, personally translated the article from English into German (Bose had earlier translated Einstein's article on the theory of General Relativity from German to English), and saw to it that it was published. Bose's theory achieved respect when Einstein sent his own paper in support of Bose's to "Zeitschrift für Physik", asking that they be published together. The paper came out in 1924.
+
+The reason Bose produced accurate results was that since photons are indistinguishable from each other, one cannot treat any two photons having equal energy as being two distinct identifiable photons. By analogy, if in an alternate universe coins were to behave like photons and other bosons, the probability of producing two heads would indeed be one-third, and so is the probability of getting a head and a tail which equals one-half for the conventional (classical, distinguishable) coins. Bose's "error" leads to what is now called Bose–Einstein statistics.
+
+Bose and Einstein extended the idea to atoms and this led to the prediction of the existence of phenomena which became known as Bose–Einstein condensate, a dense collection of bosons (which are particles with integer spin, named after Bose), which was demonstrated to exist by experiment in 1995.
+
+In the microcanonical ensemble, one considers a system with fixed energy, volume, and number of particles. We take a system composed of formula_8 identical bosons, formula_9 of which have energy formula_3 and are distributed over formula_11 levels or states with the same energy formula_3, i.e. formula_11 is the degeneracy associated with energy formula_3 of total energy formula_15. Calculation of the number of arrangements of formula_9 particles distributed among formula_11 states is a problem of combinatorics. Since particles and states are indistinguishable in the quantum mechanical context here, and starting with a state, the number of arrangements is
+
+where formula_19 is the "k"-combination of a set with "m" elements.
+
+If we start with a particle first, the number is
+
+The sum is obviously
+
+Since here all numbers are large, the distinction is irrelevant in the present context. The total number of arrangements in an ensemble of bosons is
+The maximum number of arrangements determining the corresponding occupation number formula_9 is obtained looking the condition that maximizes the entropy, or equivalently, setting formula_24 and taking the subsidiary conditions formula_25 into account (as Lagrange multipliers). The result for a large number of particles is the Bose-Einstein distribution.
+
+The expressions formula_26 are of considerable interest in many problems of combinatorics. For non-huge values of formula_27 and formula_28 the binomial coefficients formula_29 are given by Pascal's triangles. For more details about the combinatorics, see the notes of the canonical derivation.
+
+The Bose–Einstein distribution, which applies only to a quantum system of non-interacting bosons, is easily derived from the grand canonical ensemble. In this ensemble, the system is able to exchange energy and exchange particles with a reservoir (temperature "T" and chemical potential "µ" fixed by the reservoir).
+
+Due to the non-interacting quality, each available single-particle level (with energy level "ϵ") forms a separate thermodynamic system in contact with the reservoir. That is, the number of particles within the overall system "that occupy a given single particle state" form a sub-ensemble that is also grand canonical ensemble; hence, it may be analysed through the construction of a grand partition function.
+
+Every single-particle state is of a fixed energy, formula_30. As the sub-ensemble associated with a single-particle state varies by the number of particles only, it is clear that the total energy of the sub-ensemble is also directly proportional to the number of particles in the single-particle state; where formula_31 is the number of particles, the total energy of the sub-ensemble will then be formula_32. Beginning with the standard expression for a grand partition function and replacing formula_30 with formula_32, the grand partition function takes the form
+
+formula_35
+
+This formula applies to fermionic systems as well as bosonic systems. Bose-Einstein statistics arise when considering the effect of the Pauli exclusion principle: whilst the number of fermions occupying the same single-particle state can only be either 1 or 0, the number of bosons occupying a single particle state may be any integer. Thus, the grand partition function for bosons can be considered a geometric series and may be evaluated as such:
+and the average particle number for that single-particle substate is given by
+This result applies for each single-particle level and thus forms the Bose–Einstein distribution for the entire state of the system.
+
+The variance in particle number (due to thermal fluctuations) may also be derived:
+This level of fluctuation is much larger than for distinguishable particles, which would instead show Poisson statistics formula_39. The reason is that the probability distribution for the number of bosons in a given energy level is a geometric distribution, not a Poisson distribution.
+
+It is also possible to derive approximate Bose–Einstein statistics in the canonical ensemble.
+These derivations are lengthy and only yield the above results in the asymptotic limit of a large number of particles.
+The reason is that the total number of bosons is fixed in the canonical ensemble. The Bose–Einstein distribution in this case can be derived as in most texts by maximization, but the mathematically best derivation is by the Darwin–Fowler method of mean values as emphasized by Dingle. See also Müller-Kirsten. The fluctuations of the ground state in the condensed region are however markedly different in the canonical and grand-canonical ensembles.
+Suppose we have a number of energy levels, labeled by index
+formula_40, each level 
+having energy formula_41 and containing a total of 
+formula_42 particles. Suppose each level contains 
+formula_43
+distinct sublevels, all of which have the same energy, and which are distinguishable. For example, two particles may have different momenta, in which case they are distinguishable from each other, yet they can still have the same energy. 
+The value of 
+formula_43 associated with level formula_40 is called the "degeneracy" of that energy level. Any number of bosons can occupy the same sublevel.
+
+Let formula_46 be the number of ways of distributing
+formula_47 particles among the 
+formula_48 sublevels of an energy level. There is only one way of distributing
+formula_47 particles with one sublevel, therefore 
+formula_50. It is easy to see that
+there are formula_51 ways of distributing
+formula_47 particles in two sublevels which we will write as:
+
+With a little thought 
+(see Notes below) 
+it can be seen that the number of ways of distributing
+formula_47 particles in three sublevels is
+
+so that
+
+where we have used the following theorem involving binomial coefficients:
+
+Continuing this process, we can see that 
+formula_46
+is just a binomial coefficient
+
+For example, the population numbers for two particles in three sublevels are 200, 110, 101, 020, 011, or 002 for a total of six which equals 4!/(2!2!). The number of ways that a set of occupation numbers formula_42 can be realized is the product of the ways that each individual energy level can be populated:
+
+where the approximation assumes that formula_62.
+
+Following the same procedure used in deriving the Maxwell–Boltzmann statistics, we wish to find the set of formula_42 for which "W" is maximised, subject to the constraint that there be a fixed total number of particles, and a fixed total energy. The maxima of formula_64 and formula_65 occur at the same value of formula_42 and, since it is easier to accomplish mathematically, we will maximise the latter function instead. We constrain our solution using Lagrange multipliers forming the function:
+
+Using the formula_62 approximation and using Stirling's approximation for the factorials formula_69 gives
+
+Where "K" is the sum of a number of terms which are not functions of the formula_9. Taking the derivative with respect to formula_42, and setting the result to zero and solving for formula_42, yields the Bose–Einstein population numbers:
+
+By a process similar to that outlined in the Maxwell–Boltzmann statistics article, it can be seen that:
+
+which, using Boltzmann's famous relationship formula_76 becomes a statement of the second law of thermodynamics at constant volume, and it follows that formula_77 and formula_78 where "S" is the entropy, formula_79 is the chemical potential, "k" is Boltzmann's constant and "T" is the temperature, so that finally:
+
+Note that the above formula is sometimes written:
+
+where 
+formula_82 
+is the absolute activity, as noted by McQuarrie.
+
+Also note that when the particle numbers are not conserved, removing the conservation of particle numbers constraint is equivalent to setting formula_83 and therefore the chemical potential formula_79 to zero. This will be the case for photons and massive particles in mutual equilibrium and the resulting distribution will be the Planck distribution.
+
+A much simpler way to think of Bose–Einstein distribution function is to consider that n particles are denoted by identical balls and g shells are marked by g-1 line partitions. It is clear that the permutations of these n balls and g − 1 partitions will give different ways of arranging bosons in different energy levels. Say, for 3 (= "n") particles and 3 (= "g") shells, therefore ("g" − 1) = 2, the arrangement might be |●●|●, or ||●●●, or |●|●● , etc. Hence the number of distinct permutations of n + (g-1) objects which have n identical items and ("g" − 1) identical items will be:
+
+OR
+
+The purpose of these notes is to clarify some aspects of the derivation of the Bose–Einstein (B–E) 
+distribution for beginners. The enumeration of cases (or ways) in the B–E distribution can be recast as 
+follows. Consider a game of dice throwing in which there are 
+formula_47 dice, 
+with each die taking values in the set 
+formula_87, for formula_88. 
+The constraints of the game are that the value of a die 
+formula_40, denoted by formula_90, has to be 
+greater than or equal to the value of die 
+formula_91, denoted by 
+formula_92, in the previous throw, i.e., 
+formula_93. Thus a valid sequence of die throws can be described by an 
+"n"-tuple 
+formula_94, such that formula_93. Let formula_96 denote the set of these valid "n"-tuples:
+
+Then the quantity formula_46 (defined above as the number of ways to distribute 
+formula_47 particles among the 
+formula_48 sublevels of an energy level) is the cardinality of formula_96, i.e., the number of elements (or valid "n"-tuples) in formula_96.
+Thus the problem of finding an expression for 
+formula_46 
+becomes the problem of counting the elements in formula_96.
+Example "n" = 4, "g" = 3:
+Subset 
+formula_109
+is obtained by fixing all indices 
+formula_90 to 
+formula_111, except for the last index, 
+formula_112, which is incremented from 
+formula_111 to
+formula_114.
+Subset 
+formula_115
+is obtained by fixing 
+formula_116, and incrementing 
+formula_117 from 
+formula_118 to
+formula_114. Due to the constraint 
+formula_120
+on the indices in 
+formula_96,
+the index
+formula_122 must 
+automatically
+take values in 
+formula_123.
+The construction of subsets
+formula_124 and 
+formula_125
+follows in the same manner.
+
+Each element of 
+formula_108 can be thought of as a 
+multiset 
+of cardinality 
+formula_127; 
+the elements of such multiset are taken from the set 
+formula_128
+of cardinality 
+formula_114,
+and the number of such multisets is the 
+multiset coefficient
+
+More generally, each element of 
+formula_96
+is a 
+multiset 
+of cardinality
+formula_47
+with elements taken from the set 
+formula_133
+of cardinality 
+formula_48
+(number of possible values of each die),
+and the number of such multisets, i.e., 
+formula_46
+is the 
+multiset coefficient
+which is exactly the same as the 
+formula for formula_46, as derived above with the aid
+of
+a theorem involving binomial coefficients, namely
+
+To understand the decomposition
+or for example, 
+formula_127
+and
+formula_114
+
+let us rearrange the elements of 
+formula_108 as follows
+
+Clearly, the subset
+formula_143
+of 
+formula_108
+is the same as the set
+
+By deleting the index 
+formula_146
+in
+the subset 
+formula_147
+of 
+formula_108,
+one obtains
+the set
+In other words, there is a one-to-one correspondence between the subset
+formula_147
+of 
+formula_108
+and the set
+formula_152. We write
+
+Similarly, it is easy to see that
+
+Thus we can write 
+
+or more generally,
+and since the sets 
+are non-intersecting, we thus have
+with the convention that
+Continuing the process, we arrive at the following formula
+Using the convention (7) above, we obtain the formula
+
+keeping in mind that for 
+formula_160
+and 
+formula_161
+being constants, we have
+
+It can then be verified that (8) and (2) give the same result for 
+formula_162,
+formula_163, 
+formula_164, etc.
+
+Viewed as a pure probability distribution, the Bose–Einstein distribution has found application in other fields:
+
+
+
+
+

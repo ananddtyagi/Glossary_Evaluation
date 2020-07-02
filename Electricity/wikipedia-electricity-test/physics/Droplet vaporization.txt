@@ -1,0 +1,92 @@
+﻿Droplet vaporization
+
+The vaporizing droplet (droplet vaporization) problem is a challenging issue in fluid dynamics. It is part of many engineering situations involving the transport and computation of sprays: fuel injection, spray painting, aerosol spray, flashing releases… In most of these engineering situations there is a relative motion between the droplet and the surrounding gas. The gas flow over the droplet has many features of the gas flow over a rigid sphere: pressure gradient, viscous boundary layer, wake. In addition to these common flow features one can also mention the internal liquid circulation phenomenon driven by surface-shear forces and the boundary layer blowing effect.
+
+One of the key parameter which characterizes the gas flow over the droplet is the droplet Reynolds number based on the relative velocity, droplet diameter and gas phase properties. The features of the gas flow have a critical impact on the exchanges of mass, momentum and energy between the gas and the liquid phases and thus, they have to be properly accounted for in any vaporizing droplet model.
+
+As a first step it is worth investigating the simple case where there is no relative motion between the droplet and the surrounding gas. It will provide some useful insights on the physics involved in the vaporizing droplet problem. In a second step models used in engineering situations where a relative motion between the droplet and the surrounding exists are presented.
+
+In this section we assume that there is no relative motion between the droplet and the gas, formula_1, and that the temperature inside the droplet is uniform (models that account for the non-uniformity of the droplet temperature are presented in the next section). The time evolution of the droplet radius, formula_2, and droplet temperature, formula_3, can be computed by solving the following set of ordinary differential equations.::
+
+where:
+
+The heat flux entering the droplet can be expressed as:
+
+where:
+
+Analytical expressions for the droplet vaporization rate, formula_7, and for the heat flux formula_11 are now derived. A single, pure, component droplet is considered and the gas phase is assumed to behave as an ideal gas. A spherically symmetric field exists for the gas field surrounding the droplet. Analytical expressions for formula_7 and formula_11 are found by considering heat and mass transfer processes in the gas film surrounding the droplet. The droplet vaporizes and creates a radial flow field in the gas film. The vapor from the droplet convects and diffuses away from the droplet surface. Heat conducts radially against the convection toward the droplet interface. This process is called Stefan convection or Stefan flow.
+The gas phase conservation equations for mass, fuel-vapor mass fraction and energy are written in a spherical coordinate system:
+
+where:
+
+It is assumed that the gas phase heat and mass transfer processes are quasi-steady and that the thermo-physical properties might be considered as constant. The assumption of quasi-steadiness of the gas phase finds its limitation in situations in which the gas film surrounding the droplet is in a near-critical state or in a situation in which the gas field is submitted to an acoustic field. The assumption of constant thermo-physical properties is found to be satisfying provided that the properties are evaluated at some reference conditions 
+
+where:
+The "1/3" averaging rule, formula_37, is often recommended in the literature
+
+The conservation equation of mass simplifies to:
+
+Combining the conservation equations for mass and fuel vapor mass fraction the following differential equation for the fuel vapor mass fraction formula_39 is obtained:
+
+Integrating this equation between formula_21 and the ambient gas phase region formula_42 and applying the boundary condition at formula_43 gives the expression for the droplet vaporization rate:
+
+and
+
+where:
+
+Phase equilibrium is assumed at the droplet surface and the mole fraction of fuel vapor at the droplet surface is obtained via the use of the Clapeyron's equation.
+
+An analytical expression for the heat flux formula_11 is now derived. After some manipulations the conservation equation of energy writes:
+
+where:
+
+Applying the boundary condition at the droplet surface and using the relation formula_50 we have:
+
+where:
+
+Integrating this equation from formula_21 to the ambient gas phase conditions (formula_54) gives the variation of the gas film temperature (formula_26) as a function of the radial distance:
+
+The above equation provides a second expression for the droplet vaporization rate:
+
+and
+
+where:
+
+Finally combining the new expression for the droplet vaporization rate and the expression for the variation of the gas film temperature the following equation is obtained for formula_11:
+
+Two different expressions for the droplet vaporization rate formula_7 have been derived. Hence, a relation exists between the Spalding mass transfer number and the Spalding heat transfer number and writes:
+
+where:
+
+The droplet vaporization rate can be expressed as a function of the Sherwood number. The Sherwood number describes the non-dimensional mass transfer rate to the droplet and is defined as:
+
+Thus, the expression for the droplet vaporization rate can be re-written as:
+
+Similarly, the conductive heat transfer from the gas to the droplet can be expressed as a function of the Nusselt number. The Nusselt number describes a non-dimensional heat transfer rate to the droplet and is defined as:
+
+and then:
+
+In the limit where formula_70 we have formula_71 which corresponds to the classical heated sphere result.
+
+The relative motion between a droplet and the gas results in an increase of the heat and mass transfer rates in the gas film surrounding the droplet. A convective boundary layer and a wake can surround the droplet. Furthermore, the shear force on the liquid surface causes an internal circulation that enhances the heating of the liquid. As a consequence, the vaporization rate increases with the droplet Reynolds number. Many different models exist for the single convective droplet vaporization case. Vaporizing droplet models can be seen to belong to six different classes:
+
+
+The main difference between all these models is the treatment of the heating of the liquid phase which is usually the rate controlling phenomenon in droplet vaporization. The first three models do not consider internal liquid circulation. The effective conductivity model (4) and the vortex model of droplet heating (5) account for internal circulation and internal convective heating. The direct resolution of the Navier-Stokes equations provide, in principle, exact solutions both for the gas phase and the liquid phase.
+
+Model (1) is a simplification of model (2) which is in turn a simplification of model (3). The spherically symmetric transient droplet heating model (3) solves the equation for heat diffusion through the liquid phase. A droplet heating time τ can be defined as the time required for a thermal diffusion wave to penetrate from the droplet surface to its center. The droplet heating time is compared to the droplet lifetime, τ. If the droplet heating time is short compared to the droplet lifetime we can assume that the temperature field inside the droplet is uniform and model (2) is obtained. In the infinite liquid conductivity model (2) the temperature of the droplet is uniform but varies with time. It is possible to go one step further and find the conditions for which we can neglect the temporal variation of the droplet temperature. The liquid temperature varies in time until the wet-bulb temperature is reached. If the wet-bulb temperature is reached in a time of the same order of magnitude than the droplet heating time then the liquid temperature can be considered to be constant with regards to time. Model (1), the d2-law, is obtained.
+
+The infinite liquid conductivity model is widely used in industrial spray calculations: for its balance between computational costs and accuracy. To account for the convective effects which enhanced the heat and mass transfer rates around the droplet, a correction is applied to the spherically symmetric expressions of the Sherwood and Nusselt numbers 
+
+Abramzon and Sirignano suggest the following formulation for the modified Sherwood and Nusselt numbers:
+
+where:
+
+
+and the well known Frossling correlations (or Ranz-Marshall correlations ) can be used to express "Nu" and "Sh":
+
+where
+
+
+The expressions above show that the heat and mass transfer rates increase with increasing Reynolds number.
+
+

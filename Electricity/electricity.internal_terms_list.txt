@@ -1,0 +1,486 @@
+electricity/Abmho.terms
+electricity/AC_DC receiver design.terms
+electricity/Acousto-electronics.terms
+electricity/AC power.terms
+electricity/Adaptive voltage scaling.terms
+electricity/Admittance.terms
+electricity/Advanced Configuration and Power Interface.terms
+electricity/Advanced superionic conductor.terms
+electricity/AEP meter label format.terms
+electricity/Aerial bundled cable.terms
+electricity/AlertMe.terms
+electricity/Alkali-metal thermal to electric converter.terms
+electricity/Alternating current.terms
+electricity/Aluminium.terms
+electricity/Ampere balance.terms
+electricity/Amplitude adjusting.terms
+electricity/Anode.terms
+electricity/Appliance classes.terms
+electricity/Arc converter.terms
+electricity/Arc flash.terms
+electricity/Arcing horns.terms
+electricity/Arc suppression.terms
+electricity/Arc welding.terms
+electricity/Aromatic ring current.terms
+electricity/Autonomous peripheral operation.terms
+electricity/Auxiliary electrode.terms
+electricity/Auxiliary power.terms
+electricity/Avalanche breakdown.terms
+electricity/Backstay insulator.terms
+electricity/Backup battery.terms
+electricity/Bakelite.terms
+electricity/Batteryless radio.terms
+electricity/Battery room.terms
+electricity/Bidirectional current.terms
+electricity/Blondel's theorem.terms
+electricity/Bohr model of the chemical bond.terms
+electricity/Bonding jumper.terms
+electricity/Bootleg ground.terms
+electricity/BoPET.terms
+electricity/Breakdown voltage.terms
+electricity/Break junction.terms
+electricity/Bridgman effect.terms
+electricity/Brittle Power.terms
+electricity/Brush discharge.terms
+electricity/CAIDI.terms
+electricity/CAIFI.terms
+electricity/Capacitance multiplier.terms
+electricity/Capacitance.terms
+electricity/Capacitor analogy.terms
+electricity/Carbon paste electrode.terms
+electricity/Cascaded Arc Plasma Source.terms
+electricity/Cathode.terms
+electricity/Cellulose electrode.terms
+electricity/Characteristic admittance.terms
+electricity/Characteristic impedance.terms
+electricity/Charged black hole.terms
+electricity/Charged-device model.terms
+electricity/Charge density.terms
+electricity/Charge transport mechanisms.terms
+electricity/Chassis ground.terms
+electricity/Chemical field-effect transistor.terms
+electricity/Chemically modified electrode.terms
+electricity/Chiral magnetic effect.terms
+electricity/CIM Profile.terms
+electricity/Clark electrode.terms
+electricity/Classical electron radius.terms
+electricity/Cold cathode.terms
+electricity/Common Information Model_electricity_.terms
+electricity/Common rail_electricity_.terms
+electricity/Comparative Tracking Index.terms
+electricity/Conductive agent.terms
+electricity/Constant Awake Mode.terms
+electricity/Constant current.terms
+electricity/Contact protection.terms
+electricity/Contact resistance.terms
+electricity/Continual power system.terms
+electricity/Control grid.terms
+electricity/Copper–copper_II_ sulfate electrode.terms
+electricity/Copper.terms
+electricity/Corona discharge.terms
+electricity/Corona ring.terms
+electricity/Correlated double sampling.terms
+electricity/Coulomb constant.terms
+electricity/Counterpoise_ground system_.terms
+electricity/CPU power dissipation.terms
+electricity/Critical Power Coalition.terms
+electricity/CTAIDI.terms
+electricity/Curie–von Schweidler law.terms
+electricity/Current divider.terms
+electricity/Current limiting.terms
+electricity/Current source.terms
+electricity/Current–voltage characteristic.terms
+electricity/Cylinder fuse.terms
+electricity/Data center infrastructure efficiency.terms
+electricity/Data collector.terms
+electricity/Debye length.terms
+electricity/Dielectric barrier discharge.terms
+electricity/Dielectric breakdown model.terms
+electricity/Dielectric gas.terms
+electricity/Dielectric strength.terms
+electricity/Dielectric.terms
+electricity/Dirac membrane.terms
+electricity/Direct current.terms
+electricity/Dispatchable generation.terms
+electricity/Displacement current.terms
+electricity/Distribution Transformer Monitor.terms
+electricity/Dropping mercury electrode.terms
+electricity/Dynamic hydrogen electrode.terms
+electricity/Economic dispatch.terms
+electricity/Economic optimization of electric conductors.terms
+electricity/Ecton_physics_.terms
+electricity/Electret.terms
+electricity/Electrical breakdown.terms
+electricity/Electrical burn.terms
+electricity/Electrical conductor.terms
+electricity/Electrical contractor.terms
+electricity/Electrical discharge machining.terms
+electricity/Electrical energy.terms
+electricity/Electrical impedance.terms
+electricity/Electrical insulation paper.terms
+electricity/Electrical interconnector.terms
+electricity/Electrical junction.terms
+electricity/Electrically conductive adhesive.terms
+electricity/Electrical network frequency analysis.terms
+electricity/Electrical network.terms
+electricity/Electrical polarity.terms
+electricity/Electrical reactance.terms
+electricity/Electrical resistance and conductance.terms
+electricity/Electrical resistivities of the elements_data page_.terms
+electricity/Electrical resistivity and conductivity.terms
+electricity/Electrical substation.terms
+electricity/Electrical tape.terms
+electricity/Electrical treeing.terms
+electricity/Electric arc furnace.terms
+electricity/Electric arc.terms
+electricity/Electric battery.terms
+electricity/Electric charge.terms
+electricity/Electric current.terms
+electricity/Electric discharge.terms
+electricity/Electric energy consumption.terms
+electricity/Electric grid security.terms
+electricity/Electrician.terms
+electricity/Electric instrument.terms
+electricity/Electricity delivery.terms
+electricity/Electricity meter.terms
+electricity/Electricity on Shabbat.terms
+electricity/Electricity retailing.terms
+electricity/Electricity.terms
+electricity/Electric Light Works Building.terms
+electricity/Electric potential energy.terms
+electricity/Electric power industry.terms
+electricity/Electric Power Systems Research.terms
+electricity/Electric power system.terms
+electricity/Electric power.terms
+electricity/Electric spark.terms
+electricity/Electric transient.terms
+electricity/Electric utility.terms
+electricity/Electric violin.terms
+electricity/Electrification.terms
+electricity/Electrocution.terms
+electricity/Electrode line.terms
+electricity/Electrode.terms
+electricity/Electrofusion welding.terms
+electricity/Electrolithoautotroph.terms
+electricity/Electrometer.terms
+electricity/Electron avalanche.terms
+electricity/Electron bubble.terms
+electricity/Electron density.terms
+electricity/Electron diffraction.terms
+electricity/Electron excitation.terms
+electricity/Electronic circuit.terms
+electricity/Electronic correlation.terms
+electricity/Electronics.terms
+electricity/Electron multiplier.terms
+electricity/Electron precipitation.terms
+electricity/Electron rest mass.terms
+electricity/Electron scattering.terms
+electricity/Electron shell.terms
+electricity/Electron.terms
+electricity/Electrostatic discharge.terms
+electricity/Electrostatic induction.terms
+electricity/Electrostatic units.terms
+electricity/Electro Thermal Dynamic Stripping Process.terms
+electricity/Electrovibration.terms
+electricity/Elektrizitätsmuseum.terms
+electricity/Emergency power system.terms
+electricity/Emissions & Generation Resource Integrated Database.terms
+electricity/Energy mix.terms
+electricity/Energy Networks Australia.terms
+electricity/Energy tower _downdraft_.terms
+electricity/Etymology of electricity.terms
+electricity/Experiments and Observations on Electricity.terms
+electricity/Extension cord.terms
+electricity/Extra-low voltage.terms
+electricity/Field coil.terms
+electricity/Fixed bill.terms
+electricity/Fluid theory of electricity.terms
+electricity/Fluoride selective electrode.terms
+electricity/Formal charge.terms
+electricity/Formvar.terms
+electricity/Franklin bells.terms
+electricity/Free electron model.terms
+electricity/Friction tape.terms
+electricity/Gas diffusion electrode.terms
+electricity/Gate dielectric.terms
+electricity/Geiger–Müller tube.terms
+electricity/Generating Availability Data System.terms
+electricity/Geothrix fermentans.terms
+electricity/Glass electrode.terms
+electricity/Glass.terms
+electricity/Glowing plate.terms
+electricity/Gold.terms
+electricity/Graphene foam.terms
+electricity/Graphite.terms
+electricity/Green Power Usage Effectiveness.terms
+electricity/Grid code.terms
+electricity/Grid-tied electrical system.terms
+electricity/Groundbed.terms
+electricity/Ground _electricity_.terms
+electricity/Gyrator–capacitor model.terms
+electricity/Hanging mercury drop electrode.terms
+electricity/Hemingray Glass Company.terms
+electricity/High-Enthalpy Arc Heated Facility.terms
+electricity/High voltage.terms
+electricity/Hill limit _solid-state_.terms
+electricity/History of electromagnetic theory.terms
+electricity/Hole formalism.terms
+electricity/Hollow cathode effect.terms
+electricity/Home energy monitor.terms
+electricity/Home idle load.terms
+electricity/Hot cathode.terms
+electricity/Hybrid switchgear module.terms
+electricity/Hydraulic analogy.terms
+electricity/Hydrogen-cooled turbo generator.terms
+electricity/Hygroelectricity.terms
+electricity/IEC 60870-5.terms
+electricity/IEC 60870-6.terms
+electricity/IEC 60870.terms
+electricity/IEC 61850.terms
+electricity/IEC 62325.terms
+electricity/IEC 62351.terms
+electricity/IEEE Medal in Power Engineering.terms
+electricity/Impedance analogy.terms
+electricity/Independent electron approximation.terms
+electricity/Induction coil.terms
+electricity/Inner sphere electron transfer.terms
+electricity/Insulator _electricity_.terms
+electricity/Intelligent electronic device.terms
+electricity/Intelligent hybrid inverter.terms
+electricity/Internal resistance.terms
+electricity/Ionized-air glow.terms
+electricity/Ion-selective electrode.terms
+electricity/ISFET.terms
+electricity/Islanding.terms
+electricity/Isolated ground.terms
+electricity/Jacqueline Priestman.terms
+electricity/John Sealy Townsend.terms
+electricity/Joule heating.terms
+electricity/Kapton.terms
+electricity/Keyboard instrument.terms
+electricity/Kiboe.terms
+electricity/Kilowatt hour.terms
+electricity/Kirlian photography.terms
+electricity/Kite experiment.terms
+electricity/Kondo effect.terms
+electricity/Krogmann's salt.terms
+electricity/Kron reduction.terms
+electricity/Leader _spark_.terms
+electricity/Leading and lagging current.terms
+electricity/Leakage _electronics_.terms
+electricity/Leyden jar.terms
+electricity/Lichtenberg figure.terms
+electricity/Lighting power density.terms
+electricity/Lightning rod.terms
+electricity/Lightning.terms
+electricity/Line of force.terms
+electricity/Lineworker.terms
+electricity/Liquid dielectric.terms
+electricity/Liquid metal electrode.terms
+electricity/Liquid resistor.terms
+electricity/Liquid rheostat.terms
+electricity/List of electricity sectors.terms
+electricity/List of forms of electricity named after scientists.terms
+electricity/Live-line working.terms
+electricity/Load bank.terms
+electricity/Load duration curve.terms
+electricity/Load profile.terms
+electricity/Losses in electrical systems.terms
+electricity/Low-power electronics.terms
+electricity/Low voltage ride through.terms
+electricity/Low voltage.terms
+electricity/Luggin capillary.terms
+electricity/Luna Ring.terms
+electricity/Magnetic capacitance.terms
+electricity/Magnetic circuit.terms
+electricity/Magnetic complex reluctance.terms
+electricity/MAIFI.terms
+electricity/Mains electricity by country.terms
+electricity/Mains electricity.terms
+electricity/Mechanical–electrical analogies.terms
+electricity/Meir-Wingreen Formula.terms
+electricity/Mercury-arc valve.terms
+electricity/Meter operator.terms
+electricity/Method of images.terms
+electricity/Mica.terms
+electricity/Microbial electrolysis cell.terms
+electricity/Microbial electrosynthesis.terms
+electricity/Miscellaneous electric load.terms
+electricity/Mixed conductor.terms
+electricity/Mixed metal oxide electrode.terms
+electricity/Mobility analogy.terms
+electricity/Multipoint ground.terms
+electricity/MultiSpeak.terms
+electricity/Mutual capacitance.terms
+electricity/Nameplate capacity.terms
+electricity/Negative resistance.terms
+electricity/Neoprene.terms
+electricity/Nodal admittance matrix.terms
+electricity/Node _circuits_.terms
+electricity/No load power.terms
+electricity/Nylon.terms
+electricity/Off-the-grid.terms
+electricity/Ohmmeter.terms
+electricity/Ohm's law.terms
+electricity/Oliver B. Shallenberger.terms
+electricity/One Watt Initiative.terms
+electricity/Outage management system.terms
+electricity/Outer sphere electron transfer.terms
+electricity/Outline of electronics.terms
+electricity/Overheating _electricity_.terms
+electricity/Palladium-hydrogen electrode.terms
+electricity/Parasitic load.terms
+electricity/Partial charge.terms
+electricity/Partial discharge.terms
+electricity/Paschen's law.terms
+electricity/Paser.terms
+electricity/Passive sign convention.terms
+electricity/Performance per watt.terms
+electricity/Periodic steady-state analysis.terms
+electricity/Persistent current.terms
+electricity/Per-unit system.terms
+electricity/Phonon drag.terms
+electricity/Photoelectrochemical process.terms
+electricity/Plasma pencil.terms
+electricity/Plasma _physics_.terms
+electricity/Plastic.terms
+electricity/Plate electrode.terms
+electricity/Platinum black.terms
+electricity/Plug load.terms
+electricity/Polarity _mutual inductance_.terms
+electricity/Polyamide.terms
+electricity/Polycarbonate.terms
+electricity/Polyester.terms
+electricity/Polyethylene.terms
+electricity/Polyimide.terms
+electricity/Poly_methyl methacrylate_.terms
+electricity/Polymethylpentene.terms
+electricity/Polypropylene.terms
+electricity/Polytetrafluoroethylene.terms
+electricity/Polyvinyl chloride.terms
+electricity/Porcelain.terms
+electricity/Positron.terms
+electricity/Potassium selective electrode.terms
+electricity/Power distribution center.terms
+electricity/Power engineering.terms
+electricity/Power flash.terms
+electricity/Power management system.terms
+electricity/Power-off testing.terms
+electricity/Power over Ethernet.terms
+electricity/Power rating.terms
+electricity/Power-system automation.terms
+electricity/Power system simulation.terms
+electricity/Power usage effectiveness.terms
+electricity/Prehydrated electrons.terms
+electricity/Programme for Economic Advancement and Community Empowerment.terms
+electricity/Prospective short-circuit current.terms
+electricity/Proton-to-electron mass ratio.terms
+electricity/Pseudospark switch.terms
+electricity/PTFE structured packing.terms
+electricity/Public Utility Holding Company Act of 1935.terms
+electricity/Pulsed DC.terms
+electricity/Quartz.terms
+electricity/Quinhydrone electrode.terms
+electricity/Rating _electrical_.terms
+electricity/Reference electrode.terms
+electricity/Regenerative capacitor memory.terms
+electricity/Relative permittivity.terms
+electricity/Relativistic runaway electron avalanche.terms
+electricity/Remote racking system.terms
+electricity/Residual-resistance ratio.terms
+electricity/Resistance paper.terms
+electricity/Reversible hydrogen electrode.terms
+electricity/Ring ground.terms
+electricity/Ripple _electrical_.terms
+electricity/RISSP.terms
+electricity/Rotating disk electrode.terms
+electricity/Rotating ring-disk electrode.terms
+electricity/Rotational Brownian motion.terms
+electricity/Rutilated quartz.terms
+electricity/SAIDI.terms
+electricity/SAIFI.terms
+electricity/Sapphire.terms
+electricity/Saturated calomel electrode.terms
+electricity/Scanning vibrating electrode technique.terms
+electricity/Scattering amplitude.terms
+electricity/Secondary emission.terms
+electricity/Second Industrial Revolution.terms
+electricity/Severinghaus electrode.terms
+electricity/Shaft voltage.terms
+electricity/Sheath current.terms
+electricity/Sheet resistance.terms
+electricity/Short circuit.terms
+electricity/Signal reflection.terms
+electricity/Silver chloride electrode.terms
+electricity/Silver.terms
+electricity/Slack bus.terms
+electricity/Slate.terms
+electricity/Smart meter.terms
+electricity/Snapback _electrical_.terms
+electricity/Soapstone.terms
+electricity/Soil resistivity.terms
+electricity/Sources of electrical energy.terms
+electricity/Space-based solar power.terms
+electricity/Space charge.terms
+electricity/Space cloth.terms
+electricity/Spark-gap transmitter.terms
+electricity/Spark gap.terms
+electricity/Spark plug.terms
+electricity/Speed of electricity.terms
+electricity/Spitzer resistivity.terms
+electricity/Standard hydrogen electrode.terms
+electricity/Standby power.terms
+electricity/Static discharger.terms
+electricity/Static electricity.terms
+electricity/Static synchronous compensator.terms
+electricity/Static VAR compensator.terms
+electricity/Statmho.terms
+electricity/Stored Energy at Sea.terms
+electricity/Strawberry Tree _solar energy device_.terms
+electricity/Streaming current.terms
+electricity/Subthreshold conduction.terms
+electricity/Superinsulator.terms
+electricity/Suppressor grid.terms
+electricity/Surface charge.terms
+electricity/Surface treatment of PTFE.terms
+electricity/Sustainable community energy system.terms
+electricity/Tesla coil.terms
+electricity/Thermionic converter.terms
+electricity/Thermionic emission.terms
+electricity/Thermo-dielectric effect.terms
+electricity/Thermophotovoltaic.terms
+electricity/Thomson problem.terms
+electricity/Three-phase electric power.terms
+electricity/Three-phase.terms
+electricity/Thyristor controlled reactor.terms
+electricity/Thyristor switched capacitor.terms
+electricity/Timeline of electromagnetism and classical optics.terms
+electricity/Titanium oxide.terms
+electricity/Topsy _elephant_.terms
+electricity/Townsend discharge.terms
+electricity/Townsend _unit_.terms
+electricity/Transconductance.terms
+electricity/Transmission-line pulse.terms
+electricity/Triboelectric effect.terms
+electricity/Tunnel junction.terms
+electricity/Two-phase electric power.terms
+electricity/Ufer ground.terms
+electricity/Ultramicroelectrode.terms
+electricity/Unified power flow controller.terms
+electricity/Universal dielectric response.terms
+electricity/UPILEX.terms
+electricity/Utility frequency.terms
+electricity/Vacuum arc.terms
+electricity/Valley-fill circuit.terms
+electricity/Voltage drop.terms
+electricity/Voltage-regulator tube.terms
+electricity/Volt-ampere reactive.terms
+electricity/War of the currents.terms
+electricity/Wave motor.terms
+electricity/Wehnelt cylinder.terms
+electricity/Wind turbine.terms
+electricity/Working electrode.terms
+electricity/Yaw drive.terms
+electricity/Yogo sapphire.terms
+electricity/Y-Δ transform.terms
+electricity/Zener effect.terms

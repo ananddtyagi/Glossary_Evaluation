@@ -1,0 +1,29 @@
+﻿Etymology of electricity
+
+The word "electricity" derives from New Latin and ultimately Greek. It first appears in English in Francis Bacon's writings. Depending on context, the word may refer to "electric charge", "electric power" or "electric energy". 
+
+The New Latin adjective "electricus", originally meaning 'of amber', was first used to refer to amber's attractive properties by William Gilbert in his 1600 text De Magnete. The term came from the classical Latin "electrum", amber, from the Greek "ἤλεκτρον" ("elektron"), amber. The origin of the Greek word is unknown, but there is speculation that it might have come from a Phoenician word "elēkrŏn", meaning 'shining light'.
+
+The word "electric" was first used by Francis Bacon to describe materials like amber that attracted other objects. The first usage of the English word "electricity" is ascribed to Sir Thomas Browne in his 1646 work, "Pseudodoxia Epidemica":
+
+In this context, an "Electrick" or "Electrick body" was a non-conductor, or an object capable of attracting "light bodies" (like bits of paper) when excited by friction; a piece of amber is "an Electrick", while a piece of iron is not. "Electricity", then, was simply the property of behaving like an electric, in the same way that "elasticity" is the property of behaving like an elastic. ("Electric" continued to be used as a noun until at least 1913 and is still used in this sense in the word "dielectric".)
+
+It was not until later that the definition shifted to refer to the "cause" of the attraction instead of the property of being attractive.
+
+"Charge", in the electrical sense, was first used in 1767.
+
+The term "quantity of electricity" was once common in scientific publications. It appears frequently in the writings of Franklin, Faraday, Maxwell, Millikan, and J. J. Thomson, and was even occasionally used by Einstein.
+
+However, over the last hundred years the term "electricity" has been used by electric utility companies and the general public in a non-scientific way. Today the vast majority of publications no longer refer to electricity as meaning electric charge. Instead they speak of electricity as electromagnetic energy. The definition has drifted even further, and many authors now use the word "electricity" to mean electric current (amperes), energy flow (watts), electrical potential (volts), or electric force. Others refer to any electrical phenomena as kinds of electricity.
+
+These multiple definitions are probably the reason that Quantity of Electricity has fallen into disfavor among scientists. Physics textbooks no longer define Quantity of Electricity or Flow of Electricity. Quantity of electricity is now regarded as an archaic usage, and it has slowly been replaced by the terms charge of electricity, then quantity of electric charge, and today simply charge. Since the term "electricity" has increasingly become corrupted by contradictions and unscientific definitions, today's experts instead use the term "charge" to remove any possible confusion.
+
+Despite their similarities, substituting the word "charge" for "electricity" presents new problems. Older scientific papers still exist, and their authors constantly discuss quantities of electricity and flows of electricity (meaning charge and current respectively.) Those historical authors know that their readers understand just one definition: the term "electricity" means "charge" and nothing else. Modern students who read physics papers from periods prior to 1930 (approx.) should make a continuous effort to remain aware of this issue. If historical physicists discuss quantities of "electricity" implying "electric charge," yet the modern reader assumes they're speaking of electrical energy, the writings of those physicists will be quite difficult to understand.
+
+Another problem arises because the population of physicists abandoned the term "electricity" without much public discussion and perhaps without much awareness on the part of their community. By silently altering the meaning of common and heavily used terms, the scientific community caused an immense confusion on the part of the public. Whereas in the past the question "What is electricity?" was more or less easily answered, today the question itself has become meaningless. Is electricity a form of energy? Is electricity the same as electric charge? Is electricity nothing but a class of phenomena? Should we measure the quantity of electricity in coulombs, or should we instead use amperes, joules, or watts, or even volts? Physics texts and reference books supply no solid answer, since physicists have gradually abandoned electricity as a scientific term.
+
+And yet Quantity of Electricity still persists in its original definition in many major contemporary references. For example, in the modern SI units of physics, the SI definition of coulomb
+is given as both the unit quantity of electric charge and also the unit quantity of electricity. Encyclopædia Britannica defines the coulomb as the unit quantity of electricity. The Merriam-Webster dictionary, in definition 1a, defines electricity as charge. And until the late 1980s, the glossary in the "CRC Handbook of Chemistry and Physics" used the term "quantity of electricity" in place of "electric charge" in most of its definitions. Chemistry students will be familiar with Faraday's discovery that a unit quantity of electricity, when passed through an electrolysis cell, liberates a certain number of atoms of metal or gas. Under these definitions, electricity is not a form of energy.
+
+
+

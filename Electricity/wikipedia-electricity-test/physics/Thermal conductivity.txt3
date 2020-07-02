@@ -1,0 +1,202 @@
+﻿Thermal conductivity
+
+The thermal conductivity of a material is a measure of its ability to conduct heat. It is commonly denoted by formula_1, formula_2, or formula_3.
+
+Heat transfer occurs at a lower rate in materials of low thermal conductivity than in materials of high thermal conductivity. For instance, metals typically have high thermal conductivity and are very efficient at conducting heat, while the opposite is true for insulating materials like Styrofoam. Correspondingly, materials of high thermal conductivity are widely used in heat sink applications and materials of low thermal conductivity are used as thermal insulation. The reciprocal of thermal conductivity is called thermal resistivity.
+
+The defining equation for thermal conductivity is formula_4, where formula_5 is the heat flux, formula_6 is the thermal conductivity, and formula_7 is the temperature gradient. This is known as Fourier's Law for heat conduction. Although commonly expressed as a scalar, the most general form of thermal conductivity is a second-rank tensor. However, the tensorial description only becomes necessary in materials which are anisotropic.
+
+Consider a solid material placed between two environments of different temperatures. Let formula_8 be the temperature at formula_9 and formula_10 be the temperature at formula_11, and suppose formula_12. A possible realization of this scenario is a building on a cold winter day: the solid material in this case would be the building wall, separating the cold outdoor environment from the warm indoor environment.
+
+According to the second law of thermodynamics, heat will flow from the hot environment to the cold one in an attempt to equalize the temperature difference. This is quantified in terms of a heat flux formula_13, which gives the rate, per unit area, at which heat flows in a given direction (in this case the x-direction). In many materials, formula_13 is observed to be directly proportional to the temperature difference and inversely proportional to the separation:
+
+The constant of proportionality formula_1 is the thermal conductivity; it is a physical property of the material. In the present scenario, since formula_12 heat flows in the minus x-direction and formula_13 is negative, which in turn means that formula_19. In general, formula_1 is always defined to be positive. The same definition of formula_1 can also be extended to gases and liquids, provided other modes of energy transport, such as convection and radiation, are eliminated.
+
+For simplicity, we have assumed here that the formula_1 does not vary significantly as temperature is varied from formula_8 to formula_10. Cases in which the temperature variation of formula_1 is non-negligible must be addressed using the more general definition of formula_1 discussed below.
+
+Thermal conduction is defined as the transport of energy due to random molecular motion across a temperature gradient. It is distinguished from energy transport by convection and molecular work in that it does not involve macroscopic flows or work-performing internal stresses.
+
+Energy flow due to thermal conduction is classified as heat and is quantified by the vector formula_27, which gives the heat flux at position formula_28 and time formula_29. According to the second law of thermodynamics, heat flows from high to low temperature. Hence, it reasonable to postulate that formula_27 is proportional to the gradient of the temperature field formula_31, i.e.
+
+where the constant of proportionality, formula_33, is the thermal conductivity. This is called Fourier's law of heat conduction. In actuality, it is not a law but a "definition" of thermal conductivity in terms of the independent physical quantities formula_27 and formula_31. As such, its usefulness depends on the ability to determine formula_1 for a given material under given conditions. The constant formula_1 itself usually depends on formula_31 and thereby implicitly on space and time. An explicit space and time dependence could also occur if the material is inhomogeneous or changing with time.
+
+In some solids, thermal conduction is anisotropic, i.e. the heat flux is not always parallel to the temperature gradient. To account for such behavior, a tensorial form of Fourier's law must be used:
+
+where formula_40 is symmetric, second-rank tensor called the thermal conductivity tensor.
+
+An implicit assumption in the above description is the presence of local thermodynamic equilibrium, which allows one to define a temperature field formula_31.
+
+In engineering practice, it is common to work in terms of quantities which are derivative to thermal conductivity and implicitly take into account design-specific features such as component dimensions.
+
+For instance, thermal conductance is defined as the quantity of heat that passes in unit time through a plate of "particular area and thickness" when its opposite faces differ in temperature by one kelvin. For a plate of thermal conductivity formula_1, area formula_43 and thickness formula_44, the conductance is formula_45, measured in W⋅K. The relationship between thermal conductivity and conductance is analogous to the relationship between electrical conductivity and electrical conductance.
+
+Thermal resistance is the inverse of thermal conductance. It is a convenient measure to use in multicomponent design since thermal resistances are additive when occurring in series.
+
+There is also a measure known as the heat transfer coefficient: the quantity of heat that passes per unit time through a "unit area" of a plate of particular thickness when its opposite faces differ in temperature by one kelvin. In ASTM C168-15, this area-independent quantity is referred to as the "thermal conductance". The reciprocal of the heat transfer coefficient is thermal insulance. In summary, for a plate of thermal conductivity formula_1, area formula_43 and thickness formula_44, we have
+
+
+The heat transfer coefficient is also known as thermal admittance in the sense that the material may be seen as admitting heat to flow.
+
+An additional term, thermal transmittance, quantifies the thermal conductance of a structure along with heat transfer due to convection and radiation. It is measured in the same units as thermal conductance and is sometimes known as the "composite thermal conductance". The term "U-value" is also used.
+
+Finally, thermal diffusivity formula_53 combines thermal conductivity with density and specific heat:
+
+As such, it quantifies the "thermal inertia" of a material, i.e. the relative difficulty in heating a material to a given temperature using heat sources applied at the boundary.
+
+In the International System of Units (SI), thermal conductivity is measured in watts per meter-kelvin (W/(m⋅K)). Some papers report in watts per centimeter-kelvin (W/(cm⋅K)).
+
+In imperial units, thermal conductivity is measured in BTU/(h⋅ft⋅°F).
+
+The dimension of thermal conductivity is MLTΘ, expressed in terms of the dimensions mass (M), length (L), time (T), and temperature (Θ).
+
+Other units which are closely related to the thermal conductivity are in common use in the construction and textile industries. The construction industry makes use of units such as the R-value (resistance) and the U-value (transmittance). Although related to the thermal conductivity of a material used in an insulation product, R- and U-values are dependent on the thickness of the product.
+
+Likewise the textile industry has several units including the tog and the clo which express thermal resistance of a material in a way analogous to the R-values used in the construction industry.
+
+There are several ways to measure thermal conductivity; each is suitable for a limited range of materials. Broadly speaking, there are two categories of measurement techniques: "steady-state" and "transient". Steady-state techniques infer the thermal conductivity from measurements on the state of a material once a steady-state temperature profile has been reached, whereas transient techniques operate on the instantaneous state of a system during the approach to steady state. Lacking an explicit time component, steady-state techniques do not require complicated signal analysis (steady state implies constant signals). The disadvantage is that a well-engineered experimental setup is usually needed, and the time required to reach steady state precludes rapid measurement.
+
+In comparison with solid materials, the thermal properties of fluids are more difficult to study experimentally. This is because in addition to thermal conduction, convective and radiative energy transport are usually present unless measures are taken to limit these processes. The formation of an insulating boundary layer can also result in an apparent reduction in the thermal conductivity.
+
+The thermal conductivities of common substances span at least four orders of magnitude. Gases generally have low thermal conductivity, and pure metals have high thermal conductivity. For example, under standard conditions the thermal conductivity of copper is over times that of air.
+
+Of all materials, allotropes of carbon, such as graphite and diamond, are usually credited with having the highest thermal conductivities at room temperature. The thermal conductivity of natural diamond at room temperature is several times higher than that of a highly conductive metal such as copper (although the precise value varies depending on the diamond type).
+
+Thermal conductivities of selected substances are tabulated here; an expanded list can be found in the list of thermal conductivities. These values should be considered approximate due to the uncertainties related to material definitions.
+
+The effect of temperature on thermal conductivity is different for metals and nonmetals. In metals, heat conductivity is primarily due to free electrons. Following the Wiedemann–Franz law, thermal conductivity of metals is approximately proportional to the absolute temperature (in kelvins) times electrical conductivity. In pure metals the electrical conductivity decreases with increasing temperature and thus the product of the two, the thermal conductivity, stays approximately constant. However, as temperatures approach absolute zero, the thermal conductivity decreases sharply. In alloys the change in electrical conductivity is usually smaller and thus thermal conductivity increases with temperature, often proportionally to temperature. Many pure metals have a peak thermal conductivity between 2 K and 10 K.
+
+On the other hand, heat conductivity in nonmetals is mainly due to lattice vibrations (phonons). Except for high quality crystals at low temperatures, the phonon mean free path is not reduced significantly at higher temperatures. Thus, the thermal conductivity of nonmetals is approximately constant at high temperatures. At low temperatures well below the Debye temperature, thermal conductivity decreases, as does the heat capacity, due to carrier scattering from defects at very low temperatures.
+
+When a material undergoes a phase change (e.g. from solid to liquid), the thermal conductivity may change abruptly. For instance, when ice melts to form liquid water at 0 °C, the thermal conductivity changes from 2.18 W/(m⋅K) to 0.56 W/(m⋅K).
+
+Even more dramatically, the thermal conductivity of a fluid diverges in the vicinity of the vapor-liquid critical point.
+
+Some substances, such as non-cubic crystals, can exhibit different thermal conductivities along different crystal axes, due to differences in phonon coupling along a given crystal axis. Sapphire is a notable example of variable thermal conductivity based on orientation and temperature, with 35 W/(m⋅K) along the C-axis and 32 W/(m⋅K) along the A-axis.
+Wood generally conducts better along the grain than across it. Other examples of materials where the thermal conductivity varies with direction are metals that have undergone heavy cold pressing, laminated materials, cables, the materials used for the Space Shuttle thermal protection system, and fiber-reinforced composite structures.
+
+When anisotropy is present, the direction of heat flow may not be exactly the same as the direction of the thermal gradient.
+
+In metals, thermal conductivity approximately tracks electrical conductivity according to the Wiedemann–Franz law, as freely moving valence electrons transfer not only electric current but also heat energy. However, the general correlation between electrical and thermal conductance does not hold for other materials, due to the increased importance of phonon carriers for heat in non-metals. Highly electrically conductive silver is less thermally conductive than diamond, which is an electrical insulator, but due to its orderly array of atoms it is conductive of heat via phonons.
+
+The influence of magnetic fields on thermal conductivity is known as the thermal Hall effect or Righi–Leduc effect.
+
+Air and other gases are generally good insulators, in the absence of convection. Therefore, many insulating materials function simply by having a large number of gas-filled pockets which obstruct heat conduction pathways. Examples of these include expanded and extruded polystyrene (popularly referred to as "styrofoam") and silica aerogel, as well as warm clothes. Natural, biological insulators such as fur and feathers achieve similar effects by trapping air in pores, pockets or voids, thus dramatically inhibiting convection of air or water near an animal's skin.
+
+Low density gases, such as hydrogen and helium typically have high thermal conductivity. Dense gases such as xenon and dichlorodifluoromethane have low thermal conductivity. An exception, sulfur hexafluoride, a dense gas, has a relatively high thermal conductivity due to its high heat capacity. Argon and krypton, gases denser than air, are often used in insulated glazing (double paned windows) to improve their insulation characteristics.
+
+The thermal conductivity through bulk materials in porous or granular form is governed by the type of gas in the gaseous phase, and its pressure. At lower pressures, the thermal conductivity of a gaseous phase is reduced, with this behaviour governed by the Knudsen number, defined as formula_55, where formula_56 is the mean free path of gas molecules and formula_57 is the typical gap size of the space filled by the gas. In a granular material formula_57 corresponds to the characteristic size of the gaseous phase in the pores or intergranular spaces.
+
+The thermal conductivity of a crystal can depend strongly on isotopic purity, assuming other lattice defects are negligible. A notable example is diamond: at a temperature of around 100 K the thermal conductivity increases from 10,000 W·m·K for natural type IIa diamond (98.9% C), to 41,000 for 99.9% enriched synthetic diamond. A value of 200,000 is "predicted" for 99.999% C at 80 K, assuming an otherwise pure crystal.
+
+The atomic mechanisms of thermal conduction vary among different materials, and in general depend on details of the microscopic structure and atomic interactions. As such, thermal conductivity is difficult to predict from first-principles. Any expressions for thermal conductivity which are exact and general, e.g. the Green-Kubo relations, are difficult to apply in practice, typically consisting of averages over multiparticle correlation functions. A notable exception is a dilute gas, for which a well-developed theory exists expressing thermal conductivity accurately and explicitly in terms of molecular parameters.
+
+In a gas, thermal conduction is mediated by discrete molecular collisions. In a simplified picture of a solid, thermal conduction occurs by two mechanisms: 1) the migration of free electrons and 2) lattice vibrations (phonons). The first mechanism dominates in pure metals, and the second mechanism dominates in non-metallic solids. In liquids, by contrast, the precise microscopic mechanisms of thermal conduction are poorly understood.
+
+In a simplified model of a dilute monatomic gas, molecules are modeled as rigid spheres which are in constant motion, colliding elastically with each other and with the walls of their container. Consider such a gas at temperature formula_59 and with density formula_60, specific heat formula_61 and molecular mass formula_62. Under these assumptions, an elementary calculation yields for the thermal conductivity
+
+where formula_64 is a numerical constant of order formula_65, formula_66 is the Boltzmann constant, and formula_2 is the mean free path, which measures the average distance a molecule travels between collisions. Since formula_2 is inversely proportional to density, this equation predicts that thermal conductivity is independent of density for fixed temperature. The explanation is that increasing density increases the number of molecules which carry energy but decreases the average distance formula_2 a molecule can travel before transferring its energy to a different molecule: these two effects cancel out. For most gases, this prediction agrees well with experiments at pressures up to about 10 atmospheres. On the other hand, experiments show a more rapid increase with temperature than formula_70 (here formula_2 is independent of formula_59). This failure of the elementary theory can be traced to the oversimplified "elastic sphere" model, and in particular to the fact that the interparticle attractions, present in all real-world gases, are ignored.
+
+To incorporate more complex interparticle interactions, a systematic approach is necessary. One such approach is provided by Chapman–Enskog theory, which derives explicit expressions for thermal conductivity starting from the Boltzmann equation. The Boltzmann equation, in turn, provides a statistical description of a dilute gas for "generic" interparticle interactions. For a monatomic gas, expressions for formula_1 derived in this way take the form
+
+where formula_75 is an effective particle diameter and formula_76 is a function of temperature whose explicit form depends on the interparticle interaction law. For rigid elastic spheres, formula_76 is independent of formula_59 and very close to formula_65. More complex interaction laws introduce a weak temperature dependence. The precise nature of the dependence is not always easy to discern, however, as formula_76 is defined as a multi-dimensional integral which may not be expressible in terms of elementary functions. An alternate, equivalent way to present the result is in terms of the gas viscosity formula_81, which can also be calculated in the Chapman-Enskog approach:
+
+where formula_83 is a numerical factor which in general depends on the molecular model. For smooth spherically symmetric molecules, however, formula_83 is very close to formula_85, not deviating by more than formula_86 for a variety of interparticle force laws. Since formula_1, formula_81, and formula_61 are each well-defined physical quantities which can be measured independent of each other, this expression provides a convenient test of the theory. For monatomic gases, such as the noble gases, the agreement with experiment is fairly good.
+
+For gases whose molecules are not spherically symmetric, the expression formula_90 still holds. In contrast with spherically symmetric molecules, however, formula_83 varies significantly depending on the particular form of the interparticle interactions: this is a result of the energy exchanges between the internal and translational degrees of freedom of the molecules. An explicit treatment of this effect is difficult in the Chapman-Enskog approach. Alternately, the approximate expression formula_92 has been suggested by Eucken, where formula_93 is the heat capacity ratio of the gas.
+
+The entirety of this section assumes the mean free path formula_2 is small compared with macroscopic (system) dimensions. In extremely dilute gases this assumption fails, and thermal conduction is described instead by an "apparent" thermal conductivity which decreases with density. Ultimately, as the density goes to formula_95 the system approaches a vacuum, and thermal conduction ceases entirely. For this reason a vacuum is an effective insulator.
+
+The exact mechanisms of thermal conduction are poorly understood in liquids: there is no molecular picture which is both simple and accurate. An example of simple but very rough theory is that of Bridgman, in which a liquid is ascribed a local molecular structure similar to that of a solid, i.e. with molecules located approximately on a lattice. Elementary calculations then lead to the expression
+
+where formula_97 is the Avogadro constant, formula_98 is the volume of a mole of liquid, and formula_99 is the speed of sound in the liquid. This is commonly called "Bridgman's equation".
+
+For metals at low temperatures the heat is carried mainly by the free electrons. In this case the mean velocity is the Fermi velocity which is temperature independent. The mean free path is determined by the impurities and the crystal imperfections which are temperature independent as well. So the only temperature-dependent quantity is the heat capacity "c", which, in this case, is proportional to "T". So
+
+with "k" a constant. For pure metals such as copper, silver, etc. "k" is large, so the thermal conductivity is high. At higher temperatures the mean free path is limited by the phonons, so the thermal conductivity tends to decrease with temperature. In alloys the density of the impurities is very high, so "l" and, consequently "k", are small. Therefore, alloys, such as stainless steel, can be used for thermal insulation.
+
+Heat transport in both amorphous and crystalline dielectric solids is by way of elastic vibrations of the lattice (phonons). This transport mode is limited by the elastic scattering of acoustic phonons at lattice defects. These predictions were confirmed by the experiments of Chang and Jones on commercial glasses and glass ceramics, where the mean free paths were limited by "internal boundary scattering" to length scales of 10 cm to 10 cm.
+
+The phonon mean free path has been associated directly with the effective relaxation length for processes without directional correlation. If V  is the group velocity of a phonon wave packet, then the relaxation length formula_101 is defined as:
+
+where "t" is the characteristic relaxation time. Since longitudinal waves have a much greater phase velocity than transverse waves, "V" is much greater than "V", and the relaxation length or mean free path of longitudinal phonons will be much greater. Thus, thermal conductivity will be largely determined by the speed of longitudinal phonons.
+
+Regarding the dependence of wave velocity on wavelength or frequency (dispersion), low-frequency phonons of long wavelength will be limited in relaxation length by elastic Rayleigh scattering. This type of light scattering from small particles is proportional to the fourth power of the frequency. For higher frequencies, the power of the frequency will decrease until at highest frequencies scattering is almost frequency independent. Similar arguments were subsequently generalized to many glass forming substances using Brillouin scattering.
+
+Phonons in the acoustical branch dominate the phonon heat conduction as they have greater energy dispersion and therefore a greater distribution of phonon velocities. Additional optical modes could also be caused by the presence of internal structure (i.e., charge or mass) at a lattice point; it is implied that the group velocity of these modes is low and therefore their contribution to the lattice thermal conductivity "λ" (formula_103) is small.
+
+Each phonon mode can be split into one longitudinal and two transverse polarization branches. By extrapolating the phenomenology of lattice points to the unit cells it is seen that the total number of degrees of freedom is 3"pq" when "p" is the number of primitive cells with "q" atoms/unit cell. From these only 3p are associated with the acoustic modes, the remaining 3"p"("q" − 1) are accommodated through the optical branches. This implies that structures with larger "p" and "q" contain a greater number of optical modes and a reduced "λ".
+
+From these ideas, it can be concluded that increasing crystal complexity, which is described by a complexity factor CF (defined as the number of atoms/primitive unit cell), decreases λ. This was done by assuming that the relaxation time "τ" decreases with increasing number of atoms in the unit cell and then scaling the parameters of the expression for thermal conductivity in high temperatures accordingly.
+
+Describing of anharmonic effects is complicated because exact treatment as in the harmonic case is not possible and phonons are no longer exact eigensolutions to the equations of motion. Even if the state of motion of the crystal could be described with a plane wave at a particular time, its accuracy would deteriorate progressively with time. Time development would have to be described by introducing a spectrum of other phonons, which is known as the phonon decay. The two most important anharmonic effects are the thermal expansion and the phonon thermal conductivity.
+
+Only when the phonon number ‹n› deviates from the equilibrium value ‹n›, can a thermal current arise as stated in the following expression
+
+where "v" is the energy transport velocity of phonons. Only two mechanisms exist that can cause time variation of ‹"n"› in a particular region. The number of phonons that diffuse into the region from neighboring regions differs from those that diffuse out, or phonons decay inside the same region into other phonons. A special form of the Boltzmann equation
+
+states this. When steady state conditions are assumed the total time derivate of phonon number is zero, because the temperature is constant in time and therefore the phonon number stays also constant. Time variation due to phonon decay is described with a relaxation time ("τ") approximation
+
+which states that the more the phonon number deviates from its equilibrium value, the more its time variation increases. At steady state conditions and local thermal equilibrium are assumed we get the following equation
+
+Using the relaxation time approximation for the Boltzmann equation and assuming steady-state conditions, the phonon thermal conductivity "λ" can be determined. The temperature dependence for "λ" originates from the variety of processes, whose significance for "λ" depends on the temperature range of interest. Mean free path is one factor that determines the temperature dependence for "λ", as stated in the following equation
+
+where Λ is the mean free path for phonon and formula_109 denotes the heat capacity. This equation is a result of combining the four previous equations with each other and knowing that formula_110 for cubic or isotropic systems and formula_111.
+
+At low temperatures (  10 K) the anharmonic interaction does not influence the mean free path and therefore, the thermal resistivity is determined only from processes for which q-conservation does not hold. These processes include the scattering of phonons by crystal defects, or the scattering from the surface of the crystal in case of high quality single crystal. Therefore, thermal conductance depends on the external dimensions of the crystal and the quality of the surface. Thus, temperature dependence of λ is determined by the specific heat and is therefore proportional to T.
+
+Phonon quasimomentum is defined as ℏq and differs from normal momentum because it is only defined within an arbitrary reciprocal lattice vector. At higher temperatures (10 K   "T"   "Θ"), the conservation of energy formula_112 and quasimomentum formula_113, where q is wave vector of the incident phonon and q, q are wave vectors of the resultant phonons, may also involve a reciprocal lattice vector G complicating the energy transport process. These processes can also reverse the direction of energy transport.
+
+Therefore, these processes are also known as Umklapp (U) processes and can only occur when phonons with sufficiently large "q"-vectors are excited, because unless the sum of q and q points outside of the Brillouin zone the momentum is conserved and the process is normal scattering (N-process). The probability of a phonon to have energy "E" is given by the Boltzmann distribution formula_114. To U-process to occur the decaying phonon to have a wave vector q that is roughly half of the diameter of the Brillouin zone, because otherwise quasimomentum would not be conserved.
+
+Therefore, these phonons have to possess energy of formula_115, which is a significant fraction of Debye energy that is needed to generate new phonons. The probability for this is proportional to formula_116, with formula_117. Temperature dependence of the mean free path has an exponential form formula_118. The presence of the reciprocal lattice wave vector implies a net phonon backscattering and a resistance to phonon and thermal transport resulting finite "λ", as it means that momentum is not conserved. Only momentum non-conserving processes can cause thermal resistance.
+
+At high temperatures ("T" > Θ), the mean free path and therefore "λ" has a temperature dependence "T", to which one arrives from formula formula_118 by making the following approximation formula_120 and writing formula_121. This dependency is known as Eucken's law and originates from the temperature dependency of the probability for the U-process to occur.
+
+Thermal conductivity is usually described by the Boltzmann equation with the relaxation time approximation in which phonon scattering is a limiting factor. Another approach is to use analytic models or molecular dynamics or Monte Carlo based methods to describe thermal conductivity in solids.
+
+Short wavelength phonons are strongly scattered by impurity atoms if an alloyed phase is present, but mid and long wavelength phonons are less affected. Mid and long wavelength phonons carry significant fraction of heat, so to further reduce lattice thermal conductivity one has to introduce structures to scatter these phonons. This is achieved by introducing interface scattering mechanism, which requires structures whose characteristic length is longer than that of impurity atom. Some possible ways to realize these interfaces are nanocomposites and embedded nanoparticles/structures.
+
+"Specific thermal conductivity" is a material property used to compare the heat-transfer ability of "different materials" to each other. "Absolute thermal conductivity", however, is a component property used to compare the heat-transfer ability of "different components" to each other. Components, as opposed to materials, take into account size and shape, including basic properties such as thickness and area, instead of just material type. In this way, thermal-transfer ability of components of the same physical dimensions, but made of different materials, may be compared and contrasted, or components of the same material, but with different physical dimensions, may be compared and contrasted. 
+In component datasheets and tables, since actual, physical components "with distinct physical dimensions and characteristics" are under consideration, thermal resistance is frequently given in absolute units of formula_122 or formula_123, since the two are equivalent. However, thermal conductivity, which is its reciprocal, is frequently given in specific units of formula_124. It is therefore often-times necessary to convert between absolute and specific units, by also taking a component's physical dimensions into consideration, in order to correlate the two using information provided, or to convert tabulated values of material thermal conductivity into absolute thermal resistance values for use in thermal resistance calculations. This is particularly useful, for example, when calculating the maximum power a component can dissipate as heat, as demonstrated in the example calculation here.
+
+"Thermal conductivity λ is defined as ability of material to transmit heat and it is measured in watts per square metre of surface area for a temperature gradient of 1 K per unit thickness of 1 m". Therefore, specific thermal conductivity is calculated as:
+
+where:
+
+formula_130 = temperature difference (K, or °C) = 1 K during measurement
+
+Absolute thermal conductivity, on the other hand, has units of formula_131 or formula_132, and can be expressed as
+
+where formula_134 = absolute thermal conductivity (W/K, or W/°C).
+
+Substituting formula_134 for formula_136 into the first equation yields the equation which converts from absolute thermal conductivity to specific thermal conductivity:
+
+Solving for formula_134, we get the equation which converts from specific thermal conductivity to absolute thermal conductivity:
+
+Again, since thermal conductivity and resistivity are reciprocals of each other, it follows that the equation to convert specific thermal conductivity to absolute thermal resistance is:
+
+The thermal conductivity of T-Global L37-3F thermal conductive pad is given as 1.4 W/(mK). Looking at the datasheet and assuming a thickness of 0.3 mm (0.0003 m) and a surface area large enough to cover the back of a TO-220 package (approx. 14.33 mm x 9.96 mm [0.01433 m x 0.00996 m]), the absolute thermal resistance of this size and type of thermal pad is:
+
+This value fits within the normal values for thermal resistance between a device case and a heat sink: "the contact between the device case and heat sink may have a thermal resistance of between 0.5 up to 1.7 ºC/W, depending on the case size, and use of grease or insulating mica washer".
+
+In an isotropic medium the thermal conductivity is the parameter "k" in the Fourier expression for the heat flux
+
+where formula_144 is the heat flux (amount of heat flowing per second and per unit area) and formula_145 the temperature gradient. The sign in the expression is chosen so that always "k" > 0 as heat always flows from a high temperature to a low temperature. This is a direct consequence of the second law of thermodynamics.
+
+In the one-dimensional case "q" = "H"/"A" with "H" the amount of heat flowing per second through a surface with area "A" and the temperature gradient is d"T"/d"x" so
+
+In case of a thermally insulated bar (except at the ends) in the steady state "H" is constant. If "A" is constant as well the expression can be integrated with the result
+
+where "T" and "T" are the temperatures at the hot end and the cold end respectively, and "L" is the length of the bar. It is convenient to introduce the thermal-conductivity integral
+
+The heat flow rate is then given by
+
+If the temperature difference is small "k" can be taken as constant. In that case
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+﻿Debye length
+
+In plasmas and electrolytes, the Debye length (also called Debye radius), named after Peter Debye, is a measure of a charge carrier's net electrostatic effect in a solution and how far its electrostatic effect persists. A Debye sphere is a volume whose radius is the Debye length. With each Debye length, charges are increasingly electrically screened. Every Debye‐length formula_1, the electric potential will decrease in magnitude by 1/e. Debye length is an important parameter in plasma physics, electrolytes, and colloids (DLVO theory). The corresponding Debye screening wave vector formula_2 for particles of density formula_3, charge formula_4 at a temperature formula_5 is given by formula_6 in Gaussian units. Expressions in MKS units will be given below. The analogous quantities at very low temperatures (formula_7) are known as the Thomas–Fermi length and the Thomas–Fermi wave vector. They are of interest in describing the behaviour of electrons in metals at room temperature.
+
+The Debye length arises naturally in the thermodynamic description of large systems of mobile charges. In a system of formula_8 different species of charges, the formula_9-th species carries charge formula_10 and has concentration formula_11 at position formula_12. According to the so-called "primitive model", these charges are distributed in a continuous medium that is characterized only by its relative static permittivity, formula_13.
+This distribution of charges within this medium gives rise to an electric potential formula_14 that satisfies Poisson's equation:
+
+where formula_16, formula_17 is the electric constant, and formula_18 is a charge density external (logically, not spatially) to the medium.
+
+The mobile charges not only establish formula_14 but also move in response to the associated Coulomb force, formula_20.
+If we further assume the system to be in thermodynamic equilibrium with a heat bath at absolute temperature formula_5, then the concentrations of discrete charges, formula_11, may be considered to be thermodynamic (ensemble) averages and the associated electric potential to be a thermodynamic mean field.
+With these assumptions, the concentration of the formula_9-th charge species is described
+by the Boltzmann distribution,
+
+where formula_25 is Boltzmann's constant and where formula_26 is the mean
+concentration of charges of species formula_9.
+
+Identifying the instantaneous concentrations and potential in the Poisson equation with their mean-field counterparts in Boltzmann's distribution yields the Poisson–Boltzmann equation:
+
+Solutions to this nonlinear equation are known for some simple systems. Solutions for more general
+systems may be obtained in the high-temperature (weak coupling) limit, formula_29, by Taylor expanding the exponential:
+
+This approximation yields the linearized Poisson-Boltzmann equation
+which also is known as the Debye–Hückel equation:
+The second term on the right-hand side vanishes for systems that are electrically neutral. The term in parentheses divided by formula_32, has the units of an inverse length squared and by
+dimensional analysis leads to the definition of the characteristic length scale
+
+that commonly is referred to as the Debye–Hückel length. As the only characteristic length scale in the Debye–Hückel equation, formula_34 sets the scale for variations in the potential and in the concentrations of charged species. All charged species contribute to the Debye–Hückel length in the same way, regardless of the sign of their charges. For an electrically neutral system, the Poisson equation becomes
+To illustrate Debye screening, the potential produced by an external point charge formula_36 is
+The bare Coulomb potential is exponentially screened by the medium, over a distance of the Debye length.
+
+The Debye–Hückel length may be expressed in terms of the Bjerrum length formula_38 as
+
+where formula_40 is the integer charge number that relates the charge on the formula_9-th ionic
+species to the elementary charge formula_42.
+
+In space plasmas where the electron density is relatively low, the Debye length may reach macroscopic values, such as in the magnetosphere, solar wind, interstellar medium and intergalactic medium. See table:
+
+In a non-isothermic plasma, the temperatures for electrons and heavy species may differ while the background medium may be treated as the vacuum (formula_43), and the Debye length is
+
+where
+
+Even in quasineutral cold plasma, where ion contribution virtually seems to be larger due to lower ion temperature, the ion term is actually often dropped, giving
+
+although this is only valid when the mobility of ions is negligible compared to the process's timescale.
+
+In an electrolyte or a colloidal suspension, the Debye length for a monovalent electrolyte is usually denoted with symbol "κ"
+
+where
+
+or, for a symmetric monovalent electrolyte,
+
+where
+
+Alternatively,
+
+where
+For water at room temperature, "λ" ≈ 0.7 nm.
+
+At room temperature (25 °C), one can consider in water the relation:
+
+where
+There is a method of estimating an approximate value of the Debye length in liquids using conductivity, which is described in ISO Standard , and the book .
+
+The Debye length has become increasingly significant in the modeling of solid state devices as improvements in lithographic technologies have enabled smaller geometries.
+
+The Debye length of semiconductors is given:
+
+where
+
+When doping profiles exceed the Debye length, majority carriers no longer behave according to the distribution of the dopants. Instead, a measure of the profile of the doping gradients provides an "effective" profile that better matches the profile of the majority carrier density.
+
+In the context of solids, the Debye length is also called the Thomas–Fermi screening length.
+
+
+
+

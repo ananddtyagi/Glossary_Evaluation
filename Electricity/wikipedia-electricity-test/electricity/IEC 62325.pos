@@ -1,0 +1,15 @@
+IEC  ||| S:349 E:353 ||| NNP
+62325  ||| S:353 E:359 ||| CD
+consists  ||| S:359 E:368 ||| NN
+of  ||| S:368 E:371 ||| IN
+the  ||| S:371 E:375 ||| DT
+following  ||| S:375 E:385 ||| JJ
+parts ||| S:385 E:390 ||| NNS
+,  ||| S:390 E:392 ||| ,
+detailed  ||| S:392 E:401 ||| VBN
+in  ||| S:401 E:404 ||| IN
+separate  ||| S:404 E:413 ||| JJ
+IEC  ||| S:413 E:417 ||| NNP
+62325  ||| S:417 E:423 ||| CD
+standard  ||| S:423 E:432 ||| JJ
+documents ||| S:432 E:441 ||| NNS

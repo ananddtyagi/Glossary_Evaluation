@@ -1,0 +1,30 @@
+﻿Streaming current
+
+A streaming current and streaming potential are two interrelated electrokinetic phenomena studied in the areas of surface chemistry and electrochemistry. They are an electric current or potential which originates when an electrolyte is driven by a pressure gradient through a channel or porous plug with charged walls.
+
+The first observation of the streaming potential is generally attributed to the German physicist Georg Hermann Quincke in 1859.
+
+Streaming currents in well-defined geometries are a sensitive method to characterize the zeta potential of surfaces, which is important in the fields of colloid and interface science. In geology, measurements of related spontaneous potential are used for evaluations of formations. Streaming potential has to be considered in design for flow of poorly conductive fluids (e.g., gasoline lines) because of the danger of buildup of high voltages. The streaming current monitor (SCM) is a fundamental tool for monitoring coagulation in wastewater treatment plants. The degree of coagulation of raw water may be monitored by the use of an SCM to provide a positive feedback control of coagulant injection. As the streaming current of the wastewater increases, more coagulant agent is injected into the stream. The higher levels of coagulant agent cause the small colloidal particles to coagulate and sediment out of the stream. Since less colloid particles are in the wastewater stream, the streaming potential decreases. The SCM recognizes this and subsequently reduces the amount of coagulant agent injected into the wastewater stream. The implementation of SCM feedback control has led to a significant materials cost reduction, one that was not realized until the early 1980s. In addition to monitoring capabilities, the streaming current could, in theory, generate usable electrical power. This process, however, has yet to be applied as typical streaming potential mechanical to electrical efficiencies are around 1%.
+
+Adjacent to the channel walls, the charge-neutrality of the liquid is violated due to the presence of the electrical double layer: a thin layer of counterions attracted by the charged surface.
+
+The transport of counterions along with the pressure-driven fluid flow gives rise to a net charge transport: the streaming current. The reverse effect, generating a fluid flow by applying a potential difference, is called electroosmotic flow.
+
+A typical setup to measure streaming currents consists of two reversible electrodes placed on either side of a fluidic geometry across which a known pressure difference is applied. When both electrodes are held at the same potential, the streaming current is measured directly as the electric current flowing through the electrodes. Alternatively, the electrodes can be left floating, allowing a streaming potential to build up between the two ends of the channel.
+
+A streaming potential is defined as positive when the electric potential is higher on the high pressure end of the flow system than on the low pressure end.
+
+The value of streaming current observed in a capillary is usually related to the zeta potential through the relation:
+
+The conduction current, which is equal in magnitude to the streaming current at steady state, is:
+
+At steady state, the streaming potential built up across the flow system is given by:
+
+Symbols:
+
+The equation above is usually referred to as the Helmholtz-Smoluchowski equation.
+
+The above equations assume that:
+
+
+

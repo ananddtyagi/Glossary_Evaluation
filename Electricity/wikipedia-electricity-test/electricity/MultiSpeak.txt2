@@ -1,0 +1,16 @@
+﻿MultiSpeak
+
+MultiSpeak is a specification / standard that defines standardized interfaces among software applications commonly used by electric utilities. It defines details of data that need to be exchanged between software applications in order to support different processes commonly applied at utilities. The MultiSpeak effort is funded by the National Rural Electric Cooperative Association (NRECA).
+
+The National Institute of Standards and Technology (NIST) has developed a Smart Grid Conceptual Reference Model as part of its Smart Grid Standards Framework and Roadmap. NIST has identified 42 standards to support this vision. MultiSpeak was chosen by NIST as a key standard in the Operations area of the NIST Conceptual Model.
+
+The MultiSpeak Specification is the most widely applied de facto integration standard in North America pertaining to distribution utilities. It is currently in use in daily operations of more than 600 electric cooperatives, investor-owned utilities, municipals, and public power districts in at least 15 different countries. Over 80 software vendors active in the utility industry have joined the MultiSpeak initiative and contribute their experience to refining the standard.
+
+The MultiSpeak standard makes use of three components:
+
+
+In June 2008 MultiSpeak and WG14 announced an initiative to establish two sets of standards that will lead towards harmonization of their respective specifications. After completion of the same, this will provide a mapping between MultiSpeak Version 4.0, IEC 61970 Version 13, and IEC 61968 Version 10. Two sets of standard work planned for the same are listed below:
+
+
+
+

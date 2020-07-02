@@ -1,0 +1,24 @@
+﻿Pulse (physics)
+
+In physics, a pulse is a generic term describing a single disturbance that moves through a transmission medium. This medium may be vacuum (in the case of electromagnetic radiation) or matter, and may be indefinitely large or finite.
+
+Consider a pulse moving through a medium - perhaps through a rope or a slinky. When the pulse reaches the end of that medium, what happens to it depends on whether the medium is fixed in space or free to move at its end. For example, if the pulse is moving through a rope and the end of the rope is held firmly by a person, then it is said that the pulse is approaching a fixed end. On the other hand, if the end of the rope is fixed to a stick such that it is free to move up or down along the stick when the pulse reaches its end, then it is said that the pulse is approaching a free end.
+
+A pulse will reflect off a free end and return with the same direction of displacement that it had before reflection. That is, a pulse with an upward displacement will reflect off the end and return with an upward displacement.
+
+This is illustrated by figures 1 and 2 that were obtained by the numerical integration of the wave equation.
+
+A pulse will reflect off a fixed end and return with the opposite direction of displacement. In this case, the pulse is said to have inverted. That is, a pulse with an upward displacement will reflect off the end and return with a downward displacement.
+
+This is illustrated by figures 3 and 4 that were obtained by the numerical integration of the wave equation. In addition it is illustrated in the animation of figure 5.
+
+When there exists a pulse in a medium that is connected to another less heavy or less dense medium, the pulse will reflect as if it were approaching a free end (no inversion). Contrarily, when a pulse is traveling through a medium connected to a heavier or denser medium, the pulse will reflect as if it were approaching a fixed end (inversion).
+
+Dark pulses are characterized by being formed from a localized reduction of intensity compared to a more intense continuous wave background. Scalar dark solitons (linearly polarized dark solitons) can be formed in all normal dispersion fiber lasers mode-locked by the nonlinear polarization rotation method and can be rather stable. Vector dark solitons are much less stable due to the cross-interaction between the two polarization components. Therefore, it is interesting to investigate how the polarization state of these two polarization components evolves.
+
+In 2008, the first dark pulse laser was reported in a quantum dot diode laser with a saturable absorber.
+
+In 2009, the dark pulse fiber laser was successfully achieved in an all-normal dispersion erbium-doped fiber laser with a polarizer in cavity. Experimentation has revealed that apart from the bright pulse emission, under appropriate conditions the fiber laser could also emit single or multiple dark pulses. Based on numerical simulations, the dark pulse formation in the laser is a result of dark soliton shaping.
+
+
+

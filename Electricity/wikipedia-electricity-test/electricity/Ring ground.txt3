@@ -1,0 +1,19 @@
+﻿Ring ground
+
+A ring ground is a type of electrical ground that is used to protect buildings and equipment from damage due to electrical surges. Ring grounds are typically used as protection against lightning strikes. They are also known as ground rings, although this term may also be applied to grounding rings that are installed in metal pipe systems to protect electrical devices such as flow meters.
+
+A ring ground is typically constructed from a fairly large wire that is buried at least a few feet underground. The ring ground will usually encircle the entire building that it is trying to protect. The ring ground is used as the base of the entire building's ground system, and all components of the building's ground system, including the building structure, are connected to the ground ring. In the U.S., the National Electrical Code specifies that ring grounds must be constructed from #2 or thicker wire, must be buried at least 2 1/2 feet underground, and must have at least 20 feet of exposed copper to ensure good electrical contact with the earth. Ring grounds should be installed beyond the building's drip line to prevent corrosion of the ring's metal.
+
+Ring grounds are very commonly used around communications equipment such as cell phone towers, police radio towers, and other types of radio towers and equipment buildings. They are also often used to protect computer data centers.
+
+A halo ground is a type of ring ground that, instead of being installed outside and underground, is installed inside, near the top of a building or structure. The ground reference for all equipment inside the area being protected is separate from the halo. The halo is connected to the main building ground, which may include an underground ring ground outside the building, with vertical conductors especially in the corners of the building. Electrical equipment is also often placed in fully enclosed metal cabinets, which function as Faraday cages to further protect the equipment. The halo may be connected to structural metallic elements such as door frames, building steel, window frames, and air conditioning vents.
+
+A typical halo ground is constructed of #2 insulated copper wire and is installed six inches below the ceiling, and entirely encircles the area that it is protecting.
+
+When an electrical conductor moves through a magnetic field, an electric current is induced into the conductor. The same thing also happens when the electrical conductor is stationary and the magnetic field is moving. This is known as electromagnetic induction, and is the underlying principle used in the construction of electrical generators.
+
+When lightning strikes a metal tower or strikes near a building containing electrical equipment, a large, rapidly changing magnetic field is generated. This magnetic field induces current onto power lines, often disrupting electrical service, and also induces current into other electrical conductors such as electrical equipment and even structural metal used in construction, such as rebar used to reinforce concrete. These induced currents can easily damage electronic equipment.
+
+Halo grounds and ring grounds are placed around the areas to be protected so that the magnetic field will encounter these conductors first. Energy from the magnetic field creates currents in the halo and ring ground, and this current is then safely shunted into the earth so that it does not harm equipment inside the protected building. Since most of the energy in the magnetic field is used up in the creation of these currents, very little energy is left over to create damaging currents inside the protected building.
+
+

@@ -1,0 +1,38 @@
+﻿Electron rest mass
+
+The electron rest mass (symbol: "m") is the mass of a stationary electron, also known as the invariant mass of the electron. It is one of the fundamental constants of physics. It has a value of about kilograms or about atomic mass units, equivalent to an energy of about joules or about 0.5110 MeV.
+
+The term "rest mass" is sometimes used because in special relativity the mass of an object can be said to increase in a frame of reference that is moving relative to that object (or if the object is moving in a given frame of reference). Most practical measurements are carried out on moving electrons. If the electron is moving at a relativistic velocity, any measurement must use the correct expression for mass. Such correction is only substantial for electrons accelerated by voltages of well over 100 kV.
+
+For example, the relativistic expression for the total energy, "E", of an electron moving at speed formula_1 is
+where the Lorentz factor is formula_3. In this expression "m" is the "rest mass", or more simply just the "mass" of the electron. This quantity "m" is frame invariant and velocity independent. However, some texts group the Lorentz factor with the mass factor to define a new quantity called the "relativistic mass", . This quantity is evidently velocity dependent, and from it arises the notion that "mass increases with speed". This construction is optional, however, and adds little insight into the dynamics of special relativity.
+
+Since the electron mass determines a number of observed effects in atomic physics, there are potentially many ways to determine its mass from an experiment, if the values of other physical constants are already considered known.
+
+Historically, the mass of the electron was determined directly from combining two measurements. The mass-to-charge ratio of the electron was first estimated by Arthur Schuster in 1890 by measuring the deflection of "cathode rays" due to a known magnetic field in a cathode ray tube. This was before it was even known what cathode rays actually were! It was seven years later that J. J. Thomson showed that cathode rays consist of streams of particles, to be called electrons, and made more precise measurements of their mass-to-charge ratio again using a cathode ray tube.
+
+The second measurement was of the charge of the electron. This was determined with a precision of better than 1% by Robert A. Millikan in his famous oil drop experiment in 1909. Together with the mass-to-charge ratio, the electron mass was thereby determined with reasonable precision. The value of mass that was found for the electron was initially met with surprise by physicists, since it was so small (less than 0.1%) compared to the known mass of a hydrogen atom.
+
+The electron rest mass can be calculated from the Rydberg constant "R" and the fine-structure constant "α" obtained through spectroscopic measurements. Using the definition of the Rydberg constant:
+
+thus
+
+where "c" is the speed of light and "h" is the Planck constant. The relative uncertainty, 5 in the 2006 CODATA recommended value, is due entirely to the uncertainty in the value of the Planck constant.
+
+The electron relative atomic mass can be measured directly in a Penning trap. It can also be inferred from the spectra of antiprotonic helium atoms (helium atoms where one of the electrons has been replaced by an antiproton) or from measurements of the electron "g"-factor in the hydrogenic ions C or O.
+
+The electron relative atomic mass is an adjusted parameter in the CODATA set of fundamental physical constants, while the electron rest mass in kilograms is calculated from the values of the Planck constant, the fine-structure constant and the Rydberg constant, as detailed above.
+
+The electron mass is used to calculate the Avogadro constant "N":
+Hence it is also related to the atomic mass constant "m":
+where "M" is the molar mass constant (defined in SI) and "A"(e) is a directly measured quantity, the relative atomic mass of the electron.
+
+Note that "m" is defined in terms of "A"(e), and not the other way round, and so the name "electron mass in atomic mass units" for "A"(e) involves a circular definition (at least in terms of practical measurements).
+
+The electron relative atomic mass also enters into the calculation of all other relative atomic masses. By convention, relative atomic masses are quoted for neutral atoms, but the actual measurements are made on positive ions, either in a mass spectrometer or a Penning trap. Hence the mass of the electrons must be added back on to the measured values before tabulation. A correction must also be made for the mass equivalent of the binding energy "E". Taking the simplest case of complete ionization of all electrons, for a nuclide X of atomic number "Z",
+As relative atomic masses are measured as ratios of masses, the corrections must be applied to both ions: the uncertainties in the corrections are negligible, as illustrated below for hydrogen 1 and oxygen 16.
+
+The principle can be shown by the determination of the electron relative atomic mass by Farnham "et al." at the University of Washington (1995). It involves the measurement of the frequencies of the cyclotron radiation emitted by electrons and by C ions in a Penning trap. The ratio of the two frequencies is equal to six times the inverse ratio of the masses of the two particles (the heavier the particle, the lower the frequency of the cyclotron radiation; the higher the charge on the particle, the higher the frequency):
+As the relative atomic mass of C ions is very nearly 12, the ratio of frequencies can be used to calculate a first approximation to "A"(e), . This approximate value is then used to calculate a first approximation to "A"(C), knowing that "E"(C)/"m""c" (from the sum of the six ionization energies of carbon) is : . This value is then used to calculate a new approximation to "A"(e), and the process repeated until the values no longer vary (given the relative uncertainty of the measurement, 2.1): this happens by the fourth cycle of iterations for these results, giving for these data.
+
+

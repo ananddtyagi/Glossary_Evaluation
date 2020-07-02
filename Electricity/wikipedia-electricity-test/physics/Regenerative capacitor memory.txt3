@@ -1,0 +1,12 @@
+﻿Regenerative capacitor memory
+
+Regenerative capacitor memory is a type of computer memory that uses the electrical property of capacitance to store the bits of data. Because the stored charge slowly leaks away, these memories must be periodically regenerated (i.e. read and rewritten, also called refreshed) to prevent data loss.
+
+Other types of computer memory exist that use the electrical property of capacitance to store the data, but do not require regeneration. However these have either been somewhat impractical (e.g., the Selectron tube) or are usually considered to be read-only memory (e.g., EPROM, Flash memory) because writing takes significantly longer than reading them.
+The first regenerative capacitor memory built was the rotating capacitor drum memory of the Atanasoff–Berry Computer (1942). Each of its two drums stored thirty 50-bit binary numbers, rotated at 60 rpm and was regenerated every rotation (1 Hz refresh rate).
+
+The first random access regenerative capacitor memory was the Williams tube (1947). Typically they stored 512 to 1024 bits, with the refresh rate required varied depending on the type of CRT used.
+
+The modern DRAM (1966) is a regenerative capacitor memory.
+
+

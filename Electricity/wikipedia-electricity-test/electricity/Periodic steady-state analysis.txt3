@@ -1,0 +1,6 @@
+﻿Periodic steady-state analysis
+
+Periodic Steady-State Analysis (PSS analysis) computes the periodic steady-state response of a circuit at a specified fundamental frequency, with a simulation time independent of the time-constants of the circuit. The PSS analysis also determines the circuit's periodic operating point which is required starting point for the periodic time-varying small-signal analyses: PAC, PSP, PXF, and Pnoise. The PSS analysis works with both autonomous and driven circuits.
+PSS is usually used after transient analysis.
+
+

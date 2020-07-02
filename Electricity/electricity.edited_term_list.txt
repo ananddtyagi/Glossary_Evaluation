@@ -1,0 +1,950 @@
+united states geological survey|usgs
+ion beam|ion beams
+electric machine|electric machines
+oxidation state|oxidation states
+lithium-ion battery|lithium-ion batteries
+synthetic fiber|synthetic fibers
+neutral current|neutral currents
+secondary emission
+positron|positrons
+electric energy
+electrostatic potential energy
+three-phase system|three-phase systems
+open-circuit voltage
+magnetic moment|magnetic moments
+electrostatic discharge|esd|electrostatic discharges
+metal oxide semiconductor field effect transistor|mosfet
+ground electrode|ground electrodes
+electrical installation|electrical installations
+electric power industry
+supervisory control and data acquisition|scada
+peak voltage
+bios
+electron beam|electron beams
+input impedance
+point charge|point charges
+negative impedance converter|negative impedance converters|nic
+high voltage direct current|hvdc
+transconductance
+ionisation
+photovoltaic|photovoltaics|pv|pvs
+electrical discharge machining|edm|electric discharge machining
+charge distribution|charge distributions
+george westinghouse
+space charge|space charges
+debye length|debye lengths
+transmission loss|transmission losses
+polyvinyl chloride|pvc|pvcs
+mexico
+corona discharge|corona discharges
+polymerization
+electrical arc|electrical arcs
+carboxylic acid|carboxylic acid(s)|carboxylic acids
+primary circuit
+electrical breakdown|electrical breakdowns
+electron density|electron densities
+secondary winding|secondary windings
+chemical resistance
+circuit element|circuit elements
+solar power
+contact resistance|contact resistances
+conductive path|conductive paths
+ohmic heating
+synthetic rubber|synthetic rubbers
+transmission electron microscope|tem|transmission electron microscopy
+electron model|electron models
+nasa
+low density polyethylene|ldpe
+electrical resistivity|electrical resistivities
+photoexcitation
+medical device|medical devices
+polytetrafluoroethylene|ptfe|ptfes
+cpu
+characteristic impedance|characteristic impedances
+madagascar
+magnetic circuit|magnetic circuits
+magnetic circuit|magnetic circuits
+personal protective equipment|ppe
+partial discharge|pd|powered device|partial discharges
+electrical discharge|electrical discharges
+negative resistance|negative resistances
+spark plug|spark plugs
+westinghouse
+tesla coil|tesla coils
+hz
+wind turbine|wind turbines
+wind turbine|wind turbines
+distribution transformer monitor|dtm|distribution transformer monitors|distribution transformer(s)|distribution transformer|distribution transformers
+polymethyl methacrylate|pmma
+ag|ags
+reactance|reactances
+inverter|inverters|inverter(s)
+independent electrical contractors|iec
+capacitance|capacitance(s)|capacitances
+kapton
+power electronics
+power system|power systems
+energy consumption
+spark gap|spark gaps
+alternating current|ac|alternating currents
+alternating current|ac|alternating currents
+impedance analogy|impedance analogies
+voltage source|voltage sources
+lightning protection system|lightning protection systems
+emitter|emitters
+emitter|emitters
+electrical analogy|electrical analogies
+radio wave|radio waves
+industrial revolution|industrial revolutions
+electrical domain|electrical domains
+relative permittivity
+electrometer|electrometers
+lightning strike|lightning strikes
+usb
+direct current|dc
+mechanical domain|mechanical domains
+static var compensator|static var compensators|svc
+ethernet
+rechargeable battery|rechargeable batteries
+thyristor valve|thyristor valves
+workpiece
+voltage drop|voltage drops
+electric arc|electric arcs
+thyristor|thyristors
+inductive reactance
+energy domain|energy domains
+transmission line|transmission lines
+secondary coil|secondary coils
+power consumption
+static synchronous compensator|static synchronous compensators|statcom
+dielectric strength
+circuit breaker|cb|circuit breakers|circuit breaker(s)
+static electricity
+supply transformer
+electric arc furnace|eaf|eafs|electric arc furnaces
+charge density|charge densities
+reactive power|reactive powers
+resistive load|resistive loads
+steam turbine|steam turbines
+high density polyethylene|hdpe
+divider|dividers
+breakdown voltage|breakdown voltages
+static discharge
+impedance|impedances
+corona ring|corona rings
+ohmmeter|ohmmeters
+induction coil|induction coils
+internal resistance
+diamine|diamines
+electric spark|electric sparks
+distribution grid
+electric utility|electric utilities
+reactive
+bc
+sinusoidal voltage|sinusoidal voltages
+mercury-arc valve|mercury-arc valves
+alumina
+glow discharge|glow discharges
+ieee
+ev
+electrical network|electrical networks
+crystallinity
+magnetic flux|magnetic fluxes
+magnetic flux|magnetic fluxes
+power usage
+molecular weight|mw|molecular weights
+polyamide|polyamides
+electric grid|electric grids
+lightning discharge|lightning discharges
+digital circuit|digital circuits
+townsend discharge
+tesla
+voltage terminal|voltage terminals
+outage|outages
+ac system|ac systems
+primary current
+plasticizer|plasticizers
+control grid|control grids
+mechanical impedance
+spark-gap transmitter|spark-gap transmitters
+capacitive reactance
+static discharger|static dischargers
+electrical insulation
+power flow|power flows
+terminal voltage
+electrical appliance|electrical appliances
+electric potential energy
+system frequency
+edison company
+ripple voltage
+brush discharge|bd|battle dress|brush discharges
+steam engine|steam engines
+primary winding|primary windings
+mechanical analogy|mechanical analogies
+var|vacuum arc remelting|vars
+machine tool|machine tools
+aluminium oxide|alo
+permittivity
+dc power
+radio transmitter|radio transmitters
+public utility|public utilities
+metering
+half-cell|half-cells
+transducer|transducers
+mmf
+dc bias
+lc circuit
+germanium|ge
+prospective short-circuit
+ion-selective electrode|ion-selective electrodes
+wind power
+cu
+hydroxide|hydroxides
+power delivery system|pds|power delivery systems
+television receiver|television receivers
+extra-low voltage
+radio frequency|radio frequencies|rf|radiofrequency
+radio frequency|radio frequencies|rf|radiofrequency
+emergency power
+arcing
+capacitor model
+faraday
+nominal voltage|nominal voltages
+aromatic ring|aromatic rings
+inductive load|inductive loads
+mass production
+blast furnace|blast furnaces
+optical fiber|optical fibers
+ohmic
+ground fault|ground faults
+power factor|power factors
+electrostatic discharge protected area|epa
+output voltage|output voltages
+output voltage|output voltages
+galvanic cell|galvanic cells
+thermionic emission
+root mean square|rms
+a company founded by edison in germany|aeg
+voltage level|voltage levels
+external circuit|external circuits
+dc supply|dc supplies
+ac power
+electric company|electric companies
+automated meter reading|amr|automatic meter reading
+waveguide|waveguides
+short-circuit current|short-circuit currents
+triode|triodes
+electron transfer|electron transfers
+electronic system|electronic systems
+metric ton|metric tons
+mechanical component|mechanical components
+mechanical network|mechanical networks
+passive component|passive components
+secondary electron|secondary electrons
+secondary circuit|secondary circuits
+protection system|protection systems
+cloud to ground|cgs|cg
+output impedance
+output impedance
+bandwidth
+rotary converter|rotary converters
+electrical apparatus
+conventional current
+dicarboxylic acid|dicarboxylic acids
+ground connection
+potential gradient
+voltage regulator|voltage regulators
+customer average interruption duration index|caidi
+teflon
+mechanical system|mechanical systems
+neutral line|neutral lines
+electrons flow
+precious metal|precious metals
+circuit diagram|circuit diagrams
+intracloud|integrated circuits|ic|integrated
+national electrical code|nec|national electrical codes
+electric meter|electric meters
+electrical grid|electrical grids
+electricity generation
+philadelphia
+mechanical part|mechanical parts
+ground fault circuit interrupter|gfci
+power unit|power units
+electromotive force|emf|emfs
+nitric acid
+flashover|flashovers
+atomic mass|atomic masses
+dc system|dc systems
+missouri
+electricity consumption
+thermoset|thermosets
+coaxial cable|coaxial cables
+alternator|alternators
+galvanometer|galvanometers
+pieter van musschenbroek
+pieter van musschenbroek
+residual current device|rcd|residual current devices
+power plant|power plants
+potential difference
+technical committee|tc
+displacement current|displacement currents
+gyrator|gyrators
+industrial machinery
+selective electrode|selective electrodes
+magnetic reluctance
+energetic electron|energetic electrons
+transmission voltage|transmission voltages
+bipolar transistor|bipolar transistors
+electronegativity
+electricity market|electricity markets
+nfpa
+office equipment
+power engineering
+homopolymer|homopolymers
+harmonic current|harmonic currents
+electricity supply|electricity supplies
+return conductor
+ac voltage|ac voltages
+dielectric gas|dielectric gases
+energy efficiency
+ignition system|ignition systems
+primary battery|primary batteries
+tetrahydrofuran|thf
+generating station|generating stations
+output terminal|output terminals
+electrolytic cell|electrolytic cells
+circuit voltage|circuit voltages
+reference electrode|reference electrodes
+distribution line|distribution lines
+thermal model
+voltage equipment
+energy company|energy companies
+ground system
+roman empire
+normal power
+cold cathode|cold cathodes
+electron emission
+leakage current|leakage currents
+fault condition|fault conditions
+triboelectric effect
+calcium oxide|cao
+circuitry
+electric light|electric lights
+mil|mils
+glass fiber
+carbon fiber
+power dissipation
+neutral wire|neutral wires
+ground rod|ground rods
+heat treatment
+heat treatment
+electric power distribution|distribution of electric power
+telecontrol
+wye
+institution of electrical engineers|iee
+parts per million|ppm
+ac motor|ac motors
+color change|color changes
+capacitor bank|capacitor banks
+distribution system|distribution systems
+operating temperature|operating temperatures
+electrical impedance
+contactor|contactors
+electrostatic generator|electrostatic generators
+hz system|hz systems
+dc output
+conventional current flow|conventional current flows
+pp
+electrostatic induction
+printed circuit board|pcb|printed circuit boards|pcbs
+customer information system|customer information systems|cis
+westinghouse electric
+positive terminal
+distributed generation|dg|distributed generators
+iec technical committee
+electrical generation
+system average interruption frequency index|saifi
+pentode|pentodes
+apprenticeship program|apprenticeship programs
+system average interruption duration index|saidi
+classical electron radius
+dc circuit|dc circuits
+diacid|diacids
+aramid|aramids
+electrical connection|electrical connections
+conversion efficiency|conversion efficiencies
+mg
+residual resistivity
+electrical connector|electrical connectors
+alkene|alkenes
+egypt
+radioactive isotope|ri|radioactive isotopes
+energy input
+battery internal resistance|internal resistance of a battery
+electrical device|electrical devices
+microbial fuel cell|microbial fuel cells|mfc
+microbial fuel cell|microbial fuel cells|mfc
+electrostatic charge|electrostatic charges
+electrode potential
+electrical treeing
+electrical element|electrical elements
+electrical element|electrical elements
+federal government
+photographic film
+dielectric material|dielectric materials
+electric power system|electric power systems
+electronic component|electronic components
+svcs
+electrical attraction|electrical attractions
+voltage conductor|voltage conductors
+power frequency|power frequencies
+lead-acid battery|lead-acid batteries
+hydraulic analogy
+protective device|protective devices
+geothermal power
+geothermal power
+resistive heating
+static charge|static charges
+two-phase system|two-phase systems
+electrical worker|electrical workers
+electrolyte solution|electrolyte solutions
+mechanical filter|mechanical filters
+dielectric response
+dielectric response
+gallium arsenide|gaas
+metamorphic rock|metamorphic rocks
+impedance measurement|measurements of impedance
+protective earth
+electric heating
+palladium
+electric device|electric devices
+lighting system|lighting systems
+filler material
+utility company|utility companies
+electronic equipment
+supervisory control
+trade association|trade associations
+working electrode|working electrodes
+voltage regulation
+hydrogen peroxide
+hydrogen peroxide
+power transmission
+sulfide|sulfides
+voltaic pile
+radio signal|radio signals
+negative terminal|negative terminals
+avalanche breakdown
+avalanche breakdown
+ligand|ligands
+input resistance
+ac circuit|ac circuits
+induction motor|induction motors
+polyimide film|polyimide films
+power industry
+non-conducting
+avalanche effect|avalanche effects
+battery system|battery systems
+impact strength
+system voltage|system voltages
+franz aepinus
+carbonate|carbonates
+electric fluid|electric fluids
+plastic waste|plastic wastes
+gaulard
+solar energy
+constitutive equation|constitutive equations
+liquid dielectric|liquid dielectrics
+electric discharge|electric discharges
+magnetic line|magnetic lines
+cold-cathode
+ohmic device
+acrylonitrile butadiene styrene|abs
+impedance path
+capacitive load|capacitive loads
+newfoundland
+microorganism|microorganisms
+voltage waveform|voltage waveforms
+energy system|energy systems
+dc component
+electrical component|electrical components
+power transformer|power transformers
+secondary side
+secondary side
+control system|control systems
+lee de forest
+electrical fluid|electrical fluids
+de-energized
+ground plane
+uninterruptible power supply|uninterruptible power supplies
+tuned circuit|tuned circuits
+positive ion|positive ions
+intel
+peak current|peak currents
+iea
+electrical phenomenon|electrical phenomena
+energy market|energy markets
+line voltage|line voltages
+tourmaline
+tourmaline
+electrical engineer|electrical engineers
+transmitter|transmitters
+kilowatt hour|kwh
+kilowatt hour|kwh
+charge separation
+return path
+imperial chemical industries|ici
+electromagnetic induction
+overcurrent protection device|overcurrent protection devices
+external electric field|external electric fields
+external electric field|external electric fields
+capacitive
+thermistor|thermistors
+voltage range|voltage ranges
+high-voltage transmission line|high-voltage transmission lines
+busbars|bb
+sinusoidal
+kilohertz
+single-phase
+reactive power compensation
+scanning electron microscope|sem|scanning electron microscopes
+ac waveform
+fermi level
+electrical power system|electrical power systems
+electrochemical process|electrochemical processes
+dielectric property|dielectric properties
+dielectric breakdown
+spark-gap
+rural area|rural areas
+input voltage|rms input
+input voltage|rms input
+amorphous solid|amorphous solids
+pt
+pt
+power level|power levels
+power outage|power outages
+electric power utility|electric power utilities
+emulsion polymerization
+base metal|base metals
+ac rival
+grain boundary|grain boundaries
+three-phase transformer|three-phase transformers
+power station|power stations
+ac supply
+drift velocity
+drift velocity
+wind farm|wind farms
+greenhouse gas emission|greenhouse gas emissions
+passive magnetic circuit
+total energy consumption
+three-phase
+supply voltage
+ammonium
+conductive object|conductive objects
+electromechanical system|electromechanical systems
+static electric charge|static electric charges
+pm|pms
+radio frequency interference|rfi
+disruptive potential gradient
+distance transmission
+electrical code|electrical codes
+musical instrument|musical instruments
+dimensional stability
+electrostatic machine|electrostatic machines
+electric power supply
+electrical substation|electrical substations
+gold-leaf electroscope
+automatic disconnection
+automatic disconnection
+electrical transformer|electrical transformers
+electromagnetic interference
+electrical current|electrical currents
+energy usage
+ganz work|ganz works
+sulfur hexafluoride
+hydrogen ion concentration
+internal combustion engine|internal combustion engines
+line-to-line voltage|line-to-line voltages
+electronic oscillator|electronic oscillators
+metal object|metal objects
+electricity production
+electrical distribution
+electric current flow|electric current flows
+operational amplifier|operational amplifiers
+industrial production
+protection equipment
+transmission system|transmission systems
+transmission system|transmission systems
+thailand
+substation automation
+westinghouse company
+photomultiplier tube|photomultiplier tubes
+electricity supplier
+hydrochloric acid
+insulation material|insulation materials
+secondary battery|secondary batteries
+single-phase circuit|single-phase circuits
+very high frequency|vhf
+utilization voltage|utilization voltages
+protective clothing
+electrical industry|electrical industries
+cathodic protection
+health administration
+corrosion resistance
+reflection coefficient
+industrial equipment
+potential energy
+conductance|conductances
+alaska
+reliability indicator|reliability indicators
+dielectric permittivity|permittivity of the dielectric
+resinous electricity|resinous electricities
+generating capacity
+electric locomotive|electric locomotives
+conduct electricity
+reactive component|reactive components
+charge carrier|charge carriers
+charge carrier|charge carriers
+solar panel|solar panels
+oxidant|oxidants
+computing equipment
+charged device model|cdm
+gas-discharge lamp|gas-discharge lamps
+harmonic distortion
+grounding conductor|grounding conductors
+electrical machine|electrical machines
+breakdown mechanism|breakdown mechanisms
+electron configuration|electron configurations
+impact ionization
+conductive channel|conductive channels
+grounding electrode|grounding electrodes
+ac signal|ac signals
+sinusoidal current|sinusoidal currents
+sinusoidal current|sinusoidal currents
+lightning arrester|lightning arresters
+kw
+galvanic corrosion
+high-voltage source
+solar cell|solar cells
+electrical utility|electrical utilities
+electrical battery
+high-voltage
+operating voltage|operating voltages
+capita
+capita
+capita
+voltage magnitude|voltage magnitudes
+electric conductor|electric conductors
+conductor material
+current transformer|ct
+power factor correction
+discharge channel
+electrical experiment|electrical experiments
+breakdown strength
+inductive circuit|inductive circuits
+excessive current
+neutral conductor|neutral conductors
+environmental impact|environmental impacts
+ceramic insulator|ceramic insulators
+original electron
+heating element|heating elements
+reactive power flow|reactive power flows
+electronic device|electronic devices
+distribution voltage|distribution voltages
+drude model
+electric shock|electric shocks
+secondary voltage|secondary voltages
+organic substance|organic substances
+impact resistance
+positive current|positive currents
+electrical signal|electrical signals
+industrial plant|industrial plants
+electrical cable|electrical cables
+continuous power
+commercial grade|commercial grades
+medical application|medical applications
+power output|power outputs
+occupational safety
+switching circuit|switching circuits
+accidental contact
+total charge
+silicon dioxide
+plastic material|plastic materials
+grounding system|grounding systems
+analog circuitry
+q factor
+public demonstration
+three-phase power
+ohmic resistance|ohmic resistances
+safety equipment
+resistance value
+4th millennium bc
+electrode system|electrode systems
+sine wave
+ground potential|ground potentials
+local area network|lan
+electric power transmission system|electric power transmission systems
+electric power transmission system|electric power transmission systems
+arizona
+two-fluid theory
+amorphous region|amorphous regions
+instantaneous power|instantaneous powers
+electric railway|electric railways
+electric system
+energy policy act
+reverse current|reverse currents
+microcontroller|microcontrollers
+halide|halides
+spark discharge|spark discharges
+switching surge|switching surges
+deionized water
+electrical shock|electrical shocks
+synthetic resin
+primary cell|primary cells
+majority carrier|majority carriers
+voltage circuit|voltage circuits
+total resistance
+great depression
+security system|security systems
+sodium carbonate
+power requirement|power requirements
+industrial use|industrial uses
+amorphous phase
+high-energy photon|high-energy photons
+connecticut
+minority carrier|minority carriers
+voltage divider|voltage dividers
+working condition|working conditions
+threshold voltage|threshold voltages
+threshold voltage|threshold voltages
+threshold voltage|threshold voltages
+amine|amines
+amine|amines
+weather condition|weather conditions
+weather condition|weather conditions
+teleprotection
+repeating unit|repeating units
+power engineer|power engineers
+optoelectronic|optoelectronics
+electrotherapy
+drinking water
+marx generator|marx generators
+polymer chain|polymer chains
+discharge rate|discharge rates
+discharge rate|discharge rates
+metric tonne|metric tonnes
+electrical equipment
+electrical wire|electrical wires
+energy supplier|energy suppliers
+astm
+beta particle|beta particles
+carbon nanotubes|cnts
+condensation reaction|condensation reactions
+penning trap
+trace amount|trace amounts
+series circuit
+electric power distribution system|electric power distribution systems
+electric power distribution system|electric power distribution systems
+voltage rating|voltage ratings
+computer system|computer systems
+output current
+electrical field
+power quality
+electrophorus
+electric lighting
+anode voltage
+reactive load
+electric vehicle|electric vehicles
+kilowatt-hour|kilowatt-hours
+telephone line|telephone lines
+molecular hydrogen
+power supplies
+charged cation|charged cations
+lucien gaulard
+ruhmkorff coil
+federal energy
+energy monitor|energy monitors
+electric load|electric loads
+pem fuel cell
+ac power line|ac power lines
+conducting object|conducting objects
+food packaging
+insulating material|insulating materials
+diol|diols
+thermocouple|thermocouples
+heat dissipation
+line frequency
+telegraph line|telegraph lines
+reverse direction
+capacity factor
+voltaic cell|voltaic cells
+out-of-phase
+elementary charge|elementary charges
+elementary charge|elementary charges
+fault current|fault currents
+energy band|energy bands
+organic compound|organic compounds
+reflectivity
+reflectivity
+consumer product|consumer products
+electrode function|electrode functions
+ignition coil|ignition coils
+stored energy
+investigating reaction mechanism|investigating reaction mechanisms
+electric ray|electric rays
+power circuit|power circuits
+redox reaction|redox reactions
+fine wire
+electric car|electric cars
+ieee standard|ieee standards
+caprolactam
+electrochemical reaction mechanism|electrochemical reaction mechanisms
+window frame|window frames
+window frame|window frames
+power transfer
+acetic acid
+acetic acid
+car battery
+output power|output powers
+electrical stress|electrical stresses
+electrical stress|electrical stresses
+insulator string|insulator strings
+polar molecule|polar molecules
+charge transfer
+power company|power companies
+electrical power distribution|distribution of electrical power
+microampere|microamperes
+ac generator|ac generators
+voltage line|voltage lines
+total power
+area network|area networks
+crystallite|crystallites
+ampere-hour|ampere-hours
+potential rise
+primary side
+current-voltage characteristic|current-voltage characteristics
+operating mode|operating modes
+operating mode|operating modes
+rotational speed|rotational speeds
+ec|ecs|electrotechnical certification scheme
+mikhail dolivo-dobrovolsky
+salt bridge
+high-voltage direct-current
+bipolar junction transistor|bipolar junction transistors|bjt
+electromechanical power switch|electromechanical power switches
+polyolefin|polyolefins
+antiproton|antiprotons
+ac network|ac networks
+aqueous solution|aqueous solutions
+hydroelectric power plant|hydroelectric power plants
+hydroelectric power plant|hydroelectric power plants
+electron flow|electron flows
+air movement|air movements
+electronic circuit|electronic circuits
+alessandro volta
+test solution
+free-radical polymerization
+growth rate|growth rates
+power input
+electricity supply industry
+electricity transmission
+electricity transmission
+electricity transmission
+fire hazard|fire hazards
+commercial production
+jerusalem
+electrical circuit|electrical circuits
+power cable|power cables
+negative ion|negative ions
+australia
+energy information administration|eia
+energy information administration|eia
+energy information administration|eia
+electric power three-phase|three-phase electric power
+commercial power frequency
+electrical potential difference
+parasitic capacitance|parasitic capacitances
+pittsburgh
+overvoltage|overvoltages
+secondary electron emission
+secondary electron emission
+electric distribution system|electric distribution systems
+periodic table
+thyratron|thyratrons
+megajoule|megajoules
+electrical characteristic|electrical characteristics
+unit cell
+electric utility industry
+power use|power uses
+public electricity supply
+scientist michael faraday
+power transmission system|power transmission systems
+particle size|particle sizes
+particle size|particle sizes
+electromagnetic pulse|emp|emps|electromagnetic pulses
+electric power transmission|transmission of electric power
+electric power generation
+geographic information system
+power grid|power grids
+half-cycle
+residual-current device|residual-current devices
+high-power
+electric current passing
+passband
+recharged
+frankfurt
+electric field intensity
+godalming
+sulfuric acid
+half cycle
+system operator|system operators
+voltage transmission line|voltage transmission lines
+united states government
+conductive material|conductive materials
+conductive material|conductive materials
+atmospheric electricity
+transition metal|transition metals
+radio receiver|radio receivers
+circuit board|circuit boards
+thermoplastic polymer|thermoplastic polymers
+acoustic wave|acoustic waves
+disconnection|disconnections
+crystallographic defect|crystallographic defects
+voltage law
+van de graaff generator|van de graaff generators
+electrical power supply
+high-voltage equipment
+symmetrical component|symmetrical components
+instantaneous current|instantaneous currents
+magnetic phenomenon|magnetic phenomena
+electron beam processing
+intermetallic compound|intermetallic compounds
+ph meter|ph meters
+electro-magnetic field|electro-magnetic fields
+electrum
+niagara fall|niagara falls
+pseudodoxia epidemica
+instantaneous voltage|instantaneous voltages
+electrical efficiency|electrical efficiencies
+electromagnetic theory
+electrical wiring
+electric power circuit|electric power circuits
+exposure limit
+lumped-element circuit|lumped-element circuits
+communications equipment
+radio communication|radio communications
+service life
+subtype|subtypes
+comonomer|comonomers
+continuous discharge
+key factor|key factors
+resistance r
+melting temperature|melting temperatures
+half-life|half-lives
+high-voltage engineer
+electronic instrument|electronic instruments
+electrical technology
+electrical instrument|electrical instruments
+electric current pass|electric current passes
+cylindrical electrode|cylindrical electrodes
+direct-current power
+aluminium

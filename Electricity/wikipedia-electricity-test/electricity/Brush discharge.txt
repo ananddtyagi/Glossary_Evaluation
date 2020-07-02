@@ -1,0 +1,14 @@
+﻿Brush discharge
+
+A brush discharge is an electrical disruptive discharge similar to a corona discharge that takes place at an electrode with a high voltage applied to it, embedded in a nonconducting fluid, usually air. It is characterized by multiple luminous writhing sparks, plasma streamers composed of ionized particles, which repeatedly strike out from the electrode into the air, often with a crackling sound. The streamers spread out in a fan shape, giving it the appearance of a "brush".
+
+Corona and brush discharges are sometimes called "one-electrode discharges" because they occur in the vicinity of a single electrode, and don't extend as far as the electrode carrying opposite polarity voltage in the circuit, as an electric arc (a "two-electrode discharge") does. 
+
+Both brush and corona discharges represent regions next to conductors where the air has ionized and become conductive, allowing current to leak into the air. They occur when the electric field at the conductor exceeds the dielectric strength of the air, the "disruptive potential gradient", roughly 30 kilovolts per centimeter. At that voltage, electrons in the air are accelerated by the electric field to a high enough velocity that they knock other electrons off gas molecules when they hit them, creating ions and additional electrons, which go on to ionize additional molecules in a chain reaction. The electric field is highest at sharp points on the conductor, so discharges tend to form at these points. Because the electric field decreases as the distance from the conductor increases, it eventually drops below the value needed for ionization, so corona and brush discharges have a limited extent and are localized near the conductor.
+
+Like other electric arcs, brush discharges produce ozone gas, which can be noxious to nearby people in an enclosed space and over time can cause embrittlement of some plastics.
+The ability of an electrical discharge to cause an explosion in flammable atmospheres is measured by the "effective energy" of the discharge. The effective energy of brush discharges is 10-20 mJ, much larger than that of corona discharges 0.1 mJ. Therefore, brush discharges are considered an explosion hazard, while corona discharges are not. Brush discharges can occur from charged insulating plastics (for example polythene) to a conductor.
+
+
+
+

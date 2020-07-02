@@ -1,0 +1,54 @@
+﻿Majorana fermion
+
+A Majorana fermion (), also referred to as a Majorana particle, is a fermion that is its own antiparticle. They were hypothesized by Ettore Majorana in 1937. The term is sometimes used in opposition to a Dirac fermion, which describes fermions that are not their own antiparticles.
+
+With the exception of the neutrino, all of the Standard Model fermions are known to behave as Dirac fermions at low energy (after electroweak symmetry breaking), and none are Majorana fermions. The nature of the neutrinos is not settled—they may be either Dirac or Majorana fermions.
+
+In condensed matter physics, bound Majorana fermions can appear as quasiparticle excitations—the collective movement of several individual particles, not a single one, and they are governed by non-abelian statistics.
+
+The concept goes back to Majorana's suggestion in 1937 that neutral spin- particles can be described by a real wave equation (the Majorana equation), and would therefore be identical to their antiparticle (because the wave functions of particle and antiparticle are related by complex conjugation).
+
+The difference between Majorana fermions and Dirac fermions can be expressed mathematically in terms of the creation and annihilation operators of second quantization: The creation operator formula_1 creates a fermion in quantum state formula_2 (described by a "real" wave function), whereas the annihilation operator formula_3 annihilates it (or, equivalently, creates the corresponding antiparticle). For a Dirac fermion the operators formula_1 and formula_3 are distinct, whereas for a Majorana fermion they are identical. The ordinary fermionic annihilation and creation operators formula_6 and formula_7 can be written in terms of two Majorana operators formula_8 and formula_9 by
+
+In supersymmetry models, neutralinos—superpartners of gauge bosons and Higgs bosons—are Majorana.
+
+Another common convention for the normalization of the Majorana fermion operator is
+This convention has the advantage that the Majorana operator squares to the identity.
+
+Using this convention, a collection of Majorana fermions formula_14 (formula_15) obey the following commutation identities
+where formula_18 and formula_19 are antisymmetric matrices.
+
+Because particles and antiparticles have opposite conserved charges, Majorana fermions have zero charge. All of the elementary fermions of the Standard Model have gauge charges, so they cannot have fundamental Majorana masses.
+
+However, the right-handed sterile neutrinos introduced to explain neutrino oscillation could have Majorana masses. If they do, then at low energy (after electroweak symmetry breaking), by the seesaw mechanism, the neutrino fields would naturally behave as six Majorana fields, with three of them expected to have very high masses (comparable to the GUT scale) and the other three expected to have very low masses (below 1 eV). If right-handed neutrinos exist but do not have a Majorana mass, the neutrinos would instead behave as three Dirac fermions and their antiparticles with masses coming directly from the Higgs interaction, like the other Standard Model fermions.
+The seesaw mechanism is appealing because it would naturally explain why the observed neutrino masses are so small. However, if the neutrinos are Majorana then they violate the conservation of lepton number and even of B − L.
+
+Neutrinoless double beta decay has not (yet) been observed, but if it does exist, it can be viewed as two ordinary beta decay events whose resultant antineutrinos immediately annihilate with each other, and is only possible if neutrinos are their own antiparticles.
+
+The high-energy analog of the neutrinoless double beta decay process is the production of same-sign charged lepton pairs in hadron colliders; it is being searched for by both the ATLAS and CMS experiments at the Large Hadron Collider. In theories based on left–right symmetry, there is a deep connection between these processes. In the currently most-favored explanation of the smallness of neutrino mass, the seesaw mechanism, the neutrino is “naturally” a Majorana fermion.
+
+Majorana fermions cannot possess intrinsic electric or magnetic moments, only toroidal moments. Such minimal interaction with electromagnetic fields makes them potential candidates for cold dark matter.
+
+In superconducting materials, Majorana fermions can emerge as (non-fundamental) quasiparticles (more commonly referred to as Bogoliubov quasiparticles in condensed matter physics). This becomes possible because a quasiparticle in a superconductor is its own antiparticle.
+
+Mathematically, the superconductor imposes electron hole "symmetry" on the quasiparticle excitations, relating the creation operator formula_20 at energy formula_21 to the annihilation operator formula_22 at energy formula_23. Majorana fermions can be bound to a defect at zero energy, and then the combined objects are called Majorana bound states or Majorana zero modes. This name is more appropriate than Majorana fermion (although the distinction is not always made in the literature), because the statistics of these objects is no longer fermionic. Instead, the Majorana bound states are an example of non-abelian anyons: interchanging them changes the state of the system in a way that depends only on the order in which the exchange was performed. The non-abelian statistics that Majorana bound states possess allows them to be used as a building block for a topological quantum computer.
+
+A quantum vortex in certain superconductors or superfluids can trap midgap states, so this is one source of Majorana bound states. Shockley states at the end points of superconducting wires or line defects are an alternative, purely electrical, source. An altogether different source uses the fractional quantum Hall effect as a substitute for the superconductor.
+
+In 2008, Fu and Kane provided a groundbreaking development by theoretically predicting that Majorana bound states can appear at the interface between topological insulators and superconductors. Many proposals of a similar spirit soon followed, where it was shown that Majorana bound states can appear even without any topological insulator. An intense search to provide experimental evidence of Majorana bound states in superconductors first produced some positive results in 2012. A team from the Kavli Institute of Nanoscience at Delft University of Technology in the Netherlands reported an experiment involving indium antimonide nanowires connected to a circuit with a gold contact at one end and a slice of superconductor at the other. When exposed to a moderately strong magnetic field the apparatus showed a peak electrical conductance at zero voltage that is consistent with the formation of a pair of Majorana bound states, one at either end of the region of the nanowire in contact with the superconductor.. Simultaneously, a group from Purdue University and University of Notre Dame reported observation of fractional Josephson effect (decrease of the Josephson frequency by a factor of 2) in indium antimonide nanowires connected to two superconducting contacts and subjected to a moderate magnetic field, another signature of Majorana bound states. Bound state with zero energy was soon detected by several other groups in similar hybrid devices, and fractional Josephson effect was observed in topological insulator HgTe with superconducting contacts
+
+The aforementioned experiments marks a possible verification of independent 2010 theoretical proposals from two groups predicting the solid state manifestation of Majorana bound states in semiconducting wires. However, it was also pointed out that some other trivial non-topological bounded states could highly mimic the zero voltage conductance peak of Majorana bound state. The subtle relation between those trivial bound states and Majorana bound states was reported by the researchers in Niels Bohr Institute, who can directly "watch" coalescing Andreev bound states evolving into Majorana bound states, thanks to a much cleaner semiconductor-superconductor hybrid system.
+
+In 2014, evidence of Majorana bound states was also observed using a low-temperature scanning tunneling microscope, by scientists at Princeton University. It was suggested that Majorana bound states appeared at the edges of a chain of iron atoms formed on the surface of superconducting lead. The detection was not decisive because of possible alternative explanations.
+
+Majorana fermions may also emerge as quasiparticles in quantum spin liquids, and were observed by researchers at Oak Ridge National Laboratory, working in collaboration with Max Planck Institute and University of Cambridge on 4 April 2016.
+
+Chiral Majorana fermions were detected in 2017, in a quantum anomalous Hall effect/superconductor hybrid device. In this system, Majorana fermions edge mode will give a rise to a formula_24 conductance edge current.
+
+On 16 August 2018, a strong evidence for the existence of Majorana bound states (or Majorana anyons) in an iron-based superconductor, which many alternative trivial explanations cannot account for, was reported by researchers in Prof. Gao Hong-jun's team and Prof. Ding Hong's team at Institute of Physics, Chinese Academy of Sciences and University of Chinese Academy of Sciences, when they used scanning tunneling spectroscopy on the superconducting Dirac surface state of the iron-based superconductor. It was the first time that Majorana particles were observed in a bulk of pure substance.
+
+Majorana bound states can also be realized in quantum error correcting codes. This is done by creating so called 'twist defects' in codes such as the Toric code which carry unpaired Majorana modes. The braiding of Majoranas realized in such a way forms a projective representation of the braid group.
+
+Such a realization of Majoranas would allow them to be used to store and process quantum information within a quantum computation. Though the codes typically have no Hamiltonian to provide suppression of errors, fault-tolerance would be provided by the underlying quantum error correcting code.
+
+

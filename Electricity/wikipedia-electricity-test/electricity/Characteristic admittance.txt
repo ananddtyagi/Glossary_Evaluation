@@ -1,0 +1,13 @@
+﻿Characteristic admittance
+
+Characteristic admittance is the mathematical inverse of the characteristic impedance.
+The general expression for the characteristic admittance of a transmission line is:
+
+where
+
+The current and voltage phasors on the line are related by the characteristic admittance as:
+where the superscripts formula_9 and formula_10 represent forward- and backward-traveling waves, respectively.
+
+
+
+

@@ -1,0 +1,62 @@
+﻿Degrees of freedom (physics and chemistry)
+
+In physics, a degree of freedom is an independent physical parameter in the formal description of the state of a physical system. The set of all states of a system is known as the system's phase space, and degrees of freedom of the system, are the dimensions of the phase space.
+
+The location of a particle in three-dimensional space requires three position coordinates. Similarly, the direction and speed at which a particle moves can be described in terms of three velocity components, each in reference to the three dimensions of space. If the time evolution of the system is deterministic, where the state at one instant uniquely determines its past and future position and velocity as a function of time, such a system has six degrees of freedom. If the motion of the particle is constrained to a lower number of dimensions, for example, the particle must move along a wire or on a fixed surface, then the system has fewer than six degrees of freedom. On the other hand, a system with an extended object that can rotate or vibrate can have more than six degrees of freedom.
+
+In classical mechanics, the state of a point particle at any given time is often described with position and velocity coordinates in the Lagrangian formalism, or with position and momentum coordinates in the Hamiltonian formalism.
+
+In statistical mechanics, a degree of freedom is a single scalar number describing the microstate of a system. The specification of all microstates of a system is a point in the system's phase space.
+
+In the 3D ideal chain model in chemistry, two angles are necessary to describe the orientation of each monomer.
+
+It is often useful to specify quadratic degrees of freedom. These are degrees of freedom that contribute in a quadratic function to the energy of the system.
+
+In three-dimensional space, three degrees of freedom are associated with the movement of a particle. A diatomic gas molecule has 6 degrees of freedom. This set may be decomposed in terms of translations, rotations, and vibrations of the molecule. The center of mass motion of the entire molecule accounts for 3 degrees of freedom. In addition, the molecule has two rotational degrees of motion and one vibrational mode. The rotations occur around the two axes perpendicular to the line between the two atoms. The rotation around the atom–atom bond is not a physical rotation. This yields, for a diatomic molecule, a decomposition of:
+
+For a general, non-linear molecule, all 3 rotational degrees of freedom are considered, resulting in the decomposition:
+
+which means that an -atom molecule has vibrational degrees of freedom for . In special cases, such as adsorbed large molecules, the rotational degrees of freedom can be limited to only one.
+
+As defined above one can also count degrees of freedom using the minimum number of coordinates required to specify a position. This is done as follows:
+Let's say one particle in this body has coordinate and the other has coordinate with unknown. Application of the formula for distance between two coordinates
+results in one equation with one unknown, in which we can solve for .
+One of , , , , , or can be unknown.
+
+Contrary to the classical equipartition theorem, at room temperature, the vibrational motion of molecules typically makes negligible contributions to the heat capacity. This is because these degrees of freedom are "frozen" because the spacing between the energy eigenvalues exceeds the energy corresponding to ambient temperatures (). In the following table such degrees of freedom are disregarded because of their low effect on total energy. Then only the translational and rotational degrees of freedom contribute, in equal amounts, to the heat capacity ratio. This is why = for monatomic gases and = for diatomic gases at room temperature.
+
+However, at very high temperatures, on the order of the vibrational temperature (Θ), vibrational motion cannot be neglected.
+
+Vibrational temperatures are between 10 K and 10 K.
+
+The set of degrees of freedom of a system is independent if the energy associated with the set can be written in the following form:
+
+where is a function of the sole variable .
+
+example: if and are two degrees of freedom, and is the associated energy:
+
+For from 1 to , the value of the th degree of freedom is distributed according to the Boltzmann distribution. Its probability density function is the following:
+
+In this section, and throughout the article the brackets formula_8 denote the mean of the quantity they enclose.
+
+The internal energy of the system is the sum of the average energies associated with each of the degrees of freedom:
+
+A degree of freedom is quadratic if the energy terms associated with this degree of freedom can be written as
+
+where is a linear combination of other quadratic degrees of freedom.
+
+example: if and are two degrees of freedom, and is the associated energy:
+
+For example, in Newtonian mechanics, the dynamics of a system of quadratic degrees of freedom are controlled by a set of homogeneous linear differential equations with constant coefficients.
+
+ are quadratic and independent degrees of freedom if the energy associated with a microstate of the system they represent can be written as:
+
+In the classical limit of statistical mechanics, at thermodynamic equilibrium, the internal energy of a system of quadratic and independent degrees of freedom is:
+
+Here, the mean energy associated with a degree of freedom is:
+
+Since the degrees of freedom are independent, the internal energy of the system is equal to the sum of the mean energy associated with each degree of freedom, which demonstrates the result.
+
+The description of a system's state as a point in its phase space, although mathematically convenient, is thought to be fundamentally inaccurate. In quantum mechanics, the motion degrees of freedom are superseded with the concept of wave function, and operators which correspond to other degrees of freedom have discrete spectra. For example, intrinsic angular momentum operator (which corresponds to the rotational freedom) for an electron or photon has only two eigenvalues. This discreteness becomes apparent when action has an order of magnitude of the Planck constant, and individual degrees of freedom can be distinguished.
+
+

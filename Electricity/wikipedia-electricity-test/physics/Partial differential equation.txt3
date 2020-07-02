@@ -1,0 +1,132 @@
+﻿Partial differential equation
+
+In mathematics, a partial differential equation (PDE) is a differential equation that contains unknown multivariable functions and their partial derivatives. PDEs are used to formulate problems involving functions of several variables, and are either solved by hand, or used to create a computer model. A special case is ordinary differential equations (ODEs), which deal with functions of a single variable and their derivatives.
+
+PDEs can be used to describe a wide variety of phenomena such as sound, heat, diffusion, electrostatics, electrodynamics, fluid dynamics, elasticity, gravitation and quantum mechanics. These seemingly distinct physical phenomena can be formalised similarly in terms of PDEs. Just as ordinary differential equations often model one-dimensional dynamical systems, partial differential equations often model multidimensional systems. PDEs find their generalisation in stochastic partial differential equations.
+
+Partial differential equations (PDEs) are equations that involve rates of change with respect to continuous variables. For example, the position of a rigid body is specified by six parameters, but the configuration of a fluid is given by the continuous distribution of several parameters, such as the temperature, pressure, and so forth. The dynamics for the rigid body take place in a finite-dimensional configuration space; the dynamics for the fluid occur in an infinite-dimensional configuration space. This distinction usually makes PDEs much harder to solve than ordinary differential equations (ODEs), but here again, there will be simple solutions for linear problems. Classic domains where PDEs are used include acoustics, fluid dynamics, electrodynamics, and heat transfer.
+
+A partial differential equation (PDE) for the function is an equation of the form
+
+If is a linear function of and its derivatives, then the PDE is called linear. Common examples of linear PDEs include the heat equation, the wave equation, Laplace's equation, Helmholtz equation, Klein–Gordon equation, and Poisson's equation.
+
+A relatively simple PDE is
+
+This relation implies that the function is independent of . However, the equation gives no information on the function's dependence on the variable . Hence the general solution of this equation is
+
+where is an arbitrary function of . The analogous ordinary differential equation is
+
+which has the solution
+
+where is any constant value. These two examples illustrate that general solutions of ordinary differential equations (ODEs) involve arbitrary constants, but solutions of PDEs involve arbitrary functions.
+
+A solution of a PDE is generally not unique; additional conditions must generally be specified on the boundary of the region where the solution is defined. For instance, in the simple example above, the function can be determined if is specified on the line .
+
+Although the issue of existence and uniqueness of solutions of ordinary differential equations has a very satisfactory answer with the Picard–Lindelöf theorem, that is far from the case for partial differential equations. The Cauchy–Kowalevski theorem states that the Cauchy problem for any partial differential equation whose coefficients are analytic in the unknown function and its derivatives, has a locally unique analytic solution. Although this result might appear to settle the existence and uniqueness of solutions, there are examples of linear partial differential equations whose coefficients have derivatives of all orders (which are nevertheless not analytic) but which have no solutions at all: see Lewy (1957). Even if the solution of a partial differential equation exists and is unique, it may nevertheless have undesirable properties. The mathematical study of these questions is usually in the more powerful context of weak solutions.
+
+An example of pathological behavior is the sequence (depending upon ) of Cauchy problems for the Laplace equation
+
+with boundary conditions
+
+where is an integer. The derivative of with respect to approaches zero uniformly in as increases, but the solution is
+
+This solution approaches infinity if is not an integer multiple of for any non-zero value of . The Cauchy problem for the Laplace equation is called "ill-posed" or "not well-posed", since the solution does not continuously depend on the data of the problem. Such ill-posed problems are not usually satisfactory for physical applications.
+
+The existence of solutions for the Navier–Stokes equations, a partial differential equation, is part of one of the Millennium Prize Problems.
+
+In PDEs, it is common to denote partial derivatives using subscripts. That is:
+
+Especially in physics, del or nabla () is often used to denote spatial derivatives, and for time derivatives. For example, the wave equation (described below) can be written as
+
+or
+
+where is the Laplace operator.
+
+Some linear, second-order partial differential equations can be classified as parabolic, hyperbolic and elliptic. Others, such as the Euler–Tricomi equation, have different types in different regions. The classification provides a guide to appropriate initial and boundary conditions and to the smoothness of the solutions.
+
+Assuming , the general linear second-order PDE in two independent variables has the form
+
+where the coefficients , , ... may depend upon and . If over a region of the -plane, the PDE is second-order in that region. This form is analogous to the equation for a conic section:
+
+More precisely, replacing by , and likewise for other variables (formally this is done by a Fourier transform), converts a constant-coefficient PDE into a polynomial of the same degree, with the top degree (a homogeneous polynomial, here a quadratic form) being most significant for the classification.
+
+Just as one classifies conic sections and quadratic forms into parabolic, hyperbolic, and elliptic based on the discriminant , the same can be done for a second-order PDE at a given point. However, the discriminant in a PDE is given by due to the convention of the term being rather than ; formally, the discriminant (of the associated quadratic form) is , with the factor of 4 dropped for simplicity.
+
+
+If there are independent variables , a general linear partial differential equation of second order has the form
+
+The classification depends upon the signature of the eigenvalues of the coefficient matrix .
+
+
+The classification of partial differential equations can be extended to systems of first-order equations, where the unknown is now a vector with components, and the coefficient matrices are by matrices for . The partial differential equation takes the form
+
+where the coefficient matrices and the vector may depend upon and . If a hypersurface is given in the implicit form
+
+where has a non-zero gradient, then is a characteristic surface for the operator at a given point if the characteristic form vanishes:
+
+The geometric interpretation of this condition is as follows: if data for are prescribed on the surface , then it may be possible to determine the normal derivative of on from the differential equation. If the data on and the differential equation determine the normal derivative of on , then is non-characteristic. If the data on and the differential equation "do not" determine the normal derivative of on , then the surface is characteristic, and the differential equation restricts the data on : the differential equation is "internal" to .
+
+
+If a PDE has coefficients that are not constant, it is possible that it will not belong to any of these categories but rather be of mixed type. A simple but important example is the Euler–Tricomi equation
+
+which is called elliptic-hyperbolic because it is elliptic in the region , hyperbolic in the region , and degenerate parabolic on the line .
+In the phase space formulation of quantum mechanics, one may consider the quantum Hamilton's equations for trajectories of quantum particles. These equations are infinite-order PDEs. However, in the semiclassical expansion, one has a finite system of ODEs at any fixed order of . The evolution equation of the Wigner function is also an infinite-order PDE. The quantum trajectories are quantum characteristics, with the use of which one could calculate the evolution of the Wigner function.
+
+Linear PDEs can be reduced to systems of ordinary differential equations by the important technique of separation of variables. This technique rests on a characteristic of solutions to differential equations: if one can find any solution that solves the equation and satisfies the boundary conditions, then it is "the" solution (this also applies to ODEs). We assume as an ansatz that the dependence of a solution on the parameters space and time can be written as a product of terms that each depend on a single parameter, and then see if this can be made to solve the problem.
+
+In the method of separation of variables, one reduces a PDE to a PDE in fewer variables, which is an ordinary differential equation if in one variable – these are in turn easier to solve.
+
+This is possible for simple PDEs, which are called separable partial differential equations, and the domain is generally a rectangle (a product of intervals). Separable PDEs correspond to diagonal matrices – thinking of "the value for fixed " as a coordinate, each coordinate can be understood separately.
+
+This generalizes to the method of characteristics, and is also used in integral transforms.
+
+In special cases, one can find characteristic curves on which the equation reduces to an ODE – changing coordinates in the domain to straighten these curves allows separation of variables, and is called the method of characteristics.
+
+More generally, one may find characteristic surfaces.
+
+An integral transform may transform the PDE to a simpler one, in particular, a separable PDE. This corresponds to diagonalizing an operator.
+
+An important example of this is Fourier analysis, which diagonalizes the heat equation using the eigenbasis of sinusoidal waves.
+
+If the domain is finite or periodic, an infinite sum of solutions such as a Fourier series is appropriate, but an integral of solutions such as a Fourier integral is generally required for infinite domains. The solution for a point source for the heat equation given above is an example of the use of a Fourier integral.
+
+Often a PDE can be reduced to a simpler form with a known solution by a suitable change of variables. For example, the Black–Scholes PDE
+
+is reducible to the heat equation
+
+by the change of variables (for complete details see )
+
+Inhomogeneous equations can often be solved (for constant coefficient PDEs, always be solved) by finding the fundamental solution (the solution for a point source), then taking the convolution with the boundary conditions to get the solution.
+
+This is analogous in signal processing to understanding a filter by its impulse response.
+
+The superposition principle applies to any linear system, including linear systems of PDEs. A common visualization of this concept is the interaction of two waves in phase being combined to result in a greater amplitude, for example . The same principle can be observed in PDEs where the solutions may be real or complex and additive. superposition
+If and are solutions of linear PDE in some function space , then with any constants and are also a solution of that PDE in the same function space.
+
+There are no generally applicable methods to solve nonlinear PDEs. Still, existence and uniqueness results (such as the Cauchy–Kowalevski theorem) are often possible, as are proofs of important qualitative and quantitative properties of solutions (getting these results is a major part of analysis). Computational solution to the nonlinear PDEs, the split-step method, exist for specific equations like nonlinear Schrödinger equation.
+
+Nevertheless, some techniques can be used for several types of equations. The -principle is the most powerful method to solve underdetermined equations. The Riquier–Janet theory is an effective method for obtaining information about many analytic overdetermined systems.
+
+The method of characteristics can be used in some very special cases to solve partial differential equations.
+
+In some cases, a PDE can be solved via perturbation analysis in which the solution is considered to be a correction to an equation with a known solution. Alternatives are numerical analysis techniques from simple finite difference schemes to the more mature multigrid and finite element methods. Many interesting problems in science and engineering are solved in this way using computers, sometimes high performance supercomputers.
+
+From 1870 Sophus Lie's work put the theory of differential equations on a more satisfactory foundation. He showed that the integration theories of the older mathematicians can, by the introduction of what are now called Lie groups, be referred, to a common source; and that ordinary differential equations which admit the same infinitesimal transformations present comparable difficulties of integration. He also emphasized the subject of transformations of contact.
+
+A general approach to solving PDEs uses the symmetry property of differential equations, the continuous infinitesimal transformations of solutions to solutions (Lie theory). Continuous group theory, Lie algebras and differential geometry are used to understand the structure of linear and nonlinear partial differential equations for generating integrable equations, to find its Lax pairs, recursion operators, Bäcklund transform and finally finding exact analytic solutions to the PDE.
+
+Symmetry methods have been recognized to study differential equations arising in mathematics, physics, engineering, and many other disciplines.
+
+The Adomian decomposition method, the Lyapunov artificial small parameter method, and He's homotopy perturbation method are all special cases of the more general homotopy analysis method. These are series expansion methods, and except for the Lyapunov method, are independent of small physical parameters as compared to the well known perturbation theory, thus giving these methods greater flexibility and solution generality.
+
+The three most widely used numerical methods to solve PDEs are the finite element method (FEM), finite volume methods (FVM) and finite difference methods (FDM), as well other kind of methods called Meshfree methods, which were made to solve problems where the before mentioned methods are limited. The FEM has a prominent position among these methods and especially its exceptionally efficient higher-order version hp-FEM. Other hybrid versions of FEM and Meshfree methods include the generalized finite element method (GFEM), extended finite element method (XFEM), spectral finite element method (SFEM), meshfree finite element method, discontinuous Galerkin finite element method (DGFEM), Element-Free Galerkin Method (EFGM), Interpolating Element-Free Galerkin Method (IEFGM), etc.
+
+The finite element method (FEM) (its practical application often known as finite element analysis (FEA)) is a numerical technique for finding approximate solutions of partial differential equations (PDE) as well as of integral equations. The solution approach is based either on eliminating the differential equation completely (steady state problems), or rendering the PDE into an approximating system of ordinary differential equations, which are then numerically integrated using standard techniques such as Euler's method, Runge–Kutta, etc.
+
+Finite-difference methods are numerical methods for approximating the solutions to differential equations using finite difference equations to approximate derivatives.
+
+Similar to the finite difference method or finite element method, values are calculated at discrete places on a meshed geometry. "Finite volume" refers to the small volume surrounding each node point on a mesh. In the finite volume method, surface integrals in a partial differential equation that contain a divergence term are converted to volume integrals, using the divergence theorem. These terms are then evaluated as fluxes at the surfaces of each finite volume. Because the flux entering a given volume is identical to that leaving the adjacent volume, these methods conserve mass by design.
+
+
+
+

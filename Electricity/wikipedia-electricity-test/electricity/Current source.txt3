@@ -1,0 +1,108 @@
+﻿Current source
+
+A current source is an electronic circuit that delivers or absorbs an electric current which is independent of the voltage across it.
+
+A current source is the dual of a voltage source. The term "current sink" is sometimes used for sources fed from a negative voltage supply. Figure 1 shows the schematic symbol for an ideal current source driving a resistive load. There are two types. An "independent current source" (or sink) delivers a constant current. A "dependent current source" delivers a current which is proportional to some other voltage or current in the circuit.
+
+An ideal current source generates a current that is independent of the voltage changes across it. An ideal current source is a mathematical model, which real devices can approach very closely. If the current through an ideal current source can be specified independently of any other variable in a circuit, it is called an "independent" current source. Conversely, if the current through an ideal current source is determined by some other voltage or current in a circuit, it is called a dependent or controlled current source. Symbols for these sources are shown in Figure.
+
+The internal resistance of an ideal current source is infinite. An independent current source with zero current is identical to an ideal open circuit. The voltage across an ideal current source is completely determined by the circuit it is connected to. When connected to a short circuit, there is zero voltage and thus zero power delivered. When connected to a load resistance, the voltage across the source approaches infinity as the load resistance approaches infinity (an open circuit). 
+
+No physical current source is ideal. For example, no physical current source can operate when applied to an open circuit. There are two characteristics that define a current source in real life. One is its internal resistance and the other is its compliance voltage. The compliance voltage is the maximum voltage that the current source can supply to a load. Over a given load range, it is possible for some types of real current sources to exhibit nearly infinite internal resistance. However, when the current source reaches its compliance voltage, it abruptly stops being a current source.
+
+In circuit analysis, a current source having finite internal resistance is modeled by placing the value of that resistance across an ideal current source (the Norton equivalent circuit). However, this model is only useful when a current source is operating within its compliance voltage.
+
+The simplest non-ideal current source consists of a voltage source in series with a resistor. The amount of current available from such a source is given by the ratio of the voltage across the voltage source to the resistance of the resistor (Ohm's law; I = V/R). This value of current will only be delivered to a load with zero voltage drop across its terminals (a short circuit, an uncharged capacitor, a charged inductor, a virtual ground circuit, etc.) The current delivered to a load with nonzero voltage (drop) across its terminals (a linear or nonlinear resistor with a finite resistance, a charged capacitor, an uncharged inductor, a voltage source, etc.) will always be different. It is given by the ratio of the voltage drop across the resistor (the difference between the exciting voltage and the voltage across the load) to its resistance. For a nearly ideal current source, the value of the resistor should be very large but this implies that, for a specified current, the voltage source must be very large (in the limit as the resistance and the voltage go to infinity, the current source will become ideal and the current will not depend at all on the voltage across the load). Thus, efficiency is low (due to power loss in the resistor) and it is usually impractical to construct a 'good' current source this way. Nonetheless, it is often the case that such a circuit will provide adequate performance when the specified current and load resistance are small. For example, a 5 V voltage source in series with a 4.7 kilohm resistor will provide an "approximately" constant current of to a load resistance in the range of 50 to 450 ohm.
+
+A Van de Graaff generator is an example of such a high voltage current source. It behaves as an almost constant current source because of its very high output voltage coupled with its very high output resistance and so it supplies the same few microamperes at any output voltage up to hundreds of thousands of volts (or even tens of megavolts) for large laboratory versions.
+
+In these circuits the output current is not monitored and controlled by means of negative feedback.
+
+They are implemented by active electronic components (transistors) having current-stable nonlinear output characteristic when driven by steady input quantity (current or voltage). These circuits behave as dynamic resistors changing their present resistance to compensate current variations. For example, if the load increases its resistance, the transistor decreases its present output resistance (and "vice versa") to keep up a constant total resistance in the circuit.
+
+Active current sources have many important applications in electronic circuits. They are often used in place of ohmic resistors in analog integrated circuits (e.g., a differential amplifier) to generate a current that depends slightly on the voltage across the load.
+
+The common emitter configuration driven by a constant input current or voltage and common source (common cathode) driven by a constant voltage naturally behave as current sources (or sinks) because the output impedance of these devices is naturally high. The output part of the simple current mirror is an example of such a current source widely used in integrated circuits. The common base, common gate and common grid configurations can serve as constant current sources as well.
+
+A JFET can be made to act as a current source by tying its gate to its source. The current then flowing is the of the FET. These can be purchased with this connection already made and in this case the devices are called current regulator diodes or constant current diodes or current limiting diodes (CLD). An enhancement mode N channel MOSFET can be used in the circuits listed below.
+
+An example: bootstrapped current source.
+
+The simple resistor passive current source is ideal only when the voltage across it is 0; so voltage compensation by applying parallel negative feedback might be considered to improve the source. Operational amplifiers with feedback effectively work to minimise the voltage across their inputs. This results in making the inverting input a virtual ground, with the current running through the feedback, or load, and the passive current source. The input voltage source, the resistor, and the op-amp constitutes an "ideal" current source with value, . The op-amp voltage-to-current converter in Figure 3, a transimpedance amplifier and an op-amp inverting amplifier are typical implementations of this idea.
+
+The floating load is a serious disadvantage of this circuit solution.
+
+A typical example are Howland current source and its derivative Deboo integrator. In the last example (Fig. 1), the Howland current source consists of an input voltage source, , a positive resistor, R, a load (the capacitor, C, acting as impedance ) and a negative impedance converter INIC ( and the op-amp). The input voltage source and the resistor R constitute an imperfect current source passing current, through the load (Fig. 3 in the source). The INIC acts as a second current source passing "helping" current, , through the load. As a result, the total current flowing through the load is constant and the circuit impedance seen by the input source is increased. However the Howland current source isn't widely used because it requires the four resistors to be perfectly matched, and its impedance drops at high frequencies.
+
+The grounded load is an advantage of this circuit solution.
+
+They are implemented as a voltage follower with series negative feedback driven by a constant input voltage source (i.e., a "negative feedback voltage stabilizer"). The voltage follower is loaded by a constant (current sensing) resistor acting as a simple current-to-voltage converter connected in the feedback loop. The external load of this current source is connected somewhere in the path of the current supplying the current sensing resistor but out of the feedback loop.
+
+The voltage follower adjusts its output current flowing through the load so that to make the voltage drop across the current sensing resistor R equal to the constant input voltage . Thus the voltage stabilizer keeps up a constant voltage drop across a constant resistor; so, a constant current flows through the resistor and respectively through the load.
+
+If the input voltage varies, this arrangement will act as a voltage-to-current converter (voltage-controlled current source, VCCS); it can be thought as a reversed (by means of negative feedback) current-to-voltage converter. The resistance R determines the transfer ratio (transconductance).
+
+Current sources implemented as circuits with series negative feedback have the disadvantage that the voltage drop across the current sensing resistor decreases the maximal voltage across the load (the "compliance voltage").
+
+The simplest constant-current source or sink is formed from one component: a JFET with its gate attached to its source. Once the drain-source voltage reaches a certain minimum value, the JFET enters saturation where current is approximately constant. This configuration is known as a constant-current diode, as it behaves much like a dual to the constant voltage diode (Zener diode) used in simple voltage sources.
+
+Due to the large variability in saturation current of JFETs, it is common to also include a source resistor (shown in the adjacent image) which allows the current to be tuned down to a desired value.
+
+In this bipolar junction transistor (BJT) implementation (Figure 4) of the general idea above, a "Zener voltage stabilizer" (R1 and DZ1) drives an "emitter follower" (Q1) loaded by a "constant emitter resistor" (R2) sensing the load current. The external (floating) load of this current source is connected to the collector so that almost the same current flows through it and the emitter resistor (they can be thought of as connected in series). The transistor, Q1, adjusts the output (collector) current so as to keep the voltage drop across the constant emitter resistor, R2, almost equal to the relatively constant voltage drop across the Zener diode, DZ1. As a result, the output current is almost constant even if the load resistance and/or voltage vary. The operation of the circuit is considered in details below.
+
+A Zener diode, when reverse biased (as shown in the circuit) has a constant voltage drop across it irrespective of the current flowing through it. Thus, as long as the Zener current () is above a certain level (called holding current), the voltage across the Zener diode () will be constant. Resistor, R1, supplies the Zener current and the base current () of NPN transistor (Q1). The constant Zener voltage is applied across the base of Q1 and emitter resistor, R2.
+
+Voltage across R2 () is given by , where is the base-emitter drop of Q1. The emitter current of Q1 which is also the current through R2 is given by
+
+Since is constant and is also (approximately) constant for a given temperature, it follows that is constant and hence is also constant. Due to transistor action, emitter current, , is very nearly equal to the collector current, , of the transistor (which in turn, is the current through the load). Thus, the load current is constant (neglecting the output resistance of the transistor due to the Early effect) and the circuit operates as a constant current source. As long as the temperature remains constant (or doesn't vary much), the load current will be independent of the supply voltage, R1 and the transistor's gain. R2 allows the load current to be set at any desirable value and is calculated by
+
+where is typically 0.65 V for a silicon device.
+
+( is also the emitter current and is assumed to be the same as the collector or required load current, provided is sufficiently large). Resistance, , at resistor, R1, is calculated as
+
+where = 1.2 to 2 (so that is low enough to ensure adequate ),
+
+and is the lowest acceptable current gain for the particular transistor type being used.
+
+The Zener diode can be replaced by any other diode; e.g., a light-emitting diode LED1 as shown in Figure 5. The LED voltage drop () is now used to derive the constant voltage and also has the additional advantage of tracking (compensating) changes due to temperature. is calculated as
+
+and as
+
+Temperature changes will change the output current delivered by the circuit of Figure 4 because is sensitive to temperature. Temperature dependence can be compensated using the circuit of Figure 6 that includes a standard diode, D, (of the same semiconductor material as the transistor) in series with the Zener diode as shown in the image on the left. The diode drop () tracks the changes due to temperature and thus significantly counteracts temperature dependence of the CCS.
+
+Resistance is now calculated as
+
+Since ,
+
+Series negative feedback is also used in the . Negative feedback is a basic feature in some current mirrors using multiple transistors, such as the Widlar current source and the Wilson current source.
+
+One limitation with the circuits in Figures 5 and 6 is that the thermal compensation is imperfect. In bipolar transistors, as the junction temperature increases the drop (voltage drop from base to emitter) decreases. In the two previous circuits, a decrease in will cause an increase in voltage across the emitter resistor, which in turn will cause an increase in collector current drawn through the load. The end result is that the amount of 'constant' current supplied is at least somewhat dependent on temperature. This effect is mitigated to a large extent, but not completely, by corresponding voltage drops for the diode, D1, in Figure 6, and the LED, LED1, in Figure 5. If the power dissipation in the active device of the CCS is not small and/or insufficient emitter degeneration is used, this can become a non-trivial issue.
+
+Imagine in Figure 5, at power up, that the LED has 1 V across it driving the base of the transistor. At room temperature there is about 0.6 V drop across the junction and hence 0.4 V across the emitter resistor, giving an approximate collector (load) current of amps. Now imagine that the power dissipation in the transistor causes it to heat up. This causes the drop (which was 0.6 V at room temperature) to drop to, say, 0.2 V. Now the voltage across the emitter resistor is 0.8 V, twice what it was before the warmup. This means that the collector (load) current is now twice the design value! This is an extreme example of course, but serves to illustrate the issue.
+
+The circuit to the left overcomes the thermal problem (see also, current limiting). To see how the circuit works, assume the voltage has just been applied at V+. Current runs through R1 to the base of Q1, turning it on and causing current to begin to flow through the load into the collector of Q1. This same load current then flows out of Q1's emitter and consequently through to ground. When this current through to ground is sufficient to cause a voltage drop that is equal to the drop of Q2, Q2 begins to turn on. As Q2 turns on it pulls more current through its collector resistor, R1, which diverts some of the injected current in the base of Q1, causing Q1 to conduct less current through the load. This creates a negative feedback loop within the circuit, which keeps the voltage at Q1's emitter almost exactly equal to the drop of Q2. Since Q2 is dissipating very little power compared to Q1 (since all the load current goes through Q1, not Q2), Q2 will not heat up any significant amount and the reference (current setting) voltage across will remain steady at ~0.6 V, or one diode drop above ground, regardless of the thermal changes in the drop of Q1. The circuit is still sensitive to changes in the ambient temperature in which the device operates as the BE voltage drop in Q2 varies slightly with temperature.
+
+The simple transistor current source from Figure 4 can be improved by inserting the base-emitter junction of the transistor in the feedback loop of an op-amp (Figure 7). Now the op-amp increases its output voltage to compensate for the drop. The circuit is actually a buffered non-inverting amplifier driven by a constant input voltage. It keeps up this constant voltage across the constant sense resistor. As a result, the current flowing through the load is constant as well; it is exactly the Zener voltage divided by the sense resistor. The load can be connected either in the emitter (Figure 7) or in the collector (Figure 4) but in both the cases it is floating as in all the circuits above. The transistor is not needed if the required current doesn't exceed the sourcing ability of the op-amp. The article on current mirror discusses another example of these so-called "gain-boosted" current mirrors.
+
+The general negative feedback arrangement can be implemented by an IC voltage regulator (LM317 voltage regulator on Figure 8). As with the bare emitter follower and the precise op-amp follower above, it keeps up a constant voltage drop (1.25 V) across a constant resistor (1.25 Ω); so, a constant current (1 A) flows through the resistor and the load. The LED is on when the voltage across the load exceeds 1.8 V (the indicator circuit introduces some error). The grounded load is an important advantage of this solution.
+
+Nitrogen-filled glass tubes with two electrodes and a calibrated Becquerel (fissions per second) amount of Ra offer a constant number of charge carriers per second for conduction, which determines the maximum current the tube can pass over a voltage range from 25 to 500 V.
+
+Most sources of electrical energy (mains electricity, a battery, etc.) are best modeled as voltage sources. Such sources provide constant voltage, which means that as long as the current drawn from the source is within the source's capabilities, its output voltage stays constant. An ideal voltage source provides no energy when it is loaded by an open circuit (i.e., an infinite impedance), but approaches infinite power and current when the load resistance approaches zero (a short circuit). Such a theoretical device would have a zero ohm output impedance in series with the source. A real-world voltage source has a very low, but non-zero output impedance: often much less than 1 ohm.
+
+Conversely, a current source provides a constant current, as long as the load connected to the source terminals has sufficiently low impedance. An ideal current source would provide no energy to a short circuit and approach infinite energy and voltage as the load resistance approaches infinity (an open circuit). An "ideal" current source has an infinite output impedance in parallel with the source. A "real-world" current source has a very high, but finite output impedance. In the case of transistor current sources, impedances of a few megohms (at DC) are typical.
+
+An "ideal" current source cannot be connected to an "ideal" open circuit because this would create the paradox of running a constant, non-zero current (from the current source) through an element with a defined zero current (the open circuit). Also, a current source should not be connected to another current source if their currents differ but this arrangement is frequently used (e.g., in amplifying stages with dynamic load, CMOS circuits, etc.)
+
+Similarly, an "ideal" voltage source cannot be connected to an "ideal" short circuit (R = 0), since this would result a similar paradox of finite non-zero voltage across an element with defined zero voltage (the short circuit). Also, a voltage source should not be connected to another voltage source if their voltages differ but again this arrangement is frequently used (e.g., in common base and differential amplifying stages).
+
+Contrary, current and voltage sources can be connected to each other without any problems, and this technique is widely used in circuitry (e.g., in cascode circuits, differential amplifier stages with common emitter current source, etc.)
+
+Because no ideal sources of either variety exist (all real-world examples have finite and non-zero source impedance), any current source can be considered as a voltage source with the "same" source impedance and vice versa. These concepts are dealt with by Norton's and Thévenin's theorems.
+
+Charging of capacitor by constant current source and by voltage source is different. Linearity is maintained for constant current source charging of capacitor with time, whereas voltage source charging of capacitor is exponential with time. This particular property of constant current source helps for proper signal conditioning with nearly zero reflection from load.
+
+
+
+
+

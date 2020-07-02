@@ -1,0 +1,17 @@
+﻿Grid code
+
+A grid code is a technical specification which defines the parameters a facility connected to a public electric grid has to meet to ensure safe, secure and economic proper functioning of the electric system. The facility can be an electricity generating plant, a consumer, or another network.
+The grid code is specified by an authority responsible for the system integrity and network operation. 
+Its elaboration usually implicates network operators (distribution or transmission system operators), representatives of users and, to an extent varying between countries, the regulating body.
+
+Contents of a grid code vary depending on the transmission company's requirements. Typically, a grid code will specify the required behavior of a connected generator during system disturbances. These include voltage regulation, power factor limits and reactive power supply, response to a system fault (e.g. short-circuit), response to frequency changes on the grid, and requirement to "ride through" short interruptions of the connection.
+
+There is not a common grid code in all countries and each electric grid has its own grid code. Even in North America, There is no grid code that applies to all territories.
+
+All generators including Independent power producers like photovoltaic power stations or wind farms have to comply with the grid code.
+
+Grid code requirements can be divided into two categories: static and dynamic requirements.
+
+
+
+

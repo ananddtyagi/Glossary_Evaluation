@@ -1,0 +1,53 @@
+﻿Elitzur–Vaidman bomb tester
+
+The Elitzur–Vaidman bomb-tester is a quantum mechanics thought experiment that uses interaction-free measurements to verify that a bomb is functional without having to detonate it. It was conceived in 1993 by Avshalom Elitzur and Lev Vaidman. Since their publication, real-world experiments have confirmed that their theoretical method works as predicted.
+
+The bomb tester takes advantage of two characteristics of elementary particles, such as photons or electrons: nonlocality and wave-particle duality. By placing the particle in a quantum superposition, it is possible for the experiment to verify that the bomb works "without" triggering its detonation, although there is still a 50% chance that the bomb will detonate in the effort.
+
+The bomb test is an interaction-free measurement. The idea of getting information about an object without interacting with it is not a new one. For example, there are two boxes, one of which contains something, the other of which contains nothing. If you open one box and see nothing, you know that the other contains something, without ever opening it.
+
+This experiment has its roots in the double-slit experiment and other, more complex concepts which inspired it, including Schrödinger's cat, and Wheeler's delayed-choice experiment. The behavior of elementary particles is very different from what we experience in our macroscopic world. Their observed behavior can be that of a wave or of a particle (see wave–particle duality), their wave-like behavior implies what is called "superposition".
+In this state, some properties of the particle, for example, its location, are not definite. While in a superposition, any and all possibilities are equally real. So, if the particle could feasibly exist in more than one location, in certain senses that are experimentally useful, it exists in all of them simultaneously. The particle's wave can later be "collapsed" by observing it, at which time its location (or other measured property) at the moment of observation is definite. Information can then be gleaned not only about the actual state of the particle, but also other states or locations in which it "existed" before the collapse. This gleaning of information is possible even if the particle was never factually in any of the particular states or locations that are of interest.
+
+Consider a collection of light-sensitive bombs, of which some are duds. When their triggers detect any light, even a single photon, the light is absorbed and the bomb explodes. The triggers on the dud bombs have no sensor, so the photon cannot be absorbed. Thus, the dud bomb will not detect the photon and will not detonate. Is it possible to determine which bombs are functional and which are duds without detonating all of the live ones?
+
+
+A superposition in the bomb tester is created with an angled half-silvered mirror, which allows a photon to either pass through it, or be reflected off it at a 90-degree angle (see figure 3). There is equal probability it will do either. The photon enters a superposition, in which it does both. The single particle both passes through, and is reflected off the half-silvered mirror. From that moment on, the single photon exists in two different locations.
+
+Along both the upper and lower path, the particle will encounter an ordinary mirror, positioned to redirect the two routes toward one another. They then intersect at a second half-silvered mirror. On the other side, a pair of detectors are placed such that the photon can be detected by either detector, but never by both. It is also possible that it will not be detected by either. Based on this outcome, with a live bomb, there is a 50% chance it will explode, a 25% chance it will be identified as good without exploding and a 25% chance there will be no result.
+
+A light-sensitive bomb is placed along the lower path. If the bomb is good, when a photon arrives, it will explode and both will be destroyed. If it is a dud, the photon will pass by unaffected (see figure 4). To understand how this experiment works, it is important to know that the bomb is a kind of observer and that this encounter is a kind of observation. It can therefore collapse the photon's superposition, in which the photon is travelling along both the upper and lower paths. When it reaches the live bomb, or the detectors, however, it can only have been on one or the other. But, like the radioactive material in the box with Schrödinger's famous cat, upon its encounter with the half-silvered mirror at the beginning of the experiment, the photon, paradoxically does and does not interact with the bomb. According to the authors, the bomb both explodes and does not explode. This is only in the case of a live bomb, however. In any event, once observed by the detectors, it will have only traveled one of the paths.
+
+When two waves collide, the process by which they affect each other is called interference. They can either strengthen each other by "constructive interference", or weaken each other by "destructive interference". This is true whether the wave is in water, or a single photon in a superposition. So even though there is only one photon in the experiment, because of its encounter with the half-silvered mirror, it acts like two. When "it" or "they" are reflected off the ordinary mirrors, it will interfere with itself as if it were two different photons. "But that is only true if the bomb is a dud." A live bomb will absorb the photon when it explodes and there will be no opportunity for the photon to interfere with itself.
+
+When it reaches the second half-silvered mirror, if the photon in the experiment is behaving like a particle (in other words, if it is not in a superposition), then it has a fifty-fifty chance it will pass through or be reflected and be detected by one or the other detector. "But that is only possible if the bomb is live." If the bomb "observed" the photon, it detonated and destroyed the photon on the lower path, therefore only the photon that takes the upper path will be detected, either at Detector C or Detector D.
+
+Detector D is the key to confirming that the bomb is live.
+
+The two detectors and the second half-silvered mirror are precisely aligned with one another. Detector C is positioned to detect the particle if the bomb is a dud and the particle traveled both paths in its superposition and then constructively interfered with itself. Detector D is positioned to detect the photon only in the event of destructive interference—an impossibility (see figure 6). In other words, if the photon is in a superposition at the time it arrives at the second half-silvered mirror, it will always arrive at detector C and never at detector D.
+
+If the bomb is live, there is a 50/50 chance that the photon took the upper path. If it "factually" did so, then it "counter-factually" took the lower path (see figure 7). That counter-factual event destroyed that photon and left only the photon on the upper path to arrive at the second half-silvered mirror. At which point it will, again, have a 50/50 chance of passing through it or being reflected off it, and, subsequently, it will be detected at either of the two detectors with the same probability. This is what makes it possible for the experiment to verify the bomb is live without actually blowing it up.
+
+With a live bomb, there can be three possible outcomes:
+
+
+These correspond with the following conditions of the bomb being tested:
+
+
+If the result is 2, the experiment is repeated. If the photon continues to be observed at C and the bomb does not explode, it can eventually be concluded that the bomb is a dud.
+
+With this process 25% of live bombs can be identified without being detonated, 50% will be detonated and 25% remain uncertain. By repeating the process with the uncertain ones, the ratio of identified non-detonated live bombs approaches 33% of the initial population of bombs. See below for a modified experiment that can identify the live bombs with a yield rate approaching 100%.
+
+The authors point out that the ability to obtain information about the bomb's functionality without ever "touching" it, appears to be a paradox. That, they claim, is based on the assumption that there is only a single "real" result. But according to the many-worlds interpretation, each possible state of a particle's superposition is real. Therefore, the particle does actually interact with the bomb and it does explode, just not in our "world".
+
+In 1994, Anton Zeilinger, Paul Kwiat, Harald Weinfurter, and Thomas Herzog actually performed an equivalent of the above experiment, proving interaction-free measurements are indeed possible.
+
+In 1996, Kwiat "et al." devised a method, using a sequence of polarising devices, that efficiently increases the yield rate to a level arbitrarily close to one. The key idea is to split a fraction of the photon beam into a large number of beams of very small amplitude and reflect all of them off the mirror, recombining them with the original beam afterwards.
+It can also be argued that this revised construction is simply equivalent to a resonant cavity and the result looks much less shocking in this language; see Watanabe and Inoue (2000).
+
+In 2016, Carsten Robens, Wolfgang Alt, Clive Emary, Dieter Meschede, and Andrea Alberti demonstrated that the Elitzur–Vaidman bomb testing experiment can be recast in a rigorous test of the macro-realistic worldview based on the violation of the Leggett–Garg inequality using ideal negative measurements. In their experiment they perform the bomb test with a single atom trapped in a polarization-synthesized optical lattice. This optical lattice enables interaction-free measurements by entangling the spin and position of atoms.
+
+
+
+
+

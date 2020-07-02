@@ -1,0 +1,31 @@
+﻿Aerial bundled cable
+
+Aerial bundled cables (also aerial bundled conductors or simply ABC) are overhead power lines using several insulated phase conductors bundled tightly together, usually with a bare neutral conductor. This contrasts with the traditional practice of using uninsulated conductors separated by air gaps. This variation of overhead power lines utilizes the same principles as bundled conductors, except that they are closer together to the point of touching but each conductor is surrounded by an insulating layer (except for the neutral line).
+
+The main objections to the traditional design are that the multiple conductors are considered unappealing, and external forces (such as high winds) can cause them to touch and short circuit. The resultant sparks have been a cause of bushfires in drier climates. In the UK where some supplies to rural property are converted to PME/MEN from TT Earthing system concerns have been expressed that the lower conductor alone may be broken, (by high vehicle or falling tree for example) but with the upper phase conductors intact. This is a potentially dangerous fault condition. With ABC, a simultaneous disconnection of all conductors is more likely.
+
+In moister climates, tree growth is a significant problem for overhead power lines. Aerial bundled cables will not arc over if touched by tree branches. Although persistent rubbing is still a problem, tree-trimming costs can be reduced.
+
+Areas with large trees and branches falling on lines are a problem for aerial bundled cables as the line degrades over time. Due to the very large strain forces cracking and breaking insulation can lead to short circuit failures which can then lead to ground fires due to dripping of molten insulation.
+
+Low voltage ABC has already been developed in several countries across the globe and promises to be cheaper, safer, more reliable, require less tree clearing and pruning, be more aesthetic, be less labor intensive, require less maintenance and eliminate bushfires being initiated by conductor clashing.
+
+
+
+Sri Lanka
+
+Low voltage aerial bundled conductor (ABC) lines are installed in urban distribution systems commonly.
+
+Low voltage aerial bundled conductor (ABC) lines were first installed on the rural Irish distribution networks in 1981. It is not known where ABC was first installed.
+
+Aerial bundled cables (ABC) have been introduced into Australian power systems progressively since 1983. This was partly in response to bushfires sparked by old wires touching.
+
+In some bushfire prone areas though, older aerial bundled cable installations are now creating fires, particularly at points where the cables have damaged or been degraded over time.
+
+In the Dandenong Ranges area Victoria 2014. Medium voltage (11 kV - 22 kV) Aerial Bundled Cable is being replaced with underground cable due to high failure rates of HV ABC, with life expectancy of just 10 years, when original life was expected to be approx 30 years. Due to degraded cable, cost of repairs & maintenance and bushfire risk.
+
+K-Electric first introduced Aerial Bundled Cabling, in Gulshan-e-Iqbal area of Karachi city with a pilot project was completed in march 2014. Following 90% theft loss reduction, the decision to roll out the new cabling across the entire K-Electric distribution network of Karachi.
+
+
+ 
+

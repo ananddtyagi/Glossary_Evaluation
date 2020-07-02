@@ -1,0 +1,58 @@
+﻿Free particle
+
+In physics, a free particle is a particle that, in some sense, is not bound by an external force, or equivalently not in a region where its potential energy varies. In classical physics, this means the particle is present in a "field-free" space. In quantum mechanics, it means a region of uniform potential, usually set to zero in the region of interest since potential can be arbitrarily set to zero at any point (or surface in three dimensions) in space.
+
+The classical free particle is characterized by a fixed velocity v. The momentum is given by
+
+and the kinetic energy (equal to total energy) by
+
+where "m" is the mass of the particle and v is the vector velocity of the particle.
+
+A free particle in non-relativistic quantum mechanics is described by the free Schrödinger equation:
+
+where ψ is the wavefunction of the particle at position r and time "t". The solution for a particle with momentum p or wave vector k, at angular frequency ω or energy "E", is given by the complex plane wave:
+
+with amplitude "A". The eigenvalue spectrum is infinitely degenerate since for each eigenvalue "E>0", there corresponds an infinite number of eigenfunctions corresponding to different directions of formula_5. As for "all" quantum particles free "or" bound, the Heisenberg uncertainty principles
+
+(similarly for the "y" and "z" directions), and the De Broglie relations:
+
+apply. Since the potential energy is (set to) zero, the total energy "E" is equal to the kinetic energy, which has the same form as in classical physics:
+
+It is clear that since the plane wave has definite momentum (definite energy), the probability of finding the particle's location is uniform and negligible all over the space.
+
+The integral of the probability density function
+
+where * denotes complex conjugate, over all space is the probability of finding the particle in all space, which must be unity if the particle exists:
+
+This is the normalization condition for the wave function. The wavefunction is not normalizable for a plane wave, but is for a wavepacket. 
+The free particle wave function may be represented by a superposition of "momentum" eigenfunctions, with coefficients given by the Fourier transform of the initial wavefunction:
+
+where the integral is over all k-space and formula_12 (to ensure that the wave packet is a solution of the free particle Schrödinger equation). Here formula_13 is the value of the wave function at time 0 and formula_14 is the Fourier transform of formula_13. (The Fourier transform formula_16 is essentially the momentum wave function of the position wave function formula_17, but written as a function of formula_18 rather than formula_19.)
+
+The expectation value of the momentum p for the complex plane wave is
+
+and for the general wave packet it is
+
+The expectation value of the energy E is 
+
+The phase velocity is defined to be the speed at which a plane wave solution propagates, namely
+
+Note that formula_24 is "not" the speed of a classical particle with momentum formula_25; rather, it is half of the classical velocity.
+
+Meanwhile, suppose that the initial wave function formula_13 is a wave packet whose Fourier transform formula_14 is concentrated near a particular wave vector formula_18. Then the group velocity of the plane wave is defined as
+
+which agrees with the formula for the classical velocity of the particle. The group velocity is the (approximate) speed at which the whole wave packet propagates, while the phase velocity is the speed at which the individual peaks in the wave packet move. The figure illustrates this phenomenon, with the individual peaks within the wave packet propagating at half the speed of the overall packet.
+
+The notion of group velocity is based on a linear approximation to the dispersion relation formula_30 near a particular value of formula_31. In this approximation, the amplitude of the wave packet moves at a velocity equal to the group velocity "without changing shape". This result is an approximation that fails to capture certain interesting aspects of the evolution a free quantum particle. Notably, the width of the wave packet, as measured by the uncertainty in the position, grows linearly in time for large times. This phenomenon is called the spread of the wave packet for a free particle.
+
+Specifically, it is not difficult to compute an exact formula for the uncertainty formula_32 as a function of time, where formula_33 is the position operator. Working in one spatial dimension for simplicity, we have:
+where formula_13 is the time-zero wave function. The expression in parentheses in the second term on the right-hand side is the quantum covariance of formula_33 and formula_37.
+
+Thus, for large positive times, the uncertainty in formula_33 grows linearly, with the coefficient of formula_39 equal to formula_40. If the momentum of the initial wave function formula_13 is highly localized, the wave packet will spread slowly and the group-velocity approximation will remain good for a long time. Intuitively, this result says that if the initial wave function has a very sharply defined momentum, then the particle has a sharply defined velocity and will (to good approximation) propagate at this velocity for a long time.
+
+There are a number of equations describing relativistic particles: see relativistic wave equations.
+
+
+
+
+

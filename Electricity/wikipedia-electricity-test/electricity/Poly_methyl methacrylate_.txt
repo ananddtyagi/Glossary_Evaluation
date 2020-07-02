@@ -1,0 +1,53 @@
+﻿Poly(methyl methacrylate)
+
+Poly(methyl methacrylate) (PMMA), also known as acrylic, acrylic glass, or plexiglass as well as by the trade names Crylux, Plexiglas, Acrylite, Lucite, Perclax and Perspex among several others (see below), is a transparent thermoplastic often used in sheet form as a lightweight or shatter-resistant alternative to glass. The same material can be used as a casting resin, in inks and coatings, and has many other uses.
+
+Although not a type of familiar silica-based glass, the substance, like many thermoplastics, is often technically classified as a type of glass (in that it is a non-crystalline vitreous substance) hence its occasional historical designation as "acrylic glass". Chemically, it is the synthetic polymer of methyl methacrylate. The material was developed in 1928 in several different laboratories by many chemists, such as William Chalmers, Otto Röhm, and Walter Bauer, and was first brought to market in 1933 by German "Röhm & Haas AG" (as of January 2019 part of Evonik Industries) and its partner and former U.S. affiliate Rohm and Haas Company under the trademark Plexiglas.
+
+PMMA is an economical alternative to polycarbonate (PC) when tensile strength, flexural strength, transparency, polishability, and UV tolerance are more important than impact strength, chemical resistance and heat resistance. Additionally, PMMA does not contain the potentially harmful bisphenol-A subunits found in polycarbonate. It is often preferred because of its moderate properties, easy handling and processing, and low cost. Non-modified PMMA behaves in a brittle manner when under load, especially under an impact force, and is more prone to scratching than conventional inorganic glass, but modified PMMA is sometimes able to achieve high scratch and impact resistance.
+
+The first acrylic acid was created in 1843. Methacrylic acid, derived from acrylic acid, was formulated in 1865. The reaction between methacrylic acid and methanol results in the ester methyl methacrylate. Polymethyl methacrylate was discovered in the early 1930s by British chemists Rowland Hill and John Crawford at Imperial Chemical Industries (ICI) in England. ICI registered the product under the trademark Perspex. About the same time, chemist and industrialist Otto Röhm of Rohm and Haas AG in Germany attempted to produce safety glass by polymerizing methyl methacrylate between two layers of glass. The polymer separated from the glass as a clear plastic sheet, which Röhm gave the trademarked name Plexiglas in 1933. Both Perspex and Plexiglas were commercialized in the late 1930s. In the United States, E.I. du Pont de Nemours & Company (now DuPont Company) subsequently introduced its own product under the trademark Lucite. In 1936 ICI Acrylics (now Lucite International) began the first commercially viable production of acrylic safety glass. During World War II both Allied and Axis forces used acrylic glass for submarine periscopes and aircraft windshields, canopies, and gun turrets. Airplane pilots whose eyes were damaged by flying shards of PMMA fared much better than those injured by standard glass, demonstrating better compatibility between human tissue and PMMA than glass. Civilian applications followed after the war.
+
+Common orthographic stylings include "polymethyl methacrylate" and "polymethylmethacrylate". The full IUPAC chemical name is poly(methyl 2-methylpropenoate). (It is a common mistake to use "an" instead of "en".)
+
+Although PMMA is often called simply "acrylic", "acrylic" can also refer to other polymers or copolymers containing polyacrylonitrile. Notable trade names include Acrylite, Lucite, PerClax, R-Cast, Plexiglas, Optix, Perspex, Oroglas, Altuglas, Cyrolite, and Sumipex.
+
+PMMA is routinely produced by emulsion polymerization, solution polymerization, and bulk polymerization. Generally, radical initiation is used (including living polymerization methods), but anionic polymerization of PMMA can also be performed. To produce of PMMA, about of petroleum is needed. PMMA produced by radical polymerization (all commercial PMMA) is atactic and completely amorphous.
+
+The glass transition temperature ("T") of atactic PMMA is . The "T" values of commercial grades of PMMA range from ; the range is so wide because of the vast number of commercial compositions which are copolymers with co-monomers other than methyl methacrylate. PMMA is thus an organic glass at room temperature; i.e., it is below its "T". The forming temperature starts at the glass transition temperature and goes up from there. All common molding processes may be used, including injection molding, compression molding, and extrusion. The highest quality PMMA sheets are produced by cell casting, but in this case, the polymerization and molding steps occur concurrently. The strength of the material is higher than molding grades owing to its extremely high molecular mass. Rubber toughening has been used to increase the toughness of PMMA to overcome its brittle behavior in response to applied loads.
+
+PMMA can be joined using cyanoacrylate cement (commonly known as superglue), with heat (welding), or by using chlorinated solvents such as dichloromethane or trichloromethane (chloroform) to dissolve the plastic at the joint, which then fuses and sets, forming an almost invisible weld. Scratches may easily be removed by polishing or by heating the surface of the material.
+
+Laser cutting may be used to form intricate designs from PMMA sheets. PMMA vaporizes to gaseous compounds (including its monomers) upon laser cutting, so a very clean cut is made, and cutting is performed very easily. However, the pulsed lasercutting introduces high internal stresses along the cut edge, which on exposure to solvents produce undesirable "stress-crazing" at the cut edge and several millimetres deep. Even ammonium-based glass-cleaner and almost everything short of soap-and-water produces similar undesirable crazing, sometimes over the entire surface of the cut parts, at great distances from the stressed edge. Annealing the PMMA sheet/parts is therefore an obligatory post-processing step when intending to chemically bond lasercut parts together.
+
+In the majority of applications, it will not shatter. Rather, it breaks into large dull pieces. Since PMMA is softer and more easily scratched than glass, scratch-resistant coatings are often added to PMMA sheets to protect it (as well as possible other functions).
+
+Methyl methacrylate "synthetic resin" for casting (simply the bulk liquid chemical) may be used in conjunction with a polymerization catalyst such as methyl ethyl ketone peroxide (MEKP), to produce hardened transparent PMMA in any shape, from a mold. Objects like insects or coins, or even dangerous chemicals in breakable quartz ampules, may be embedded in such "cast" blocks, for display and safe handling.
+
+PMMA is a strong, tough, and lightweight material. It has a density of 1.17–1.20 g/cm, which is less than half that of glass. It also has good impact strength, higher than both glass and polystyrene; however, PMMA's impact strength is still significantly lower than polycarbonate and some engineered polymers. PMMA ignites at and burns, forming carbon dioxide, water, carbon monoxide and low-molecular-weight compounds, including formaldehyde.
+
+PMMA transmits up to 92% of visible light (3 mm thickness), and gives a reflection of about 4% from each of its surfaces due to its refractive index (1.4905 at 589.3 nm). It filters ultraviolet (UV) light at wavelengths below about 300 nm (similar to ordinary window glass). Some manufacturers add coatings or additives to PMMA to improve absorption in the 300–400 nm range. PMMA passes infrared light of up to 2,800 nm and blocks IR of longer wavelengths up to 25,000 nm. Colored PMMA varieties allow specific IR wavelengths to pass while blocking visible light (for remote control or heat sensor applications, for example).
+
+PMMA swells and dissolves in many organic solvents; it also has poor resistance to many other chemicals due to its easily hydrolyzed ester groups. Nevertheless, its environmental stability is superior to most other plastics such as polystyrene and polyethylene, and PMMA is therefore often the material of choice for outdoor applications.
+
+PMMA has a maximum water absorption ratio of 0.3–0.4% by weight. Tensile strength decreases with increased water absorption. Its coefficient of thermal expansion is relatively high at (5–10)×10 °C.
+
+Pure poly(methyl methacrylate) homopolymer is rarely sold as an end product, since it is not optimized for most applications. Rather, modified formulations with varying amounts of other comonomers, additives, and fillers are created for uses where specific properties are required. For example,
+
+The polymer of methyl acrylate, PMA or poly(methyl acrylate), is similar to poly(methyl methacrylate), except for the lack of methyl groups on the backbone carbon chain. PMA is a soft white rubbery material that is softer than PMMA because its long polymer chains are thinner and smoother and can more easily slide past each other.
+
+Being transparent and durable, PMMA is a versatile material and has been used in a wide range of fields and applications such as rear-lights and instrument clusters for vehicles, appliances, and lenses for glasses. PMMA in the form of sheets affords to shatter resistant panels for building windows, skylights, bulletproof security barriers, signs & displays, sanitary ware (bathtubs), LCD screens, furniture and many other applications. It is also used for coating polymers based on MMA provides outstanding stability against environmental conditions with reduced emission of VOC. Methacrylate polymers are used extensively in medical and dental applications where purity and stability are critical to performance.
+
+
+
+In particular, acrylic-type contact lenses are useful for cataract surgery in patients that have recurrent ocular inflammation (uveitis), as acrylic material induces less inflammation. 
+
+Due to its aforementioned biocompatibility, Poly(methyl methacrylate) is a commonly used material in modern dentistry, particularly in the fabrication of dental prosthetics, artificial teeth, and orthodontic appliances.
+
+
+
+
+The Futuro house was made of fibreglass-reinforced polyester plastic, polyester-polyurethane, and poly(methylmethacrylate); one of them was found to be degrading by cyanobacteria and Archaea.
+
+
+

@@ -1,0 +1,24 @@
+﻿Emissions       Generation Resource Integrated Database
+
+The Emissions & Generation Resource Integrated Database (eGRID) is a comprehensive source of data on the environmental characteristics of almost all electric power generated in the United States. eGRID is issued by the U.S. Environmental Protection Agency (EPA).
+
+As of February 2018, the available editions of eGRID contain data for years 2016, 2014, 2012, 2010, 2009, 2007, 2005, 2004, and 1996 through 2000. eGRID is unique in that it links air emissions data with electric generation data for United States power plants.
+
+
+eGRID data include emissions, different types of emission rates, electricity generation, resource mix, and heat input. eGRID data also include plant identification, location, and structural information. The emissions information in eGRID include carbon dioxide (CO), nitrogen oxides (NO), sulfur dioxide (SO), methane (CH), nitrous oxide (NO),and carbon dioxide equivalent (COe). CO, CH, and NO are greenhouse gases (GHG) that contribute to global warming or climate change. NO and SO contribute to unhealthy air quality and acid rain in many parts of the country. eGRID's resource mix information includes the following fossil fuel resources: coal, oil, gas, other fossil; nuclear resources; and the following renewable resources: hydroelectric (water), biomass (including biogas, landfill gas and digester gas), wind, solar, and geothermal.
+
+eGRID data is presented as an Excel workbook with data worksheets and a table of contents. The eGRID workbook contains data at the boiler, generator, and plant levels and aggregated data by state, power control area, eGRID subregion, NERC region, and U.S. The workbook also includes a worksheet that displays the grid gross loss (%).
+
+Additional documentation generally is also generally provided with each eGRID release. As an example, eGRID 2012 contains a Technical Support Document (PDF), Summary Tables (PDF), Subregion GHG output emission rates (PDF) for CO, CH, and NO (for GHG inventory and registry work), NERC region Map (JPG), eGRID2012 subregion map (JPG), and release notes (TXT). These files are available as separate downloadable files or all of them are contained in a ZIP file, "all eGRID2012 files." Similar files can be downloaded for a given year's eGRID release from EPA’s eGRID website.
+The primary data sources used for eGRID include data reported by electric generators to EPA’s Clean Air Markets Division (pursuant to 40 CFR Part 70) and to the U.S. Energy Information Administration (EIA).
+
+eGRID data are used for carbon footprinting; emission reduction calculations; calculating indirect greenhouse gas emissions for The Climate Registry, the California Climate Action Registry, California’s Mandatory GHG emissions reporting program (Global Warming Solutions Act of 2006, AB 32), and other GHG protocols; were used as the starting point for the new international carbon emissions database, CARMA. EPA tools and programs such as Power Profiler , Portfolio Manager, 
+the WasteWise Office Carbon Footprint Tool, the Green Power Equivalency Calculator, the Personal Greenhouse Gas Emissions Calculator, 
+and the Greenhouse Gas Equivalencies Calculator use eGRID. Other tools such as labeling/environmental disclosure, Renewable Portfolio Standards (RPS) and Renewable Energy Credits (RECs) attributes are supported by eGRID data. States also rely on eGRID data for electricity labeling (environmental disclosure programs), emissions inventories, and for policy decisions such as output based standards. eGRID is additionally used by nongovernmental organizations for tools and analysis by the International Council for Local Environmental Initiatives (ICLEI), the Northeast States for Coordinated Air Use Management (NESCAUM), the Rocky Mountain Institute, the National Resource Defense Council (NRDC), the Ozone Transport Commission (OTC), Powerscorecard.org, and the Greenhouse Gas Protocol Initiative.
+
+In 2010, Executive Order 13514 was issued, requiring Federal agencies to “measure, report, and reduce their greenhouse gas emissions from direct and indirect activities.” 
+The Federal GHG Accounting and Reporting Guidance accompanied this order and recommended using eGRID non-baseload emission rates to estimate the Scope 2 (indirect) emission reductions from renewable energy.
+
+
+
+

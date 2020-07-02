@@ -1,0 +1,121 @@
+﻿Fermi gas
+
+An ideal Fermi gas is a state of matter which is an ensemble of many non-interacting fermions. Fermions are particles that obey Fermi–Dirac statistics, like electrons, protons, and neutrons, and, in general, particles with half-integer spin. These statistics determine the energy distribution of fermions in a Fermi gas in thermal equilibrium, and is characterized by their number density, temperature, and the set of available energy states. The model is named after the Italian physicist Enrico Fermi.
+
+This physical model can be accurately applied to many systems with many fermions. Some key examples are the behaviour of charge carriers in a metal, nucleons in an atomic nucleus, neutrons in a neutron star, and electrons in a white dwarf.
+
+An ideal Fermi gas or free Fermi gas is a physical model assuming a collection of non-interacting fermions in a constant potential well. It is the quantum mechanical version of an ideal gas, for the case of fermionic particles.
+
+By the Pauli exclusion principle, no quantum state can be occupied by more than one fermion with an identical set of quantum numbers. Thus a non-interacting Fermi gas, unlike a Bose gas, concentrates a small number of particles per energy. Thus a Fermi gas is prohibited from condensing into a Bose–Einstein condensate, although weakly-interacting Fermi gases might. The total energy of the Fermi gas at absolute zero is larger than the sum of the single-particle ground states because the Pauli principle implies a sort of interaction or pressure that keeps fermions separated and moving. For this reason, the pressure of a Fermi gas is non-zero even at zero temperature, in contrast to that of a classical ideal gas. For example, this so-called degeneracy pressure stabilizes a neutron star (a Fermi gas of neutrons) or a white dwarf star (a Fermi gas of electrons) against the inward pull of gravity, which would ostensibly collapse the star into a black hole. Only when a star is sufficiently massive to overcome the degeneracy pressure can it collapse into a singularity.
+
+It is possible to define a Fermi temperature below which the gas can be considered degenerate (its pressure derives almost exclusively from the Pauli principle). This temperature depends on the mass of the fermions and the density of energy states.
+
+The main assumption of the free electron model to describe the delocalized electrons in a metal can be derived from the Fermi gas. Since interactions are neglected due to screening effect, the problem of treating the equilibrium properties and dynamics of an ideal Fermi gas reduces to the study of the behaviour of single independent particles. In these systems the Fermi temperature is generally many thousands of kelvins, so in human applications the electron gas can be considered degenerate. The maximum energy of the fermions at zero temperature is called the Fermi energy. The Fermi energy surface in reciprocal space is known as the Fermi surface.
+
+The nearly free electron model adapts the Fermi gas model to consider the crystal structure of metals and semiconductors. Where electrons in a crystal lattice are substituted by Bloch waves with a corresponding crystal momentum. As such, periodic systems are still relatively tractable and the model forms the starting point for more advanced theories that deal with interactions, e.g., using the perturbation theory.
+
+The one-dimensional infinite square well of length "L" is a model for a one-dimensional box. It is a standard model-system in quantum mechanics for which the solution for a single particle is well known. The levels are labelled by a single quantum number "n" and the energies are given by
+
+where formula_2 is the potential energy level inside the box, formula_3 the mass of a single fermion, and formula_4 is the reduced Planck constant.
+
+Suppose now that instead of one particle in this box we have "N" particles in the box and that these particles are fermions with spin-½. Then not more than two particles can have the same energy, i.e., two particles can have the energy of formula_5, two other particles can have energy formula_6 and so forth. The reason that two particles can have the same energy is that a particle can have a spin of ½ (spin up) or a spin of −½ (spin down), leading to two states for each energy level. In the configuration for which the total energy is lowest (the ground state), all the energy levels up to "n" = "N"/2 are occupied and all the higher levels are empty.
+
+Defining the reference for the Fermi energy to be formula_2, the Fermi energy is therefore given by
+where "N*" is equal to ("N" − 1) when the number of particles "N" is odd, and its equal to (N) for an even number of particles.
+
+The three-dimensional isotropic and non-relativistic case is known as the Fermi sphere.
+
+Let us now consider a three-dimensional infinite square well, that is, a cubical box that has a side length "L". The states are now labelled by three quantum numbers "n", "n", and "n". The single particle energies are
+where "n", "n", "n" are positive integers. There are multiple states with the same energy, for example formula_10. Now let's put "N" non-interacting fermions of spin ½ into this box. To calculate the Fermi energy, we look at the case where "N" is large.
+
+If we introduce a vector formula_11 then each quantum state corresponds to a point in 'n-space' with energy
+
+With formula_13denoting the square of the usual Euclidean length formula_14.
+The number of states with energy less than "E" +  "E" is equal to the number of states that lie within a sphere of radius formula_15 in the region of n-space where "n", "n", "n" are positive. In the ground state this number equals the number of fermions in the system.
+the factor of two is once again because there are two spin states, the factor of 1/8 is because only 1/8 of the sphere lies in the region where all "n" are positive. We find
+so the Fermi energy is given by
+
+Which results in a relationship between the Fermi energy and the number of particles per volume (when we replace "L" with "V"):
+
+The total energy of a Fermi sphere of formula_19 fermions is given by
+
+Therefore, the average energy per particle is given by:
+
+Using this definition of Fermi energy, various related quantities can be useful. The Fermi temperature is defined as:
+where formula_23 is the Boltzmann constant. The Fermi temperature can be thought of as the temperature at which thermal effects are comparable to quantum effects associated with Fermi statistics. The Fermi temperature for a metal is a couple of orders of magnitude above room temperature.
+
+Other quantities defined in this context are Fermi momentum
+and Fermi velocity
+
+These quantities are the momentum and group velocity, respectively, of a fermion at the Fermi surface. The Fermi momentum can also be described as formula_26, where formula_27 is the radius of the Fermi sphere and is called the Fermi wave vector.
+
+These quantities are "not" well-defined in cases where the Fermi surface is non-spherical.
+
+Here we discuss some important quantities that depend on the thermodynamics. For the most general treatment of the properties of a Fermi gas at finite temperature, skip to the respective section below.
+
+By using the first law of thermodynamics, we can associate a pressure to this internal energy, that is
+
+where this expression remains valid for temperatures much smaller than the Fermi temperature. This pressure is known as the degeneracy pressure. In this sense, systems composed of fermions are also referred as degenerate matter.
+
+Standard stars avoid collapse by balancing thermal pressure (plasma and radiation) against gravitational forces. At the end of the star lifetime, when thermal processes are weaker, some stars may become white dwarfs, which are only sustained against gravity by electron degeneracy pressure. Using the Fermi gas as a model, it is possible to calculate the Chandrasekhar limit, i.e. the maximum mass any star may acquire (without significant thermally generated pressure) before collapsing into a black hole or a neutron star. The latter, is a star mainly composed of neutrons, where the collapse is also avoided by neutron degeneracy pressure.
+
+For the case of metals, the electron degeneracy pressure contributes to the compressibility or bulk modulus of the material.
+
+Assuming that the concentration of fermions does not change with temperature, then the total chemical potential "µ" (Fermi level) of the three-dimensional ideal Fermi gas is related to the zero temperature Fermi energy "E" by a Sommerfeld expansion (assuming formula_29):
+where "T" is the temperature.
+
+Hence, the internal chemical potential, "µ"-"E", is approximately equal to the Fermi energy at temperatures that are much lower than the characteristic Fermi temperature "T". This characteristic temperature is on the order of 10 K for a metal, hence at room temperature (300 K), the Fermi energy and internal chemical potential are essentially equivalent.
+
+For the three dimensional case, with fermions of spin-½, we can obtain the number of particles as a function of the energy formula_31 by substituting the Fermi energy by a variable energy formula_32:
+which we can use to obtain the density of states (number of energy states per energy per volume) formula_34. It can be calculated by differentiating the number of particles with respect to the energy:
+
+Using a volume integral on formula_36 dimensions, we can find the state density:
+By then looking for the number density of particles, we can extract the Fermi energy:
+To get:
+
+where formula_40 is the corresponding "d"-dimensional volume, formula_41 is the dimension for the internal Hilbert space. For the case of spin-½, every energy is twice-degenerate, so in this case formula_42.
+
+A particular result is obtained for formula_43, where the density of states becomes a constant (does not depend on the energy):
+
+Most of the calculations above are exact at zero temperature, yet remain as good approximations for temperatures lower than the Fermi temperature. For other thermodynamics variables it is necessary to write a thermodynamic potential. For an ensemble of identical fermions, the best way to derive a potential is from the grand canonical ensemble with fixed temperature, volume and chemical potential "µ". The reason is due to Pauli exclusion principle, as the occupation numbers of each quantum state are given by either 1 or 0 (either there is an electron occupying the state or not), so the (grand) partition function formula_45 can be written as
+where formula_47, formula_48 indexes the ensembles of all possible microstates that give the same total energy formula_49 and number of particles formula_50, formula_51 is the single particle energy of the state formula_52 (it counts twice if the energy of the state is degenerate) and formula_53, its occupancy. Thus the grand potential is written as
+The same result can be obtained in the canonical and microcanonical ensemble, as the result of every ensemble must give the same value at thermodynamic limit formula_55. The grand canonical ensemble is recommended here as it avoids the use of combinatorics and factorials.
+
+Taking the grand potential and using a continuous approximation (Thomas–Fermi approximation), we can integrate over the phase space
+where formula_57 for a free particle, the integral is over all possible values of momentum and formula_58represents the unit volume of momentum space. And using the density of states we can write it as
+The grand potential is related to the number of particles at finite temperature in the following way
+where the derivative is taken at fixed temperature and volume, and it appears
+also known as the Fermi–Dirac distribution.
+
+We can also calculate the total internal energy as
+where the derivatives is taken at fixed volume and chemical potential. For the 3D case and zero temperature we retrieve all the results obtained above. The mathematical form of these expression is equivalent to the complete Fermi–Dirac integral.
+
+Under the free electron model, the electrons in a metal can be considered to form a Fermi gas. The number density formula_63 of conduction electrons in metals ranges between approximately 10 and 10 electrons/m, which is also the typical density of atoms in ordinary solid matter. This number density produces a Fermi energy of the order:
+
+where "m" is the electron rest mass. This Fermi energy corresponds to a Fermi temperature of the order of 10 kelvins, much higher than the temperature of the sun surface. Any metal will boil before reaching this temperature under atmospheric pressure. Thus for any practical purpose, a metal can be considered as a Fermi gas at zero temperature as a first approximation (normal temperatures are small compared to "T").
+
+Stars known as white dwarfs have mass comparable to our Sun, but have about a hundredth of its radius. The high densities mean that the electrons are no longer bound to single nuclei and instead form a degenerate electron gas. The number density of electrons in a white dwarf is of the order of 10 electrons/m. This means their Fermi energy is:
+
+Another typical example is that of the particles in a nucleus of an atom. The radius of the nucleus is roughly:
+
+The number density of nucleons in a nucleus is therefore:
+
+Now since the Fermi energy only applies to fermions of the same type, one must divide this density in two. This is because the presence of neutrons does not affect the Fermi energy of the protons in the nucleus, and vice versa.
+
+So the Fermi energy of a nucleus is approximately:
+where "m" is the proton mass.
+
+The radius of the nucleus admits deviations around the value mentioned above, so a typical value for the Fermi energy is usually given as 38 MeV.
+
+For the whole article, we have only discussed the case where particles have a parabolic relation between energy and momentum, as is the case in non-relativistic mechanics. For particles with energies close to their respective rest mass, we have to use the equations of special relativity. Where single-particle energy is given by:
+
+For this system, the Fermi energy is given by:
+where the formula_71 equality is only valid in the ultrarelativistic limit, and
+
+The relativistic Fermi gas model is also used for the description of large white dwarfs which are close to the Chandresekhar limit. For the ultrarelativistic case, the degeneracy pressure is proportional to formula_73.
+
+In 1956, Lev Landau developed the Fermi liquid theory, where he treated the case of a Fermi liquid, i.e., a system with repulsive, not necessarily small, interactions between fermions. The theory shows that the thermodynamic properties of an ideal Fermi gas and a Fermi liquid do not differ that much. It can be shown that the Fermi liquid is equivalent to a Fermi gas composed of collective excitations or quasiparticles, each with a different effective mass and magnetic moment.
+
+
+
+

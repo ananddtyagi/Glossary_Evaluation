@@ -1,0 +1,21 @@
+﻿Hole formalism
+
+Hole formalism in quantum chemistry states that for many electronic properties one may consider systems with e or (n-e), the number of unoccupied sites or “holes”, to be equivalent.
+The number of microstates (N) of a system corresponds to the total number of distinct arrangements for “e” number of electrons to be placed in “n” number of possible orbital positions: 
+
+N=n!/(e!(n-e)!) 
+
+In hole formalism, commutative property of multiplication is used. It means in the above equation (e!(n-e)!)=((n-e)!e!).
+
+For a set of p orbitals n = 6 since there are 2 positions in each orbital. Therefore, p2 (e=2 and n=6) so,
+
+N = 6!/(2!(6-2)!) = (6*5*4*3*2*1)/((2*1) * (4*3*2*1)) = 15
+
+Based on the hole formalism, microstates of P4 (e = 4 and n = 6) are:
+
+N = 6!/(4!(6-4)!) = 15
+
+so P4 (2 holes) and P2 (4 holes) give equivalent values of N. The same is true for all p, d, f, … systems such as d1/d9 or f2/f12.
+
+
+

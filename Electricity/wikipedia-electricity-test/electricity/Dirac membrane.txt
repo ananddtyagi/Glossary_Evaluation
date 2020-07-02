@@ -1,0 +1,58 @@
+﻿Dirac membrane
+
+A model of a charged membrane introduced by Paul Dirac in 1962. Dirac's original motivation was to explain the mass of the muon as an excitation of the ground state corresponding to an electron. Anticipating the birth of string theory by almost a decade, he was the first to introduce what is now called a type of Nambu–Goto action for membranes.
+
+In the Dirac membrane model the repulsive electromagnetic forces on the membrane are balanced by the contracting ones coming from the positive tension. In the case of the spherical membrane, classical equations of motion imply that the balance is met for the radius formula_1, where formula_2 is the classical electron radius. Using Bohr–Sommerfeld quantisation condition for the Hamiltonian of the spherically symmetric membrane, Dirac finds the approximation of the mass corresponding to the first excitation as formula_3, where formula_4 is the mass of the electron, which is about a quarter of the observed muon mass.
+
+Dirac chose a non-standard way to formulate the action principle for the membrane. Because closed membranes in formula_5 provide a natural split of space into the interior and the exterior there exists a special curvilinear system of coordinates formula_6 in spacetime and a function formula_7 such that 
+- formula_8 defines a membrane
+
+- formula_9, formula_10 describe a region outside or inside the membrane
+Choosing formula_11 and the following gauge formula_12, formula_13, formula_14 
+where formula_15, ( formula_16) is the internal parametrization of the membrane word-volume, the membrane action proposed by Dirac is
+
+where the induced metric and the factors J and M are given by
+
+In the above formula_21 are rectilinear and orthogonal. The space-time signature used is (+,-,-,-). Note that formula_22 is just a usual action for the electromagnetic field in a curvilinear system while formula_23is the integral over the membrane world-volume i.e. precisely the type of the action used later in string theory.
+
+There are 3 equations of motion following from the variation with respect to formula_24 and formula_25. They are:
+- variation w.r.t. formula_24 for formula_27 - this results in sourceless Maxwell equations 
+- variation w.r.t. formula_21 for formula_27 - this gives a consequence of Maxwell equations
+- variation w.r.t. formula_21 for formula_31
+
+The last equation has a geometric interpretation: the r.h.s. is proportional to the curvature of the membrane. For the spherically symmetric case we get
+
+Therefore, the balance condition formula_34 implies formula_35 where formula_36 is the radius of the balanced membrane. The total energy for the spherical membrane with radius formula_37 is
+and it is minimal in the equilibrium for formula_39, hence formula_40. On the other hand, the total energy in the equilibrium should be formula_4 (in formula_42 units)
+and so we obtain formula_43.
+
+Small oscillations about the equilibrium in the spherically symmetric case imply frequencies - formula_44. Therefore, going to quantum theory, the energy of one quantum would be formula_45.
+This is much more than the muon mass but the frequencies are by no means small so this approximation may not work properly. To get a better quantum theory one needs to work out the Hamiltonian of the system and solve the corresponding Schroedinger equation.
+
+For the Hamiltonian formulation Dirac introduces generalised momenta
+
+- for formula_46: formula_47 and formula_48 - momenta conjugate to formula_24 and formula_50 respectively (formula_51, coordinate choice formula_52)
+
+- for formula_53: formula_54 - momenta conjugate to formula_50
+
+Then one notices the following constraints
+
+- for the Maxwell field 
+
+- for membrane momenta
+
+where formula_58 - reciprocal of formula_59, formula_60.
+
+These constraints need to be included when calculating the Hamiltonian, using the Dirac bracket method. 
+The result of this calculation is the Hamiltonian of the form
+where formula_63 is the Hamiltonian for the electromagnetic field written in the curvilinear system.
+
+For spherically symmetric motion the Hamiltonian is 
+
+however the direct quantisation is not clear due to the square-root of the differential operator. To get any further Dirac considers the Bohr - Sommerfeld method:
+and finds formula_66 for formula_67.
+
+
+P. A. M. Dirac, An Extensible Model of the Electron, Proc. Roy. Soc. A268, (1962) 57–67.
+
+

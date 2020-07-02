@@ -1,0 +1,32 @@
+﻿Mean inter-particle distance
+
+Mean inter-particle distance (or mean inter-particle separation) is the mean distance between microscopic particles (usually atoms or molecules) in a macroscopic body.
+
+From the very general considerations, the mean inter-particle distance is proportional to the size of the per-particle volume formula_1, i.e., 
+where formula_3 is the particle density. However, barring a few simple cases such as the ideal gas model, precise calculations of the proportionality factor are impossible analytically. Therefore, approximate expressions are often used. One such an estimation is the Wigner-Seitz radius
+which corresponds to the radius of a sphere having per-particle volume formula_1. Another popular definition is
+corresponding to the length of the edge of the cube with the per-particle volume formula_1. The two definitions differ by a factor of approximately formula_8, so one has to exercise care if an article fails to define the parameter exactly. On the other hand, it is often used in qualitative statements where such a numeric factor is either irrelevant or plays an insignificant role, e.g.,
+
+
+We want to calculate probability distribution function of distance to the nearest neighbor (NN) particle. (The problem was first considered by Paul Hertz; for a modern derivation see, e.g..) Let us assume formula_9 particles inside a sphere having volume formula_10, so that formula_3. Note that since the particles in the ideal gas are non-interacting, the probability to find a particle at a certain distance from another particle is the same as probability to find a particle at the same distance from any other point; we shall use the center of the sphere.
+
+An NN particle at distance formula_12 means exactly one of the formula_9 particles resides at that distance while the rest 
+formula_14 particles are at larger distances, i.e., they are somewhere outside the sphere with radius formula_12.
+
+The probability to find a particle at the distance from the origin between formula_12 and formula_17 is
+formula_18, plus we have formula_9 kinds of way to choose which particle , while the probability to find a particle outside that sphere is formula_20. The sought-for expression is then
+
+where we substituted
+Note that formula_23 is the Wigner-Seitz radius. Finally, taking the formula_24 limit and using formula_25, we obtain
+
+One can immediately check that
+
+The distribution peaks at 
+
+or, using the formula_30 substitution,
+where formula_32 is the gamma function. Thus,
+
+In particular,
+
+
+

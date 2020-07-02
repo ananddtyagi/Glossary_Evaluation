@@ -1,0 +1,69 @@
+﻿Frame-dragging
+
+Frame-dragging is an effect on spacetime, predicted by Einstein's general theory of relativity, that is due to non-static stationary distributions of mass–energy. A stationary field is one that is in a steady state, but the masses causing that field may be non-static, rotating for instance. More generally, the subject of effects caused by mass–energy currents is known as gravitomagnetism, in analogy with classical electromagnetism.
+
+The first frame-dragging effect was derived in 1918, in the framework of general relativity, by the Austrian physicists Josef Lense and Hans Thirring, and is also known as the Lense–Thirring effect. They predicted that the rotation of a massive object would distort the spacetime metric, making the orbit of a nearby test particle precess. This does not happen in Newtonian mechanics for which the gravitational field of a body depends only on its mass, not on its rotation. The Lense–Thirring effect is very small—about one part in a few trillion. To detect it, it is necessary to examine a very massive object, or build an instrument that is very sensitive.
+
+In 2015, new general-relativistic extensions of Newtonian rotation laws were formulated to describe geometric dragging of frames which incorporates a newly discovered antidragging effect.
+
+Rotational frame-dragging (the Lense–Thirring effect) appears in the general principle of relativity and similar theories in the vicinity of rotating massive objects. Under the Lense–Thirring effect, the frame of reference in which a clock ticks the fastest is one which is revolving around the object as viewed by a distant observer. This also means that light traveling in the direction of rotation of the object will move past the massive object faster than light moving against the rotation, as seen by a distant observer. It is now the best known frame-dragging effect, partly thanks to the Gravity Probe B experiment. Qualitatively, frame-dragging can be viewed as the gravitational analog of electromagnetic induction.
+
+Also, an inner region is dragged more than an outer region. This produces interesting locally rotating frames. For example, imagine that a north–south-oriented ice skater, in orbit over the equator of a black hole and rotationally at rest with respect to the stars, extends her arms. The arm extended toward the black hole will be "torqued" spinward due to gravitomagnetic induction ("torqued" is in quotes because gravitational effects are not considered "forces" under GR). Likewise the arm extended away from the black hole will be torqued anti-spinward. She will therefore be rotationally sped up, in a counter-rotating sense to the black hole. This is the opposite of what happens in everyday experience. There exists a particular rotation rate that, should she be initially rotating at that rate when she extends her arms, inertial effects and frame-dragging effects will balance and her rate of rotation will not change. Due to the equivalence principle, gravitational effects are locally indistinguishable from inertial effects, so this rotation rate, at which when she extends her arms nothing happens, is her local reference for non-rotation. This frame is rotating with respect to the fixed stars and counter-rotating with respect to the black hole. This effect is analogous to the hyperfine structure in atomic spectra due to nuclear spin. A useful metaphor is a planetary gear system with the black hole being the sun gear, the ice skater being a planetary gear and the outside universe being the ring gear. See Mach's principle.
+
+Another interesting consequence is that, for an object constrained in an equatorial orbit, but not in freefall, it weighs more if orbiting anti-spinward, and less if orbiting spinward. For example, in a suspended equatorial bowling alley, a bowling ball rolled anti-spinward would weigh more than the same ball rolled in a spinward direction. Note, frame dragging will neither accelerate nor slow down the bowling ball in either direction. It is not a "viscosity". Similarly, a stationary plumb-bob suspended over the rotating object will not list. It will hang vertically. If it starts to fall, induction will push it in the spinward direction.
+
+Linear frame dragging is the similarly inevitable result of the general principle of relativity, applied to linear momentum. Although it arguably has equal theoretical legitimacy to the "rotational" effect, the difficulty of obtaining an experimental verification of the effect means that it receives much less discussion and is often omitted from articles on frame-dragging (but see Einstein, 1921).
+
+Static mass increase is a third effect noted by Einstein in the same paper. The effect is an increase in inertia of a body when other masses are placed nearby. While not strictly a frame dragging effect (the term frame dragging is not used by Einstein), it is demonstrated by Einstein that it derives from the same equation of general relativity. It is also a tiny effect that is difficult to confirm experimentally.
+
+In 1976 Van Patten and Everitt proposed to implement a dedicated mission aimed to measure the Lense–Thirring node precession of a pair of counter-orbiting spacecraft to be placed in terrestrial polar orbits with drag-free apparatus. A somewhat equivalent, cheaper version of such an idea was put forth in 1986 by Ciufolini who proposed to launch a passive, geodetic satellite in an orbit identical to that of the LAGEOS satellite, launched in 1976, apart from the orbital planes which should have been displaced by 180 deg apart: the so-called butterfly configuration. The measurable quantity was, in this case, the sum of the nodes of LAGEOS and of the new spacecraft, later named LAGEOS III, LARES, WEBER-SAT.
+
+Limiting the scope to the scenarios involving existing orbiting bodies, the first proposal to use the LAGEOS satellite and the Satellite Laser Ranging (SLR) technique to measure the Lense–Thirring effect dates back to 1977–1978. Tests have started to be effectively performed by using the LAGEOS and LAGEOS II satellites in 1996, according to a strategy involving the use of a suitable combination of the nodes of both satellites and the perigee of LAGEOS II. The latest tests with the LAGEOS satellites have been performed in 2004–2006 by discarding the perigee of LAGEOS II and using a linear combination. Recently, a comprehensive overview of the attempts to measure the Lense-Thirring effect with artificial satellites was published in the literature. The overall accuracy reached in the tests with the LAGEOS satellites is subject to some controversy.
+
+The Gravity Probe B experiment was a satellite-based mission by a Stanford group and NASA, used to experimentally measure another gravitomagnetic effect, the Schiff precession of a gyroscope, to an expected 1% accuracy or better. Unfortunately such accuracy was not achieved. The first preliminary results released in April 2007 pointed towards an accuracy of 256–128%, with the hope of reaching about 13% in December 2007.
+In 2008 the Senior Review Report of the NASA Astrophysics Division Operating Missions stated that it was unlikely that Gravity Probe B team will be able to reduce the errors to the level necessary to produce a convincing test of currently untested aspects of General Relativity (including frame-dragging).
+On May 4, 2011, the Stanford-based analysis group and NASA announced the final report, and in it the data from GP-B demonstrated the frame-dragging effect with an error of about 19 percent, and Einstein's predicted value was at the center of the confidence interval.
+
+NASA published claims of success in verification of frame dragging for the two programs Grace (LAGEOS) and Gravity Probe B, both of which claims are still in public view. A research group in Italy, USA, and UK also claimed success in verification of frame dragging with the Grace gravity model, published in a peer reviewed journal. All the claims include recommendations for further research at greater accuracy and other gravity models.
+
+In the case of stars orbiting close to a spinning, supermassive black hole, frame dragging should cause the star's orbital plane to precess about the black hole spin axis. This effect should be detectable within the next few years via astrometric monitoring of stars at the center of the Milky Way galaxy.
+By comparing the rate of orbital precession of two stars on different orbits, it is possible in principle to test the no-hair theorems of general relativity, in addition to measuring the spin of the black hole.
+
+Relativistic jets may provide evidence for the reality of frame-dragging. Gravitomagnetic forces produced by the Lense–Thirring effect (frame dragging) within the ergosphere of rotating black holes combined with the energy extraction mechanism by Penrose have been used to explain the observed properties of relativistic jets. The gravitomagnetic model developed by Reva Kay Williams predicts the observed high energy particles (~GeV) emitted by quasars and active galactic nuclei; the extraction of X-rays, γ-rays, and relativistic e–e pairs; the collimated jets about the polar axis; and the asymmetrical formation of jets (relative to the orbital plane).
+
+Frame-dragging may be illustrated most readily using the Kerr metric, which describes the geometry of spacetime in the vicinity of a mass "M" rotating with angular momentum "J", and Boyer–Lindquist coordinates, where an unphysical, but mathematically more elegant radial coordinate "r" (see the link for the transformation) is used:
+
+where "r" is the Schwarzschild radius
+
+and where the following shorthand variables have been introduced for brevity
+
+In the non-relativistic limit where "M" (or, equivalently, "r") goes to zero, the Kerr metric becomes the orthogonal metric for the oblate spheroidal coordinates
+
+We may rewrite the Kerr metric in the following form
+
+This metric is equivalent to a co-rotating reference frame that is rotating with angular speed Ω that depends on both the radius "r" and the colatitude θ
+
+In the plane of the equator this simplifies to:
+
+Thus, an inertial reference frame is entrained by the rotating central mass to participate in the latter's rotation; this is frame-dragging.
+
+An extreme version of frame dragging occurs within the ergosphere of a rotating black hole. The Kerr metric has two surfaces on which it appears to be singular. The inner surface corresponds to a spherical event horizon similar to that observed in the Schwarzschild metric; this occurs at
+
+where the purely radial component "g" of the metric goes to infinity. The outer surface can be approximated by an oblate spheroid with lower spin parameters, and resembles a pumpkin-shape with higher spin parameters. It touches the inner surface at the poles of the rotation axis, where the colatitude θ equals 0 or π; its radius in Boyer-Lindquist coordinates is defined by the formula
+
+where the purely temporal component "g" of the metric changes sign from positive to negative. The space between these two surfaces is called the ergosphere. A moving particle experiences a positive proper time along its worldline, its path through spacetime. However, this is impossible within the ergosphere, where "g" is negative, unless the particle is co-rotating with the interior mass "M" with an angular speed at least of Ω. However, as seen above, frame-dragging occurs about every rotating mass and at every radius "r" and colatitude θ, not only within the ergosphere.
+
+The Lense–Thirring effect inside a rotating shell was taken by Albert Einstein as not just support for, but a vindication of Mach's principle, in a letter he wrote to Ernst Mach in 1913 (five years before Lense and Thirring's work, and two years before he had attained the final form of general relativity). A reproduction of the letter can be found in Misner, Thorne, Wheeler. The general effect scaled up to cosmological distances, is still used as a support for Mach's principle.
+
+Inside a rotating spherical shell the acceleration due to the Lense–Thirring effect would be
+
+where the coefficients are
+
+for "MG" ≪ "Rc" or more precisely,
+
+The spacetime inside the rotating spherical shell will not be flat. A flat spacetime inside a rotating mass shell is possible if the shell is allowed to deviate from a precisely spherical shape and the mass density inside the shell is allowed to vary.
+
+
+
+
+

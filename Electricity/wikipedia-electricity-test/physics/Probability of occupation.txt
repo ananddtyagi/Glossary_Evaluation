@@ -1,0 +1,6 @@
+﻿Probability of occupation
+
+In condensed matter physics, the probability of occupation shows how likely it is for a given energy level to be occupied. Fermions such as electrons follow a Fermi–Dirac distribution and bosons such as phonons and photons follow a Bose–Einstein distribution.
+
+
+

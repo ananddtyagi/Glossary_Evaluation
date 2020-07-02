@@ -1,0 +1,20 @@
+﻿Infinite derivative gravity
+
+Infinite derivative gravity is a theory of gravity which attempts to remove cosmological and black hole singularities by adding extra terms to the Einstein–Hilbert action, which weaken gravity at short distances.
+
+In 1987, Krasnikov considered an infinite set of higher derivative terms acting on the curvature terms and showed that by choosing the coefficients wisely, the propagator would be ghost-free and exponentially suppressed in the ultraviolet regime. Tomboulis (1997) later extended this work. By looking at an equivalent scalar-tensor theory, Biswas, Mazumdar and Siegel (2005) looked at bouncing FRW solutions. In 2011, Biswas, Gerwick, Koivisto and Mazumdar demonstrated that the most general infinite derivative action in 4 dimensions, around constant curvature backgrounds, parity invariant and torsion free, can be expressed by:
+where the formula_2 are functions of the D'Alembert operator formula_3 and a mass scale formula_4, formula_5 is the Ricci scalar, formula_6 is the Ricci tensor and formula_7 is the Weyl tensor. In order to avoid ghosts, the propagator (which is a combination of the formula_8s) must be the exponential of an entire function. A lower bound was obtained on the mass scale of IDG using experimental data on the strength of gravity at short distances, as well as by using data on inflation and on the bending of light around the Sun. The GHY boundary terms were found using the ADM 3+1 spacetime decomposition. One can show that the entropy for this theory is finite in various contexts.
+
+The effect of IDG on black holes and the propagator was examined by Modesto. Modesto further looked at the renormalisability of the theory, as well as showing that it could generate "super-accelerated" bouncing solutions instead of a big bang singularity. Calcagni and Nardelli investigated the effect of IDG on the diffusion equation. IDG modifies the way gravitational waves are produced and how they propagate through space. The amount of power radiated away through gravitational waves by binary systems is reduced, although this effect is far smaller than the current observational precision.
+
+This action can produce a bouncing cosmology, by taking a flat FRW metric with a scale factor formula_9 or formula_10, thus avoiding the cosmological singularity problem. The propagator around a flat space background was obtained in 2013.
+
+This action avoids a curvature singularity for a small perturbation to a flat background near the origin, while recovering the formula_11 fall of the GR potential at large distances. This is done using the linearised equations of motion which is a valid approximation because if the perturbation is small enough and the mass scale formula_4 is large enough, then the perturbation will always be small enough that quadratic terms can be neglected. It also avoids the Hawking–Penrose singularity in this context.
+
+It was shown that in non-local gravity, Schwarzschild singularities are stable to small perturbations. Further stability analysis of black holes was carried out by Myung and Park.
+
+The equations of motion for this action are
+
+where
+
+

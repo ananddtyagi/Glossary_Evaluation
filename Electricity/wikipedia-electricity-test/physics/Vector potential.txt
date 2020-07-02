@@ -1,0 +1,26 @@
+﻿Vector potential
+
+In vector calculus, a vector potential is a vector field whose curl is a given vector field. This is analogous to a "scalar potential", which is a scalar field whose gradient is a given vector field.
+
+Formally, given a vector field v, a "vector potential" is a vector field A such that 
+
+If a vector field v admits a vector potential A, then from the equality 
+(divergence of the curl is zero) one obtains
+which implies that v must be a solenoidal vector field.
+
+Let 
+be a solenoidal vector field which is twice continuously differentiable. Assume that v(x) decreases sufficiently fast as ||x||→∞. Define 
+
+Then, A is a vector potential for v, that is,
+
+A generalization of this theorem is the Helmholtz decomposition which states that any vector field can be decomposed as a sum of a solenoidal vector field and an irrotational vector field.
+
+The vector potential admitted by a solenoidal field is not unique. If A is a vector potential for v, then so is
+
+where "m" is any continuously differentiable scalar function. This follows from the fact that the curl of the gradient is zero.
+
+This nonuniqueness leads to a degree of freedom in the formulation of electrodynamics, or gauge freedom, and requires choosing a gauge.
+
+
+
+

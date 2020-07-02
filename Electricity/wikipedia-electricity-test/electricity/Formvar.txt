@@ -1,0 +1,13 @@
+﻿Formvar
+
+Formvar refers to any of several thermoplastic resins that are polyvinyl formals, which are polymers formed from polyvinyl alcohol and formaldehyde as copolymers with polyvinyl acetate. They are typically used as coatings, adhesives, and molding materials. "Formvar" used to be the registered trade name of the polyvinyl formal resin produced by Monsanto Chemical Company in St. Louis, Missouri. That manufacturing unit was sold and formvar is now distributed under the name "Vinylec".
+
+Formvar is used in many different applications, such as wire insulation, coatings for musical instruments, magnetic tape backing, and support films for electron microscopy. Formvar is also used as a main ingredient for special adhesives in structural applications such as the aircraft industry.
+
+The major application of formvar resins is as electrical insulation for magnet wire. It is combined with other "wire enamels" which are then coated onto copper wire and cured in an oven to create a crosslinked film coating.
+
+Most specimens used in transmission electron microscopy (TEM) need to be supported by a thin electron-transparent film to hold the sample in place. Formvar films are a common choice of film grid for TEM. Formvar is favored because it allows users to utilize grids with lower mesh rating.
+
+Formvar resin has a high softening point and strong electric insulation properties. It is also very flexible, water-insoluble, and resistant to abrasion. Formvar is also halogen free. Formvar resins are combustible and can cause dust explosions. For this reason exposure to heat, sparks, and flame should be avoided. Formvar is most commonly dissolved in ethylene dichloride, chloroform, and dioxane.
+
+

@@ -1,0 +1,21 @@
+﻿Yaw drive
+
+The yaw drive is an important component of the horizontal axis wind turbines' yaw system. To ensure the wind turbine is producing the maximal amount of electric energy at all times, the yaw drive is used to keep the rotor facing into the wind as the wind direction changes. This only applies for wind turbines with a horizontal axis rotor. The wind turbine is said to have a yaw error if the rotor is not aligned to the wind. A yaw error implies that a lower share of the energy in the wind will be running through the rotor area. (The generated energy will be proportional the cosine of the yaw error).
+
+When the windmills of the 18th century included the feature of rotor orientation via the rotation of the nacelle, an actuation mechanism able to provide that turning moment was necessary. Initially the windmills used ropes or chains extending from the nacelle to the ground in order to allow the rotation of the nacelle by means of human or animal power.
+
+Another historical innovation was the fantail. This device was actually an auxiliary rotor equipped with plurality of blades and located downwind of the main rotor, behind the nacelle in a 90° (approximately) orientation to the main rotor sweep plane. In the event of change in wind direction the fantail would rotate thus transmitting its mechanical power through a gearbox (and via a gear-rim-to-pinion mesh) to the tower of the windmill. The effect of the aforementioned transmission was the rotation of the nacelle towards the direction of the wind, where the fantail would not face the wind thus stop turning (i.e. the nacelle would stop to its new position).
+
+The modern yaw drives, even though electronically controlled and equipped with large electric motors and planetary gearboxes have great similarities to the old windmill concept. They still use a means of mechanical energy “production” (i.e. electric motor), a method to increase the torque (i.e. gearbox) and a gear-rim mounted on the fixed portion of the wind turbine and in constant mesh with the output gear of the said gearbox.
+
+The main categories of yaw drives are: 
+
+The gearbox of the yaw drive is a very crucial component since it is required to handle very large moments while requiring the minimal amount of maintenance and perform reliably for the whole life-span of the wind turbine (approx. 20 years). Most of the yaw drive gearboxes have input to output ratios in the range of 2000:1 in order to produce the enormous turning moments required for the rotation of the wind turbine nacelle.
+
+The gear-rim and the pinions of the yaw drives are the components that finally transmit the turning moment from the yaw drives to the tower in order to turn the nacelle of the wind turbine around the tower axis (z axis). The main characteristics of the gear-rim are its big diameter (often larger than 2 m) and the orientation of its teeth.
+
+The gear-rims with teeth on the outer surface have the advantage of higher reduction ratios in combination with the pinions as well as reduced machining costs over the gear-rims with inner teeth. On the other hand, the former configuration requires the yaw drives to be mounted far apart from each other thus increasing the wind turbine main frame dimensions and costs.
+
+
+
+

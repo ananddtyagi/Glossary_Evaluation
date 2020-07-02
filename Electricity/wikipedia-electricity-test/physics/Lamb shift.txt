@@ -1,0 +1,69 @@
+﻿Lamb shift
+
+In physics, the Lamb shift, named after Willis Lamb, is a difference in energy between two energy levels 2"S" and 2"P" (in term symbol notation) of the hydrogen atom which was not predicted by the Dirac equation, according to which these states should have the same energy.
+
+Interaction between vacuum energy fluctuations and the hydrogen electron in these different orbitals is the cause of the Lamb shift, as was shown subsequent to its discovery. The Lamb shift has since played a significant role through vacuum energy fluctuations in theoretical prediction of Hawking radiation from black holes.
+
+This effect was first measured in 1947 in the Lamb–Retherford experiment on the hydrogen microwave spectrum and this measurement provided the stimulus for renormalization theory to handle the divergences. It was the harbinger of modern quantum electrodynamics developed by Julian Schwinger, Richard Feynman, Ernst Stueckelberg, Sin-Itiro Tomonaga and Freeman Dyson. Lamb won the Nobel Prize in Physics in 1955 for his discoveries related to the Lamb shift.
+
+On Lamb's 65th birthday, Freeman Dyson addressed him as follows: "Those years, when the Lamb shift was the central theme of physics, were golden years for all the physicists of my generation. You were the first to see that this tiny shift, so elusive and hard to measure, would clarify our thinking about particles and fields."
+
+This heuristic derivation of the electrodynamic level shift following Welton is from "Quantum Optics".
+
+The fluctuation in the electric and magnetic fields associated with the QED vacuum perturbs the electric potential due to the atomic nucleus. This perturbation causes a fluctuation in the position of the electron, which explains the energy shift. The difference of potential energy is given by
+
+Since the fluctuations are isotropic,
+
+So one can obtain
+
+The classical equation of motion for the electron displacement ("δr") induced by a single mode of the field of wave vector and frequency "ν" is
+
+and this is valid only when the frequency "ν" is greater than "ν" in the Bohr orbit, formula_6. The electron is unable to respond to the fluctuating field if the fluctuations are smaller than the natural orbital frequency in the atom.
+
+For the field oscillating at "ν",
+
+therefore
+
+where formula_9 is some large normalization volume (the volume of the hypothetical "box" containing the hydrogen atom). By the summation over all formula_10
+
+This result diverges when no limits about the integral (at both large and small frequencies). As mentioned above, this method is expected to be valid only when formula_6, or equivalently formula_13. It is also valid only for wavelengths longer than the Compton wavelength, or equivalently formula_14. Therefore, one can choose the upper and lower limit of the integral and these limits make the result converge.
+
+For the atomic orbital and the Coulomb potential,
+
+since it is known that
+
+For "p" orbitals, the nonrelativistic wave function vanishes at the origin, so there is no energy shift. But for "s" orbitals there is some finite value at the origin,
+
+where the Bohr radius is
+
+Therefore,
+
+Finally, the difference of the potential energy becomes:
+
+where formula_22 is the fine-structure constant. This shift is about 1 GHz, very similar with the observed energy shift.
+
+Welton's heuristic derivation of the Lamb shift is similar to, but distinct from, the calculation of the Darwin term using Zitterbewegung, a contribution to the fine structure that is of lower order in formula_22 than the Lamb shift.
+
+In 1947 Willis Lamb and Robert Retherford carried out an experiment using microwave techniques to stimulate radio-frequency transitions between
+"S" and "P" levels of hydrogen. By using lower frequencies than for optical transitions the Doppler broadening could be neglected (Doppler broadening is proportional to the frequency). The energy difference Lamb and Retherford found was a rise of about 1000 MHz of the "S" level above the "P" level.
+
+This particular difference is a one-loop effect of quantum electrodynamics, and can be interpreted as the influence of virtual photons that have been emitted and re-absorbed by the atom. In quantum electrodynamics the electromagnetic field is quantized and, like the harmonic oscillator in quantum mechanics, its lowest state is not zero. Thus, there exist small zero-point oscillations that cause the electron to execute rapid oscillatory motions. The electron is "smeared out" and each radius value is changed from "r" to "r" + "δr" (a small but finite perturbation).
+
+The Coulomb potential is therefore perturbed by a small amount and the degeneracy of the two energy levels is removed. The new potential can be approximated (using atomic units) as follows:
+
+The Lamb shift itself is given by
+
+with "k"("n", 0) around 13 varying slightly with "n", and
+
+with "k"("n",) a small number (< 0.05).
+
+For a derivation of Δ"E" see for example:
+
+In 1947, Hans Bethe was the first to explain the Lamb shift in the hydrogen spectrum, and he thus laid the foundation for the modern development of quantum electrodynamics. Bethe was able to derive the Lamb shift by implementing the idea of mass renormalization, which allowed him to calculate the observed energy shift as the difference between the shift of a bound electron and the shift of a free electron.
+
+The Lamb shift currently provides a measurement of the fine-structure constant α to better than one part in a million, allowing a precision test of quantum electrodynamics.
+
+
+
+
+

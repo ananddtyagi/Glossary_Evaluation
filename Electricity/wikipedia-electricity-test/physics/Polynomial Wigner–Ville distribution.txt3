@@ -1,0 +1,34 @@
+﻿Polynomial Wigner–Ville distribution
+
+In signal processing, the polynomial Wigner–Ville distribution is a quasiprobability distribution that generalizes the Wigner distribution function. It was proposed by Boualem Boashash and Peter O'Shea in 1994.
+
+Many signals in nature and in engineering applications can be modeled as formula_1, where formula_2 is a polynomial phase and formula_3.
+
+For example, it is important to detect signals of an arbitrary high-order polynomial phase. However, the conventional Wigner–Ville distribution have the limitation being based on the second-order statistics. Hence, the polynomial Wigner–Ville distribution was proposed as a generalized form of the conventional Wigner–Ville distribution, which is able to deal with signals with nonlinear phase.
+
+The polynomial Wigner–Ville distribution formula_4 is defined as
+
+where formula_6 denotes the Fourier transform with respect to formula_7, and formula_8 is the polynomial kernel given by
+
+where formula_10 is the input signal and formula_11 is an even number.
+The above expression for the kernel may be rewritten in symmetric form as
+
+The discrete-time version of the polynomial Wigner–Ville distribution is given by the discrete Fourier transform of
+
+where formula_14 and formula_15 is the sampling frequency.
+The conventional Wigner–Ville distribution is a special case of the polynomial Wigner–Ville distribution with formula_16
+
+One of the simplest generalizations of the usual Wigner–Ville distribution kernel can be achieved by taking formula_17. The set of coefficients formula_18 and formula_19 must be found to completely specify the new kernel. For example, we set
+
+The resulting discrete-time kernel is then given by
+
+Given a signal formula_1, where formula_24is a polynomial function, its instantaneous frequency (IF) is formula_25.
+
+For a practical polynomial kernel formula_8, the set of coefficients formula_27and formula_19should be chosen properly such that
+
+
+
+Nonlinear FM signals are common both in nature and in engineering applications. For example, the sonar system of some bats use hyperbolic FM and quadratic FM signals for echo location. In radar, certain pulse-compression schemes employ linear FM and quadratic signals. The Wigner–Ville distribution has optimal concentration in the time-frequency plane for linear frequency modulated signals. However, for nonlinear frequency modulated signals, optimal concentration is not obtained, and smeared spectral representations result. The polynomial Wigner–Ville distribution can be designed to cope with such problem.
+
+
+

@@ -1,0 +1,16 @@
+﻿Parasitic load
+
+Parasitic load is a term used with regard to electrical appliances and railway locomotives. With regard to electrical appliances, it represents the power consumed even when the appliance is shut off, that is standby power. With regard to railway locomotives, it is any of the loads or devices powered by the prime mover not contributing to tractive effort, such as an air compressor, traction motor blower, or radiator fans.
+
+With regard to electricity production, parasitic loss it is any of the loads or devices powered by the generator, not contributing to net electric yield found by subtracting productive yield from gross yield or:
+
+The term "parasitic loss" is often applied to devices that take energy from the engine in order to enhance the engine's ability to create more energy. In the internal combustion engine, almost everything, including the drive line, causes parasitic loss. 
+
+Bearings, oil pumps, piston rings, valve springs, flywheels, transmissions, driveshafts, and differentials also rob the system of power. An oil pump, being used to lubricate the engine, is a necessary parasite that consumes power from the engine (its host).
+
+Another example is a supercharger, which derives its power from the engine and creates more power for the engine. The power that the supercharger consumes is parasitic loss and is usually expressed in horsepower (HP). While the HP that the supercharger consumes in comparison to what it generates is small, it is still measurable or calculable. One of the desirable features of a turbocharger over a supercharger is the lower parasitic loss of the former. 
+
+Another common use of the term "parasitic loss" is where a new or different design reduces parasitic loss, such as the use of a dry sump over a wet sump. The reason may be less friction or many other variables that cause the design to be more efficient.
+
+
+

@@ -1,0 +1,9 @@
+﻿State space (physics)
+
+In physics, a state space is an abstract space in which different "positions" represent, not literal locations, but rather states of some physical system. This makes it a type of phase space.
+
+Specifically, in quantum mechanics a state space is a complex Hilbert space in which the possible instantaneous states of the system may be described by unit vectors. These state vectors, using Dirac's bra–ket notation, can often be treated like coordinate vectors and operated on using the rules of linear algebra. This Dirac formalism of quantum mechanics can replace calculation of complicated integrals with simpler vector operations.
+
+
+
+

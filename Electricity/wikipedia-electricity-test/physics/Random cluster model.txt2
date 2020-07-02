@@ -1,0 +1,23 @@
+﻿Random cluster model
+
+In physics, probability theory, graph theory, etc. the random cluster model is a random graph that generalizes and unifies the Ising model, Potts model, and percolation. It is used to study random combinatorial structures, electrical networks, etc. It is also referred to as the RC model or sometimes the KF-theory, after its founders.
+
+Let "G" be a graph. Suppose an edge formula_1 is open with probability "p", wherein we say formula_2, and is otherwise closed formula_3. The probability of a given configuration is then
+
+And this would give you the Erdős–Rényi model (independent edges, product measure). However, suppose you weight these in the following way. Let formula_5 be the number or open clusters of the configuration (the number of connected components in the subgraph of all open edges formula_2). Let "q" be a positive real. Then define the new weighted measure as
+
+Here "Z" is the partition function or sum over all configurations:
+
+This resulting model is known as the random cluster model or RCM for short.
+
+There are two cases: "q" ≤ 1 and "q" ≥ 1. The former favors fewer clusters, whereas the latter favors many clusters. When "q" = 1, edges are open and closed independently of one another, and the model reduces to percolation and random graphs.
+
+It is a generalization of the Tutte polynomial. The limit as "q" ↓ 0 describes linear resistance networks.
+
+It is a special case of the exponential random graph models.
+
+RC models were introduced in 1969 by Fortuin and Kasteleyn, mainly to solve combinatorial problems. After their founders, it is sometimes referred to as FK models. In 1971 they used it to obtain the FKG inequality. Post 1987, interest in the model and applications in statistical physics reignited. It became the inspiration for the Swendsen–Wang algorithm describing the time-evolution of Potts models. Michael Aizenman, et al. used it to study the phase boundaries in 1D Ising and Potts models.
+
+
+
+

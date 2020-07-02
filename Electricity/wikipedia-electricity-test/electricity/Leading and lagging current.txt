@@ -1,0 +1,40 @@
+﻿Leading and lagging current
+
+Leading and lagging current are phenomena that occur as a result of alternating current. In a circuit with alternating current, the value of voltage and current vary sinusoidally. In this type of circuit, the terms "lead, lag," and "in phase" are used to describe current with reference to voltage. Current is in phase with voltage when there is no phase shift between the sinusoids describing their time varying behavior. This generally occurs when the load drawing the current is resistive.
+
+In electric power flow, it is important to know how much current is leading or lagging because it creates the reactive power in the system, as opposed to the active (real) power. It can also play an important role in the operation of three-phase electric power systems.
+
+Angle notation can easily describe leading and lagging current:
+
+ formula_1
+
+In this equation, the value of theta is the important factor for leading and lagging current. As mentioned in the introduction above, leading or lagging current represents a time shift between the current and voltage sine curves, which is represented by the angle by which the curve is ahead or behind of where it would be initially. For example, if θ is zero, the curve will have amplitude zero at time zero. Using complex numbers is a way to simplify analyzing certain components in RLC circuits. For example, it is very easy to convert these between polar and rectangular coordinates. Starting from the polar notation,  formula_2 can represent either the vector  formula_3  or the rectangular notation  formula_4  both of which have magnitudes of 1.
+
+ formula_5
+
+Lagging current can be formally defined as “an alternating current that reaches its maximum value up to 90 degrees later than the voltage that produces it.” This means that current lags the voltage when formula_6, the angle of the current sine wave with respect to an arbitrarily chosen reference, is less than formula_7, the angle of the voltage sine wave with respect to the same reference. Therefore, current can quickly be identified as lagging if the angle formula_8 is positive. For example, if the voltage angle formula_7 is zero, current will be lagging if formula_6 is negative. This is often the case because voltage is taken as the reference.
+
+In circuits with primarily inductive loads, current lags the voltage. This happens because in an inductive load, it is the induced electromotive force that causes the current to flow. Note that in the definition above, the current is produced by the voltage. The induced electromotive force is caused by a change in the magnetic flux linking the coils of an inductor.
+
+ formula_5
+
+Leading current can be formally defined as “an alternating current that reaches its maximum value up to 90 degrees ahead of the voltage that it produces.” This means that the current leads the voltage when formula_6, the angle of the current sine wave with respect to an arbitrarily chosen reference is greater than formula_7, the angle of the voltage sine wave with respect to the same reference. Therefore, current can quickly be identified as leading if the angle formula_8 is negative. For example, if the voltage angle formula_7 is zero, current will be leading if formula_6 is positive. This is often the case because voltage is taken as the reference.
+
+In circuits with primarily capacitive loads, current leads the voltage. This is true because current must first flow to the two plates of the capacitor, where charge is stored. Only after charge accumulates at the plates of a capacitor is a voltage difference established. The behavior of the voltage is thus dependent on the behavior current and on how much charge accumulates. This is why the formal definition states that the current produces the voltage.
+
+A simple phasor diagram with a two dimensional Cartesian coordinate system and phasors can be used to visualize leading and lagging current at a fixed moment in time. In the real-complex coordinate system, one
+period of a sine wave corresponds to a full circle in the complex plane. Since
+the voltage and current have the same frequency, at any moment in time those
+quantities can be easily represented by stationary points on the circle, while
+the arrows from the center of circle to those points are called phasors. Since
+the relative time difference between functions is constant, they also have a
+constant angle difference between them, represented by the angle between points
+on the circle. 
+
+An early source of data is an article from the 1911 American Academy of Arts and Sciences by Arthur E. Kennelly. Kennelly uses traditional methods in solving vector diagrams for oscillating circuits, which can also include alternating current circuits as well.
+
+
+References: 
+
+
+

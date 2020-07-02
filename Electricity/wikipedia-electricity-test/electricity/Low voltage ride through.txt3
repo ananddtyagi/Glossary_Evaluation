@@ -1,0 +1,17 @@
+﻿Low voltage ride through
+
+In electrical power engineering, fault ride through (FRT), sometimes under-voltage ride through (UVRT), or low voltage ride through (LVRT), is the capability of electric generators to stay connected in short periods of lower electric network voltage (cf. voltage dip). It is needed at distribution level (wind parks, PV systems, distributed cogeneration, etc.) to prevent a short circuit at HV or EHV level from causing a widespread loss of generation. Similar requirements for critical loads such as computer systems and industrial processes are often handled through the use of an uninterruptible power supply (UPS) or capacitor bank to supply make-up power during these events.
+
+Many generator designs use electric current flowing through windings to produce the magnetic field on which the motor or generator operates. This is in contrast to designs that use permanent magnets to generate this field instead. Such devices may have a minimum working voltage, below which the device does not work correctly, or does so at greatly reduced efficiency. Some will disconnect themselves from the circuit when these conditions apply. The effect is more pronounced in doubly-fed induction generators (DFIG), which have two sets of powered magnetic windings, than in squirrel-cage induction generators which have only one. Synchronous generators may slip and become unstable, if the voltage of the stator winding goes below a certain threshold.
+
+In a grid containing many distributed generators subject to disconnection at under voltage, it is possible to cause a chain reaction that takes other generators offline as well. This can occur in the event of a voltage dip that causes one of the generators to disconnect from the grid. As voltage dips are often caused by too little generation for the load in a distribution grid, removing generation can cause the voltage to drop further. This may bring the voltage down enough to cause another generator to trip, lower the voltage even further, and may cause a cascading failure.
+
+Modern large-scale wind turbines, typically 1 MW and larger, are normally required to include systems that allow them to operate through such an event, and thereby “ride through” the voltage dip. Similar requirements are now becoming common on large solar power installations that likewise might cause instability in the event of a widespread disconnection of generating units. Depending on the application the device may, during and after the dip, be required to:
+
+
+A variety of standards exist and generally vary across jurisdictions. Examples of the such grid codes are the German BDEW grid code and its supplements 2, 3, and 4 as well as the National Grid Code in UK.
+
+For wind turbines, the FRT testing is described in the standard IEC 61400-21 (2nd edition August 2008). More detailed testing procedures are stated in the German guideline FGW TR3 (Rev. 22). Testing of devices with less than 16 Amp rated current is described in the EMC standard IEC 61000-4-11 and for higher current devices in IEC 61000-4-34.
+
+
+

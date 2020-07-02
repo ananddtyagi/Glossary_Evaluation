@@ -1,0 +1,47 @@
+﻿Total position spread
+
+In physics, the total position-spread (TPS) tensor is a quantity originally introduced in the modern theory of electrical conductivity. In the case of molecular systems, this tensor measures the fluctuation of the electrons around their mean positions, which corresponds to the delocalization of the electronic charge within a molecular system. The total position-spread can discriminate between metals and insulators taking information from the ground state wave function. This quantity can be very useful as an indicator to characterize Intervalence charge transfer processes, the bond nature of molecules (covalent, ionic or weakly bonded), and Metal–insulator transition.
+
+The Localization Tensor (LT) is a "per electron" quantity proposed in the context of the theory of Kohn to characterize electrical conductivity properties. In 1964, Kohn realized that electrical conductivity is more related to the proper delocalization of the wave function than a simple band gap. In fact, he proposed that a qualitative difference between insulators and conductors also manifests as a different organization of the electrons in their ground state where one has that: the wave function is strongly localized in insulators and very delocalized in conductors.
+
+The interesting outcome of this theory is: "i)" it relates the classical idea of localized electrons as a cause of insulating state; "ii)" the needed information can be recovered from the ground state wave function because in the insulated regime the wave function breaks down as a sum of disconnected terms.
+
+It is until 1999 that Resta and coworkers found a way to define the Kohn delocalization by proposing the already mentioned Localization Tensor. The LT is defined as a second order moment cumulant of the position operator divided by the number of electrons in the system. The key property of the LT is that: it diverges for metals while it takes finite values for insulators in the Thermodynamic limit.
+
+Recently, the global quantity (the LT not divided by the number of electrons) has been introduced to study molecules and named Total Position-Spread tensor.
+
+The total position spread Λ is defined as the second moment cumulant of the total electron position operator, and its units are in length square (e.g. bohr²). In order to compute this quantity, one has to take into account the position operator and its tensorial square. For a system of "n" electrons, the position operator and its Cartesian components are defined as:
+
+Where the "i" index runs over the number of electrons. Each component of the position operator is a one-electron operator, they can be represented in second quantization as follows:
+
+where "i","j" run over orbitals. The expectation values of the position components are the first moments of the electrons' position.
+
+Now we consider the tensorial square (second moment). In this sense, there are two types of them:
+
+
+
+The second moment of the position becomes then the sum of the one- and two-electron operators already defined:
+
+Given a "n"-electron wave function formula_10, one wants to compute the "second moment cumulant" of it. A cumulant is a linear combination of moments so we have:
+
+The position operator can be partitioned according to spin components.
+
+From the one-particle operator it is possible to define the total spin-partitioned position operator as:
+
+Therefore, the total position operator formula_14 can be expressed by the sum of the two spin parts formula_15 and formula_16:
+
+and the square of the total position operator decomposes as: 
+Thus, there are four joint second moment cumulant of the spin-partitioned position operator: 
+
+The Hubbard model is a very simple and approximate model employed in Condensed matter physics to describe the transition of materials from metals to insulators. It takes into account only two parameters: "i)" the kinetic energy or hopping integral denoted by "-t"; and "ii)" the on-site repulsion between electrons represented by "U" (see the ).
+
+In Figure 1, there are two limit cases to consider: larger values of "-t/U" representing a strong charge fluctuation (electrons free to move) whereas for small values of "-t/U" the electrons are completely localized. The spin-summed total position-spread is very sensitive to these changes, because it increases faster than linearly when electrons start to present mobility (0.0 to 0.5 range of "-t/U").
+
+The total position-spread is a powerful tool to monitor the wave function. In Figure 3 is shown the longitudinal spin-summed total position-spread (Λ) computed at full configuration interaction level for the H diatomic molecule. The Λ in the high repulsive region shows a value that is lower than in the asymptotic limit. This is a consequence of nuclei being near to each other's causing and enhancement of the effective nuclear charge that makes electrons to be more localized. When stretching the bond, the total position-spread starts growing until it reaches a maximum (strong delocalization of the wave function) before the bond is broken. Once the bond is broken, the wave function becomes a sum of disconnected localized regions and the tensor decreases until it reaches twice the value of the atomic limit (1 bohr² for each hydrogen atom).
+
+When the total position-spread tensor is partitioned according to spin (spin-partitioned total position-spread), it becomes a powerful tool to describe spin delocalization in the insulating regime. In Figure 4 is shown the longitudinal spin-partitioned total position-spread (Λ) computed at full configuration interaction level for the H diatomic molecule. The horizontal line at 0 bohr divides the same spin (positive values) and different spin (negative values) contributions of the spin partitioned total position-spread. Unlike the spin-summed total position-spread that saturates to the atomic value for R>5, the spin-partitioned total position-spread diverges as R indicating that there is a strong spin delocalization. The spin-partitioned total position-spread can also be seen as a measure of how strong the electron correlation is.
+
+The total position-spread is a cumulant and thus it possesses the following properties:
+
+
+

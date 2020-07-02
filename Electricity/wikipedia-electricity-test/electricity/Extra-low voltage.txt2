@@ -1,0 +1,47 @@
+﻿Extra-low voltage
+
+Extra-low voltage (ELV) is an electricity supply voltage in a range which carries a low risk of dangerous electrical shock. There are various standards that define extra-low voltage. The International Electrotechnical Commission member organizations and the UK IET (BS 7671:2008) define an ELV device or circuit as one in which the electrical potential between conductor or electrical conductor and earth (ground) does not exceed 50 V a.c. or 120 V d.c. (ripple free). EU's Low Voltage Directive applies from 50 to 1,000 V a.c. and from 75 to 1,500 V d.c.
+
+The IEC and IET go on to define actual types of extra-low voltage systems, for example SELV, PELV, FELV. These can be supplied using sources including motor / fossil fuel generator sets, transformers, switched PSU's or rechargeable battery. SELV, PELV, FELV, are distinguished by various safety properties, supply characteristics and design voltages.
+
+Some types of landscape lighting use SELV / PELV (extra-low voltage) systems. Modern battery operated hand tools fall in the SELV category. In more arduous conditions 25 volts RMS alternating current / 60 volts (ripple-free) direct current can be specified to further reduce hazard. Lower voltage can apply in wet or conductive conditions where there is even greater potential for electric shock. These systems should still fall under the SELV / PELV (ELV) safety specifications.
+
+IEC defines a SELV system as "an electrical system in which the voltage cannot exceed ELV under normal conditions, and under single-fault conditions, "including" earth faults in other circuits". It is generally accepted that the acronym: SELV stands for separated extra-low voltage (separated from earth) as defined in installation standards (e.g. BS 7671), though BS EN 60335 refers to it as safety extra-low voltage.
+
+A SELV circuit must have:
+
+The safety of a SELV circuit is provided by
+
+The design of a SELV circuit typically involves an isolating transformer, guaranteed minimum distances between conductors and electrical insulation barriers. The electrical connectors of SELV circuits should be designed such that they do not mate with connectors commonly used for non-SELV circuits.
+
+Typical examples for a SELV circuit: decorative out-door lighting, Class III battery charger, fed from a Class II power supply. Modern cordless hand tools are considered SELV equipment.
+
+IEC 61140 defines a PELV system as "an electrical system in which the voltage cannot exceed ELV under normal conditions, and under single-fault conditions, "except" earth faults in other circuits".
+
+A PELV circuit only requires protective-separation from all circuits other than SELV and PELV (i.e., all circuits that might carry higher voltages), but it may have connections to other PELV systems and earth (ground).
+
+In contrast to a SELV circuit, a PELV circuit can have a protective earth (ground) connection. A PELV circuit, just as with SELV, requires a design that guarantees a low risk of accidental contact with a higher voltage. For a transformer, this can mean that the primary and secondary windings must be separated by an extra insulation barrier, or by a conductive shield with a protective earth connection.
+
+A typical example for a PELV circuit is a computer with a Class I power supply.
+
+The term functional extra-low voltage (FELV) describes any other extra-low-voltage circuit that does not fulfill the requirements for an SELV or PELV circuit. Although the FELV part of a circuit uses an extra-low voltage, it is not adequately protected from accidental contact with higher voltages in other parts of the circuit. Therefore the protection requirements for the higher voltage have to be applied to the entire circuit.
+
+Examples for FELV circuits include those that generate an extra low voltage through a semiconductor device or a potentiometer or a transformer. A typical example is an electronically controlled toaster where the timer circuit runs off extra low voltage derived from a tap on the heating element. Another is the old door-bell circuit fed from a transformer.
+
+The IET / BSI (BS 7671) also define Reduced low voltage (RLV) which can be either single phase or three phase A.C. This system has been used for many years on construction sites. Both single and three phase. The single phase voltage is 110 V a.c. though having a "centre tapped Earth" reducing the voltage to Earth to 55 V a.c. The three phase is 110 V phase to phase, 63 V to Neutral / Earth. This system is slightly outside ELV but still very commonly used for cord powered hand tools and temporary lighting in hazardous areas.
+
+Cabling for extra-low voltage systems, such as in remote-area power systems (RAPS), is designed to minimise energy losses while maximising safety. Lower voltages require a higher current for the same power. The higher current results in greater resistive losses in the cabling. Cable sizing must therefore consider maximum demand, voltage drop over the cable, and current-carrying capacity. Voltage drop is usually the main factor considered, but current-carrying capacity is as important when considering short, high-current runs such as between a battery bank and inverter.
+
+Arcing is a risk in DC ELV systems, and some fuse types which can cause undesired arcing include semi-enclosed, rewireable and automotive fuse types. Instead high rupturing capacity fuses and appropriately rated circuit breakers are the recommended type for RAPS. Cable termination and connections must be done properly to avoid arcing also, and soldering is not recommended.
+
+Precise definitions of "extra low voltage" are given in applicable wiring regulations in a region.
+
+In the European Union, the "Low Voltage Directive" defines low voltage starting from 50 V AC, and 75 V DC. The directive only covers electrical equipment and not voltages appearing inside equipment or voltages in electrical components. IEC 60364 defines it as 50 V AC and 120 V DC.
+
+AS/NZS 3000 "Wiring Rules" define "extra low voltage" as "Not exceeding 50 V a.c or 120 V ripple-free d.c." However, AS/ACIF S009 Clause 3.1.78.1 Extra-Low Voltage (ELV)states: "a voltage not exceeding 42.4 V peak or 60 V d.c.[AS/NZS 60950.1:2003]" and adds a note: "This definition differs from the ELV definition contained in AS/NZS 3000:2000" which is more closely aligned to the Telecommunications Network Voltage (TNV) limits ... i.e. 120 V d.c. or 70.7 V a.c. peak (50 V a.c. r.m.s.)" which accommodates telephone ringing voltage on the nominally −48 Vdc battery supply which could be encountered on a telephone line and was not considered hazardous, whereas 120 Vac without current limiting at its source can inject 115mA into individuals leading to fibrillation of the heart.
+
+In Brazil, ELV ("Extra-baixa tensão" or "EBT" in Portuguese) is officially defined in Regulatory Standard no. 10 from the Brazilian Ministry of Labor and Employment as any voltage "not exceeding 50 volts a.c. or 120 volts d.c.". Although that standard defines safety rules for electricity, the Regulatory Standard no. 12 requires an even lower voltage for start and stop devices on machines and equipment made from March 2012 and on, stating it shall not exceed 25 volts a.c. or 60 volts d.c.
+
+
+
+

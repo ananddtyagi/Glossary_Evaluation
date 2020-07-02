@@ -1,0 +1,80 @@
+﻿Per-unit system
+
+In the power systems analysis field of electrical engineering, a per-unit system is the expression of system quantities as fractions of a defined base unit quantity. Calculations are simplified because quantities expressed as per-unit do not change when they are referred from one side of a transformer to the other. This can be a pronounced advantage in power system analysis where large numbers of transformers may be encountered. Moreover, similar types of apparatus will have the impedances lying within a narrow numerical range when expressed as a per-unit fraction of the equipment rating, even if the unit size varies widely. Conversion of per-unit quantities to volts, ohms, or amperes requires a knowledge of the base that the per-unit quantities were referenced to. The per-unit system is used in power flow, short circuit evaluation, motor starting studies etc.
+
+The main idea of a per unit system is to absorb large differences in absolute values into base relationships. Thus, representations of elements in the system with per unit values become more uniform.
+
+A per-unit system provides units for power, voltage, current, impedance, and admittance. With the exception of impedance and admittance, any two units are independent and can be selected as base values; power and voltage are typically chosen. All quantities are specified as multiples of selected base values. For example, the base power might be the rated power of a transformer, or perhaps an arbitrarily selected power which makes power quantities in the system more convenient. The base voltage might be the nominal voltage of a bus. Different types of quantities are labeled with the same symbol (pu); it should be clear whether the quantity is a voltage, current, or other unit of measurement.
+
+There are several reasons for using a per-unit system:
+The per-unit system was developed to make manual analysis of power systems easier. Although power-system analysis is now done by computer, results are often expressed as per-unit values on a convenient system-wide base.
+
+Generally base values of power and voltage are chosen. The base power may be the rating of a single piece of apparatus such as a motor or generator. If a system is being studied, the base power is usually chosen as a convenient round number such as 10 MVA or 100 MVA. The base voltage is chosen as the nominal rated voltage of the system. All other base quantities are derived from these two base quantities. Once the base power and the base voltage are chosen, the base current and the base impedance are determined by the natural laws of electrical circuits. The base value should only be a magnitude, while the per-unit value is a phasor. The phase angles of complex power, voltage, current, impedance, etc., are not affected by the conversion to per unit values.
+
+The purpose of using a per-unit system is to simplify conversion between different transformers. Hence, it is appropriate to illustrate the steps for finding per-unit values for voltage and impedance. First, let the base power ("S") of each end of a transformer become the same. Once every "S" is set on the same base, the base voltage and base impedance for every transformer can easily be obtained. Then, the real numbers of impedances and voltages can be substituted into the per-unit calculation definition to get the answers for the per-unit system. If the per-unit values are known, the real values can be obtained by multiplying by the base values.
+
+By convention, the following two rules are adopted for base quantities:
+
+
+With these two rules, a per-unit impedance remains unchanged when referred from one side of a transformer to the other. This allows the ideal transformer to be eliminated from a transformer model.
+
+The relationship between units in a per-unit system depends on whether the system is single-phase or three-phase.
+
+Assuming that the independent base values are power and voltage, we have:
+
+Alternatively, the base value for power may be given in terms of reactive or apparent power, in which case we have, respectively,
+
+or
+
+The rest of the units can be derived from power and voltage using the equations formula_6, formula_7, formula_8 and formula_9 (Ohm's law), formula_10 being represented by formula_11. We have:
+
+Power and voltage are specified in the same way as single-phase systems. However, due to differences in what these terms usually represent in three-phase systems, the relationships for the derived units are different. Specifically, power is given as total (not per-phase) power, and voltage is line-to-line voltage.
+In three-phase systems the equations formula_7 and formula_8 also hold. The apparent power formula_17 now equals formula_18
+
+As an example of how per-unit is used, consider a three-phase power transmission system that deals with powers of the order of 500 MW and uses a nominal voltage of 138 kV for transmission. We arbitrarily select formula_22, and use the nominal voltage 138 kV as the base voltage formula_23. We then have:
+
+If, for example, the actual voltage at one of the buses is measured to be 136 kV, we have:
+
+The following tabulation of per-unit system formulas is adapted from Beeman's "Industrial Power Systems Handbook".
+It can be shown that voltages, currents, and impedances in a per-unit system will have the same values whether they are referred to primary or secondary of a transformer.
+
+For instance, for voltage, we can prove that the per unit voltages of two sides of the transformer, side 1 and side 2, are the same. Here, the per-unit voltages of the two sides are "E" and "E" respectively.
+
+"E" and "E" are the voltages of sides 1 and 2 in volts. "N" is the number of turns the coil on side 1 has. "N" is the number of turns the coil on side 2 has. "V" and "V" are the base voltages on sides 1 and 2.
+
+For current, we can prove that the per-unit currents of the two sides are the same below.
+
+where "I" and "I" are the per-unit currents of sides 1 and 2 respectively. In this, the base currents "I" and "I" are related in the opposite way that "V" and V are related, in that
+
+The reason for this relation is for power conservation
+
+The full load copper loss of a transformer in per-unit form is equal to the per-unit value of its resistance:
+
+formula_32
+
+formula_33
+
+Therefore, it may be more useful to express the resistance in per-unit form as it also represents the full-load copper loss.
+
+As stated above, there are two degrees of freedom within the per unit system that allow the engineer to specify any per unit system. The degrees of freedom are the choice of the base voltage ("V") and the base power ("S"). By convention, a single base power ("S") is chosen for both sides of the transformer and its value is equal to the rated power of the transformer. By convention, there are actually two different base voltages that are chosen, "V" and "V" which are equal to the rated voltages for either side of the transformer. By choosing the base quantities in this manner, the transformer can be effectively removed from the circuit as described above. For example:
+
+Take a transformer that is rated at 10 kVA and 240/100 V. The secondary side has an impedance equal to 1∠0° Ω. The base impedance on the secondary side is equal to:
+
+formula_34
+
+This means that the per unit impedance on the secondary side is 1∠0° Ω / 1 Ω = 1∠0° pu When this impedance is referred to the other side, the impedance becomes:
+
+formula_35
+
+The base impedance for the primary side is calculated the same way as the secondary:
+
+formula_36
+
+This means that the per unit impedance is 5.76∠0° Ω / 5.76 Ω = 1∠0° pu, which is the same as when calculated from the other side of the transformer, as would be expected.
+
+Another useful tool for analyzing transformers is to have the base change formula that allows the engineer to go from a base impedance with one set of a base voltage and base power to another base impedance for a different set of a base voltage and base power. This becomes especially useful in real life applications where a transformer with a secondary side voltage of 1.2 kV might be connected to the primary side of another transformer whose rated voltage is 1 kV. The formula is as shown below.
+
+formula_37
+
+
+
