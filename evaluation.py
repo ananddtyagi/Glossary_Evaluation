@@ -1,6 +1,6 @@
 import json
 from rouge import Rouge
-from tqdm import tqdm
+# from tqdm import tqdm
 import sys
 
 rouge = Rouge()
@@ -25,9 +25,9 @@ def aggregate_scores(list_articles):
     len_article = len(list_articles)
     skipped = 0
     total_used = 0
-    t = tqdm(list_articles, desc = 'Eval:')
+    # t = tqdm(list_articles, desc = 'Eval:')
 
-    for i, obj in enumerate(t):
+    for i, obj in enumerate(list_articles):
 
         reference_sum = obj["reference"]
         system_sum = obj["system"]
@@ -45,8 +45,6 @@ def aggregate_scores(list_articles):
             skipped += 1
             #Do nothing
 
-
-
     print("Final Scores")
 
     rouge_l["r"] = rouge_l["r"]/total_used
@@ -60,16 +58,18 @@ def aggregate_scores(list_articles):
 def main():
 
     list_articles = read_input()
+
     max_ref = 0
     max_sys = 0
 
     nonevalues = 0
 
-    for _, i in enumerate(tqdm(list_articles)):
+    for _, i in enumerate(list_articles):
         if len(i['reference']) > max_ref:
             max_ref = len(i['reference'])
         if len(i['system']) > max_sys:
             max_sys = len(i['system'])
+
     sys.setrecursionlimit(max_ref * max_sys + 10)
 
     aggregate_scores(list_articles)
