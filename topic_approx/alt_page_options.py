@@ -1,8 +1,16 @@
 from didyoumean import didyoumean
+import pickle
 
-spell = "Poshgresql"
-pages = ['hello', 'posgres', 'postgres', 'postgressql']
+spell = input('enter the subclass\n')
+pages = []
+
+with open('../wiki-cats.list.pickle', 'rb') as handle:
+    pages = pickle.load(handle)
+
+
 correctSpell = didyoumean.didYouMean(spell, pages)
+print(correctSpell)
+
 
 while (input('would you like to search for a page?\n') == 'y'):
 
@@ -23,5 +31,3 @@ while (input('would you like to search for a page?\n') == 'y'):
                 break;
             else:
                 resp = input('Did you mean ', match, '?\n')
-
-
