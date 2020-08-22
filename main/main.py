@@ -126,7 +126,7 @@ def run_summary(superclasses, subclass):
 
     return
 
-if argv[1] == 'test':
+if sys.argv[1] == 'test':
     subclass = 'COVID-19'
     superclasses = ['Viral_respiratory_tract_infections', 'Zoonotic_bacterial_diseases']
 else:
